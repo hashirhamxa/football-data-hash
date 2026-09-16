@@ -1,6 +1,6 @@
 ﻿# ⚽ Football Events Data & Image Pipeline
 
-[![Update Football Events](https://github.com/Bicodes/Football-Events/actions/workflows/update-events.yml/badge.svg)](https://github.com/Bicodes/Football-Events/actions/workflows/update-events.yml)
+[![Update Football Events](https://github.com/hashirhamxa/football-data-hash/actions/workflows/update-events.yml/badge.svg)](https://github.com/hashirhamxa/football-data-hash/actions/workflows/update-events.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://www.python.org/)
 
@@ -16,10 +16,10 @@ Your Android or client application can consume the published JSON and images dir
 
 | Artifact | Raw GitHub Endpoint | Description |
 | :--- | :--- | :--- |
-| **Upcoming Events JSON** | `https://raw.githubusercontent.com/Bicodes/Football-Events/main/output/upcoming_events.json` | Main payload of upcoming matches |
-| **Competition Status** | `https://raw.githubusercontent.com/Bicodes/Football-Events/main/output/competition_status.json` | Availability and season metadata |
-| **Unmatched Teams** | `https://raw.githubusercontent.com/Bicodes/Football-Events/main/output/unmatched_teams.json` | Teams using fallback initials badges |
-| **Match Banner Images** | `https://raw.githubusercontent.com/Bicodes/Football-Events/main/output/images/{event_id}.png` | Broadcast 1200x630 match graphics |
+| **Upcoming Events JSON** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/upcoming_events.json` | Main payload of upcoming matches |
+| **Competition Status** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competition_status.json` | Availability and season metadata |
+| **Unmatched Teams** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/unmatched_teams.json` | Teams using fallback initials badges |
+| **Match Banner Images** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/{event_id}.png` | Broadcast 1200x630 match graphics |
 
 ---
 
@@ -95,7 +95,7 @@ data class LogoResolution(
 import retrofit2.http.GET
 
 interface FootballEventsApi {
-    @GET("Bicodes/Football-Events/main/output/upcoming_events.json")
+    @GET("hashirhamxa/football-data-hash/main/output/upcoming_events.json")
     suspend fun getUpcomingEvents(): UpcomingEventsResponse
 }
 ```

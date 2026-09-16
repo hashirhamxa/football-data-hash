@@ -42,8 +42,8 @@ def run_pipeline():
     
     date_range_days = settings.get("date_range_days", 30)
     target_tz = settings.get("target_timezone", "Asia/Karachi")
-    repo_slug = settings.get("github_repo", "Bicodes/Football-Events")
-    branch = settings.get("github_branch", "main")
+    repo_slug = os.environ.get("GITHUB_REPOSITORY", settings.get("github_repo", "hashirhamxa/football-data-hash"))
+    branch = os.environ.get("GITHUB_REF_NAME", settings.get("github_branch", "main"))
     raw_base_url = f"https://raw.githubusercontent.com/{repo_slug}/{branch}"
     
     # 1. Fetch fixtures
@@ -107,7 +107,6 @@ def run_pipeline():
         logo_stats[away_res["source"].split("_")[0]] = logo_stats.get(away_res["source"].split("_")[0], 0) + 1
         logo_stats["total"] += 1
 
-        # Add top-level round string for simplified Android consumption
         ev["round"] = ev["competition"].get("round", "Regular Fixture")
         ev["last_updated"] = now_utc.isoformat()
 

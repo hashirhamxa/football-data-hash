@@ -7,23 +7,23 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-09-16T19:53:06.220737+00:00",
+  "generated_at": "2026-09-16T21:05:35.105602+00:00",
   "feed_type": "tomorrow",
   "target_date_pkt": "2026-09-18",
   "target_day_name": "Friday",
   "total_events": 1,
   "events": [
     {
-      "event_id": "bundesliga-2026-09-18-bayern-munich-1-fc-union-berlin",
+      "event_id": "bundesliga-2026-09-18-fc-bayern-munchen-1-fc-union-berlin",
       "competition": {
         "id": "bundesliga",
         "name": "German Bundesliga",
         "country": "Germany",
-        "round": "Regular Fixture",
+        "round": "Matchday 4",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
       },
-      "round": "Regular Fixture",
+      "round": "Matchday 4",
       "source_date": "2026-09-18",
       "match_date": "2026-09-18",
       "match_date_utc": "2026-09-18",
@@ -36,12 +36,12 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Bayern Munich",
-        "slug": "bayern-munich",
-        "espn_id": "132",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+        "name": "FC Bayern München",
+        "slug": "fc-bayern-munchen",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Bayern Munich",
           "is_fallback": false
@@ -50,22 +50,22 @@
       "away_team": {
         "name": "1. FC Union Berlin",
         "slug": "1-fc-union-berlin",
-        "espn_id": "598",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FC%20Union%20Berlin.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "1. FC Union Berlin",
+          "matched_name": "1.FC Union Berlin",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json"
       },
-      "last_updated": "2026-09-16T19:50:55.868805+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-09-18-bayern-munich-1-fc-union-berlin.png"
+      "last_updated": "2026-09-16T21:05:09.929678+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-09-18-fc-bayern-munchen-1-fc-union-berlin.png"
     }
   ]
 }

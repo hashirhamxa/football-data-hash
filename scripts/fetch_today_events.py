@@ -1,4 +1,4 @@
-﻿"""
+"""
 fetch_today_events.py
 Filters and publishes upcoming football events specifically for TODAY in Pakistan Standard Time (PKT, Asia/Karachi, UTC+05:00).
 Handles timezone boundary offsets where matches played late night in Europe fall into early morning PKT.
@@ -42,22 +42,20 @@ def filter_today_events(
     for ev in events:
         start_pkt_str = ev.get("start_time_pkt")
         time_status = ev.get("time_status", "tbd")
+        match_date_pkt = ev.get("match_date_pkt") or ev.get("match_date")
 
         if time_status == "confirmed" and start_pkt_str:
             try:
                 dt_pkt = datetime.fromisoformat(start_pkt_str)
-                # Check if the match takes place on today's calendar date in PKT
                 if dt_pkt.date() == today_date:
                     if include_past_today or dt_pkt >= now_pkt:
                         today_events.append(ev)
             except Exception:
                 continue
         else:
-            # For TBD matches, check if match_date matches today
-            if ev.get("match_date") == today_date_str:
+            if match_date_pkt == today_date_str:
                 today_events.append(ev)
 
-    # Sort chronologically by PKT kickoff time
     today_events.sort(
         key=lambda x: (
             x.get("start_timestamp") if x.get("start_timestamp") is not None else 9999999999,
@@ -89,7 +87,7 @@ def generate_today_events_file(
     today_events = filter_today_events(all_events, now_pkt=now_pkt)
 
     payload = {
-        "version": source_data.get("version", "1.0.0"),
+        "version": source_data.get("version", "1.1.0"),
         "timezone": "Asia/Karachi",
         "timezone_label": "PKT (UTC+05:00)",
         "target_date_pkt": now_pkt.strftime("%Y-%m-%d"),
@@ -112,5 +110,5 @@ if __name__ == "__main__":
     print(f"\n--- TODAY'S UPCOMING MATCHES (PKT: {result.get('target_date_pkt')}) ---")
     print(f"Total Matches: {result.get('total_events', 0)}")
     for e in result.get("events", []):
-        time_str = e.get("start_time_pkt", "TBD")[11:16] if e.get("start_time_pkt") else "TBD"
+        time_str = e.get("display_time") or (e.get("start_time_pkt", "TBD")[11:16] if e.get("start_time_pkt") else "TBD")
         print(f" - [{time_str} PKT] {e['competition']['name']}: {e['home_team']['name']} vs {e['away_team']['name']}")

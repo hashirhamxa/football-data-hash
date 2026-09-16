@@ -1,4 +1,4 @@
-﻿"""
+"""
 generate_competition_feeds.py
 Generates competition-specific feeds organized by tournament directory:
 output/competitions/{competition_id}/
@@ -79,6 +79,8 @@ def generate_all_competition_feeds(
         for ev in comp_events:
             start_pkt_str = ev.get("start_time_pkt")
             time_status = ev.get("time_status", "tbd")
+            match_date_pkt = ev.get("match_date_pkt") or ev.get("match_date")
+
             if time_status == "confirmed" and start_pkt_str:
                 try:
                     dt_pkt = datetime.fromisoformat(start_pkt_str)
@@ -87,7 +89,7 @@ def generate_all_competition_feeds(
                 except Exception:
                     continue
             else:
-                if ev.get("match_date") == today_date_str:
+                if match_date_pkt == today_date_str:
                     today_matches.append(ev)
 
         today_matches.sort(
@@ -102,6 +104,8 @@ def generate_all_competition_feeds(
         for ev in comp_events:
             start_pkt_str = ev.get("start_time_pkt")
             time_status = ev.get("time_status", "tbd")
+            match_date_pkt = ev.get("match_date_pkt") or ev.get("match_date")
+
             if time_status == "confirmed" and start_pkt_str:
                 try:
                     dt_pkt = datetime.fromisoformat(start_pkt_str)
@@ -110,7 +114,7 @@ def generate_all_competition_feeds(
                 except Exception:
                     continue
             else:
-                if ev.get("match_date") == tomorrow_date_str:
+                if match_date_pkt == tomorrow_date_str:
                     tomorrow_matches.append(ev)
 
         tomorrow_matches.sort(
@@ -122,7 +126,7 @@ def generate_all_competition_feeds(
 
         # Base header metadata
         base_meta = {
-            "version": source_data.get("version", "1.0.0"),
+            "version": source_data.get("version", "1.1.0"),
             "competition": {
                 "id": comp_id,
                 "name": comp_name,

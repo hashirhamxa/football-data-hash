@@ -1,4 +1,4 @@
-﻿"""
+"""
 resolve_logos.py
 Resolves team logos deterministically using:
 1. Explicit mappings (mappings/team_aliases.json)
@@ -191,6 +191,22 @@ class LogoResolver:
                             return
                 except Exception as e:
                     logger.warning(f"Failed to read index from {path}: {e}")
+
+    def resolve_team(self, team_dict: Dict[str, Any], league_dir_hint: Optional[str] = None) -> Dict[str, Any]:
+        """
+        Resolves logo URL for a team dictionary. If a valid ESPN or direct URL already exists,
+        it uses it with full confidence. Otherwise falls back to alias, index, and fuzzy matching.
+        """
+        existing_url = team_dict.get("logo_url")
+        if existing_url and existing_url.startswith("http"):
+            return {
+                "url": existing_url,
+                "source": "espn_direct",
+                "confidence": 1.0,
+                "matched_name": team_dict.get("name"),
+                "is_fallback": False
+            }
+        return self.resolve(team_dict.get("name", "Unknown"), league_dir_hint)
 
     def resolve(self, team_name: str, league_dir_hint: Optional[str] = None) -> Dict[str, Any]:
         """Resolves logo URL for a team name."""

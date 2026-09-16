@@ -1,11 +1,11 @@
-﻿"""
+"""
 main.py
 End-to-End Orchestrator for the Football Events Pipeline.
 Executes:
-1. Fetching fixtures from OpenFootball
-2. Normalizing fixtures and timezone conversions (UTC & PKT)
-3. Resolving team logos with fallback handling
-4. Generating matchday broadcast card graphics
+1. Fetching fixtures via Multi-Source Architecture (ESPN Primary + OpenFootball Fallback)
+2. Normalizing fixtures and precision timezone conversions (UTC & PKT Asia/Karachi)
+3. Resolving team logos with ESPN direct URL preservation and fallback handling
+4. Generating 1200x630 matchday broadcast banner cards
 5. Generating Global Today & Tomorrow PKT event feeds
 6. Generating Tournament-specific category folders (Today, Tomorrow, Upcoming per league)
 7. Validating output schemas with Pydantic
@@ -42,7 +42,7 @@ def load_json(filepath: str):
 
 def run_pipeline():
     start_time = time.time()
-    logger.info("Starting Football Events Pipeline execution...")
+    logger.info("Starting Football Events Pipeline execution (Multi-Source ESPN + Fallbacks)...")
 
     # Load configuration
     settings = load_json("config/settings.json")
@@ -54,17 +54,17 @@ def run_pipeline():
     branch = os.environ.get("GITHUB_REF_NAME", settings.get("github_branch", "main"))
     raw_base_url = f"https://raw.githubusercontent.com/{repo_slug}/{branch}"
     
-    # 1. Fetch fixtures
-    logger.info("--- Step 1: Fetching Fixtures ---")
-    fetched = fetch_all_fixtures()
+    # 1. Fetch fixtures via multi-source adapter
+    logger.info("--- Step 1: Fetching Fixtures (ESPN Primary + Fallbacks) ---")
+    now_utc = datetime.now(timezone.utc)
+    now_pkt = datetime.now(PKT_TZ)
+
+    fetched = fetch_all_fixtures(start_date=now_utc, days_ahead=date_range_days)
     raw_fixtures = fetched["raw_fixtures"]
     statuses = fetched["statuses"]
 
     # 2. Normalize fixtures
-    logger.info("--- Step 2: Normalizing Fixtures ---")
-    now_utc = datetime.now(timezone.utc)
-    now_pkt = datetime.now(PKT_TZ)
-    
+    logger.info("--- Step 2: Normalizing Fixtures & PKT Timezones ---")
     events = normalize_all_fixtures(
         raw_fixtures_data=raw_fixtures,
         ref_now=now_utc,
@@ -74,7 +74,7 @@ def run_pipeline():
     logger.info(f"Discovered {len(events)} upcoming matches within {date_range_days} days.")
 
     # Limit events if configured
-    max_events = settings.get("max_events", 150)
+    max_events = settings.get("max_events", 250)
     if len(events) > max_events:
         logger.info(f"Trimming events list to top {max_events} matches.")
         events = events[:max_events]
@@ -83,7 +83,7 @@ def run_pipeline():
     logger.info("--- Step 3: Resolving Team Logos ---")
     resolver = LogoResolver()
     
-    logo_stats = {"exact": 0, "alias": 0, "fuzzy": 0, "fallback": 0, "total": 0}
+    logo_stats = {"espn_direct": 0, "exact": 0, "alias": 0, "fuzzy": 0, "fallback": 0, "total": 0}
 
     for ev in events:
         league_hint = None
@@ -94,7 +94,7 @@ def run_pipeline():
                 break
 
         # Home team logo
-        home_res = resolver.resolve(ev["home_team"]["name"], league_hint)
+        home_res = resolver.resolve_team(ev["home_team"], league_hint)
         ev["home_team"]["logo_url"] = home_res["url"]
         ev["home_team"]["logo_resolution"] = {
             "source": home_res["source"],
@@ -102,11 +102,12 @@ def run_pipeline():
             "matched_name": home_res.get("matched_name"),
             "is_fallback": home_res["is_fallback"]
         }
-        logo_stats[home_res["source"].split("_")[0]] = logo_stats.get(home_res["source"].split("_")[0], 0) + 1
+        source_key = home_res["source"].split("_")[0] if "_" in home_res["source"] else home_res["source"]
+        logo_stats[source_key] = logo_stats.get(source_key, 0) + 1
         logo_stats["total"] += 1
 
         # Away team logo
-        away_res = resolver.resolve(ev["away_team"]["name"], league_hint)
+        away_res = resolver.resolve_team(ev["away_team"], league_hint)
         ev["away_team"]["logo_url"] = away_res["url"]
         ev["away_team"]["logo_resolution"] = {
             "source": away_res["source"],
@@ -114,7 +115,8 @@ def run_pipeline():
             "matched_name": away_res.get("matched_name"),
             "is_fallback": away_res["is_fallback"]
         }
-        logo_stats[away_res["source"].split("_")[0]] = logo_stats.get(away_res["source"].split("_")[0], 0) + 1
+        source_key = away_res["source"].split("_")[0] if "_" in away_res["source"] else away_res["source"]
+        logo_stats[source_key] = logo_stats.get(source_key, 0) + 1
         logo_stats["total"] += 1
 
         ev["round"] = ev["competition"].get("round", "Regular Fixture")
@@ -130,7 +132,7 @@ def run_pipeline():
 
     # 5. Build output payload
     output_payload = {
-        "version": settings.get("version", "1.0.0"),
+        "version": settings.get("version", "1.1.0"),
         "generated_at": now_utc.isoformat(),
         "total_events": len(events),
         "date_range": {

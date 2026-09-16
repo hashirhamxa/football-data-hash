@@ -1,8 +1,13 @@
-﻿"""
+"""
 validate_output.py
 Validates the generated output JSON against strict schemas using Pydantic.
-Verifies data integrity, timezone formats, chronological ordering, deterministic IDs,
-and image presence.
+Verifies:
+- Data integrity and required fields
+- Timezone representations (UTC ISO Z and PKT +05:00)
+- Midnight boundary consistency
+- Chronological ordering
+- Unique deterministic event IDs
+- Image presence in output/images/
 """
 
 import json
@@ -27,6 +32,7 @@ class LogoResolutionModel(BaseModel):
 class TeamInfoModel(BaseModel):
     name: str
     slug: str
+    espn_id: Optional[str] = None
     logo_url: str
     logo_resolution: LogoResolutionModel
 
@@ -41,7 +47,7 @@ class CompetitionInfoModel(BaseModel):
 
 class DataSourceModel(BaseModel):
     provider: str
-    season: str
+    season: Optional[str] = None
     file: Optional[str] = None
     source_url: Optional[str] = None
 
@@ -54,6 +60,12 @@ class EventItemModel(BaseModel):
     away_team: TeamInfoModel
     event_image_url: str
     match_date: str
+    source_date: Optional[str] = None
+    match_date_utc: Optional[str] = None
+    match_date_pkt: Optional[str] = None
+    display_date: Optional[str] = None
+    display_time: Optional[str] = None
+    display_timezone: Optional[str] = "Asia/Karachi"
     start_time_utc: Optional[str] = None
     start_time_pkt: Optional[str] = None
     start_timestamp: Optional[int] = None
@@ -115,8 +127,8 @@ class UpcomingEventsRootModel(BaseModel):
         for i in range(len(self.events) - 1):
             curr = self.events[i]
             nxt = self.events[i + 1]
-            curr_key = (curr.match_date, curr.start_timestamp if curr.start_timestamp is not None else 9999999999)
-            nxt_key = (nxt.match_date, nxt.start_timestamp if nxt.start_timestamp is not None else 9999999999)
+            curr_key = (curr.start_timestamp if curr.start_timestamp is not None else 9999999999, curr.match_date)
+            nxt_key = (nxt.start_timestamp if nxt.start_timestamp is not None else 9999999999, nxt.match_date)
             if curr_key > nxt_key:
                 raise ValueError(f"Events not sorted chronologically: '{curr.event_id}' comes before '{nxt.event_id}'")
 

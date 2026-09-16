@@ -7,10 +7,119 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-09-16T18:02:40.866661+00:00",
+  "generated_at": "2026-09-16T19:53:06.345695+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-09-16",
-  "target_day_name": "Wednesday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-09-17",
+  "target_day_name": "Thursday",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "europa-league-2026-09-17-levski-sofia-rb-salzburg",
+      "competition": {
+        "id": "europa-league",
+        "name": "UEFA Europa League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-17",
+      "match_date": "2026-09-17",
+      "match_date_utc": "2026-09-17",
+      "match_date_pkt": "2026-09-17",
+      "start_time_utc": "2026-09-17T16:45:00Z",
+      "start_time_pkt": "2026-09-17T21:45:00+05:00",
+      "start_timestamp": 1789663500,
+      "display_date": "2026-09-17",
+      "display_time": "09:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Levski Sofia",
+        "slug": "levski-sofia",
+        "espn_id": "490",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Levski Sofia",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "RB Salzburg",
+        "slug": "rb-salzburg",
+        "espn_id": "2790",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "RB Salzburg",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
+      },
+      "last_updated": "2026-09-16T19:50:55.868805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-09-17-levski-sofia-rb-salzburg.png"
+    },
+    {
+      "event_id": "europa-league-2026-09-17-ofi-crete-tsg-hoffenheim",
+      "competition": {
+        "id": "europa-league",
+        "name": "UEFA Europa League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-17",
+      "match_date": "2026-09-17",
+      "match_date_utc": "2026-09-17",
+      "match_date_pkt": "2026-09-17",
+      "start_time_utc": "2026-09-17T16:45:00Z",
+      "start_time_pkt": "2026-09-17T21:45:00+05:00",
+      "start_timestamp": 1789663500,
+      "display_date": "2026-09-17",
+      "display_time": "09:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "OFI Crete",
+        "slug": "ofi-crete",
+        "espn_id": "1010",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "OFI Crete",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "TSG Hoffenheim",
+        "slug": "tsg-hoffenheim",
+        "espn_id": "7911",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "TSG Hoffenheim",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
+      },
+      "last_updated": "2026-09-16T19:50:55.868805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-09-17-ofi-crete-tsg-hoffenheim.png"
+    }
+  ]
 }

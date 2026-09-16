@@ -3,83 +3,90 @@
     {
       "id": "premier-league",
       "name": "English Premier League",
-      "provider": "ESPN",
-      "espn_slug": "eng.1",
+      "provider": "OpenFootball",
+      "season": "2026-27",
+      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.1.json",
       "status": "available",
-      "matches_count": 20,
-      "last_fetched": "2026-09-16T14:44:00.228634+00:00"
+      "matches_count": 350,
+      "last_fetched": "2026-09-16T14:55:31.342005+00:00"
     },
     {
       "id": "championship",
       "name": "English Championship",
-      "provider": "ESPN",
-      "espn_slug": "eng.2",
+      "provider": "OpenFootball",
+      "season": "2026-27",
+      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.2.json",
       "status": "available",
-      "matches_count": 37,
-      "last_fetched": "2026-09-16T14:44:04.394381+00:00"
+      "matches_count": 492,
+      "last_fetched": "2026-09-16T14:55:31.519231+00:00"
     },
     {
       "id": "la-liga",
       "name": "Spanish La Liga",
-      "provider": "ESPN",
-      "espn_slug": "esp.1",
+      "provider": "OpenFootball",
+      "season": "2026-27",
+      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json",
       "status": "available",
-      "matches_count": 27,
-      "last_fetched": "2026-09-16T14:44:06.869251+00:00"
+      "matches_count": 339,
+      "last_fetched": "2026-09-16T14:55:31.777601+00:00"
     },
     {
       "id": "serie-a",
       "name": "Italian Serie A",
-      "provider": "ESPN",
-      "espn_slug": "ita.1",
+      "provider": "OpenFootball",
+      "season": "2026-27",
+      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json",
       "status": "available",
-      "matches_count": 21,
-      "last_fetched": "2026-09-16T14:44:09.678141+00:00"
+      "matches_count": 350,
+      "last_fetched": "2026-09-16T14:55:31.960572+00:00"
     },
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "provider": "ESPN",
-      "espn_slug": "ger.1",
+      "provider": "OpenFootball",
+      "season": "2026-27",
+      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json",
       "status": "available",
-      "matches_count": 19,
-      "last_fetched": "2026-09-16T14:44:12.582342+00:00"
+      "matches_count": 288,
+      "last_fetched": "2026-09-16T14:55:32.158152+00:00"
     },
     {
       "id": "ligue-1",
       "name": "French Ligue 1",
-      "provider": "ESPN",
-      "espn_slug": "fra.1",
+      "provider": "OpenFootball",
+      "season": "2026-27",
+      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json",
       "status": "available",
-      "matches_count": 19,
-      "last_fetched": "2026-09-16T14:44:19.680377+00:00"
+      "matches_count": 279,
+      "last_fetched": "2026-09-16T14:55:32.331618+00:00"
     },
     {
       "id": "champions-league",
       "name": "UEFA Champions League",
-      "provider": "ESPN",
-      "espn_slug": "uefa.champions",
+      "provider": "OpenFootball",
+      "season": "2024-25",
+      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2024-25/uefa.cl.json",
       "status": "available",
-      "matches_count": 18,
-      "last_fetched": "2026-09-16T14:44:22.361565+00:00"
+      "matches_count": 1,
+      "last_fetched": "2026-09-16T14:55:32.730986+00:00"
     },
     {
       "id": "europa-league",
       "name": "UEFA Europa League",
-      "provider": "ESPN",
-      "espn_slug": "uefa.europa",
-      "status": "available",
-      "matches_count": 36,
-      "last_fetched": "2026-09-16T14:44:25.279691+00:00"
+      "status": "no_fixtures_found",
+      "espn_status": "no_fixtures_in_window",
+      "openfootball_status": "unavailable",
+      "matches_count": 0,
+      "last_fetched": "2026-09-16T14:55:33.182063+00:00"
     },
     {
       "id": "conference-league",
       "name": "UEFA Conference League",
-      "provider": "ESPN",
-      "espn_slug": "uefa.europa.conf",
-      "status": "available",
-      "matches_count": 18,
-      "last_fetched": "2026-09-16T14:44:27.724352+00:00"
+      "status": "no_fixtures_found",
+      "espn_status": "no_fixtures_in_window",
+      "openfootball_status": "no_source_file",
+      "matches_count": 0,
+      "last_fetched": "2026-09-16T14:55:33.286035+00:00"
     },
     {
       "id": "world-cup",
@@ -88,8 +95,8 @@
       "espn_status": "no_fixtures_in_window",
       "openfootball_status": "unavailable",
       "matches_count": 0,
-      "last_fetched": "2026-09-16T14:44:35.583901+00:00"
+      "last_fetched": "2026-09-16T14:55:33.801085+00:00"
     }
   ],
-  "updated_at": "2026-09-16T14:43:56.338409+00:00"
+  "updated_at": "2026-09-16T14:55:31.072837+00:00"
 }

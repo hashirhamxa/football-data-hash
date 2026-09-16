@@ -3,8 +3,9 @@
     {
       "id": "premier-league",
       "name": "English Premier League",
-      "provider": "ESPN",
-      "espn_slug": "eng.1",
+      "provider": "OpenFootball",
+      "season": "2026-27",
+      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.1.json",
       "status": "available",
       "matches_count": 20,
       "last_fetched": "2026-09-16T15:59:33.550066+00:00"
@@ -12,8 +13,9 @@
     {
       "id": "championship",
       "name": "English Championship",
-      "provider": "ESPN",
-      "espn_slug": "eng.2",
+      "provider": "OpenFootball",
+      "season": "2026-27",
+      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.2.json",
       "status": "available",
       "matches_count": 37,
       "last_fetched": "2026-09-16T15:59:37.048557+00:00"
@@ -21,8 +23,9 @@
     {
       "id": "la-liga",
       "name": "Spanish La Liga",
-      "provider": "ESPN",
-      "espn_slug": "esp.1",
+      "provider": "OpenFootball",
+      "season": "2026-27",
+      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json",
       "status": "available",
       "matches_count": 27,
       "last_fetched": "2026-09-16T15:59:40.080985+00:00"
@@ -30,8 +33,9 @@
     {
       "id": "serie-a",
       "name": "Italian Serie A",
-      "provider": "ESPN",
-      "espn_slug": "ita.1",
+      "provider": "OpenFootball",
+      "season": "2026-27",
+      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json",
       "status": "available",
       "matches_count": 21,
       "last_fetched": "2026-09-16T15:59:43.211990+00:00"
@@ -39,8 +43,9 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "provider": "ESPN",
-      "espn_slug": "ger.1",
+      "provider": "OpenFootball",
+      "season": "2026-27",
+      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json",
       "status": "available",
       "matches_count": 19,
       "last_fetched": "2026-09-16T15:59:46.057704+00:00"
@@ -48,8 +53,9 @@
     {
       "id": "ligue-1",
       "name": "French Ligue 1",
-      "provider": "ESPN",
-      "espn_slug": "fra.1",
+      "provider": "OpenFootball",
+      "season": "2026-27",
+      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json",
       "status": "available",
       "matches_count": 19,
       "last_fetched": "2026-09-16T15:59:53.487555+00:00"
@@ -57,8 +63,9 @@
     {
       "id": "champions-league",
       "name": "UEFA Champions League",
-      "provider": "ESPN",
-      "espn_slug": "uefa.champions",
+      "provider": "OpenFootball",
+      "season": "2024-25",
+      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2024-25/uefa.cl.json",
       "status": "available",
       "matches_count": 18,
       "last_fetched": "2026-09-16T15:59:57.551820+00:00"

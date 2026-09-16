@@ -4,7 +4,7 @@
   "timezone_label": "PKT (UTC+05:00)",
   "target_date_pkt": "2026-09-16",
   "target_day_name": "Wednesday",
-  "generated_at": "2026-09-16T15:08:31.699454+00:00",
+  "generated_at": "2026-09-16T15:11:58.081365+00:00",
   "total_events": 4,
   "events": [
     {
@@ -57,7 +57,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-09-16T15:07:11.677991+00:00",
+      "last_updated": "2026-09-16T15:10:41.498302+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-09-16-ararat-armenia-sparta-prague.png"
     },
     {
@@ -110,7 +110,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-09-16T15:07:11.677991+00:00",
+      "last_updated": "2026-09-16T15:10:41.498302+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-09-16-omonia-nicosia-celta-vigo.png"
     },
     {
@@ -119,10 +119,10 @@
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Matchday 6",
+        "round": "Regular Fixture",
         "group": null
       },
-      "round": "Matchday 6",
+      "round": "Regular Fixture",
       "source_date": "2026-09-16",
       "match_date": "2026-09-16",
       "match_date_utc": "2026-09-16",
@@ -135,47 +135,47 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Club Atlético de Madrid",
-        "slug": "club-atletico-de-madrid",
-        "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png",
+        "name": "Atlético Madrid",
+        "slug": "atletico-madrid",
+        "espn_id": "1068",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
         "logo_resolution": {
-          "source": "alias",
+          "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Atlético de Madrid",
+          "matched_name": "Atlético Madrid",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "CA Osasuna",
-        "slug": "ca-osasuna",
-        "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/CA%20Osasuna.png",
+        "name": "Osasuna",
+        "slug": "osasuna",
+        "espn_id": "97",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
         "logo_resolution": {
-          "source": "alias",
+          "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "CA Osasuna",
+          "matched_name": "Osasuna",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "OpenFootball",
+        "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T15:07:11.677991+00:00",
+      "last_updated": "2026-09-16T15:10:41.498302+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-16-atletico-madrid-osasuna.png"
     },
     {
-      "event_id": "la-liga-2026-09-16-rc-deportivo-la-coruna-sevilla-fc",
+      "event_id": "la-liga-2026-09-16-deportivo-sevilla",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Matchday 6",
+        "round": "Regular Fixture",
         "group": null
       },
-      "round": "Matchday 6",
+      "round": "Regular Fixture",
       "source_date": "2026-09-16",
       "match_date": "2026-09-16",
       "match_date_utc": "2026-09-16",
@@ -188,35 +188,35 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "RC Deportivo La Coruña",
-        "slug": "rc-deportivo-la-coruna",
-        "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Deportivo%20A%20Coru%C3%B1a.png",
+        "name": "Deportivo",
+        "slug": "deportivo",
+        "espn_id": "90",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
         "logo_resolution": {
-          "source": "alias",
+          "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Deportivo A Coruña",
+          "matched_name": "Deportivo",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Sevilla FC",
-        "slug": "sevilla-fc",
-        "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Sevilla%20FC.png",
+        "name": "Sevilla",
+        "slug": "sevilla",
+        "espn_id": "243",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
         "logo_resolution": {
-          "source": "alias",
+          "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Sevilla FC",
+          "matched_name": "Sevilla",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "OpenFootball",
+        "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T15:07:11.677991+00:00",
+      "last_updated": "2026-09-16T15:10:41.498302+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-16-deportivo-sevilla.png"
     }
   ]

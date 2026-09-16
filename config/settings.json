@@ -1,0 +1,37 @@
+﻿{
+  "app_name": "Football Events",
+  "version": "1.0.0",
+  "github_repo": "Bicodes/Football-Events",
+  "github_branch": "main",
+  "raw_base_url_template": "https://raw.githubusercontent.com/{repo}/{branch}",
+  "date_range_days": 30,
+  "max_events": 150,
+  "target_timezone": "Asia/Karachi",
+  "target_timezone_label": "PKT",
+  "fuzzy_match_threshold": 0.80,
+  "image": {
+    "width": 1200,
+    "height": 630,
+    "format": "PNG"
+  },
+  "data_sources": {
+    "fixtures": {
+      "name": "OpenFootball (football.json)",
+      "url": "https://github.com/openfootball/football.json",
+      "raw_base": "https://raw.githubusercontent.com/openfootball/football.json/master",
+      "license": "Public Domain (CC0 / Open Data)"
+    },
+    "primary_logos": {
+      "name": "luukhopman/football-logos",
+      "url": "https://github.com/luukhopman/football-logos",
+      "raw_base": "https://raw.githubusercontent.com/luukhopman/football-logos/master",
+      "license": "MIT / Educational Fair Use"
+    },
+    "fallback_logos": {
+      "name": "Leo4815162342/football-logos",
+      "url": "https://github.com/Leo4815162342/football-logos",
+      "raw_base": "https://raw.githubusercontent.com/Leo4815162342/football-logos/main",
+      "license": "Open Data / Fair Use"
+    }
+  }
+}

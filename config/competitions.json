@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": "premier-league",
+    "name": "English Premier League",
+    "country": "England",
+    "source_file": "en.1.json",
+    "source_timezone": "Europe/London",
+    "logo_league_dir": "England - Premier League",
+    "enabled": true
+  },
+  {
+    "id": "championship",
+    "name": "English Championship",
+    "country": "England",
+    "source_file": "en.2.json",
+    "source_timezone": "Europe/London",
+    "logo_league_dir": "England - Premier League",
+    "enabled": true
+  },
+  {
+    "id": "la-liga",
+    "name": "Spanish La Liga",
+    "country": "Spain",
+    "source_file": "es.1.json",
+    "source_timezone": "Europe/Madrid",
+    "logo_league_dir": "Spain - LaLiga",
+    "enabled": true
+  },
+  {
+    "id": "serie-a",
+    "name": "Italian Serie A",
+    "country": "Italy",
+    "source_file": "it.1.json",
+    "source_timezone": "Europe/Rome",
+    "logo_league_dir": "Italy - Serie A",
+    "enabled": true
+  },
+  {
+    "id": "bundesliga",
+    "name": "German Bundesliga",
+    "country": "Germany",
+    "source_file": "de.1.json",
+    "source_timezone": "Europe/Berlin",
+    "logo_league_dir": "Germany - Bundesliga",
+    "enabled": true
+  },
+  {
+    "id": "ligue-1",
+    "name": "French Ligue 1",
+    "country": "France",
+    "source_file": "fr.1.json",
+    "source_timezone": "Europe/Paris",
+    "logo_league_dir": "France - Ligue 1",
+    "enabled": true
+  },
+  {
+    "id": "champions-league",
+    "name": "UEFA Champions League",
+    "country": "Europe",
+    "source_file": "uefa.cl.json",
+    "source_timezone": "Europe/Paris",
+    "logo_league_dir": null,
+    "enabled": true
+  },
+  {
+    "id": "europa-league",
+    "name": "UEFA Europa League",
+    "country": "Europe",
+    "source_file": "uefa.el.json",
+    "source_timezone": "Europe/Paris",
+    "logo_league_dir": null,
+    "enabled": true
+  },
+  {
+    "id": "world-cup",
+    "name": "FIFA World Cup",
+    "country": "International",
+    "source_file": "worldcup.json",
+    "source_timezone": "UTC",
+    "logo_league_dir": null,
+    "enabled": true
+  }
+]

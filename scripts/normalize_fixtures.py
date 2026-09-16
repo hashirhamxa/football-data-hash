@@ -225,6 +225,7 @@ def normalize_event(
         )
     }
 
+    comp_logo_url = comp_status.get("logo_url") or comp_config.get("logo_url")
     return {
         "event_id": event_id,
         "competition": {
@@ -232,7 +233,8 @@ def normalize_event(
             "name": comp_name,
             "country": comp_config.get("country", "Europe"),
             "round": round_name,
-            "group": group_name
+            "group": group_name,
+            "logo_url": comp_logo_url
         },
         "round": round_name,
         "source_date": match_date_utc,

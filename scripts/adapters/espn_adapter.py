@@ -219,6 +219,12 @@ class ESPNFixtureAdapter(BaseFixtureAdapter):
                         elif not eid:
                             all_matches.append(parsed)
 
+        league_logo_url = None
+        if curr_data and "leagues" in curr_data and curr_data["leagues"]:
+            logos = curr_data["leagues"][0].get("logos", [])
+            if logos and isinstance(logos, list) and len(logos) > 0:
+                league_logo_url = logos[0].get("href")
+
         logger.info(f"ESPN Adapter fetched {len(all_matches)} upcoming matches for {comp_name} ({slug}).")
 
         status_result = {
@@ -226,6 +232,7 @@ class ESPNFixtureAdapter(BaseFixtureAdapter):
             "name": comp_name,
             "provider": "ESPN",
             "espn_slug": slug,
+            "logo_url": league_logo_url or competition.get("logo_url"),
             "status": "available" if len(all_matches) > 0 else "no_fixtures_in_window",
             "matches_count": len(all_matches),
             "last_fetched": datetime.now(timezone.utc).isoformat()

@@ -1,4 +1,4 @@
-﻿"""
+"""
 test_competition_feeds.py
 Unit tests for generate_competition_feeds.py.
 Tests grouping of events by tournament directory and valid creation of today.json, tomorrow.json, and upcoming.json.
@@ -22,9 +22,10 @@ class TestCompetitionFeeds(unittest.TestCase):
 
         self.assertIn("la-liga", stats)
         self.assertIn("premier-league", stats)
+        self.assertIn("carabao-cup", stats)
 
         # Verify physical files exist
-        for comp_id in ["la-liga", "premier-league", "serie-a", "bundesliga", "ligue-1"]:
+        for comp_id in ["la-liga", "premier-league", "carabao-cup", "serie-a", "bundesliga", "ligue-1"]:
             for feed_name in ["today.json", "tomorrow.json", "upcoming.json"]:
                 fpath = os.path.join("output", "competitions", comp_id, feed_name)
                 self.assertTrue(os.path.exists(fpath), f"Missing feed file: {fpath}")

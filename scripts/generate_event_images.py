@@ -4,9 +4,11 @@ High-performance, broadcast-grade matchday graphic generator for football fixtur
 Features:
 - Modular, competition-specific theme engine with distinct palettes, geometries, and center devices
 - 2x supersampled internal rendering (2400x1260 -> 1200x630 Lanczos) for razor-sharp antialiasing
+- Dedicated competition logo caching and rendering in header
 - High-res team crests with aspect-ratio preservation, transparent border trimming, and back-glow
-- Intelligent text-fitting and multi-line wrapping (no ugly blunt truncation)
-- Vector-drawn calendar and clock icons (eliminating missing-glyph square boxes)
+- Intelligent text-fitting and multi-line wrapping (no blunt truncation)
+- Vector-drawn calendar icon in centered footer (pure date display, zero kickoff time or clock icons)
+- Pure decorative central dividers per competition theme (zero 'VS' or time text)
 - Multi-threaded logo prefetching and concurrent rendering
 - Preview gallery and contact sheet generator
 """
@@ -32,6 +34,7 @@ logger = logging.getLogger("generate_event_images")
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 CACHE_DIR = ".cache/logos"
+COMP_LOGO_CACHE_DIR = ".cache/competition-logos"
 FONT_DIR = "assets/fonts"
 
 
@@ -185,6 +188,12 @@ def get_cache_path(team_name: str) -> str:
     return os.path.join(CACHE_DIR, f"{clean_name}.png")
 
 
+def get_competition_logo_cache_path(comp_id: str) -> str:
+    os.makedirs(COMP_LOGO_CACHE_DIR, exist_ok=True)
+    clean_id = re.sub(r"[^a-zA-Z0-9_-]+", "_", comp_id).lower()
+    return os.path.join(COMP_LOGO_CACHE_DIR, f"{clean_id}.png")
+
+
 def autocrop_transparent_margins(img: Image.Image, padding: int = 6) -> Image.Image:
     """Removes empty transparent border around logos to maximize crest clarity and size."""
     if img.mode != "RGBA":
@@ -200,7 +209,7 @@ def autocrop_transparent_margins(img: Image.Image, padding: int = 6) -> Image.Im
     return img
 
 
-def download_or_cache_logo(url: str, team_name: str) -> Optional[Image.Image]:
+def download_or_cache_logo(url: Optional[str], team_name: str) -> Optional[Image.Image]:
     """Downloads team logo with local caching and returns a PIL Image."""
     if not url:
         return None
@@ -235,10 +244,51 @@ def download_or_cache_logo(url: str, team_name: str) -> Optional[Image.Image]:
         return None
 
 
+def download_or_cache_competition_logo(comp_id: str, url: Optional[str] = None) -> Optional[Image.Image]:
+    """Downloads competition logo with dedicated local caching in .cache/competition-logos/."""
+    if not comp_id:
+        return None
+
+    cache_file = get_competition_logo_cache_path(comp_id)
+    if os.path.exists(cache_file):
+        try:
+            img = Image.open(cache_file).convert("RGBA")
+            return autocrop_transparent_margins(img, padding=4)
+        except Exception:
+            pass
+
+    if not url:
+        return None
+
+    if os.path.exists(url):
+        try:
+            img = Image.open(url).convert("RGBA")
+            img = autocrop_transparent_margins(img, padding=4)
+            img.save(cache_file)
+            return img
+        except Exception:
+            return None
+
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = resp.read()
+            img = Image.open(io.BytesIO(data)).convert("RGBA")
+            img = autocrop_transparent_margins(img, padding=4)
+            img.save(cache_file)
+            return img
+    except Exception as e:
+        logger.debug(f"Could not download competition logo for {comp_id} from {url}: {e}")
+        return None
+
+
 def prefetch_all_logos(events: List[Dict[str, Any]], max_workers: int = 16):
-    """Pre-downloads all distinct team logos concurrently."""
+    """Pre-downloads all distinct team and competition logos concurrently."""
     unique_teams: Dict[str, Tuple[str, str]] = {}
+    unique_comps: Dict[str, Tuple[str, str]] = {}
+
     for ev in events:
+        # Teams
         for t_key in ["home_team", "away_team"]:
             team = ev.get(t_key, {})
             name = team.get("name")
@@ -246,12 +296,26 @@ def prefetch_all_logos(events: List[Dict[str, Any]], max_workers: int = 16):
             if name and name not in unique_teams and url:
                 unique_teams[name] = (url, name)
 
-    logger.info(f"Pre-fetching {len(unique_teams)} distinct team logos with {max_workers} worker threads...")
+        # Competitions
+        comp = ev.get("competition", {})
+        cid = comp.get("id")
+        curl = comp.get("logo_url")
+        if cid and cid not in unique_comps and curl:
+            unique_comps[cid] = (curl, cid)
+
+    logger.info(f"Pre-fetching {len(unique_teams)} team logos and {len(unique_comps)} competition logos...")
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = {executor.submit(download_or_cache_logo, url, name): name for name, (url, name) in unique_teams.items()}
+        futures = [
+            executor.submit(download_or_cache_logo, url, name)
+            for name, (url, name) in unique_teams.items()
+        ]
+        futures += [
+            executor.submit(download_or_cache_competition_logo, cid, curl)
+            for cid, (curl, cid) in unique_comps.items()
+        ]
         for future in as_completed(futures):
             pass
-    logger.info("Finished pre-fetching team logos.")
+    logger.info("Finished pre-fetching logos.")
 
 
 # ==============================================================================
@@ -269,16 +333,6 @@ def draw_vector_calendar_icon(draw: ImageDraw.Draw, x: int, y: int, size: int = 
     for gx in [x + 9, x + w // 2, x + w - 9]:
         for gy in [y + 24, y + 31]:
             draw.point((gx, gy), fill=color)
-
-
-def draw_vector_clock_icon(draw: ImageDraw.Draw, x: int, y: int, size: int = 36, color: Tuple[int, int, int] = (255, 255, 255)):
-    """Renders a clean vector clock icon directly with Pillow."""
-    r = size // 2
-    cx, cy = x + r, y + r + 3
-    draw.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(color[0], color[1], color[2], 30), outline=color, width=3)
-    draw.line([(cx, cy), (cx, cy - r + 6)], fill=color, width=3)
-    draw.line([(cx, cy), (cx + r - 7, cy)], fill=color, width=3)
-    draw.ellipse([cx - 3, cy - 3, cx + 3, cy + 3], fill=color)
 
 
 # ==============================================================================
@@ -412,6 +466,16 @@ def create_themed_background(
         pdraw.polygon([(width, 0), (right_cx + 140, height), (right_cx - 140, height)], fill=(255, 255, 255, 22))
         pdraw.line([(0, height // 2 - 40), (width, height // 2 - 40)], fill=(pr, pg, pb, 45), width=3)
 
+    elif p == "carabao_cup_geometry":
+        # Dynamic angular trophy and speed-line geometry in crimson and silver metallic
+        pdraw.polygon([(width * 0.5 - 180, 0), (width * 0.5 + 180, 0), (width * 0.5 + 80, height), (width * 0.5 - 80, height)], fill=(pr, pg, pb, 22))
+        pdraw.line([(width * 0.5 - 180, 0), (width * 0.5 - 80, height)], fill=(pr, pg, pb, 75), width=4)
+        pdraw.line([(width * 0.5 + 180, 0), (width * 0.5 + 80, height)], fill=(pr, pg, pb, 75), width=4)
+        for i in range(4):
+            offset = i * 160
+            pdraw.line([(0, int(height * 0.3 + offset)), (int(width * 0.35), int(height * 0.45 + offset))], fill=(hr, hg, hb, 30), width=3)
+            pdraw.line([(width, int(height * 0.3 + offset)), (int(width * 0.65), int(height * 0.45 + offset))], fill=(hr, hg, hb, 30), width=3)
+
     elif p == "worldcup_global_arcs":
         # Regal planetary longitude/latitude arcs with celestial gold
         pdraw.ellipse([width // 2 - 540, height // 2 - 580, width // 2 + 540, height // 2 + 500], outline=(pr, pg, pb, 50), width=4)
@@ -501,7 +565,7 @@ def draw_themed_crest_plate(
             width=5
         )
     elif style == "modern_frame":
-        # Sharp technical framing with corner ticks (Premier League, Bundesliga)
+        # Sharp technical framing with corner ticks (Premier League, Bundesliga, Carabao Cup)
         draw.rounded_rectangle(
             [x0, y0, x1, y1],
             radius=36,
@@ -557,20 +621,18 @@ def draw_themed_crest_plate(
 
 
 # ==============================================================================
-# 6. Themed Central Match Device (Prominent PKT Time, Zero "VS")
+# 6. Themed Pure Decorative Central Divider (Zero Text, Zero "VS", Zero Kickoff Time)
 # ==============================================================================
 
 def draw_themed_center_divider(
     draw: ImageDraw.Draw,
     cx: int,
     cy: int,
-    theme: CompetitionTheme,
-    pkt_time_text: str = "MATCHDAY",
-    is_confirmed: bool = True
+    theme: CompetitionTheme
 ):
     """
-    Renders an elegant, theme-specific central match device that prominently displays
-    the PKT kickoff time (or 'MATCHDAY' if unconfirmed). Completely eliminates 'VS'.
+    Renders an elegant, theme-specific central decorative separator between team crests.
+    Completely eliminates 'VS', time text, clock icons, or placeholders.
     All coordinates in 2x supersampled space.
     """
     pr, pg, pb = theme.primary
@@ -578,98 +640,97 @@ def draw_themed_center_divider(
     sr, sg, sb = theme.secondary
     style = theme.center_style
 
-    display_time = pkt_time_text.strip().upper() if pkt_time_text else "MATCHDAY"
-
-    main_font_size = 36 if len(display_time) <= 8 else 30
-    f_main = get_font(main_font_size, weight="extrabold", family=theme.font_family)
-    f_pkt_label = get_font(18, weight="bold", family=theme.font_family)
-
-    bbox_main = draw.textbbox((0, 0), display_time, font=f_main)
-    tw = bbox_main[2] - bbox_main[0]
-    th = bbox_main[3] - bbox_main[1]
-
-    bw = max(220, tw + 56)
-    bh = 100 if is_confirmed else 82
-
-    bx0 = cx - bw // 2
-    by0 = cy - bh // 2
-    bx1 = cx + bw // 2
-    by1 = cy + bh // 2
-
     if style == "champions_divider":
-        # UEFA Champions League: Luminous starry indigo/silver capsule with vertical celestial light beams
-        draw.line([(cx, cy - 200), (cx, by0 - 12)], fill=(hr, hg, hb, 190), width=4)
-        draw.line([(cx, by1 + 12), (cx, cy + 200)], fill=(hr, hg, hb, 190), width=4)
-        for pip_y in [cy - 200, cy + 200]:
+        # UEFA Champions League: Luminous starry celestial vertical beam with diamond core
+        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(hr, hg, hb, 190), width=4)
+        draw.line([(cx - 12, cy - 110), (cx - 12, cy + 110)], fill=(pr, pg, pb, 130), width=2)
+        draw.line([(cx + 12, cy - 110), (cx + 12, cy + 110)], fill=(pr, pg, pb, 130), width=2)
+        for pip_y in [cy - 180, cy + 180]:
             draw.ellipse([cx - 5, pip_y - 5, cx + 5, pip_y + 5], fill=(hr, hg, hb, 240))
-        draw.rounded_rectangle([bx0 - 6, by0 - 6, bx1 + 6, by1 + 6], radius=24, fill=(hr, hg, hb, 35))
-        draw.rounded_rectangle([bx0, by0, bx1, by1], radius=20, fill=(14, 24, 60, 245), outline=(hr, hg, hb, 220), width=4)
+        # Center celestial diamond
+        dia_pts = [(cx, cy - 28), (cx + 22, cy), (cx, cy + 28), (cx - 22, cy)]
+        draw.polygon(dia_pts, fill=(14, 24, 60, 245), outline=(hr, hg, hb, 230), width=3)
+        draw.ellipse([cx - 4, cy - 4, cx + 4, cy + 4], fill=(255, 255, 255, 240))
 
     elif style == "europa_energy_divider":
-        # UEFA Europa League: Dynamic angular speed badge with energetic orange beams
-        draw.line([(cx - 24, cy - 190), (cx - 10, by0 - 10)], fill=(pr, pg, pb, 220), width=5)
-        draw.line([(cx + 10, by1 + 10), (cx + 24, cy + 190)], fill=(pr, pg, pb, 220), width=5)
-        poly_pts = [(bx0 - 14, by0), (bx1 + 14, by0), (bx1 - 4, by1), (bx0 - 24, by1)]
-        draw.polygon(poly_pts, fill=(34, 20, 14, 245), outline=(pr, pg, pb, 240), width=4)
+        # UEFA Europa League: Dynamic angled warm amber/orange dual energy blades
+        draw.line([(cx - 16, cy - 180), (cx + 16, cy + 180)], fill=(pr, pg, pb, 220), width=5)
+        draw.line([(cx + 16, cy - 180), (cx - 16, cy + 180)], fill=(sr, sg, sb, 190), width=4)
+        dia_pts = [(cx, cy - 32), (cx + 34, cy), (cx, cy + 32), (cx - 34, cy)]
+        draw.polygon(dia_pts, fill=(34, 20, 14, 245), outline=(pr, pg, pb, 240), width=3)
+        draw.ellipse([cx - 5, cy - 5, cx + 5, cy + 5], fill=(hr, hg, hb, 240))
 
     elif style == "conference_minimal_v":
-        # UEFA Conference League: Electric green / turquoise modern neon pill
-        draw.line([(cx, cy - 180), (cx, by0 - 12)], fill=(pr, pg, pb, 200), width=4)
-        draw.line([(cx, by1 + 12), (cx, cy + 180)], fill=(pr, pg, pb, 200), width=4)
-        draw.rounded_rectangle([bx0 - 4, by0 - 4, bx1 + 4, by1 + 4], radius=bh // 2 + 4, fill=(pr, pg, pb, 35))
-        draw.rounded_rectangle([bx0, by0, bx1, by1], radius=bh // 2, fill=(14, 34, 24, 245), outline=(pr, pg, pb, 230), width=4)
+        # UEFA Conference League: Electric green / turquoise modern neon light tube
+        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(pr, pg, pb, 210), width=4)
+        draw.line([(cx - 10, cy - 100), (cx - 10, cy + 100)], fill=(sr, sg, sb, 120), width=2)
+        draw.line([(cx + 10, cy - 100), (cx + 10, cy + 100)], fill=(sr, sg, sb, 120), width=2)
+        draw.rounded_rectangle([cx - 14, cy - 26, cx + 14, cy + 26], radius=12, fill=(14, 34, 24, 245), outline=(pr, pg, pb, 230), width=3)
+        draw.ellipse([cx - 4, cy - 4, cx + 4, cy + 4], fill=(sr, sg, sb, 240))
 
     elif style == "pl_matchday_device":
-        # Premier League: Bold modern matchday device with cyan/magenta accent lines
-        draw.line([(cx, cy - 190), (cx, by0 - 12)], fill=(pr, pg, pb, 220), width=5)
-        draw.line([(cx, by1 + 12), (cx, cy + 190)], fill=(sr, sg, sb, 220), width=5)
-        draw.rounded_rectangle([bx0, by0, bx1, by1], radius=16, fill=(28, 14, 46, 245), outline=(pr, pg, pb, 230), width=4)
-        draw.line([(bx0 + 16, by0 + 3), (bx1 - 16, by0 + 3)], fill=(pr, pg, pb, 240), width=4)
+        # Premier League: Bold modern matchday device with cyan & magenta dual rails
+        draw.line([(cx - 12, cy - 180), (cx - 12, cy + 180)], fill=(pr, pg, pb, 220), width=4)
+        draw.line([(cx + 12, cy - 180), (cx + 12, cy + 180)], fill=(sr, sg, sb, 220), width=4)
+        draw.line([(cx - 24, cy - 30), (cx + 24, cy - 30)], fill=(pr, pg, pb, 240), width=4)
+        draw.line([(cx - 24, cy + 30), (cx + 24, cy + 30)], fill=(sr, sg, sb, 240), width=4)
+        draw.rounded_rectangle([cx - 18, cy - 18, cx + 18, cy + 18], radius=8, fill=(28, 14, 46, 245), outline=(hr, hg, hb, 220), width=3)
 
     elif style == "laliga_minimal_v":
-        # La Liga: Vivid multi-accented Spanish spectrum stadium capsule
-        draw.line([(cx, cy - 180), (cx, by0 - 12)], fill=(255, 59, 48, 210), width=4)
-        draw.line([(cx, by1 + 12), (cx, cy + 180)], fill=(255, 204, 0, 210), width=4)
-        draw.rounded_rectangle([bx0, by0, bx1, by1], radius=22, fill=(26, 26, 34, 245), outline=(255, 140, 0, 230), width=4)
+        # La Liga: Vivid multi-accented Spanish spectrum stadium blade
+        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(255, 59, 48, 220), width=4)
+        draw.line([(cx - 8, cy - 110), (cx - 8, cy + 110)], fill=(255, 204, 0, 180), width=2)
+        draw.line([(cx + 8, cy - 110), (cx + 8, cy + 110)], fill=(255, 140, 0, 180), width=2)
+        dia_pts = [(cx, cy - 26), (cx + 22, cy), (cx, cy + 26), (cx - 22, cy)]
+        draw.polygon(dia_pts, fill=(26, 26, 34, 245), outline=(255, 204, 0, 230), width=3)
 
     elif style == "seriea_vertical_beam":
-        # Serie A: Platinum & Azzurro metallic octagonal bevel shield
-        draw.line([(cx, cy - 190), (cx, by0 - 12)], fill=(hr, hg, hb, 210), width=5)
-        draw.line([(cx, by1 + 12), (cx, cy + 190)], fill=(hr, hg, hb, 210), width=5)
-        draw.polygon([(bx0 + 18, by0), (bx1 - 18, by0), (bx1, by0 + 18), (bx1, by1 - 18), (bx1 - 18, by1), (bx0 + 18, by1), (bx0, by1 - 18), (bx0, by0 + 18)], fill=(12, 24, 52, 245), outline=(hr, hg, hb, 220), width=4)
+        # Serie A: Platinum & Azzurro metallic architectural vertical blade
+        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(hr, hg, hb, 210), width=4)
+        draw.line([(cx - 14, cy - 120), (cx - 14, cy + 120)], fill=(pr, pg, pb, 150), width=3)
+        draw.line([(cx + 14, cy - 120), (cx + 14, cy + 120)], fill=(pr, pg, pb, 150), width=3)
+        shield_pts = [(cx, cy - 30), (cx + 24, cy - 10), (cx + 18, cy + 24), (cx, cy + 34), (cx - 18, cy + 24), (cx - 24, cy - 10)]
+        draw.polygon(shield_pts, fill=(12, 24, 52, 245), outline=(hr, hg, hb, 230), width=3)
 
     elif style == "bundesliga_slash_divider":
-        # Bundesliga: Dynamic angled red-accented carbon box
-        draw.line([(cx - 20, cy - 185), (cx - 10, by0 - 10)], fill=(pr, pg, pb, 230), width=5)
-        draw.line([(cx + 10, by1 + 10), (cx + 20, cy + 185)], fill=(pr, pg, pb, 230), width=5)
-        poly_pts = [(bx0 - 10, by0), (bx1 + 10, by0), (bx1, by1), (bx0 - 20, by1)]
-        draw.polygon(poly_pts, fill=(28, 20, 22, 245), outline=(227, 6, 19, 240), width=4)
+        # Bundesliga: Dynamic angled red-accented carbon slash beam
+        draw.line([(cx - 24, cy - 180), (cx + 24, cy + 180)], fill=(pr, pg, pb, 230), width=5)
+        draw.line([(cx - 36, cy - 100), (cx + 12, cy + 100)], fill=(sr, sg, sb, 140), width=3)
+        draw.polygon([(cx - 18, cy - 24), (cx + 24, cy - 14), (cx + 18, cy + 24), (cx - 24, cy + 14)], fill=(28, 20, 22, 245), outline=(pr, pg, pb, 240), width=3)
+
+    elif style == "ligue1_minimal_device":
+        # Ligue 1: Precision electric lime vertical guide with crosshair ticks
+        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(pr, pg, pb, 210), width=4)
+        for tick_y in [cy - 90, cy, cy + 90]:
+            draw.line([(cx - 16, tick_y), (cx + 16, tick_y)], fill=(pr, pg, pb, 230), width=3)
+        draw.ellipse([cx - 8, cy - 8, cx + 8, cy + 8], fill=(16, 24, 40, 245), outline=(pr, pg, pb, 240), width=3)
+
+    elif style == "championship_cross_divider":
+        # English Championship: Steel blue & crimson dual vertical stadium floodlight beam
+        draw.line([(cx - 10, cy - 180), (cx - 10, cy + 180)], fill=(pr, pg, pb, 210), width=4)
+        draw.line([(cx + 10, cy - 180), (cx + 10, cy + 180)], fill=(sr, sg, sb, 210), width=4)
+        draw.line([(cx - 28, cy), (cx + 28, cy)], fill=(hr, hg, hb, 210), width=4)
+        draw.rectangle([cx - 14, cy - 14, cx + 14, cy + 14], fill=(20, 28, 45, 245), outline=(hr, hg, hb, 220), width=3)
+
+    elif style == "carabao_trophy_divider":
+        # English Carabao Cup: Silver metallic & crimson red vertical dual beam with angular cup chevron
+        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(hr, hg, hb, 220), width=4)
+        draw.line([(cx - 14, cy - 110), (cx - 14, cy + 110)], fill=(pr, pg, pb, 160), width=3)
+        draw.line([(cx + 14, cy - 110), (cx + 14, cy + 110)], fill=(pr, pg, pb, 160), width=3)
+        chev_pts = [(cx - 26, cy - 24), (cx, cy - 8), (cx + 26, cy - 24), (cx, cy + 32)]
+        draw.polygon(chev_pts, fill=(22, 28, 42, 245), outline=(pr, pg, pb, 240), width=3)
 
     elif style == "worldcup_arc_divider":
         # World Cup: Celestial golden disc with concentric planetary rings
-        draw.line([(cx, cy - 190), (cx, by0 - 12)], fill=(pr, pg, pb, 200), width=4)
-        draw.line([(cx, by1 + 12), (cx, cy + 190)], fill=(pr, pg, pb, 200), width=4)
-        draw.rounded_rectangle([bx0, by0, bx1, by1], radius=bh // 2, fill=(38, 16, 28, 245), outline=(pr, pg, pb, 240), width=4)
+        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(pr, pg, pb, 200), width=4)
+        draw.ellipse([cx - 30, cy - 30, cx + 30, cy + 30], fill=(38, 16, 28, 245), outline=(pr, pg, pb, 240), width=3)
+        draw.ellipse([cx - 12, cy - 12, cx + 12, cy + 12], fill=(hr, hg, hb, 230))
 
     else:
-        # Ligue 1, Championship, Neutral: Sleek glass capsule
-        draw.line([(cx, cy - 180), (cx, by0 - 12)], fill=(pr, pg, pb, 190), width=4)
-        draw.line([(cx, by1 + 12), (cx, cy + 180)], fill=(pr, pg, pb, 190), width=4)
-        draw.rounded_rectangle([bx0, by0, bx1, by1], radius=18, fill=(20, 28, 42, 245), outline=(pr, pg, pb, 210), width=4)
-
-    # Render Text Inside Device
-    if is_confirmed:
-        time_y = by0 + 16
-        draw.text((cx - tw // 2, time_y), display_time, fill=theme.text_primary, font=f_main)
-
-        pkt_lbl = "PKT"
-        bbox_lbl = draw.textbbox((0, 0), pkt_lbl, font=f_pkt_label)
-        lbl_w = bbox_lbl[2] - bbox_lbl[0]
-        lbl_y = time_y + th + 8
-        draw.text((cx - lbl_w // 2, lbl_y), pkt_lbl, fill=theme.highlight, font=f_pkt_label)
-    else:
-        draw.text((cx - tw // 2, cy - th // 2 - 4), display_time, fill=theme.text_primary, font=f_main)
-
+        # Neutral Fallback: Sleek minimalist ice-blue vertical line with center glowing node
+        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(pr, pg, pb, 200), width=4)
+        draw.rounded_rectangle([cx - 12, cy - 22, cx + 12, cy + 22], radius=10, fill=(20, 26, 38, 245), outline=(hr, hg, hb, 220), width=3)
+        draw.ellipse([cx - 4, cy - 4, cx + 4, cy + 4], fill=(hr, hg, hb, 240))
 
 
 # ==============================================================================
@@ -693,6 +754,13 @@ def generate_event_card(
 ) -> str:
     """
     Renders and saves the complete fixture event graphic using 2x supersampling.
+    Hierarchy:
+    1. Competition logo
+    2. Competition name and round
+    3. Team A crest
+    4. Team B crest
+    5. Team names
+    6. Match date (centered footer, zero kickoff time or clock icons)
     """
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
@@ -715,7 +783,9 @@ def generate_event_card(
     )
     draw2 = ImageDraw.Draw(img2)
 
-    # 1. Header Competition & Round Badge
+    # --------------------------------------------------------------------------
+    # 1. Header: Competition Logo + Competition Name and Round
+    # --------------------------------------------------------------------------
     comp_title = comp.get("name") or theme.name
     round_title = comp.get("round") or event.get("round", "")
     if round_title.lower() in ["regular fixture", "regular", ""]:
@@ -723,11 +793,17 @@ def generate_event_card(
 
     header_text = f"{comp_title.upper()}  •  {round_title.upper()}" if round_title else comp_title.upper()
 
+    # Load competition logo if available
+    comp_logo_url = comp.get("logo_url")
+    comp_logo_img = download_or_cache_competition_logo(comp_id, comp_logo_url)
+
     # Scale header font dynamically so long names never overflow
-    header_font_size = 52
+    header_font_size = 50
     header_font = get_font(header_font_size, weight="extrabold", family=theme.font_family)
     bbox_h = draw2.textbbox((0, 0), header_text, font=header_font)
-    while (bbox_h[2] - bbox_h[0]) > (w2 - 360) and header_font_size > 30:
+    max_text_width = w2 - 500 if comp_logo_img else w2 - 360
+
+    while (bbox_h[2] - bbox_h[0]) > max_text_width and header_font_size > 30:
         header_font_size -= 2
         header_font = get_font(header_font_size, weight="extrabold", family=theme.font_family)
         bbox_h = draw2.textbbox((0, 0), header_text, font=header_font)
@@ -735,10 +811,30 @@ def generate_event_card(
     hw = bbox_h[2] - bbox_h[0]
     hh = bbox_h[3] - bbox_h[1]
 
-    pill_w = hw + 90
-    pill_h = hh + 46
+    # Calculate logo dimensions if present
+    logo_w, logo_h = 0, 0
+    resized_comp_logo = None
+    if comp_logo_img:
+        max_lh = 54
+        max_lw = 72
+        lw, lh = comp_logo_img.size
+        ratio = min(max_lw / lw, max_lh / lh)
+        logo_w = max(1, int(lw * ratio))
+        logo_h = max(1, int(lh * ratio))
+        resized_comp_logo = comp_logo_img.resize((logo_w, logo_h), Image.Resampling.LANCZOS)
+
+    # Determine pill dimensions
+    if resized_comp_logo:
+        pill_content_w = logo_w + 20 + hw
+        pill_w = pill_content_w + 80
+        pill_h = max(hh + 44, logo_h + 36, 88)
+    else:
+        pill_content_w = hw
+        pill_w = hw + 90
+        pill_h = hh + 44
+
     pill_x0 = (w2 - pill_w) // 2
-    pill_y0 = 60
+    pill_y0 = 55
 
     # Outer glow
     draw2.rounded_rectangle(
@@ -754,12 +850,27 @@ def generate_event_card(
         outline=theme.panel_border,
         width=4
     )
-    draw2.text((pill_x0 + 45, pill_y0 + 18), header_text, fill=theme.text_primary, font=header_font)
 
+    # Render Logo + Text in header
+    if resized_comp_logo:
+        logo_x = pill_x0 + 38
+        logo_y = pill_y0 + (pill_h - logo_h) // 2
+        img2.paste(resized_comp_logo, (logo_x, logo_y), resized_comp_logo)
+
+        text_x = logo_x + logo_w + 18
+        text_y = pill_y0 + (pill_h - hh) // 2 - 4
+        draw2.text((text_x, text_y), header_text, fill=theme.text_primary, font=header_font)
+    else:
+        text_x = pill_x0 + (pill_w - hw) // 2
+        text_y = pill_y0 + (pill_h - hh) // 2 - 4
+        draw2.text((text_x, text_y), header_text, fill=theme.text_primary, font=header_font)
+
+    # --------------------------------------------------------------------------
     # 2. Team Crest Cards & Logos
+    # --------------------------------------------------------------------------
     left_cx = w2 // 4 + 30
     right_cx = w2 * 3 // 4 - 30
-    center_y = h2 // 2 - 40
+    center_y = h2 // 2 - 35
 
     home_logo_url = home.get("logo_url") or home.get("logo_resolution", {}).get("url")
     away_logo_url = away.get("logo_url") or away.get("logo_resolution", {}).get("url")
@@ -770,32 +881,19 @@ def generate_event_card(
     draw_themed_crest_plate(img2, home_img, home.get("name", "Home"), left_cx, center_y, theme, card_size=420)
     draw_themed_crest_plate(img2, away_img, away.get("name", "Away"), right_cx, center_y, theme, card_size=420)
 
-    # 3. Central Match Device (Prominent PKT Kickoff Time, Zero VS)
-    time_status = event.get("time_status", "tbd")
-    is_confirmed = (time_status == "confirmed") and bool(event.get("start_time_pkt"))
-
-    if is_confirmed:
-        pkt_raw = event.get("display_time")
-        if not pkt_raw and event.get("start_time_pkt"):
-            try:
-                dt_pkt = datetime.fromisoformat(event["start_time_pkt"])
-                pkt_raw = dt_pkt.strftime("%I:%M %p").lstrip("0")
-            except Exception:
-                pkt_raw = event["start_time_pkt"][11:16]
-        center_time_text = pkt_raw if pkt_raw else "MATCHDAY"
-    else:
-        center_time_text = "MATCHDAY"
-
+    # --------------------------------------------------------------------------
+    # 3. Pure Decorative Central Divider (Zero Text, Zero "VS", Zero Kickoff Time)
+    # --------------------------------------------------------------------------
     draw_themed_center_divider(
         draw2,
         cx=w2 // 2,
         cy=center_y,
-        theme=theme,
-        pkt_time_text=center_time_text,
-        is_confirmed=is_confirmed
+        theme=theme
     )
 
+    # --------------------------------------------------------------------------
     # 4. Fitted Team Names Below Crests
+    # --------------------------------------------------------------------------
     team_name_max_width = 540
 
     # Home team name
@@ -816,10 +914,24 @@ def generate_event_card(
         draw2.text((right_cx - lw // 2, a_top_y), line, fill=theme.text_primary, font=a_font)
         a_top_y += (b[3] - b[1]) + 10
 
-    # 5. Footer: Match Date + UTC Kickoff Time (Vector Icons, No Emoji)
-    footer_y = h2 - 180
-    footer_w = 1520
-    footer_h = 110
+    # --------------------------------------------------------------------------
+    # 5. Centered Footer: Match Date Only (Vector Calendar Icon, No Clock / UTC Time)
+    # --------------------------------------------------------------------------
+    display_date = event.get("display_date") or event.get("match_date_pkt") or event.get("match_date", "")
+    date_str = format_date_display(display_date)
+
+    footer_font = get_font(38, weight="bold", family=theme.font_family)
+    bbox_date = draw2.textbbox((0, 0), date_str, font=footer_font)
+    date_w = bbox_date[2] - bbox_date[0]
+    date_h = bbox_date[3] - bbox_date[1]
+
+    cal_icon_size = 38
+    cal_spacing = 20
+    footer_content_w = cal_icon_size + cal_spacing + date_w
+
+    footer_w = max(680, footer_content_w + 110)
+    footer_h = 100
+    footer_y = h2 - 170
     fx0 = (w2 - footer_w) // 2
 
     # Outer subtle footer shadow & plate
@@ -836,33 +948,14 @@ def generate_event_card(
         width=4
     )
 
-    display_date = event.get("display_date") or event.get("match_date_pkt") or event.get("match_date", "")
-    date_str = format_date_display(display_date)
+    # Centered Vector calendar + Date inside footer
+    content_start_x = (w2 - footer_content_w) // 2
+    draw_vector_calendar_icon(draw2, content_start_x, footer_y + 31, size=cal_icon_size, color=theme.highlight)
+    draw2.text((content_start_x + cal_icon_size + cal_spacing, footer_y + 26), date_str, fill=theme.text_primary, font=footer_font)
 
-    if is_confirmed and event.get("start_time_utc"):
-        utc_str = event["start_time_utc"][11:16] + " UTC"
-        time_text = utc_str
-    else:
-        time_text = "KICKOFF TIME TBD"
-
-    footer_font = get_font(38, weight="bold", family=theme.font_family)
-    divider_font = get_font(38, weight="regular", family=theme.font_family)
-
-    # Draw left section (Vector calendar + Date)
-    sec1_x = fx0 + 55
-    draw_vector_calendar_icon(draw2, sec1_x, footer_y + 36, size=38, color=theme.highlight)
-    draw2.text((sec1_x + 54, footer_y + 30), date_str, fill=theme.text_primary, font=footer_font)
-
-    # Central pipe divider
-    pipe_x = fx0 + footer_w // 2 - 10
-    draw2.text((pipe_x, footer_y + 28), "|", fill=(theme.text_secondary[0], theme.text_secondary[1], theme.text_secondary[2], 140), font=divider_font)
-
-    # Draw right section (Vector clock + Time)
-    sec2_x = pipe_x + 55
-    draw_vector_clock_icon(draw2, sec2_x, footer_y + 36, size=38, color=theme.highlight)
-    draw2.text((sec2_x + 54, footer_y + 30), time_text, fill=theme.text_primary, font=footer_font)
-
-    # 6. Downsample from 2400x1260 to 1200x630 using Lanczos for flawless antialiasing
+    # --------------------------------------------------------------------------
+    # 6. Downsample from 2400x1260 to 1200x630 using Lanczos
+    # --------------------------------------------------------------------------
     final_img = img2.resize((width, height), Image.Resampling.LANCZOS).convert("RGB")
     final_img.save(output_path, format="PNG", optimize=True)
     return output_path
@@ -908,7 +1001,7 @@ def generate_all_event_images(
 
 def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> List[str]:
     """
-    Generates preview cards for each of the 10 supported competitions + fallback,
+    Generates preview cards for each of the 11 supported competitions + fallback,
     and stitches them into a labeled contact-sheet.png.
     """
     os.makedirs(output_base_dir, exist_ok=True)
@@ -916,7 +1009,12 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
     sample_matches = [
         {
             "event_id": "champions-league-preview",
-            "competition": {"id": "champions-league", "name": "UEFA Champions League", "round": "Group Stage • MD 1"},
+            "competition": {
+                "id": "champions-league",
+                "name": "UEFA Champions League",
+                "round": "Group Stage • MD 1",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png"
+            },
             "home_team": {"name": "Real Madrid", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"},
             "away_team": {"name": "Manchester City", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"},
             "match_date": "2026-09-16",
@@ -929,7 +1027,12 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
         },
         {
             "event_id": "europa-league-preview",
-            "competition": {"id": "europa-league", "name": "UEFA Europa League", "round": "League Phase • Matchday 1"},
+            "competition": {
+                "id": "europa-league",
+                "name": "UEFA Europa League",
+                "round": "League Phase • Matchday 1",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+            },
             "home_team": {"name": "AC Milan", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png"},
             "away_team": {"name": "Benfica", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png"},
             "match_date": "2026-09-16",
@@ -942,7 +1045,12 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
         },
         {
             "event_id": "conference-league-preview",
-            "competition": {"id": "conference-league", "name": "UEFA Conference League", "round": "League Phase • Matchday 1"},
+            "competition": {
+                "id": "conference-league",
+                "name": "UEFA Conference League",
+                "round": "League Phase • Matchday 1",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/20296.png"
+            },
             "home_team": {"name": "Chelsea", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"},
             "away_team": {"name": "Fiorentina", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png"},
             "match_date": "2026-10-01",
@@ -955,7 +1063,12 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
         },
         {
             "event_id": "premier-league-preview",
-            "competition": {"id": "premier-league", "name": "English Premier League", "round": "Matchday 5"},
+            "competition": {
+                "id": "premier-league",
+                "name": "English Premier League",
+                "round": "Matchday 5",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+            },
             "home_team": {"name": "Arsenal", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"},
             "away_team": {"name": "Tottenham Hotspur", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"},
             "match_date": "2026-09-19",
@@ -967,8 +1080,31 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "carabao-cup-preview",
+            "competition": {
+                "id": "carabao-cup",
+                "name": "English Carabao Cup",
+                "round": "Third Round",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png"
+            },
+            "home_team": {"name": "Liverpool", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"},
+            "away_team": {"name": "West Ham United", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png"},
+            "match_date": "2026-09-23",
+            "match_date_pkt": "2026-09-24",
+            "display_date": "2026-09-24",
+            "display_time": "12:00 AM",
+            "start_time_utc": "2026-09-23T19:00:00Z",
+            "start_time_pkt": "2026-09-24T00:00:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "la-liga-preview",
-            "competition": {"id": "la-liga", "name": "Spanish La Liga", "round": "Jornada 5"},
+            "competition": {
+                "id": "la-liga",
+                "name": "Spanish La Liga",
+                "round": "Jornada 5",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+            },
             "home_team": {"name": "Barcelona", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"},
             "away_team": {"name": "Atlético Madrid", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"},
             "match_date": "2026-09-20",
@@ -981,7 +1117,12 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
         },
         {
             "event_id": "serie-a-preview",
-            "competition": {"id": "serie-a", "name": "Italian Serie A", "round": "Giornata 4"},
+            "competition": {
+                "id": "serie-a",
+                "name": "Italian Serie A",
+                "round": "Giornata 4",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+            },
             "home_team": {"name": "Juventus", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png"},
             "away_team": {"name": "Inter Milan", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"},
             "match_date": "2026-09-19",
@@ -994,7 +1135,12 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
         },
         {
             "event_id": "bundesliga-preview",
-            "competition": {"id": "bundesliga", "name": "German Bundesliga", "round": "Spieltag 4"},
+            "competition": {
+                "id": "bundesliga",
+                "name": "German Bundesliga",
+                "round": "Spieltag 4",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+            },
             "home_team": {"name": "Bayern Munich", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png"},
             "away_team": {"name": "Borussia Dortmund", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png"},
             "match_date": "2026-09-19",
@@ -1007,7 +1153,12 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
         },
         {
             "event_id": "ligue-1-preview",
-            "competition": {"id": "ligue-1", "name": "French Ligue 1", "round": "Journée 5"},
+            "competition": {
+                "id": "ligue-1",
+                "name": "French Ligue 1",
+                "round": "Journée 5",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+            },
             "home_team": {"name": "Paris Saint-Germain", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png"},
             "away_team": {"name": "Marseille", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png"},
             "match_date": "2026-09-20",
@@ -1020,7 +1171,12 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
         },
         {
             "event_id": "championship-preview",
-            "competition": {"id": "championship", "name": "English Championship", "round": "Matchday 6"},
+            "competition": {
+                "id": "championship",
+                "name": "English Championship",
+                "round": "Matchday 6",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+            },
             "home_team": {"name": "Leeds United", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"},
             "away_team": {"name": "Sheffield United", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/398.png"},
             "match_date": "2026-09-19",
@@ -1033,7 +1189,12 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
         },
         {
             "event_id": "world-cup-preview",
-            "competition": {"id": "world-cup", "name": "FIFA World Cup", "round": "Group Stage"},
+            "competition": {
+                "id": "world-cup",
+                "name": "FIFA World Cup",
+                "round": "Group Stage",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/4.png"
+            },
             "home_team": {"name": "Brazil", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/205.png"},
             "away_team": {"name": "France", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/478.png"},
             "match_date": "2026-06-15",
@@ -1046,7 +1207,12 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
         },
         {
             "event_id": "neutral-fallback-preview",
-            "competition": {"id": "unknown-cup", "name": "International Club Friendly", "round": "Pre-Season"},
+            "competition": {
+                "id": "unknown-cup",
+                "name": "International Club Friendly",
+                "round": "Pre-Season",
+                "logo_url": None
+            },
             "home_team": {"name": "Ajax", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png"},
             "away_team": {"name": "Porto", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1920.png"},
             "match_date": "2026-09-22",

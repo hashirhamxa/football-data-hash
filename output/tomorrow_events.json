@@ -4,9 +4,117 @@
   "timezone_label": "PKT (UTC+05:00)",
   "target_date_pkt": "2026-09-17",
   "target_day_name": "Thursday",
-  "generated_at": "2026-09-16T16:19:05.867608+00:00",
-  "total_events": 12,
+  "generated_at": "2026-09-16T17:55:56.393391+00:00",
+  "total_events": 15,
   "events": [
+    {
+      "event_id": "carabao-cup-2026-09-16-coventry-city-aston-villa",
+      "competition": {
+        "id": "carabao-cup",
+        "name": "English Carabao Cup",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-16",
+      "match_date": "2026-09-16",
+      "match_date_utc": "2026-09-16",
+      "match_date_pkt": "2026-09-17",
+      "start_time_utc": "2026-09-16T19:00:00Z",
+      "start_time_pkt": "2026-09-17T00:00:00+05:00",
+      "start_timestamp": 1789585200,
+      "display_date": "2026-09-17",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Coventry City",
+        "slug": "coventry-city",
+        "espn_id": "388",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Coventry City",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Aston Villa",
+        "slug": "aston-villa",
+        "espn_id": "362",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Aston Villa",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.league_cup/scoreboard"
+      },
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/carabao-cup-2026-09-16-coventry-city-aston-villa.png"
+    },
+    {
+      "event_id": "carabao-cup-2026-09-16-manchester-united-brighton-hove-albion",
+      "competition": {
+        "id": "carabao-cup",
+        "name": "English Carabao Cup",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-16",
+      "match_date": "2026-09-16",
+      "match_date_utc": "2026-09-16",
+      "match_date_pkt": "2026-09-17",
+      "start_time_utc": "2026-09-16T19:00:00Z",
+      "start_time_pkt": "2026-09-17T00:00:00+05:00",
+      "start_timestamp": 1789585200,
+      "display_date": "2026-09-17",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Manchester United",
+        "slug": "manchester-united",
+        "espn_id": "360",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Manchester United",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Brighton & Hove Albion",
+        "slug": "brighton-hove-albion",
+        "espn_id": "331",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Brighton & Hove Albion",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.league_cup/scoreboard"
+      },
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/carabao-cup-2026-09-16-manchester-united-brighton-hove-albion.png"
+    },
     {
       "event_id": "europa-league-2026-09-16-ac-milan-benfica",
       "competition": {
@@ -14,7 +122,8 @@
         "name": "UEFA Europa League",
         "country": "Europe",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-16",
@@ -57,7 +166,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-09-16-ac-milan-benfica.png"
     },
     {
@@ -67,7 +176,8 @@
         "name": "UEFA Europa League",
         "country": "Europe",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-16",
@@ -110,7 +220,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-09-16-anderlecht-lyon.png"
     },
     {
@@ -120,7 +230,8 @@
         "name": "UEFA Europa League",
         "country": "Europe",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-16",
@@ -163,7 +274,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-09-16-bayer-leverkusen-nk-celje.png"
     },
     {
@@ -173,7 +284,8 @@
         "name": "UEFA Europa League",
         "country": "Europe",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-16",
@@ -216,7 +328,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-09-16-hapoel-be-er-dinamo-zagreb.png"
     },
     {
@@ -226,7 +338,8 @@
         "name": "UEFA Europa League",
         "country": "Europe",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-16",
@@ -269,7 +382,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-09-16-olympiacos-jagiellonia-bialystok.png"
     },
     {
@@ -279,7 +392,8 @@
         "name": "UEFA Europa League",
         "country": "Europe",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-16",
@@ -322,7 +436,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-09-16-sk-sturm-graz-stade-rennais.png"
     },
     {
@@ -332,7 +446,8 @@
         "name": "UEFA Europa League",
         "country": "Europe",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-16",
@@ -375,7 +490,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-09-16-sunderland-az-alkmaar.png"
     },
     {
@@ -385,7 +500,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-16",
@@ -428,7 +544,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-16-barcelona-racing-santander.png"
     },
     {
@@ -438,7 +554,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-16",
@@ -481,7 +598,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-16-levante-athletic-club.png"
     },
     {
@@ -491,7 +608,8 @@
         "name": "UEFA Europa League",
         "country": "Europe",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-17",
@@ -534,7 +652,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-09-17-levski-sofia-rb-salzburg.png"
     },
     {
@@ -544,7 +662,8 @@
         "name": "UEFA Europa League",
         "country": "Europe",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-17",
@@ -587,7 +706,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-09-17-ofi-crete-tsg-hoffenheim.png"
     },
     {
@@ -597,7 +716,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-17",
@@ -640,8 +760,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-17-real-betis-getafe.png"
+    },
+    {
+      "event_id": "carabao-cup-2026-09-17-manchester-city-norwich-city",
+      "competition": {
+        "id": "carabao-cup",
+        "name": "English Carabao Cup",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-17",
+      "match_date": "2026-09-17",
+      "match_date_utc": "2026-09-17",
+      "match_date_pkt": "2026-09-17",
+      "start_time_utc": "2026-09-17T18:30:00Z",
+      "start_time_pkt": "2026-09-17T23:30:00+05:00",
+      "start_timestamp": 1789669800,
+      "display_date": "2026-09-17",
+      "display_time": "11:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Manchester City",
+        "slug": "manchester-city",
+        "espn_id": "382",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Manchester City",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Norwich City",
+        "slug": "norwich-city",
+        "espn_id": "381",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/381.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Norwich City",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.league_cup/scoreboard"
+      },
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/carabao-cup-2026-09-17-manchester-city-norwich-city.png"
     }
   ]
 }

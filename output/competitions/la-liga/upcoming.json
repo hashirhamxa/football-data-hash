@@ -7,116 +7,10 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-09-16T16:20:50.249853+00:00",
+  "generated_at": "2026-09-16T17:57:00.855498+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 27,
+  "total_events": 25,
   "events": [
-    {
-      "event_id": "la-liga-2026-09-16-atletico-madrid-osasuna",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-09-16",
-      "match_date": "2026-09-16",
-      "match_date_utc": "2026-09-16",
-      "match_date_pkt": "2026-09-16",
-      "start_time_utc": "2026-09-16T17:00:00Z",
-      "start_time_pkt": "2026-09-16T22:00:00+05:00",
-      "start_timestamp": 1789578000,
-      "display_date": "2026-09-16",
-      "display_time": "10:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Atlético Madrid",
-        "slug": "atletico-madrid",
-        "espn_id": "1068",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Atlético Madrid",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Osasuna",
-        "slug": "osasuna",
-        "espn_id": "97",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Osasuna",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-16-atletico-madrid-osasuna.png"
-    },
-    {
-      "event_id": "la-liga-2026-09-16-deportivo-sevilla",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-09-16",
-      "match_date": "2026-09-16",
-      "match_date_utc": "2026-09-16",
-      "match_date_pkt": "2026-09-16",
-      "start_time_utc": "2026-09-16T17:00:00Z",
-      "start_time_pkt": "2026-09-16T22:00:00+05:00",
-      "start_timestamp": 1789578000,
-      "display_date": "2026-09-16",
-      "display_time": "10:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Deportivo",
-        "slug": "deportivo",
-        "espn_id": "90",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Deportivo",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Sevilla",
-        "slug": "sevilla",
-        "espn_id": "243",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Sevilla",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-16-deportivo-sevilla.png"
-    },
     {
       "event_id": "la-liga-2026-09-16-barcelona-racing-santander",
       "competition": {
@@ -124,7 +18,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-16",
@@ -167,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-16-barcelona-racing-santander.png"
     },
     {
@@ -177,7 +72,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-16",
@@ -220,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-16-levante-athletic-club.png"
     },
     {
@@ -230,7 +126,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-17",
@@ -273,7 +170,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-17-real-betis-getafe.png"
     },
     {
@@ -283,7 +180,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-17",
@@ -326,7 +224,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-17-malaga-villarreal.png"
     },
     {
@@ -336,7 +234,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-18",
@@ -379,7 +278,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-18-espanyol-elche.png"
     },
     {
@@ -389,7 +288,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-19",
@@ -432,7 +332,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-osasuna-rayo-vallecano.png"
     },
     {
@@ -442,7 +342,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-19",
@@ -485,7 +386,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-athletic-club-alaves.png"
     },
     {
@@ -495,7 +396,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-19",
@@ -538,7 +440,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-celta-vigo-racing-santander.png"
     },
     {
@@ -548,7 +450,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-19",
@@ -591,7 +494,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-sevilla-barcelona.png"
     },
     {
@@ -601,7 +504,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-20",
@@ -644,7 +548,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-20-getafe-malaga.png"
     },
     {
@@ -654,7 +558,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-20",
@@ -697,7 +602,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-20-atletico-madrid-real-madrid.png"
     },
     {
@@ -707,7 +612,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-20",
@@ -750,7 +656,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-20-deportivo-real-betis.png"
     },
     {
@@ -760,7 +666,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-20",
@@ -803,7 +710,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-20-villarreal-levante.png"
     },
     {
@@ -813,7 +720,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-09-20",
@@ -856,7 +764,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-20-valencia-real-sociedad.png"
     },
     {
@@ -866,7 +774,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-10-09",
@@ -909,7 +818,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-09-malaga-espanyol.png"
     },
     {
@@ -919,7 +828,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-10-10",
@@ -962,7 +872,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-10-rayo-vallecano-athletic-club.png"
     },
     {
@@ -972,7 +882,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-10-10",
@@ -1015,7 +926,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-10-alaves-atletico-madrid.png"
     },
     {
@@ -1025,7 +936,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-10-10",
@@ -1068,7 +980,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-10-barcelona-getafe.png"
     },
     {
@@ -1078,7 +990,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-10-10",
@@ -1121,7 +1034,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-10-real-madrid-villarreal.png"
     },
     {
@@ -1131,7 +1044,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-10-11",
@@ -1174,7 +1088,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-elche-celta-vigo.png"
     },
     {
@@ -1184,7 +1098,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-10-11",
@@ -1227,7 +1142,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-real-sociedad-deportivo.png"
     },
     {
@@ -1237,7 +1152,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-10-11",
@@ -1280,7 +1196,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-real-betis-osasuna.png"
     },
     {
@@ -1290,7 +1206,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-10-11",
@@ -1333,7 +1250,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-racing-santander-valencia.png"
     },
     {
@@ -1343,7 +1260,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-10-12",
@@ -1386,7 +1304,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-12-levante-sevilla.png"
     },
     {
@@ -1396,7 +1314,8 @@
         "name": "Spanish La Liga",
         "country": "Spain",
         "round": "Regular Fixture",
-        "group": null
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-10-16",
@@ -1439,7 +1358,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T16:17:06.732535+00:00",
+      "last_updated": "2026-09-16T17:54:40.828606+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-16-deportivo-levante.png"
     }
   ]

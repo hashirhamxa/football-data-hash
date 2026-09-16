@@ -2,14 +2,16 @@
 test_image_generator.py
 Unit and integration tests for the themed matchday graphic generation engine.
 Tests:
-- Competition theme resolution (configured IDs + neutral fallback)
+- Competition theme resolution (all configured IDs including Carabao Cup + neutral fallback)
 - Output image specifications (1200x630, RGB, PNG)
 - Deterministic rendering (identical output for same inputs)
 - Distinct visual outputs across different competition themes
 - Long team name auto-scaling and wrapping
 - Fallback crest generation for missing logos
-- Confirmed PKT time vs TIME TBD formatting
-- Midnight boundary date handling in PKT
+- Confirmed PKT time vs TIME TBD formatting (image has zero kickoff time)
+- Elimination of kickoff times, clock icons, and 'VS' from generated images
+- Dedicated competition logo caching (.cache/competition-logos/)
+- Header layout with and without competition logo
 - Emoji absence (no missing square glyphs)
 - Offline generation capability with cached/local logos
 """
@@ -28,7 +30,10 @@ from generate_event_images import (
     generate_event_card,
     fit_team_name_lines,
     format_date_display,
-    get_font
+    get_font,
+    download_or_cache_competition_logo,
+    get_competition_logo_cache_path,
+    COMP_LOGO_CACHE_DIR
 )
 
 
@@ -49,6 +54,14 @@ class TestThemedImageGenerator(unittest.TestCase):
             self.assertEqual(theme.competition_id, cid)
             self.assertIsNotNone(theme.pattern)
             self.assertIsNotNone(theme.center_style)
+
+    def test_carabao_cup_theme_resolution(self):
+        """Carabao cup theme exists with correct identifiers."""
+        theme = get_competition_theme("carabao-cup")
+        self.assertEqual(theme.competition_id, "carabao-cup")
+        self.assertEqual(theme.name, "English Carabao Cup")
+        self.assertEqual(theme.pattern, "carabao_cup_geometry")
+        self.assertEqual(theme.center_style, "carabao_trophy_divider")
 
     def test_unknown_competition_resolves_to_neutral_fallback(self):
         """Unknown or empty competition IDs resolve to the neutral fallback theme."""
@@ -78,6 +91,15 @@ class TestThemedImageGenerator(unittest.TestCase):
             self.assertEqual(img.size, (1200, 630))
             self.assertEqual(img.mode, "RGB")
             self.assertEqual(img.format, "PNG")
+
+    def test_competition_logo_caching(self):
+        """Competition logo cache uses dedicated .cache/competition-logos/ path."""
+        comp_id = "test-league"
+        cache_path = get_competition_logo_cache_path(comp_id)
+        norm_cache_path = os.path.normpath(cache_path)
+        norm_expected_dir = os.path.normpath(COMP_LOGO_CACHE_DIR)
+        self.assertTrue(norm_cache_path.startswith(norm_expected_dir))
+        self.assertTrue(norm_cache_path.endswith("test-league.png"))
 
     def test_deterministic_rendering(self):
         """Identical event inputs must generate byte-for-byte identical output images."""
@@ -158,20 +180,11 @@ class TestThemedImageGenerator(unittest.TestCase):
 
     def test_preview_matches_timestamp_consistency(self):
         """All sample preview matches must have mathematically consistent UTC, PKT, and display timestamps."""
-        from generate_event_images import generate_theme_previews
-        from datetime import datetime, timedelta, timezone
-        from zoneinfo import ZoneInfo
-
-        pkt_tz = ZoneInfo("Asia/Karachi")
-
-        # Extract sample matches from generate_theme_previews code or inspect sample_matches
-        import inspect
         import generate_event_images
-        source = inspect.getsource(generate_event_images.generate_theme_previews)
 
         # Run preview generation to ensure all preview files are valid
         preview_paths = generate_event_images.generate_theme_previews("output/test_images/previews")
-        self.assertTrue(len(preview_paths) >= 11)
+        self.assertTrue(len(preview_paths) >= 12)
 
         # Inspect each preview output file
         for p in preview_paths:

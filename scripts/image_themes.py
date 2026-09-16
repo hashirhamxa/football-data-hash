@@ -204,7 +204,26 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="glass_plate"
     ),
 
-    # 10. FIFA World Cup: Deep royal burgundy & navy, celestial gold, global arcs
+    # 10. English Carabao Cup: Deep graphite & navy, dynamic crimson & silver trophy accents
+    "carabao-cup": CompetitionTheme(
+        competition_id="carabao-cup",
+        name="English Carabao Cup",
+        background_top=(14, 18, 28),
+        background_bottom=(8, 12, 22),
+        primary=(235, 30, 45),
+        secondary=(0, 166, 81),
+        highlight=(230, 240, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(195, 210, 230),
+        panel_color=(22, 28, 42, 230),
+        panel_border=(235, 30, 45, 190),
+        pattern="carabao_cup_geometry",
+        center_style="carabao_trophy_divider",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 11. FIFA World Cup: Deep royal burgundy & navy, celestial gold, global arcs
     "world-cup": CompetitionTheme(
         competition_id="world-cup",
         name="FIFA World Cup",
@@ -223,7 +242,7 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="halo"
     ),
 
-    # 11. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 12. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

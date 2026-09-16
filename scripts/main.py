@@ -6,8 +6,9 @@ Executes:
 2. Normalizing fixtures and timezone conversions (UTC & PKT)
 3. Resolving team logos with fallback handling
 4. Generating matchday broadcast card graphics
-5. Validating output schemas with Pydantic
-6. Publishing finalized JSON deliverables and execution summary
+5. Generating Today & Tomorrow dedicated PKT event feeds
+6. Validating output schemas with Pydantic
+7. Publishing finalized JSON deliverables and execution summary
 """
 
 import json
@@ -16,15 +17,20 @@ import os
 import sys
 import time
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 from fetch_fixtures import fetch_all_fixtures
 from normalize_fixtures import normalize_all_fixtures
 from resolve_logos import LogoResolver
 from generate_event_images import generate_all_event_images
 from validate_output import validate_json_file
+from fetch_today_events import generate_today_events_file
+from fetch_tomorrow_events import generate_tomorrow_events_file
 
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s: %(message)s")
 logger = logging.getLogger("pipeline_main")
+
+PKT_TZ = ZoneInfo("Asia/Karachi")
 
 
 def load_json(filepath: str):
@@ -55,6 +61,8 @@ def run_pipeline():
     # 2. Normalize fixtures
     logger.info("--- Step 2: Normalizing Fixtures ---")
     now_utc = datetime.now(timezone.utc)
+    now_pkt = datetime.now(PKT_TZ)
+    
     events = normalize_all_fixtures(
         raw_fixtures_data=raw_fixtures,
         ref_now=now_utc,
@@ -131,7 +139,7 @@ def run_pipeline():
         "events": events
     }
 
-    # Save JSON artifacts
+    # Save upcoming_events.json
     os.makedirs("output", exist_ok=True)
     events_json_path = "output/upcoming_events.json"
     with open(events_json_path, "w", encoding="utf-8") as f:
@@ -143,22 +151,31 @@ def run_pipeline():
     with open(status_json_path, "w", encoding="utf-8") as f:
         json.dump({"statuses": statuses, "updated_at": now_utc.isoformat()}, f, indent=2, ensure_ascii=False)
 
+    # 6. Generate Today & Tomorrow PKT feeds
+    logger.info("--- Step 5: Generating Today & Tomorrow PKT Feeds ---")
+    today_res = generate_today_events_file(upcoming_events_path=events_json_path, output_path="output/today_events.json", now_pkt=now_pkt)
+    tomorrow_res = generate_tomorrow_events_file(upcoming_events_path=events_json_path, output_path="output/tomorrow_events.json", now_pkt=now_pkt)
+
     logger.info("Saved JSON deliverables to output/ directory.")
 
-    # 6. Validate output
+    # 7. Validate output
     logger.info("--- Step 6: Validating Output Artifacts ---")
     validation_passed = validate_json_file(events_json_path, check_images=True)
 
     elapsed = time.time() - start_time
 
-    # 7. Print Execution Report
+    # 8. Print Execution Report
     print("\n" + "=" * 70)
     print("              FOOTBALL EVENTS PIPELINE EXECUTION REPORT")
     print("=" * 70)
-    print(f"Timestamp:       {now_utc.isoformat()}")
-    print(f"Execution Time:  {elapsed:.2f} seconds")
-    print(f"Total Events:    {len(events)} matches")
-    print(f"Validation:      {'PASSED' if validation_passed else 'FAILED'}")
+    print(f"Timestamp (UTC):  {now_utc.isoformat()}")
+    print(f"Timestamp (PKT):  {now_pkt.isoformat()}")
+    print(f"Execution Time:   {elapsed:.2f} seconds")
+    print(f"Total Upcoming:   {len(events)} matches (Next {date_range_days} Days)")
+    print(f"Today (PKT):      {today_res.get('total_events', 0)} matches ({now_pkt.strftime('%Y-%m-%d')})")
+    print(f"Tomorrow (PKT):   {tomorrow_res.get('total_events', 0)} matches ({tomorrow_res.get('target_date_pkt')})")
+    print(f"Validation:       {'PASSED' if validation_passed else 'FAILED'}")
+    
     print("\n[Competitions Monitored]:")
     for s in statuses:
         status_symbol = "OK" if s["status"] == "available" else "UNAVAILABLE"
@@ -172,12 +189,13 @@ def run_pipeline():
     print(f"  * Fallback Badges:  {logo_stats.get('fallback', 0)} ({logo_stats.get('fallback', 0)/max(1, logo_stats['total'])*100:.1f}%)")
     print(f"  * Total Logos:      {logo_stats['total']}")
 
-    print("\n[Deliverable Files]:")
-    print(f"  * Events JSON:       output/upcoming_events.json")
+    print("\n[Deliverable Files & Raw Endpoints]:")
+    print(f"  * Upcoming Events:   {raw_base_url}/output/upcoming_events.json")
+    print(f"  * Today Events PKT:  {raw_base_url}/output/today_events.json")
+    print(f"  * Tomorrow Events:   {raw_base_url}/output/tomorrow_events.json")
     print(f"  * Competition Log:   output/competition_status.json")
     print(f"  * Unmatched Report:  output/unmatched_teams.json")
     print(f"  * Generated Images:  output/images/ ({len(events)} images generated)")
-    print(f"  * Android Raw URL:   {raw_base_url}/output/upcoming_events.json")
     print("=" * 70 + "\n")
 
     if not validation_passed:

@@ -12,11 +12,13 @@ A production-ready automated pipeline that ingests upcoming football fixtures, r
 
 ## 🚀 Live Raw Endpoints (Android Ready)
 
-Your Android or client application can consume the published JSON and images directly:
+Your Android or client application can consume the published JSON feeds and match images directly:
 
 | Artifact | Raw GitHub Endpoint | Description |
 | :--- | :--- | :--- |
-| **Upcoming Events JSON** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/upcoming_events.json` | Main payload of upcoming matches |
+| **Today's Events (PKT)** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/today_events.json` | Upcoming matches scheduled for **Today in Pakistan Time (PKT)** |
+| **Tomorrow's Events (PKT)** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/tomorrow_events.json` | Matches scheduled for **Tomorrow in Pakistan Time (PKT)** |
+| **All Upcoming Events** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/upcoming_events.json` | Complete upcoming fixtures for the next 30 days |
 | **Competition Status** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competition_status.json` | Availability and season metadata |
 | **Unmatched Teams** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/unmatched_teams.json` | Teams using fallback initials badges |
 | **Match Banner Images** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/{event_id}.png` | Broadcast 1200x630 match graphics |
@@ -25,25 +27,22 @@ Your Android or client application can consume the published JSON and images dir
 
 ## 📱 Android Integration Guide
 
-### 1. Kotlin Data Models (Kotlinx Serialization or Gson/Moshi)
+### 1. Kotlin Data Models (Kotlinx Serialization / Gson / Moshi)
 
 ```kotlin
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.SerialName
 
 @Serializable
-data class UpcomingEventsResponse(
+data class EventsFeedResponse(
     val version: String,
+    val timezone: String? = null,
+    @SerialName("timezone_label") val timezoneLabel: String? = null,
+    @SerialName("target_date_pkt") val targetDatePkt: String? = null,
+    @SerialName("target_day_name") val targetDayName: String? = null,
     @SerialName("generated_at") val generatedAt: String,
     @SerialName("total_events") val totalEvents: Int,
-    @SerialName("date_range") val dateRange: DateRange,
     val events: List<FootballEvent>
-)
-
-@Serializable
-data class DateRange(
-    @SerialName("start_date") val startDate: String,
-    @SerialName("days_ahead") val daysAhead: Int
 )
 
 @Serializable
@@ -95,8 +94,17 @@ data class LogoResolution(
 import retrofit2.http.GET
 
 interface FootballEventsApi {
+    // 1. Today's matches in Pakistan Time (PKT)
+    @GET("hashirhamxa/football-data-hash/main/output/today_events.json")
+    suspend fun getTodayEventsPKT(): EventsFeedResponse
+
+    // 2. Tomorrow's matches in Pakistan Time (PKT)
+    @GET("hashirhamxa/football-data-hash/main/output/tomorrow_events.json")
+    suspend fun getTomorrowEventsPKT(): EventsFeedResponse
+
+    // 3. Full upcoming 30-day schedule
     @GET("hashirhamxa/football-data-hash/main/output/upcoming_events.json")
-    suspend fun getUpcomingEvents(): UpcomingEventsResponse
+    suspend fun getAllUpcomingEvents(): EventsFeedResponse
 }
 ```
 
@@ -139,8 +147,6 @@ Every fixture automatically generates a unique 1200x630 matchday banner featurin
 | **UEFA Europa League** | Europe | `uefa.el.json` | `Europe/Paris` | `UNAVAILABLE` (Upstream Pending) |
 | **FIFA World Cup** | International | `worldcup.json` | `UTC` | `UNAVAILABLE` (Upstream Pending) |
 
-*Note: In accordance with project requirements, if an upstream competition is not yet populated by OpenFootball, it is recorded cleanly as unavailable without injecting synthetic or fake matches.*
-
 ---
 
 ## ⚖️ Upstream Data Sources & Licenses
@@ -170,7 +176,9 @@ football-events/
 │   ├── team_aliases.json           # Explicit team name to logo mappings
 │   └── logo_index.json             # Fast indexed catalog of 2,160+ team logos
 ├── output/
-│   ├── upcoming_events.json        # Published normalized events JSON
+│   ├── upcoming_events.json        # 30-day upcoming events feed
+│   ├── today_events.json           # Today's matches feed in PKT
+│   ├── tomorrow_events.json        # Tomorrow's matches feed in PKT
 │   ├── competition_status.json     # Upstream status report
 │   ├── unmatched_teams.json        # Fallback/low-confidence teams report
 │   └── images/                     # Generated 1200x630 matchday banner cards
@@ -179,12 +187,15 @@ football-events/
 │   ├── normalize_fixtures.py       # Timezone conversions and event normalization
 │   ├── resolve_logos.py            # Multi-tier deterministic logo resolver
 │   ├── generate_event_images.py    # Multi-threaded Pillow banner generator
+│   ├── fetch_today_events.py       # Today (PKT) filter & publisher
+│   ├── fetch_tomorrow_events.py    # Tomorrow (PKT) filter & publisher
 │   ├── validate_output.py          # Pydantic schema validation
 │   └── main.py                     # Pipeline orchestrator
 ├── tests/
 │   ├── test_normalize.py           # Timezone & normalization unit tests
 │   ├── test_logo_resolver.py       # Matching & alias unit tests
 │   ├── test_image_generator.py     # Banner rendering tests
+│   ├── test_today_tomorrow.py      # PKT Today/Tomorrow unit tests
 │   └── test_validation.py          # Pydantic validation tests
 ├── .gitignore
 ├── LICENSE
@@ -196,43 +207,21 @@ football-events/
 
 ## 🛠️ Local Development & Testing
 
-### 1. Install Dependencies
-```bash
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-### 2. Run Test Suite
-```bash
-python -m unittest discover -s tests -p "test_*.py" -v
-```
-
-### 3. Run Pipeline Locally
+### 1. Run Pipeline
 ```bash
 python scripts/main.py
 ```
 
-### 4. Validate Output Schema
+### 2. Run Today or Tomorrow Separately
 ```bash
-python scripts/validate_output.py output/upcoming_events.json
+# Today's matches in PKT
+python scripts/fetch_today_events.py
+
+# Tomorrow's matches in PKT
+python scripts/fetch_tomorrow_events.py
 ```
 
----
-
-## ➕ Adding New Competitions
-
-To monitor an additional league (e.g. Dutch Eredivisie, Portuguese Liga, or Turkish Super Lig), simply append a new entry to `config/competitions.json`:
-
-```json
-{
-  "id": "eredivisie",
-  "name": "Dutch Eredivisie",
-  "country": "Netherlands",
-  "source_file": "nl.1.json",
-  "source_timezone": "Europe/Amsterdam",
-  "logo_league_dir": "Netherlands - Eredivisie",
-  "enabled": true
-}
+### 3. Run Test Suite
+```bash
+python -m unittest discover -s tests -p "test_*.py" -v
 ```
-
-No changes to core Python code are required.

@@ -1,0 +1,107 @@
+{
+  "version": "1.0.0",
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "target_date_pkt": "2026-09-16",
+  "target_day_name": "Wednesday",
+  "generated_at": "2026-09-16T14:22:01.319116+00:00",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "la-liga-2026-09-16-club-atletico-de-madrid-ca-osasuna",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-09-16",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-16T17:00:00Z",
+      "start_time_pkt": "2026-09-16T22:00:00+05:00",
+      "start_timestamp": 1789578000,
+      "source_timezone": "Europe/Madrid",
+      "home_team": {
+        "name": "Club Atlético de Madrid",
+        "slug": "club-atletico-de-madrid",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Atlético de Madrid",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "CA Osasuna",
+        "slug": "ca-osasuna",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/CA%20Osasuna.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "CA Osasuna",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "es.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:13:46.621012+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-16-club-atletico-de-madrid-ca-osasuna.png"
+    },
+    {
+      "event_id": "la-liga-2026-09-16-rc-deportivo-la-coruna-sevilla-fc",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-09-16",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-16T17:00:00Z",
+      "start_time_pkt": "2026-09-16T22:00:00+05:00",
+      "start_timestamp": 1789578000,
+      "source_timezone": "Europe/Madrid",
+      "home_team": {
+        "name": "RC Deportivo La Coruña",
+        "slug": "rc-deportivo-la-coruna",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Deportivo%20A%20Coru%C3%B1a.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Deportivo A Coruña",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Sevilla FC",
+        "slug": "sevilla-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Sevilla%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Sevilla FC",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "es.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:13:46.621012+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-16-rc-deportivo-la-coruna-sevilla-fc.png"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "version": "1.0.0",
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "target_date_pkt": "2026-09-17",
+  "target_day_name": "Thursday",
+  "generated_at": "2026-09-16T14:22:01.646299+00:00",
+  "total_events": 3,
+  "events": [
+    {
+      "event_id": "la-liga-2026-09-16-fc-barcelona-real-racing-club-de-santander",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-09-16",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-16T19:30:00Z",
+      "start_time_pkt": "2026-09-17T00:30:00+05:00",
+      "start_timestamp": 1789587000,
+      "source_timezone": "Europe/Madrid",
+      "home_team": {
+        "name": "FC Barcelona",
+        "slug": "fc-barcelona",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "FC Barcelona",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Real Racing Club de Santander",
+        "slug": "real-racing-club-de-santander",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Racing%20Santander.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Racing Santander",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "es.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:13:46.621012+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-16-fc-barcelona-real-racing-club-de-santander.png"
+    },
+    {
+      "event_id": "la-liga-2026-09-16-levante-ud-athletic-club",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-09-16",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-16T19:30:00Z",
+      "start_time_pkt": "2026-09-17T00:30:00+05:00",
+      "start_timestamp": 1789587000,
+      "source_timezone": "Europe/Madrid",
+      "home_team": {
+        "name": "Levante UD",
+        "slug": "levante-ud",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Levante%20UD.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Levante UD",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Athletic Club",
+        "slug": "athletic-club",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Athletic Bilbao",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "es.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:13:46.621012+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-16-levante-ud-athletic-club.png"
+    },
+    {
+      "event_id": "la-liga-2026-09-17-real-betis-balompie-getafe-cf",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-09-17",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-17T17:00:00Z",
+      "start_time_pkt": "2026-09-17T22:00:00+05:00",
+      "start_timestamp": 1789664400,
+      "source_timezone": "Europe/Madrid",
+      "home_team": {
+        "name": "Real Betis Balompié",
+        "slug": "real-betis-balompie",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Real Betis Balompié",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Getafe CF",
+        "slug": "getafe-cf",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Getafe%20CF.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Getafe CF",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "es.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:13:46.621012+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-17-real-betis-balompie-getafe-cf.png"
+    }
+  ]
+}

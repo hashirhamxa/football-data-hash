@@ -50,7 +50,7 @@ def generate_all_competition_feeds(
     today_date = now_pkt.date()
     tomorrow_dt = now_pkt + timedelta(days=1)
     tomorrow_date = tomorrow_dt.date()
-    
+
     today_date_str = now_pkt.strftime("%Y-%m-%d")
     tomorrow_date_str = tomorrow_dt.strftime("%Y-%m-%d")
 

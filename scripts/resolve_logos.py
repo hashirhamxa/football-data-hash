@@ -44,10 +44,10 @@ def normalize_team_name(name: str) -> str:
     """
     if not name:
         return ""
-    
+
     text = clean_unicode(name).lower()
     text = re.sub(r"[\.\,\'\`\-\_\(\)\/\&\@\+]", " ", text)
-    
+
     stop_words = {
         "fc", "afc", "cf", "sc", "ac", "ssc", "bc", "as", "ogc", "rc", "cd", "ca",
         "ud", "rcd", "aj", "bsc", "sv", "vfb", "vfl", "tsv", "fsv", "sk", "gnk",
@@ -57,11 +57,11 @@ def normalize_team_name(name: str) -> str:
         "1913", "1893", "1902", "1905", "1907", "1923", "1948", "04", "05", "07", "09",
         "1", "2", "3", "ev", "e.v", "athletic", "atletico"
     }
-    
+
     tokens = [t for t in text.split() if t and t not in stop_words]
     if not tokens:
         tokens = [t for t in text.split() if t]
-        
+
     return " ".join(tokens)
 
 
@@ -80,7 +80,7 @@ def get_team_initials(name: str) -> str:
     meaningful = [w for w in words if w.upper() not in ["FC", "AFC", "CF", "SC", "AC", "DE", "LA", "EL", "THE", "OF", "1.", "1901", "1909", "1899", "04", "05"]]
     if not meaningful:
         meaningful = words
-        
+
     if len(meaningful) == 1:
         return meaningful[0][:3].upper()
     elif len(meaningful) == 2:
@@ -113,19 +113,19 @@ def get_team_color_palette(name: str) -> Tuple[Tuple[int, int, int], Tuple[int, 
 def generate_fallback_badge(team_name: str, output_path: str, size: int = 256) -> str:
     """Creates a fallback badge image with team initials and saves to disk."""
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    
+
     bg_color, text_color = get_team_color_palette(team_name)
     initials = get_team_initials(team_name)
-    
+
     img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
     draw = ImageDraw.Draw(img)
-    
+
     pad = 12
     draw.ellipse([pad, pad, size - pad, size - pad], fill=bg_color, outline=(255, 255, 255, 180), width=6)
-    
+
     inner_pad = 22
     draw.ellipse([inner_pad, inner_pad, size - inner_pad, size - inner_pad], outline=(255, 255, 255, 100), width=2)
-    
+
     try:
         font_paths = [
             "C:/Windows/Fonts/arialbd.ttf",
@@ -148,7 +148,7 @@ def generate_fallback_badge(team_name: str, output_path: str, size: int = 256) -
     h = bbox[3] - bbox[1]
     x = (size - w) / 2 - bbox[0]
     y = (size - h) / 2 - bbox[1]
-    
+
     draw.text((x, y), initials, fill=text_color, font=font)
     img.save(output_path, format="PNG")
     return output_path
@@ -162,20 +162,20 @@ class LogoResolver:
     ):
         with open(settings_path, "r", encoding="utf-8-sig") as f:
             self.settings = json.load(f)
-            
+
         with open(aliases_path, "r", encoding="utf-8-sig") as f:
             self.aliases = json.load(f).get("aliases", {})
-            
+
         self.primary_raw_base = self.settings["data_sources"]["primary_logos"]["raw_base"]
         self.fallback_raw_base = self.settings["data_sources"]["fallback_logos"]["raw_base"]
         self.fuzzy_threshold = self.settings.get("fuzzy_match_threshold", 0.80)
-        
+
         self.repo_slug = self.settings.get("github_repo", "Bicodes/Football-Events")
         self.branch = self.settings.get("github_branch", "main")
-        
+
         self.indexed_logos: List[Dict[str, Any]] = []
         self.unmatched_teams: Dict[str, Dict[str, Any]] = {}
-        
+
         self._load_logo_index()
 
     def _load_logo_index(self):
@@ -217,7 +217,7 @@ class LogoResolver:
         if team_name in self.aliases:
             alias_target = self.aliases[team_name]
             alias_norm = normalize_team_name(alias_target)
-            
+
             # Match in preferred league
             for item in sorted(self.indexed_logos, key=lambda x: x.get("priority", 1)):
                 if league_dir_hint and item.get("league_dir") == league_dir_hint:
@@ -281,7 +281,7 @@ class LogoResolver:
         # 4. Fuzzy match against catalog (ensuring stem similarity)
         best_match = None
         best_score = 0.0
-        
+
         for item in self.indexed_logos:
             if stem_query and item.get("stem"):
                 stem_ratio = SequenceMatcher(None, stem_query, item["stem"]).ratio()
@@ -291,10 +291,10 @@ class LogoResolver:
             score1 = SequenceMatcher(None, norm_query, item["norm_name"]).ratio()
             score2 = SequenceMatcher(None, raw_query_lower, item["raw_name"].lower()).ratio()
             score = max(score1, score2)
-            
+
             if league_dir_hint and item.get("league_dir") == league_dir_hint:
                 score += 0.05
-                
+
             if score > best_score:
                 best_score = score
                 best_match = item
@@ -315,9 +315,9 @@ class LogoResolver:
         fallback_filename = f"{team_slug}.png"
         fallback_local_path = f"output/images/fallbacks/{fallback_filename}"
         generate_fallback_badge(team_name, fallback_local_path)
-        
+
         fallback_raw_url = f"https://raw.githubusercontent.com/{self.repo_slug}/{self.branch}/output/images/fallbacks/{fallback_filename}"
-        
+
         self.unmatched_teams[team_name] = {
             "team_name": team_name,
             "normalized_query": norm_query,
@@ -326,7 +326,7 @@ class LogoResolver:
             "best_fuzzy_score": round(best_score, 2) if best_match else 0.0,
             "fallback_url": fallback_raw_url
         }
-        
+
         logger.info(f"Generated fallback logo badge for team: '{team_name}'")
         return {
             "url": fallback_raw_url,

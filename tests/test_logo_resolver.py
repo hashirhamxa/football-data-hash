@@ -36,7 +36,7 @@ class TestLogoResolver(unittest.TestCase):
         out_path = "output/images/fallbacks/test_dummy_team.png"
         generated_path = generate_fallback_badge("Test Dummy FC", out_path)
         self.assertTrue(os.path.exists(generated_path))
-        
+
         # Test resolver returns fallback
         res = self.resolver.resolve("NonExistentFootballTeamXYZ 2099", None)
         self.assertEqual(res["source"], "fallback")

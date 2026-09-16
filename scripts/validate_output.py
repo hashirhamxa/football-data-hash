@@ -149,7 +149,7 @@ def validate_json_file(filepath: str, check_images: bool = True) -> bool:
     try:
         validated = UpcomingEventsRootModel.model_validate(data)
         logger.info(f"JSON Schema and Integrity validation PASSED for {len(validated.events)} events.")
-        
+
         if check_images:
             missing_images = 0
             for ev in validated.events:

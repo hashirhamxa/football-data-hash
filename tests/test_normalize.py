@@ -116,16 +116,16 @@ class TestNormalizeFixtures(unittest.TestCase):
             "source_file": "en.1.json"
         }
         comp_status = {"season": "2026-27", "provider": "OpenFootball"}
-        
+
         matches = [
             {"date_str": "2026-09-25", "time_str": "15:00", "home_team": {"name": "Liverpool FC"}, "away_team": {"name": "Everton FC"}},
             {"date_str": "2026-09-20", "time_str": "15:00", "home_team": {"name": "Arsenal FC"}, "away_team": {"name": "Chelsea FC"}},
             {"date_str": "2026-09-20", "time_str": "15:00", "home_team": {"name": "Arsenal FC"}, "away_team": {"name": "Chelsea FC"}} # duplicate
         ]
-        
+
         raw_fixtures = {"premier-league": {"config": comp_config, "status": comp_status, "matches": matches}}
         events = normalize_all_fixtures(raw_fixtures, ref_now=ref_now, date_range_days=30)
-        
+
         self.assertEqual(len(events), 2)
         self.assertEqual(events[0]["event_id"], "premier-league-2026-09-20-arsenal-fc-chelsea-fc")
         self.assertEqual(events[1]["event_id"], "premier-league-2026-09-25-liverpool-fc-everton-fc")

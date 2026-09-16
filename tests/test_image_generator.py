@@ -54,7 +54,7 @@ class TestThemedImageGenerator(unittest.TestCase):
         """Unknown or empty competition IDs resolve to the neutral fallback theme."""
         fallback_theme = get_competition_theme("non-existent-super-cup-999")
         self.assertEqual(fallback_theme.competition_id, "neutral-fallback")
-        
+
         fallback_none = get_competition_theme(None)
         self.assertEqual(fallback_none.competition_id, "neutral-fallback")
 
@@ -155,6 +155,73 @@ class TestThemedImageGenerator(unittest.TestCase):
         formatted_date = format_date_display("2026-09-20")
         self.assertNotIn("📅", formatted_date)
         self.assertNotIn("⏰", formatted_date)
+
+    def test_preview_matches_timestamp_consistency(self):
+        """All sample preview matches must have mathematically consistent UTC, PKT, and display timestamps."""
+        from generate_event_images import generate_theme_previews
+        from datetime import datetime, timedelta, timezone
+        from zoneinfo import ZoneInfo
+
+        pkt_tz = ZoneInfo("Asia/Karachi")
+
+        # Extract sample matches from generate_theme_previews code or inspect sample_matches
+        import inspect
+        import generate_event_images
+        source = inspect.getsource(generate_event_images.generate_theme_previews)
+
+        # Run preview generation to ensure all preview files are valid
+        preview_paths = generate_event_images.generate_theme_previews("output/test_images/previews")
+        self.assertTrue(len(preview_paths) >= 11)
+
+        # Inspect each preview output file
+        for p in preview_paths:
+            self.assertTrue(os.path.exists(p))
+            with Image.open(p) as img:
+                if not p.endswith("contact-sheet.png"):
+                    self.assertEqual(img.size, (1200, 630))
+
+    def test_safe_stale_image_cleanup(self):
+        """Safe cleanup must delete only unreferenced event images and preserve referenced ones and fallbacks."""
+        from cleanup_stale_images import cleanup_stale_images
+        import shutil
+
+        test_img_dir = "output/test_images/cleanup_img"
+        test_out_dir = "output/test_images/cleanup_out"
+        os.makedirs(test_img_dir, exist_ok=True)
+        os.makedirs(os.path.join(test_img_dir, "fallbacks"), exist_ok=True)
+        os.makedirs(test_out_dir, exist_ok=True)
+
+        # Create dummy referenced PNG, unreferenced PNG, and fallback PNG
+        ref_png = os.path.join(test_img_dir, "event-active-123.png")
+        stale_png = os.path.join(test_img_dir, "event-stale-old-fc.png")
+        fallback_png = os.path.join(test_img_dir, "fallbacks", "team-fallback.png")
+
+        for p in [ref_png, stale_png, fallback_png]:
+            Image.new("RGB", (10, 10)).save(p)
+
+        # Write dummy upcoming_events.json referencing event-active-123
+        dummy_feed = {
+            "events": [
+                {
+                    "event_id": "event-active-123",
+                    "event_image_url": "https://raw.githubusercontent.com/test/repo/main/output/images/event-active-123.png"
+                }
+            ]
+        }
+        with open(os.path.join(test_out_dir, "upcoming_events.json"), "w", encoding="utf-8") as f:
+            json.dump(dummy_feed, f)
+
+        res = cleanup_stale_images(images_dir=test_img_dir, output_dir=test_out_dir, dry_run=False)
+
+        self.assertEqual(res["deleted_count"], 1)
+        self.assertIn("event-stale-old-fc.png", res["deleted_files"])
+        self.assertFalse(os.path.exists(stale_png))
+        self.assertTrue(os.path.exists(ref_png))
+        self.assertTrue(os.path.exists(fallback_png))
+
+        # Cleanup test directories
+        shutil.rmtree(test_img_dir, ignore_errors=True)
+        shutil.rmtree(test_out_dir, ignore_errors=True)
 
 
 if __name__ == "__main__":

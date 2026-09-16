@@ -80,7 +80,7 @@ class ESPNFixtureAdapter(BaseFixtureAdapter):
         competitions = event.get("competitions", [])
         if not competitions:
             return None
-        
+
         main_comp = competitions[0]
         competitors = main_comp.get("competitors", [])
         if len(competitors) < 2:

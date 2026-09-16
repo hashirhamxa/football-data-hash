@@ -28,7 +28,7 @@ class TestCompetitionFeeds(unittest.TestCase):
             for feed_name in ["today.json", "tomorrow.json", "upcoming.json"]:
                 fpath = os.path.join("output", "competitions", comp_id, feed_name)
                 self.assertTrue(os.path.exists(fpath), f"Missing feed file: {fpath}")
-                
+
                 with open(fpath, "r", encoding="utf-8") as f:
                     data = json.load(f)
                     self.assertEqual(data["competition"]["id"], comp_id)

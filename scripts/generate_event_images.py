@@ -128,7 +128,7 @@ def fit_team_name_lines(
     Returns (lines_of_text, font_object, total_height).
     """
     clean_name = re.sub(r"\s+", " ", name.strip())
-    
+
     # 1. Try single line with decreasing font sizes
     for size in range(initial_size, min_size - 1, -2):
         f = get_font(size=size, weight="bold", family=family)
@@ -146,7 +146,7 @@ def fit_team_name_lines(
         mid = (len(words) + 1) // 2
         line1 = " ".join(words[:mid])
         line2 = " ".join(words[mid:])
-        
+
         for size in range(initial_size - 6, min_size - 1, -2):
             f = get_font(size=size, weight="bold", family=family)
             dummy_img = Image.new("RGBA", (1, 1))
@@ -204,7 +204,7 @@ def download_or_cache_logo(url: str, team_name: str) -> Optional[Image.Image]:
     """Downloads team logo with local caching and returns a PIL Image."""
     if not url:
         return None
-        
+
     cache_file = get_cache_path(team_name)
     if os.path.exists(cache_file):
         try:
@@ -296,7 +296,7 @@ def create_themed_background(
     All random visual elements are seeded deterministically from seed_str.
     """
     h_val = int(hashlib.md5((theme.competition_id + seed_str).encode("utf-8")).hexdigest()[:8], 16)
-    
+
     # 1. Base Vertical Multi-stop Gradient
     img = Image.new("RGBA", (width, height), (theme.background_top[0], theme.background_top[1], theme.background_top[2], 255))
     draw = ImageDraw.Draw(img)
@@ -313,7 +313,7 @@ def create_themed_background(
     # 2. Team Crest Soft Spotlights (left and right)
     spotlights = Image.new("RGBA", (width, height), (0, 0, 0, 0))
     spot_draw = ImageDraw.Draw(spotlights)
-    
+
     left_cx = width // 4 + 30
     right_cx = width * 3 // 4 - 30
     center_y = height // 2 - 40
@@ -448,8 +448,8 @@ def draw_themed_crest_plate(
     card_size: int = 420
 ):
     """
-    Renders a prominent team logo inside a theme-matched visual plate with drop-shadow and back-glow.
-    All coordinates in 2x supersampled space.
+    Renders a prominent team logo inside a theme-matched visual plate with drop-shadow,
+    theme-specific container styles, and back-glow. All coordinates in 2x supersampled space.
     """
     card = Image.new("RGBA", base.size, (0, 0, 0, 0))
     draw = ImageDraw.Draw(card)
@@ -460,21 +460,69 @@ def draw_themed_crest_plate(
     y1 = cy + card_size // 2
 
     # Drop shadow
-    shadow_pad = 20
+    shadow_pad = 22
     draw.rounded_rectangle(
         [x0 - shadow_pad, y0 - shadow_pad + 8, x1 + shadow_pad, y1 + shadow_pad + 8],
         radius=52,
-        fill=(0, 0, 0, 120)
+        fill=(0, 0, 0, 135)
     )
 
-    # Card Plate Fill & Border
-    draw.rounded_rectangle(
-        [x0, y0, x1, y1],
-        radius=44,
-        fill=theme.panel_color,
-        outline=theme.panel_border,
-        width=5
-    )
+    style = theme.crest_container_style
+
+    if style == "halo":
+        # Luminous celestial outer halo ring (UCL, World Cup)
+        halo_pad = 24
+        draw.rounded_rectangle(
+            [x0 - halo_pad, y0 - halo_pad, x1 + halo_pad, y1 + halo_pad],
+            radius=60,
+            outline=(theme.highlight[0], theme.highlight[1], theme.highlight[2], 75),
+            width=3
+        )
+        draw.rounded_rectangle(
+            [x0, y0, x1, y1],
+            radius=44,
+            fill=theme.panel_color,
+            outline=theme.panel_border,
+            width=5
+        )
+    elif style == "metallic":
+        # 3D bevel / chamfered plate (UEL, Serie A)
+        draw.rounded_rectangle(
+            [x0 - 4, y0 - 4, x1 + 4, y1 + 4],
+            radius=48,
+            outline=(theme.primary[0], theme.primary[1], theme.primary[2], 110),
+            width=4
+        )
+        draw.rounded_rectangle(
+            [x0, y0, x1, y1],
+            radius=44,
+            fill=theme.panel_color,
+            outline=theme.panel_border,
+            width=5
+        )
+    elif style == "modern_frame":
+        # Sharp technical framing with corner ticks (Premier League, Bundesliga)
+        draw.rounded_rectangle(
+            [x0, y0, x1, y1],
+            radius=36,
+            fill=theme.panel_color,
+            outline=theme.panel_border,
+            width=5
+        )
+        tick_len = 32
+        draw.line([(x0, y0), (x0 + tick_len, y0)], fill=theme.highlight, width=6)
+        draw.line([(x0, y0), (x0, y0 + tick_len)], fill=theme.highlight, width=6)
+        draw.line([(x1, y1), (x1 - tick_len, y1)], fill=theme.highlight, width=6)
+        draw.line([(x1, y1), (x1, y1 - tick_len)], fill=theme.highlight, width=6)
+    else:
+        # Polished glass plate
+        draw.rounded_rectangle(
+            [x0, y0, x1, y1],
+            radius=44,
+            fill=theme.panel_color,
+            outline=theme.panel_border,
+            width=5
+        )
 
     # Subtle inner gloss reflection
     draw.rounded_rectangle(
@@ -496,7 +544,7 @@ def draw_themed_crest_plate(
         resized_logo = logo_img.resize((new_w, new_h), Image.Resampling.LANCZOS)
         pos_x = cx - new_w // 2
         pos_y = cy - new_h // 2
-        
+
         base.paste(resized_logo, (pos_x, pos_y), resized_logo)
     else:
         initials = team_name[:3].upper() if team_name else "FC"
@@ -509,100 +557,119 @@ def draw_themed_crest_plate(
 
 
 # ==============================================================================
-# 6. Themed Central Match Divider (Replacing Generic VS Circle)
+# 6. Themed Central Match Device (Prominent PKT Time, Zero "VS")
 # ==============================================================================
 
 def draw_themed_center_divider(
     draw: ImageDraw.Draw,
     cx: int,
     cy: int,
-    theme: CompetitionTheme
+    theme: CompetitionTheme,
+    pkt_time_text: str = "MATCHDAY",
+    is_confirmed: bool = True
 ):
     """
-    Renders an elegant, theme-specific central divider.
+    Renders an elegant, theme-specific central match device that prominently displays
+    the PKT kickoff time (or 'MATCHDAY' if unconfirmed). Completely eliminates 'VS'.
+    All coordinates in 2x supersampled space.
     """
     pr, pg, pb = theme.primary
     hr, hg, hb = theme.highlight
     sr, sg, sb = theme.secondary
     style = theme.center_style
 
+    display_time = pkt_time_text.strip().upper() if pkt_time_text else "MATCHDAY"
+
+    main_font_size = 36 if len(display_time) <= 8 else 30
+    f_main = get_font(main_font_size, weight="extrabold", family=theme.font_family)
+    f_pkt_label = get_font(18, weight="bold", family=theme.font_family)
+
+    bbox_main = draw.textbbox((0, 0), display_time, font=f_main)
+    tw = bbox_main[2] - bbox_main[0]
+    th = bbox_main[3] - bbox_main[1]
+
+    bw = max(220, tw + 56)
+    bh = 100 if is_confirmed else 82
+
+    bx0 = cx - bw // 2
+    by0 = cy - bh // 2
+    bx1 = cx + bw // 2
+    by1 = cy + bh // 2
+
     if style == "champions_divider":
-        # Luminous silver vertical divider with star cluster
-        draw.line([(cx, cy - 170), (cx, cy - 50)], fill=(hr, hg, hb, 200), width=4)
-        draw.line([(cx, cy + 50), (cx, cy + 170)], fill=(hr, hg, hb, 200), width=4)
-        draw.polygon([(cx, cy - 34), (cx + 34, cy), (cx, cy + 34), (cx - 34, cy)], fill=(20, 32, 70, 245), outline=(hr, hg, hb, 240), width=4)
-        f_vs = get_font(28, weight="black", family="montserrat")
-        bbox = draw.textbbox((0, 0), "VS", font=f_vs)
-        draw.text((cx - (bbox[2] - bbox[0]) // 2, cy - (bbox[3] - bbox[1]) // 2 - 3), "VS", fill=theme.text_primary, font=f_vs)
+        # UEFA Champions League: Luminous starry indigo/silver capsule with vertical celestial light beams
+        draw.line([(cx, cy - 200), (cx, by0 - 12)], fill=(hr, hg, hb, 190), width=4)
+        draw.line([(cx, by1 + 12), (cx, cy + 200)], fill=(hr, hg, hb, 190), width=4)
+        for pip_y in [cy - 200, cy + 200]:
+            draw.ellipse([cx - 5, pip_y - 5, cx + 5, pip_y + 5], fill=(hr, hg, hb, 240))
+        draw.rounded_rectangle([bx0 - 6, by0 - 6, bx1 + 6, by1 + 6], radius=24, fill=(hr, hg, hb, 35))
+        draw.rounded_rectangle([bx0, by0, bx1, by1], radius=20, fill=(14, 24, 60, 245), outline=(hr, hg, hb, 220), width=4)
 
     elif style == "europa_energy_divider":
-        # Dynamic angled dual-bar in warm amber
-        draw.line([(cx - 20, cy - 150), (cx + 20, cy + 150)], fill=(pr, pg, pb, 220), width=6)
-        draw.polygon([(cx - 46, cy - 30), (cx + 46, cy - 30), (cx + 30, cy + 30), (cx - 62, cy + 30)], fill=(40, 24, 16, 245), outline=(pr, pg, pb, 240), width=4)
-        f_vs = get_font(28, weight="black", family="archivo")
-        bbox = draw.textbbox((0, 0), "VS", font=f_vs)
-        draw.text((cx - (bbox[2] - bbox[0]) // 2 - 8, cy - (bbox[3] - bbox[1]) // 2 - 3), "VS", fill=(255, 235, 210), font=f_vs)
+        # UEFA Europa League: Dynamic angular speed badge with energetic orange beams
+        draw.line([(cx - 24, cy - 190), (cx - 10, by0 - 10)], fill=(pr, pg, pb, 220), width=5)
+        draw.line([(cx + 10, by1 + 10), (cx + 24, cy + 190)], fill=(pr, pg, pb, 220), width=5)
+        poly_pts = [(bx0 - 14, by0), (bx1 + 14, by0), (bx1 - 4, by1), (bx0 - 24, by1)]
+        draw.polygon(poly_pts, fill=(34, 20, 14, 245), outline=(pr, pg, pb, 240), width=4)
 
     elif style == "conference_minimal_v":
-        # Minimalist modern neon 'v' with glowing dots
-        draw.line([(cx, cy - 140), (cx, cy - 45)], fill=(pr, pg, pb, 190), width=4)
-        draw.line([(cx, cy + 45), (cx, cy + 140)], fill=(pr, pg, pb, 190), width=4)
-        draw.ellipse([cx - 32, cy - 32, cx + 32, cy + 32], fill=(16, 36, 26, 245), outline=(pr, pg, pb, 230), width=4)
-        f_v = get_font(32, weight="black", family="inter")
-        bbox = draw.textbbox((0, 0), "v", font=f_v)
-        draw.text((cx - (bbox[2] - bbox[0]) // 2, cy - (bbox[3] - bbox[1]) // 2 - 4), "v", fill=(180, 255, 220), font=f_v)
+        # UEFA Conference League: Electric green / turquoise modern neon pill
+        draw.line([(cx, cy - 180), (cx, by0 - 12)], fill=(pr, pg, pb, 200), width=4)
+        draw.line([(cx, by1 + 12), (cx, cy + 180)], fill=(pr, pg, pb, 200), width=4)
+        draw.rounded_rectangle([bx0 - 4, by0 - 4, bx1 + 4, by1 + 4], radius=bh // 2 + 4, fill=(pr, pg, pb, 35))
+        draw.rounded_rectangle([bx0, by0, bx1, by1], radius=bh // 2, fill=(14, 34, 24, 245), outline=(pr, pg, pb, 230), width=4)
 
     elif style == "pl_matchday_device":
-        # Modern Premier League editorial matchday marker with cyan/magenta bar
-        draw.line([(cx, cy - 160), (cx, cy - 55)], fill=(pr, pg, pb, 210), width=5)
-        draw.line([(cx, cy + 55), (cx, cy + 160)], fill=(sr, sg, sb, 210), width=5)
-        draw.rounded_rectangle([cx - 52, cy - 34, cx + 52, cy + 34], radius=10, fill=(30, 16, 48, 245), outline=(pr, pg, pb, 230), width=4)
-        f_vs = get_font(28, weight="black", family="montserrat")
-        bbox = draw.textbbox((0, 0), "VS", font=f_vs)
-        draw.text((cx - (bbox[2] - bbox[0]) // 2, cy - (bbox[3] - bbox[1]) // 2 - 3), "VS", fill=(255, 255, 255), font=f_vs)
+        # Premier League: Bold modern matchday device with cyan/magenta accent lines
+        draw.line([(cx, cy - 190), (cx, by0 - 12)], fill=(pr, pg, pb, 220), width=5)
+        draw.line([(cx, by1 + 12), (cx, cy + 190)], fill=(sr, sg, sb, 220), width=5)
+        draw.rounded_rectangle([bx0, by0, bx1, by1], radius=16, fill=(28, 14, 46, 245), outline=(pr, pg, pb, 230), width=4)
+        draw.line([(bx0 + 16, by0 + 3), (bx1 - 16, by0 + 3)], fill=(pr, pg, pb, 240), width=4)
 
     elif style == "laliga_minimal_v":
-        # Spanish broadcast spectrum badge
-        draw.line([(cx, cy - 150), (cx, cy - 45)], fill=(255, 59, 48, 200), width=4)
-        draw.line([(cx, cy + 45), (cx, cy + 150)], fill=(255, 204, 0, 200), width=4)
-        draw.rounded_rectangle([cx - 42, cy - 30, cx + 42, cy + 30], radius=16, fill=(28, 28, 36, 245), outline=(255, 140, 0, 230), width=3)
-        f_vs = get_font(26, weight="black", family="inter")
-        bbox = draw.textbbox((0, 0), "VS", font=f_vs)
-        draw.text((cx - (bbox[2] - bbox[0]) // 2, cy - (bbox[3] - bbox[1]) // 2 - 3), "VS", fill=(255, 255, 255), font=f_vs)
+        # La Liga: Vivid multi-accented Spanish spectrum stadium capsule
+        draw.line([(cx, cy - 180), (cx, by0 - 12)], fill=(255, 59, 48, 210), width=4)
+        draw.line([(cx, by1 + 12), (cx, cy + 180)], fill=(255, 204, 0, 210), width=4)
+        draw.rounded_rectangle([bx0, by0, bx1, by1], radius=22, fill=(26, 26, 34, 245), outline=(255, 140, 0, 230), width=4)
 
     elif style == "seriea_vertical_beam":
-        # Cool platinum metallic beam with minimal italic 'v'
-        draw.line([(cx, cy - 160), (cx, cy - 45)], fill=(hr, hg, hb, 210), width=5)
-        draw.line([(cx, cy + 45), (cx, cy + 160)], fill=(hr, hg, hb, 210), width=5)
-        draw.polygon([(cx, cy - 36), (cx + 36, cy), (cx, cy + 36), (cx - 36, cy)], fill=(12, 24, 52, 245), outline=(hr, hg, hb, 230), width=4)
-        f_vs = get_font(30, weight="black", family="archivo")
-        bbox = draw.textbbox((0, 0), "V", font=f_vs)
-        draw.text((cx - (bbox[2] - bbox[0]) // 2, cy - (bbox[3] - bbox[1]) // 2 - 3), "V", fill=(240, 245, 255), font=f_vs)
+        # Serie A: Platinum & Azzurro metallic octagonal bevel shield
+        draw.line([(cx, cy - 190), (cx, by0 - 12)], fill=(hr, hg, hb, 210), width=5)
+        draw.line([(cx, by1 + 12), (cx, cy + 190)], fill=(hr, hg, hb, 210), width=5)
+        draw.polygon([(bx0 + 18, by0), (bx1 - 18, by0), (bx1, by0 + 18), (bx1, by1 - 18), (bx1 - 18, by1), (bx0 + 18, by1), (bx0, by1 - 18), (bx0, by0 + 18)], fill=(12, 24, 52, 245), outline=(hr, hg, hb, 220), width=4)
 
     elif style == "bundesliga_slash_divider":
-        # Dynamic diagonal slash with bold red box
-        draw.line([(cx - 25, cy - 160), (cx + 25, cy + 160)], fill=(pr, pg, pb, 230), width=6)
-        draw.polygon([(cx - 46, cy - 30), (cx + 46, cy - 30), (cx + 26, cy + 30), (cx - 66, cy + 30)], fill=(227, 6, 19, 245), outline=(255, 255, 255, 230), width=4)
-        f_vs = get_font(28, weight="black", family="archivo")
-        bbox = draw.textbbox((0, 0), "VS", font=f_vs)
-        draw.text((cx - (bbox[2] - bbox[0]) // 2 - 10, cy - (bbox[3] - bbox[1]) // 2 - 3), "VS", fill=(255, 255, 255), font=f_vs)
+        # Bundesliga: Dynamic angled red-accented carbon box
+        draw.line([(cx - 20, cy - 185), (cx - 10, by0 - 10)], fill=(pr, pg, pb, 230), width=5)
+        draw.line([(cx + 10, by1 + 10), (cx + 20, cy + 185)], fill=(pr, pg, pb, 230), width=5)
+        poly_pts = [(bx0 - 10, by0), (bx1 + 10, by0), (bx1, by1), (bx0 - 20, by1)]
+        draw.polygon(poly_pts, fill=(28, 20, 22, 245), outline=(227, 6, 19, 240), width=4)
 
     elif style == "worldcup_arc_divider":
-        # Celestial gold arcs with sphere divider
-        draw.ellipse([cx - 48, cy - 48, cx + 48, cy + 48], fill=(45, 18, 30, 245), outline=(pr, pg, pb, 240), width=4)
-        draw.arc([cx - 64, cy - 64, cx + 64, cy + 64], 0, 360, fill=(pr, pg, pb, 150), width=3)
-        f_vs = get_font(28, weight="black", family="montserrat")
-        bbox = draw.textbbox((0, 0), "VS", font=f_vs)
-        draw.text((cx - (bbox[2] - bbox[0]) // 2, cy - (bbox[3] - bbox[1]) // 2 - 3), "VS", fill=(255, 225, 120), font=f_vs)
+        # World Cup: Celestial golden disc with concentric planetary rings
+        draw.line([(cx, cy - 190), (cx, by0 - 12)], fill=(pr, pg, pb, 200), width=4)
+        draw.line([(cx, by1 + 12), (cx, cy + 190)], fill=(pr, pg, pb, 200), width=4)
+        draw.rounded_rectangle([bx0, by0, bx1, by1], radius=bh // 2, fill=(38, 16, 28, 245), outline=(pr, pg, pb, 240), width=4)
 
     else:
-        # Clean neutral hairline divider
-        draw.line([(cx, cy - 150), (cx, cy - 45)], fill=(pr, pg, pb, 180), width=4)
-        draw.line([(cx, cy + 45), (cx, cy + 150)], fill=(pr, pg, pb, 180), width=4)
-        draw.rounded_rectangle([cx - 40, cy - 30, cx + 40, cy + 30], radius=12, fill=(24, 30, 44, 245), outline=(pr, pg, pb, 210), width=3)
-        f_vs = get_font(26, weight="black", family="inter")
-        bbox = draw.textbbox((0, 0), "VS", font=f_vs)
-        draw.text((cx - (bbox[2] - bbox[0]) // 2, cy - (bbox[3] - bbox[1]) // 2 - 3), "VS", fill=(240, 245, 255), font=f_vs)
+        # Ligue 1, Championship, Neutral: Sleek glass capsule
+        draw.line([(cx, cy - 180), (cx, by0 - 12)], fill=(pr, pg, pb, 190), width=4)
+        draw.line([(cx, by1 + 12), (cx, cy + 180)], fill=(pr, pg, pb, 190), width=4)
+        draw.rounded_rectangle([bx0, by0, bx1, by1], radius=18, fill=(20, 28, 42, 245), outline=(pr, pg, pb, 210), width=4)
+
+    # Render Text Inside Device
+    if is_confirmed:
+        time_y = by0 + 16
+        draw.text((cx - tw // 2, time_y), display_time, fill=theme.text_primary, font=f_main)
+
+        pkt_lbl = "PKT"
+        bbox_lbl = draw.textbbox((0, 0), pkt_lbl, font=f_pkt_label)
+        lbl_w = bbox_lbl[2] - bbox_lbl[0]
+        lbl_y = time_y + th + 8
+        draw.text((cx - lbl_w // 2, lbl_y), pkt_lbl, fill=theme.highlight, font=f_pkt_label)
+    else:
+        draw.text((cx - tw // 2, cy - th // 2 - 4), display_time, fill=theme.text_primary, font=f_main)
+
 
 
 # ==============================================================================
@@ -628,7 +695,7 @@ def generate_event_card(
     Renders and saves the complete fixture event graphic using 2x supersampling.
     """
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    
+
     comp = event.get("competition", {})
     comp_id = comp.get("id", "neutral-fallback")
     theme = get_competition_theme(comp_id)
@@ -655,7 +722,7 @@ def generate_event_card(
         round_title = ""
 
     header_text = f"{comp_title.upper()}  •  {round_title.upper()}" if round_title else comp_title.upper()
-    
+
     # Scale header font dynamically so long names never overflow
     header_font_size = 52
     header_font = get_font(header_font_size, weight="extrabold", family=theme.font_family)
@@ -667,7 +734,7 @@ def generate_event_card(
 
     hw = bbox_h[2] - bbox_h[0]
     hh = bbox_h[3] - bbox_h[1]
-    
+
     pill_w = hw + 90
     pill_h = hh + 46
     pill_x0 = (w2 - pill_w) // 2
@@ -703,12 +770,34 @@ def generate_event_card(
     draw_themed_crest_plate(img2, home_img, home.get("name", "Home"), left_cx, center_y, theme, card_size=420)
     draw_themed_crest_plate(img2, away_img, away.get("name", "Away"), right_cx, center_y, theme, card_size=420)
 
-    # 3. Central Match Divider
-    draw_themed_center_divider(draw2, w2 // 2, center_y, theme)
+    # 3. Central Match Device (Prominent PKT Kickoff Time, Zero VS)
+    time_status = event.get("time_status", "tbd")
+    is_confirmed = (time_status == "confirmed") and bool(event.get("start_time_pkt"))
+
+    if is_confirmed:
+        pkt_raw = event.get("display_time")
+        if not pkt_raw and event.get("start_time_pkt"):
+            try:
+                dt_pkt = datetime.fromisoformat(event["start_time_pkt"])
+                pkt_raw = dt_pkt.strftime("%I:%M %p").lstrip("0")
+            except Exception:
+                pkt_raw = event["start_time_pkt"][11:16]
+        center_time_text = pkt_raw if pkt_raw else "MATCHDAY"
+    else:
+        center_time_text = "MATCHDAY"
+
+    draw_themed_center_divider(
+        draw2,
+        cx=w2 // 2,
+        cy=center_y,
+        theme=theme,
+        pkt_time_text=center_time_text,
+        is_confirmed=is_confirmed
+    )
 
     # 4. Fitted Team Names Below Crests
     team_name_max_width = 540
-    
+
     # Home team name
     h_lines, h_font, _ = fit_team_name_lines(home.get("name", "Home Team"), team_name_max_width, initial_size=62, min_size=32, family=theme.font_family)
     h_top_y = center_y + 240
@@ -727,7 +816,7 @@ def generate_event_card(
         draw2.text((right_cx - lw // 2, a_top_y), line, fill=theme.text_primary, font=a_font)
         a_top_y += (b[3] - b[1]) + 10
 
-    # 5. Footer Match Date & Dual Timezone Kickoff Pill (Vector Icons, No Emoji)
+    # 5. Footer: Match Date + UTC Kickoff Time (Vector Icons, No Emoji)
     footer_y = h2 - 180
     footer_w = 1520
     footer_h = 110
@@ -750,11 +839,9 @@ def generate_event_card(
     display_date = event.get("display_date") or event.get("match_date_pkt") or event.get("match_date", "")
     date_str = format_date_display(display_date)
 
-    time_status = event.get("time_status", "tbd")
-    if time_status == "confirmed" and event.get("start_time_utc") and event.get("start_time_pkt"):
+    if is_confirmed and event.get("start_time_utc"):
         utc_str = event["start_time_utc"][11:16] + " UTC"
-        pkt_str = event.get("display_time") or (event["start_time_pkt"][11:16] + " PKT")
-        time_text = f"{utc_str}  •  {pkt_str} (PKT)"
+        time_text = utc_str
     else:
         time_text = "KICKOFF TIME TBD"
 
@@ -924,11 +1011,11 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "home_team": {"name": "Paris Saint-Germain", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png"},
             "away_team": {"name": "Marseille", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png"},
             "match_date": "2026-09-20",
-            "match_date_pkt": "2026-09-21",
-            "display_date": "2026-09-21",
+            "match_date_pkt": "2026-09-20",
+            "display_date": "2026-09-20",
             "display_time": "11:45 PM",
             "start_time_utc": "2026-09-20T18:45:00Z",
-            "start_time_pkt": "2026-09-21T23:45:00+05:00",
+            "start_time_pkt": "2026-09-20T23:45:00+05:00",
             "time_status": "confirmed"
         },
         {
@@ -987,7 +1074,7 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
     card_w, card_h = 600, 315 # half scale for contact sheet
     padding = 36
     title_h = 75
-    
+
     sheet_w = cols * card_w + (cols + 1) * padding
     sheet_h = rows * (card_h + title_h) + (rows + 1) * padding
 
@@ -998,7 +1085,7 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
     for idx, (ev, img_p) in enumerate(zip(sample_matches, generated_paths)):
         r_idx = idx // cols
         c_idx = idx % cols
-        
+
         x = padding + c_idx * (card_w + padding)
         y = padding + r_idx * (card_h + title_h + padding)
 

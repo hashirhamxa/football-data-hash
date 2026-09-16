@@ -251,6 +251,6 @@ def get_competition_theme(competition_id: Optional[str]) -> CompetitionTheme:
     """
     if not competition_id:
         return THEMES_REGISTRY["neutral-fallback"]
-    
+
     clean_id = competition_id.strip().lower()
     return THEMES_REGISTRY.get(clean_id, THEMES_REGISTRY["neutral-fallback"])

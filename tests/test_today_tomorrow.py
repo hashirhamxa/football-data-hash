@@ -18,7 +18,7 @@ class TestTodayTomorrowEvents(unittest.TestCase):
     def setUp(self):
         # Fixed reference time: Wednesday, 2026-09-16 19:30:00 PKT (14:30:00 UTC)
         self.ref_now_pkt = datetime(2026, 9, 16, 19, 30, 0, tzinfo=PKT_TZ)
-        
+
         self.sample_events = [
             # 1. Match earlier today (passed in PKT): 17:00 PKT (12:00 UTC)
             {

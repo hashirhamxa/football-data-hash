@@ -28,6 +28,7 @@ from validate_output import validate_json_file
 from fetch_today_events import generate_today_events_file
 from fetch_tomorrow_events import generate_tomorrow_events_file
 from generate_competition_feeds import generate_all_competition_feeds
+from cleanup_stale_images import cleanup_stale_images
 
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s: %(message)s")
 logger = logging.getLogger("pipeline_main")
@@ -47,13 +48,13 @@ def run_pipeline():
     # Load configuration
     settings = load_json("config/settings.json")
     competitions = load_json("config/competitions.json")
-    
+
     date_range_days = settings.get("date_range_days", 30)
     target_tz = settings.get("target_timezone", "Asia/Karachi")
     repo_slug = os.environ.get("GITHUB_REPOSITORY", settings.get("github_repo", "hashirhamxa/football-data-hash"))
     branch = os.environ.get("GITHUB_REF_NAME", settings.get("github_branch", "main"))
     raw_base_url = f"https://raw.githubusercontent.com/{repo_slug}/{branch}"
-    
+
     # 1. Fetch fixtures via multi-source adapter
     logger.info("--- Step 1: Fetching Fixtures (ESPN Primary + Fallbacks) ---")
     now_utc = datetime.now(timezone.utc)
@@ -82,7 +83,7 @@ def run_pipeline():
     # 3. Resolve logos
     logger.info("--- Step 3: Resolving Team Logos ---")
     resolver = LogoResolver()
-    
+
     logo_stats = {"espn_direct": 0, "exact": 0, "alias": 0, "fuzzy": 0, "fallback": 0, "total": 0}
 
     for ev in events:
@@ -166,8 +167,12 @@ def run_pipeline():
 
     logger.info("Saved JSON deliverables to output/ directory.")
 
-    # 8. Validate output
-    logger.info("--- Step 7: Validating Output Artifacts ---")
+    # 8. Safe Cleanup of Stale/Unreferenced Images
+    logger.info("--- Step 7: Safe Purge of Stale/Unreferenced Event Images ---")
+    cleanup_res = cleanup_stale_images(images_dir="output/images", output_dir="output")
+
+    # 9. Validate output
+    logger.info("--- Step 8: Validating Output Artifacts ---")
     validation_passed = validate_json_file(events_json_path, check_images=True)
 
     elapsed = time.time() - start_time
@@ -183,7 +188,7 @@ def run_pipeline():
     print(f"Today (PKT):      {today_res.get('total_events', 0)} matches ({now_pkt.strftime('%Y-%m-%d')})")
     print(f"Tomorrow (PKT):   {tomorrow_res.get('total_events', 0)} matches ({tomorrow_res.get('target_date_pkt')})")
     print(f"Validation:       {'PASSED' if validation_passed else 'FAILED'}")
-    
+
     print("\n[Tournament Folders & Feeds (output/competitions/{id}/)]:")
     for cid, cinfo in comp_stats.items():
         print(f"  * {cid:<18} -> Today: {cinfo['today_count']:>2} | Tomorrow: {cinfo['tomorrow_count']:>2} | 30-Day: {cinfo['upcoming_count']:>3}")

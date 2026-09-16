@@ -1,0 +1,1023 @@
+{
+  "version": "1.0.0",
+  "competition": {
+    "id": "serie-a",
+    "name": "Italian Serie A",
+    "country": "Italy"
+  },
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "generated_at": "2026-09-16T14:27:41.692864+00:00",
+  "feed_type": "upcoming_30_days",
+  "total_events": 21,
+  "events": [
+    {
+      "event_id": "serie-a-2026-09-18-ac-monza-us-sassuolo-calcio",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-18",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-18T18:45:00Z",
+      "start_time_pkt": "2026-09-18T23:45:00+05:00",
+      "start_timestamp": 1789757100,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "AC Monza",
+        "slug": "ac-monza",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Monza.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "AC Monza",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "US Sassuolo Calcio",
+        "slug": "us-sassuolo-calcio",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/US%20Sassuolo.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "US Sassuolo",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-18-ac-monza-us-sassuolo-calcio.png"
+    },
+    {
+      "event_id": "serie-a-2026-09-19-bologna-fc-1909-torino-fc",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-19",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-19T13:00:00Z",
+      "start_time_pkt": "2026-09-19T18:00:00+05:00",
+      "start_timestamp": 1789822800,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "Bologna FC 1909",
+        "slug": "bologna-fc-1909",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Bologna%20FC%201909.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Bologna FC 1909",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Torino FC",
+        "slug": "torino-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Torino%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Torino FC",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-19-bologna-fc-1909-torino-fc.png"
+    },
+    {
+      "event_id": "serie-a-2026-09-19-udinese-calcio-cagliari-calcio",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-19",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-19T13:00:00Z",
+      "start_time_pkt": "2026-09-19T18:00:00+05:00",
+      "start_timestamp": 1789822800,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "Udinese Calcio",
+        "slug": "udinese-calcio",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Udinese%20Calcio.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Udinese Calcio",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Cagliari Calcio",
+        "slug": "cagliari-calcio",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Cagliari%20Calcio.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Cagliari Calcio",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-19-udinese-calcio-cagliari-calcio.png"
+    },
+    {
+      "event_id": "serie-a-2026-09-19-as-roma-fc-internazionale-milano",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-19",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-19T16:00:00Z",
+      "start_time_pkt": "2026-09-19T21:00:00+05:00",
+      "start_timestamp": 1789833600,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "AS Roma",
+        "slug": "as-roma",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "AS Roma",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "FC Internazionale Milano",
+        "slug": "fc-internazionale-milano",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Inter Milan",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-19-as-roma-fc-internazionale-milano.png"
+    },
+    {
+      "event_id": "serie-a-2026-09-19-venezia-fc-ss-lazio",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-19",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-19T18:45:00Z",
+      "start_time_pkt": "2026-09-19T23:45:00+05:00",
+      "start_timestamp": 1789843500,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "Venezia FC",
+        "slug": "venezia-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Venezia%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Venezia FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "SS Lazio",
+        "slug": "ss-lazio",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SS%20Lazio.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "SS Lazio",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-19-venezia-fc-ss-lazio.png"
+    },
+    {
+      "event_id": "serie-a-2026-09-20-acf-fiorentina-ssc-napoli",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-20",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-20T10:30:00Z",
+      "start_time_pkt": "2026-09-20T15:30:00+05:00",
+      "start_timestamp": 1789900200,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "ACF Fiorentina",
+        "slug": "acf-fiorentina",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "ACF Fiorentina",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "SSC Napoli",
+        "slug": "ssc-napoli",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SSC%20Napoli.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "SSC Napoli",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-20-acf-fiorentina-ssc-napoli.png"
+    },
+    {
+      "event_id": "serie-a-2026-09-20-frosinone-calcio-como-1907",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-20",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-20T13:00:00Z",
+      "start_time_pkt": "2026-09-20T18:00:00+05:00",
+      "start_timestamp": 1789909200,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "Frosinone Calcio",
+        "slug": "frosinone-calcio",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Frosinone%20Calcio.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Frosinone Calcio",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Como 1907",
+        "slug": "como-1907",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Como%201907.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Como 1907",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-20-frosinone-calcio-como-1907.png"
+    },
+    {
+      "event_id": "serie-a-2026-09-20-parma-calcio-1913-genoa-cfc",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-20",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-20T13:00:00Z",
+      "start_time_pkt": "2026-09-20T18:00:00+05:00",
+      "start_timestamp": 1789909200,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "Parma Calcio 1913",
+        "slug": "parma-calcio-1913",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Parma%20Calcio%201913.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Parma Calcio 1913",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Genoa CFC",
+        "slug": "genoa-cfc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Genoa%20CFC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Genoa CFC",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-20-parma-calcio-1913-genoa-cfc.png"
+    },
+    {
+      "event_id": "serie-a-2026-09-20-juventus-fc-atalanta-bc",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-20",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-20T16:00:00Z",
+      "start_time_pkt": "2026-09-20T21:00:00+05:00",
+      "start_timestamp": 1789920000,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "Juventus FC",
+        "slug": "juventus-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Juventus FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Atalanta BC",
+        "slug": "atalanta-bc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Atalanta%20BC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Atalanta BC",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-20-juventus-fc-atalanta-bc.png"
+    },
+    {
+      "event_id": "serie-a-2026-09-20-ac-milan-us-lecce",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-20",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-20T18:45:00Z",
+      "start_time_pkt": "2026-09-20T23:45:00+05:00",
+      "start_timestamp": 1789929900,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "AC Milan",
+        "slug": "ac-milan",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "AC Milan",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "US Lecce",
+        "slug": "us-lecce",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/US%20Lecce.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "US Lecce",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-20-ac-milan-us-lecce.png"
+    },
+    {
+      "event_id": "serie-a-2026-10-10-genoa-cfc-acf-fiorentina",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-10",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-10T13:00:00Z",
+      "start_time_pkt": "2026-10-10T18:00:00+05:00",
+      "start_timestamp": 1791637200,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "Genoa CFC",
+        "slug": "genoa-cfc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Genoa%20CFC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Genoa CFC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "ACF Fiorentina",
+        "slug": "acf-fiorentina",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "ACF Fiorentina",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-10-genoa-cfc-acf-fiorentina.png"
+    },
+    {
+      "event_id": "serie-a-2026-10-10-fc-internazionale-milano-parma-calcio-1913",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-10",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-10T16:00:00Z",
+      "start_time_pkt": "2026-10-10T21:00:00+05:00",
+      "start_timestamp": 1791648000,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "FC Internazionale Milano",
+        "slug": "fc-internazionale-milano",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Inter Milan",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Parma Calcio 1913",
+        "slug": "parma-calcio-1913",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Parma%20Calcio%201913.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Parma Calcio 1913",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-10-fc-internazionale-milano-parma-calcio-1913.png"
+    },
+    {
+      "event_id": "serie-a-2026-10-10-ssc-napoli-frosinone-calcio",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-10",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-10T18:45:00Z",
+      "start_time_pkt": "2026-10-10T23:45:00+05:00",
+      "start_timestamp": 1791657900,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "SSC Napoli",
+        "slug": "ssc-napoli",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SSC%20Napoli.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "SSC Napoli",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Frosinone Calcio",
+        "slug": "frosinone-calcio",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Frosinone%20Calcio.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Frosinone Calcio",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-10-ssc-napoli-frosinone-calcio.png"
+    },
+    {
+      "event_id": "serie-a-2026-10-11-como-1907-as-roma",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-11",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-11T10:30:00Z",
+      "start_time_pkt": "2026-10-11T15:30:00+05:00",
+      "start_timestamp": 1791714600,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "Como 1907",
+        "slug": "como-1907",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Como%201907.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Como 1907",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "AS Roma",
+        "slug": "as-roma",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "AS Roma",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-11-como-1907-as-roma.png"
+    },
+    {
+      "event_id": "serie-a-2026-10-11-ss-lazio-ac-monza",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-11",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-11T13:00:00Z",
+      "start_time_pkt": "2026-10-11T18:00:00+05:00",
+      "start_timestamp": 1791723600,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "SS Lazio",
+        "slug": "ss-lazio",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SS%20Lazio.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "SS Lazio",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "AC Monza",
+        "slug": "ac-monza",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Monza.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "AC Monza",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-11-ss-lazio-ac-monza.png"
+    },
+    {
+      "event_id": "serie-a-2026-10-11-us-lecce-bologna-fc-1909",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-11",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-11T13:00:00Z",
+      "start_time_pkt": "2026-10-11T18:00:00+05:00",
+      "start_timestamp": 1791723600,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "US Lecce",
+        "slug": "us-lecce",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/US%20Lecce.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "US Lecce",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Bologna FC 1909",
+        "slug": "bologna-fc-1909",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Bologna%20FC%201909.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Bologna FC 1909",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-11-us-lecce-bologna-fc-1909.png"
+    },
+    {
+      "event_id": "serie-a-2026-10-11-us-sassuolo-calcio-ac-milan",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-11",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-11T16:00:00Z",
+      "start_time_pkt": "2026-10-11T21:00:00+05:00",
+      "start_timestamp": 1791734400,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "US Sassuolo Calcio",
+        "slug": "us-sassuolo-calcio",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/US%20Sassuolo.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "US Sassuolo",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "AC Milan",
+        "slug": "ac-milan",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "AC Milan",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-11-us-sassuolo-calcio-ac-milan.png"
+    },
+    {
+      "event_id": "serie-a-2026-10-11-cagliari-calcio-juventus-fc",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-11",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-11T18:45:00Z",
+      "start_time_pkt": "2026-10-11T23:45:00+05:00",
+      "start_timestamp": 1791744300,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "Cagliari Calcio",
+        "slug": "cagliari-calcio",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Cagliari%20Calcio.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Cagliari Calcio",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Juventus FC",
+        "slug": "juventus-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Juventus FC",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-11-cagliari-calcio-juventus-fc.png"
+    },
+    {
+      "event_id": "serie-a-2026-10-12-atalanta-bc-venezia-fc",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-12",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-12T16:30:00Z",
+      "start_time_pkt": "2026-10-12T21:30:00+05:00",
+      "start_timestamp": 1791822600,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "Atalanta BC",
+        "slug": "atalanta-bc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Atalanta%20BC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Atalanta BC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Venezia FC",
+        "slug": "venezia-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Venezia%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Venezia FC",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-12-atalanta-bc-venezia-fc.png"
+    },
+    {
+      "event_id": "serie-a-2026-10-12-torino-fc-udinese-calcio",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-12",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-12T18:45:00Z",
+      "start_time_pkt": "2026-10-12T23:45:00+05:00",
+      "start_timestamp": 1791830700,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "Torino FC",
+        "slug": "torino-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Torino%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Torino FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Udinese Calcio",
+        "slug": "udinese-calcio",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Udinese%20Calcio.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Udinese Calcio",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-12-torino-fc-udinese-calcio.png"
+    },
+    {
+      "event_id": "serie-a-2026-10-16-frosinone-calcio-us-sassuolo-calcio",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 7",
+        "group": null
+      },
+      "match_date": "2026-10-16",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-16T18:45:00Z",
+      "start_time_pkt": "2026-10-16T23:45:00+05:00",
+      "start_timestamp": 1792176300,
+      "source_timezone": "Europe/Rome",
+      "home_team": {
+        "name": "Frosinone Calcio",
+        "slug": "frosinone-calcio",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Frosinone%20Calcio.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Frosinone Calcio",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "US Sassuolo Calcio",
+        "slug": "us-sassuolo-calcio",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/US%20Sassuolo.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "US Sassuolo",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "it.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "round": "Matchday 7",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-16-frosinone-calcio-us-sassuolo-calcio.png"
+    }
+  ]
+}

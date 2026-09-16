@@ -12,16 +12,31 @@ A production-ready automated pipeline that ingests upcoming football fixtures, r
 
 ## 🚀 Live Raw Endpoints (Android Ready)
 
-Your Android or client application can consume the published JSON feeds and match images directly:
+### 1. Global Feeds (All Leagues Combined)
 
-| Artifact | Raw GitHub Endpoint | Description |
+| Feed | Raw GitHub Endpoint | Description |
 | :--- | :--- | :--- |
-| **Today's Events (PKT)** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/today_events.json` | Upcoming matches scheduled for **Today in Pakistan Time (PKT)** |
-| **Tomorrow's Events (PKT)** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/tomorrow_events.json` | Matches scheduled for **Tomorrow in Pakistan Time (PKT)** |
-| **All Upcoming Events** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/upcoming_events.json` | Complete upcoming fixtures for the next 30 days |
-| **Competition Status** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competition_status.json` | Availability and season metadata |
-| **Unmatched Teams** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/unmatched_teams.json` | Teams using fallback initials badges |
-| **Match Banner Images** | `https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/{event_id}.png` | Broadcast 1200x630 match graphics |
+| **Today's Matches (PKT)** | [`https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/today_events.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/today_events.json) | Matches taking place **Today in Pakistan Time (PKT)** |
+| **Tomorrow's Matches (PKT)** | [`https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/tomorrow_events.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/tomorrow_events.json) | Matches taking place **Tomorrow in Pakistan Time (PKT)** |
+| **All Upcoming Matches** | [`https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/upcoming_events.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/upcoming_events.json) | Full 30-day schedule across all monitored competitions |
+| **Competition Status** | [`https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competition_status.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competition_status.json) | Upstream data availability and seasons |
+| **Unmatched Teams** | [`https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/unmatched_teams.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/unmatched_teams.json) | Teams using fallback initials badges |
+
+---
+
+### 2. Tournament Category Feeds (`output/competitions/{id}/`)
+
+Each tournament has its dedicated directory containing `today.json`, `tomorrow.json`, and `upcoming.json`:
+
+| Competition | Folder ID | Today (PKT) | Tomorrow (PKT) | Upcoming 30-Day |
+| :--- | :--- | :--- | :--- | :--- |
+| **English Premier League** | `premier-league` | [`today.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/premier-league/today.json) | [`tomorrow.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/premier-league/tomorrow.json) | [`upcoming.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/premier-league/upcoming.json) |
+| **Spanish La Liga** | `la-liga` | [`today.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/la-liga/today.json) | [`tomorrow.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/la-liga/tomorrow.json) | [`upcoming.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/la-liga/upcoming.json) |
+| **Italian Serie A** | `serie-a` | [`today.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/serie-a/today.json) | [`tomorrow.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/serie-a/tomorrow.json) | [`upcoming.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/serie-a/upcoming.json) |
+| **German Bundesliga** | `bundesliga` | [`today.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/bundesliga/today.json) | [`tomorrow.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/bundesliga/tomorrow.json) | [`upcoming.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/bundesliga/upcoming.json) |
+| **French Ligue 1** | `ligue-1` | [`today.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/ligue-1/today.json) | [`tomorrow.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/ligue-1/tomorrow.json) | [`upcoming.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/ligue-1/upcoming.json) |
+| **English Championship** | `championship` | [`today.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/championship/today.json) | [`tomorrow.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/championship/tomorrow.json) | [`upcoming.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/championship/upcoming.json) |
+| **UEFA Champions League** | `champions-league` | [`today.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/champions-league/today.json) | [`tomorrow.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/champions-league/tomorrow.json) | [`upcoming.json`](https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/competitions/champions-league/upcoming.json) |
 
 ---
 
@@ -36,13 +51,22 @@ import kotlinx.serialization.SerialName
 @Serializable
 data class EventsFeedResponse(
     val version: String,
+    val competition: CompetitionHeader? = null,
     val timezone: String? = null,
     @SerialName("timezone_label") val timezoneLabel: String? = null,
     @SerialName("target_date_pkt") val targetDatePkt: String? = null,
     @SerialName("target_day_name") val targetDayName: String? = null,
+    @SerialName("feed_type") val feedType: String? = null,
     @SerialName("generated_at") val generatedAt: String,
     @SerialName("total_events") val totalEvents: Int,
     val events: List<FootballEvent>
+)
+
+@Serializable
+data class CompetitionHeader(
+    val id: String,
+    val name: String,
+    val country: String
 )
 
 @Serializable
@@ -92,19 +116,28 @@ data class LogoResolution(
 
 ```kotlin
 import retrofit2.http.GET
+import retrofit2.http.Path
 
 interface FootballEventsApi {
-    // 1. Today's matches in Pakistan Time (PKT)
+    // Global Feeds
     @GET("hashirhamxa/football-data-hash/main/output/today_events.json")
-    suspend fun getTodayEventsPKT(): EventsFeedResponse
+    suspend fun getGlobalTodayPKT(): EventsFeedResponse
 
-    // 2. Tomorrow's matches in Pakistan Time (PKT)
     @GET("hashirhamxa/football-data-hash/main/output/tomorrow_events.json")
-    suspend fun getTomorrowEventsPKT(): EventsFeedResponse
+    suspend fun getGlobalTomorrowPKT(): EventsFeedResponse
 
-    // 3. Full upcoming 30-day schedule
     @GET("hashirhamxa/football-data-hash/main/output/upcoming_events.json")
     suspend fun getAllUpcomingEvents(): EventsFeedResponse
+
+    // League-Specific Feeds
+    @GET("hashirhamxa/football-data-hash/main/output/competitions/{leagueId}/today.json")
+    suspend fun getLeagueTodayPKT(@Path("leagueId") leagueId: String): EventsFeedResponse
+
+    @GET("hashirhamxa/football-data-hash/main/output/competitions/{leagueId}/tomorrow.json")
+    suspend fun getLeagueTomorrowPKT(@Path("leagueId") leagueId: String): EventsFeedResponse
+
+    @GET("hashirhamxa/football-data-hash/main/output/competitions/{leagueId}/upcoming.json")
+    suspend fun getLeagueUpcoming(@Path("leagueId") leagueId: String): EventsFeedResponse
 }
 ```
 
@@ -130,22 +163,6 @@ Every fixture automatically generates a unique 1200x630 matchday banner featurin
 |          +-------------------------------------------------------+          |
 +-----------------------------------------------------------------------------+
 ```
-
----
-
-## 📊 Monitored Competitions & Upstream Availability
-
-| Competition | Country | Source File | Source Timezone | Current Status |
-| :--- | :--- | :--- | :--- | :--- |
-| **English Premier League** | England | `en.1.json` | `Europe/London` | `AVAILABLE` (2026-27) |
-| **English Championship** | England | `en.2.json` | `Europe/London` | `AVAILABLE` (2026-27) |
-| **Spanish La Liga** | Spain | `es.1.json` | `Europe/Madrid` | `AVAILABLE` (2026-27) |
-| **Italian Serie A** | Italy | `it.1.json` | `Europe/Rome` | `AVAILABLE` (2026-27) |
-| **German Bundesliga** | Germany | `de.1.json` | `Europe/Berlin` | `AVAILABLE` (2026-27) |
-| **French Ligue 1** | France | `fr.1.json` | `Europe/Paris` | `AVAILABLE` (2026-27) |
-| **UEFA Champions League** | Europe | `uefa.cl.json` | `Europe/Paris` | `AVAILABLE` (2024-25) |
-| **UEFA Europa League** | Europe | `uefa.el.json` | `Europe/Paris` | `UNAVAILABLE` (Upstream Pending) |
-| **FIFA World Cup** | International | `worldcup.json` | `UTC` | `UNAVAILABLE` (Upstream Pending) |
 
 ---
 
@@ -176,9 +193,17 @@ football-events/
 │   ├── team_aliases.json           # Explicit team name to logo mappings
 │   └── logo_index.json             # Fast indexed catalog of 2,160+ team logos
 ├── output/
-│   ├── upcoming_events.json        # 30-day upcoming events feed
-│   ├── today_events.json           # Today's matches feed in PKT
-│   ├── tomorrow_events.json        # Tomorrow's matches feed in PKT
+│   ├── upcoming_events.json        # 30-day global upcoming events
+│   ├── today_events.json           # Global today matches (PKT)
+│   ├── tomorrow_events.json        # Global tomorrow matches (PKT)
+│   ├── competitions/               # Tournament Category Folders
+│   │   ├── premier-league/         # (today.json, tomorrow.json, upcoming.json)
+│   │   ├── la-liga/
+│   │   ├── serie-a/
+│   │   ├── bundesliga/
+│   │   ├── ligue-1/
+│   │   ├── championship/
+│   │   └── champions-league/
 │   ├── competition_status.json     # Upstream status report
 │   ├── unmatched_teams.json        # Fallback/low-confidence teams report
 │   └── images/                     # Generated 1200x630 matchday banner cards
@@ -189,6 +214,7 @@ football-events/
 │   ├── generate_event_images.py    # Multi-threaded Pillow banner generator
 │   ├── fetch_today_events.py       # Today (PKT) filter & publisher
 │   ├── fetch_tomorrow_events.py    # Tomorrow (PKT) filter & publisher
+│   ├── generate_competition_feeds.py # Tournament category feeds generator
 │   ├── validate_output.py          # Pydantic schema validation
 │   └── main.py                     # Pipeline orchestrator
 ├── tests/
@@ -196,6 +222,7 @@ football-events/
 │   ├── test_logo_resolver.py       # Matching & alias unit tests
 │   ├── test_image_generator.py     # Banner rendering tests
 │   ├── test_today_tomorrow.py      # PKT Today/Tomorrow unit tests
+│   ├── test_competition_feeds.py   # Tournament category unit tests
 │   └── test_validation.py          # Pydantic validation tests
 ├── .gitignore
 ├── LICENSE
@@ -207,18 +234,21 @@ football-events/
 
 ## 🛠️ Local Development & Testing
 
-### 1. Run Pipeline
+### 1. Run Complete Pipeline
 ```bash
 python scripts/main.py
 ```
 
-### 2. Run Today or Tomorrow Separately
+### 2. Run Dedicated Generators
 ```bash
-# Today's matches in PKT
+# Global today matches in PKT
 python scripts/fetch_today_events.py
 
-# Tomorrow's matches in PKT
+# Global tomorrow matches in PKT
 python scripts/fetch_tomorrow_events.py
+
+# Tournament category feeds
+python scripts/generate_competition_feeds.py
 ```
 
 ### 3. Run Test Suite

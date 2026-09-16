@@ -1,0 +1,927 @@
+{
+  "version": "1.0.0",
+  "competition": {
+    "id": "ligue-1",
+    "name": "French Ligue 1",
+    "country": "France"
+  },
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "generated_at": "2026-09-16T14:27:41.701837+00:00",
+  "feed_type": "upcoming_30_days",
+  "total_events": 19,
+  "events": [
+    {
+      "event_id": "ligue-1-2026-09-18-as-monaco-fc-racing-club-de-lens",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-18",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-18T18:45:00Z",
+      "start_time_pkt": "2026-09-18T23:45:00+05:00",
+      "start_timestamp": 1789757100,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "AS Monaco FC",
+        "slug": "as-monaco-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/AS%20Monaco.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "AS Monaco",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Racing Club de Lens",
+        "slug": "racing-club-de-lens",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/RC%20Lens.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "RC Lens",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-18-as-monaco-fc-racing-club-de-lens.png"
+    },
+    {
+      "event_id": "ligue-1-2026-09-19-paris-fc-rc-strasbourg-alsace",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-19",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-19T15:15:00Z",
+      "start_time_pkt": "2026-09-19T20:15:00+05:00",
+      "start_timestamp": 1789830900,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "Paris FC",
+        "slug": "paris-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Paris FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "RC Strasbourg Alsace",
+        "slug": "rc-strasbourg-alsace",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/RC%20Strasbourg%20Alsace.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "RC Strasbourg Alsace",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-19-paris-fc-rc-strasbourg-alsace.png"
+    },
+    {
+      "event_id": "ligue-1-2026-09-19-angers-sco-es-troyes-ac",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-19",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-19T18:45:00Z",
+      "start_time_pkt": "2026-09-19T23:45:00+05:00",
+      "start_timestamp": 1789843500,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "Angers SCO",
+        "slug": "angers-sco",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Angers%20SCO.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Angers SCO",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "ES Troyes AC",
+        "slug": "es-troyes-ac",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/ESTAC%20Troyes.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "ESTAC Troyes",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-19-angers-sco-es-troyes-ac.png"
+    },
+    {
+      "event_id": "ligue-1-2026-09-19-le-mans-fc-fc-lorient",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-19",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-19T18:45:00Z",
+      "start_time_pkt": "2026-09-19T23:45:00+05:00",
+      "start_timestamp": 1789843500,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "Le Mans FC",
+        "slug": "le-mans-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Le%20Mans%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Le Mans FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "FC Lorient",
+        "slug": "fc-lorient",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/FC%20Lorient.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "FC Lorient",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-19-le-mans-fc-fc-lorient.png"
+    },
+    {
+      "event_id": "ligue-1-2026-09-19-olympique-lyonnais-stade-rennais-fc-1901",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-19",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-19T18:45:00Z",
+      "start_time_pkt": "2026-09-19T23:45:00+05:00",
+      "start_timestamp": 1789843500,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "Olympique Lyonnais",
+        "slug": "olympique-lyonnais",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Olympique%20Lyon.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Olympique Lyon",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Stade Rennais FC 1901",
+        "slug": "stade-rennais-fc-1901",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Stade%20Rennais%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Stade Rennais FC",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-19-olympique-lyonnais-stade-rennais-fc-1901.png"
+    },
+    {
+      "event_id": "ligue-1-2026-09-19-toulouse-fc-le-havre-ac",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-19",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-19T18:45:00Z",
+      "start_time_pkt": "2026-09-19T23:45:00+05:00",
+      "start_timestamp": 1789843500,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "Toulouse FC",
+        "slug": "toulouse-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/FC%20Toulouse.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "FC Toulouse",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Le Havre AC",
+        "slug": "le-havre-ac",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Le%20Havre%20AC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Le Havre AC",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-19-toulouse-fc-le-havre-ac.png"
+    },
+    {
+      "event_id": "ligue-1-2026-09-20-aj-auxerre-stade-brestois-29",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-20",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-20T13:00:00Z",
+      "start_time_pkt": "2026-09-20T18:00:00+05:00",
+      "start_timestamp": 1789909200,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "AJ Auxerre",
+        "slug": "aj-auxerre",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/AJ%20Auxerre.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "AJ Auxerre",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Stade Brestois 29",
+        "slug": "stade-brestois-29",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Stade%20Brestois%2029.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Stade Brestois 29",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-20-aj-auxerre-stade-brestois-29.png"
+    },
+    {
+      "event_id": "ligue-1-2026-09-20-ogc-nice-lille-osc",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-20",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-20T15:15:00Z",
+      "start_time_pkt": "2026-09-20T20:15:00+05:00",
+      "start_timestamp": 1789917300,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "OGC Nice",
+        "slug": "ogc-nice",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/OGC%20Nice.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "OGC Nice",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Lille OSC",
+        "slug": "lille-osc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/LOSC%20Lille.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "LOSC Lille",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-20-ogc-nice-lille-osc.png"
+    },
+    {
+      "event_id": "ligue-1-2026-09-20-olympique-de-marseille-paris-saint-germain-fc",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 5",
+        "group": null
+      },
+      "match_date": "2026-09-20",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-09-20T18:45:00Z",
+      "start_time_pkt": "2026-09-20T23:45:00+05:00",
+      "start_timestamp": 1789929900,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "Olympique de Marseille",
+        "slug": "olympique-de-marseille",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Olympique%20Marseille.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Olympique Marseille",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Paris Saint-Germain FC",
+        "slug": "paris-saint-germain-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Paris Saint-Germain",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 5",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-20-olympique-de-marseille-paris-saint-germain-fc.png"
+    },
+    {
+      "event_id": "ligue-1-2026-10-09-racing-club-de-lens-olympique-lyonnais",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-09",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-09T18:45:00Z",
+      "start_time_pkt": "2026-10-09T23:45:00+05:00",
+      "start_timestamp": 1791571500,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "Racing Club de Lens",
+        "slug": "racing-club-de-lens",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/RC%20Lens.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "RC Lens",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Olympique Lyonnais",
+        "slug": "olympique-lyonnais",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Olympique%20Lyon.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Olympique Lyon",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-09-racing-club-de-lens-olympique-lyonnais.png"
+    },
+    {
+      "event_id": "ligue-1-2026-10-10-lille-osc-le-havre-ac",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-10",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-10T15:15:00Z",
+      "start_time_pkt": "2026-10-10T20:15:00+05:00",
+      "start_timestamp": 1791645300,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "Lille OSC",
+        "slug": "lille-osc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/LOSC%20Lille.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "LOSC Lille",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Le Havre AC",
+        "slug": "le-havre-ac",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Le%20Havre%20AC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Le Havre AC",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-10-lille-osc-le-havre-ac.png"
+    },
+    {
+      "event_id": "ligue-1-2026-10-10-as-monaco-fc-toulouse-fc",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-10",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-10T18:45:00Z",
+      "start_time_pkt": "2026-10-10T23:45:00+05:00",
+      "start_timestamp": 1791657900,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "AS Monaco FC",
+        "slug": "as-monaco-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/AS%20Monaco.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "AS Monaco",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Toulouse FC",
+        "slug": "toulouse-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/FC%20Toulouse.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "FC Toulouse",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-10-as-monaco-fc-toulouse-fc.png"
+    },
+    {
+      "event_id": "ligue-1-2026-10-10-fc-lorient-paris-fc",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-10",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-10T18:45:00Z",
+      "start_time_pkt": "2026-10-10T23:45:00+05:00",
+      "start_timestamp": 1791657900,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "FC Lorient",
+        "slug": "fc-lorient",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/FC%20Lorient.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "FC Lorient",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Paris FC",
+        "slug": "paris-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Paris FC",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-10-fc-lorient-paris-fc.png"
+    },
+    {
+      "event_id": "ligue-1-2026-10-10-paris-saint-germain-fc-le-mans-fc",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-10",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-10T18:45:00Z",
+      "start_time_pkt": "2026-10-10T23:45:00+05:00",
+      "start_timestamp": 1791657900,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "Paris Saint-Germain FC",
+        "slug": "paris-saint-germain-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Paris Saint-Germain",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Le Mans FC",
+        "slug": "le-mans-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Le%20Mans%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Le Mans FC",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-10-paris-saint-germain-fc-le-mans-fc.png"
+    },
+    {
+      "event_id": "ligue-1-2026-10-10-stade-brestois-29-angers-sco",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-10",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-10T18:45:00Z",
+      "start_time_pkt": "2026-10-10T23:45:00+05:00",
+      "start_timestamp": 1791657900,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "Stade Brestois 29",
+        "slug": "stade-brestois-29",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Stade%20Brestois%2029.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Stade Brestois 29",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Angers SCO",
+        "slug": "angers-sco",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Angers%20SCO.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Angers SCO",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-10-stade-brestois-29-angers-sco.png"
+    },
+    {
+      "event_id": "ligue-1-2026-10-11-ogc-nice-rc-strasbourg-alsace",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-11",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-11T13:00:00Z",
+      "start_time_pkt": "2026-10-11T18:00:00+05:00",
+      "start_timestamp": 1791723600,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "OGC Nice",
+        "slug": "ogc-nice",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/OGC%20Nice.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "OGC Nice",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "RC Strasbourg Alsace",
+        "slug": "rc-strasbourg-alsace",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/RC%20Strasbourg%20Alsace.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "RC Strasbourg Alsace",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-11-ogc-nice-rc-strasbourg-alsace.png"
+    },
+    {
+      "event_id": "ligue-1-2026-10-11-stade-rennais-fc-1901-aj-auxerre",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-11",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-11T15:15:00Z",
+      "start_time_pkt": "2026-10-11T20:15:00+05:00",
+      "start_timestamp": 1791731700,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "Stade Rennais FC 1901",
+        "slug": "stade-rennais-fc-1901",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Stade%20Rennais%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Stade Rennais FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "AJ Auxerre",
+        "slug": "aj-auxerre",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/AJ%20Auxerre.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "AJ Auxerre",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-11-stade-rennais-fc-1901-aj-auxerre.png"
+    },
+    {
+      "event_id": "ligue-1-2026-10-11-es-troyes-ac-olympique-de-marseille",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 6",
+        "group": null
+      },
+      "match_date": "2026-10-11",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-11T18:45:00Z",
+      "start_time_pkt": "2026-10-11T23:45:00+05:00",
+      "start_timestamp": 1791744300,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "ES Troyes AC",
+        "slug": "es-troyes-ac",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/ESTAC%20Troyes.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "ESTAC Troyes",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Olympique de Marseille",
+        "slug": "olympique-de-marseille",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Olympique%20Marseille.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Olympique Marseille",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 6",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-11-es-troyes-ac-olympique-de-marseille.png"
+    },
+    {
+      "event_id": "ligue-1-2026-10-16-le-mans-fc-toulouse-fc",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 7",
+        "group": null
+      },
+      "match_date": "2026-10-16",
+      "time_status": "confirmed",
+      "start_time_utc": "2026-10-16T18:45:00Z",
+      "start_time_pkt": "2026-10-16T23:45:00+05:00",
+      "start_timestamp": 1792176300,
+      "source_timezone": "Europe/Paris",
+      "home_team": {
+        "name": "Le Mans FC",
+        "slug": "le-mans-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Le%20Mans%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Le Mans FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Toulouse FC",
+        "slug": "toulouse-fc",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/FC%20Toulouse.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "FC Toulouse",
+          "is_fallback": false
+        }
+      },
+      "match_status": "scheduled",
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "file": "fr.1.json",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "round": "Matchday 7",
+      "last_updated": "2026-09-16T14:27:15.044469+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-16-le-mans-fc-toulouse-fc.png"
+    }
+  ]
+}

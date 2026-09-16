@@ -6,9 +6,10 @@ Executes:
 2. Normalizing fixtures and timezone conversions (UTC & PKT)
 3. Resolving team logos with fallback handling
 4. Generating matchday broadcast card graphics
-5. Generating Today & Tomorrow dedicated PKT event feeds
-6. Validating output schemas with Pydantic
-7. Publishing finalized JSON deliverables and execution summary
+5. Generating Global Today & Tomorrow PKT event feeds
+6. Generating Tournament-specific category folders (Today, Tomorrow, Upcoming per league)
+7. Validating output schemas with Pydantic
+8. Publishing finalized JSON deliverables and execution summary
 """
 
 import json
@@ -26,6 +27,7 @@ from generate_event_images import generate_all_event_images
 from validate_output import validate_json_file
 from fetch_today_events import generate_today_events_file
 from fetch_tomorrow_events import generate_tomorrow_events_file
+from generate_competition_feeds import generate_all_competition_feeds
 
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s: %(message)s")
 logger = logging.getLogger("pipeline_main")
@@ -151,20 +153,24 @@ def run_pipeline():
     with open(status_json_path, "w", encoding="utf-8") as f:
         json.dump({"statuses": statuses, "updated_at": now_utc.isoformat()}, f, indent=2, ensure_ascii=False)
 
-    # 6. Generate Today & Tomorrow PKT feeds
-    logger.info("--- Step 5: Generating Today & Tomorrow PKT Feeds ---")
+    # 6. Generate Global Today & Tomorrow PKT feeds
+    logger.info("--- Step 5: Generating Global Today & Tomorrow PKT Feeds ---")
     today_res = generate_today_events_file(upcoming_events_path=events_json_path, output_path="output/today_events.json", now_pkt=now_pkt)
     tomorrow_res = generate_tomorrow_events_file(upcoming_events_path=events_json_path, output_path="output/tomorrow_events.json", now_pkt=now_pkt)
 
+    # 7. Generate Tournament-Specific Category Feeds
+    logger.info("--- Step 6: Generating Category Feeds by Tournament ---")
+    comp_stats = generate_all_competition_feeds(upcoming_events_path=events_json_path, output_base_dir="output/competitions", now_pkt=now_pkt)
+
     logger.info("Saved JSON deliverables to output/ directory.")
 
-    # 7. Validate output
-    logger.info("--- Step 6: Validating Output Artifacts ---")
+    # 8. Validate output
+    logger.info("--- Step 7: Validating Output Artifacts ---")
     validation_passed = validate_json_file(events_json_path, check_images=True)
 
     elapsed = time.time() - start_time
 
-    # 8. Print Execution Report
+    # 9. Print Execution Report
     print("\n" + "=" * 70)
     print("              FOOTBALL EVENTS PIPELINE EXECUTION REPORT")
     print("=" * 70)
@@ -176,26 +182,18 @@ def run_pipeline():
     print(f"Tomorrow (PKT):   {tomorrow_res.get('total_events', 0)} matches ({tomorrow_res.get('target_date_pkt')})")
     print(f"Validation:       {'PASSED' if validation_passed else 'FAILED'}")
     
-    print("\n[Competitions Monitored]:")
-    for s in statuses:
-        status_symbol = "OK" if s["status"] == "available" else "UNAVAILABLE"
-        season_info = f"({s.get('season')})" if s.get('season') else ""
-        print(f"  * {s['name']:<26} [{status_symbol}] {s.get('matches_count', 0):>4} matches {season_info}")
-    
-    print("\n[Logo Resolution Stats]:")
-    print(f"  * Exact Matches:    {logo_stats.get('exact', 0)} ({logo_stats.get('exact', 0)/max(1, logo_stats['total'])*100:.1f}%)")
-    print(f"  * Alias Matches:    {logo_stats.get('alias', 0)} ({logo_stats.get('alias', 0)/max(1, logo_stats['total'])*100:.1f}%)")
-    print(f"  * Fuzzy Matches:    {logo_stats.get('fuzzy', 0)} ({logo_stats.get('fuzzy', 0)/max(1, logo_stats['total'])*100:.1f}%)")
-    print(f"  * Fallback Badges:  {logo_stats.get('fallback', 0)} ({logo_stats.get('fallback', 0)/max(1, logo_stats['total'])*100:.1f}%)")
-    print(f"  * Total Logos:      {logo_stats['total']}")
+    print("\n[Tournament Folders & Feeds (output/competitions/{id}/)]:")
+    for cid, cinfo in comp_stats.items():
+        print(f"  * {cid:<18} -> Today: {cinfo['today_count']:>2} | Tomorrow: {cinfo['tomorrow_count']:>2} | 30-Day: {cinfo['upcoming_count']:>3}")
 
-    print("\n[Deliverable Files & Raw Endpoints]:")
-    print(f"  * Upcoming Events:   {raw_base_url}/output/upcoming_events.json")
-    print(f"  * Today Events PKT:  {raw_base_url}/output/today_events.json")
-    print(f"  * Tomorrow Events:   {raw_base_url}/output/tomorrow_events.json")
-    print(f"  * Competition Log:   output/competition_status.json")
-    print(f"  * Unmatched Report:  output/unmatched_teams.json")
-    print(f"  * Generated Images:  output/images/ ({len(events)} images generated)")
+    print("\n[Deliverable Endpoints]:")
+    print(f"  * All Upcoming:      {raw_base_url}/output/upcoming_events.json")
+    print(f"  * Today (PKT):       {raw_base_url}/output/today_events.json")
+    print(f"  * Tomorrow (PKT):    {raw_base_url}/output/tomorrow_events.json")
+    print(f"  * League Today:      {raw_base_url}/output/competitions/{{league_id}}/today.json")
+    print(f"  * League Tomorrow:   {raw_base_url}/output/competitions/{{league_id}}/tomorrow.json")
+    print(f"  * League Upcoming:   {raw_base_url}/output/competitions/{{league_id}}/upcoming.json")
+    print(f"  * Generated Images:  {raw_base_url}/output/images/{{event_id}}.png")
     print("=" * 70 + "\n")
 
     if not validation_passed:

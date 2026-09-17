@@ -7,65 +7,65 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-09-17T00:40:19.282087+00:00",
+  "generated_at": "2026-09-17T12:30:21.455619+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-09-17",
-  "target_day_name": "Thursday",
+  "target_date_pkt": "2026-09-18",
+  "target_day_name": "Friday",
   "total_events": 1,
   "events": [
     {
-      "event_id": "la-liga-2026-09-17-real-betis-balompie-getafe-cf",
+      "event_id": "la-liga-2026-09-17-malaga-villarreal",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Matchday 6",
+        "round": "Regular Fixture",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Matchday 6",
+      "round": "Regular Fixture",
       "source_date": "2026-09-17",
       "match_date": "2026-09-17",
       "match_date_utc": "2026-09-17",
-      "match_date_pkt": "2026-09-17",
-      "start_time_utc": "2026-09-17T17:00:00Z",
-      "start_time_pkt": "2026-09-17T22:00:00+05:00",
-      "start_timestamp": 1789664400,
-      "display_date": "2026-09-17",
-      "display_time": "10:00 PM",
+      "match_date_pkt": "2026-09-18",
+      "start_time_utc": "2026-09-17T19:30:00Z",
+      "start_time_pkt": "2026-09-18T00:30:00+05:00",
+      "start_timestamp": 1789673400,
+      "display_date": "2026-09-18",
+      "display_time": "12:30 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Real Betis Balompié",
-        "slug": "real-betis-balompie",
-        "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
+        "name": "Málaga",
+        "slug": "malaga",
+        "espn_id": "99",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
         "logo_resolution": {
-          "source": "alias",
+          "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Real Betis Balompié",
+          "matched_name": "Málaga",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Getafe CF",
-        "slug": "getafe-cf",
-        "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Getafe%20CF.png",
+        "name": "Villarreal",
+        "slug": "villarreal",
+        "espn_id": "102",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
         "logo_resolution": {
-          "source": "alias",
+          "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Getafe CF",
+          "matched_name": "Villarreal",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "OpenFootball",
+        "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T21:05:09.929678+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-17-real-betis-balompie-getafe-cf.png"
+      "last_updated": "2026-09-17T00:45:45.426298+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-17-malaga-villarreal.png"
     }
   ]
 }

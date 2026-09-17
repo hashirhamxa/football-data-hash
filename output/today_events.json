@@ -4,20 +4,128 @@
   "timezone_label": "PKT (UTC+05:00)",
   "target_date_pkt": "2026-09-17",
   "target_day_name": "Thursday",
-  "generated_at": "2026-09-16T21:05:35.093836+00:00",
-  "total_events": 1,
+  "generated_at": "2026-09-17T00:47:44.216089+00:00",
+  "total_events": 4,
   "events": [
     {
-      "event_id": "la-liga-2026-09-17-real-betis-balompie-getafe-cf",
+      "event_id": "europa-league-2026-09-17-levski-sofia-rb-salzburg",
+      "competition": {
+        "id": "europa-league",
+        "name": "UEFA Europa League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-17",
+      "match_date": "2026-09-17",
+      "match_date_utc": "2026-09-17",
+      "match_date_pkt": "2026-09-17",
+      "start_time_utc": "2026-09-17T16:45:00Z",
+      "start_time_pkt": "2026-09-17T21:45:00+05:00",
+      "start_timestamp": 1789663500,
+      "display_date": "2026-09-17",
+      "display_time": "09:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Levski Sofia",
+        "slug": "levski-sofia",
+        "espn_id": "490",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Levski Sofia",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "RB Salzburg",
+        "slug": "rb-salzburg",
+        "espn_id": "2790",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "RB Salzburg",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
+      },
+      "last_updated": "2026-09-17T00:45:45.426298+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-09-17-levski-sofia-rb-salzburg.png"
+    },
+    {
+      "event_id": "europa-league-2026-09-17-ofi-crete-tsg-hoffenheim",
+      "competition": {
+        "id": "europa-league",
+        "name": "UEFA Europa League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-17",
+      "match_date": "2026-09-17",
+      "match_date_utc": "2026-09-17",
+      "match_date_pkt": "2026-09-17",
+      "start_time_utc": "2026-09-17T16:45:00Z",
+      "start_time_pkt": "2026-09-17T21:45:00+05:00",
+      "start_timestamp": 1789663500,
+      "display_date": "2026-09-17",
+      "display_time": "09:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "OFI Crete",
+        "slug": "ofi-crete",
+        "espn_id": "1010",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "OFI Crete",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "TSG Hoffenheim",
+        "slug": "tsg-hoffenheim",
+        "espn_id": "7911",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "TSG Hoffenheim",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
+      },
+      "last_updated": "2026-09-17T00:45:45.426298+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-09-17-ofi-crete-tsg-hoffenheim.png"
+    },
+    {
+      "event_id": "la-liga-2026-09-17-real-betis-getafe",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Matchday 6",
+        "round": "Regular Fixture",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Matchday 6",
+      "round": "Regular Fixture",
       "source_date": "2026-09-17",
       "match_date": "2026-09-17",
       "match_date_utc": "2026-09-17",
@@ -30,36 +138,90 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Real Betis Balompié",
-        "slug": "real-betis-balompie",
-        "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
+        "name": "Real Betis",
+        "slug": "real-betis",
+        "espn_id": "244",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
         "logo_resolution": {
-          "source": "alias",
+          "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Real Betis Balompié",
+          "matched_name": "Real Betis",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Getafe CF",
-        "slug": "getafe-cf",
-        "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Getafe%20CF.png",
+        "name": "Getafe",
+        "slug": "getafe",
+        "espn_id": "2922",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
         "logo_resolution": {
-          "source": "alias",
+          "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Getafe CF",
+          "matched_name": "Getafe",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "OpenFootball",
+        "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-09-16T21:05:09.929678+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-17-real-betis-balompie-getafe-cf.png"
+      "last_updated": "2026-09-17T00:45:45.426298+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-17-real-betis-getafe.png"
+    },
+    {
+      "event_id": "carabao-cup-2026-09-17-manchester-city-norwich-city",
+      "competition": {
+        "id": "carabao-cup",
+        "name": "English Carabao Cup",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-17",
+      "match_date": "2026-09-17",
+      "match_date_utc": "2026-09-17",
+      "match_date_pkt": "2026-09-17",
+      "start_time_utc": "2026-09-17T18:30:00Z",
+      "start_time_pkt": "2026-09-17T23:30:00+05:00",
+      "start_timestamp": 1789669800,
+      "display_date": "2026-09-17",
+      "display_time": "11:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Manchester City",
+        "slug": "manchester-city",
+        "espn_id": "382",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Manchester City",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Norwich City",
+        "slug": "norwich-city",
+        "espn_id": "381",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/381.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Norwich City",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.league_cup/scoreboard"
+      },
+      "last_updated": "2026-09-17T00:45:45.426298+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/carabao-cup-2026-09-17-manchester-city-norwich-city.png"
     }
   ]
 }

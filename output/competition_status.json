@@ -3,99 +3,102 @@
     {
       "id": "premier-league",
       "name": "English Premier League",
-      "provider": "OpenFootball",
-      "season": "2026-27",
-      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.1.json",
+      "provider": "ESPN",
+      "espn_slug": "eng.1",
+      "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "status": "available",
-      "matches_count": 350,
-      "last_fetched": "2026-09-16T21:05:10.152844+00:00"
+      "matches_count": 48,
+      "last_fetched": "2026-09-17T00:45:48.960034+00:00"
     },
     {
       "id": "championship",
       "name": "English Championship",
-      "provider": "OpenFootball",
-      "season": "2026-27",
-      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.2.json",
+      "provider": "ESPN",
+      "espn_slug": "eng.2",
+      "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
       "status": "available",
-      "matches_count": 492,
-      "last_fetched": "2026-09-16T21:05:10.365925+00:00"
+      "matches_count": 73,
+      "last_fetched": "2026-09-17T00:45:51.295561+00:00"
     },
     {
       "id": "carabao-cup",
       "name": "English Carabao Cup",
-      "status": "no_fixtures_found",
-      "espn_status": "no_fixtures_in_window",
-      "openfootball_status": "no_source_file",
-      "matches_count": 0,
-      "last_fetched": "2026-09-16T21:05:10.459720+00:00"
+      "provider": "ESPN",
+      "espn_slug": "eng.league_cup",
+      "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
+      "status": "available",
+      "matches_count": 1,
+      "last_fetched": "2026-09-17T00:45:52.881393+00:00"
     },
     {
       "id": "la-liga",
       "name": "Spanish La Liga",
-      "provider": "OpenFootball",
-      "season": "2026-27",
-      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json",
+      "provider": "ESPN",
+      "espn_slug": "esp.1",
+      "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "status": "available",
-      "matches_count": 339,
-      "last_fetched": "2026-09-16T21:05:10.625239+00:00"
+      "matches_count": 42,
+      "last_fetched": "2026-09-17T00:45:55.237621+00:00"
     },
     {
       "id": "serie-a",
       "name": "Italian Serie A",
-      "provider": "OpenFootball",
-      "season": "2026-27",
-      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json",
+      "provider": "ESPN",
+      "espn_slug": "ita.1",
+      "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
       "status": "available",
-      "matches_count": 350,
-      "last_fetched": "2026-09-16T21:05:10.816459+00:00"
+      "matches_count": 53,
+      "last_fetched": "2026-09-17T00:45:57.800093+00:00"
     },
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "provider": "OpenFootball",
-      "season": "2026-27",
-      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json",
+      "provider": "ESPN",
+      "espn_slug": "ger.1",
+      "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "status": "available",
-      "matches_count": 288,
-      "last_fetched": "2026-09-16T21:05:10.984540+00:00"
+      "matches_count": 43,
+      "last_fetched": "2026-09-17T00:46:00.947296+00:00"
     },
     {
       "id": "ligue-1",
       "name": "French Ligue 1",
-      "provider": "OpenFootball",
-      "season": "2026-27",
-      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json",
+      "provider": "ESPN",
+      "espn_slug": "fra.1",
+      "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
       "status": "available",
-      "matches_count": 279,
-      "last_fetched": "2026-09-16T21:05:11.208625+00:00"
+      "matches_count": 42,
+      "last_fetched": "2026-09-17T00:46:03.450043+00:00"
     },
     {
       "id": "champions-league",
       "name": "UEFA Champions League",
-      "provider": "OpenFootball",
-      "season": "2024-25",
-      "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2024-25/uefa.cl.json",
+      "provider": "ESPN",
+      "espn_slug": "uefa.champions",
+      "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png",
       "status": "available",
-      "matches_count": 1,
-      "last_fetched": "2026-09-16T21:05:11.745459+00:00"
+      "matches_count": 36,
+      "last_fetched": "2026-09-17T00:46:05.258907+00:00"
     },
     {
       "id": "europa-league",
       "name": "UEFA Europa League",
-      "status": "no_fixtures_found",
-      "espn_status": "no_fixtures_in_window",
-      "openfootball_status": "unavailable",
-      "matches_count": 0,
-      "last_fetched": "2026-09-16T21:05:12.420863+00:00"
+      "provider": "ESPN",
+      "espn_slug": "uefa.europa",
+      "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png",
+      "status": "available",
+      "matches_count": 45,
+      "last_fetched": "2026-09-17T00:46:07.849878+00:00"
     },
     {
       "id": "conference-league",
       "name": "UEFA Conference League",
-      "status": "no_fixtures_found",
-      "espn_status": "no_fixtures_in_window",
-      "openfootball_status": "no_source_file",
-      "matches_count": 0,
-      "last_fetched": "2026-09-16T21:05:12.508294+00:00"
+      "provider": "ESPN",
+      "espn_slug": "uefa.europa.conf",
+      "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/20296.png",
+      "status": "available",
+      "matches_count": 36,
+      "last_fetched": "2026-09-17T00:46:10.847053+00:00"
     },
     {
       "id": "world-cup",
@@ -104,8 +107,8 @@
       "espn_status": "no_fixtures_in_window",
       "openfootball_status": "unavailable",
       "matches_count": 0,
-      "last_fetched": "2026-09-16T21:05:13.149013+00:00"
+      "last_fetched": "2026-09-17T00:46:17.674283+00:00"
     }
   ],
-  "updated_at": "2026-09-16T21:05:09.929678+00:00"
+  "updated_at": "2026-09-17T00:45:45.426298+00:00"
 }

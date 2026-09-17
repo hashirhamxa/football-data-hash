@@ -25,34 +25,35 @@ class ESPNFixtureAdapter(BaseFixtureAdapter):
     Ingests live fixture schedules, official logos, and kickoff times from ESPN.
     """
 
-    def __init__(self, timeout: int = 10, max_workers: int = 20):
+    def __init__(self, timeout: int = 12, max_workers: int = 10):
         super().__init__(name="ESPN Public API")
         self.timeout = timeout
         self.max_workers = max_workers
         self.base_url = "https://site.api.espn.com/apis/site/v2/sports/soccer"
 
-    def fetch_url_json(self, url: str) -> Optional[Dict[str, Any]]:
+    def fetch_url_json(self, url: str, max_retries: int = 3) -> Optional[Dict[str, Any]]:
         """
-        Fetches JSON from ESPN endpoint with clean browser headers.
+        Fetches JSON from ESPN endpoint with clean browser headers and automatic retry.
         """
         req = urllib.request.Request(
             url,
             headers={
-                "User-Agent": USER_AGENT,
+                "User-Agent": "Mozilla/5.0",
                 "Accept": "application/json, text/plain, */*"
             }
         )
-        try:
-            with urllib.request.urlopen(req, timeout=self.timeout) as resp:
-                content = resp.read().decode("utf-8")
-                return json.loads(content)
-        except urllib.error.HTTPError as e:
-            if e.code != 404:
-                logger.debug(f"HTTP {e.code} fetching {url}")
-            return None
-        except Exception as e:
-            logger.debug(f"Error fetching {url}: {e}")
-            return None
+        for attempt in range(max_retries):
+            try:
+                with urllib.request.urlopen(req, timeout=self.timeout) as resp:
+                    content = resp.read().decode("utf-8")
+                    return json.loads(content)
+            except urllib.error.HTTPError as e:
+                if e.code == 404:
+                    return None
+                logger.debug(f"HTTP {e.code} fetching {url} (attempt {attempt + 1}/{max_retries})")
+            except Exception as e:
+                logger.debug(f"Error fetching {url}: {e} (attempt {attempt + 1}/{max_retries})")
+        return None
 
     def fetch_date_scoreboard(self, slug: str, date_str: str) -> Optional[Dict[str, Any]]:
         url = f"{self.base_url}/{slug}/scoreboard?dates={date_str}"
@@ -156,7 +157,7 @@ class ESPNFixtureAdapter(BaseFixtureAdapter):
         days_ahead: int = 30
     ) -> Dict[str, Any]:
         """
-        Fetches fixtures across current active scoreboard and future dates.
+        Fetches fixtures across active scoreboard, monthly calendars, and upcoming dates.
         """
         slug = competition.get("espn_slug")
         comp_id = competition["id"]
@@ -178,46 +179,48 @@ class ESPNFixtureAdapter(BaseFixtureAdapter):
         all_matches = []
         seen_espn_ids = set()
 
-        # 1. Fetch current scoreboard (active gameweek/round)
+        def add_event(ev: Dict[str, Any]):
+            parsed = self.parse_espn_event(ev, competition)
+            if parsed:
+                eid = parsed.get("espn_id")
+                if eid and eid not in seen_espn_ids:
+                    seen_espn_ids.add(eid)
+                    all_matches.append(parsed)
+                elif not eid:
+                    all_matches.append(parsed)
+
+        # 1. Fetch current scoreboard (active round/gameweek)
         curr_data = self.fetch_current_scoreboard(slug)
         if curr_data:
-            events = curr_data.get("events", [])
-            for ev in events:
-                parsed = self.parse_espn_event(ev, competition)
-                if parsed:
-                    eid = parsed.get("espn_id")
-                    if eid and eid not in seen_espn_ids:
-                        seen_espn_ids.add(eid)
-                        all_matches.append(parsed)
-                    elif not eid:
-                        all_matches.append(parsed)
+            for ev in curr_data.get("events", []):
+                add_event(ev)
 
-        # 2. Query future upcoming dates
-        date_strs = []
+        # 2. Collect monthly queries (YYYYMM) covering the entire date window
+        # (e.g. 202609 and 202610 for a 30-day window starting mid-September)
+        query_dates = set()
+        month_keys = set()
         for i in range(days_ahead + 1):
             d = start_date + timedelta(days=i)
-            date_strs.append(d.strftime("%Y%m%d"))
+            month_keys.add(d.strftime("%Y%m"))
+            # Also include direct dates for immediate 7 days for precision
+            if i <= 7:
+                query_dates.add(d.strftime("%Y%m%d"))
 
-        with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
-            future_to_date = {
-                executor.submit(self.fetch_date_scoreboard, slug, ds): ds
-                for ds in date_strs
+        # Combine monthly keys and key direct dates
+        all_query_params = list(month_keys) + list(query_dates)
+
+        with ThreadPoolExecutor(max_workers=min(self.max_workers, len(all_query_params) or 1)) as executor:
+            future_to_param = {
+                executor.submit(self.fetch_date_scoreboard, slug, param): param
+                for param in all_query_params
             }
 
-            for future in as_completed(future_to_date):
+            for future in as_completed(future_to_param):
                 data = future.result()
                 if not data:
                     continue
-                events = data.get("events", [])
-                for ev in events:
-                    parsed = self.parse_espn_event(ev, competition)
-                    if parsed:
-                        eid = parsed.get("espn_id")
-                        if eid and eid not in seen_espn_ids:
-                            seen_espn_ids.add(eid)
-                            all_matches.append(parsed)
-                        elif not eid:
-                            all_matches.append(parsed)
+                for ev in data.get("events", []):
+                    add_event(ev)
 
         league_logo_url = None
         if curr_data and "leagues" in curr_data and curr_data["leagues"]:

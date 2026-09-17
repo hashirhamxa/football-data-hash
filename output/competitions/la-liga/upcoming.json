@@ -7,21 +7,21 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-09-17T14:06:35.588668+00:00",
+  "generated_at": "2026-09-17T14:19:39.530001+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 27,
+  "total_events": 22,
   "events": [
     {
-      "event_id": "la-liga-2026-09-17-real-betis-getafe",
+      "event_id": "la-liga-2026-09-17-real-betis-balompie-getafe-cf",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 6",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
+      "round": "Matchday 6",
       "source_date": "2026-09-17",
       "match_date": "2026-09-17",
       "match_date_utc": "2026-09-17",
@@ -34,48 +34,48 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Real Betis",
-        "slug": "real-betis",
-        "espn_id": "244",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+        "name": "Real Betis Balompié",
+        "slug": "real-betis-balompie",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Real Betis",
+          "matched_name": "Real Betis Balompié",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Getafe",
-        "slug": "getafe",
-        "espn_id": "2922",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+        "name": "Getafe CF",
+        "slug": "getafe-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Getafe%20CF.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Getafe",
+          "matched_name": "Getafe CF",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-17-real-betis-getafe.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-17-real-betis-balompie-getafe-cf.png"
     },
     {
-      "event_id": "la-liga-2026-09-17-malaga-villarreal",
+      "event_id": "la-liga-2026-09-17-malaga-cf-villarreal-cf",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 6",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
+      "round": "Matchday 6",
       "source_date": "2026-09-17",
       "match_date": "2026-09-17",
       "match_date_utc": "2026-09-17",
@@ -88,48 +88,48 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Málaga",
-        "slug": "malaga",
-        "espn_id": "99",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+        "name": "Málaga CF",
+        "slug": "malaga-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/M%C3%A1laga%20CF.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "exact",
           "confidence": 1.0,
-          "matched_name": "Málaga",
+          "matched_name": "Málaga CF",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Villarreal",
-        "slug": "villarreal",
-        "espn_id": "102",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+        "name": "Villarreal CF",
+        "slug": "villarreal-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Villarreal%20CF.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Villarreal",
+          "matched_name": "Villarreal CF",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-17-malaga-villarreal.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-17-malaga-cf-villarreal-cf.png"
     },
     {
-      "event_id": "la-liga-2026-09-18-espanyol-elche",
+      "event_id": "la-liga-2026-09-18-rcd-espanyol-de-barcelona-elche-cf",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 7",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
+      "round": "Matchday 7",
       "source_date": "2026-09-18",
       "match_date": "2026-09-18",
       "match_date_utc": "2026-09-18",
@@ -142,48 +142,48 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Espanyol",
-        "slug": "espanyol",
-        "espn_id": "88",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+        "name": "RCD Espanyol de Barcelona",
+        "slug": "rcd-espanyol-de-barcelona",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2021-22/Spain%20-%20LaLiga/Espanyol.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Espanyol",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Elche",
-        "slug": "elche",
-        "espn_id": "3751",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+        "name": "Elche CF",
+        "slug": "elche-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Elche%20CF.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Elche",
+          "matched_name": "Elche CF",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-18-espanyol-elche.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-18-rcd-espanyol-de-barcelona-elche-cf.png"
     },
     {
-      "event_id": "la-liga-2026-09-19-osasuna-rayo-vallecano",
+      "event_id": "la-liga-2026-09-19-ca-osasuna-rayo-vallecano-de-madrid",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 7",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
+      "round": "Matchday 7",
       "source_date": "2026-09-19",
       "match_date": "2026-09-19",
       "match_date_utc": "2026-09-19",
@@ -196,48 +196,48 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Osasuna",
-        "slug": "osasuna",
-        "espn_id": "97",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+        "name": "CA Osasuna",
+        "slug": "ca-osasuna",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/CA%20Osasuna.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Osasuna",
+          "matched_name": "CA Osasuna",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Rayo Vallecano",
-        "slug": "rayo-vallecano",
-        "espn_id": "101",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+        "name": "Rayo Vallecano de Madrid",
+        "slug": "rayo-vallecano-de-madrid",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Rayo%20Vallecano.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Rayo Vallecano",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-osasuna-rayo-vallecano.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-ca-osasuna-rayo-vallecano-de-madrid.png"
     },
     {
-      "event_id": "la-liga-2026-09-19-athletic-club-alaves",
+      "event_id": "la-liga-2026-09-19-athletic-club-deportivo-alaves",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 7",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
+      "round": "Matchday 7",
       "source_date": "2026-09-19",
       "match_date": "2026-09-19",
       "match_date_utc": "2026-09-19",
@@ -252,46 +252,46 @@
       "home_team": {
         "name": "Athletic Club",
         "slug": "athletic-club",
-        "espn_id": "93",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Athletic Club",
+          "matched_name": "Athletic Bilbao",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Alavés",
-        "slug": "alaves",
-        "espn_id": "96",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+        "name": "Deportivo Alavés",
+        "slug": "deportivo-alaves",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Deportivo%20Alav%C3%A9s.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Alavés",
+          "matched_name": "Deportivo Alavés",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-athletic-club-alaves.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-athletic-club-deportivo-alaves.png"
     },
     {
-      "event_id": "la-liga-2026-09-19-celta-vigo-racing-santander",
+      "event_id": "la-liga-2026-09-19-rc-celta-de-vigo-real-racing-club-de-santander",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 7",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
+      "round": "Matchday 7",
       "source_date": "2026-09-19",
       "match_date": "2026-09-19",
       "match_date_utc": "2026-09-19",
@@ -304,48 +304,48 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Celta Vigo",
-        "slug": "celta-vigo",
-        "espn_id": "85",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+        "name": "RC Celta de Vigo",
+        "slug": "rc-celta-de-vigo",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Celta%20de%20Vigo.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Celta Vigo",
+          "matched_name": "Celta de Vigo",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Racing Santander",
-        "slug": "racing-santander",
-        "espn_id": "87",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+        "name": "Real Racing Club de Santander",
+        "slug": "real-racing-club-de-santander",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Racing%20Santander.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Racing Santander",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-celta-vigo-racing-santander.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-rc-celta-de-vigo-real-racing-club-de-santander.png"
     },
     {
-      "event_id": "la-liga-2026-09-19-sevilla-barcelona",
+      "event_id": "la-liga-2026-09-19-sevilla-fc-fc-barcelona",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 7",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
+      "round": "Matchday 7",
       "source_date": "2026-09-19",
       "match_date": "2026-09-19",
       "match_date_utc": "2026-09-19",
@@ -358,48 +358,48 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Sevilla",
-        "slug": "sevilla",
-        "espn_id": "243",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+        "name": "Sevilla FC",
+        "slug": "sevilla-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Sevilla%20FC.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Sevilla",
+          "matched_name": "Sevilla FC",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Barcelona",
-        "slug": "barcelona",
-        "espn_id": "83",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+        "name": "FC Barcelona",
+        "slug": "fc-barcelona",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Barcelona",
+          "matched_name": "FC Barcelona",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-sevilla-barcelona.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-sevilla-fc-fc-barcelona.png"
     },
     {
-      "event_id": "la-liga-2026-09-20-getafe-malaga",
+      "event_id": "la-liga-2026-09-20-getafe-cf-malaga-cf",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 7",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
+      "round": "Matchday 7",
       "source_date": "2026-09-20",
       "match_date": "2026-09-20",
       "match_date_utc": "2026-09-20",
@@ -412,48 +412,48 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Getafe",
-        "slug": "getafe",
-        "espn_id": "2922",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+        "name": "Getafe CF",
+        "slug": "getafe-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Getafe%20CF.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Getafe",
+          "matched_name": "Getafe CF",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Málaga",
-        "slug": "malaga",
-        "espn_id": "99",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+        "name": "Málaga CF",
+        "slug": "malaga-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/M%C3%A1laga%20CF.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "exact",
           "confidence": 1.0,
-          "matched_name": "Málaga",
+          "matched_name": "Málaga CF",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-20-getafe-malaga.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-20-getafe-cf-malaga-cf.png"
     },
     {
-      "event_id": "la-liga-2026-09-20-atletico-madrid-real-madrid",
+      "event_id": "la-liga-2026-09-20-club-atletico-de-madrid-real-madrid-cf",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 7",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
+      "round": "Matchday 7",
       "source_date": "2026-09-20",
       "match_date": "2026-09-20",
       "match_date_utc": "2026-09-20",
@@ -466,48 +466,48 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Atlético Madrid",
-        "slug": "atletico-madrid",
-        "espn_id": "1068",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+        "name": "Club Atlético de Madrid",
+        "slug": "club-atletico-de-madrid",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Atlético Madrid",
+          "matched_name": "Atlético de Madrid",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Real Madrid",
-        "slug": "real-madrid",
-        "espn_id": "86",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+        "name": "Real Madrid CF",
+        "slug": "real-madrid-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Real Madrid",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-20-atletico-madrid-real-madrid.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-20-club-atletico-de-madrid-real-madrid-cf.png"
     },
     {
-      "event_id": "la-liga-2026-09-20-deportivo-real-betis",
+      "event_id": "la-liga-2026-09-20-rc-deportivo-la-coruna-real-betis-balompie",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 7",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
+      "round": "Matchday 7",
       "source_date": "2026-09-20",
       "match_date": "2026-09-20",
       "match_date_utc": "2026-09-20",
@@ -520,48 +520,48 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Deportivo",
-        "slug": "deportivo",
-        "espn_id": "90",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+        "name": "RC Deportivo La Coruña",
+        "slug": "rc-deportivo-la-coruna",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Deportivo%20A%20Coru%C3%B1a.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Deportivo",
+          "matched_name": "Deportivo A Coruña",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Real Betis",
-        "slug": "real-betis",
-        "espn_id": "244",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+        "name": "Real Betis Balompié",
+        "slug": "real-betis-balompie",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Real Betis",
+          "matched_name": "Real Betis Balompié",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-20-deportivo-real-betis.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-20-rc-deportivo-la-coruna-real-betis-balompie.png"
     },
     {
-      "event_id": "la-liga-2026-09-20-villarreal-levante",
+      "event_id": "la-liga-2026-09-20-villarreal-cf-levante-ud",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 7",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
+      "round": "Matchday 7",
       "source_date": "2026-09-20",
       "match_date": "2026-09-20",
       "match_date_utc": "2026-09-20",
@@ -574,48 +574,48 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Villarreal",
-        "slug": "villarreal",
-        "espn_id": "102",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+        "name": "Villarreal CF",
+        "slug": "villarreal-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Villarreal%20CF.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Villarreal",
+          "matched_name": "Villarreal CF",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Levante",
-        "slug": "levante",
-        "espn_id": "1538",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+        "name": "Levante UD",
+        "slug": "levante-ud",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Levante%20UD.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Levante",
+          "matched_name": "Levante UD",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-20-villarreal-levante.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-20-villarreal-cf-levante-ud.png"
     },
     {
-      "event_id": "la-liga-2026-09-20-valencia-real-sociedad",
+      "event_id": "la-liga-2026-09-20-valencia-cf-real-sociedad-de-futbol",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 7",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
+      "round": "Matchday 7",
       "source_date": "2026-09-20",
       "match_date": "2026-09-20",
       "match_date_utc": "2026-09-20",
@@ -628,120 +628,336 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Valencia",
-        "slug": "valencia",
-        "espn_id": "94",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+        "name": "Valencia CF",
+        "slug": "valencia-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Valencia%20CF.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Valencia",
+          "matched_name": "Valencia CF",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Real Sociedad",
-        "slug": "real-sociedad",
-        "espn_id": "89",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+        "name": "Real Sociedad de Fútbol",
+        "slug": "real-sociedad-de-futbol",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Sociedad.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Real Sociedad",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-20-valencia-real-sociedad.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-20-valencia-cf-real-sociedad-de-futbol.png"
     },
     {
-      "event_id": "la-liga-2026-10-09-malaga-espanyol",
+      "event_id": "la-liga-2026-10-11-deportivo-alaves-club-atletico-de-madrid",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 8",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-09",
-      "match_date": "2026-10-09",
-      "match_date_utc": "2026-10-09",
-      "match_date_pkt": "2026-10-10",
-      "start_time_utc": "2026-10-09T19:00:00Z",
-      "start_time_pkt": "2026-10-10T00:00:00+05:00",
-      "start_timestamp": 1791572400,
-      "display_date": "2026-10-10",
-      "display_time": "12:00 AM",
+      "round": "Matchday 8",
+      "source_date": "2026-10-11",
+      "match_date": "2026-10-11",
+      "match_date_utc": "2026-10-11",
+      "match_date_pkt": "2026-10-11",
+      "start_time_utc": null,
+      "start_time_pkt": null,
+      "start_timestamp": null,
+      "display_date": "2026-10-11",
+      "display_time": "TBD",
       "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
+      "time_status": "tbd",
       "home_team": {
-        "name": "Málaga",
-        "slug": "malaga",
-        "espn_id": "99",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+        "name": "Deportivo Alavés",
+        "slug": "deportivo-alaves",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Deportivo%20Alav%C3%A9s.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Málaga",
+          "matched_name": "Deportivo Alavés",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Espanyol",
-        "slug": "espanyol",
-        "espn_id": "88",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+        "name": "Club Atlético de Madrid",
+        "slug": "club-atletico-de-madrid",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Atlético de Madrid",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-deportivo-alaves-club-atletico-de-madrid.png"
+    },
+    {
+      "event_id": "la-liga-2026-10-11-elche-cf-rc-celta-de-vigo",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 8",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Matchday 8",
+      "source_date": "2026-10-11",
+      "match_date": "2026-10-11",
+      "match_date_utc": "2026-10-11",
+      "match_date_pkt": "2026-10-11",
+      "start_time_utc": null,
+      "start_time_pkt": null,
+      "start_timestamp": null,
+      "display_date": "2026-10-11",
+      "display_time": "TBD",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "tbd",
+      "home_team": {
+        "name": "Elche CF",
+        "slug": "elche-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Elche%20CF.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Elche CF",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "RC Celta de Vigo",
+        "slug": "rc-celta-de-vigo",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Celta%20de%20Vigo.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Celta de Vigo",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-elche-cf-rc-celta-de-vigo.png"
+    },
+    {
+      "event_id": "la-liga-2026-10-11-fc-barcelona-getafe-cf",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 8",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Matchday 8",
+      "source_date": "2026-10-11",
+      "match_date": "2026-10-11",
+      "match_date_utc": "2026-10-11",
+      "match_date_pkt": "2026-10-11",
+      "start_time_utc": null,
+      "start_time_pkt": null,
+      "start_timestamp": null,
+      "display_date": "2026-10-11",
+      "display_time": "TBD",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "tbd",
+      "home_team": {
+        "name": "FC Barcelona",
+        "slug": "fc-barcelona",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "FC Barcelona",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Getafe CF",
+        "slug": "getafe-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Getafe%20CF.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Getafe CF",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-fc-barcelona-getafe-cf.png"
+    },
+    {
+      "event_id": "la-liga-2026-10-11-levante-ud-sevilla-fc",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 8",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Matchday 8",
+      "source_date": "2026-10-11",
+      "match_date": "2026-10-11",
+      "match_date_utc": "2026-10-11",
+      "match_date_pkt": "2026-10-11",
+      "start_time_utc": null,
+      "start_time_pkt": null,
+      "start_timestamp": null,
+      "display_date": "2026-10-11",
+      "display_time": "TBD",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "tbd",
+      "home_team": {
+        "name": "Levante UD",
+        "slug": "levante-ud",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Levante%20UD.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Levante UD",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Sevilla FC",
+        "slug": "sevilla-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Sevilla%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Sevilla FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-levante-ud-sevilla-fc.png"
+    },
+    {
+      "event_id": "la-liga-2026-10-11-malaga-cf-rcd-espanyol-de-barcelona",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 8",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Matchday 8",
+      "source_date": "2026-10-11",
+      "match_date": "2026-10-11",
+      "match_date_utc": "2026-10-11",
+      "match_date_pkt": "2026-10-11",
+      "start_time_utc": null,
+      "start_time_pkt": null,
+      "start_timestamp": null,
+      "display_date": "2026-10-11",
+      "display_time": "TBD",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "tbd",
+      "home_team": {
+        "name": "Málaga CF",
+        "slug": "malaga-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/M%C3%A1laga%20CF.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 1.0,
+          "matched_name": "Málaga CF",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "RCD Espanyol de Barcelona",
+        "slug": "rcd-espanyol-de-barcelona",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2021-22/Spain%20-%20LaLiga/Espanyol.png",
+        "logo_resolution": {
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Espanyol",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-09-malaga-espanyol.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-malaga-cf-rcd-espanyol-de-barcelona.png"
     },
     {
-      "event_id": "la-liga-2026-10-10-rayo-vallecano-athletic-club",
+      "event_id": "la-liga-2026-10-11-rayo-vallecano-de-madrid-athletic-club",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 8",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-10",
-      "match_date": "2026-10-10",
-      "match_date_utc": "2026-10-10",
-      "match_date_pkt": "2026-10-10",
-      "start_time_utc": "2026-10-10T12:00:00Z",
-      "start_time_pkt": "2026-10-10T17:00:00+05:00",
-      "start_timestamp": 1791633600,
-      "display_date": "2026-10-10",
-      "display_time": "05:00 PM",
+      "round": "Matchday 8",
+      "source_date": "2026-10-11",
+      "match_date": "2026-10-11",
+      "match_date_utc": "2026-10-11",
+      "match_date_pkt": "2026-10-11",
+      "start_time_utc": null,
+      "start_time_pkt": null,
+      "start_timestamp": null,
+      "display_date": "2026-10-11",
+      "display_time": "TBD",
       "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
+      "time_status": "tbd",
       "home_team": {
-        "name": "Rayo Vallecano",
-        "slug": "rayo-vallecano",
-        "espn_id": "101",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+        "name": "Rayo Vallecano de Madrid",
+        "slug": "rayo-vallecano-de-madrid",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Rayo%20Vallecano.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Rayo Vallecano",
           "is_fallback": false
@@ -750,724 +966,238 @@
       "away_team": {
         "name": "Athletic Club",
         "slug": "athletic-club",
-        "espn_id": "93",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Athletic Club",
+          "matched_name": "Athletic Bilbao",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-10-rayo-vallecano-athletic-club.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-rayo-vallecano-de-madrid-athletic-club.png"
     },
     {
-      "event_id": "la-liga-2026-10-10-alaves-atletico-madrid",
+      "event_id": "la-liga-2026-10-11-real-betis-balompie-ca-osasuna",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 8",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-10",
-      "match_date": "2026-10-10",
-      "match_date_utc": "2026-10-10",
-      "match_date_pkt": "2026-10-10",
-      "start_time_utc": "2026-10-10T14:15:00Z",
-      "start_time_pkt": "2026-10-10T19:15:00+05:00",
-      "start_timestamp": 1791641700,
-      "display_date": "2026-10-10",
-      "display_time": "07:15 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Alavés",
-        "slug": "alaves",
-        "espn_id": "96",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Alavés",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Atlético Madrid",
-        "slug": "atletico-madrid",
-        "espn_id": "1068",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Atlético Madrid",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-10-alaves-atletico-madrid.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-10-barcelona-getafe",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-10",
-      "match_date": "2026-10-10",
-      "match_date_utc": "2026-10-10",
-      "match_date_pkt": "2026-10-10",
-      "start_time_utc": "2026-10-10T16:30:00Z",
-      "start_time_pkt": "2026-10-10T21:30:00+05:00",
-      "start_timestamp": 1791649800,
-      "display_date": "2026-10-10",
-      "display_time": "09:30 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Barcelona",
-        "slug": "barcelona",
-        "espn_id": "83",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Barcelona",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Getafe",
-        "slug": "getafe",
-        "espn_id": "2922",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Getafe",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-10-barcelona-getafe.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-10-real-madrid-villarreal",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-10",
-      "match_date": "2026-10-10",
-      "match_date_utc": "2026-10-10",
+      "round": "Matchday 8",
+      "source_date": "2026-10-11",
+      "match_date": "2026-10-11",
+      "match_date_utc": "2026-10-11",
       "match_date_pkt": "2026-10-11",
-      "start_time_utc": "2026-10-10T19:00:00Z",
-      "start_time_pkt": "2026-10-11T00:00:00+05:00",
-      "start_timestamp": 1791658800,
+      "start_time_utc": null,
+      "start_time_pkt": null,
+      "start_timestamp": null,
       "display_date": "2026-10-11",
-      "display_time": "12:00 AM",
+      "display_time": "TBD",
       "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
+      "time_status": "tbd",
       "home_team": {
-        "name": "Real Madrid",
-        "slug": "real-madrid",
-        "espn_id": "86",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+        "name": "Real Betis Balompié",
+        "slug": "real-betis-balompie",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Real Betis Balompié",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "CA Osasuna",
+        "slug": "ca-osasuna",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/CA%20Osasuna.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "CA Osasuna",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-real-betis-balompie-ca-osasuna.png"
+    },
+    {
+      "event_id": "la-liga-2026-10-11-real-madrid-cf-villarreal-cf",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 8",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Matchday 8",
+      "source_date": "2026-10-11",
+      "match_date": "2026-10-11",
+      "match_date_utc": "2026-10-11",
+      "match_date_pkt": "2026-10-11",
+      "start_time_utc": null,
+      "start_time_pkt": null,
+      "start_timestamp": null,
+      "display_date": "2026-10-11",
+      "display_time": "TBD",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "tbd",
+      "home_team": {
+        "name": "Real Madrid CF",
+        "slug": "real-madrid-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png",
+        "logo_resolution": {
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Real Madrid",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Villarreal",
-        "slug": "villarreal",
-        "espn_id": "102",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+        "name": "Villarreal CF",
+        "slug": "villarreal-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Villarreal%20CF.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Villarreal",
+          "matched_name": "Villarreal CF",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-10-real-madrid-villarreal.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-real-madrid-cf-villarreal-cf.png"
     },
     {
-      "event_id": "la-liga-2026-10-11-elche-celta-vigo",
+      "event_id": "la-liga-2026-10-11-real-racing-club-de-santander-valencia-cf",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 8",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
+      "round": "Matchday 8",
       "source_date": "2026-10-11",
       "match_date": "2026-10-11",
       "match_date_utc": "2026-10-11",
       "match_date_pkt": "2026-10-11",
-      "start_time_utc": "2026-10-11T12:00:00Z",
-      "start_time_pkt": "2026-10-11T17:00:00+05:00",
-      "start_timestamp": 1791720000,
+      "start_time_utc": null,
+      "start_time_pkt": null,
+      "start_timestamp": null,
       "display_date": "2026-10-11",
-      "display_time": "05:00 PM",
+      "display_time": "TBD",
       "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
+      "time_status": "tbd",
       "home_team": {
-        "name": "Elche",
-        "slug": "elche",
-        "espn_id": "3751",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+        "name": "Real Racing Club de Santander",
+        "slug": "real-racing-club-de-santander",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Racing%20Santander.png",
         "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Elche",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Celta Vigo",
-        "slug": "celta-vigo",
-        "espn_id": "85",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Celta Vigo",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-elche-celta-vigo.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-11-real-sociedad-deportivo",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-11",
-      "start_time_utc": "2026-10-11T14:15:00Z",
-      "start_time_pkt": "2026-10-11T19:15:00+05:00",
-      "start_timestamp": 1791728100,
-      "display_date": "2026-10-11",
-      "display_time": "07:15 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Real Sociedad",
-        "slug": "real-sociedad",
-        "espn_id": "89",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Real Sociedad",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Deportivo",
-        "slug": "deportivo",
-        "espn_id": "90",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Deportivo",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-real-sociedad-deportivo.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-11-real-betis-osasuna",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-11",
-      "start_time_utc": "2026-10-11T16:30:00Z",
-      "start_time_pkt": "2026-10-11T21:30:00+05:00",
-      "start_timestamp": 1791736200,
-      "display_date": "2026-10-11",
-      "display_time": "09:30 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Real Betis",
-        "slug": "real-betis",
-        "espn_id": "244",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Real Betis",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Osasuna",
-        "slug": "osasuna",
-        "espn_id": "97",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Osasuna",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-real-betis-osasuna.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-11-racing-santander-valencia",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-11T19:00:00Z",
-      "start_time_pkt": "2026-10-12T00:00:00+05:00",
-      "start_timestamp": 1791745200,
-      "display_date": "2026-10-12",
-      "display_time": "12:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Racing Santander",
-        "slug": "racing-santander",
-        "espn_id": "87",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-        "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Racing Santander",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Valencia",
-        "slug": "valencia",
-        "espn_id": "94",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+        "name": "Valencia CF",
+        "slug": "valencia-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Valencia%20CF.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Valencia",
+          "matched_name": "Valencia CF",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-racing-santander-valencia.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-real-racing-club-de-santander-valencia-cf.png"
     },
     {
-      "event_id": "la-liga-2026-10-12-levante-sevilla",
+      "event_id": "la-liga-2026-10-11-real-sociedad-de-futbol-rc-deportivo-la-coruna",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 8",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-12",
-      "match_date": "2026-10-12",
-      "match_date_utc": "2026-10-12",
-      "match_date_pkt": "2026-10-13",
-      "start_time_utc": "2026-10-12T19:00:00Z",
-      "start_time_pkt": "2026-10-13T00:00:00+05:00",
-      "start_timestamp": 1791831600,
-      "display_date": "2026-10-13",
-      "display_time": "12:00 AM",
+      "round": "Matchday 8",
+      "source_date": "2026-10-11",
+      "match_date": "2026-10-11",
+      "match_date_utc": "2026-10-11",
+      "match_date_pkt": "2026-10-11",
+      "start_time_utc": null,
+      "start_time_pkt": null,
+      "start_timestamp": null,
+      "display_date": "2026-10-11",
+      "display_time": "TBD",
       "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
+      "time_status": "tbd",
       "home_team": {
-        "name": "Levante",
-        "slug": "levante",
-        "espn_id": "1538",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+        "name": "Real Sociedad de Fútbol",
+        "slug": "real-sociedad-de-futbol",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Sociedad.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Levante",
+          "matched_name": "Real Sociedad",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Sevilla",
-        "slug": "sevilla",
-        "espn_id": "243",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+        "name": "RC Deportivo La Coruña",
+        "slug": "rc-deportivo-la-coruna",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Deportivo%20A%20Coru%C3%B1a.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Sevilla",
+          "matched_name": "Deportivo A Coruña",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-12-levante-sevilla.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-16-deportivo-levante",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-16",
-      "match_date": "2026-10-16",
-      "match_date_utc": "2026-10-16",
-      "match_date_pkt": "2026-10-17",
-      "start_time_utc": "2026-10-16T19:00:00Z",
-      "start_time_pkt": "2026-10-17T00:00:00+05:00",
-      "start_timestamp": 1792177200,
-      "display_date": "2026-10-17",
-      "display_time": "12:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Deportivo",
-        "slug": "deportivo",
-        "espn_id": "90",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Deportivo",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Levante",
-        "slug": "levante",
-        "espn_id": "1538",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Levante",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-16-deportivo-levante.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-17-espanyol-atletico-madrid",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-17",
-      "match_date": "2026-10-17",
-      "match_date_utc": "2026-10-17",
-      "match_date_pkt": "2026-10-17",
-      "start_time_utc": "2026-10-17T12:00:00Z",
-      "start_time_pkt": "2026-10-17T17:00:00+05:00",
-      "start_timestamp": 1792238400,
-      "display_date": "2026-10-17",
-      "display_time": "05:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Espanyol",
-        "slug": "espanyol",
-        "espn_id": "88",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Espanyol",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Atlético Madrid",
-        "slug": "atletico-madrid",
-        "espn_id": "1068",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Atlético Madrid",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-17-espanyol-atletico-madrid.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-17-villarreal-elche",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-17",
-      "match_date": "2026-10-17",
-      "match_date_utc": "2026-10-17",
-      "match_date_pkt": "2026-10-17",
-      "start_time_utc": "2026-10-17T14:15:00Z",
-      "start_time_pkt": "2026-10-17T19:15:00+05:00",
-      "start_timestamp": 1792246500,
-      "display_date": "2026-10-17",
-      "display_time": "07:15 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Villarreal",
-        "slug": "villarreal",
-        "espn_id": "102",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Villarreal",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Elche",
-        "slug": "elche",
-        "espn_id": "3751",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Elche",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-17-villarreal-elche.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-17-real-betis-barcelona",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-17",
-      "match_date": "2026-10-17",
-      "match_date_utc": "2026-10-17",
-      "match_date_pkt": "2026-10-17",
-      "start_time_utc": "2026-10-17T16:30:00Z",
-      "start_time_pkt": "2026-10-17T21:30:00+05:00",
-      "start_timestamp": 1792254600,
-      "display_date": "2026-10-17",
-      "display_time": "09:30 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Real Betis",
-        "slug": "real-betis",
-        "espn_id": "244",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Real Betis",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Barcelona",
-        "slug": "barcelona",
-        "espn_id": "83",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Barcelona",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-17-real-betis-barcelona.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-17-valencia-athletic-club",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-17",
-      "match_date": "2026-10-17",
-      "match_date_utc": "2026-10-17",
-      "match_date_pkt": "2026-10-18",
-      "start_time_utc": "2026-10-17T19:00:00Z",
-      "start_time_pkt": "2026-10-18T00:00:00+05:00",
-      "start_timestamp": 1792263600,
-      "display_date": "2026-10-18",
-      "display_time": "12:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Valencia",
-        "slug": "valencia",
-        "espn_id": "94",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Valencia",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Athletic Club",
-        "slug": "athletic-club",
-        "espn_id": "93",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Athletic Club",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-09-17T14:04:49.630263+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-17-valencia-athletic-club.png"
+      "last_updated": "2026-09-17T14:19:12.069971+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-real-sociedad-de-futbol-rc-deportivo-la-coruna.png"
     }
   ]
 }

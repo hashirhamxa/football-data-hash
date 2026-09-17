@@ -1,14 +1,8 @@
-﻿"""
+"""
 cleanup_stale_images.py
-Safe cleanup script to purge unreferenced and obsolete event image PNGs from output/images/.
-Ensures output directory does not accumulate stale images across changing fixtures.
-
-Safety Rules:
-- Only scans and deletes PNG files directly inside output/images/
-- Never deletes fallback badges (output/images/fallbacks/)
-- Never deletes theme previews (output/theme_previews/)
-- Verifies references across upcoming_events.json, today_events.json, tomorrow_events.json,
-  and all competition tournament feeds (output/competitions/*/*.json).
+Image auditing module for event image PNGs in output/images/.
+Per user instruction, image deletion is disabled so that all historical and active
+matchday images remain permanently available (preventing 404 errors on existing URLs).
 """
 
 import glob
@@ -62,11 +56,12 @@ def get_all_referenced_image_filenames(output_dir: str = "output") -> Set[str]:
 def cleanup_stale_images(
     images_dir: str = "output/images",
     output_dir: str = "output",
-    dry_run: bool = False
+    dry_run: bool = True
 ) -> Dict[str, Any]:
     """
-    Deletes PNG files in `images_dir` that are not referenced by any current deliverable JSON.
-    Never deletes subdirectory files such as fallback badges.
+    Audits images in `images_dir`.
+    NOTE: Image deletion is intentionally disabled (dry_run=True by default)
+    to guarantee all match URLs stay permanently reachable without 404s.
     """
     if not os.path.exists(images_dir):
         logger.warning(f"Images directory '{images_dir}' does not exist.")
@@ -75,11 +70,10 @@ def cleanup_stale_images(
     referenced = get_all_referenced_image_filenames(output_dir=output_dir)
     logger.info(f"Identified {len(referenced)} actively referenced event images in JSON feeds.")
 
-    deleted_files: List[str] = []
+    unreferenced_files: List[str] = []
     scanned_count = 0
     kept_count = 0
 
-    # Only scan direct files in images_dir (ignore subfolders like fallbacks)
     for entry in os.scandir(images_dir):
         if not entry.is_file():
             continue
@@ -90,25 +84,17 @@ def cleanup_stale_images(
         filename = entry.name
 
         if filename not in referenced:
-            if not dry_run:
-                try:
-                    os.remove(entry.path)
-                    deleted_files.append(filename)
-                except Exception as ex:
-                    logger.error(f"Failed to remove stale image '{entry.path}': {ex}")
-            else:
-                deleted_files.append(filename)
+            unreferenced_files.append(filename)
         else:
             kept_count += 1
 
-    action_label = "Dry-run: would delete" if dry_run else "Successfully removed"
-    logger.info(f"{action_label} {len(deleted_files)} stale/unreferenced images. Kept {kept_count} active images.")
+    logger.info(f"Permanent Retention Policy Active: Kept all {scanned_count} images ({len(unreferenced_files)} archived/historical, {kept_count} active). Zero files deleted.")
 
     return {
         "total_scanned": scanned_count,
-        "kept": kept_count,
-        "deleted_count": len(deleted_files),
-        "deleted_files": deleted_files
+        "kept": scanned_count,
+        "deleted_count": 0,
+        "deleted_files": []
     }
 
 

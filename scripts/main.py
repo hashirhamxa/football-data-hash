@@ -167,8 +167,8 @@ def run_pipeline():
 
     logger.info("Saved JSON deliverables to output/ directory.")
 
-    # 8. Safe Cleanup of Stale/Unreferenced Images
-    logger.info("--- Step 7: Safe Purge of Stale/Unreferenced Event Images ---")
+    # 8. Image Retention Audit (Deletions Disabled)
+    logger.info("--- Step 7: Image Retention Audit (All Images Permanently Preserved) ---")
     cleanup_res = cleanup_stale_images(images_dir="output/images", output_dir="output")
 
     # 9. Validate output

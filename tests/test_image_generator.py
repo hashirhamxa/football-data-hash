@@ -194,7 +194,7 @@ class TestThemedImageGenerator(unittest.TestCase):
                     self.assertEqual(img.size, (1200, 630))
 
     def test_safe_stale_image_cleanup(self):
-        """Safe cleanup must delete only unreferenced event images and preserve referenced ones and fallbacks."""
+        """Permanent retention policy must preserve all historical and active images with zero deletions."""
         from cleanup_stale_images import cleanup_stale_images
         import shutil
 
@@ -206,7 +206,7 @@ class TestThemedImageGenerator(unittest.TestCase):
 
         # Create dummy referenced PNG, unreferenced PNG, and fallback PNG
         ref_png = os.path.join(test_img_dir, "event-active-123.png")
-        stale_png = os.path.join(test_img_dir, "event-stale-old-fc.png")
+        stale_png = os.path.join(test_img_dir, "event-historical-old-fc.png")
         fallback_png = os.path.join(test_img_dir, "fallbacks", "team-fallback.png")
 
         for p in [ref_png, stale_png, fallback_png]:
@@ -224,13 +224,12 @@ class TestThemedImageGenerator(unittest.TestCase):
         with open(os.path.join(test_out_dir, "upcoming_events.json"), "w", encoding="utf-8") as f:
             json.dump(dummy_feed, f)
 
-        res = cleanup_stale_images(images_dir=test_img_dir, output_dir=test_out_dir, dry_run=False)
+        res = cleanup_stale_images(images_dir=test_img_dir, output_dir=test_out_dir)
 
-        self.assertEqual(res["deleted_count"], 1)
-        self.assertIn("event-stale-old-fc.png", res["deleted_files"])
-        self.assertFalse(os.path.exists(stale_png))
-        self.assertTrue(os.path.exists(ref_png))
-        self.assertTrue(os.path.exists(fallback_png))
+        self.assertEqual(res["deleted_count"], 0)
+        self.assertTrue(os.path.exists(stale_png), "Historical image must NOT be deleted")
+        self.assertTrue(os.path.exists(ref_png), "Active image must NOT be deleted")
+        self.assertTrue(os.path.exists(fallback_png), "Fallback badge must NOT be deleted")
 
         # Cleanup test directories
         shutil.rmtree(test_img_dir, ignore_errors=True)

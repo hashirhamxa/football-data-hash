@@ -7,55 +7,55 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-09-17T16:35:51.014830+00:00",
+  "generated_at": "2026-09-17T21:08:11.780648+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-09-18",
-  "target_day_name": "Friday",
-  "total_events": 1,
+  "target_date_pkt": "2026-09-19",
+  "target_day_name": "Saturday",
+  "total_events": 4,
   "events": [
     {
-      "event_id": "la-liga-2026-09-17-malaga-cf-villarreal-cf",
+      "event_id": "la-liga-2026-09-18-rcd-espanyol-de-barcelona-elche-cf",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Matchday 6",
+        "round": "Matchday 7",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
-      "round": "Matchday 6",
-      "source_date": "2026-09-17",
-      "match_date": "2026-09-17",
-      "match_date_utc": "2026-09-17",
-      "match_date_pkt": "2026-09-18",
-      "start_time_utc": "2026-09-17T19:30:00Z",
-      "start_time_pkt": "2026-09-18T00:30:00+05:00",
-      "start_timestamp": 1789673400,
-      "display_date": "2026-09-18",
-      "display_time": "12:30 AM",
+      "round": "Matchday 7",
+      "source_date": "2026-09-18",
+      "match_date": "2026-09-18",
+      "match_date_utc": "2026-09-18",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-18T19:00:00Z",
+      "start_time_pkt": "2026-09-19T00:00:00+05:00",
+      "start_timestamp": 1789758000,
+      "display_date": "2026-09-19",
+      "display_time": "12:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Málaga CF",
-        "slug": "malaga-cf",
+        "name": "RCD Espanyol de Barcelona",
+        "slug": "rcd-espanyol-de-barcelona",
         "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/M%C3%A1laga%20CF.png",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2021-22/Spain%20-%20LaLiga/Espanyol.png",
         "logo_resolution": {
-          "source": "exact",
+          "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Málaga CF",
+          "matched_name": "Espanyol",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Villarreal CF",
-        "slug": "villarreal-cf",
+        "name": "Elche CF",
+        "slug": "elche-cf",
         "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Villarreal%20CF.png",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Elche%20CF.png",
         "logo_resolution": {
           "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Villarreal CF",
+          "matched_name": "Elche CF",
           "is_fallback": false
         }
       },
@@ -64,8 +64,170 @@
         "season": "2026-27",
         "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T16:35:24.634514+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-17-malaga-cf-villarreal-cf.png"
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-18-rcd-espanyol-de-barcelona-elche-cf.png"
+    },
+    {
+      "event_id": "la-liga-2026-09-19-ca-osasuna-rayo-vallecano-de-madrid",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 7",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Matchday 7",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T12:00:00Z",
+      "start_time_pkt": "2026-09-19T17:00:00+05:00",
+      "start_timestamp": 1789819200,
+      "display_date": "2026-09-19",
+      "display_time": "05:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "CA Osasuna",
+        "slug": "ca-osasuna",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/CA%20Osasuna.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "CA Osasuna",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Rayo Vallecano de Madrid",
+        "slug": "rayo-vallecano-de-madrid",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Rayo%20Vallecano.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Rayo Vallecano",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-ca-osasuna-rayo-vallecano-de-madrid.png"
+    },
+    {
+      "event_id": "la-liga-2026-09-19-athletic-club-deportivo-alaves",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 7",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Matchday 7",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T14:15:00Z",
+      "start_time_pkt": "2026-09-19T19:15:00+05:00",
+      "start_timestamp": 1789827300,
+      "display_date": "2026-09-19",
+      "display_time": "07:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Athletic Club",
+        "slug": "athletic-club",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Athletic Bilbao",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Deportivo Alavés",
+        "slug": "deportivo-alaves",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Deportivo%20Alav%C3%A9s.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Deportivo Alavés",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-athletic-club-deportivo-alaves.png"
+    },
+    {
+      "event_id": "la-liga-2026-09-19-rc-celta-de-vigo-real-racing-club-de-santander",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 7",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Matchday 7",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T16:30:00Z",
+      "start_time_pkt": "2026-09-19T21:30:00+05:00",
+      "start_timestamp": 1789835400,
+      "display_date": "2026-09-19",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "RC Celta de Vigo",
+        "slug": "rc-celta-de-vigo",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Celta%20de%20Vigo.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Celta de Vigo",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Real Racing Club de Santander",
+        "slug": "real-racing-club-de-santander",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Racing%20Santander.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Racing Santander",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-rc-celta-de-vigo-real-racing-club-de-santander.png"
     }
   ]
 }

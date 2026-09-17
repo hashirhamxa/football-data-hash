@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-09-17T16:35:51.018232+00:00",
+  "generated_at": "2026-09-17T21:08:11.784224+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-09-18",
-  "target_day_name": "Friday",
-  "total_events": 1,
+  "target_date_pkt": "2026-09-19",
+  "target_day_name": "Saturday",
+  "total_events": 5,
   "events": [
     {
-      "event_id": "bundesliga-2026-09-18-fc-bayern-munchen-1-fc-union-berlin",
+      "event_id": "bundesliga-2026-09-19-borussia-monchengladbach-1-fsv-mainz-05",
       "competition": {
         "id": "bundesliga",
         "name": "German Bundesliga",
@@ -24,38 +24,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
       },
       "round": "Matchday 4",
-      "source_date": "2026-09-18",
-      "match_date": "2026-09-18",
-      "match_date_utc": "2026-09-18",
-      "match_date_pkt": "2026-09-18",
-      "start_time_utc": "2026-09-18T18:30:00Z",
-      "start_time_pkt": "2026-09-18T23:30:00+05:00",
-      "start_timestamp": 1789756200,
-      "display_date": "2026-09-18",
-      "display_time": "11:30 PM",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T13:30:00Z",
+      "start_time_pkt": "2026-09-19T18:30:00+05:00",
+      "start_timestamp": 1789824600,
+      "display_date": "2026-09-19",
+      "display_time": "06:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "FC Bayern München",
-        "slug": "fc-bayern-munchen",
+        "name": "Borussia Mönchengladbach",
+        "slug": "borussia-monchengladbach",
         "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20M%C3%B6nchengladbach.png",
         "logo_resolution": {
           "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Bayern Munich",
+          "matched_name": "Borussia Mönchengladbach",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "1. FC Union Berlin",
-        "slug": "1-fc-union-berlin",
+        "name": "1. FSV Mainz 05",
+        "slug": "1-fsv-mainz-05",
         "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FC%20Union%20Berlin.png",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FSV%20Mainz%2005.png",
         "logo_resolution": {
           "source": "alias",
           "confidence": 1.0,
-          "matched_name": "1.FC Union Berlin",
+          "matched_name": "1.FSV Mainz 05",
           "is_fallback": false
         }
       },
@@ -64,8 +64,224 @@
         "season": "2026-27",
         "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json"
       },
-      "last_updated": "2026-09-17T16:35:24.634514+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-09-18-fc-bayern-munchen-1-fc-union-berlin.png"
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-09-19-borussia-monchengladbach-1-fsv-mainz-05.png"
+    },
+    {
+      "event_id": "bundesliga-2026-09-19-eintracht-frankfurt-sc-freiburg",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Matchday 4",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Matchday 4",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T13:30:00Z",
+      "start_time_pkt": "2026-09-19T18:30:00+05:00",
+      "start_timestamp": 1789824600,
+      "display_date": "2026-09-19",
+      "display_time": "06:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Eintracht Frankfurt",
+        "slug": "eintracht-frankfurt",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Eintracht%20Frankfurt.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Eintracht Frankfurt",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "SC Freiburg",
+        "slug": "sc-freiburg",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SC%20Freiburg.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "SC Freiburg",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-09-19-eintracht-frankfurt-sc-freiburg.png"
+    },
+    {
+      "event_id": "bundesliga-2026-09-19-hamburger-sv-1-fc-koln",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Matchday 4",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Matchday 4",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T13:30:00Z",
+      "start_time_pkt": "2026-09-19T18:30:00+05:00",
+      "start_timestamp": 1789824600,
+      "display_date": "2026-09-19",
+      "display_time": "06:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Hamburger SV",
+        "slug": "hamburger-sv",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Hamburger%20SV.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Hamburger SV",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "1. FC Köln",
+        "slug": "1-fc-koln",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FC%20K%C3%B6ln.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "1.FC Köln",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-09-19-hamburger-sv-1-fc-koln.png"
+    },
+    {
+      "event_id": "bundesliga-2026-09-19-sv-werder-bremen-fc-augsburg",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Matchday 4",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Matchday 4",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T13:30:00Z",
+      "start_time_pkt": "2026-09-19T18:30:00+05:00",
+      "start_timestamp": 1789824600,
+      "display_date": "2026-09-19",
+      "display_time": "06:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "SV Werder Bremen",
+        "slug": "sv-werder-bremen",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SV%20Werder%20Bremen.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "SV Werder Bremen",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "FC Augsburg",
+        "slug": "fc-augsburg",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/FC%20Augsburg.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "FC Augsburg",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-09-19-sv-werder-bremen-fc-augsburg.png"
+    },
+    {
+      "event_id": "bundesliga-2026-09-19-vfb-stuttgart-borussia-dortmund",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Matchday 4",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Matchday 4",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T16:30:00Z",
+      "start_time_pkt": "2026-09-19T21:30:00+05:00",
+      "start_timestamp": 1789835400,
+      "display_date": "2026-09-19",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "VfB Stuttgart",
+        "slug": "vfb-stuttgart",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/VfB%20Stuttgart.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "VfB Stuttgart",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Borussia Dortmund",
+        "slug": "borussia-dortmund",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Borussia Dortmund",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-09-19-vfb-stuttgart-borussia-dortmund.png"
     }
   ]
 }

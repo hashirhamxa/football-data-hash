@@ -2,54 +2,162 @@
   "version": "1.1.0",
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "target_date_pkt": "2026-09-18",
-  "target_day_name": "Friday",
-  "generated_at": "2026-09-17T16:35:51.006935+00:00",
-  "total_events": 4,
+  "target_date_pkt": "2026-09-19",
+  "target_day_name": "Saturday",
+  "generated_at": "2026-09-17T21:08:11.770344+00:00",
+  "total_events": 34,
   "events": [
     {
-      "event_id": "la-liga-2026-09-17-malaga-cf-villarreal-cf",
+      "event_id": "championship-2026-09-18-bristol-city-fc-watford-fc",
       "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Matchday 6",
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Matchday 8",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
       },
-      "round": "Matchday 6",
-      "source_date": "2026-09-17",
-      "match_date": "2026-09-17",
-      "match_date_utc": "2026-09-17",
-      "match_date_pkt": "2026-09-18",
-      "start_time_utc": "2026-09-17T19:30:00Z",
-      "start_time_pkt": "2026-09-18T00:30:00+05:00",
-      "start_timestamp": 1789673400,
-      "display_date": "2026-09-18",
-      "display_time": "12:30 AM",
+      "round": "Matchday 8",
+      "source_date": "2026-09-18",
+      "match_date": "2026-09-18",
+      "match_date_utc": "2026-09-18",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-18T19:00:00Z",
+      "start_time_pkt": "2026-09-19T00:00:00+05:00",
+      "start_timestamp": 1789758000,
+      "display_date": "2026-09-19",
+      "display_time": "12:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Málaga CF",
-        "slug": "malaga-cf",
+        "name": "Bristol City FC",
+        "slug": "bristol-city-fc",
         "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/M%C3%A1laga%20CF.png",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Bristol%20City.png",
         "logo_resolution": {
-          "source": "exact",
-          "confidence": 1.0,
-          "matched_name": "Málaga CF",
+          "source": "alias",
+          "confidence": 0.95,
+          "matched_name": "Bristol City",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Villarreal CF",
-        "slug": "villarreal-cf",
+        "name": "Watford FC",
+        "slug": "watford-fc",
         "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Villarreal%20CF.png",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2021-22/England%20-%20Premier%20League/Watford%20FC.png",
         "logo_resolution": {
           "source": "alias",
           "confidence": 1.0,
-          "matched_name": "Villarreal CF",
+          "matched_name": "Watford FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.2.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-09-18-bristol-city-fc-watford-fc.png"
+    },
+    {
+      "event_id": "premier-league-2026-09-18-brentford-fc-chelsea-fc",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Matchday 5",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Matchday 5",
+      "source_date": "2026-09-18",
+      "match_date": "2026-09-18",
+      "match_date_utc": "2026-09-18",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-18T19:00:00Z",
+      "start_time_pkt": "2026-09-19T00:00:00+05:00",
+      "start_timestamp": 1789758000,
+      "display_date": "2026-09-19",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Brentford FC",
+        "slug": "brentford-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Brentford%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Brentford FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Chelsea FC",
+        "slug": "chelsea-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Chelsea FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-09-18-brentford-fc-chelsea-fc.png"
+    },
+    {
+      "event_id": "la-liga-2026-09-18-rcd-espanyol-de-barcelona-elche-cf",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 7",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Matchday 7",
+      "source_date": "2026-09-18",
+      "match_date": "2026-09-18",
+      "match_date_utc": "2026-09-18",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-18T19:00:00Z",
+      "start_time_pkt": "2026-09-19T00:00:00+05:00",
+      "start_timestamp": 1789758000,
+      "display_date": "2026-09-19",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "RCD Espanyol de Barcelona",
+        "slug": "rcd-espanyol-de-barcelona",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2021-22/Spain%20-%20LaLiga/Espanyol.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Espanyol",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Elche CF",
+        "slug": "elche-cf",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Elche%20CF.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Elche CF",
           "is_fallback": false
         }
       },
@@ -58,119 +166,281 @@
         "season": "2026-27",
         "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
       },
-      "last_updated": "2026-09-17T16:35:24.634514+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-17-malaga-cf-villarreal-cf.png"
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-18-rcd-espanyol-de-barcelona-elche-cf.png"
     },
     {
-      "event_id": "bundesliga-2026-09-18-fc-bayern-munchen-1-fc-union-berlin",
+      "event_id": "championship-2026-09-19-cardiff-city-fc-charlton-athletic-fc",
       "competition": {
-        "id": "bundesliga",
-        "name": "German Bundesliga",
-        "country": "Germany",
-        "round": "Matchday 4",
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Matchday 8",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
       },
-      "round": "Matchday 4",
-      "source_date": "2026-09-18",
-      "match_date": "2026-09-18",
-      "match_date_utc": "2026-09-18",
-      "match_date_pkt": "2026-09-18",
-      "start_time_utc": "2026-09-18T18:30:00Z",
-      "start_time_pkt": "2026-09-18T23:30:00+05:00",
-      "start_timestamp": 1789756200,
-      "display_date": "2026-09-18",
-      "display_time": "11:30 PM",
+      "round": "Matchday 8",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T11:30:00Z",
+      "start_time_pkt": "2026-09-19T16:30:00+05:00",
+      "start_timestamp": 1789817400,
+      "display_date": "2026-09-19",
+      "display_time": "04:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "FC Bayern München",
-        "slug": "fc-bayern-munchen",
+        "name": "Cardiff City FC",
+        "slug": "cardiff-city-fc",
         "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Cardiff%20City.png",
         "logo_resolution": {
           "source": "alias",
-          "confidence": 1.0,
-          "matched_name": "Bayern Munich",
+          "confidence": 0.95,
+          "matched_name": "Cardiff City",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "1. FC Union Berlin",
-        "slug": "1-fc-union-berlin",
+        "name": "Charlton Athletic FC",
+        "slug": "charlton-athletic-fc",
         "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FC%20Union%20Berlin.png",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/charlton-athletic-fc.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.2.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-09-19-cardiff-city-fc-charlton-athletic-fc.png"
+    },
+    {
+      "event_id": "championship-2026-09-19-millwall-fc-west-ham-united-fc",
+      "competition": {
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Matchday 8",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+      },
+      "round": "Matchday 8",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T11:30:00Z",
+      "start_time_pkt": "2026-09-19T16:30:00+05:00",
+      "start_timestamp": 1789817400,
+      "display_date": "2026-09-19",
+      "display_time": "04:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Millwall FC",
+        "slug": "millwall-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Millwall%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 0.95,
+          "matched_name": "Millwall FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "West Ham United FC",
+        "slug": "west-ham-united-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2022-23/England%20-%20Premier%20League/West%20Ham%20United.png",
         "logo_resolution": {
           "source": "alias",
           "confidence": 1.0,
-          "matched_name": "1.FC Union Berlin",
+          "matched_name": "West Ham United",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.2.json"
       },
-      "last_updated": "2026-09-17T16:35:24.634514+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-09-18-fc-bayern-munchen-1-fc-union-berlin.png"
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-09-19-millwall-fc-west-ham-united-fc.png"
     },
     {
-      "event_id": "ligue-1-2026-09-18-as-monaco-fc-racing-club-de-lens",
+      "event_id": "championship-2026-09-19-stoke-city-fc-sheffield-united-fc",
       "competition": {
-        "id": "ligue-1",
-        "name": "French Ligue 1",
-        "country": "France",
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Matchday 8",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+      },
+      "round": "Matchday 8",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T11:30:00Z",
+      "start_time_pkt": "2026-09-19T16:30:00+05:00",
+      "start_timestamp": 1789817400,
+      "display_date": "2026-09-19",
+      "display_time": "04:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Stoke City FC",
+        "slug": "stoke-city-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Stoke%20City.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 0.95,
+          "matched_name": "Stoke City",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Sheffield United FC",
+        "slug": "sheffield-united-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2023-24/England%20-%20Premier%20League/Sheffield%20United.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Sheffield United",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.2.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-09-19-stoke-city-fc-sheffield-united-fc.png"
+    },
+    {
+      "event_id": "premier-league-2026-09-19-tottenham-hotspur-fc-aston-villa-fc",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
         "round": "Matchday 5",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
       },
       "round": "Matchday 5",
-      "source_date": "2026-09-18",
-      "match_date": "2026-09-18",
-      "match_date_utc": "2026-09-18",
-      "match_date_pkt": "2026-09-18",
-      "start_time_utc": "2026-09-18T18:45:00Z",
-      "start_time_pkt": "2026-09-18T23:45:00+05:00",
-      "start_timestamp": 1789757100,
-      "display_date": "2026-09-18",
-      "display_time": "11:45 PM",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T11:30:00Z",
+      "start_time_pkt": "2026-09-19T16:30:00+05:00",
+      "start_timestamp": 1789817400,
+      "display_date": "2026-09-19",
+      "display_time": "04:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "AS Monaco FC",
-        "slug": "as-monaco-fc",
+        "name": "Tottenham Hotspur FC",
+        "slug": "tottenham-hotspur-fc",
         "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/AS%20Monaco.png",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Tottenham%20Hotspur.png",
         "logo_resolution": {
           "source": "alias",
           "confidence": 1.0,
-          "matched_name": "AS Monaco",
+          "matched_name": "Tottenham Hotspur",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Racing Club de Lens",
-        "slug": "racing-club-de-lens",
+        "name": "Aston Villa FC",
+        "slug": "aston-villa-fc",
         "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/RC%20Lens.png",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Aston%20Villa.png",
         "logo_resolution": {
           "source": "alias",
           "confidence": 1.0,
-          "matched_name": "RC Lens",
+          "matched_name": "Aston Villa",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.1.json"
       },
-      "last_updated": "2026-09-17T16:35:24.634514+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-18-as-monaco-fc-racing-club-de-lens.png"
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-09-19-tottenham-hotspur-fc-aston-villa-fc.png"
     },
     {
-      "event_id": "serie-a-2026-09-18-ac-monza-us-sassuolo-calcio",
+      "event_id": "la-liga-2026-09-19-ca-osasuna-rayo-vallecano-de-madrid",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 7",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Matchday 7",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T12:00:00Z",
+      "start_time_pkt": "2026-09-19T17:00:00+05:00",
+      "start_timestamp": 1789819200,
+      "display_date": "2026-09-19",
+      "display_time": "05:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "CA Osasuna",
+        "slug": "ca-osasuna",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/CA%20Osasuna.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "CA Osasuna",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Rayo Vallecano de Madrid",
+        "slug": "rayo-vallecano-de-madrid",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Rayo%20Vallecano.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Rayo Vallecano",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-ca-osasuna-rayo-vallecano-de-madrid.png"
+    },
+    {
+      "event_id": "serie-a-2026-09-19-bologna-fc-1909-torino-fc",
       "competition": {
         "id": "serie-a",
         "name": "Italian Serie A",
@@ -180,38 +450,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
       },
       "round": "Matchday 5",
-      "source_date": "2026-09-18",
-      "match_date": "2026-09-18",
-      "match_date_utc": "2026-09-18",
-      "match_date_pkt": "2026-09-18",
-      "start_time_utc": "2026-09-18T18:45:00Z",
-      "start_time_pkt": "2026-09-18T23:45:00+05:00",
-      "start_timestamp": 1789757100,
-      "display_date": "2026-09-18",
-      "display_time": "11:45 PM",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T13:00:00Z",
+      "start_time_pkt": "2026-09-19T18:00:00+05:00",
+      "start_timestamp": 1789822800,
+      "display_date": "2026-09-19",
+      "display_time": "06:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "AC Monza",
-        "slug": "ac-monza",
+        "name": "Bologna FC 1909",
+        "slug": "bologna-fc-1909",
         "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Monza.png",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Bologna%20FC%201909.png",
         "logo_resolution": {
           "source": "alias",
           "confidence": 1.0,
-          "matched_name": "AC Monza",
+          "matched_name": "Bologna FC 1909",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "US Sassuolo Calcio",
-        "slug": "us-sassuolo-calcio",
+        "name": "Torino FC",
+        "slug": "torino-fc",
         "espn_id": null,
-        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/US%20Sassuolo.png",
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Torino%20FC.png",
         "logo_resolution": {
           "source": "alias",
           "confidence": 1.0,
-          "matched_name": "US Sassuolo",
+          "matched_name": "Torino FC",
           "is_fallback": false
         }
       },
@@ -220,8 +490,1358 @@
         "season": "2026-27",
         "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
       },
-      "last_updated": "2026-09-17T16:35:24.634514+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-18-ac-monza-us-sassuolo-calcio.png"
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-19-bologna-fc-1909-torino-fc.png"
+    },
+    {
+      "event_id": "serie-a-2026-09-19-udinese-calcio-cagliari-calcio",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 5",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+      },
+      "round": "Matchday 5",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T13:00:00Z",
+      "start_time_pkt": "2026-09-19T18:00:00+05:00",
+      "start_timestamp": 1789822800,
+      "display_date": "2026-09-19",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Udinese Calcio",
+        "slug": "udinese-calcio",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Udinese%20Calcio.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Udinese Calcio",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Cagliari Calcio",
+        "slug": "cagliari-calcio",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Cagliari%20Calcio.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Cagliari Calcio",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-19-udinese-calcio-cagliari-calcio.png"
+    },
+    {
+      "event_id": "bundesliga-2026-09-19-borussia-monchengladbach-1-fsv-mainz-05",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Matchday 4",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Matchday 4",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T13:30:00Z",
+      "start_time_pkt": "2026-09-19T18:30:00+05:00",
+      "start_timestamp": 1789824600,
+      "display_date": "2026-09-19",
+      "display_time": "06:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Borussia Mönchengladbach",
+        "slug": "borussia-monchengladbach",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20M%C3%B6nchengladbach.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Borussia Mönchengladbach",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "1. FSV Mainz 05",
+        "slug": "1-fsv-mainz-05",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FSV%20Mainz%2005.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "1.FSV Mainz 05",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-09-19-borussia-monchengladbach-1-fsv-mainz-05.png"
+    },
+    {
+      "event_id": "bundesliga-2026-09-19-eintracht-frankfurt-sc-freiburg",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Matchday 4",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Matchday 4",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T13:30:00Z",
+      "start_time_pkt": "2026-09-19T18:30:00+05:00",
+      "start_timestamp": 1789824600,
+      "display_date": "2026-09-19",
+      "display_time": "06:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Eintracht Frankfurt",
+        "slug": "eintracht-frankfurt",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Eintracht%20Frankfurt.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Eintracht Frankfurt",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "SC Freiburg",
+        "slug": "sc-freiburg",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SC%20Freiburg.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "SC Freiburg",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-09-19-eintracht-frankfurt-sc-freiburg.png"
+    },
+    {
+      "event_id": "bundesliga-2026-09-19-hamburger-sv-1-fc-koln",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Matchday 4",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Matchday 4",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T13:30:00Z",
+      "start_time_pkt": "2026-09-19T18:30:00+05:00",
+      "start_timestamp": 1789824600,
+      "display_date": "2026-09-19",
+      "display_time": "06:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Hamburger SV",
+        "slug": "hamburger-sv",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Hamburger%20SV.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Hamburger SV",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "1. FC Köln",
+        "slug": "1-fc-koln",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FC%20K%C3%B6ln.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "1.FC Köln",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-09-19-hamburger-sv-1-fc-koln.png"
+    },
+    {
+      "event_id": "bundesliga-2026-09-19-sv-werder-bremen-fc-augsburg",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Matchday 4",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Matchday 4",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T13:30:00Z",
+      "start_time_pkt": "2026-09-19T18:30:00+05:00",
+      "start_timestamp": 1789824600,
+      "display_date": "2026-09-19",
+      "display_time": "06:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "SV Werder Bremen",
+        "slug": "sv-werder-bremen",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SV%20Werder%20Bremen.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "SV Werder Bremen",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "FC Augsburg",
+        "slug": "fc-augsburg",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/FC%20Augsburg.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "FC Augsburg",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-09-19-sv-werder-bremen-fc-augsburg.png"
+    },
+    {
+      "event_id": "championship-2026-09-19-birmingham-city-fc-middlesbrough-fc",
+      "competition": {
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Matchday 8",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+      },
+      "round": "Matchday 8",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T14:00:00Z",
+      "start_time_pkt": "2026-09-19T19:00:00+05:00",
+      "start_timestamp": 1789826400,
+      "display_date": "2026-09-19",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Birmingham City FC",
+        "slug": "birmingham-city-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/birmingham-city-fc.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Middlesbrough FC",
+        "slug": "middlesbrough-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Middlesbrough%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 0.95,
+          "matched_name": "Middlesbrough FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.2.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-09-19-birmingham-city-fc-middlesbrough-fc.png"
+    },
+    {
+      "event_id": "championship-2026-09-19-burnley-fc-derby-county-fc",
+      "competition": {
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Matchday 8",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+      },
+      "round": "Matchday 8",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T14:00:00Z",
+      "start_time_pkt": "2026-09-19T19:00:00+05:00",
+      "start_timestamp": 1789826400,
+      "display_date": "2026-09-19",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Burnley FC",
+        "slug": "burnley-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2021-22/England%20-%20Premier%20League/Burnley.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Burnley",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Derby County FC",
+        "slug": "derby-county-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Derby%20County.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 0.95,
+          "matched_name": "Derby County",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.2.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-09-19-burnley-fc-derby-county-fc.png"
+    },
+    {
+      "event_id": "championship-2026-09-19-lincoln-city-fc-swansea-city-afc",
+      "competition": {
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Matchday 8",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+      },
+      "round": "Matchday 8",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T14:00:00Z",
+      "start_time_pkt": "2026-09-19T19:00:00+05:00",
+      "start_timestamp": 1789826400,
+      "display_date": "2026-09-19",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Lincoln City FC",
+        "slug": "lincoln-city-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/lincoln-city-fc.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Swansea City AFC",
+        "slug": "swansea-city-afc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Swansea%20City.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 0.95,
+          "matched_name": "Swansea City",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.2.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-09-19-lincoln-city-fc-swansea-city-afc.png"
+    },
+    {
+      "event_id": "championship-2026-09-19-portsmouth-fc-blackburn-rovers-fc",
+      "competition": {
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Matchday 8",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+      },
+      "round": "Matchday 8",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T14:00:00Z",
+      "start_time_pkt": "2026-09-19T19:00:00+05:00",
+      "start_timestamp": 1789826400,
+      "display_date": "2026-09-19",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Portsmouth FC",
+        "slug": "portsmouth-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Portsmouth%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 0.95,
+          "matched_name": "Portsmouth FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Blackburn Rovers FC",
+        "slug": "blackburn-rovers-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Blackburn%20Rovers.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 0.95,
+          "matched_name": "Blackburn Rovers",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.2.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-09-19-portsmouth-fc-blackburn-rovers-fc.png"
+    },
+    {
+      "event_id": "championship-2026-09-19-queens-park-rangers-fc-preston-north-end-fc",
+      "competition": {
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Matchday 8",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+      },
+      "round": "Matchday 8",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T14:00:00Z",
+      "start_time_pkt": "2026-09-19T19:00:00+05:00",
+      "start_timestamp": 1789826400,
+      "display_date": "2026-09-19",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Queens Park Rangers FC",
+        "slug": "queens-park-rangers-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Queens%20Park%20Rangers.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 0.95,
+          "matched_name": "Queens Park Rangers",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Preston North End FC",
+        "slug": "preston-north-end-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Preston%20North%20End.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 0.95,
+          "matched_name": "Preston North End",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.2.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-09-19-queens-park-rangers-fc-preston-north-end-fc.png"
+    },
+    {
+      "event_id": "championship-2026-09-19-wrexham-afc-southampton-fc",
+      "competition": {
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Matchday 8",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+      },
+      "round": "Matchday 8",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T14:00:00Z",
+      "start_time_pkt": "2026-09-19T19:00:00+05:00",
+      "start_timestamp": 1789826400,
+      "display_date": "2026-09-19",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Wrexham AFC",
+        "slug": "wrexham-afc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/wrexham-afc.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Southampton FC",
+        "slug": "southampton-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2021-22/England%20-%20Premier%20League/Southampton.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Southampton",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.2.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-09-19-wrexham-afc-southampton-fc.png"
+    },
+    {
+      "event_id": "premier-league-2026-09-19-brighton-hove-albion-fc-arsenal-fc",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Matchday 5",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Matchday 5",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T14:00:00Z",
+      "start_time_pkt": "2026-09-19T19:00:00+05:00",
+      "start_timestamp": 1789826400,
+      "display_date": "2026-09-19",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Brighton & Hove Albion FC",
+        "slug": "brighton-hove-albion-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Brighton%20%26%20Hove%20Albion.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Brighton & Hove Albion",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Arsenal FC",
+        "slug": "arsenal-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Arsenal FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-09-19-brighton-hove-albion-fc-arsenal-fc.png"
+    },
+    {
+      "event_id": "premier-league-2026-09-19-everton-fc-ipswich-town-fc",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Matchday 5",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Matchday 5",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T14:00:00Z",
+      "start_time_pkt": "2026-09-19T19:00:00+05:00",
+      "start_timestamp": 1789826400,
+      "display_date": "2026-09-19",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Everton FC",
+        "slug": "everton-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Everton%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Everton FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Ipswich Town FC",
+        "slug": "ipswich-town-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Ipswich%20Town.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Ipswich Town",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-09-19-everton-fc-ipswich-town-fc.png"
+    },
+    {
+      "event_id": "premier-league-2026-09-19-newcastle-united-fc-hull-city-afc",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Matchday 5",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Matchday 5",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T14:00:00Z",
+      "start_time_pkt": "2026-09-19T19:00:00+05:00",
+      "start_timestamp": 1789826400,
+      "display_date": "2026-09-19",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Newcastle United FC",
+        "slug": "newcastle-united-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Newcastle%20United.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Newcastle United",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Hull City AFC",
+        "slug": "hull-city-afc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Hull%20City.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Hull City",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-09-19-newcastle-united-fc-hull-city-afc.png"
+    },
+    {
+      "event_id": "la-liga-2026-09-19-athletic-club-deportivo-alaves",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 7",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Matchday 7",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T14:15:00Z",
+      "start_time_pkt": "2026-09-19T19:15:00+05:00",
+      "start_timestamp": 1789827300,
+      "display_date": "2026-09-19",
+      "display_time": "07:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Athletic Club",
+        "slug": "athletic-club",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Athletic Bilbao",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Deportivo Alavés",
+        "slug": "deportivo-alaves",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Deportivo%20Alav%C3%A9s.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Deportivo Alavés",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-athletic-club-deportivo-alaves.png"
+    },
+    {
+      "event_id": "ligue-1-2026-09-19-paris-fc-rc-strasbourg-alsace",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 5",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+      },
+      "round": "Matchday 5",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T15:15:00Z",
+      "start_time_pkt": "2026-09-19T20:15:00+05:00",
+      "start_timestamp": 1789830900,
+      "display_date": "2026-09-19",
+      "display_time": "08:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Paris FC",
+        "slug": "paris-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Paris FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "RC Strasbourg Alsace",
+        "slug": "rc-strasbourg-alsace",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/RC%20Strasbourg%20Alsace.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "RC Strasbourg Alsace",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-19-paris-fc-rc-strasbourg-alsace.png"
+    },
+    {
+      "event_id": "serie-a-2026-09-19-as-roma-fc-internazionale-milano",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 5",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+      },
+      "round": "Matchday 5",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T16:00:00Z",
+      "start_time_pkt": "2026-09-19T21:00:00+05:00",
+      "start_timestamp": 1789833600,
+      "display_date": "2026-09-19",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "AS Roma",
+        "slug": "as-roma",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "AS Roma",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "FC Internazionale Milano",
+        "slug": "fc-internazionale-milano",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Inter Milan",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-19-as-roma-fc-internazionale-milano.png"
+    },
+    {
+      "event_id": "premier-league-2026-09-19-nottingham-forest-fc-coventry-city-fc",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Matchday 5",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Matchday 5",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T16:30:00Z",
+      "start_time_pkt": "2026-09-19T21:30:00+05:00",
+      "start_timestamp": 1789835400,
+      "display_date": "2026-09-19",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Nottingham Forest FC",
+        "slug": "nottingham-forest-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Nottingham%20Forest.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Nottingham Forest",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Coventry City FC",
+        "slug": "coventry-city-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Coventry%20City.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Coventry City",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-09-19-nottingham-forest-fc-coventry-city-fc.png"
+    },
+    {
+      "event_id": "bundesliga-2026-09-19-vfb-stuttgart-borussia-dortmund",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Matchday 4",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Matchday 4",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T16:30:00Z",
+      "start_time_pkt": "2026-09-19T21:30:00+05:00",
+      "start_timestamp": 1789835400,
+      "display_date": "2026-09-19",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "VfB Stuttgart",
+        "slug": "vfb-stuttgart",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/VfB%20Stuttgart.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "VfB Stuttgart",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Borussia Dortmund",
+        "slug": "borussia-dortmund",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Borussia Dortmund",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-09-19-vfb-stuttgart-borussia-dortmund.png"
+    },
+    {
+      "event_id": "la-liga-2026-09-19-rc-celta-de-vigo-real-racing-club-de-santander",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Matchday 7",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Matchday 7",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T16:30:00Z",
+      "start_time_pkt": "2026-09-19T21:30:00+05:00",
+      "start_timestamp": 1789835400,
+      "display_date": "2026-09-19",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "RC Celta de Vigo",
+        "slug": "rc-celta-de-vigo",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Celta%20de%20Vigo.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Celta de Vigo",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Real Racing Club de Santander",
+        "slug": "real-racing-club-de-santander",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Racing%20Santander.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Racing Santander",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-09-19-rc-celta-de-vigo-real-racing-club-de-santander.png"
+    },
+    {
+      "event_id": "ligue-1-2026-09-19-angers-sco-es-troyes-ac",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 5",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+      },
+      "round": "Matchday 5",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T18:45:00Z",
+      "start_time_pkt": "2026-09-19T23:45:00+05:00",
+      "start_timestamp": 1789843500,
+      "display_date": "2026-09-19",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Angers SCO",
+        "slug": "angers-sco",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Angers%20SCO.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Angers SCO",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "ES Troyes AC",
+        "slug": "es-troyes-ac",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/ESTAC%20Troyes.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "ESTAC Troyes",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-19-angers-sco-es-troyes-ac.png"
+    },
+    {
+      "event_id": "ligue-1-2026-09-19-le-mans-fc-fc-lorient",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 5",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+      },
+      "round": "Matchday 5",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T18:45:00Z",
+      "start_time_pkt": "2026-09-19T23:45:00+05:00",
+      "start_timestamp": 1789843500,
+      "display_date": "2026-09-19",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Le Mans FC",
+        "slug": "le-mans-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Le%20Mans%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Le Mans FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "FC Lorient",
+        "slug": "fc-lorient",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/FC%20Lorient.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "FC Lorient",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-19-le-mans-fc-fc-lorient.png"
+    },
+    {
+      "event_id": "ligue-1-2026-09-19-olympique-lyonnais-stade-rennais-fc-1901",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 5",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+      },
+      "round": "Matchday 5",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T18:45:00Z",
+      "start_time_pkt": "2026-09-19T23:45:00+05:00",
+      "start_timestamp": 1789843500,
+      "display_date": "2026-09-19",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Olympique Lyonnais",
+        "slug": "olympique-lyonnais",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Olympique%20Lyon.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Olympique Lyon",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Stade Rennais FC 1901",
+        "slug": "stade-rennais-fc-1901",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Stade%20Rennais%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Stade Rennais FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-19-olympique-lyonnais-stade-rennais-fc-1901.png"
+    },
+    {
+      "event_id": "ligue-1-2026-09-19-toulouse-fc-le-havre-ac",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 5",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+      },
+      "round": "Matchday 5",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T18:45:00Z",
+      "start_time_pkt": "2026-09-19T23:45:00+05:00",
+      "start_timestamp": 1789843500,
+      "display_date": "2026-09-19",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Toulouse FC",
+        "slug": "toulouse-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/FC%20Toulouse.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "FC Toulouse",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Le Havre AC",
+        "slug": "le-havre-ac",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Le%20Havre%20AC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Le Havre AC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-19-toulouse-fc-le-havre-ac.png"
+    },
+    {
+      "event_id": "serie-a-2026-09-19-venezia-fc-ss-lazio",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Matchday 5",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+      },
+      "round": "Matchday 5",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T18:45:00Z",
+      "start_time_pkt": "2026-09-19T23:45:00+05:00",
+      "start_timestamp": 1789843500,
+      "display_date": "2026-09-19",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Venezia FC",
+        "slug": "venezia-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Venezia%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "Venezia FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "SS Lazio",
+        "slug": "ss-lazio",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SS%20Lazio.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "SS Lazio",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-19-venezia-fc-ss-lazio.png"
     }
   ]
 }

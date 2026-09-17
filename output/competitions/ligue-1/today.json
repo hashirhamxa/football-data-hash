@@ -7,10 +7,65 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-09-17T16:35:51.020117+00:00",
+  "generated_at": "2026-09-17T21:08:11.786348+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-09-17",
-  "target_day_name": "Thursday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-09-18",
+  "target_day_name": "Friday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "ligue-1-2026-09-18-as-monaco-fc-racing-club-de-lens",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Matchday 5",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+      },
+      "round": "Matchday 5",
+      "source_date": "2026-09-18",
+      "match_date": "2026-09-18",
+      "match_date_utc": "2026-09-18",
+      "match_date_pkt": "2026-09-18",
+      "start_time_utc": "2026-09-18T18:45:00Z",
+      "start_time_pkt": "2026-09-18T23:45:00+05:00",
+      "start_timestamp": 1789757100,
+      "display_date": "2026-09-18",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "AS Monaco FC",
+        "slug": "as-monaco-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/AS%20Monaco.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "AS Monaco",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Racing Club de Lens",
+        "slug": "racing-club-de-lens",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/RC%20Lens.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 1.0,
+          "matched_name": "RC Lens",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
+      },
+      "last_updated": "2026-09-17T21:07:38.250041+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-18-as-monaco-fc-racing-club-de-lens.png"
+    }
+  ]
 }

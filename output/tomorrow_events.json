@@ -47,14 +47,14 @@
         "espn_id": "395",
         "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Watford",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
@@ -89,7 +89,7 @@
         "espn_id": "337",
         "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Brentford",
           "is_fallback": false
@@ -101,14 +101,14 @@
         "espn_id": "363",
         "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Chelsea",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
       },
@@ -121,7 +121,7 @@
         "id": "la-liga",
         "name": "Spanish La Liga",
         "country": "Spain",
-        "round": "Regular Fixture",
+        "round": "Matchday 7",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
@@ -197,7 +197,7 @@
         "espn_id": "347",
         "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/347.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Cardiff City",
           "is_fallback": false
@@ -209,14 +209,14 @@
         "espn_id": "372",
         "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/372.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Charlton Athletic",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
@@ -263,14 +263,68 @@
         "espn_id": "371",
         "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "2026-27",
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.2.json"
+      },
+      "last_updated": "2026-09-18T10:52:20.489926+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-09-19-cardiff-city-fc-charlton-athletic-fc.png"
+    },
+    {
+      "event_id": "championship-2026-09-19-millwall-fc-west-ham-united-fc",
+      "competition": {
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Matchday 8",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+      },
+      "round": "Matchday 8",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T11:30:00Z",
+      "start_time_pkt": "2026-09-19T16:30:00+05:00",
+      "start_timestamp": 1789817400,
+      "display_date": "2026-09-19",
+      "display_time": "04:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Millwall FC",
+        "slug": "millwall-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Millwall%20FC.png",
+        "logo_resolution": {
+          "source": "alias",
+          "confidence": 0.95,
+          "matched_name": "Millwall FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "West Ham United FC",
+        "slug": "west-ham-united-fc",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2022-23/England%20-%20Premier%20League/West%20Ham%20United.png",
+        "logo_resolution": {
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "West Ham United",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
@@ -445,7 +499,7 @@
         "id": "serie-a",
         "name": "Italian Serie A",
         "country": "Italy",
-        "round": "Regular Fixture",
+        "round": "Matchday 5",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
       },
@@ -467,7 +521,7 @@
         "espn_id": "107",
         "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Bologna",
           "is_fallback": false
@@ -479,16 +533,16 @@
         "espn_id": "239",
         "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Torino",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
       },
       "last_updated": "2026-09-18T13:35:30.109630+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-19-bologna-torino.png"

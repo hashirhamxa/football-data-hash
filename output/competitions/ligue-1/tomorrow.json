@@ -19,7 +19,7 @@
         "id": "ligue-1",
         "name": "French Ligue 1",
         "country": "France",
-        "round": "Regular Fixture",
+        "round": "Matchday 5",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
       },
@@ -41,7 +41,7 @@
         "espn_id": "6851",
         "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Paris FC",
           "is_fallback": false
@@ -53,16 +53,16 @@
         "espn_id": "180",
         "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Strasbourg",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json"
       },
       "last_updated": "2026-09-18T13:35:30.109630+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-09-19-paris-fc-strasbourg.png"

@@ -19,7 +19,7 @@
         "id": "serie-a",
         "name": "Italian Serie A",
         "country": "Italy",
-        "round": "Regular Fixture",
+        "round": "Matchday 5",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
       },
@@ -41,7 +41,7 @@
         "espn_id": "107",
         "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Bologna",
           "is_fallback": false
@@ -53,16 +53,16 @@
         "espn_id": "239",
         "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
         "logo_resolution": {
-          "source": "espn_direct",
+          "source": "alias",
           "confidence": 1.0,
           "matched_name": "Torino",
           "is_fallback": false
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "OpenFootball",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
+        "source_url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/it.1.json"
       },
       "last_updated": "2026-09-18T13:35:30.109630+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-09-19-bologna-torino.png"

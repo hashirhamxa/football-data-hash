@@ -7,10 +7,335 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-09-17T14:06:35.492148+00:00",
+  "generated_at": "2026-09-18T13:37:46.896382+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-09-18",
-  "target_day_name": "Friday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-09-19",
+  "target_day_name": "Saturday",
+  "total_events": 6,
+  "events": [
+    {
+      "event_id": "premier-league-2026-09-18-brentford-chelsea",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-18",
+      "match_date": "2026-09-18",
+      "match_date_utc": "2026-09-18",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-18T19:00:00Z",
+      "start_time_pkt": "2026-09-19T00:00:00+05:00",
+      "start_timestamp": 1789758000,
+      "display_date": "2026-09-19",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Brentford",
+        "slug": "brentford",
+        "espn_id": "337",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Brentford",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Chelsea",
+        "slug": "chelsea",
+        "espn_id": "363",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Chelsea",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
+      },
+      "last_updated": "2026-09-18T13:35:30.109630+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-09-18-brentford-chelsea.png"
+    },
+    {
+      "event_id": "premier-league-2026-09-19-tottenham-hotspur-aston-villa",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T11:30:00Z",
+      "start_time_pkt": "2026-09-19T16:30:00+05:00",
+      "start_timestamp": 1789817400,
+      "display_date": "2026-09-19",
+      "display_time": "04:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Tottenham Hotspur",
+        "slug": "tottenham-hotspur",
+        "espn_id": "367",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Tottenham Hotspur",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Aston Villa",
+        "slug": "aston-villa",
+        "espn_id": "362",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Aston Villa",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
+      },
+      "last_updated": "2026-09-18T13:35:30.109630+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-09-19-tottenham-hotspur-aston-villa.png"
+    },
+    {
+      "event_id": "premier-league-2026-09-19-brighton-hove-albion-arsenal",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T14:00:00Z",
+      "start_time_pkt": "2026-09-19T19:00:00+05:00",
+      "start_timestamp": 1789826400,
+      "display_date": "2026-09-19",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Brighton & Hove Albion",
+        "slug": "brighton-hove-albion",
+        "espn_id": "331",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Brighton & Hove Albion",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Arsenal",
+        "slug": "arsenal",
+        "espn_id": "359",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Arsenal",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
+      },
+      "last_updated": "2026-09-18T13:35:30.109630+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-09-19-brighton-hove-albion-arsenal.png"
+    },
+    {
+      "event_id": "premier-league-2026-09-19-everton-ipswich-town",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T14:00:00Z",
+      "start_time_pkt": "2026-09-19T19:00:00+05:00",
+      "start_timestamp": 1789826400,
+      "display_date": "2026-09-19",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Everton",
+        "slug": "everton",
+        "espn_id": "368",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Everton",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Ipswich Town",
+        "slug": "ipswich-town",
+        "espn_id": "373",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Ipswich Town",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
+      },
+      "last_updated": "2026-09-18T13:35:30.109630+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-09-19-everton-ipswich-town.png"
+    },
+    {
+      "event_id": "premier-league-2026-09-19-newcastle-united-hull-city",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T14:00:00Z",
+      "start_time_pkt": "2026-09-19T19:00:00+05:00",
+      "start_timestamp": 1789826400,
+      "display_date": "2026-09-19",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Newcastle United",
+        "slug": "newcastle-united",
+        "espn_id": "361",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Newcastle United",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Hull City",
+        "slug": "hull-city",
+        "espn_id": "306",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Hull City",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
+      },
+      "last_updated": "2026-09-18T13:35:30.109630+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-09-19-newcastle-united-hull-city.png"
+    },
+    {
+      "event_id": "premier-league-2026-09-19-nottingham-forest-coventry-city",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-19",
+      "match_date": "2026-09-19",
+      "match_date_utc": "2026-09-19",
+      "match_date_pkt": "2026-09-19",
+      "start_time_utc": "2026-09-19T16:30:00Z",
+      "start_time_pkt": "2026-09-19T21:30:00+05:00",
+      "start_timestamp": 1789835400,
+      "display_date": "2026-09-19",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Nottingham Forest",
+        "slug": "nottingham-forest",
+        "espn_id": "393",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Nottingham Forest",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Coventry City",
+        "slug": "coventry-city",
+        "espn_id": "388",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Coventry City",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
+      },
+      "last_updated": "2026-09-18T13:35:30.109630+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-09-19-nottingham-forest-coventry-city.png"
+    }
+  ]
 }

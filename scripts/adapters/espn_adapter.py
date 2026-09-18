@@ -17,7 +17,12 @@ from typing import Dict, Any, List, Optional
 from .base_adapter import BaseFixtureAdapter
 
 logger = logging.getLogger("espn_adapter")
-USER_AGENT = "Mozilla/5.0"
+ESPN_USER_AGENTS = [
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+    "ESPN/6.18.0 (iPhone; iOS 17.5.1; Scale/3.00)",
+    "okhttp/4.9.2",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; rv:129.0) Gecko/20100101 Firefox/129.0"
+]
 
 
 class ESPNFixtureAdapter(BaseFixtureAdapter):
@@ -31,18 +36,19 @@ class ESPNFixtureAdapter(BaseFixtureAdapter):
         self.max_workers = max_workers
         self.base_url = "https://site.api.espn.com/apis/site/v2/sports/soccer"
 
-    def fetch_url_json(self, url: str, max_retries: int = 3) -> Optional[Dict[str, Any]]:
+    def fetch_url_json(self, url: str, max_retries: int = 4) -> Optional[Dict[str, Any]]:
         """
-        Fetches JSON from ESPN endpoint with clean browser headers and automatic retry.
+        Fetches JSON from ESPN endpoint with clean browser headers and automatic retry/fallback.
         """
-        req = urllib.request.Request(
-            url,
-            headers={
-                "User-Agent": "Mozilla/5.0",
-                "Accept": "application/json, text/plain, */*"
-            }
-        )
         for attempt in range(max_retries):
+            ua = ESPN_USER_AGENTS[attempt % len(ESPN_USER_AGENTS)]
+            req = urllib.request.Request(
+                url,
+                headers={
+                    "User-Agent": ua,
+                    "Accept": "application/json, text/plain, */*"
+                }
+            )
             try:
                 with urllib.request.urlopen(req, timeout=self.timeout) as resp:
                     content = resp.read().decode("utf-8")
@@ -50,7 +56,7 @@ class ESPNFixtureAdapter(BaseFixtureAdapter):
             except urllib.error.HTTPError as e:
                 if e.code == 404:
                     return None
-                logger.debug(f"HTTP {e.code} fetching {url} (attempt {attempt + 1}/{max_retries})")
+                logger.debug(f"HTTP {e.code} fetching {url} with {ua[:20]} (attempt {attempt + 1}/{max_retries})")
             except Exception as e:
                 logger.debug(f"Error fetching {url}: {e} (attempt {attempt + 1}/{max_retries})")
         return None

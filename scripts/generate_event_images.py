@@ -980,7 +980,10 @@ def generate_all_event_images(
         eid = ev["event_id"]
         fname = f"{eid}.png"
         fpath = os.path.join(output_dir, fname)
-        generate_event_card(ev, fpath)
+        try:
+            generate_event_card(ev, fpath)
+        except Exception as e:
+            logger.error(f"Failed to generate event card for '{eid}': {e}")
         ev["event_image_url"] = f"{raw_base_url}/output/images/{fname}"
         return eid
 

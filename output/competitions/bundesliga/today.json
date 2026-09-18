@@ -7,10 +7,65 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-09-17T14:06:35.693754+00:00",
+  "generated_at": "2026-09-18T13:37:46.957505+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-09-17",
-  "target_day_name": "Thursday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-09-18",
+  "target_day_name": "Friday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "bundesliga-2026-09-18-bayern-munich-1-fc-union-berlin",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-18",
+      "match_date": "2026-09-18",
+      "match_date_utc": "2026-09-18",
+      "match_date_pkt": "2026-09-18",
+      "start_time_utc": "2026-09-18T18:30:00Z",
+      "start_time_pkt": "2026-09-18T23:30:00+05:00",
+      "start_timestamp": 1789756200,
+      "display_date": "2026-09-18",
+      "display_time": "11:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Bayern Munich",
+        "slug": "bayern-munich",
+        "espn_id": "132",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Bayern Munich",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "1. FC Union Berlin",
+        "slug": "1-fc-union-berlin",
+        "espn_id": "598",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "1. FC Union Berlin",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
+      },
+      "last_updated": "2026-09-18T13:35:30.109630+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-09-18-bayern-munich-1-fc-union-berlin.png"
+    }
+  ]
 }

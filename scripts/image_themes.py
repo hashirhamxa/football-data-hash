@@ -261,7 +261,26 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="halo"
     ),
 
-    # 13. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 13. UEFA Nations League: Deep royal navy & indigo, vibrant crimson & electric cyan
+    "nations-league": CompetitionTheme(
+        competition_id="nations-league",
+        name="UEFA Nations League",
+        background_top=(10, 16, 42),
+        background_bottom=(18, 24, 60),
+        primary=(235, 30, 60),
+        secondary=(0, 200, 255),
+        highlight=(245, 250, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(190, 210, 245),
+        panel_color=(20, 28, 54, 230),
+        panel_border=(235, 30, 60, 185),
+        pattern="carabao_cup_geometry",
+        center_style="champions_divider",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 14. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

@@ -7,8 +7,711 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-09-23T20:38:24.712616+00:00",
+  "generated_at": "2026-09-23T21:27:16.327452+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 0,
-  "events": []
+  "total_events": 13,
+  "events": [
+    {
+      "event_id": "gulf-cup-2026-09-24-united-arab-emirates-yemen",
+      "competition": {
+        "id": "gulf-cup",
+        "name": "Arabian Gulf Cup",
+        "country": "Middle East",
+        "round": "Group B - Matchday 1",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Group B - Matchday 1",
+      "source_date": "2026-09-24",
+      "match_date": "2026-09-24",
+      "match_date_utc": "2026-09-24",
+      "match_date_pkt": "2026-09-24",
+      "start_time_utc": "2026-09-24T13:45:00Z",
+      "start_time_pkt": "2026-09-24T18:45:00+05:00",
+      "start_timestamp": 1790257500,
+      "display_date": "2026-09-24",
+      "display_time": "06:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "United Arab Emirates",
+        "slug": "united-arab-emirates",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/uae.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "United Arab Emirates",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Yemen",
+        "slug": "yemen",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/yem.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Yemen",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "local",
+        "source_url": "local:data\\gulfcup.json"
+      },
+      "last_updated": "2026-09-23T21:25:14.048284+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/gulf-cup-2026-09-24-united-arab-emirates-yemen.png"
+    },
+    {
+      "event_id": "gulf-cup-2026-09-24-qatar-bahrain",
+      "competition": {
+        "id": "gulf-cup",
+        "name": "Arabian Gulf Cup",
+        "country": "Middle East",
+        "round": "Group B - Matchday 1",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Group B - Matchday 1",
+      "source_date": "2026-09-24",
+      "match_date": "2026-09-24",
+      "match_date_utc": "2026-09-24",
+      "match_date_pkt": "2026-09-24",
+      "start_time_utc": "2026-09-24T16:00:00Z",
+      "start_time_pkt": "2026-09-24T21:00:00+05:00",
+      "start_timestamp": 1790265600,
+      "display_date": "2026-09-24",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Qatar",
+        "slug": "qatar",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Qatar",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Bahrain",
+        "slug": "bahrain",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/bhr.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Bahrain",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "local",
+        "source_url": "local:data\\gulfcup.json"
+      },
+      "last_updated": "2026-09-23T21:25:14.048284+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/gulf-cup-2026-09-24-qatar-bahrain.png"
+    },
+    {
+      "event_id": "gulf-cup-2026-09-26-kuwait-iraq",
+      "competition": {
+        "id": "gulf-cup",
+        "name": "Arabian Gulf Cup",
+        "country": "Middle East",
+        "round": "Group A - Matchday 2",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Group A - Matchday 2",
+      "source_date": "2026-09-26",
+      "match_date": "2026-09-26",
+      "match_date_utc": "2026-09-26",
+      "match_date_pkt": "2026-09-26",
+      "start_time_utc": "2026-09-26T13:45:00Z",
+      "start_time_pkt": "2026-09-26T18:45:00+05:00",
+      "start_timestamp": 1790430300,
+      "display_date": "2026-09-26",
+      "display_time": "06:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Kuwait",
+        "slug": "kuwait",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/kuw.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Kuwait",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Iraq",
+        "slug": "iraq",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Iraq",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "local",
+        "source_url": "local:data\\gulfcup.json"
+      },
+      "last_updated": "2026-09-23T21:25:14.048284+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/gulf-cup-2026-09-26-kuwait-iraq.png"
+    },
+    {
+      "event_id": "gulf-cup-2026-09-26-oman-saudi-arabia",
+      "competition": {
+        "id": "gulf-cup",
+        "name": "Arabian Gulf Cup",
+        "country": "Middle East",
+        "round": "Group A - Matchday 2",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Group A - Matchday 2",
+      "source_date": "2026-09-26",
+      "match_date": "2026-09-26",
+      "match_date_utc": "2026-09-26",
+      "match_date_pkt": "2026-09-26",
+      "start_time_utc": "2026-09-26T16:00:00Z",
+      "start_time_pkt": "2026-09-26T21:00:00+05:00",
+      "start_timestamp": 1790438400,
+      "display_date": "2026-09-26",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Oman",
+        "slug": "oman",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/oma.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Oman",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Saudi Arabia",
+        "slug": "saudi-arabia",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Saudi Arabia",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "local",
+        "source_url": "local:data\\gulfcup.json"
+      },
+      "last_updated": "2026-09-23T21:25:14.048284+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/gulf-cup-2026-09-26-oman-saudi-arabia.png"
+    },
+    {
+      "event_id": "gulf-cup-2026-09-27-yemen-qatar",
+      "competition": {
+        "id": "gulf-cup",
+        "name": "Arabian Gulf Cup",
+        "country": "Middle East",
+        "round": "Group B - Matchday 2",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Group B - Matchday 2",
+      "source_date": "2026-09-27",
+      "match_date": "2026-09-27",
+      "match_date_utc": "2026-09-27",
+      "match_date_pkt": "2026-09-27",
+      "start_time_utc": "2026-09-27T13:45:00Z",
+      "start_time_pkt": "2026-09-27T18:45:00+05:00",
+      "start_timestamp": 1790516700,
+      "display_date": "2026-09-27",
+      "display_time": "06:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Yemen",
+        "slug": "yemen",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/yem.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Yemen",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Qatar",
+        "slug": "qatar",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Qatar",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "local",
+        "source_url": "local:data\\gulfcup.json"
+      },
+      "last_updated": "2026-09-23T21:25:14.048284+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/gulf-cup-2026-09-27-yemen-qatar.png"
+    },
+    {
+      "event_id": "gulf-cup-2026-09-27-bahrain-united-arab-emirates",
+      "competition": {
+        "id": "gulf-cup",
+        "name": "Arabian Gulf Cup",
+        "country": "Middle East",
+        "round": "Group B - Matchday 2",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Group B - Matchday 2",
+      "source_date": "2026-09-27",
+      "match_date": "2026-09-27",
+      "match_date_utc": "2026-09-27",
+      "match_date_pkt": "2026-09-27",
+      "start_time_utc": "2026-09-27T16:00:00Z",
+      "start_time_pkt": "2026-09-27T21:00:00+05:00",
+      "start_timestamp": 1790524800,
+      "display_date": "2026-09-27",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Bahrain",
+        "slug": "bahrain",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/bhr.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Bahrain",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "United Arab Emirates",
+        "slug": "united-arab-emirates",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/uae.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "United Arab Emirates",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "local",
+        "source_url": "local:data\\gulfcup.json"
+      },
+      "last_updated": "2026-09-23T21:25:14.048284+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/gulf-cup-2026-09-27-bahrain-united-arab-emirates.png"
+    },
+    {
+      "event_id": "gulf-cup-2026-09-29-oman-kuwait",
+      "competition": {
+        "id": "gulf-cup",
+        "name": "Arabian Gulf Cup",
+        "country": "Middle East",
+        "round": "Group A - Matchday 3",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Group A - Matchday 3",
+      "source_date": "2026-09-29",
+      "match_date": "2026-09-29",
+      "match_date_utc": "2026-09-29",
+      "match_date_pkt": "2026-09-29",
+      "start_time_utc": "2026-09-29T14:00:00Z",
+      "start_time_pkt": "2026-09-29T19:00:00+05:00",
+      "start_timestamp": 1790690400,
+      "display_date": "2026-09-29",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Oman",
+        "slug": "oman",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/oma.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Oman",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Kuwait",
+        "slug": "kuwait",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/kuw.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Kuwait",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "local",
+        "source_url": "local:data\\gulfcup.json"
+      },
+      "last_updated": "2026-09-23T21:25:14.048284+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/gulf-cup-2026-09-29-oman-kuwait.png"
+    },
+    {
+      "event_id": "gulf-cup-2026-09-29-saudi-arabia-iraq",
+      "competition": {
+        "id": "gulf-cup",
+        "name": "Arabian Gulf Cup",
+        "country": "Middle East",
+        "round": "Group A - Matchday 3",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Group A - Matchday 3",
+      "source_date": "2026-09-29",
+      "match_date": "2026-09-29",
+      "match_date_utc": "2026-09-29",
+      "match_date_pkt": "2026-09-29",
+      "start_time_utc": "2026-09-29T14:00:00Z",
+      "start_time_pkt": "2026-09-29T19:00:00+05:00",
+      "start_timestamp": 1790690400,
+      "display_date": "2026-09-29",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Saudi Arabia",
+        "slug": "saudi-arabia",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Saudi Arabia",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Iraq",
+        "slug": "iraq",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Iraq",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "local",
+        "source_url": "local:data\\gulfcup.json"
+      },
+      "last_updated": "2026-09-23T21:25:14.048284+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/gulf-cup-2026-09-29-saudi-arabia-iraq.png"
+    },
+    {
+      "event_id": "gulf-cup-2026-09-30-bahrain-yemen",
+      "competition": {
+        "id": "gulf-cup",
+        "name": "Arabian Gulf Cup",
+        "country": "Middle East",
+        "round": "Group B - Matchday 3",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Group B - Matchday 3",
+      "source_date": "2026-09-30",
+      "match_date": "2026-09-30",
+      "match_date_utc": "2026-09-30",
+      "match_date_pkt": "2026-09-30",
+      "start_time_utc": "2026-09-30T14:00:00Z",
+      "start_time_pkt": "2026-09-30T19:00:00+05:00",
+      "start_timestamp": 1790776800,
+      "display_date": "2026-09-30",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Bahrain",
+        "slug": "bahrain",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/bhr.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Bahrain",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Yemen",
+        "slug": "yemen",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/yem.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Yemen",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "local",
+        "source_url": "local:data\\gulfcup.json"
+      },
+      "last_updated": "2026-09-23T21:25:14.048284+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/gulf-cup-2026-09-30-bahrain-yemen.png"
+    },
+    {
+      "event_id": "gulf-cup-2026-09-30-united-arab-emirates-qatar",
+      "competition": {
+        "id": "gulf-cup",
+        "name": "Arabian Gulf Cup",
+        "country": "Middle East",
+        "round": "Group B - Matchday 3",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Group B - Matchday 3",
+      "source_date": "2026-09-30",
+      "match_date": "2026-09-30",
+      "match_date_utc": "2026-09-30",
+      "match_date_pkt": "2026-09-30",
+      "start_time_utc": "2026-09-30T14:00:00Z",
+      "start_time_pkt": "2026-09-30T19:00:00+05:00",
+      "start_timestamp": 1790776800,
+      "display_date": "2026-09-30",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "United Arab Emirates",
+        "slug": "united-arab-emirates",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/uae.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "United Arab Emirates",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Qatar",
+        "slug": "qatar",
+        "espn_id": null,
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Qatar",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "local",
+        "source_url": "local:data\\gulfcup.json"
+      },
+      "last_updated": "2026-09-23T21:25:14.048284+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/gulf-cup-2026-09-30-united-arab-emirates-qatar.png"
+    },
+    {
+      "event_id": "gulf-cup-2026-10-03-winner-group-a-runner-up-group-b",
+      "competition": {
+        "id": "gulf-cup",
+        "name": "Arabian Gulf Cup",
+        "country": "Middle East",
+        "round": "Semi-Final",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Semi-Final",
+      "source_date": "2026-10-03",
+      "match_date": "2026-10-03",
+      "match_date_utc": "2026-10-03",
+      "match_date_pkt": "2026-10-03",
+      "start_time_utc": "2026-10-03T13:45:00Z",
+      "start_time_pkt": "2026-10-03T18:45:00+05:00",
+      "start_timestamp": 1791035100,
+      "display_date": "2026-10-03",
+      "display_time": "06:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Winner Group A",
+        "slug": "winner-group-a",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/winner-group-a.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Runner-up Group B",
+        "slug": "runner-up-group-b",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/runner-up-group-b.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "local",
+        "source_url": "local:data\\gulfcup.json"
+      },
+      "last_updated": "2026-09-23T21:25:14.048284+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/gulf-cup-2026-10-03-winner-group-a-runner-up-group-b.png"
+    },
+    {
+      "event_id": "gulf-cup-2026-10-03-winner-group-b-runner-up-group-a",
+      "competition": {
+        "id": "gulf-cup",
+        "name": "Arabian Gulf Cup",
+        "country": "Middle East",
+        "round": "Semi-Final",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Semi-Final",
+      "source_date": "2026-10-03",
+      "match_date": "2026-10-03",
+      "match_date_utc": "2026-10-03",
+      "match_date_pkt": "2026-10-03",
+      "start_time_utc": "2026-10-03T16:30:00Z",
+      "start_time_pkt": "2026-10-03T21:30:00+05:00",
+      "start_timestamp": 1791045000,
+      "display_date": "2026-10-03",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Winner Group B",
+        "slug": "winner-group-b",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/winner-group-b.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Runner-up Group A",
+        "slug": "runner-up-group-a",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/runner-up-group-a.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "local",
+        "source_url": "local:data\\gulfcup.json"
+      },
+      "last_updated": "2026-09-23T21:25:14.048284+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/gulf-cup-2026-10-03-winner-group-b-runner-up-group-a.png"
+    },
+    {
+      "event_id": "gulf-cup-2026-10-06-finalist-1-finalist-2",
+      "competition": {
+        "id": "gulf-cup",
+        "name": "Arabian Gulf Cup",
+        "country": "Middle East",
+        "round": "Final",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Final",
+      "source_date": "2026-10-06",
+      "match_date": "2026-10-06",
+      "match_date_utc": "2026-10-06",
+      "match_date_pkt": "2026-10-06",
+      "start_time_utc": "2026-10-06T15:00:00Z",
+      "start_time_pkt": "2026-10-06T20:00:00+05:00",
+      "start_timestamp": 1791298800,
+      "display_date": "2026-10-06",
+      "display_time": "08:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Finalist 1",
+        "slug": "finalist-1",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/finalist-1.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Finalist 2",
+        "slug": "finalist-2",
+        "espn_id": null,
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/finalist-2.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "OpenFootball",
+        "season": "local",
+        "source_url": "local:data\\gulfcup.json"
+      },
+      "last_updated": "2026-09-23T21:25:14.048284+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/gulf-cup-2026-10-06-finalist-1-finalist-2.png"
+    }
+  ]
 }

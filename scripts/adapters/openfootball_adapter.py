@@ -92,6 +92,26 @@ class OpenFootballFixtureAdapter(BaseFixtureAdapter):
                 used_season = "root"
                 source_url = root_url
 
+        # Check local file fallback in data/ or config/
+        if not data:
+            import os
+            local_candidates = [
+                os.path.join("data", source_file),
+                os.path.join("config", source_file),
+                source_file
+            ]
+            for lc in local_candidates:
+                if os.path.exists(lc):
+                    try:
+                        with open(lc, "r", encoding="utf-8-sig") as f:
+                            data = json.load(f)
+                            if data and "matches" in data:
+                                used_season = "local"
+                                source_url = f"local:{lc}"
+                                break
+                    except Exception as e:
+                        logger.debug(f"Error reading local fallback {lc}: {e}")
+
         if not data or "matches" not in data:
             return {
                 "status": {
@@ -99,7 +119,7 @@ class OpenFootballFixtureAdapter(BaseFixtureAdapter):
                     "name": comp_name,
                     "provider": "OpenFootball",
                     "status": "unavailable",
-                    "reason": f"File '{source_file}' not found in probed seasons",
+                    "reason": f"File '{source_file}' not found in probed seasons or local files",
                     "matches_count": 0,
                     "last_fetched": datetime.now(timezone.utc).isoformat()
                 },

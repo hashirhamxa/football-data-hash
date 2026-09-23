@@ -1,0 +1,125 @@
+{
+  "version": "1.1.0",
+  "competition": {
+    "id": "womens-champions-league",
+    "name": "UEFA Women's Champions League",
+    "country": "Europe"
+  },
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "generated_at": "2026-09-23T02:22:48.776338+00:00",
+  "feed_type": "tomorrow",
+  "target_date_pkt": "2026-09-24",
+  "target_day_name": "Thursday",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "womens-champions-league-2026-09-23-barcelona-paris-fc",
+      "competition": {
+        "id": "womens-champions-league",
+        "name": "UEFA Women's Champions League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2408.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-23",
+      "match_date": "2026-09-23",
+      "match_date_utc": "2026-09-23",
+      "match_date_pkt": "2026-09-24",
+      "start_time_utc": "2026-09-23T19:00:00Z",
+      "start_time_pkt": "2026-09-24T00:00:00+05:00",
+      "start_timestamp": 1790190000,
+      "display_date": "2026-09-24",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "espn_id": "20091",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20091.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Barcelona",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Paris FC",
+        "slug": "paris-fc",
+        "espn_id": "21640",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Paris FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.wchampions/scoreboard"
+      },
+      "last_updated": "2026-09-23T02:21:23.400888+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-champions-league-2026-09-23-barcelona-paris-fc.png"
+    },
+    {
+      "event_id": "womens-champions-league-2026-09-23-chelsea-austria-vienna",
+      "competition": {
+        "id": "womens-champions-league",
+        "name": "UEFA Women's Champions League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2408.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-23",
+      "match_date": "2026-09-23",
+      "match_date_utc": "2026-09-23",
+      "match_date_pkt": "2026-09-24",
+      "start_time_utc": "2026-09-23T19:00:00Z",
+      "start_time_pkt": "2026-09-24T00:00:00+05:00",
+      "start_timestamp": 1790190000,
+      "display_date": "2026-09-24",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Chelsea",
+        "slug": "chelsea",
+        "espn_id": "19970",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Chelsea",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Austria Vienna",
+        "slug": "austria-vienna",
+        "espn_id": "131643",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Austria Vienna",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.wchampions/scoreboard"
+      },
+      "last_updated": "2026-09-23T02:21:23.400888+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-champions-league-2026-09-23-chelsea-austria-vienna.png"
+    }
+  ]
+}

@@ -242,7 +242,26 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="halo"
     ),
 
-    # 12. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 12. UEFA Women's Champions League: Deep midnight indigo, vibrant magenta & electric cyan
+    "womens-champions-league": CompetitionTheme(
+        competition_id="womens-champions-league",
+        name="UEFA Women's Champions League",
+        background_top=(12, 10, 36),
+        background_bottom=(24, 12, 44),
+        primary=(235, 30, 120),
+        secondary=(0, 210, 255),
+        highlight=(255, 225, 245),
+        text_primary=(255, 255, 255),
+        text_secondary=(230, 190, 230),
+        panel_color=(24, 18, 48, 225),
+        panel_border=(235, 30, 120, 180),
+        pattern="champions_stars",
+        center_style="champions_divider",
+        font_family="montserrat",
+        crest_container_style="halo"
+    ),
+
+    # 13. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

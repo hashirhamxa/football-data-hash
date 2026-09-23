@@ -1,9 +1,9 @@
-﻿name: Update Football Events
+name: Update Football Events
 
 on:
   schedule:
-    # Run every 6 hours automatically
-    - cron: '0 */6 * * *'
+    # Run twice a day: 00:00 UTC (05:00 AM PKT) and 12:00 UTC (05:00 PM PKT)
+    - cron: '0 0,12 * * *'
   workflow_dispatch:
   push:
     branches:

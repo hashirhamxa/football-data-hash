@@ -299,7 +299,26 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="halo"
     ),
 
-    # 15. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 15. Major League Soccer (MLS): Modern crimson red, dynamic navy blue, sleek silver geometry
+    "mls": CompetitionTheme(
+        competition_id="mls",
+        name="Major League Soccer",
+        background_top=(10, 14, 28),
+        background_bottom=(20, 12, 30),
+        primary=(235, 30, 45),
+        secondary=(0, 120, 240),
+        highlight=(245, 250, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(190, 205, 230),
+        panel_color=(20, 26, 44, 230),
+        panel_border=(235, 30, 45, 185),
+        pattern="carabao_cup_geometry",
+        center_style="champions_divider",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 16. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

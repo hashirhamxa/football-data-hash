@@ -280,7 +280,26 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
-    # 14. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 14. Arabian Gulf Cup: Deep emerald night, warm desert bronze, rich Arabian gold
+    "gulf-cup": CompetitionTheme(
+        competition_id="gulf-cup",
+        name="Arabian Gulf Cup",
+        background_top=(14, 28, 20),
+        background_bottom=(28, 20, 12),
+        primary=(220, 180, 60),
+        secondary=(0, 160, 90),
+        highlight=(255, 240, 200),
+        text_primary=(255, 255, 255),
+        text_secondary=(240, 230, 200),
+        panel_color=(24, 30, 24, 230),
+        panel_border=(220, 180, 60, 185),
+        pattern="worldcup_global_arcs",
+        center_style="worldcup_arc_divider",
+        font_family="montserrat",
+        crest_container_style="halo"
+    ),
+
+    # 15. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

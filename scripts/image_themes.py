@@ -356,7 +356,26 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
-    # 18. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 18. International Friendlies: Global azure blue, vivid cyan, clean luminous silver
+    "international-friendlies": CompetitionTheme(
+        competition_id="international-friendlies",
+        name="International Friendlies",
+        background_top=(10, 18, 32),
+        background_bottom=(16, 24, 44),
+        primary=(0, 130, 240),
+        secondary=(0, 200, 180),
+        highlight=(225, 245, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(180, 215, 245),
+        panel_color=(18, 28, 48, 230),
+        panel_border=(0, 130, 240, 185),
+        pattern="worldcup_global_arcs",
+        center_style="worldcup_arc_divider",
+        font_family="inter",
+        crest_container_style="halo"
+    ),
+
+    # 19. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

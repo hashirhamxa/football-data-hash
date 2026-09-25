@@ -7,10 +7,119 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-09-25T18:09:17.940481+00:00",
+  "generated_at": "2026-09-25T21:38:04.119125+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-09-25",
-  "target_day_name": "Friday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-09-26",
+  "target_day_name": "Saturday",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "afcon-qualifying-2026-09-26-kenya-eritrea",
+      "competition": {
+        "id": "afcon-qualifying",
+        "name": "Africa Cup of Nations Qualifying",
+        "country": "Africa",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-26",
+      "match_date": "2026-09-26",
+      "match_date_utc": "2026-09-26",
+      "match_date_pkt": "2026-09-26",
+      "start_time_utc": "2026-09-26T13:00:00Z",
+      "start_time_pkt": "2026-09-26T18:00:00+05:00",
+      "start_timestamp": 1790427600,
+      "display_date": "2026-09-26",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Kenya",
+        "slug": "kenya",
+        "espn_id": "2848",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ken.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Kenya",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Eritrea",
+        "slug": "eritrea",
+        "espn_id": "5774",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/eri.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Eritrea",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/caf.nations_qual/scoreboard"
+      },
+      "last_updated": "2026-09-25T21:36:19.917466+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afcon-qualifying-2026-09-26-kenya-eritrea.png"
+    },
+    {
+      "event_id": "afcon-qualifying-2026-09-26-south-africa-guinea",
+      "competition": {
+        "id": "afcon-qualifying",
+        "name": "Africa Cup of Nations Qualifying",
+        "country": "Africa",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-26",
+      "match_date": "2026-09-26",
+      "match_date_utc": "2026-09-26",
+      "match_date_pkt": "2026-09-26",
+      "start_time_utc": "2026-09-26T13:00:00Z",
+      "start_time_pkt": "2026-09-26T18:00:00+05:00",
+      "start_timestamp": 1790427600,
+      "display_date": "2026-09-26",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "South Africa",
+        "slug": "south-africa",
+        "espn_id": "467",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "South Africa",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Guinea",
+        "slug": "guinea",
+        "espn_id": "2847",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/gui.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Guinea",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/caf.nations_qual/scoreboard"
+      },
+      "last_updated": "2026-09-25T21:36:19.917466+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afcon-qualifying-2026-09-26-south-africa-guinea.png"
+    }
+  ]
 }

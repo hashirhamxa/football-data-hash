@@ -318,7 +318,45 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
-    # 16. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 16. Africa Cup of Nations (AFCON): Rich Sahara gold, CAF emerald green, bright energetic highlights
+    "africa-cup-of-nations": CompetitionTheme(
+        competition_id="africa-cup-of-nations",
+        name="Africa Cup of Nations",
+        background_top=(12, 24, 18),
+        background_bottom=(26, 20, 10),
+        primary=(245, 166, 35),
+        secondary=(0, 135, 81),
+        highlight=(255, 235, 180),
+        text_primary=(255, 255, 255),
+        text_secondary=(240, 230, 200),
+        panel_color=(20, 28, 22, 230),
+        panel_border=(245, 166, 35, 185),
+        pattern="worldcup_global_arcs",
+        center_style="worldcup_arc_divider",
+        font_family="montserrat",
+        crest_container_style="halo"
+    ),
+
+    # 17. Africa Cup of Nations Qualifying: Deep pitch green, athletic amber gold, sharp kinetic geometry
+    "afcon-qualifying": CompetitionTheme(
+        competition_id="afcon-qualifying",
+        name="Africa Cup of Nations Qualifying",
+        background_top=(10, 22, 16),
+        background_bottom=(18, 16, 24),
+        primary=(0, 150, 90),
+        secondary=(245, 180, 40),
+        highlight=(220, 255, 230),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 235, 215),
+        panel_color=(18, 26, 22, 230),
+        panel_border=(0, 150, 90, 180),
+        pattern="carabao_cup_geometry",
+        center_style="europa_energy_divider",
+        font_family="archivo",
+        crest_container_style="modern_frame"
+    ),
+
+    # 18. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

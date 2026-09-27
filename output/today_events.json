@@ -2,13 +2,13 @@
   "version": "1.1.0",
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "target_date_pkt": "2026-09-27",
-  "target_day_name": "Sunday",
-  "generated_at": "2026-09-27T04:10:00.296290+00:00",
-  "total_events": 14,
+  "target_date_pkt": "2026-09-28",
+  "target_day_name": "Monday",
+  "generated_at": "2026-09-27T21:47:21.233760+00:00",
+  "total_events": 16,
   "events": [
     {
-      "event_id": "international-friendlies-2026-09-27-fiji-papua-new-guinea",
+      "event_id": "international-friendlies-2026-09-27-kyrgyz-republic-maldives",
       "competition": {
         "id": "international-friendlies",
         "name": "International Friendlies",
@@ -21,35 +21,35 @@
       "source_date": "2026-09-27",
       "match_date": "2026-09-27",
       "match_date_utc": "2026-09-27",
-      "match_date_pkt": "2026-09-27",
-      "start_time_utc": "2026-09-27T07:00:00Z",
-      "start_time_pkt": "2026-09-27T12:00:00+05:00",
-      "start_timestamp": 1790492400,
-      "display_date": "2026-09-27",
-      "display_time": "12:00 PM",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-27T22:00:00Z",
+      "start_time_pkt": "2026-09-28T03:00:00+05:00",
+      "start_timestamp": 1790546400,
+      "display_date": "2026-09-28",
+      "display_time": "03:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Fiji",
-        "slug": "fiji",
-        "espn_id": "4862",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/fij.png",
+        "name": "Kyrgyz Republic",
+        "slug": "kyrgyz-republic",
+        "espn_id": "6724",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/kgz.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Fiji",
+          "matched_name": "Kyrgyz Republic",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Papua New Guinea",
-        "slug": "papua-new-guinea",
-        "espn_id": "4885",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/png.png",
+        "name": "Maldives",
+        "slug": "maldives",
+        "espn_id": "4390",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/mdv.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Papua New Guinea",
+          "matched_name": "Maldives",
           "is_fallback": false
         }
       },
@@ -58,11 +58,65 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-09-27T04:08:12.996770+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-09-27-fiji-papua-new-guinea.png"
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-09-27-kyrgyz-republic-maldives.png"
     },
     {
-      "event_id": "international-friendlies-2026-09-27-china-new-zealand",
+      "event_id": "mls-2026-09-27-columbus-crew-inter-miami-cf",
+      "competition": {
+        "id": "mls",
+        "name": "Major League Soccer",
+        "country": "United States",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-27",
+      "match_date": "2026-09-27",
+      "match_date_utc": "2026-09-27",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-27T23:00:00Z",
+      "start_time_pkt": "2026-09-28T04:00:00+05:00",
+      "start_timestamp": 1790550000,
+      "display_date": "2026-09-28",
+      "display_time": "04:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Columbus Crew",
+        "slug": "columbus-crew",
+        "espn_id": "183",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Columbus Crew",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Inter Miami CF",
+        "slug": "inter-miami-cf",
+        "espn_id": "20232",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Inter Miami CF",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
+      },
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-09-27-columbus-crew-inter-miami-cf.png"
+    },
+    {
+      "event_id": "international-friendlies-2026-09-28-japan-venezuela",
       "competition": {
         "id": "international-friendlies",
         "name": "International Friendlies",
@@ -72,38 +126,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/53.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-09-27",
-      "match_date": "2026-09-27",
-      "match_date_utc": "2026-09-27",
-      "match_date_pkt": "2026-09-27",
-      "start_time_utc": "2026-09-27T11:35:00Z",
-      "start_time_pkt": "2026-09-27T16:35:00+05:00",
-      "start_timestamp": 1790508900,
-      "display_date": "2026-09-27",
-      "display_time": "04:35 PM",
+      "source_date": "2026-09-28",
+      "match_date": "2026-09-28",
+      "match_date_utc": "2026-09-28",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-28T10:25:00Z",
+      "start_time_pkt": "2026-09-28T15:25:00+05:00",
+      "start_timestamp": 1790591100,
+      "display_date": "2026-09-28",
+      "display_time": "03:25 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "China",
-        "slug": "china",
-        "espn_id": "658",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/chn.png",
+        "name": "Japan",
+        "slug": "japan",
+        "espn_id": "627",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "China",
+          "matched_name": "Japan",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "New Zealand",
-        "slug": "new-zealand",
-        "espn_id": "2666",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+        "name": "Venezuela",
+        "slug": "venezuela",
+        "espn_id": "213",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ven.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "New Zealand",
+          "matched_name": "Venezuela",
           "is_fallback": false
         }
       },
@@ -112,11 +166,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-09-27T04:08:12.996770+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-09-27-china-new-zealand.png"
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-09-28-japan-venezuela.png"
     },
     {
-      "event_id": "international-friendlies-2026-09-27-seychelles-sri-lanka",
+      "event_id": "international-friendlies-2026-09-28-south-korea-uruguay",
       "competition": {
         "id": "international-friendlies",
         "name": "International Friendlies",
@@ -126,38 +180,92 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/53.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-09-27",
-      "match_date": "2026-09-27",
-      "match_date_utc": "2026-09-27",
-      "match_date_pkt": "2026-09-27",
-      "start_time_utc": "2026-09-27T12:00:00Z",
-      "start_time_pkt": "2026-09-27T17:00:00+05:00",
-      "start_timestamp": 1790510400,
-      "display_date": "2026-09-27",
+      "source_date": "2026-09-28",
+      "match_date": "2026-09-28",
+      "match_date_utc": "2026-09-28",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-28T11:00:00Z",
+      "start_time_pkt": "2026-09-28T16:00:00+05:00",
+      "start_timestamp": 1790593200,
+      "display_date": "2026-09-28",
+      "display_time": "04:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "South Korea",
+        "slug": "south-korea",
+        "espn_id": "451",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "South Korea",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Uruguay",
+        "slug": "uruguay",
+        "espn_id": "212",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Uruguay",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
+      },
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-09-28-south-korea-uruguay.png"
+    },
+    {
+      "event_id": "international-friendlies-2026-09-28-tajikistan-palestine",
+      "competition": {
+        "id": "international-friendlies",
+        "name": "International Friendlies",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/53.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-28",
+      "match_date": "2026-09-28",
+      "match_date_utc": "2026-09-28",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-28T12:00:00Z",
+      "start_time_pkt": "2026-09-28T17:00:00+05:00",
+      "start_timestamp": 1790596800,
+      "display_date": "2026-09-28",
       "display_time": "05:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Seychelles",
-        "slug": "seychelles",
-        "espn_id": "6726",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/sey.png",
+        "name": "Tajikistan",
+        "slug": "tajikistan",
+        "espn_id": "6723",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/tjk.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Seychelles",
+          "matched_name": "Tajikistan",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Sri Lanka",
-        "slug": "sri-lanka",
-        "espn_id": "5782",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/sri.png",
+        "name": "Palestine",
+        "slug": "palestine",
+        "espn_id": "6167",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/pal.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Sri Lanka",
+          "matched_name": "Palestine",
           "is_fallback": false
         }
       },
@@ -166,227 +274,173 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-09-27T04:08:12.996770+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-09-27-seychelles-sri-lanka.png"
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-09-28-tajikistan-palestine.png"
     },
     {
-      "event_id": "nations-league-2026-09-27-lithuania-azerbaijan",
+      "event_id": "afcon-qualifying-2026-09-28-central-african-republic-burkina-faso",
       "competition": {
-        "id": "nations-league",
-        "name": "UEFA Nations League",
-        "country": "Europe",
+        "id": "afcon-qualifying",
+        "name": "Africa Cup of Nations Qualifying",
+        "country": "Africa",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+        "logo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-09-27",
-      "match_date": "2026-09-27",
-      "match_date_utc": "2026-09-27",
-      "match_date_pkt": "2026-09-27",
-      "start_time_utc": "2026-09-27T13:00:00Z",
-      "start_time_pkt": "2026-09-27T18:00:00+05:00",
-      "start_timestamp": 1790514000,
-      "display_date": "2026-09-27",
-      "display_time": "06:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Lithuania",
-        "slug": "lithuania",
-        "espn_id": "460",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ltu.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Lithuania",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Azerbaijan",
-        "slug": "azerbaijan",
-        "espn_id": "581",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/aze.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Azerbaijan",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
-      },
-      "last_updated": "2026-09-27T04:08:12.996770+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-27-lithuania-azerbaijan.png"
-    },
-    {
-      "event_id": "nations-league-2026-09-27-austria-kosovo",
-      "competition": {
-        "id": "nations-league",
-        "name": "UEFA Nations League",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-09-27",
-      "match_date": "2026-09-27",
-      "match_date_utc": "2026-09-27",
-      "match_date_pkt": "2026-09-27",
-      "start_time_utc": "2026-09-27T16:00:00Z",
-      "start_time_pkt": "2026-09-27T21:00:00+05:00",
-      "start_timestamp": 1790524800,
-      "display_date": "2026-09-27",
+      "source_date": "2026-09-28",
+      "match_date": "2026-09-28",
+      "match_date_utc": "2026-09-28",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-28T16:00:00Z",
+      "start_time_pkt": "2026-09-28T21:00:00+05:00",
+      "start_timestamp": 1790611200,
+      "display_date": "2026-09-28",
       "display_time": "09:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Austria",
-        "slug": "austria",
-        "espn_id": "474",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+        "name": "Central African Republic",
+        "slug": "central-african-republic",
+        "espn_id": "10528",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/10528.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Austria",
+          "matched_name": "Central African Republic",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Kosovo",
-        "slug": "kosovo",
-        "espn_id": "18272",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/kosovo.png",
+        "name": "Burkina Faso",
+        "slug": "burkina-faso",
+        "espn_id": "2845",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/bka.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Kosovo",
+          "matched_name": "Burkina Faso",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/caf.nations_qual/scoreboard"
       },
-      "last_updated": "2026-09-27T04:08:12.996770+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-27-austria-kosovo.png"
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afcon-qualifying-2026-09-28-central-african-republic-burkina-faso.png"
     },
     {
-      "event_id": "nations-league-2026-09-27-denmark-wales",
+      "event_id": "afcon-qualifying-2026-09-28-equatorial-guinea-sierra-leone",
       "competition": {
-        "id": "nations-league",
-        "name": "UEFA Nations League",
-        "country": "Europe",
+        "id": "afcon-qualifying",
+        "name": "Africa Cup of Nations Qualifying",
+        "country": "Africa",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+        "logo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-09-27",
-      "match_date": "2026-09-27",
-      "match_date_utc": "2026-09-27",
-      "match_date_pkt": "2026-09-27",
-      "start_time_utc": "2026-09-27T16:00:00Z",
-      "start_time_pkt": "2026-09-27T21:00:00+05:00",
-      "start_timestamp": 1790524800,
-      "display_date": "2026-09-27",
+      "source_date": "2026-09-28",
+      "match_date": "2026-09-28",
+      "match_date_utc": "2026-09-28",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-28T16:00:00Z",
+      "start_time_pkt": "2026-09-28T21:00:00+05:00",
+      "start_timestamp": 1790611200,
+      "display_date": "2026-09-28",
       "display_time": "09:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Denmark",
-        "slug": "denmark",
-        "espn_id": "479",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/den.png",
+        "name": "Equatorial Guinea",
+        "slug": "equatorial-guinea",
+        "espn_id": "8938",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/eqg.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Denmark",
+          "matched_name": "Equatorial Guinea",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Wales",
-        "slug": "wales",
-        "espn_id": "578",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/wal.png",
+        "name": "Sierra Leone",
+        "slug": "sierra-leone",
+        "espn_id": "8600",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/sle.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Wales",
+          "matched_name": "Sierra Leone",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/caf.nations_qual/scoreboard"
       },
-      "last_updated": "2026-09-27T04:08:12.996770+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-27-denmark-wales.png"
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afcon-qualifying-2026-09-28-equatorial-guinea-sierra-leone.png"
     },
     {
-      "event_id": "nations-league-2026-09-27-gibraltar-andorra",
+      "event_id": "afcon-qualifying-2026-09-28-zimbabwe-congo-dr",
       "competition": {
-        "id": "nations-league",
-        "name": "UEFA Nations League",
-        "country": "Europe",
+        "id": "afcon-qualifying",
+        "name": "Africa Cup of Nations Qualifying",
+        "country": "Africa",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+        "logo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-09-27",
-      "match_date": "2026-09-27",
-      "match_date_utc": "2026-09-27",
-      "match_date_pkt": "2026-09-27",
-      "start_time_utc": "2026-09-27T16:00:00Z",
-      "start_time_pkt": "2026-09-27T21:00:00+05:00",
-      "start_timestamp": 1790524800,
-      "display_date": "2026-09-27",
+      "source_date": "2026-09-28",
+      "match_date": "2026-09-28",
+      "match_date_utc": "2026-09-28",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-28T16:00:00Z",
+      "start_time_pkt": "2026-09-28T21:00:00+05:00",
+      "start_timestamp": 1790611200,
+      "display_date": "2026-09-28",
       "display_time": "09:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Gibraltar",
-        "slug": "gibraltar",
-        "espn_id": "16721",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/gib.png",
+        "name": "Zimbabwe",
+        "slug": "zimbabwe",
+        "espn_id": "4214",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4214.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Gibraltar",
+          "matched_name": "Zimbabwe",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Andorra",
-        "slug": "andorra",
-        "espn_id": "587",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/and.png",
+        "name": "Congo DR",
+        "slug": "congo-dr",
+        "espn_id": "2850",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Andorra",
+          "matched_name": "Congo DR",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/caf.nations_qual/scoreboard"
       },
-      "last_updated": "2026-09-27T04:08:12.996770+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-27-gibraltar-andorra.png"
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afcon-qualifying-2026-09-28-zimbabwe-congo-dr.png"
     },
     {
-      "event_id": "nations-league-2026-09-27-serbia-netherlands",
+      "event_id": "nations-league-2026-09-28-armenia-montenegro",
       "competition": {
         "id": "nations-league",
         "name": "UEFA Nations League",
@@ -396,38 +450,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-09-27",
-      "match_date": "2026-09-27",
-      "match_date_utc": "2026-09-27",
-      "match_date_pkt": "2026-09-27",
-      "start_time_utc": "2026-09-27T16:00:00Z",
-      "start_time_pkt": "2026-09-27T21:00:00+05:00",
-      "start_timestamp": 1790524800,
-      "display_date": "2026-09-27",
+      "source_date": "2026-09-28",
+      "match_date": "2026-09-28",
+      "match_date_utc": "2026-09-28",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-28T16:00:00Z",
+      "start_time_pkt": "2026-09-28T21:00:00+05:00",
+      "start_timestamp": 1790611200,
+      "display_date": "2026-09-28",
       "display_time": "09:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Serbia",
-        "slug": "serbia",
-        "espn_id": "6757",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/sba.png",
+        "name": "Armenia",
+        "slug": "armenia",
+        "espn_id": "579",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/fifa.armenia.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Serbia",
+          "matched_name": "Armenia",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Netherlands",
-        "slug": "netherlands",
-        "espn_id": "449",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+        "name": "Montenegro",
+        "slug": "montenegro",
+        "espn_id": "6775",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/mtg.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Netherlands",
+          "matched_name": "Montenegro",
           "is_fallback": false
         }
       },
@@ -436,173 +490,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-09-27T04:08:12.996770+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-27-serbia-netherlands.png"
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-28-armenia-montenegro.png"
     },
     {
-      "event_id": "international-friendlies-2026-09-27-malta-liechtenstein",
-      "competition": {
-        "id": "international-friendlies",
-        "name": "International Friendlies",
-        "country": "International",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/53.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-09-27",
-      "match_date": "2026-09-27",
-      "match_date_utc": "2026-09-27",
-      "match_date_pkt": "2026-09-27",
-      "start_time_utc": "2026-09-27T16:30:00Z",
-      "start_time_pkt": "2026-09-27T21:30:00+05:00",
-      "start_timestamp": 1790526600,
-      "display_date": "2026-09-27",
-      "display_time": "09:30 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Malta",
-        "slug": "malta",
-        "espn_id": "453",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/mlt.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Malta",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Liechtenstein",
-        "slug": "liechtenstein",
-        "espn_id": "589",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/lie.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Liechtenstein",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
-      },
-      "last_updated": "2026-09-27T04:08:12.996770+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-09-27-malta-liechtenstein.png"
-    },
-    {
-      "event_id": "gulf-cup-2026-09-27-yemen-qatar",
-      "competition": {
-        "id": "gulf-cup",
-        "name": "Arabian Gulf Cup",
-        "country": "Middle East",
-        "round": "Group B - Matchday 2",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
-      },
-      "round": "Group B - Matchday 2",
-      "source_date": "2026-09-27",
-      "match_date": "2026-09-27",
-      "match_date_utc": "2026-09-27",
-      "match_date_pkt": "2026-09-27",
-      "start_time_utc": "2026-09-27T16:55:00Z",
-      "start_time_pkt": "2026-09-27T21:55:00+05:00",
-      "start_timestamp": 1790528100,
-      "display_date": "2026-09-27",
-      "display_time": "09:55 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Yemen",
-        "slug": "yemen",
-        "espn_id": null,
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/yem.png",
-        "logo_resolution": {
-          "source": "exact",
-          "confidence": 0.98,
-          "matched_name": "Yemen",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Qatar",
-        "slug": "qatar",
-        "espn_id": null,
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
-        "logo_resolution": {
-          "source": "exact",
-          "confidence": 0.98,
-          "matched_name": "Qatar",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "OpenFootball",
-        "season": "local",
-        "source_url": "local:data/gulfcup.json"
-      },
-      "last_updated": "2026-09-27T04:08:12.996770+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/gulf-cup-2026-09-27-yemen-qatar.png"
-    },
-    {
-      "event_id": "international-friendlies-2026-09-27-jordan-syria",
-      "competition": {
-        "id": "international-friendlies",
-        "name": "International Friendlies",
-        "country": "International",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/53.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-09-27",
-      "match_date": "2026-09-27",
-      "match_date_utc": "2026-09-27",
-      "match_date_pkt": "2026-09-27",
-      "start_time_utc": "2026-09-27T17:00:00Z",
-      "start_time_pkt": "2026-09-27T22:00:00+05:00",
-      "start_timestamp": 1790528400,
-      "display_date": "2026-09-27",
-      "display_time": "10:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Jordan",
-        "slug": "jordan",
-        "espn_id": "2917",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Jordan",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Syria",
-        "slug": "syria",
-        "espn_id": "4380",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/syr.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Syria",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
-      },
-      "last_updated": "2026-09-27T04:08:12.996770+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-09-27-jordan-syria.png"
-    },
-    {
-      "event_id": "nations-league-2026-09-27-germany-greece",
+      "event_id": "nations-league-2026-09-28-georgia-ukraine",
       "competition": {
         "id": "nations-league",
         "name": "UEFA Nations League",
@@ -612,38 +504,146 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-09-27",
-      "match_date": "2026-09-27",
-      "match_date_utc": "2026-09-27",
-      "match_date_pkt": "2026-09-27",
-      "start_time_utc": "2026-09-27T18:45:00Z",
-      "start_time_pkt": "2026-09-27T23:45:00+05:00",
-      "start_timestamp": 1790534700,
-      "display_date": "2026-09-27",
+      "source_date": "2026-09-28",
+      "match_date": "2026-09-28",
+      "match_date_utc": "2026-09-28",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-28T16:00:00Z",
+      "start_time_pkt": "2026-09-28T21:00:00+05:00",
+      "start_timestamp": 1790611200,
+      "display_date": "2026-09-28",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Georgia",
+        "slug": "georgia",
+        "espn_id": "584",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/geo.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Georgia",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Ukraine",
+        "slug": "ukraine",
+        "espn_id": "457",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ukr.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Ukraine",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
+      },
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-28-georgia-ukraine.png"
+    },
+    {
+      "event_id": "nations-league-2026-09-28-latvia-cyprus",
+      "competition": {
+        "id": "nations-league",
+        "name": "UEFA Nations League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-28",
+      "match_date": "2026-09-28",
+      "match_date_utc": "2026-09-28",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-28T16:00:00Z",
+      "start_time_pkt": "2026-09-28T21:00:00+05:00",
+      "start_timestamp": 1790611200,
+      "display_date": "2026-09-28",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Latvia",
+        "slug": "latvia",
+        "espn_id": "456",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/lva.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Latvia",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Cyprus",
+        "slug": "cyprus",
+        "espn_id": "445",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/cyp.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Cyprus",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
+      },
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-28-latvia-cyprus.png"
+    },
+    {
+      "event_id": "nations-league-2026-09-28-belgium-france",
+      "competition": {
+        "id": "nations-league",
+        "name": "UEFA Nations League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-28",
+      "match_date": "2026-09-28",
+      "match_date_utc": "2026-09-28",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-28T18:45:00Z",
+      "start_time_pkt": "2026-09-28T23:45:00+05:00",
+      "start_timestamp": 1790621100,
+      "display_date": "2026-09-28",
       "display_time": "11:45 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Germany",
-        "slug": "germany",
-        "espn_id": "481",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+        "name": "Belgium",
+        "slug": "belgium",
+        "espn_id": "459",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Germany",
+          "matched_name": "Belgium",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Greece",
-        "slug": "greece",
-        "espn_id": "455",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/gre.png",
+        "name": "France",
+        "slug": "france",
+        "espn_id": "478",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Greece",
+          "matched_name": "France",
           "is_fallback": false
         }
       },
@@ -652,11 +652,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-09-27T04:08:12.996770+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-27-germany-greece.png"
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-28-belgium-france.png"
     },
     {
-      "event_id": "nations-league-2026-09-27-israel-republic-of-ireland",
+      "event_id": "nations-league-2026-09-28-northern-ireland-hungary",
       "competition": {
         "id": "nations-league",
         "name": "UEFA Nations League",
@@ -666,38 +666,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-09-27",
-      "match_date": "2026-09-27",
-      "match_date_utc": "2026-09-27",
-      "match_date_pkt": "2026-09-27",
-      "start_time_utc": "2026-09-27T18:45:00Z",
-      "start_time_pkt": "2026-09-27T23:45:00+05:00",
-      "start_timestamp": 1790534700,
-      "display_date": "2026-09-27",
+      "source_date": "2026-09-28",
+      "match_date": "2026-09-28",
+      "match_date_utc": "2026-09-28",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-28T18:45:00Z",
+      "start_time_pkt": "2026-09-28T23:45:00+05:00",
+      "start_timestamp": 1790621100,
+      "display_date": "2026-09-28",
       "display_time": "11:45 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Israel",
-        "slug": "israel",
-        "espn_id": "461",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/isr.png",
+        "name": "Northern Ireland",
+        "slug": "northern-ireland",
+        "espn_id": "586",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/nir.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Israel",
+          "matched_name": "Northern Ireland",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Republic of Ireland",
-        "slug": "republic-of-ireland",
-        "espn_id": "476",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/irl.png",
+        "name": "Hungary",
+        "slug": "hungary",
+        "espn_id": "480",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/hun.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Republic of Ireland",
+          "matched_name": "Hungary",
           "is_fallback": false
         }
       },
@@ -706,11 +706,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-09-27T04:08:12.996770+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-27-israel-republic-of-ireland.png"
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-28-northern-ireland-hungary.png"
     },
     {
-      "event_id": "nations-league-2026-09-27-norway-portugal",
+      "event_id": "nations-league-2026-09-28-romania-bosnia-herzegovina",
       "competition": {
         "id": "nations-league",
         "name": "UEFA Nations League",
@@ -720,38 +720,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-09-27",
-      "match_date": "2026-09-27",
-      "match_date_utc": "2026-09-27",
-      "match_date_pkt": "2026-09-27",
-      "start_time_utc": "2026-09-27T18:45:00Z",
-      "start_time_pkt": "2026-09-27T23:45:00+05:00",
-      "start_timestamp": 1790534700,
-      "display_date": "2026-09-27",
+      "source_date": "2026-09-28",
+      "match_date": "2026-09-28",
+      "match_date_utc": "2026-09-28",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-28T18:45:00Z",
+      "start_time_pkt": "2026-09-28T23:45:00+05:00",
+      "start_timestamp": 1790621100,
+      "display_date": "2026-09-28",
       "display_time": "11:45 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Norway",
-        "slug": "norway",
-        "espn_id": "464",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+        "name": "Romania",
+        "slug": "romania",
+        "espn_id": "473",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/rom.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Norway",
+          "matched_name": "Romania",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Portugal",
-        "slug": "portugal",
-        "espn_id": "482",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+        "name": "Bosnia-Herzegovina",
+        "slug": "bosnia-herzegovina",
+        "espn_id": "452",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Portugal",
+          "matched_name": "Bosnia-Herzegovina",
           "is_fallback": false
         }
       },
@@ -760,8 +760,116 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-09-27T04:08:12.996770+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-27-norway-portugal.png"
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-28-romania-bosnia-herzegovina.png"
+    },
+    {
+      "event_id": "nations-league-2026-09-28-sweden-poland",
+      "competition": {
+        "id": "nations-league",
+        "name": "UEFA Nations League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-28",
+      "match_date": "2026-09-28",
+      "match_date_utc": "2026-09-28",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-28T18:45:00Z",
+      "start_time_pkt": "2026-09-28T23:45:00+05:00",
+      "start_timestamp": 1790621100,
+      "display_date": "2026-09-28",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Sweden",
+        "slug": "sweden",
+        "espn_id": "466",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sweden",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Poland",
+        "slug": "poland",
+        "espn_id": "471",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/pol.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Poland",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
+      },
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-28-sweden-poland.png"
+    },
+    {
+      "event_id": "nations-league-2026-09-28-turkiye-italy",
+      "competition": {
+        "id": "nations-league",
+        "name": "UEFA Nations League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2395.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-28",
+      "match_date": "2026-09-28",
+      "match_date_utc": "2026-09-28",
+      "match_date_pkt": "2026-09-28",
+      "start_time_utc": "2026-09-28T18:45:00Z",
+      "start_time_pkt": "2026-09-28T23:45:00+05:00",
+      "start_timestamp": 1790621100,
+      "display_date": "2026-09-28",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Türkiye",
+        "slug": "turkiye",
+        "espn_id": "465",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Türkiye",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Italy",
+        "slug": "italy",
+        "espn_id": "162",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ita.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Italy",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
+      },
+      "last_updated": "2026-09-27T21:45:46.403178+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-09-28-turkiye-italy.png"
     }
   ]
 }

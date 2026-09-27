@@ -261,23 +261,23 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="halo"
     ),
 
-    # 13. UEFA Nations League: Deep royal navy & indigo, vibrant crimson & electric cyan
+    # 13. UEFA Nations League: Deep midnight navy, mosaic geometry, wide flag cards & lightning VS
     "nations-league": CompetitionTheme(
         competition_id="nations-league",
         name="UEFA Nations League",
-        background_top=(10, 16, 42),
-        background_bottom=(18, 24, 60),
-        primary=(235, 30, 60),
-        secondary=(0, 200, 255),
-        highlight=(245, 250, 255),
+        background_top=(24, 38, 68),
+        background_bottom=(14, 22, 42),
+        primary=(0, 180, 255),
+        secondary=(235, 30, 60),
+        highlight=(255, 255, 255),
         text_primary=(255, 255, 255),
-        text_secondary=(190, 210, 245),
-        panel_color=(20, 28, 54, 230),
-        panel_border=(235, 30, 60, 185),
-        pattern="carabao_cup_geometry",
-        center_style="champions_divider",
+        text_secondary=(185, 205, 235),
+        panel_color=(255, 255, 255, 255),
+        panel_border=(255, 255, 255, 255),
+        pattern="nations_league_mosaic",
+        center_style="nations_league_vs",
         font_family="montserrat",
-        crest_container_style="modern_frame"
+        crest_container_style="flag_rounded_card"
     ),
 
     # 14. Arabian Gulf Cup: Deep emerald night, warm desert bronze, rich Arabian gold

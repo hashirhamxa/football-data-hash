@@ -234,12 +234,12 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         highlight=(255, 225, 120),
         text_primary=(255, 255, 255),
         text_secondary=(245, 225, 190),
-        panel_color=(38, 16, 28, 230),
-        panel_border=(235, 180, 50, 190),
+        panel_color=(38, 16, 28, 225),
+        panel_border=(235, 180, 50, 185),
         pattern="worldcup_global_arcs",
-        center_style="worldcup_arc_divider",
+        center_style="nations_league_vs",
         font_family="montserrat",
-        crest_container_style="halo"
+        crest_container_style="flag_rounded_card"
     ),
 
     # 12. UEFA Women's Champions League: Deep midnight indigo, vibrant magenta & electric cyan
@@ -272,8 +272,8 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         highlight=(255, 255, 255),
         text_primary=(255, 255, 255),
         text_secondary=(185, 205, 235),
-        panel_color=(255, 255, 255, 255),
-        panel_border=(255, 255, 255, 255),
+        panel_color=(16, 28, 54, 225),
+        panel_border=(0, 180, 255, 180),
         pattern="nations_league_mosaic",
         center_style="nations_league_vs",
         font_family="montserrat",
@@ -291,12 +291,12 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         highlight=(255, 240, 200),
         text_primary=(255, 255, 255),
         text_secondary=(240, 230, 200),
-        panel_color=(24, 30, 24, 230),
-        panel_border=(220, 180, 60, 185),
+        panel_color=(18, 28, 20, 225),
+        panel_border=(220, 180, 60, 180),
         pattern="worldcup_global_arcs",
-        center_style="worldcup_arc_divider",
+        center_style="nations_league_vs",
         font_family="montserrat",
-        crest_container_style="halo"
+        crest_container_style="flag_rounded_card"
     ),
 
     # 15. Major League Soccer (MLS): Modern crimson red, dynamic navy blue, sleek silver geometry
@@ -329,12 +329,12 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         highlight=(255, 235, 180),
         text_primary=(255, 255, 255),
         text_secondary=(240, 230, 200),
-        panel_color=(20, 28, 22, 230),
-        panel_border=(245, 166, 35, 185),
+        panel_color=(22, 28, 20, 225),
+        panel_border=(245, 166, 35, 180),
         pattern="worldcup_global_arcs",
-        center_style="worldcup_arc_divider",
+        center_style="nations_league_vs",
         font_family="montserrat",
-        crest_container_style="halo"
+        crest_container_style="flag_rounded_card"
     ),
 
     # 17. Africa Cup of Nations Qualifying: Deep pitch green, athletic amber gold, sharp kinetic geometry
@@ -348,12 +348,12 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         highlight=(220, 255, 230),
         text_primary=(255, 255, 255),
         text_secondary=(200, 235, 215),
-        panel_color=(18, 26, 22, 230),
+        panel_color=(16, 26, 20, 225),
         panel_border=(0, 150, 90, 180),
         pattern="carabao_cup_geometry",
-        center_style="europa_energy_divider",
+        center_style="nations_league_vs",
         font_family="archivo",
-        crest_container_style="modern_frame"
+        crest_container_style="flag_rounded_card"
     ),
 
     # 18. International Friendlies: Global azure blue, vivid cyan, clean luminous silver
@@ -367,12 +367,12 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         highlight=(225, 245, 255),
         text_primary=(255, 255, 255),
         text_secondary=(180, 215, 245),
-        panel_color=(18, 28, 48, 230),
-        panel_border=(0, 130, 240, 185),
+        panel_color=(16, 24, 44, 225),
+        panel_border=(0, 130, 240, 180),
         pattern="worldcup_global_arcs",
-        center_style="worldcup_arc_divider",
+        center_style="nations_league_vs",
         font_family="inter",
-        crest_container_style="halo"
+        crest_container_style="flag_rounded_card"
     ),
 
     # 19. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents

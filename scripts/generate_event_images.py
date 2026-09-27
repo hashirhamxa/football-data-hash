@@ -545,42 +545,25 @@ def draw_themed_crest_plate(
     Renders a prominent team logo inside a theme-matched visual plate with drop-shadow,
     theme-specific container styles, and back-glow. All coordinates in 2x supersampled space.
     """
-    card = Image.new("RGBA", base.size, (0, 0, 0, 0))
-    draw = ImageDraw.Draw(card)
+    card_w = 680
+    card_h = 420
+    radius = 52
+    x0 = cx - card_w // 2
+    y0 = cy - card_h // 2
+    x1 = cx + card_w // 2
+    y1 = cy + card_h // 2
 
-    x0 = cx - card_size // 2
-    y0 = cy - card_size // 2
-    x1 = cx + card_size // 2
-    y1 = cy + card_size // 2
-
-    # Drop shadow
-    shadow_pad = 22
-    draw.rounded_rectangle(
-        [x0 - shadow_pad, y0 - shadow_pad + 8, x1 + shadow_pad, y1 + shadow_pad + 8],
-        radius=52,
-        fill=(0, 0, 0, 135)
-    )
+    # Deep soft drop shadow
+    shadow = Image.new("RGBA", base.size, (0, 0, 0, 0))
+    sdraw = ImageDraw.Draw(shadow)
+    sdraw.rounded_rectangle([x0 - 10, y0 + 16, x1 + 10, y1 + 36], radius=radius + 8, fill=(0, 0, 0, 195))
+    shadow = shadow.filter(ImageFilter.GaussianBlur(radius=22))
+    base.alpha_composite(shadow)
 
     style = theme.crest_container_style
 
     if style == "flag_rounded_card":
-        # UEFA Nations League & Country Flag Style: Edge-to-edge flag card with solid white border & deep soft drop-shadow
-        card_w = 680
-        card_h = 420
-        radius = 52
-        x0 = cx - card_w // 2
-        y0 = cy - card_h // 2
-        x1 = cx + card_w // 2
-        y1 = cy + card_h // 2
-
-        # Drop shadow
-        shadow = Image.new("RGBA", base.size, (0, 0, 0, 0))
-        sdraw = ImageDraw.Draw(shadow)
-        sdraw.rounded_rectangle([x0 - 8, y0 + 16, x1 + 8, y1 + 36], radius=radius + 8, fill=(0, 0, 0, 190))
-        shadow = shadow.filter(ImageFilter.GaussianBlur(radius=20))
-        base.alpha_composite(shadow)
-
-        # Card content with edge-to-edge logo / flag
+        # National Teams & Country Flags: Edge-to-edge flag card with solid white border
         card_inner = Image.new("RGBA", (card_w, card_h), (255, 255, 255, 255))
         if logo_img:
             bbox = logo_img.getbbox()
@@ -598,7 +581,7 @@ def draw_themed_crest_plate(
             # Initials placeholder
             cdraw = ImageDraw.Draw(card_inner)
             initials = team_name[:3].upper() if team_name else "FC"
-            f = get_font(size=96, weight="extrabold", family=theme.font_family)
+            f = get_font(size=110, weight="black", family="montserrat")
             bbox = cdraw.textbbox((0, 0), initials, font=f)
             tw = bbox[2] - bbox[0]
             th = bbox[3] - bbox[1]
@@ -617,86 +600,45 @@ def draw_themed_crest_plate(
         base.alpha_composite(border_layer)
         return
 
-    if style == "halo":
-        # Luminous celestial outer halo ring (UCL, World Cup)
-        halo_pad = 24
-        draw.rounded_rectangle(
-            [x0 - halo_pad, y0 - halo_pad, x1 + halo_pad, y1 + halo_pad],
-            radius=60,
-            outline=(theme.highlight[0], theme.highlight[1], theme.highlight[2], 75),
-            width=3
-        )
-        draw.rounded_rectangle(
-            [x0, y0, x1, y1],
-            radius=44,
-            fill=theme.panel_color,
-            outline=theme.panel_border,
-            width=5
-        )
-    elif style == "metallic":
-        # 3D bevel / chamfered plate (UEL, Serie A)
-        draw.rounded_rectangle(
-            [x0 - 4, y0 - 4, x1 + 4, y1 + 4],
-            radius=48,
-            outline=(theme.primary[0], theme.primary[1], theme.primary[2], 110),
-            width=4
-        )
-        draw.rounded_rectangle(
-            [x0, y0, x1, y1],
-            radius=44,
-            fill=theme.panel_color,
-            outline=theme.panel_border,
-            width=5
-        )
-    elif style == "modern_frame":
-        # Sharp technical framing with corner ticks (Premier League, Bundesliga, Carabao Cup)
-        draw.rounded_rectangle(
-            [x0, y0, x1, y1],
-            radius=36,
-            fill=theme.panel_color,
-            outline=theme.panel_border,
-            width=5
-        )
-        tick_len = 32
-        draw.line([(x0, y0), (x0 + tick_len, y0)], fill=theme.highlight, width=6)
-        draw.line([(x0, y0), (x0, y0 + tick_len)], fill=theme.highlight, width=6)
-        draw.line([(x1, y1), (x1 - tick_len, y1)], fill=theme.highlight, width=6)
-        draw.line([(x1, y1), (x1, y1 - tick_len)], fill=theme.highlight, width=6)
-    else:
-        # Polished glass plate
-        draw.rounded_rectangle(
-            [x0, y0, x1, y1],
-            radius=44,
-            fill=theme.panel_color,
-            outline=theme.panel_border,
-            width=5
-        )
+    # Club Crests: Polished, seamless dark glass card with theme border and back-glow
+    card_inner = Image.new("RGBA", base.size, (0, 0, 0, 0))
+    cdraw = ImageDraw.Draw(card_inner)
+    cdraw.rounded_rectangle([x0, y0, x1, y1], radius=radius, fill=theme.panel_color, outline=theme.panel_border, width=6)
 
-    # Subtle inner gloss reflection
-    draw.rounded_rectangle(
-        [x0 + 6, y0 + 6, x1 - 6, y0 + (card_size // 3)],
-        radius=38,
-        fill=(255, 255, 255, 12)
-    )
+    if style == "modern_frame":
+        tick_len = 38
+        cdraw.line([(x0, y0), (x0 + tick_len, y0)], fill=theme.highlight, width=6)
+        cdraw.line([(x0, y0), (x0, y0 + tick_len)], fill=theme.highlight, width=6)
+        cdraw.line([(x1, y1), (x1 - tick_len, y1)], fill=theme.highlight, width=6)
+        cdraw.line([(x1, y1), (x1, y1 - tick_len)], fill=theme.highlight, width=6)
 
-    base.alpha_composite(card)
+    base.alpha_composite(card_inner)
 
     # Draw Crest Logo or Initials
     if logo_img:
-        max_logo_size = card_size - 80
-        w, h = logo_img.size
-        ratio = min(max_logo_size / w, max_logo_size / h)
-        new_w = max(1, int(w * ratio))
-        new_h = max(1, int(h * ratio))
+        bbox = logo_img.getbbox()
+        logo_cropped = logo_img.crop(bbox) if bbox else logo_img
+        lw, lh = logo_cropped.size
+        max_logo_size = card_h - 70  # Prominent ~350px crest
+        ratio = min(max_logo_size / lw, max_logo_size / lh)
+        nw = max(1, int(lw * ratio))
+        nh = max(1, int(lh * ratio))
 
-        resized_logo = logo_img.resize((new_w, new_h), Image.Resampling.LANCZOS)
-        pos_x = cx - new_w // 2
-        pos_y = cy - new_h // 2
+        resized_logo = logo_cropped.resize((nw, nh), Image.Resampling.LANCZOS)
+        pos_x = cx - nw // 2
+        pos_y = cy - nh // 2
+
+        # Soft back-glow under crest
+        glow = Image.new("RGBA", base.size, (0, 0, 0, 0))
+        gdraw = ImageDraw.Draw(glow)
+        gdraw.ellipse([cx - nw // 2 - 30, cy - nh // 2 - 30, cx + nw // 2 + 30, cy + nh // 2 + 30], fill=(255, 255, 255, 55))
+        glow = glow.filter(ImageFilter.GaussianBlur(radius=20))
+        base.alpha_composite(glow)
 
         base.paste(resized_logo, (pos_x, pos_y), resized_logo)
     else:
         initials = team_name[:3].upper() if team_name else "FC"
-        f = get_font(size=96, weight="extrabold", family=theme.font_family)
+        f = get_font(size=110, weight="black", family=theme.font_family)
         draw_base = ImageDraw.Draw(base)
         bbox = draw_base.textbbox((0, 0), initials, font=f)
         tw = bbox[2] - bbox[0]
@@ -705,7 +647,7 @@ def draw_themed_crest_plate(
 
 
 # ==============================================================================
-# 6. Themed Pure Decorative Central Divider (Zero Text, Zero "VS", Zero Kickoff Time)
+# 6. Themed Pure Decorative Central Divider (Dynamic "vs" with Energy Accents)
 # ==============================================================================
 
 def draw_themed_center_divider(
@@ -716,220 +658,71 @@ def draw_themed_center_divider(
     base: Optional[Image.Image] = None
 ):
     """
-    Renders an elegant, theme-specific central decorative separator between team crests.
-    Completely eliminates 'VS', time text, clock icons, or placeholders.
+    Renders the broadcast stylized bold italic 'vs' with dynamic energy lightning slashes.
     All coordinates in 2x supersampled space.
     """
-    pr, pg, pb = theme.primary
-    hr, hg, hb = theme.highlight
-    sr, sg, sb = theme.secondary
-    style = theme.center_style
+    vs_font = get_font(size=135, weight="black", family="archivo")
+    text = "vs"
+    bbox = draw.textbbox((0, 0), text, font=vs_font)
+    tw = bbox[2] - bbox[0]
+    th = bbox[3] - bbox[1]
+    tx = cx - tw // 2
+    ty = cy - th // 2 - 10
 
-    if style == "nations_league_vs":
-        # UEFA Nations League: Stylized bold italic 'vs' with dynamic lightning energy slashes
-        vs_font = get_font(size=135, weight="black", family="archivo")
-        text = "vs"
-        bbox = draw.textbbox((0, 0), text, font=vs_font)
-        tw = bbox[2] - bbox[0]
-        th = bbox[3] - bbox[1]
-        tx = cx - tw // 2
-        ty = cy - th // 2 - 10
+    # Dynamic lightning / angled slash accents
+    lightning_tr_main = [
+        (cx + 46, cy - 25),
+        (cx + 56, cy - 60),
+        (cx + 48, cy - 64),
+        (cx + 70, cy - 110),
+        (cx + 64, cy - 112),
+        (cx + 82, cy - 145)
+    ]
+    lightning_tr_branch = [
+        (cx + 56, cy - 60),
+        (cx + 80, cy - 72)
+    ]
+    lightning_bl_main = [
+        (cx - 46, cy + 25),
+        (cx - 56, cy + 60),
+        (cx - 48, cy + 64),
+        (cx - 70, cy + 110),
+        (cx - 64, cy + 112),
+        (cx - 82, cy + 145)
+    ]
+    lightning_bl_branch = [
+        (cx - 56, cy + 60),
+        (cx - 80, cy + 72)
+    ]
 
-        # Dynamic lightning / angled slash accents
-        lightning_tr_main = [
-            (cx + 46, cy - 25),
-            (cx + 56, cy - 60),
-            (cx + 48, cy - 64),
-            (cx + 70, cy - 110),
-            (cx + 64, cy - 112),
-            (cx + 82, cy - 145)
-        ]
-        lightning_tr_branch = [
-            (cx + 56, cy - 60),
-            (cx + 80, cy - 72)
-        ]
-        lightning_bl_main = [
-            (cx - 46, cy + 25),
-            (cx - 56, cy + 60),
-            (cx - 48, cy + 64),
-            (cx - 70, cy + 110),
-            (cx - 64, cy + 112),
-            (cx - 82, cy + 145)
-        ]
-        lightning_bl_branch = [
-            (cx - 56, cy + 60),
-            (cx - 80, cy + 72)
-        ]
-
-        if base is not None:
-            shadow_layer = Image.new("RGBA", base.size, (0, 0, 0, 0))
-            sdraw = ImageDraw.Draw(shadow_layer)
-            sdraw.line(lightning_tr_main, fill=(0, 0, 0, 200), width=10)
-            sdraw.line(lightning_tr_branch, fill=(0, 0, 0, 160), width=6)
-            sdraw.line(lightning_bl_main, fill=(0, 0, 0, 200), width=10)
-            sdraw.line(lightning_bl_branch, fill=(0, 0, 0, 160), width=6)
-            sdraw.text((tx + 6, ty + 8), text, font=vs_font, fill=(0, 0, 0, 220))
-            shadow_layer = shadow_layer.filter(ImageFilter.GaussianBlur(radius=8))
-            base.alpha_composite(shadow_layer)
-        else:
-            draw.line([(p[0] + 4, p[1] + 4) for p in lightning_tr_main], fill=(0, 0, 0, 150), width=8)
-            draw.line([(p[0] + 4, p[1] + 4) for p in lightning_bl_main], fill=(0, 0, 0, 150), width=8)
-            draw.text((tx + 4, ty + 4), text, font=vs_font, fill=(0, 0, 0, 180))
-
-        # Crisp white lightning
-        draw.line(lightning_tr_main, fill=(255, 255, 255, 255), width=6)
-        draw.line(lightning_tr_branch, fill=(240, 250, 255, 240), width=4)
-        draw.line(lightning_bl_main, fill=(255, 255, 255, 255), width=6)
-        draw.line(lightning_bl_branch, fill=(240, 250, 255, 240), width=4)
-
-        # Crisp white text
-        draw.text((tx, ty), text, font=vs_font, fill=(255, 255, 255, 255))
-
-    elif style == "champions_divider":
-        # UEFA Champions League: Luminous starry celestial vertical beam with diamond core
-        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(hr, hg, hb, 190), width=4)
-        draw.line([(cx - 12, cy - 110), (cx - 12, cy + 110)], fill=(pr, pg, pb, 130), width=2)
-        draw.line([(cx + 12, cy - 110), (cx + 12, cy + 110)], fill=(pr, pg, pb, 130), width=2)
-        for pip_y in [cy - 180, cy + 180]:
-            draw.ellipse([cx - 5, pip_y - 5, cx + 5, pip_y + 5], fill=(hr, hg, hb, 240))
-        # Center celestial diamond
-        dia_pts = [(cx, cy - 28), (cx + 22, cy), (cx, cy + 28), (cx - 22, cy)]
-        draw.polygon(dia_pts, fill=(14, 24, 60, 245), outline=(hr, hg, hb, 230), width=3)
-        draw.ellipse([cx - 4, cy - 4, cx + 4, cy + 4], fill=(255, 255, 255, 240))
-
-    elif style == "europa_energy_divider":
-        # UEFA Europa League: Dynamic angled warm amber/orange dual energy blades
-        draw.line([(cx - 16, cy - 180), (cx + 16, cy + 180)], fill=(pr, pg, pb, 220), width=5)
-        draw.line([(cx + 16, cy - 180), (cx - 16, cy + 180)], fill=(sr, sg, sb, 190), width=4)
-        dia_pts = [(cx, cy - 32), (cx + 34, cy), (cx, cy + 32), (cx - 34, cy)]
-        draw.polygon(dia_pts, fill=(34, 20, 14, 245), outline=(pr, pg, pb, 240), width=3)
-        draw.ellipse([cx - 5, cy - 5, cx + 5, cy + 5], fill=(hr, hg, hb, 240))
-
-    elif style == "conference_minimal_v":
-        # UEFA Conference League: Electric green / turquoise modern neon light tube
-        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(pr, pg, pb, 210), width=4)
-        draw.line([(cx - 10, cy - 100), (cx - 10, cy + 100)], fill=(sr, sg, sb, 120), width=2)
-        draw.line([(cx + 10, cy - 100), (cx + 10, cy + 100)], fill=(sr, sg, sb, 120), width=2)
-        draw.rounded_rectangle([cx - 14, cy - 26, cx + 14, cy + 26], radius=12, fill=(14, 34, 24, 245), outline=(pr, pg, pb, 230), width=3)
-        draw.ellipse([cx - 4, cy - 4, cx + 4, cy + 4], fill=(sr, sg, sb, 240))
-
-    elif style == "pl_matchday_device":
-        # Premier League: Bold modern matchday device with cyan & magenta dual rails
-        draw.line([(cx - 12, cy - 180), (cx - 12, cy + 180)], fill=(pr, pg, pb, 220), width=4)
-        draw.line([(cx + 12, cy - 180), (cx + 12, cy + 180)], fill=(sr, sg, sb, 220), width=4)
-        draw.line([(cx - 24, cy - 30), (cx + 24, cy - 30)], fill=(pr, pg, pb, 240), width=4)
-        draw.line([(cx - 24, cy + 30), (cx + 24, cy + 30)], fill=(sr, sg, sb, 240), width=4)
-        draw.rounded_rectangle([cx - 18, cy - 18, cx + 18, cy + 18], radius=8, fill=(28, 14, 46, 245), outline=(hr, hg, hb, 220), width=3)
-
-    elif style == "laliga_minimal_v":
-        # La Liga: Vivid multi-accented Spanish spectrum stadium blade
-        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(255, 59, 48, 220), width=4)
-        draw.line([(cx - 8, cy - 110), (cx - 8, cy + 110)], fill=(255, 204, 0, 180), width=2)
-        draw.line([(cx + 8, cy - 110), (cx + 8, cy + 110)], fill=(255, 140, 0, 180), width=2)
-        dia_pts = [(cx, cy - 26), (cx + 22, cy), (cx, cy + 26), (cx - 22, cy)]
-        draw.polygon(dia_pts, fill=(26, 26, 34, 245), outline=(255, 204, 0, 230), width=3)
-
-    elif style == "seriea_vertical_beam":
-        # Serie A: Platinum & Azzurro metallic architectural vertical blade
-        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(hr, hg, hb, 210), width=4)
-        draw.line([(cx - 14, cy - 120), (cx - 14, cy + 120)], fill=(pr, pg, pb, 150), width=3)
-        draw.line([(cx + 14, cy - 120), (cx + 14, cy + 120)], fill=(pr, pg, pb, 150), width=3)
-        shield_pts = [(cx, cy - 30), (cx + 24, cy - 10), (cx + 18, cy + 24), (cx, cy + 34), (cx - 18, cy + 24), (cx - 24, cy - 10)]
-        draw.polygon(shield_pts, fill=(12, 24, 52, 245), outline=(hr, hg, hb, 230), width=3)
-
-    elif style == "bundesliga_slash_divider":
-        # Bundesliga: Dynamic angled red-accented carbon slash beam
-        draw.line([(cx - 24, cy - 180), (cx + 24, cy + 180)], fill=(pr, pg, pb, 230), width=5)
-        draw.line([(cx - 36, cy - 100), (cx + 12, cy + 100)], fill=(sr, sg, sb, 140), width=3)
-        draw.polygon([(cx - 18, cy - 24), (cx + 24, cy - 14), (cx + 18, cy + 24), (cx - 24, cy + 14)], fill=(28, 20, 22, 245), outline=(pr, pg, pb, 240), width=3)
-
-    elif style == "ligue1_minimal_device":
-        # Ligue 1: Precision electric lime vertical guide with crosshair ticks
-        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(pr, pg, pb, 210), width=4)
-        for tick_y in [cy - 90, cy, cy + 90]:
-            draw.line([(cx - 16, tick_y), (cx + 16, tick_y)], fill=(pr, pg, pb, 230), width=3)
-        draw.ellipse([cx - 8, cy - 8, cx + 8, cy + 8], fill=(16, 24, 40, 245), outline=(pr, pg, pb, 240), width=3)
-
-    elif style == "championship_cross_divider":
-        # English Championship: Steel blue & crimson dual vertical stadium floodlight beam
-        draw.line([(cx - 10, cy - 180), (cx - 10, cy + 180)], fill=(pr, pg, pb, 210), width=4)
-        draw.line([(cx + 10, cy - 180), (cx + 10, cy + 180)], fill=(sr, sg, sb, 210), width=4)
-        draw.line([(cx - 28, cy), (cx + 28, cy)], fill=(hr, hg, hb, 210), width=4)
-        draw.rectangle([cx - 14, cy - 14, cx + 14, cy + 14], fill=(20, 28, 45, 245), outline=(hr, hg, hb, 220), width=3)
-
-    elif style == "carabao_trophy_divider":
-        # English Carabao Cup: Silver metallic & crimson red vertical dual beam with angular cup chevron
-        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(hr, hg, hb, 220), width=4)
-        draw.line([(cx - 14, cy - 110), (cx - 14, cy + 110)], fill=(pr, pg, pb, 160), width=3)
-        draw.line([(cx + 14, cy - 110), (cx + 14, cy + 110)], fill=(pr, pg, pb, 160), width=3)
-        chev_pts = [(cx - 26, cy - 24), (cx, cy - 8), (cx + 26, cy - 24), (cx, cy + 32)]
-        draw.polygon(chev_pts, fill=(22, 28, 42, 245), outline=(pr, pg, pb, 240), width=3)
-
-    elif style == "worldcup_arc_divider":
-        # World Cup: Celestial golden disc with concentric planetary rings
-        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(pr, pg, pb, 200), width=4)
-        draw.ellipse([cx - 30, cy - 30, cx + 30, cy + 30], fill=(38, 16, 28, 245), outline=(pr, pg, pb, 240), width=3)
-        draw.ellipse([cx - 12, cy - 12, cx + 12, cy + 12], fill=(hr, hg, hb, 230))
-
+    if base is not None:
+        shadow_layer = Image.new("RGBA", base.size, (0, 0, 0, 0))
+        sdraw = ImageDraw.Draw(shadow_layer)
+        sdraw.line(lightning_tr_main, fill=(0, 0, 0, 200), width=10)
+        sdraw.line(lightning_tr_branch, fill=(0, 0, 0, 160), width=6)
+        sdraw.line(lightning_bl_main, fill=(0, 0, 0, 200), width=10)
+        sdraw.line(lightning_bl_branch, fill=(0, 0, 0, 160), width=6)
+        sdraw.text((tx + 6, ty + 8), text, font=vs_font, fill=(0, 0, 0, 220))
+        shadow_layer = shadow_layer.filter(ImageFilter.GaussianBlur(radius=8))
+        base.alpha_composite(shadow_layer)
     else:
-        # Neutral Fallback: Sleek minimalist ice-blue vertical line with center glowing node
-        draw.line([(cx, cy - 180), (cx, cy + 180)], fill=(pr, pg, pb, 200), width=4)
-        draw.rounded_rectangle([cx - 12, cy - 22, cx + 12, cy + 22], radius=10, fill=(20, 26, 38, 245), outline=(hr, hg, hb, 220), width=3)
-        draw.ellipse([cx - 4, cy - 4, cx + 4, cy + 4], fill=(hr, hg, hb, 240))
+        draw.line([(p[0] + 4, p[1] + 4) for p in lightning_tr_main], fill=(0, 0, 0, 150), width=8)
+        draw.line([(p[0] + 4, p[1] + 4) for p in lightning_bl_main], fill=(0, 0, 0, 150), width=8)
+        draw.text((tx + 4, ty + 4), text, font=vs_font, fill=(0, 0, 0, 180))
+
+    # Crisp white lightning
+    draw.line(lightning_tr_main, fill=(255, 255, 255, 255), width=6)
+    draw.line(lightning_tr_branch, fill=(240, 250, 255, 240), width=4)
+    draw.line(lightning_bl_main, fill=(255, 255, 255, 255), width=6)
+    draw.line(lightning_bl_branch, fill=(240, 250, 255, 240), width=4)
+
+    # Crisp white text
+    draw.text((tx, ty), text, font=vs_font, fill=(255, 255, 255, 255))
 
 
 # ==============================================================================
 # 7. Complete Event Card Renderer
 # ==============================================================================
-
-def draw_nations_league_header(
-    base: Image.Image,
-    comp_logo_img: Optional[Image.Image],
-    cx: int,
-    cy: int = 240
-):
-    """
-    Renders the official UEFA Nations League horizontal header lockup (flag ribbon on left, 'UEFA NATIONS LEAGUE' on right).
-    """
-    draw = ImageDraw.Draw(base)
-
-    if comp_logo_img:
-        lw, lh = comp_logo_img.size
-        # Crop top ribbon if vertical lockup
-        ribbon = comp_logo_img.crop((0, 0, lw, int(lh * 0.65)))
-        r_bbox = ribbon.getbbox()
-        if r_bbox:
-            ribbon = ribbon.crop(r_bbox)
-        rw, rh = ribbon.size
-        ratio = min(170 / rw, 210 / rh)
-        new_rw = int(rw * ratio)
-        new_rh = int(rh * ratio)
-        resized_ribbon = ribbon.resize((new_rw, new_rh), Image.Resampling.LANCZOS)
-
-        font_uefa = get_font(size=56, weight="extrabold", family="montserrat")
-        font_main = get_font(size=64, weight="black", family="montserrat")
-
-        # Total lockup width
-        text_w = 460
-        total_w = new_rw + 36 + text_w
-        start_x = cx - total_w // 2
-
-        # Draw ribbon
-        ribbon_y = cy - new_rh // 2
-        base.paste(resized_ribbon, (start_x, ribbon_y), resized_ribbon)
-
-        # Draw text
-        tx = start_x + new_rw + 36
-        draw.text((tx, cy - 88), "UEFA", fill=(255, 255, 255, 255), font=font_uefa)
-        draw.text((tx, cy - 24), "NATIONS", fill=(255, 255, 255, 255), font=font_main)
-        draw.text((tx, cy + 46), "LEAGUE", fill=(255, 255, 255, 255), font=font_main)
-    else:
-        font_uefa = get_font(size=56, weight="extrabold", family="montserrat")
-        font_main = get_font(size=64, weight="black", family="montserrat")
-        draw.text((cx - 180, cy - 88), "UEFA", fill=(255, 255, 255, 255), font=font_uefa)
-        draw.text((cx - 180, cy - 24), "NATIONS", fill=(255, 255, 255, 255), font=font_main)
-        draw.text((cx - 180, cy + 46), "LEAGUE", fill=(255, 255, 255, 255), font=font_main)
-
 
 def format_date_display(date_str: str) -> str:
     """Formats '2026-09-20' into 'SUNDAY, 20 SEP 2026'."""
@@ -947,14 +740,13 @@ def generate_event_card(
     height: int = 630
 ) -> str:
     """
-    Renders and saves the complete fixture event graphic using 2x supersampling.
+    Renders and saves the complete fixture event graphic using 2x supersampling (2400x1260 -> 1200x630 Lanczos).
     Hierarchy:
-    1. Competition logo
-    2. Competition name and round
-    3. Team A crest
-    4. Team B crest
-    5. Team names
-    6. Match date (centered footer, zero kickoff time or clock icons)
+    1. Competition logo & name/round lockup in header (top center)
+    2. Large prominent team cards (edge-to-edge flags or polished dark glass crest plates)
+    3. Dynamic energy 'vs' central divider
+    4. Bold team names below cards
+    5. Clean centered date footer plate
     """
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
@@ -978,100 +770,112 @@ def generate_event_card(
     draw2 = ImageDraw.Draw(img2)
 
     # --------------------------------------------------------------------------
-    # 1. Header: Competition Logo + Competition Name and Round
+    # 1. Header: Tournament Lockup (Logo + Title/Round or Centered Pill Badge)
     # --------------------------------------------------------------------------
+    header_cy = 160
     comp_logo_url = comp.get("logo_url")
     comp_logo_img = download_or_cache_competition_logo(comp_id, comp_logo_url)
 
-    if theme.competition_id == "nations-league":
-        draw_nations_league_header(img2, comp_logo_img, cx=w2 // 2, cy=240)
+    comp_title = (comp.get("name") or theme.name).upper()
+    round_title = (comp.get("round") or event.get("round", "")).upper()
+    if round_title.lower() in ["regular fixture", "regular", ""]:
+        round_title = ""
+
+    if comp_logo_img:
+        # Preprocess competition logo: crop transparent margins
+        comp_logo_proc = comp_logo_img.copy()
+        bbox_l = comp_logo_proc.getbbox()
+        if bbox_l:
+            comp_logo_proc = comp_logo_proc.crop(bbox_l)
+        lw, lh = comp_logo_proc.size
+        max_lh = 120
+        max_lw = 160
+        ratio = min(max_lw / lw, max_lh / lh)
+        nlw, nlh = max(1, int(lw * ratio)), max(1, int(lh * ratio))
+        resized_comp_logo = comp_logo_proc.resize((nlw, nlh), Image.Resampling.LANCZOS)
+
+        font_header_title = get_font(size=54, weight="black", family=theme.font_family)
+        font_header_round = get_font(size=34, weight="bold", family=theme.font_family)
+
+        bbox_t = draw2.textbbox((0, 0), comp_title, font=font_header_title)
+        tw = bbox_t[2] - bbox_t[0]
+        th = bbox_t[3] - bbox_t[1]
+
+        rw, rh = 0, 0
+        if round_title:
+            bbox_r = draw2.textbbox((0, 0), round_title, font=font_header_round)
+            rw = bbox_r[2] - bbox_r[0]
+            rh = bbox_r[3] - bbox_r[1]
+
+        # Ensure header fits comfortably
+        text_block_w = max(tw, rw)
+        total_header_w = nlw + 32 + text_block_w
+        f_title_size = 54
+        f_round_size = 34
+        while total_header_w > (w2 - 160) and f_title_size > 30:
+            f_title_size -= 2
+            f_round_size = max(24, int(f_title_size * 0.63))
+            font_header_title = get_font(size=f_title_size, weight="black", family=theme.font_family)
+            font_header_round = get_font(size=f_round_size, weight="bold", family=theme.font_family)
+            bbox_t = draw2.textbbox((0, 0), comp_title, font=font_header_title)
+            tw = bbox_t[2] - bbox_t[0]
+            th = bbox_t[3] - bbox_t[1]
+            if round_title:
+                bbox_r = draw2.textbbox((0, 0), round_title, font=font_header_round)
+                rw = bbox_r[2] - bbox_r[0]
+                rh = bbox_r[3] - bbox_r[1]
+            text_block_w = max(tw, rw)
+            total_header_w = nlw + 32 + text_block_w
+
+        start_x = (w2 - total_header_w) // 2
+
+        # Soft glowing background badge behind logo
+        logo_bg = Image.new("RGBA", (w2, h2), (0, 0, 0, 0))
+        lb_draw = ImageDraw.Draw(logo_bg)
+        lb_draw.ellipse([start_x - 16, header_cy - nlh // 2 - 16, start_x + nlw + 16, header_cy + nlh // 2 + 16], fill=(255, 255, 255, 75))
+        logo_bg = logo_bg.filter(ImageFilter.GaussianBlur(radius=16))
+        img2.alpha_composite(logo_bg)
+
+        # Paste logo
+        img2.paste(resized_comp_logo, (start_x, header_cy - nlh // 2), resized_comp_logo)
+
+        # Draw stacked text
+        text_x = start_x + nlw + 32
+        if round_title:
+            draw2.text((text_x, header_cy - th - 6), comp_title, fill=(255, 255, 255, 255), font=font_header_title)
+            draw2.text((text_x, header_cy + 10), round_title, fill=(theme.primary[0], theme.primary[1], theme.primary[2], 235), font=font_header_round)
+        else:
+            draw2.text((text_x, header_cy - th // 2), comp_title, fill=(255, 255, 255, 255), font=font_header_title)
+
     else:
-        comp_title = comp.get("name") or theme.name
-        round_title = comp.get("round") or event.get("round", "")
-        if round_title.lower() in ["regular fixture", "regular", ""]:
-            round_title = ""
-
-        header_text = f"{comp_title.upper()}  •  {round_title.upper()}" if round_title else comp_title.upper()
-
-        # Scale header font dynamically so long names never overflow
-        header_font_size = 50
-        header_font = get_font(header_font_size, weight="extrabold", family=theme.font_family)
-        bbox_h = draw2.textbbox((0, 0), header_text, font=header_font)
-        max_text_width = w2 - 500 if comp_logo_img else w2 - 360
-
-        while (bbox_h[2] - bbox_h[0]) > max_text_width and header_font_size > 30:
+        # Bold Typography Title Badge when logo is missing
+        header_text = f"{comp_title}  •  {round_title}" if round_title else comp_title
+        header_font_size = 56
+        header_font = get_font(size=header_font_size, weight="black", family=theme.font_family)
+        bbox_t = draw2.textbbox((0, 0), header_text, font=header_font)
+        while (bbox_t[2] - bbox_t[0]) > (w2 - 280) and header_font_size > 30:
             header_font_size -= 2
-            header_font = get_font(header_font_size, weight="extrabold", family=theme.font_family)
-            bbox_h = draw2.textbbox((0, 0), header_text, font=header_font)
+            header_font = get_font(size=header_font_size, weight="black", family=theme.font_family)
+            bbox_t = draw2.textbbox((0, 0), header_text, font=header_font)
 
-        hw = bbox_h[2] - bbox_h[0]
-        hh = bbox_h[3] - bbox_h[1]
+        tw = bbox_t[2] - bbox_t[0]
+        th = bbox_t[3] - bbox_t[1]
 
-        # Calculate logo dimensions if present
-        logo_w, logo_h = 0, 0
-        resized_comp_logo = None
-        if comp_logo_img:
-            max_lh = 54
-            max_lw = 72
-            lw, lh = comp_logo_img.size
-            ratio = min(max_lw / lw, max_lh / lh)
-            logo_w = max(1, int(lw * ratio))
-            logo_h = max(1, int(lh * ratio))
-            resized_comp_logo = comp_logo_img.resize((logo_w, logo_h), Image.Resampling.LANCZOS)
+        pill_w = tw + 100
+        pill_h = th + 44
+        pill_x = (w2 - pill_w) // 2
+        pill_y = header_cy - pill_h // 2
 
-        # Determine pill dimensions
-        if resized_comp_logo:
-            pill_content_w = logo_w + 20 + hw
-            pill_w = pill_content_w + 80
-            pill_h = max(hh + 44, logo_h + 36, 88)
-        else:
-            pill_content_w = hw
-            pill_w = hw + 90
-            pill_h = hh + 44
-
-        pill_x0 = (w2 - pill_w) // 2
-        pill_y0 = 55
-
-        # Outer glow
-        draw2.rounded_rectangle(
-            [pill_x0 - 4, pill_y0 - 4, pill_x0 + pill_w + 4, pill_y0 + pill_h + 4],
-            radius=pill_h // 2 + 4,
-            fill=(theme.primary[0], theme.primary[1], theme.primary[2], 30)
-        )
-        # Header badge pill
-        draw2.rounded_rectangle(
-            [pill_x0, pill_y0, pill_x0 + pill_w, pill_y0 + pill_h],
-            radius=pill_h // 2,
-            fill=theme.panel_color,
-            outline=theme.panel_border,
-            width=4
-        )
-
-        # Render Logo + Text in header
-        if resized_comp_logo:
-            logo_x = pill_x0 + 38
-            logo_y = pill_y0 + (pill_h - logo_h) // 2
-            img2.paste(resized_comp_logo, (logo_x, logo_y), resized_comp_logo)
-
-            text_x = logo_x + logo_w + 18
-            text_y = pill_y0 + (pill_h - hh) // 2 - 4
-            draw2.text((text_x, text_y), header_text, fill=theme.text_primary, font=header_font)
-        else:
-            text_x = pill_x0 + (pill_w - hw) // 2
-            text_y = pill_y0 + (pill_h - hh) // 2 - 4
-            draw2.text((text_x, text_y), header_text, fill=theme.text_primary, font=header_font)
+        draw2.rounded_rectangle([pill_x - 4, pill_y - 4, pill_x + pill_w + 4, pill_y + pill_h + 4], radius=pill_h // 2 + 4, fill=(theme.primary[0], theme.primary[1], theme.primary[2], 40))
+        draw2.rounded_rectangle([pill_x, pill_y, pill_x + pill_w, pill_y + pill_h], radius=pill_h // 2, fill=theme.panel_color, outline=theme.panel_border, width=4)
+        draw2.text((pill_x + 50, pill_y + (pill_h - th) // 2 - 4), header_text, fill=(255, 255, 255), font=header_font)
 
     # --------------------------------------------------------------------------
-    # 2. Team Crest Cards & Logos
+    # 2. Team Cards (Left & Right)
     # --------------------------------------------------------------------------
-    if theme.crest_container_style == "flag_rounded_card":
-        left_cx = w2 // 4 + 60
-        right_cx = w2 * 3 // 4 - 60
-        center_y = 780
-    else:
-        left_cx = w2 // 4 + 30
-        right_cx = w2 * 3 // 4 - 30
-        center_y = h2 // 2 - 35
+    left_cx = 640
+    right_cx = 1760
+    card_cy = 580
 
     home_logo_url = home.get("logo_url") or home.get("logo_resolution", {}).get("url")
     away_logo_url = away.get("logo_url") or away.get("logo_resolution", {}).get("url")
@@ -1079,83 +883,84 @@ def generate_event_card(
     home_img = download_or_cache_logo(home_logo_url, home.get("name", "Home"))
     away_img = download_or_cache_logo(away_logo_url, away.get("name", "Away"))
 
-    draw_themed_crest_plate(img2, home_img, home.get("name", "Home"), left_cx, center_y, theme, card_size=420)
-    draw_themed_crest_plate(img2, away_img, away.get("name", "Away"), right_cx, center_y, theme, card_size=420)
+    draw_themed_crest_plate(img2, home_img, home.get("name", "Home"), left_cx, card_cy, theme, card_size=420)
+    draw_themed_crest_plate(img2, away_img, away.get("name", "Away"), right_cx, card_cy, theme, card_size=420)
 
     # --------------------------------------------------------------------------
-    # 3. Pure Decorative Central Divider (Zero Kickoff Time)
+    # 3. Dynamic Center 'VS' Divider
     # --------------------------------------------------------------------------
     draw_themed_center_divider(
         draw2,
         cx=w2 // 2,
-        cy=center_y,
+        cy=card_cy,
         theme=theme,
         base=img2
     )
 
     # --------------------------------------------------------------------------
-    # 4. Fitted Team Names Below Crests
+    # 4. Fitted Team Names Below Cards
     # --------------------------------------------------------------------------
-    if theme.crest_container_style != "flag_rounded_card":
-        team_name_max_width = 540
+    team_name_max_width = 660
+    name_top_y = card_cy + 210 + 28  # 818
 
-        # Home team name
-        h_lines, h_font, _ = fit_team_name_lines(home.get("name", "Home Team"), team_name_max_width, initial_size=62, min_size=32, family=theme.font_family)
-        h_top_y = center_y + 240
-        for line in h_lines:
-            b = draw2.textbbox((0, 0), line, font=h_font)
-            lw = b[2] - b[0]
-            draw2.text((left_cx - lw // 2, h_top_y), line, fill=theme.text_primary, font=h_font)
-            h_top_y += (b[3] - b[1]) + 10
+    # Home team name
+    h_lines, h_font, _ = fit_team_name_lines(home.get("name", "Home Team"), team_name_max_width, initial_size=62, min_size=32, family=theme.font_family)
+    h_curr_y = name_top_y
+    for line in h_lines:
+        b = draw2.textbbox((0, 0), line, font=h_font)
+        lw = b[2] - b[0]
+        lh = b[3] - b[1]
+        draw2.text((left_cx - lw // 2, h_curr_y), line, fill=(255, 255, 255, 255), font=h_font)
+        h_curr_y += lh + 10
 
-        # Away team name
-        a_lines, a_font, _ = fit_team_name_lines(away.get("name", "Away Team"), team_name_max_width, initial_size=62, min_size=32, family=theme.font_family)
-        a_top_y = center_y + 240
-        for line in a_lines:
-            b = draw2.textbbox((0, 0), line, font=a_font)
-            lw = b[2] - b[0]
-            draw2.text((right_cx - lw // 2, a_top_y), line, fill=theme.text_primary, font=a_font)
-            a_top_y += (b[3] - b[1]) + 10
+    # Away team name
+    a_lines, a_font, _ = fit_team_name_lines(away.get("name", "Away Team"), team_name_max_width, initial_size=62, min_size=32, family=theme.font_family)
+    a_curr_y = name_top_y
+    for line in a_lines:
+        b = draw2.textbbox((0, 0), line, font=a_font)
+        lw = b[2] - b[0]
+        lh = b[3] - b[1]
+        draw2.text((right_cx - lw // 2, a_curr_y), line, fill=(255, 255, 255, 255), font=a_font)
+        a_curr_y += lh + 10
 
     # --------------------------------------------------------------------------
-    # 5. Centered Footer: Match Date Only (Vector Calendar Icon, No Clock / UTC Time)
+    # 5. Centered Footer: Match Date (Vector Calendar Icon)
     # --------------------------------------------------------------------------
-    if theme.crest_container_style != "flag_rounded_card":
-        display_date = event.get("display_date") or event.get("match_date_pkt") or event.get("match_date", "")
-        date_str = format_date_display(display_date)
+    display_date = event.get("display_date") or event.get("match_date_pkt") or event.get("match_date", "")
+    date_str = format_date_display(display_date)
 
-        footer_font = get_font(38, weight="bold", family=theme.font_family)
-        bbox_date = draw2.textbbox((0, 0), date_str, font=footer_font)
-        date_w = bbox_date[2] - bbox_date[0]
-        date_h = bbox_date[3] - bbox_date[1]
+    footer_font = get_font(38, weight="bold", family=theme.font_family)
+    bbox_date = draw2.textbbox((0, 0), date_str, font=footer_font)
+    date_w = bbox_date[2] - bbox_date[0]
+    date_h = bbox_date[3] - bbox_date[1]
 
-        cal_icon_size = 38
-        cal_spacing = 20
-        footer_content_w = cal_icon_size + cal_spacing + date_w
+    cal_icon_size = 38
+    cal_spacing = 20
+    footer_content_w = cal_icon_size + cal_spacing + date_w
 
-        footer_w = max(680, footer_content_w + 110)
-        footer_h = 100
-        footer_y = h2 - 170
-        fx0 = (w2 - footer_w) // 2
+    footer_w = max(680, footer_content_w + 110)
+    footer_h = 100
+    footer_y = h2 - 150  # 1110
+    fx0 = (w2 - footer_w) // 2
 
-        # Outer subtle footer shadow & plate
-        draw2.rounded_rectangle(
-            [fx0 - 4, footer_y - 4, fx0 + footer_w + 4, footer_y + footer_h + 4],
-            radius=28,
-            fill=(0, 0, 0, 100)
-        )
-        draw2.rounded_rectangle(
-            [fx0, footer_y, fx0 + footer_w, footer_y + footer_h],
-            radius=26,
-            fill=theme.panel_color,
-            outline=theme.panel_border,
-            width=4
-        )
+    # Outer subtle footer shadow & plate
+    draw2.rounded_rectangle(
+        [fx0 - 4, footer_y - 4, fx0 + footer_w + 4, footer_y + footer_h + 4],
+        radius=28,
+        fill=(0, 0, 0, 110)
+    )
+    draw2.rounded_rectangle(
+        [fx0, footer_y, fx0 + footer_w, footer_y + footer_h],
+        radius=26,
+        fill=theme.panel_color,
+        outline=theme.panel_border,
+        width=4
+    )
 
-        # Centered Vector calendar + Date inside footer
-        content_start_x = (w2 - footer_content_w) // 2
-        draw_vector_calendar_icon(draw2, content_start_x, footer_y + 31, size=cal_icon_size, color=theme.highlight)
-        draw2.text((content_start_x + cal_icon_size + cal_spacing, footer_y + 26), date_str, fill=theme.text_primary, font=footer_font)
+    # Centered Vector calendar + Date inside footer
+    content_start_x = (w2 - footer_content_w) // 2
+    draw_vector_calendar_icon(draw2, content_start_x, footer_y + 31, size=cal_icon_size, color=theme.highlight)
+    draw2.text((content_start_x + cal_icon_size + cal_spacing, footer_y + 26), date_str, fill=(255, 255, 255), font=footer_font)
 
     # --------------------------------------------------------------------------
     # 6. Downsample from 2400x1260 to 1200x630 using Lanczos

@@ -123,8 +123,27 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         panel_color=(24, 26, 34, 225),
         panel_border=(255, 75, 55, 175),
         pattern="laliga_radial_spectrum",
-        center_style="laliga_minimal_v",
-        font_family="inter",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="glass_plate"
+    ),
+
+    # 5b. Spanish La Liga 2: Deep slate/charcoal base, coral-red & golden motion spectrum
+    "la-liga-2": CompetitionTheme(
+        competition_id="la-liga-2",
+        name="Spanish La Liga 2",
+        background_top=(18, 16, 26),
+        background_bottom=(12, 10, 18),
+        primary=(255, 75, 55),
+        secondary=(255, 190, 30),
+        highlight=(255, 150, 50),
+        text_primary=(255, 255, 255),
+        text_secondary=(240, 215, 195),
+        panel_color=(26, 22, 34, 225),
+        panel_border=(255, 75, 55, 180),
+        pattern="laliga_radial_spectrum",
+        center_style="nations_league_vs",
+        font_family="montserrat",
         crest_container_style="glass_plate"
     ),
 

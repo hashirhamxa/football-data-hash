@@ -7,10 +7,119 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-09-28T15:42:45.617599+00:00",
+  "generated_at": "2026-09-28T23:52:36.264869+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-09-28",
-  "target_day_name": "Monday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-09-29",
+  "target_day_name": "Tuesday",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "international-friendlies-2026-09-29-australia-brazil",
+      "competition": {
+        "id": "international-friendlies",
+        "name": "International Friendlies",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/53.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-29",
+      "match_date": "2026-09-29",
+      "match_date_utc": "2026-09-29",
+      "match_date_pkt": "2026-09-29",
+      "start_time_utc": "2026-09-29T10:00:00Z",
+      "start_time_pkt": "2026-09-29T15:00:00+05:00",
+      "start_timestamp": 1790676000,
+      "display_date": "2026-09-29",
+      "display_time": "03:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Australia",
+        "slug": "australia",
+        "espn_id": "628",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Australia",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Brazil",
+        "slug": "brazil",
+        "espn_id": "205",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Brazil",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
+      },
+      "last_updated": "2026-09-28T23:44:17.652397+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-09-29-australia-brazil.png"
+    },
+    {
+      "event_id": "international-friendlies-2026-09-29-russia-iran",
+      "competition": {
+        "id": "international-friendlies",
+        "name": "International Friendlies",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/53.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-09-29",
+      "match_date": "2026-09-29",
+      "match_date_utc": "2026-09-29",
+      "match_date_pkt": "2026-09-29",
+      "start_time_utc": "2026-09-29T16:00:00Z",
+      "start_time_pkt": "2026-09-29T21:00:00+05:00",
+      "start_timestamp": 1790697600,
+      "display_date": "2026-09-29",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Russia",
+        "slug": "russia",
+        "espn_id": "454",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/rus.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Russia",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Iran",
+        "slug": "iran",
+        "espn_id": "469",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Iran",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
+      },
+      "last_updated": "2026-09-28T23:44:17.652397+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-09-29-russia-iran.png"
+    }
+  ]
 }

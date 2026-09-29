@@ -1236,6 +1236,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "uefa-u21-qualifying-preview",
+            "competition": {
+                "id": "uefa-u21-qualifying",
+                "name": "UEFA European U-21 Championship Qualifiers",
+                "round": "Qualifying Round",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2284.png"
+            },
+            "home_team": {"name": "England U21", "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"},
+            "away_team": {"name": "Germany U21", "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png"},
+            "match_date": "2026-10-10",
+            "match_date_pkt": "2026-10-11",
+            "display_date": "2026-10-11",
+            "display_time": "12:00 AM",
+            "start_time_utc": "2026-10-10T19:00:00Z",
+            "start_time_pkt": "2026-10-11T00:00:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

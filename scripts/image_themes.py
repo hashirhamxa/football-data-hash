@@ -394,7 +394,26 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="flag_rounded_card"
     ),
 
-    # 19. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 19. UEFA European U-21 Championship Qualifiers: Deep European midnight blue, electric UEFA cyan & radiant gold, energetic national flag cards
+    "uefa-u21-qualifying": CompetitionTheme(
+        competition_id="uefa-u21-qualifying",
+        name="UEFA European U-21 Championship Qualifiers",
+        background_top=(16, 28, 64),
+        background_bottom=(8, 14, 38),
+        primary=(0, 195, 255),
+        secondary=(255, 205, 30),
+        highlight=(230, 250, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(185, 215, 245),
+        panel_color=(18, 28, 56, 225),
+        panel_border=(0, 195, 255, 180),
+        pattern="nations_league_mosaic",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="flag_rounded_card"
+    ),
+
+    # 20. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

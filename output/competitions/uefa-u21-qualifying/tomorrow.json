@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-09-30T22:47:59.299961+00:00",
+  "generated_at": "2026-10-01T22:59:48.539223+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-10-02",
-  "target_day_name": "Friday",
-  "total_events": 5,
+  "target_date_pkt": "2026-10-03",
+  "target_day_name": "Saturday",
+  "total_events": 1,
   "events": [
     {
-      "event_id": "uefa-u21-qualifying-2026-10-02-austria-u21-denmark-u21",
+      "event_id": "uefa-u21-qualifying-2026-10-03-france-u21-luxembourg-u21",
       "competition": {
         "id": "uefa-u21-qualifying",
         "name": "UEFA European U-21 Championship Qualifiers",
@@ -24,38 +24,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2284.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-02",
-      "match_date": "2026-10-02",
-      "match_date_utc": "2026-10-02",
-      "match_date_pkt": "2026-10-02",
-      "start_time_utc": "2026-10-02T16:00:00Z",
-      "start_time_pkt": "2026-10-02T21:00:00+05:00",
-      "start_timestamp": 1790956800,
-      "display_date": "2026-10-02",
-      "display_time": "09:00 PM",
+      "source_date": "2026-10-03",
+      "match_date": "2026-10-03",
+      "match_date_utc": "2026-10-03",
+      "match_date_pkt": "2026-10-03",
+      "start_time_utc": "2026-10-03T17:00:00Z",
+      "start_time_pkt": "2026-10-03T22:00:00+05:00",
+      "start_timestamp": 1791046800,
+      "display_date": "2026-10-03",
+      "display_time": "10:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Austria U21",
-        "slug": "austria-u21",
-        "espn_id": "19350",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+        "name": "France U21",
+        "slug": "france-u21",
+        "espn_id": "11676",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Austria U21",
+          "matched_name": "France U21",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Denmark U21",
-        "slug": "denmark-u21",
-        "espn_id": "4366",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/den.png",
+        "name": "Luxembourg U21",
+        "slug": "luxembourg-u21",
+        "espn_id": "20932",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/lux.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Denmark U21",
+          "matched_name": "Luxembourg U21",
           "is_fallback": false
         }
       },
@@ -64,224 +64,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-09-30T22:46:08.223049+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-02-austria-u21-denmark-u21.png"
-    },
-    {
-      "event_id": "uefa-u21-qualifying-2026-10-02-slovenia-u21-netherlands-u21",
-      "competition": {
-        "id": "uefa-u21-qualifying",
-        "name": "UEFA European U-21 Championship Qualifiers",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2284.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-02",
-      "match_date": "2026-10-02",
-      "match_date_utc": "2026-10-02",
-      "match_date_pkt": "2026-10-02",
-      "start_time_utc": "2026-10-02T16:00:00Z",
-      "start_time_pkt": "2026-10-02T21:00:00+05:00",
-      "start_timestamp": 1790956800,
-      "display_date": "2026-10-02",
-      "display_time": "09:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Slovenia U21",
-        "slug": "slovenia-u21",
-        "espn_id": "20844",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/svn.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Slovenia U21",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Netherlands U21",
-        "slug": "netherlands-u21",
-        "espn_id": "11627",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Netherlands U21",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
-      },
-      "last_updated": "2026-09-30T22:46:08.223049+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-02-slovenia-u21-netherlands-u21.png"
-    },
-    {
-      "event_id": "uefa-u21-qualifying-2026-10-02-ukraine-u21-croatia-u21",
-      "competition": {
-        "id": "uefa-u21-qualifying",
-        "name": "UEFA European U-21 Championship Qualifiers",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2284.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-02",
-      "match_date": "2026-10-02",
-      "match_date_utc": "2026-10-02",
-      "match_date_pkt": "2026-10-02",
-      "start_time_utc": "2026-10-02T16:00:00Z",
-      "start_time_pkt": "2026-10-02T21:00:00+05:00",
-      "start_timestamp": 1790956800,
-      "display_date": "2026-10-02",
-      "display_time": "09:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Ukraine U21",
-        "slug": "ukraine-u21",
-        "espn_id": "4207",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ukr.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Ukraine U21",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Croatia U21",
-        "slug": "croatia-u21",
-        "espn_id": "19348",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Croatia U21",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
-      },
-      "last_updated": "2026-09-30T22:46:08.223049+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-02-ukraine-u21-croatia-u21.png"
-    },
-    {
-      "event_id": "uefa-u21-qualifying-2026-10-02-andorra-u21-moldova-u21",
-      "competition": {
-        "id": "uefa-u21-qualifying",
-        "name": "UEFA European U-21 Championship Qualifiers",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2284.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-02",
-      "match_date": "2026-10-02",
-      "match_date_utc": "2026-10-02",
-      "match_date_pkt": "2026-10-02",
-      "start_time_utc": "2026-10-02T17:30:00Z",
-      "start_time_pkt": "2026-10-02T22:30:00+05:00",
-      "start_timestamp": 1790962200,
-      "display_date": "2026-10-02",
-      "display_time": "10:30 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Andorra U21",
-        "slug": "andorra-u21",
-        "espn_id": "20922",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/and.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Andorra U21",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Moldova U21",
-        "slug": "moldova-u21",
-        "espn_id": "20935",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/mda.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Moldova U21",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
-      },
-      "last_updated": "2026-09-30T22:46:08.223049+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-02-andorra-u21-moldova-u21.png"
-    },
-    {
-      "event_id": "uefa-u21-qualifying-2026-10-02-england-u21-slovakia-u21",
-      "competition": {
-        "id": "uefa-u21-qualifying",
-        "name": "UEFA European U-21 Championship Qualifiers",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2284.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-02",
-      "match_date": "2026-10-02",
-      "match_date_utc": "2026-10-02",
-      "match_date_pkt": "2026-10-02",
-      "start_time_utc": "2026-10-02T18:45:00Z",
-      "start_time_pkt": "2026-10-02T23:45:00+05:00",
-      "start_timestamp": 1790966700,
-      "display_date": "2026-10-02",
-      "display_time": "11:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "England U21",
-        "slug": "england-u21",
-        "espn_id": "4150",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "England U21",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Slovakia U21",
-        "slug": "slovakia-u21",
-        "espn_id": "18415",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/18415.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Slovakia U21",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
-      },
-      "last_updated": "2026-09-30T22:46:08.223049+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-02-england-u21-slovakia-u21.png"
+      "last_updated": "2026-10-01T22:58:09.169261+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-03-france-u21-luxembourg-u21.png"
     }
   ]
 }

@@ -4,8 +4,8 @@
   "timezone_label": "PKT (UTC+05:00)",
   "target_date_pkt": "2026-10-04",
   "target_day_name": "Sunday",
-  "generated_at": "2026-10-03T22:13:54.311332+00:00",
-  "total_events": 19,
+  "generated_at": "2026-10-03T22:34:13.580968+00:00",
+  "total_events": 23,
   "events": [
     {
       "event_id": "international-friendlies-2026-10-04-argentina-burkina-faso",
@@ -58,7 +58,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-04-argentina-burkina-faso.png"
     },
     {
@@ -112,7 +112,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-04-belize-french-guiana.png"
     },
     {
@@ -166,8 +166,116 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-04-united-states-mexico.png"
+    },
+    {
+      "event_id": "liga-f-2026-10-04-cd-tenerife-dux-logrono",
+      "competition": {
+        "id": "liga-f",
+        "name": "Spanish Liga F",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-04",
+      "match_date": "2026-10-04",
+      "match_date_utc": "2026-10-04",
+      "match_date_pkt": "2026-10-04",
+      "start_time_utc": "2026-10-04T10:00:00Z",
+      "start_time_pkt": "2026-10-04T15:00:00+05:00",
+      "start_timestamp": 1791108000,
+      "display_date": "2026-10-04",
+      "display_time": "03:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "CD Tenerife",
+        "slug": "cd-tenerife",
+        "espn_id": "131393",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131393.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "CD Tenerife",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Dux Logroño",
+        "slug": "dux-logrono",
+        "espn_id": "21175",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21175.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Dux Logroño",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
+      },
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-04-cd-tenerife-dux-logrono.png"
+    },
+    {
+      "event_id": "liga-f-2026-10-04-granada-eibar",
+      "competition": {
+        "id": "liga-f",
+        "name": "Spanish Liga F",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-04",
+      "match_date": "2026-10-04",
+      "match_date_utc": "2026-10-04",
+      "match_date_pkt": "2026-10-04",
+      "start_time_utc": "2026-10-04T10:00:00Z",
+      "start_time_pkt": "2026-10-04T15:00:00+05:00",
+      "start_timestamp": 1791108000,
+      "display_date": "2026-10-04",
+      "display_time": "03:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Granada",
+        "slug": "granada",
+        "espn_id": "21140",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21140.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Granada",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Eibar",
+        "slug": "eibar",
+        "espn_id": "21376",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21376.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Eibar",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
+      },
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-04-granada-eibar.png"
     },
     {
       "event_id": "la-liga-2-2026-10-04-real-sociedad-ii-granada",
@@ -220,7 +328,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-04-real-sociedad-ii-granada.png"
     },
     {
@@ -274,7 +382,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-04-comoros-senegal.png"
     },
     {
@@ -328,7 +436,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-azerbaijan-lithuania.png"
     },
     {
@@ -382,7 +490,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-04-kyrgyz-republic-lebanon.png"
     },
     {
@@ -436,7 +544,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-04-sporting-gijon-rc-celta-fortuna.png"
     },
     {
@@ -490,7 +598,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-kosovo-austria.png"
     },
     {
@@ -544,7 +652,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-malta-andorra.png"
     },
     {
@@ -598,7 +706,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-04-castellon-ceuta.png"
     },
     {
@@ -652,8 +760,116 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-04-las-palmas-real-valladolid.png"
+    },
+    {
+      "event_id": "liga-f-2026-10-04-barcelona-real-madrid",
+      "competition": {
+        "id": "liga-f",
+        "name": "Spanish Liga F",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-04",
+      "match_date": "2026-10-04",
+      "match_date_utc": "2026-10-04",
+      "match_date_pkt": "2026-10-04",
+      "start_time_utc": "2026-10-04T17:00:00Z",
+      "start_time_pkt": "2026-10-04T22:00:00+05:00",
+      "start_timestamp": 1791133200,
+      "display_date": "2026-10-04",
+      "display_time": "10:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "espn_id": "20091",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20091.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Barcelona",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Real Madrid",
+        "slug": "real-madrid",
+        "espn_id": "21128",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Real Madrid",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
+      },
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-04-barcelona-real-madrid.png"
+    },
+    {
+      "event_id": "liga-f-2026-10-04-valencia-real-sociedad",
+      "competition": {
+        "id": "liga-f",
+        "name": "Spanish Liga F",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-04",
+      "match_date": "2026-10-04",
+      "match_date_utc": "2026-10-04",
+      "match_date_pkt": "2026-10-04",
+      "start_time_utc": "2026-10-04T17:30:00Z",
+      "start_time_pkt": "2026-10-04T22:30:00+05:00",
+      "start_timestamp": 1791135000,
+      "display_date": "2026-10-04",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Valencia",
+        "slug": "valencia",
+        "espn_id": "21374",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21374.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Valencia",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Real Sociedad",
+        "slug": "real-sociedad",
+        "espn_id": "21428",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21428.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Real Sociedad",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
+      },
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-04-valencia-real-sociedad.png"
     },
     {
       "event_id": "international-friendlies-2026-10-04-egypt-south-africa",
@@ -706,7 +922,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-04-egypt-south-africa.png"
     },
     {
@@ -760,7 +976,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-04-morocco-mali.png"
     },
     {
@@ -814,7 +1030,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-greece-germany.png"
     },
     {
@@ -868,7 +1084,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-netherlands-serbia.png"
     },
     {
@@ -922,7 +1138,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-portugal-norway.png"
     },
     {
@@ -976,7 +1192,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-republic-of-ireland-israel.png"
     },
     {
@@ -1030,7 +1246,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-wales-denmark.png"
     }
   ]

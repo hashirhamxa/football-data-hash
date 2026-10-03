@@ -470,7 +470,26 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="flag_rounded_card"
     ),
 
-    # 23. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 23. Spanish Liga F: Deep violet & midnight slate base, Spanish coral-magenta & golden radial spectrum, modern glass crest plates
+    "liga-f": CompetitionTheme(
+        competition_id="liga-f",
+        name="Spanish Liga F",
+        background_top=(24, 12, 36),
+        background_bottom=(12, 10, 22),
+        primary=(255, 45, 85),
+        secondary=(255, 195, 30),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 215, 230),
+        panel_color=(28, 18, 38, 225),
+        panel_border=(255, 45, 85, 180),
+        pattern="laliga_radial_spectrum",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="glass_plate"
+    ),
+
+    # 24. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

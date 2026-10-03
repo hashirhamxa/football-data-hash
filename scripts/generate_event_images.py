@@ -1272,6 +1272,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "liga-f-preview",
+            "competition": {
+                "id": "liga-f",
+                "name": "Spanish Liga F",
+                "round": "Jornada 5",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+            },
+            "home_team": {"name": "Barcelona", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20091.png"},
+            "away_team": {"name": "Real Madrid", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png"},
+            "match_date": "2026-10-04",
+            "match_date_pkt": "2026-10-04",
+            "display_date": "2026-10-04",
+            "display_time": "10:00 PM",
+            "start_time_utc": "2026-10-04T17:00:00Z",
+            "start_time_pkt": "2026-10-04T22:00:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

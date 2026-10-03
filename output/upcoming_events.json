@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "generated_at": "2026-10-03T22:09:34.229958+00:00",
+  "generated_at": "2026-10-03T22:29:15.146918+00:00",
   "total_events": 250,
   "date_range": {
     "start_date": "2026-10-03",
@@ -84,7 +84,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-04-argentina-burkina-faso.png"
     },
     {
@@ -138,7 +138,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-04-belize-french-guiana.png"
     },
     {
@@ -192,8 +192,116 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-04-united-states-mexico.png"
+    },
+    {
+      "event_id": "liga-f-2026-10-04-cd-tenerife-dux-logrono",
+      "competition": {
+        "id": "liga-f",
+        "name": "Spanish Liga F",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-04",
+      "match_date": "2026-10-04",
+      "match_date_utc": "2026-10-04",
+      "match_date_pkt": "2026-10-04",
+      "start_time_utc": "2026-10-04T10:00:00Z",
+      "start_time_pkt": "2026-10-04T15:00:00+05:00",
+      "start_timestamp": 1791108000,
+      "display_date": "2026-10-04",
+      "display_time": "03:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "CD Tenerife",
+        "slug": "cd-tenerife",
+        "espn_id": "131393",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131393.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "CD Tenerife",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Dux Logroño",
+        "slug": "dux-logrono",
+        "espn_id": "21175",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21175.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Dux Logroño",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
+      },
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-04-cd-tenerife-dux-logrono.png"
+    },
+    {
+      "event_id": "liga-f-2026-10-04-granada-eibar",
+      "competition": {
+        "id": "liga-f",
+        "name": "Spanish Liga F",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-04",
+      "match_date": "2026-10-04",
+      "match_date_utc": "2026-10-04",
+      "match_date_pkt": "2026-10-04",
+      "start_time_utc": "2026-10-04T10:00:00Z",
+      "start_time_pkt": "2026-10-04T15:00:00+05:00",
+      "start_timestamp": 1791108000,
+      "display_date": "2026-10-04",
+      "display_time": "03:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Granada",
+        "slug": "granada",
+        "espn_id": "21140",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21140.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Granada",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Eibar",
+        "slug": "eibar",
+        "espn_id": "21376",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21376.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Eibar",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
+      },
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-04-granada-eibar.png"
     },
     {
       "event_id": "la-liga-2-2026-10-04-real-sociedad-ii-granada",
@@ -246,7 +354,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-04-real-sociedad-ii-granada.png"
     },
     {
@@ -300,7 +408,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-04-comoros-senegal.png"
     },
     {
@@ -354,7 +462,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-azerbaijan-lithuania.png"
     },
     {
@@ -408,7 +516,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-04-kyrgyz-republic-lebanon.png"
     },
     {
@@ -462,7 +570,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-04-sporting-gijon-rc-celta-fortuna.png"
     },
     {
@@ -516,7 +624,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-kosovo-austria.png"
     },
     {
@@ -570,7 +678,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-malta-andorra.png"
     },
     {
@@ -624,7 +732,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-04-castellon-ceuta.png"
     },
     {
@@ -678,8 +786,116 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-04-las-palmas-real-valladolid.png"
+    },
+    {
+      "event_id": "liga-f-2026-10-04-barcelona-real-madrid",
+      "competition": {
+        "id": "liga-f",
+        "name": "Spanish Liga F",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-04",
+      "match_date": "2026-10-04",
+      "match_date_utc": "2026-10-04",
+      "match_date_pkt": "2026-10-04",
+      "start_time_utc": "2026-10-04T17:00:00Z",
+      "start_time_pkt": "2026-10-04T22:00:00+05:00",
+      "start_timestamp": 1791133200,
+      "display_date": "2026-10-04",
+      "display_time": "10:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "espn_id": "20091",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20091.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Barcelona",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Real Madrid",
+        "slug": "real-madrid",
+        "espn_id": "21128",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Real Madrid",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
+      },
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-04-barcelona-real-madrid.png"
+    },
+    {
+      "event_id": "liga-f-2026-10-04-valencia-real-sociedad",
+      "competition": {
+        "id": "liga-f",
+        "name": "Spanish Liga F",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-04",
+      "match_date": "2026-10-04",
+      "match_date_utc": "2026-10-04",
+      "match_date_pkt": "2026-10-04",
+      "start_time_utc": "2026-10-04T17:30:00Z",
+      "start_time_pkt": "2026-10-04T22:30:00+05:00",
+      "start_timestamp": 1791135000,
+      "display_date": "2026-10-04",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Valencia",
+        "slug": "valencia",
+        "espn_id": "21374",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21374.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Valencia",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Real Sociedad",
+        "slug": "real-sociedad",
+        "espn_id": "21428",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21428.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Real Sociedad",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
+      },
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-04-valencia-real-sociedad.png"
     },
     {
       "event_id": "international-friendlies-2026-10-04-egypt-south-africa",
@@ -732,7 +948,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-04-egypt-south-africa.png"
     },
     {
@@ -786,7 +1002,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-04-morocco-mali.png"
     },
     {
@@ -840,7 +1056,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-greece-germany.png"
     },
     {
@@ -894,7 +1110,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-netherlands-serbia.png"
     },
     {
@@ -948,7 +1164,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-portugal-norway.png"
     },
     {
@@ -1002,7 +1218,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-republic-of-ireland-israel.png"
     },
     {
@@ -1056,7 +1272,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-04-wales-denmark.png"
     },
     {
@@ -1110,7 +1326,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-04-guyana-dominica.png"
     },
     {
@@ -1164,7 +1380,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-04-girona-mallorca.png"
     },
     {
@@ -1218,7 +1434,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-04-bahamas-us-virgin-islands.png"
     },
     {
@@ -1272,7 +1488,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-04-turks-and-caicos-islands-british-virgin-islands.png"
     },
     {
@@ -1326,7 +1542,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-04-puerto-rico-cayman-islands.png"
     },
     {
@@ -1380,7 +1596,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-04-trinidad-and-tobago-curacao.png"
     },
     {
@@ -1434,7 +1650,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-04-bolivia-gambia.png"
     },
     {
@@ -1488,7 +1704,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-04-aruba-anguilla.png"
     },
     {
@@ -1542,7 +1758,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-05-costa-rica-haiti.png"
     },
     {
@@ -1596,7 +1812,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-05-nicaragua-dominican-republic.png"
     },
     {
@@ -1650,7 +1866,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-05-uganda-congo-dr.png"
     },
     {
@@ -1704,7 +1920,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-05-montenegro-u21-armenia-u21.png"
     },
     {
@@ -1758,7 +1974,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-05-mauritius-sri-lanka.png"
     },
     {
@@ -1812,7 +2028,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-05-rwanda-kenya.png"
     },
     {
@@ -1866,7 +2082,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-05-cyprus-latvia.png"
     },
     {
@@ -1920,7 +2136,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-05-italy-u21-poland-u21.png"
     },
     {
@@ -1974,7 +2190,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-05-sweden-u21-north-macedonia-u21.png"
     },
     {
@@ -2028,7 +2244,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-05-cordoba-tenerife.png"
     },
     {
@@ -2082,7 +2298,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-05-liechtenstein-gibraltar.png"
     },
     {
@@ -2136,7 +2352,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-05-bosnia-herzegovina-poland.png"
     },
     {
@@ -2190,7 +2406,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-05-france-belgium.png"
     },
     {
@@ -2244,7 +2460,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-05-italy-turkiye.png"
     },
     {
@@ -2298,7 +2514,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-05-montenegro-armenia.png"
     },
     {
@@ -2352,7 +2568,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-05-northern-ireland-georgia.png"
     },
     {
@@ -2406,7 +2622,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-05-romania-sweden.png"
     },
     {
@@ -2460,7 +2676,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-05-ukraine-hungary.png"
     },
     {
@@ -2514,7 +2730,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-05-guadeloupe-st-lucia.png"
     },
     {
@@ -2568,7 +2784,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-05-cuba-st-kitts-and-nevis.png"
     },
     {
@@ -2622,7 +2838,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-05-martinique-el-salvador.png"
     },
     {
@@ -2676,7 +2892,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-06-bermuda-barbados.png"
     },
     {
@@ -2730,7 +2946,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-06-grenada-bonaire.png"
     },
     {
@@ -2784,7 +3000,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-06-guatemala-suriname.png"
     },
     {
@@ -2838,7 +3054,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-06-honduras-jamaica.png"
     },
     {
@@ -2892,7 +3108,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-06-south-korea-uzbekistan.png"
     },
     {
@@ -2946,7 +3162,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-06-china-tajikistan.png"
     },
     {
@@ -3000,7 +3216,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-azerbaijan-u21-gibraltar-u21.png"
     },
     {
@@ -3054,7 +3270,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-06-india-uruguay.png"
     },
     {
@@ -3108,7 +3324,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-moldova-u21-kazakhstan-u21.png"
     },
     {
@@ -3162,7 +3378,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-06-kazakhstan-faroe-islands.png"
     },
     {
@@ -3214,9 +3430,9 @@
       "data_source": {
         "provider": "OpenFootball",
         "season": "local",
-        "source_url": "local:data/gulfcup.json"
+        "source_url": "local:data\\gulfcup.json"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/gulf-cup-2026-10-06-finalist-1-finalist-2.png"
     },
     {
@@ -3270,7 +3486,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-06-russia-nigeria.png"
     },
     {
@@ -3324,7 +3540,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-germany-u21-georgia-u21.png"
     },
     {
@@ -3378,7 +3594,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-latvia-u21-malta-u21.png"
     },
     {
@@ -3432,7 +3648,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-northern-ireland-u21-greece-u21.png"
     },
     {
@@ -3486,7 +3702,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-bulgaria-u21-scotland-u21.png"
     },
     {
@@ -3540,7 +3756,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-denmark-u21-belgium-u21.png"
     },
     {
@@ -3594,7 +3810,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-portugal-u21-czechia-u21.png"
     },
     {
@@ -3648,7 +3864,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-wales-u21-austria-u21.png"
     },
     {
@@ -3702,7 +3918,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-netherlands-u21-bosnia-herzegovina-u21.png"
     },
     {
@@ -3756,7 +3972,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-norway-u21-israel-u21.png"
     },
     {
@@ -3810,7 +4026,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-06-algeria-niger.png"
     },
     {
@@ -3864,7 +4080,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-06-jordan-venezuela.png"
     },
     {
@@ -3918,7 +4134,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-andorra-u21-slovakia-u21.png"
     },
     {
@@ -3972,7 +4188,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-cyprus-u21-san-marino-u21.png"
     },
     {
@@ -4026,7 +4242,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-faroe-islands-u21-iceland-u21.png"
     },
     {
@@ -4080,7 +4296,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-france-u21-switzerland-u21.png"
     },
     {
@@ -4134,7 +4350,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-kosovo-u21-finland-u21.png"
     },
     {
@@ -4188,7 +4404,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-lithuania-u21-croatia-u21.png"
     },
     {
@@ -4242,7 +4458,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-luxembourg-u21-estonia-u21.png"
     },
     {
@@ -4296,7 +4512,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-republic-of-ireland-u21-england-u21.png"
     },
     {
@@ -4350,7 +4566,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-spain-u21-romania-u21.png"
     },
     {
@@ -4404,7 +4620,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro_u21_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/uefa-u21-qualifying-2026-10-06-turkiye-u21-hungary-u21.png"
     },
     {
@@ -4458,7 +4674,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-06-albania-san-marino.png"
     },
     {
@@ -4512,7 +4728,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-06-belarus-finland.png"
     },
     {
@@ -4566,7 +4782,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-06-croatia-spain.png"
     },
     {
@@ -4620,7 +4836,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-06-england-czechia.png"
     },
     {
@@ -4674,7 +4890,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-06-estonia-iceland.png"
     },
     {
@@ -4728,7 +4944,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-06-luxembourg-bulgaria.png"
     },
     {
@@ -4782,7 +4998,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-06-moldova-slovakia.png"
     },
     {
@@ -4836,7 +5052,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-06-scotland-slovenia.png"
     },
     {
@@ -4890,7 +5106,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-10-06-switzerland-north-macedonia.png"
     },
     {
@@ -4944,7 +5160,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/caf.nations_qual/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afcon-qualifying-2026-10-06-angola-malawi.png"
     },
     {
@@ -4998,7 +5214,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-06-montserrat-turks-and-caicos-islands.png"
     },
     {
@@ -5052,7 +5268,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-06-st-martin-bahamas.png"
     },
     {
@@ -5106,7 +5322,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-06-st-vincent-and-the-grenadines-sint-maarten.png"
     },
     {
@@ -5160,7 +5376,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-06-antigua-and-barbuda-aruba.png"
     },
     {
@@ -5214,7 +5430,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-06-argentina-benin.png"
     },
     {
@@ -5268,7 +5484,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-06-colombia-peru.png"
     },
     {
@@ -5322,7 +5538,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-07-united-states-canada.png"
     },
     {
@@ -5376,7 +5592,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-07-chicago-fire-fc-vancouver-whitecaps.png"
     },
     {
@@ -5430,7 +5646,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.league/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-10-07-french-guiana-belize.png"
     },
     {
@@ -5484,7 +5700,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-07-mexico-chile.png"
     },
     {
@@ -5538,7 +5754,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-10-09-borussia-dortmund-werder-bremen.png"
     },
     {
@@ -5592,7 +5808,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-09-lens-lyon.png"
     },
     {
@@ -5646,7 +5862,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-09-west-ham-united-queens-park-rangers.png"
     },
     {
@@ -5700,7 +5916,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-09-malaga-espanyol.png"
     },
     {
@@ -5754,7 +5970,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-10-charlton-athletic-bristol-city.png"
     },
     {
@@ -5808,7 +6024,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-10-swansea-city-norwich-city.png"
     },
     {
@@ -5862,7 +6078,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-10-west-bromwich-albion-birmingham-city.png"
     },
     {
@@ -5916,7 +6132,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-10-10-arsenal-leeds-united.png"
     },
     {
@@ -5970,7 +6186,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-10-rayo-vallecano-athletic-club.png"
     },
     {
@@ -6024,7 +6240,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-10-genoa-fiorentina.png"
     },
     {
@@ -6078,7 +6294,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-10-10-1-fc-union-berlin-sv-elversberg.png"
     },
     {
@@ -6132,7 +6348,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-10-10-fc-augsburg-bayern-munich.png"
     },
     {
@@ -6186,7 +6402,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-10-10-mainz-bayer-leverkusen.png"
     },
     {
@@ -6240,7 +6456,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-10-10-sc-paderborn-07-vfb-stuttgart.png"
     },
     {
@@ -6294,7 +6510,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-10-10-tsg-hoffenheim-hamburg-sv.png"
     },
     {
@@ -6348,7 +6564,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-10-blackburn-rovers-cardiff-city.png"
     },
     {
@@ -6402,7 +6618,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-10-bolton-wanderers-stoke-city.png"
     },
     {
@@ -6456,7 +6672,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-10-derby-county-wrexham.png"
     },
     {
@@ -6510,7 +6726,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-10-middlesbrough-wolverhampton-wanderers.png"
     },
     {
@@ -6564,7 +6780,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-10-preston-north-end-millwall.png"
     },
     {
@@ -6618,7 +6834,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-10-sheffield-united-lincoln-city.png"
     },
     {
@@ -6672,7 +6888,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-10-watford-burnley.png"
     },
     {
@@ -6726,7 +6942,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-10-10-aston-villa-brentford.png"
     },
     {
@@ -6780,7 +6996,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-10-10-chelsea-afc-bournemouth.png"
     },
     {
@@ -6834,7 +7050,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-10-10-ipswich-town-fulham.png"
     },
     {
@@ -6888,7 +7104,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-10-10-sunderland-brighton-hove-albion.png"
     },
     {
@@ -6942,7 +7158,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-10-alaves-atletico-madrid.png"
     },
     {
@@ -6996,7 +7212,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-10-ceuta-cd-sabadell.png"
     },
     {
@@ -7050,7 +7266,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-10-lille-le-havre-ac.png"
     },
     {
@@ -7104,7 +7320,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-10-internazionale-parma.png"
     },
     {
@@ -7158,7 +7374,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-10-10-manchester-united-tottenham-hotspur.png"
     },
     {
@@ -7212,7 +7428,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-10-10-rb-leipzig-eintracht-frankfurt.png"
     },
     {
@@ -7266,7 +7482,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-10-barcelona-getafe.png"
     },
     {
@@ -7320,7 +7536,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-10-eldense-cordoba.png"
     },
     {
@@ -7374,7 +7590,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-10-toronto-fc-cf-montreal.png"
     },
     {
@@ -7428,7 +7644,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-10-chicago-fire-fc-new-york-city-fc.png"
     },
     {
@@ -7482,7 +7698,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-10-as-monaco-toulouse.png"
     },
     {
@@ -7536,7 +7752,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-10-brest-angers.png"
     },
     {
@@ -7590,7 +7806,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-10-lorient-paris-fc.png"
     },
     {
@@ -7644,7 +7860,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-10-paris-saint-germain-le-mans.png"
     },
     {
@@ -7698,7 +7914,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-10-napoli-frosinone.png"
     },
     {
@@ -7752,7 +7968,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-10-real-madrid-villarreal.png"
     },
     {
@@ -7806,7 +8022,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-10-rc-celta-fortuna-real-sociedad-ii.png"
     },
     {
@@ -7860,7 +8076,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-10-atlanta-united-fc-fc-cincinnati.png"
     },
     {
@@ -7914,7 +8130,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-10-charlotte-fc-fc-dallas.png"
     },
     {
@@ -7968,7 +8184,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-10-inter-miami-cf-d-c-united.png"
     },
     {
@@ -8022,7 +8238,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-10-new-england-revolution-seattle-sounders-fc.png"
     },
     {
@@ -8076,7 +8292,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-10-orlando-city-sc-columbus-crew.png"
     },
     {
@@ -8130,7 +8346,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-10-philadelphia-union-real-salt-lake.png"
     },
     {
@@ -8184,7 +8400,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-10-red-bull-new-york-san-diego-fc.png"
     },
     {
@@ -8238,7 +8454,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-11-austin-fc-nashville-sc.png"
     },
     {
@@ -8292,7 +8508,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-11-minnesota-united-fc-houston-dynamo-fc.png"
     },
     {
@@ -8346,7 +8562,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-11-sporting-kansas-city-portland-timbers.png"
     },
     {
@@ -8400,7 +8616,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-11-colorado-rapids-san-jose-earthquakes.png"
     },
     {
@@ -8454,7 +8670,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-11-lafc-vancouver-whitecaps.png"
     },
     {
@@ -8508,7 +8724,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-11-como-as-roma.png"
     },
     {
@@ -8562,7 +8778,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-11-southampton-portsmouth.png"
     },
     {
@@ -8616,7 +8832,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-elche-celta-vigo.png"
     },
     {
@@ -8670,7 +8886,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-11-fc-andorra-castellon.png"
     },
     {
@@ -8724,7 +8940,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-10-11-crystal-palace-nottingham-forest.png"
     },
     {
@@ -8778,7 +8994,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-10-11-hull-city-everton.png"
     },
     {
@@ -8832,7 +9048,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-11-nice-strasbourg.png"
     },
     {
@@ -8886,7 +9102,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-11-lazio-monza.png"
     },
     {
@@ -8940,7 +9156,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-11-lecce-bologna.png"
     },
     {
@@ -8994,7 +9210,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-10-11-fc-cologne-borussia-monchengladbach.png"
     },
     {
@@ -9048,7 +9264,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-real-sociedad-deportivo.png"
     },
     {
@@ -9102,7 +9318,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-11-almeria-leganes.png"
     },
     {
@@ -9156,7 +9372,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-11-stade-rennais-aj-auxerre.png"
     },
     {
@@ -9210,7 +9426,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-10-11-liverpool-manchester-city.png"
     },
     {
@@ -9264,7 +9480,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-10-11-sc-freiburg-schalke-04.png"
     },
     {
@@ -9318,7 +9534,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-11-sassuolo-ac-milan.png"
     },
     {
@@ -9372,7 +9588,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-real-betis-osasuna.png"
     },
     {
@@ -9426,7 +9642,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-11-mallorca-las-palmas.png"
     },
     {
@@ -9480,7 +9696,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-11-troyes-marseille.png"
     },
     {
@@ -9534,7 +9750,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-11-cagliari-juventus.png"
     },
     {
@@ -9588,7 +9804,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-racing-santander-valencia.png"
     },
     {
@@ -9642,7 +9858,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-11-cadiz-sporting-gijon.png"
     },
     {
@@ -9696,7 +9912,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-11-st-louis-city-sc-la-galaxy.png"
     },
     {
@@ -9750,7 +9966,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-12-real-valladolid-albacete.png"
     },
     {
@@ -9804,7 +10020,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-12-burgos-granada.png"
     },
     {
@@ -9858,7 +10074,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-12-atalanta-venezia.png"
     },
     {
@@ -9912,7 +10128,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-12-real-oviedo-eibar.png"
     },
     {
@@ -9966,7 +10182,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-12-torino-udinese.png"
     },
     {
@@ -10020,7 +10236,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-10-12-coventry-city-newcastle-united.png"
     },
     {
@@ -10074,7 +10290,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-12-levante-sevilla.png"
     },
     {
@@ -10128,7 +10344,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-12-tenerife-girona.png"
     },
     {
@@ -10182,7 +10398,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-13-lens-sporting-cp.png"
     },
     {
@@ -10236,7 +10452,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-13-sabah-fk-slavia-prague.png"
     },
     {
@@ -10290,7 +10506,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-13-bristol-city-blackburn-rovers.png"
     },
     {
@@ -10344,7 +10560,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-13-burnley-charlton-athletic.png"
     },
     {
@@ -10398,7 +10614,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-13-cardiff-city-watford.png"
     },
     {
@@ -10452,7 +10668,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-13-millwall-swansea-city.png"
     },
     {
@@ -10506,7 +10722,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-13-wolverhampton-wanderers-bolton-wanderers.png"
     },
     {
@@ -10560,7 +10776,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-13-wrexham-west-bromwich-albion.png"
     },
     {
@@ -10614,7 +10830,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-13-birmingham-city-preston-north-end.png"
     },
     {
@@ -10668,7 +10884,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-13-stoke-city-middlesbrough.png"
     },
     {
@@ -10722,7 +10938,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-13-arsenal-lille.png"
     },
     {
@@ -10776,7 +10992,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-13-atletico-madrid-manchester-united.png"
     },
     {
@@ -10830,7 +11046,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-13-galatasaray-barcelona.png"
     },
     {
@@ -10884,7 +11100,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-13-internazionale-club-brugge.png"
     },
     {
@@ -10938,7 +11154,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-13-rb-leipzig-psv-eindhoven.png"
     },
     {
@@ -10992,7 +11208,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-13-viking-fk-bayern-munich.png"
     },
     {
@@ -11046,7 +11262,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-13-villarreal-napoli.png"
     },
     {
@@ -11100,7 +11316,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-14-feyenoord-rotterdam-como.png"
     },
     {
@@ -11154,7 +11370,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-14-lask-linz-liverpool.png"
     },
     {
@@ -11208,7 +11424,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-14-norwich-city-southampton.png"
     },
     {
@@ -11262,7 +11478,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-14-portsmouth-sheffield-united.png"
     },
     {
@@ -11316,7 +11532,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-14-queens-park-rangers-derby-county.png"
     },
     {
@@ -11370,7 +11586,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-14-lincoln-city-west-ham-united.png"
     },
     {
@@ -11424,7 +11640,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-14-as-roma-real-madrid.png"
     },
     {
@@ -11478,7 +11694,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-14-aston-villa-fenerbahce.png"
     },
     {
@@ -11532,7 +11748,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-14-bodo-glimt-borussia-dortmund.png"
     },
     {
@@ -11586,7 +11802,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-14-manchester-city-paris-saint-germain.png"
     },
     {
@@ -11640,7 +11856,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-14-real-betis-fc-porto.png"
     },
     {
@@ -11694,7 +11910,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-14-shakhtar-donetsk-aek-athens.png"
     },
     {
@@ -11748,7 +11964,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-14-slovan-bratislava-vfb-stuttgart.png"
     },
     {
@@ -11802,7 +12018,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-14-cf-montreal-atlanta-united-fc.png"
     },
     {
@@ -11856,7 +12072,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-14-columbus-crew-charlotte-fc.png"
     },
     {
@@ -11910,7 +12126,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-14-d-c-united-red-bull-new-york.png"
     },
     {
@@ -11964,7 +12180,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-14-fc-cincinnati-new-england-revolution.png"
     },
     {
@@ -12018,7 +12234,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-14-inter-miami-cf-new-york-city-fc.png"
     },
     {
@@ -12072,7 +12288,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-14-toronto-fc-orlando-city-sc.png"
     },
     {
@@ -12126,7 +12342,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-15-chicago-fire-fc-philadelphia-union.png"
     },
     {
@@ -12180,7 +12396,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-15-fc-dallas-seattle-sounders-fc.png"
     },
     {
@@ -12234,7 +12450,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-15-nashville-sc-sporting-kansas-city.png"
     },
     {
@@ -12288,7 +12504,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-15-st-louis-city-sc-vancouver-whitecaps.png"
     },
     {
@@ -12342,7 +12558,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-15-colorado-rapids-minnesota-united-fc.png"
     },
     {
@@ -12396,7 +12612,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-15-real-salt-lake-san-jose-earthquakes.png"
     },
     {
@@ -12450,7 +12666,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-15-la-galaxy-portland-timbers.png"
     },
     {
@@ -12504,7 +12720,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-15-lafc-austin-fc.png"
     },
     {
@@ -12558,7 +12774,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-15-san-diego-fc-houston-dynamo-fc.png"
     },
     {
@@ -12612,7 +12828,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-10-15-cska-sofia-as-monaco.png"
     },
     {
@@ -12666,7 +12882,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-10-15-csu-craiova-getafe.png"
     },
     {
@@ -12720,7 +12936,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-10-15-egnatia-fc-midtjylland.png"
     },
     {
@@ -12774,7 +12990,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-10-15-fc-lugano-red-star-belgrade.png"
     },
     {
@@ -12828,7 +13044,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-10-15-hajduk-split-ajax-amsterdam.png"
     },
     {
@@ -12882,7 +13098,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-10-15-kaa-gent-agf.png"
     },
     {
@@ -12936,7 +13152,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-10-15-kups-kuopio-trabzonspor.png"
     },
     {
@@ -12990,7 +13206,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-10-15-mjallby-aif-inter-d-escaldes.png"
     },
     {
@@ -13044,7 +13260,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-10-15-panathinaikos-borac-banja-luka.png"
     },
     {
@@ -13098,7 +13314,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-10-15-riga-fc-kairat-almaty.png"
     },
     {
@@ -13152,7 +13368,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-az-alkmaar-hapoel-be-er.png"
     },
     {
@@ -13206,7 +13422,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-lech-poznan-bayer-leverkusen.png"
     },
     {
@@ -13260,7 +13476,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-lyon-crystal-palace.png"
     },
     {
@@ -13314,224 +13530,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "last_updated": "2026-10-03T22:29:15.146918+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-nk-celje-omonia-nicosia.png"
-    },
-    {
-      "event_id": "europa-league-2026-10-15-rb-salzburg-ac-milan",
-      "competition": {
-        "id": "europa-league",
-        "name": "UEFA Europa League",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-15",
-      "start_time_utc": "2026-10-15T16:45:00Z",
-      "start_time_pkt": "2026-10-15T21:45:00+05:00",
-      "start_timestamp": 1792082700,
-      "display_date": "2026-10-15",
-      "display_time": "09:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "RB Salzburg",
-        "slug": "rb-salzburg",
-        "espn_id": "2790",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "RB Salzburg",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "AC Milan",
-        "slug": "ac-milan",
-        "espn_id": "103",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "AC Milan",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
-      },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-rb-salzburg-ac-milan.png"
-    },
-    {
-      "event_id": "europa-league-2026-10-15-sparta-prague-lillestrom",
-      "competition": {
-        "id": "europa-league",
-        "name": "UEFA Europa League",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-15",
-      "start_time_utc": "2026-10-15T16:45:00Z",
-      "start_time_pkt": "2026-10-15T21:45:00+05:00",
-      "start_timestamp": 1792082700,
-      "display_date": "2026-10-15",
-      "display_time": "09:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Sparta Prague",
-        "slug": "sparta-prague",
-        "espn_id": "433",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Sparta Prague",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Lillestrom",
-        "slug": "lillestrom",
-        "espn_id": "987",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Lillestrom",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
-      },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-sparta-prague-lillestrom.png"
-    },
-    {
-      "event_id": "europa-league-2026-10-15-torreense-sunderland",
-      "competition": {
-        "id": "europa-league",
-        "name": "UEFA Europa League",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-15",
-      "start_time_utc": "2026-10-15T16:45:00Z",
-      "start_time_pkt": "2026-10-15T21:45:00+05:00",
-      "start_timestamp": 1792082700,
-      "display_date": "2026-10-15",
-      "display_time": "09:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Torreense",
-        "slug": "torreense",
-        "espn_id": "21615",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Torreense",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Sunderland",
-        "slug": "sunderland",
-        "espn_id": "366",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Sunderland",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
-      },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-torreense-sunderland.png"
-    },
-    {
-      "event_id": "europa-league-2026-10-15-union-st-gilloise-real-sociedad",
-      "competition": {
-        "id": "europa-league",
-        "name": "UEFA Europa League",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-15",
-      "start_time_utc": "2026-10-15T16:45:00Z",
-      "start_time_pkt": "2026-10-15T21:45:00+05:00",
-      "start_timestamp": 1792082700,
-      "display_date": "2026-10-15",
-      "display_time": "09:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Union St.-Gilloise",
-        "slug": "union-st-gilloise",
-        "espn_id": "5807",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Union St.-Gilloise",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Real Sociedad",
-        "slug": "real-sociedad",
-        "espn_id": "89",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Real Sociedad",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
-      },
-      "last_updated": "2026-10-03T22:09:34.229958+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-union-st-gilloise-real-sociedad.png"
     }
   ]
 }

@@ -413,7 +413,64 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="flag_rounded_card"
     ),
 
-    # 20. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 20. CONCACAF Nations League: Deep midnight navy, radiant CONCACAF amber gold & electric cyan, energetic flag cards
+    "concacaf-nations-league": CompetitionTheme(
+        competition_id="concacaf-nations-league",
+        name="CONCACAF Nations League",
+        background_top=(10, 20, 48),
+        background_bottom=(18, 12, 38),
+        primary=(245, 166, 35),
+        secondary=(0, 195, 255),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 225, 195),
+        panel_color=(18, 24, 48, 225),
+        panel_border=(245, 166, 35, 180),
+        pattern="nations_league_mosaic",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="flag_rounded_card"
+    ),
+
+    # 21. CONCACAF Champions Cup: Deep obsidian & sapphire, brilliant trophy gold, modern crest frames
+    "concacaf-champions-cup": CompetitionTheme(
+        competition_id="concacaf-champions-cup",
+        name="CONCACAF Champions Cup",
+        background_top=(8, 14, 30),
+        background_bottom=(16, 20, 36),
+        primary=(235, 180, 50),
+        secondary=(0, 110, 220),
+        highlight=(230, 240, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(220, 210, 190),
+        panel_color=(18, 26, 46, 225),
+        panel_border=(235, 180, 50, 180),
+        pattern="champions_stars",
+        center_style="champions_divider",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 22. CONCACAF Gold Cup: Rich Aztec gold & midnight navy, fiery crimson accents, prestige flag cards
+    "concacaf-gold-cup": CompetitionTheme(
+        competition_id="concacaf-gold-cup",
+        name="CONCACAF Gold Cup",
+        background_top=(28, 18, 8),
+        background_bottom=(12, 16, 34),
+        primary=(255, 185, 20),
+        secondary=(220, 30, 50),
+        highlight=(255, 245, 210),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 225, 190),
+        panel_color=(26, 20, 16, 225),
+        panel_border=(255, 185, 20, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="flag_rounded_card"
+    ),
+
+    # 23. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

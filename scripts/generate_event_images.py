@@ -1254,6 +1254,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "concacaf-nations-league-preview",
+            "competition": {
+                "id": "concacaf-nations-league",
+                "name": "CONCACAF Nations League",
+                "round": "League Phase",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2406.png"
+            },
+            "home_team": {"name": "United States", "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"},
+            "away_team": {"name": "Mexico", "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png"},
+            "match_date": "2026-10-12",
+            "match_date_pkt": "2026-10-13",
+            "display_date": "2026-10-13",
+            "display_time": "06:00 AM",
+            "start_time_utc": "2026-10-13T01:00:00Z",
+            "start_time_pkt": "2026-10-13T06:00:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

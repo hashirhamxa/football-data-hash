@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-09-30T19:36:55.303406+00:00",
+  "generated_at": "2026-10-03T22:13:54.520872+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-10-02",
-  "target_day_name": "Friday",
-  "total_events": 4,
+  "target_date_pkt": "2026-10-05",
+  "target_day_name": "Monday",
+  "total_events": 5,
   "events": [
     {
-      "event_id": "international-friendlies-2026-10-02-congo-dr-uganda",
+      "event_id": "international-friendlies-2026-10-04-bolivia-gambia",
       "competition": {
         "id": "international-friendlies",
         "name": "International Friendlies",
@@ -24,30 +24,72 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/53.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-02",
-      "match_date": "2026-10-02",
-      "match_date_utc": "2026-10-02",
-      "match_date_pkt": "2026-10-02",
-      "start_time_utc": "2026-10-02T11:00:00Z",
-      "start_time_pkt": "2026-10-02T16:00:00+05:00",
-      "start_timestamp": 1790938800,
-      "display_date": "2026-10-02",
-      "display_time": "04:00 PM",
+      "source_date": "2026-10-04",
+      "match_date": "2026-10-04",
+      "match_date_utc": "2026-10-04",
+      "match_date_pkt": "2026-10-05",
+      "start_time_utc": "2026-10-04T22:30:00Z",
+      "start_time_pkt": "2026-10-05T03:30:00+05:00",
+      "start_timestamp": 1791153000,
+      "display_date": "2026-10-05",
+      "display_time": "03:30 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Congo DR",
-        "slug": "congo-dr",
-        "espn_id": "2850",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+        "name": "Bolivia",
+        "slug": "bolivia",
+        "espn_id": "204",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/bol.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Congo DR",
+          "matched_name": "Bolivia",
           "is_fallback": false
         }
       },
       "away_team": {
+        "name": "Gambia",
+        "slug": "gambia",
+        "espn_id": "7368",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/gam.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Gambia",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
+      },
+      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-04-bolivia-gambia.png"
+    },
+    {
+      "event_id": "international-friendlies-2026-10-05-uganda-congo-dr",
+      "competition": {
+        "id": "international-friendlies",
+        "name": "International Friendlies",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/53.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-05",
+      "match_date": "2026-10-05",
+      "match_date_utc": "2026-10-05",
+      "match_date_pkt": "2026-10-05",
+      "start_time_utc": "2026-10-05T13:00:00Z",
+      "start_time_pkt": "2026-10-05T18:00:00+05:00",
+      "start_timestamp": 1791205200,
+      "display_date": "2026-10-05",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
         "name": "Uganda",
         "slug": "uganda",
         "espn_id": "4211",
@@ -59,57 +101,15 @@
           "is_fallback": false
         }
       },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
-      },
-      "last_updated": "2026-09-30T19:27:58.980959+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-02-congo-dr-uganda.png"
-    },
-    {
-      "event_id": "international-friendlies-2026-10-02-south-korea-venezuela",
-      "competition": {
-        "id": "international-friendlies",
-        "name": "International Friendlies",
-        "country": "International",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/53.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-02",
-      "match_date": "2026-10-02",
-      "match_date_utc": "2026-10-02",
-      "match_date_pkt": "2026-10-02",
-      "start_time_utc": "2026-10-02T11:00:00Z",
-      "start_time_pkt": "2026-10-02T16:00:00+05:00",
-      "start_timestamp": 1790938800,
-      "display_date": "2026-10-02",
-      "display_time": "04:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "South Korea",
-        "slug": "south-korea",
-        "espn_id": "451",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "South Korea",
-          "is_fallback": false
-        }
-      },
       "away_team": {
-        "name": "Venezuela",
-        "slug": "venezuela",
-        "espn_id": "213",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ven.png",
+        "name": "Congo DR",
+        "slug": "congo-dr",
+        "espn_id": "2850",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Venezuela",
+          "matched_name": "Congo DR",
           "is_fallback": false
         }
       },
@@ -118,11 +118,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-09-30T19:27:58.980959+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-02-south-korea-venezuela.png"
+      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-05-uganda-congo-dr.png"
     },
     {
-      "event_id": "international-friendlies-2026-10-02-china-palestine",
+      "event_id": "international-friendlies-2026-10-05-mauritius-sri-lanka",
       "competition": {
         "id": "international-friendlies",
         "name": "International Friendlies",
@@ -132,68 +132,14 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/53.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-02",
-      "match_date": "2026-10-02",
-      "match_date_utc": "2026-10-02",
-      "match_date_pkt": "2026-10-02",
-      "start_time_utc": "2026-10-02T11:35:00Z",
-      "start_time_pkt": "2026-10-02T16:35:00+05:00",
-      "start_timestamp": 1790940900,
-      "display_date": "2026-10-02",
-      "display_time": "04:35 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "China",
-        "slug": "china",
-        "espn_id": "658",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/chn.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "China",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Palestine",
-        "slug": "palestine",
-        "espn_id": "6167",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/pal.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Palestine",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
-      },
-      "last_updated": "2026-09-30T19:27:58.980959+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-02-china-palestine.png"
-    },
-    {
-      "event_id": "international-friendlies-2026-10-02-mauritius-sri-lanka",
-      "competition": {
-        "id": "international-friendlies",
-        "name": "International Friendlies",
-        "country": "International",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/53.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-02",
-      "match_date": "2026-10-02",
-      "match_date_utc": "2026-10-02",
-      "match_date_pkt": "2026-10-02",
-      "start_time_utc": "2026-10-02T15:00:00Z",
-      "start_time_pkt": "2026-10-02T20:00:00+05:00",
-      "start_timestamp": 1790953200,
-      "display_date": "2026-10-02",
+      "source_date": "2026-10-05",
+      "match_date": "2026-10-05",
+      "match_date_utc": "2026-10-05",
+      "match_date_pkt": "2026-10-05",
+      "start_time_utc": "2026-10-05T15:00:00Z",
+      "start_time_pkt": "2026-10-05T20:00:00+05:00",
+      "start_timestamp": 1791212400,
+      "display_date": "2026-10-05",
       "display_time": "08:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
@@ -226,8 +172,116 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
       },
-      "last_updated": "2026-09-30T19:27:58.980959+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-02-mauritius-sri-lanka.png"
+      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-05-mauritius-sri-lanka.png"
+    },
+    {
+      "event_id": "international-friendlies-2026-10-05-rwanda-kenya",
+      "competition": {
+        "id": "international-friendlies",
+        "name": "International Friendlies",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/53.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-05",
+      "match_date": "2026-10-05",
+      "match_date_utc": "2026-10-05",
+      "match_date_pkt": "2026-10-05",
+      "start_time_utc": "2026-10-05T16:00:00Z",
+      "start_time_pkt": "2026-10-05T21:00:00+05:00",
+      "start_timestamp": 1791216000,
+      "display_date": "2026-10-05",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Rwanda",
+        "slug": "rwanda",
+        "espn_id": "2851",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/rwa.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Rwanda",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Kenya",
+        "slug": "kenya",
+        "espn_id": "2848",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ken.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Kenya",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
+      },
+      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-05-rwanda-kenya.png"
+    },
+    {
+      "event_id": "international-friendlies-2026-10-05-liechtenstein-gibraltar",
+      "competition": {
+        "id": "international-friendlies",
+        "name": "International Friendlies",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/53.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-05",
+      "match_date": "2026-10-05",
+      "match_date_utc": "2026-10-05",
+      "match_date_pkt": "2026-10-05",
+      "start_time_utc": "2026-10-05T18:45:00Z",
+      "start_time_pkt": "2026-10-05T23:45:00+05:00",
+      "start_timestamp": 1791225900,
+      "display_date": "2026-10-05",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Liechtenstein",
+        "slug": "liechtenstein",
+        "espn_id": "589",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/lie.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Liechtenstein",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Gibraltar",
+        "slug": "gibraltar",
+        "espn_id": "16721",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/gib.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Gibraltar",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard"
+      },
+      "last_updated": "2026-10-03T22:09:34.229958+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-10-05-liechtenstein-gibraltar.png"
     }
   ]
 }

@@ -489,7 +489,26 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="glass_plate"
     ),
 
-    # 24. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 24. English Women's Super League: Deep cyan & midnight navy base, electric turquoise & vibrant magenta trails, modern crest frames
+    "womens-super-league": CompetitionTheme(
+        competition_id="womens-super-league",
+        name="English Women's Super League",
+        background_top=(12, 24, 44),
+        background_bottom=(18, 12, 34),
+        primary=(0, 225, 235),
+        secondary=(255, 30, 115),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(190, 230, 245),
+        panel_color=(18, 26, 48, 225),
+        panel_border=(0, 225, 235, 180),
+        pattern="pl_modern_light_trails",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 25. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

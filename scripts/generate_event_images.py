@@ -1290,6 +1290,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "womens-super-league-preview",
+            "competition": {
+                "id": "womens-super-league",
+                "name": "English Women's Super League",
+                "round": "Matchday 3",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2314.png"
+            },
+            "home_team": {"name": "Manchester City", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/19257.png"},
+            "away_team": {"name": "Arsenal", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/19973.png"},
+            "match_date": "2026-10-04",
+            "match_date_pkt": "2026-10-04",
+            "display_date": "2026-10-04",
+            "display_time": "08:30 PM",
+            "start_time_utc": "2026-10-04T15:30:00Z",
+            "start_time_pkt": "2026-10-04T20:30:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

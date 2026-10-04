@@ -197,8 +197,18 @@ def normalize_event(
     round_name = match.get("round", "Regular Fixture")
     group_name = match.get("group")
 
-    # Deterministic event ID based on UTC date & team slugs
-    event_id = f"{slugify(comp_id)}-{match_date_utc}-{home_slug}-{away_slug}"
+    # Format start time component for uniqueness (e.g., '1400', '1930', or 'tbd')
+    if time_status == "confirmed" and start_time_utc:
+        try:
+            # Extract HHMM from start_time_utc ('YYYY-MM-DDTHH:MM:SSZ' -> 'HHMM')
+            time_part = start_time_utc.split("T")[1][:5].replace(":", "")
+        except Exception:
+            time_part = "tbd"
+    else:
+        time_part = "tbd"
+
+    # Deterministic event ID based on comp, UTC date, start time & team slugs
+    event_id = f"{slugify(comp_id)}-{match_date_utc}-{time_part}-{home_slug}-{away_slug}"
 
     # Build home/away team dicts
     home_team_dict = {

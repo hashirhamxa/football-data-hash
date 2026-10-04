@@ -93,7 +93,7 @@ class TestNormalizeFixtures(unittest.TestCase):
         }
         ev = normalize_event(comp_config, comp_status, valid_match, ref_now, date_range_days=30)
         self.assertIsNotNone(ev)
-        self.assertEqual(ev["event_id"], "premier-league-2026-09-20-arsenal-fc-chelsea-fc")
+        self.assertEqual(ev["event_id"], "premier-league-2026-09-20-1400-arsenal-fc-chelsea-fc")
         self.assertEqual(ev["time_status"], "confirmed")
 
         # Fixture far in future (outside 30 days)
@@ -127,8 +127,31 @@ class TestNormalizeFixtures(unittest.TestCase):
         events = normalize_all_fixtures(raw_fixtures, ref_now=ref_now, date_range_days=30)
 
         self.assertEqual(len(events), 2)
-        self.assertEqual(events[0]["event_id"], "premier-league-2026-09-20-arsenal-fc-chelsea-fc")
-        self.assertEqual(events[1]["event_id"], "premier-league-2026-09-25-liverpool-fc-everton-fc")
+        self.assertEqual(events[0]["event_id"], "premier-league-2026-09-20-1400-arsenal-fc-chelsea-fc")
+        self.assertEqual(events[1]["event_id"], "premier-league-2026-09-25-1400-liverpool-fc-everton-fc")
+
+    def test_same_day_distinct_start_times_uniqueness(self):
+        ref_now = datetime(2026, 9, 16, 12, 0, tzinfo=timezone.utc)
+        comp_config = {
+            "id": "gulf-cup",
+            "name": "Arabian Gulf Cup",
+            "source_timezone": "Asia/Riyadh"
+        }
+        comp_status = {"season": "2026", "provider": "OpenFootball"}
+
+        matches = [
+            {"date_str": "2026-10-06", "time_str": "17:00", "home_team": {"name": "Finalist 1"}, "away_team": {"name": "Finalist 2"}},
+            {"date_str": "2026-10-06", "time_str": "20:00", "home_team": {"name": "Finalist 1"}, "away_team": {"name": "Finalist 2"}},
+            {"date_str": "2026-10-06", "time_str": "TBD", "home_team": {"name": "TBD"}, "away_team": {"name": "TBD"}}
+        ]
+
+        raw_fixtures = {"gulf-cup": {"config": comp_config, "status": comp_status, "matches": matches}}
+        events = normalize_all_fixtures(raw_fixtures, ref_now=ref_now, date_range_days=30)
+
+        self.assertEqual(len(events), 3)
+        self.assertEqual(events[0]["event_id"], "gulf-cup-2026-10-06-1400-finalist-1-finalist-2")
+        self.assertEqual(events[1]["event_id"], "gulf-cup-2026-10-06-1700-finalist-1-finalist-2")
+        self.assertEqual(events[2]["event_id"], "gulf-cup-2026-10-06-tbd-tbd-tbd")
 
 
 if __name__ == "__main__":

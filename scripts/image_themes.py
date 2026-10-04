@@ -508,7 +508,254 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
-    # 25. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 25. Saudi Pro League: Royal emerald green & gold, midnight dark-forest base
+    "saudi-pro-league": CompetitionTheme(
+        competition_id="saudi-pro-league",
+        name="Saudi Pro League",
+        background_top=(6, 26, 16),
+        background_bottom=(10, 36, 24),
+        primary=(0, 185, 115),
+        secondary=(240, 190, 45),
+        highlight=(220, 255, 235),
+        text_primary=(255, 255, 255),
+        text_secondary=(180, 230, 205),
+        panel_color=(14, 32, 22, 225),
+        panel_border=(0, 185, 115, 180),
+        pattern="neutral_sleek_graphite",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 26. Coppa Italia: Italian Azure & vibrant gold/crimson
+    "coppa-italia": CompetitionTheme(
+        competition_id="coppa-italia",
+        name="Coppa Italia",
+        background_top=(8, 20, 38),
+        background_bottom=(16, 12, 28),
+        primary=(0, 130, 235),
+        secondary=(225, 35, 55),
+        highlight=(245, 200, 50),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 220, 245),
+        panel_color=(16, 24, 44, 225),
+        panel_border=(0, 130, 235, 180),
+        pattern="seriea_hex_geometry",
+        center_style="seriea_dynamic_center",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 27. Brazilian Série A: Canary yellow & tropical green / deep obsidian
+    "brazilian-serie-a": CompetitionTheme(
+        competition_id="brazilian-serie-a",
+        name="Brazilian Série A",
+        background_top=(12, 26, 18),
+        background_bottom=(8, 14, 24),
+        primary=(255, 215, 0),
+        secondary=(0, 170, 90),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 235, 180),
+        panel_color=(16, 28, 22, 225),
+        panel_border=(255, 215, 0, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 28. 2. Bundesliga: Gunmetal & flame red/silver
+    "2-bundesliga": CompetitionTheme(
+        competition_id="2-bundesliga",
+        name="2. Bundesliga",
+        background_top=(18, 18, 24),
+        background_bottom=(26, 14, 16),
+        primary=(225, 40, 45),
+        secondary=(180, 195, 215),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(225, 200, 200),
+        panel_color=(26, 22, 24, 225),
+        panel_border=(225, 40, 45, 180),
+        pattern="bundesliga_diagonal_slashes",
+        center_style="bundesliga_diamond_center",
+        font_family="archivo",
+        crest_container_style="metallic"
+    ),
+
+    # 29. English League One: Deep indigo & bright cyan/crimson
+    "league-one": CompetitionTheme(
+        competition_id="league-one",
+        name="English League One",
+        background_top=(14, 18, 38),
+        background_bottom=(10, 12, 26),
+        primary=(0, 195, 245),
+        secondary=(235, 40, 75),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 225, 250),
+        panel_color=(18, 24, 46, 225),
+        panel_border=(0, 195, 245, 180),
+        pattern="pl_modern_light_trails",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="glass_plate"
+    ),
+
+    # 30. Scottish Championship: Royal navy & thistle silver/gold
+    "scottish-championship": CompetitionTheme(
+        competition_id="scottish-championship",
+        name="Scottish Championship",
+        background_top=(10, 18, 40),
+        background_bottom=(16, 12, 30),
+        primary=(25, 95, 215),
+        secondary=(215, 180, 80),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 215, 245),
+        panel_color=(16, 24, 48, 225),
+        panel_border=(25, 95, 215, 180),
+        pattern="neutral_sleek_graphite",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 31. English FA Trophy: Heritage navy & trophy gold
+    "fa-trophy": CompetitionTheme(
+        competition_id="fa-trophy",
+        name="English FA Trophy",
+        background_top=(12, 16, 32),
+        background_bottom=(24, 18, 10),
+        primary=(240, 185, 45),
+        secondary=(20, 85, 185),
+        highlight=(255, 245, 205),
+        text_primary=(255, 255, 255),
+        text_secondary=(235, 220, 190),
+        panel_color=(20, 22, 34, 225),
+        panel_border=(240, 185, 45, 180),
+        pattern="champions_stars",
+        center_style="champions_divider",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 32. AFC Champions League Elite: Imperial gold & deep midnight indigo
+    "afc-champions-league-elite": CompetitionTheme(
+        competition_id="afc-champions-league-elite",
+        name="AFC Champions League Elite",
+        background_top=(8, 14, 36),
+        background_bottom=(16, 20, 48),
+        primary=(245, 190, 35),
+        secondary=(0, 145, 235),
+        highlight=(255, 245, 215),
+        text_primary=(255, 255, 255),
+        text_secondary=(230, 220, 200),
+        panel_color=(18, 26, 52, 225),
+        panel_border=(245, 190, 35, 180),
+        pattern="champions_stars",
+        center_style="champions_divider",
+        font_family="montserrat",
+        crest_container_style="halo"
+    ),
+
+    # 33. AFC Champions League Two: Electric sapphire & gold
+    "afc-champions-league-two": CompetitionTheme(
+        competition_id="afc-champions-league-two",
+        name="AFC Champions League Two",
+        background_top=(10, 16, 34),
+        background_bottom=(14, 18, 42),
+        primary=(0, 160, 240),
+        secondary=(240, 185, 40),
+        highlight=(215, 240, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 225, 250),
+        panel_color=(18, 24, 46, 225),
+        panel_border=(0, 160, 240, 180),
+        pattern="champions_stars",
+        center_style="champions_divider",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 34. ASEAN Championship: Vibrant ruby red & ocean cyan
+    "asean-cup": CompetitionTheme(
+        competition_id="asean-cup",
+        name="ASEAN Championship",
+        background_top=(28, 12, 18),
+        background_bottom=(10, 20, 34),
+        primary=(235, 35, 60),
+        secondary=(0, 185, 220),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 215, 225),
+        panel_color=(28, 18, 26, 225),
+        panel_border=(235, 35, 60, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="flag_rounded_card"
+    ),
+
+    # 35. UEFA Youth League: UEFA electric cyan & star navy
+    "uefa-youth-league": CompetitionTheme(
+        competition_id="uefa-youth-league",
+        name="UEFA Youth League",
+        background_top=(8, 16, 38),
+        background_bottom=(12, 22, 50),
+        primary=(0, 210, 255),
+        secondary=(65, 105, 235),
+        highlight=(215, 245, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(190, 225, 250),
+        panel_color=(16, 26, 56, 225),
+        panel_border=(0, 210, 255, 180),
+        pattern="champions_stars",
+        center_style="champions_divider",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 36. Asian Games Men U23: Torch gold & jade green
+    "asian-games-men-u23": CompetitionTheme(
+        competition_id="asian-games-men-u23",
+        name="Asian Games Men U23",
+        background_top=(14, 24, 28),
+        background_bottom=(10, 16, 24),
+        primary=(245, 180, 30),
+        secondary=(0, 180, 130),
+        highlight=(255, 250, 215),
+        text_primary=(255, 255, 255),
+        text_secondary=(225, 240, 230),
+        panel_color=(18, 28, 30, 225),
+        panel_border=(245, 180, 30, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="flag_rounded_card"
+    ),
+
+    # 37. Asian Games Women: Torch gold & coral pink
+    "asian-games-women": CompetitionTheme(
+        competition_id="asian-games-women",
+        name="Asian Games Women",
+        background_top=(28, 14, 24),
+        background_bottom=(12, 12, 26),
+        primary=(255, 60, 115),
+        secondary=(245, 180, 30),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 215, 230),
+        panel_color=(30, 18, 28, 225),
+        panel_border=(255, 60, 115, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="flag_rounded_card"
+    ),
+
+    # 38. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

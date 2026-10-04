@@ -658,6 +658,60 @@
       },
       "last_updated": "2026-10-04T22:19:32.078449+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-12-1900-tenerife-girona.png"
+    },
+    {
+      "event_id": "la-liga-2-2026-10-16-1830-leganes-cordoba",
+      "competition": {
+        "id": "la-liga-2",
+        "name": "Spanish La Liga 2",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-16",
+      "match_date": "2026-10-16",
+      "match_date_utc": "2026-10-16",
+      "match_date_pkt": "2026-10-16",
+      "start_time_utc": "2026-10-16T18:30:00Z",
+      "start_time_pkt": "2026-10-16T23:30:00+05:00",
+      "start_timestamp": 1792175400,
+      "display_date": "2026-10-16",
+      "display_time": "11:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Leganés",
+        "slug": "leganes",
+        "espn_id": "17534",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/17534.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Leganés",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Córdoba",
+        "slug": "cordoba",
+        "espn_id": "8447",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8447.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Córdoba",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
+      },
+      "last_updated": "2026-10-04T22:08:35.534177+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-16-1830-leganes-cordoba.png"
     }
   ]
 }

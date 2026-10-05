@@ -1308,6 +1308,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "liga-profesional-argentina-preview",
+            "competition": {
+                "id": "liga-profesional-argentina",
+                "name": "Liga Profesional de Fútbol",
+                "round": "Fecha 15",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png"
+            },
+            "home_team": {"name": "Boca Juniors", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png"},
+            "away_team": {"name": "River Plate", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png"},
+            "match_date": "2026-10-18",
+            "match_date_pkt": "2026-10-18",
+            "display_date": "2026-10-18",
+            "display_time": "11:30 PM",
+            "start_time_utc": "2026-10-18T18:30:00Z",
+            "start_time_pkt": "2026-10-18T23:30:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

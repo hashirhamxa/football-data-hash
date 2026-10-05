@@ -755,7 +755,26 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="flag_rounded_card"
     ),
 
-    # 38. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 38. Liga Profesional de Fútbol (Argentina): Albiceleste sky blue & solar gold, midnight navy base
+    "liga-profesional-argentina": CompetitionTheme(
+        competition_id="liga-profesional-argentina",
+        name="Liga Profesional de Fútbol",
+        background_top=(10, 18, 38),
+        background_bottom=(16, 28, 54),
+        primary=(116, 172, 223),
+        secondary=(246, 180, 14),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 225, 250),
+        panel_color=(16, 26, 52, 225),
+        panel_border=(116, 172, 223, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 39. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

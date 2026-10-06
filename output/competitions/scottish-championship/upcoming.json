@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-06T00:33:34.832838+00:00",
+  "generated_at": "2026-10-06T22:52:44.764333+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 6,
+  "total_events": 7,
   "events": [
     {
       "event_id": "scottish-championship-2026-10-10-1400-arbroath-greenock-morton",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/scoreboard"
       },
-      "last_updated": "2026-10-06T00:31:20.246712+00:00",
+      "last_updated": "2026-10-06T22:51:16.729107+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-10-10-1400-arbroath-greenock-morton.png"
     },
     {
@@ -116,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/scoreboard"
       },
-      "last_updated": "2026-10-06T00:31:20.246712+00:00",
+      "last_updated": "2026-10-06T22:51:16.729107+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-10-10-1400-ayr-united-dunfermline-athletic.png"
     },
     {
@@ -170,7 +170,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/scoreboard"
       },
-      "last_updated": "2026-10-06T00:31:20.246712+00:00",
+      "last_updated": "2026-10-06T22:51:16.729107+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-10-10-1400-inverness-caledonian-thistle-stenhousemuir.png"
     },
     {
@@ -224,7 +224,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/scoreboard"
       },
-      "last_updated": "2026-10-06T00:31:20.246712+00:00",
+      "last_updated": "2026-10-06T22:51:16.729107+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-10-10-1400-livingston-partick-thistle.png"
     },
     {
@@ -278,7 +278,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/scoreboard"
       },
-      "last_updated": "2026-10-06T00:31:20.246712+00:00",
+      "last_updated": "2026-10-06T22:51:16.729107+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-10-10-1400-raith-rovers-queen-s-park.png"
     },
     {
@@ -332,8 +332,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/scoreboard"
       },
-      "last_updated": "2026-10-06T00:31:20.246712+00:00",
+      "last_updated": "2026-10-06T22:51:16.729107+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-10-13-1845-queen-s-park-inverness-caledonian-thistle.png"
+    },
+    {
+      "event_id": "scottish-championship-2026-10-16-1830-ayr-united-partick-thistle",
+      "competition": {
+        "id": "scottish-championship",
+        "name": "Scottish Championship",
+        "country": "Scotland",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-16",
+      "match_date": "2026-10-16",
+      "match_date_utc": "2026-10-16",
+      "match_date_pkt": "2026-10-16",
+      "start_time_utc": "2026-10-16T18:30:00Z",
+      "start_time_pkt": "2026-10-16T23:30:00+05:00",
+      "start_timestamp": 1792175400,
+      "display_date": "2026-10-16",
+      "display_time": "11:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Ayr United",
+        "slug": "ayr-united",
+        "espn_id": "248",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/248.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Ayr United",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Partick Thistle",
+        "slug": "partick-thistle",
+        "espn_id": "247",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/247.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Partick Thistle",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/scoreboard"
+      },
+      "last_updated": "2026-10-06T22:51:16.729107+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-10-16-1830-ayr-united-partick-thistle.png"
     }
   ]
 }

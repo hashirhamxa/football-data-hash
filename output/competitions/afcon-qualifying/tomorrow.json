@@ -7,10 +7,65 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-05T00:44:03.173762+00:00",
+  "generated_at": "2026-10-06T00:33:34.818425+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-10-06",
-  "target_day_name": "Tuesday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-10-07",
+  "target_day_name": "Wednesday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "afcon-qualifying-2026-10-06-1900-angola-malawi",
+      "competition": {
+        "id": "afcon-qualifying",
+        "name": "Africa Cup of Nations Qualifying",
+        "country": "Africa",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-06",
+      "match_date": "2026-10-06",
+      "match_date_utc": "2026-10-06",
+      "match_date_pkt": "2026-10-07",
+      "start_time_utc": "2026-10-06T19:00:00Z",
+      "start_time_pkt": "2026-10-07T00:00:00+05:00",
+      "start_timestamp": 1791313200,
+      "display_date": "2026-10-07",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Angola",
+        "slug": "angola",
+        "espn_id": "653",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ang.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Angola",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Malawi",
+        "slug": "malawi",
+        "espn_id": "4325",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/mwi.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Malawi",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/caf.nations_qual/scoreboard"
+      },
+      "last_updated": "2026-10-06T00:31:20.246712+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afcon-qualifying-2026-10-06-1900-angola-malawi.png"
+    }
+  ]
 }

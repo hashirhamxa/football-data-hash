@@ -1362,6 +1362,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "turkish-super-lig-preview",
+            "competition": {
+                "id": "turkish-super-lig",
+                "name": "Turkish Super Lig",
+                "round": "Hafta 9",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png"
+            },
+            "home_team": {"name": "Galatasaray", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"},
+            "away_team": {"name": "Fenerbahce", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png"},
+            "match_date": "2026-10-18",
+            "match_date_pkt": "2026-10-18",
+            "display_date": "2026-10-18",
+            "display_time": "09:00 PM",
+            "start_time_utc": "2026-10-18T16:00:00Z",
+            "start_time_pkt": "2026-10-18T21:00:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

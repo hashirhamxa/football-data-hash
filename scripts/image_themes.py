@@ -793,7 +793,26 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
-    # 40. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 40. Turkish Super Lig: Passionate crimson red & star gold / white, midnight obsidian base
+    "turkish-super-lig": CompetitionTheme(
+        competition_id="turkish-super-lig",
+        name="Turkish Super Lig",
+        background_top=(26, 8, 14),
+        background_bottom=(14, 10, 22),
+        primary=(227, 10, 23),
+        secondary=(255, 185, 30),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 210, 215),
+        panel_color=(28, 16, 20, 225),
+        panel_border=(227, 10, 23, 180),
+        pattern="laliga_radial_spectrum",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 41. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

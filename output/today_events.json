@@ -2,9 +2,766 @@
   "version": "1.1.0",
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "target_date_pkt": "2026-10-08",
-  "target_day_name": "Thursday",
-  "generated_at": "2026-10-08T18:55:15.606643+00:00",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-10-09",
+  "target_day_name": "Friday",
+  "generated_at": "2026-10-08T20:56:28.970109+00:00",
+  "total_events": 14,
+  "events": [
+    {
+      "event_id": "brazilian-serie-a-2026-10-08-2230-santos-flamengo",
+      "competition": {
+        "id": "brazilian-serie-a",
+        "name": "Brazilian Série A",
+        "country": "Brazil",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-08",
+      "match_date": "2026-10-08",
+      "match_date_utc": "2026-10-08",
+      "match_date_pkt": "2026-10-09",
+      "start_time_utc": "2026-10-08T22:30:00Z",
+      "start_time_pkt": "2026-10-09T03:30:00+05:00",
+      "start_timestamp": 1791498600,
+      "display_date": "2026-10-09",
+      "display_time": "03:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Santos",
+        "slug": "santos",
+        "espn_id": "2674",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Santos",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Flamengo",
+        "slug": "flamengo",
+        "espn_id": "819",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Flamengo",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard"
+      },
+      "last_updated": "2026-10-08T20:54:12.245924+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-10-08-2230-santos-flamengo.png"
+    },
+    {
+      "event_id": "brazilian-serie-a-2026-10-08-2300-athletico-pr-atletico-mg",
+      "competition": {
+        "id": "brazilian-serie-a",
+        "name": "Brazilian Série A",
+        "country": "Brazil",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-08",
+      "match_date": "2026-10-08",
+      "match_date_utc": "2026-10-08",
+      "match_date_pkt": "2026-10-09",
+      "start_time_utc": "2026-10-08T23:00:00Z",
+      "start_time_pkt": "2026-10-09T04:00:00+05:00",
+      "start_timestamp": 1791500400,
+      "display_date": "2026-10-09",
+      "display_time": "04:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Athletico-PR",
+        "slug": "athletico-pr",
+        "espn_id": "3458",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Athletico-PR",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Atlético-MG",
+        "slug": "atletico-mg",
+        "espn_id": "7632",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Atlético-MG",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard"
+      },
+      "last_updated": "2026-10-08T20:54:12.245924+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-10-08-2300-athletico-pr-atletico-mg.png"
+    },
+    {
+      "event_id": "brazilian-serie-a-2026-10-09-0030-fluminense-coritiba",
+      "competition": {
+        "id": "brazilian-serie-a",
+        "name": "Brazilian Série A",
+        "country": "Brazil",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-09",
+      "match_date": "2026-10-09",
+      "match_date_utc": "2026-10-09",
+      "match_date_pkt": "2026-10-09",
+      "start_time_utc": "2026-10-09T00:30:00Z",
+      "start_time_pkt": "2026-10-09T05:30:00+05:00",
+      "start_timestamp": 1791505800,
+      "display_date": "2026-10-09",
+      "display_time": "05:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Fluminense",
+        "slug": "fluminense",
+        "espn_id": "3445",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Fluminense",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Coritiba",
+        "slug": "coritiba",
+        "espn_id": "3456",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Coritiba",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard"
+      },
+      "last_updated": "2026-10-08T20:54:12.245924+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-10-09-0030-fluminense-coritiba.png"
+    },
+    {
+      "event_id": "brazilian-serie-a-2026-10-09-0030-palmeiras-bahia",
+      "competition": {
+        "id": "brazilian-serie-a",
+        "name": "Brazilian Série A",
+        "country": "Brazil",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-09",
+      "match_date": "2026-10-09",
+      "match_date_utc": "2026-10-09",
+      "match_date_pkt": "2026-10-09",
+      "start_time_utc": "2026-10-09T00:30:00Z",
+      "start_time_pkt": "2026-10-09T05:30:00+05:00",
+      "start_timestamp": 1791505800,
+      "display_date": "2026-10-09",
+      "display_time": "05:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Palmeiras",
+        "slug": "palmeiras",
+        "espn_id": "2029",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Palmeiras",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Bahia",
+        "slug": "bahia",
+        "espn_id": "9967",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Bahia",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard"
+      },
+      "last_updated": "2026-10-08T20:54:12.245924+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-10-09-0030-palmeiras-bahia.png"
+    },
+    {
+      "event_id": "saudi-pro-league-2026-10-09-1350-al-kholood-al-qadsiah",
+      "competition": {
+        "id": "saudi-pro-league",
+        "name": "Saudi Pro League",
+        "country": "Saudi Arabia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-09",
+      "match_date": "2026-10-09",
+      "match_date_utc": "2026-10-09",
+      "match_date_pkt": "2026-10-09",
+      "start_time_utc": "2026-10-09T13:50:00Z",
+      "start_time_pkt": "2026-10-09T18:50:00+05:00",
+      "start_timestamp": 1791553800,
+      "display_date": "2026-10-09",
+      "display_time": "06:50 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Al Kholood",
+        "slug": "al-kholood",
+        "espn_id": "22028",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22028.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Al Kholood",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Al Qadsiah",
+        "slug": "al-qadsiah",
+        "espn_id": "22022",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22022.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Al Qadsiah",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard"
+      },
+      "last_updated": "2026-10-08T20:54:12.245924+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-10-09-1350-al-kholood-al-qadsiah.png"
+    },
+    {
+      "event_id": "saudi-pro-league-2026-10-09-1455-al-fateh-al-ahli",
+      "competition": {
+        "id": "saudi-pro-league",
+        "name": "Saudi Pro League",
+        "country": "Saudi Arabia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-09",
+      "match_date": "2026-10-09",
+      "match_date_utc": "2026-10-09",
+      "match_date_pkt": "2026-10-09",
+      "start_time_utc": "2026-10-09T14:55:00Z",
+      "start_time_pkt": "2026-10-09T19:55:00+05:00",
+      "start_timestamp": 1791557700,
+      "display_date": "2026-10-09",
+      "display_time": "07:55 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Al Fateh",
+        "slug": "al-fateh",
+        "espn_id": "13033",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/13033.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Al Fateh",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Al Ahli",
+        "slug": "al-ahli",
+        "espn_id": "8346",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8346.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Al Ahli",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard"
+      },
+      "last_updated": "2026-10-08T20:54:12.245924+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-10-09-1455-al-fateh-al-ahli.png"
+    },
+    {
+      "event_id": "2-bundesliga-2026-10-09-1630-1-fc-heidenheim-1846-kaiserslautern",
+      "competition": {
+        "id": "2-bundesliga",
+        "name": "2. Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-09",
+      "match_date": "2026-10-09",
+      "match_date_utc": "2026-10-09",
+      "match_date_pkt": "2026-10-09",
+      "start_time_utc": "2026-10-09T16:30:00Z",
+      "start_time_pkt": "2026-10-09T21:30:00+05:00",
+      "start_timestamp": 1791563400,
+      "display_date": "2026-10-09",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "1. FC Heidenheim 1846",
+        "slug": "1-fc-heidenheim-1846",
+        "espn_id": "6418",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6418.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "1. FC Heidenheim 1846",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Kaiserslautern",
+        "slug": "kaiserslautern",
+        "espn_id": "130",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/130.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Kaiserslautern",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
+      },
+      "last_updated": "2026-10-08T20:54:12.245924+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-10-09-1630-1-fc-heidenheim-1846-kaiserslautern.png"
+    },
+    {
+      "event_id": "2-bundesliga-2026-10-09-1630-tsv-eintracht-braunschweig-holstein-kiel",
+      "competition": {
+        "id": "2-bundesliga",
+        "name": "2. Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-09",
+      "match_date": "2026-10-09",
+      "match_date_utc": "2026-10-09",
+      "match_date_pkt": "2026-10-09",
+      "start_time_utc": "2026-10-09T16:30:00Z",
+      "start_time_pkt": "2026-10-09T21:30:00+05:00",
+      "start_timestamp": 1791563400,
+      "display_date": "2026-10-09",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "TSV Eintracht Braunschweig",
+        "slug": "tsv-eintracht-braunschweig",
+        "espn_id": "3067",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3067.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "TSV Eintracht Braunschweig",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Holstein Kiel",
+        "slug": "holstein-kiel",
+        "espn_id": "7884",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7884.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Holstein Kiel",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
+      },
+      "last_updated": "2026-10-08T20:54:12.245924+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-10-09-1630-tsv-eintracht-braunschweig-holstein-kiel.png"
+    },
+    {
+      "event_id": "turkish-super-lig-2026-10-09-1700-galatasaray-kasimpasa",
+      "competition": {
+        "id": "turkish-super-lig",
+        "name": "Turkish Super Lig",
+        "country": "Turkey",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-09",
+      "match_date": "2026-10-09",
+      "match_date_utc": "2026-10-09",
+      "match_date_pkt": "2026-10-09",
+      "start_time_utc": "2026-10-09T17:00:00Z",
+      "start_time_pkt": "2026-10-09T22:00:00+05:00",
+      "start_timestamp": 1791565200,
+      "display_date": "2026-10-09",
+      "display_time": "10:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Galatasaray",
+        "slug": "galatasaray",
+        "espn_id": "432",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Galatasaray",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Kasimpasa",
+        "slug": "kasimpasa",
+        "espn_id": "6870",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Kasimpasa",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard"
+      },
+      "last_updated": "2026-10-08T20:54:12.245924+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-10-09-1700-galatasaray-kasimpasa.png"
+    },
+    {
+      "event_id": "liga-profesional-argentina-2026-10-09-1730-aldosivi-sarmiento-junin",
+      "competition": {
+        "id": "liga-profesional-argentina",
+        "name": "Liga Profesional de Fútbol",
+        "country": "Argentina",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-09",
+      "match_date": "2026-10-09",
+      "match_date_utc": "2026-10-09",
+      "match_date_pkt": "2026-10-09",
+      "start_time_utc": "2026-10-09T17:30:00Z",
+      "start_time_pkt": "2026-10-09T22:30:00+05:00",
+      "start_timestamp": 1791567000,
+      "display_date": "2026-10-09",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Aldosivi",
+        "slug": "aldosivi",
+        "espn_id": "9739",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9739.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Aldosivi",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Sarmiento (Junín)",
+        "slug": "sarmiento-junin",
+        "espn_id": "10158",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sarmiento (Junín)",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard"
+      },
+      "last_updated": "2026-10-08T20:54:12.245924+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-profesional-argentina-2026-10-09-1730-aldosivi-sarmiento-junin.png"
+    },
+    {
+      "event_id": "primeira-liga-2026-10-09-1745-moreirense-gil-vicente",
+      "competition": {
+        "id": "primeira-liga",
+        "name": "Portuguese Primeira Liga",
+        "country": "Portugal",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-09",
+      "match_date": "2026-10-09",
+      "match_date_utc": "2026-10-09",
+      "match_date_pkt": "2026-10-09",
+      "start_time_utc": "2026-10-09T17:45:00Z",
+      "start_time_pkt": "2026-10-09T22:45:00+05:00",
+      "start_timestamp": 1791567900,
+      "display_date": "2026-10-09",
+      "display_time": "10:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Moreirense",
+        "slug": "moreirense",
+        "espn_id": "3696",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3696.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Moreirense",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Gil Vicente",
+        "slug": "gil-vicente",
+        "espn_id": "3699",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3699.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Gil Vicente",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard"
+      },
+      "last_updated": "2026-10-08T20:54:12.245924+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-10-09-1745-moreirense-gil-vicente.png"
+    },
+    {
+      "event_id": "saudi-pro-league-2026-10-09-1800-al-nassr-al-diriyah",
+      "competition": {
+        "id": "saudi-pro-league",
+        "name": "Saudi Pro League",
+        "country": "Saudi Arabia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-09",
+      "match_date": "2026-10-09",
+      "match_date_utc": "2026-10-09",
+      "match_date_pkt": "2026-10-09",
+      "start_time_utc": "2026-10-09T18:00:00Z",
+      "start_time_pkt": "2026-10-09T23:00:00+05:00",
+      "start_timestamp": 1791568800,
+      "display_date": "2026-10-09",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Al Nassr",
+        "slug": "al-nassr",
+        "espn_id": "817",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/817.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Al Nassr",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Al Diriyah",
+        "slug": "al-diriyah",
+        "espn_id": "131746",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131746.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Al Diriyah",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard"
+      },
+      "last_updated": "2026-10-08T20:54:12.245924+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-10-09-1800-al-nassr-al-diriyah.png"
+    },
+    {
+      "event_id": "bundesliga-2026-10-09-1830-borussia-dortmund-werder-bremen",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-09",
+      "match_date": "2026-10-09",
+      "match_date_utc": "2026-10-09",
+      "match_date_pkt": "2026-10-09",
+      "start_time_utc": "2026-10-09T18:30:00Z",
+      "start_time_pkt": "2026-10-09T23:30:00+05:00",
+      "start_timestamp": 1791570600,
+      "display_date": "2026-10-09",
+      "display_time": "11:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Borussia Dortmund",
+        "slug": "borussia-dortmund",
+        "espn_id": "124",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Borussia Dortmund",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Werder Bremen",
+        "slug": "werder-bremen",
+        "espn_id": "137",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Werder Bremen",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
+      },
+      "last_updated": "2026-10-08T20:54:12.245924+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-10-09-1830-borussia-dortmund-werder-bremen.png"
+    },
+    {
+      "event_id": "ligue-1-2026-10-09-1845-lens-lyon",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-09",
+      "match_date": "2026-10-09",
+      "match_date_utc": "2026-10-09",
+      "match_date_pkt": "2026-10-09",
+      "start_time_utc": "2026-10-09T18:45:00Z",
+      "start_time_pkt": "2026-10-09T23:45:00+05:00",
+      "start_timestamp": 1791571500,
+      "display_date": "2026-10-09",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Lens",
+        "slug": "lens",
+        "espn_id": "175",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Lens",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Lyon",
+        "slug": "lyon",
+        "espn_id": "167",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Lyon",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
+      },
+      "last_updated": "2026-10-08T20:54:12.245924+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-09-1845-lens-lyon.png"
+    }
+  ]
 }

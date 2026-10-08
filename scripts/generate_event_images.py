@@ -1344,6 +1344,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "saudi-pro-league-preview",
+            "competition": {
+                "id": "saudi-pro-league",
+                "name": "Saudi Pro League",
+                "round": "Matchweek 6",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png"
+            },
+            "home_team": {"name": "Al Hilal", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7329.png"},
+            "away_team": {"name": "Al Nassr", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7333.png"},
+            "match_date": "2026-10-15",
+            "match_date_pkt": "2026-10-15",
+            "display_date": "2026-10-15",
+            "display_time": "11:00 PM",
+            "start_time_utc": "2026-10-15T18:00:00Z",
+            "start_time_pkt": "2026-10-15T23:00:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

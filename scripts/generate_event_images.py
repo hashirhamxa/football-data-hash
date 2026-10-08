@@ -1326,6 +1326,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "primeira-liga-preview",
+            "competition": {
+                "id": "primeira-liga",
+                "name": "Portuguese Primeira Liga",
+                "round": "Jornada 8",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+            },
+            "home_team": {"name": "Benfica", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png"},
+            "away_team": {"name": "FC Porto", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1920.png"},
+            "match_date": "2026-10-25",
+            "match_date_pkt": "2026-10-25",
+            "display_date": "2026-10-25",
+            "display_time": "01:00 AM",
+            "start_time_utc": "2026-10-24T20:00:00Z",
+            "start_time_pkt": "2026-10-25T01:00:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

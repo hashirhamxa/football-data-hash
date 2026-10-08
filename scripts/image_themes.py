@@ -774,7 +774,26 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
-    # 39. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 39. Portuguese Primeira Liga: Scarlet red & deep emerald / gold, midnight slate base
+    "primeira-liga": CompetitionTheme(
+        competition_id="primeira-liga",
+        name="Portuguese Primeira Liga",
+        background_top=(18, 12, 24),
+        background_bottom=(10, 22, 18),
+        primary=(230, 20, 40),
+        secondary=(0, 168, 110),
+        highlight=(255, 215, 60),
+        text_primary=(255, 255, 255),
+        text_secondary=(235, 215, 220),
+        panel_color=(24, 18, 26, 225),
+        panel_border=(230, 20, 40, 180),
+        pattern="laliga_radial_spectrum",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 40. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-08T23:38:30.801306+00:00",
+  "generated_at": "2026-10-09T23:02:03.085211+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-10-10",
-  "target_day_name": "Saturday",
-  "total_events": 5,
+  "target_date_pkt": "2026-10-11",
+  "target_day_name": "Sunday",
+  "total_events": 3,
   "events": [
     {
-      "event_id": "ligue-1-2026-10-10-1515-lille-le-havre-ac",
+      "event_id": "ligue-1-2026-10-11-1300-nice-strasbourg",
       "competition": {
         "id": "ligue-1",
         "name": "French Ligue 1",
@@ -24,38 +24,92 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-10",
-      "match_date": "2026-10-10",
-      "match_date_utc": "2026-10-10",
-      "match_date_pkt": "2026-10-10",
-      "start_time_utc": "2026-10-10T15:15:00Z",
-      "start_time_pkt": "2026-10-10T20:15:00+05:00",
-      "start_timestamp": 1791645300,
-      "display_date": "2026-10-10",
+      "source_date": "2026-10-11",
+      "match_date": "2026-10-11",
+      "match_date_utc": "2026-10-11",
+      "match_date_pkt": "2026-10-11",
+      "start_time_utc": "2026-10-11T13:00:00Z",
+      "start_time_pkt": "2026-10-11T18:00:00+05:00",
+      "start_timestamp": 1791723600,
+      "display_date": "2026-10-11",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Nice",
+        "slug": "nice",
+        "espn_id": "2502",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Nice",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Strasbourg",
+        "slug": "strasbourg",
+        "espn_id": "180",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Strasbourg",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
+      },
+      "last_updated": "2026-10-09T22:59:47.096450+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-11-1300-nice-strasbourg.png"
+    },
+    {
+      "event_id": "ligue-1-2026-10-11-1515-stade-rennais-aj-auxerre",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-11",
+      "match_date": "2026-10-11",
+      "match_date_utc": "2026-10-11",
+      "match_date_pkt": "2026-10-11",
+      "start_time_utc": "2026-10-11T15:15:00Z",
+      "start_time_pkt": "2026-10-11T20:15:00+05:00",
+      "start_timestamp": 1791731700,
+      "display_date": "2026-10-11",
       "display_time": "08:15 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Lille",
-        "slug": "lille",
-        "espn_id": "166",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+        "name": "Stade Rennais",
+        "slug": "stade-rennais",
+        "espn_id": "169",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Lille",
+          "matched_name": "Stade Rennais",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Le Havre AC",
-        "slug": "le-havre-ac",
-        "espn_id": "3236",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+        "name": "AJ Auxerre",
+        "slug": "aj-auxerre",
+        "espn_id": "172",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Le Havre AC",
+          "matched_name": "AJ Auxerre",
           "is_fallback": false
         }
       },
@@ -64,11 +118,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-10-08T23:37:03.497837+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-10-1515-lille-le-havre-ac.png"
+      "last_updated": "2026-10-09T22:59:47.096450+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-11-1515-stade-rennais-aj-auxerre.png"
     },
     {
-      "event_id": "ligue-1-2026-10-10-1845-as-monaco-toulouse",
+      "event_id": "ligue-1-2026-10-11-1845-troyes-marseille",
       "competition": {
         "id": "ligue-1",
         "name": "French Ligue 1",
@@ -78,38 +132,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-10",
-      "match_date": "2026-10-10",
-      "match_date_utc": "2026-10-10",
-      "match_date_pkt": "2026-10-10",
-      "start_time_utc": "2026-10-10T18:45:00Z",
-      "start_time_pkt": "2026-10-10T23:45:00+05:00",
-      "start_timestamp": 1791657900,
-      "display_date": "2026-10-10",
+      "source_date": "2026-10-11",
+      "match_date": "2026-10-11",
+      "match_date_utc": "2026-10-11",
+      "match_date_pkt": "2026-10-11",
+      "start_time_utc": "2026-10-11T18:45:00Z",
+      "start_time_pkt": "2026-10-11T23:45:00+05:00",
+      "start_timestamp": 1791744300,
+      "display_date": "2026-10-11",
       "display_time": "11:45 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "AS Monaco",
-        "slug": "as-monaco",
-        "espn_id": "174",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+        "name": "Troyes",
+        "slug": "troyes",
+        "espn_id": "170",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "AS Monaco",
+          "matched_name": "Troyes",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Toulouse",
-        "slug": "toulouse",
-        "espn_id": "179",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+        "name": "Marseille",
+        "slug": "marseille",
+        "espn_id": "176",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Toulouse",
+          "matched_name": "Marseille",
           "is_fallback": false
         }
       },
@@ -118,170 +172,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-10-08T23:37:03.497837+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-10-1845-as-monaco-toulouse.png"
-    },
-    {
-      "event_id": "ligue-1-2026-10-10-1845-brest-angers",
-      "competition": {
-        "id": "ligue-1",
-        "name": "French Ligue 1",
-        "country": "France",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-10",
-      "match_date": "2026-10-10",
-      "match_date_utc": "2026-10-10",
-      "match_date_pkt": "2026-10-10",
-      "start_time_utc": "2026-10-10T18:45:00Z",
-      "start_time_pkt": "2026-10-10T23:45:00+05:00",
-      "start_timestamp": 1791657900,
-      "display_date": "2026-10-10",
-      "display_time": "11:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Brest",
-        "slug": "brest",
-        "espn_id": "6997",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Brest",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Angers",
-        "slug": "angers",
-        "espn_id": "7868",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Angers",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
-      },
-      "last_updated": "2026-10-08T23:37:03.497837+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-10-1845-brest-angers.png"
-    },
-    {
-      "event_id": "ligue-1-2026-10-10-1845-lorient-paris-fc",
-      "competition": {
-        "id": "ligue-1",
-        "name": "French Ligue 1",
-        "country": "France",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-10",
-      "match_date": "2026-10-10",
-      "match_date_utc": "2026-10-10",
-      "match_date_pkt": "2026-10-10",
-      "start_time_utc": "2026-10-10T18:45:00Z",
-      "start_time_pkt": "2026-10-10T23:45:00+05:00",
-      "start_timestamp": 1791657900,
-      "display_date": "2026-10-10",
-      "display_time": "11:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Lorient",
-        "slug": "lorient",
-        "espn_id": "273",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Lorient",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Paris FC",
-        "slug": "paris-fc",
-        "espn_id": "6851",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Paris FC",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
-      },
-      "last_updated": "2026-10-08T23:37:03.497837+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-10-1845-lorient-paris-fc.png"
-    },
-    {
-      "event_id": "ligue-1-2026-10-10-1845-paris-saint-germain-le-mans",
-      "competition": {
-        "id": "ligue-1",
-        "name": "French Ligue 1",
-        "country": "France",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-10",
-      "match_date": "2026-10-10",
-      "match_date_utc": "2026-10-10",
-      "match_date_pkt": "2026-10-10",
-      "start_time_utc": "2026-10-10T18:45:00Z",
-      "start_time_pkt": "2026-10-10T23:45:00+05:00",
-      "start_timestamp": 1791657900,
-      "display_date": "2026-10-10",
-      "display_time": "11:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Paris Saint-Germain",
-        "slug": "paris-saint-germain",
-        "espn_id": "160",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Paris Saint-Germain",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Le Mans",
-        "slug": "le-mans",
-        "espn_id": "2697",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Le Mans",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
-      },
-      "last_updated": "2026-10-08T23:37:03.497837+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-10-1845-paris-saint-germain-le-mans.png"
+      "last_updated": "2026-10-09T22:59:47.096450+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-11-1845-troyes-marseille.png"
     }
   ]
 }

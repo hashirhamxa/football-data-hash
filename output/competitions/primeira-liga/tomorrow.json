@@ -7,68 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-08T23:38:30.822910+00:00",
+  "generated_at": "2026-10-09T23:02:03.117870+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-10-10",
-  "target_day_name": "Saturday",
+  "target_date_pkt": "2026-10-11",
+  "target_day_name": "Sunday",
   "total_events": 3,
   "events": [
     {
-      "event_id": "primeira-liga-2026-10-09-1915-braga-sporting-cp",
-      "competition": {
-        "id": "primeira-liga",
-        "name": "Portuguese Primeira Liga",
-        "country": "Portugal",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-09",
-      "match_date": "2026-10-09",
-      "match_date_utc": "2026-10-09",
-      "match_date_pkt": "2026-10-10",
-      "start_time_utc": "2026-10-09T19:15:00Z",
-      "start_time_pkt": "2026-10-10T00:15:00+05:00",
-      "start_timestamp": 1791573300,
-      "display_date": "2026-10-10",
-      "display_time": "12:15 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Braga",
-        "slug": "braga",
-        "espn_id": "2994",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Braga",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Sporting CP",
-        "slug": "sporting-cp",
-        "espn_id": "2250",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Sporting CP",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard"
-      },
-      "last_updated": "2026-10-08T23:37:03.497837+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-10-09-1915-braga-sporting-cp.png"
-    },
-    {
-      "event_id": "primeira-liga-2026-10-10-1430-casa-pia-santa-clara",
+      "event_id": "primeira-liga-2026-10-10-1930-academico-de-viseu-estoril",
       "competition": {
         "id": "primeira-liga",
         "name": "Portuguese Primeira Liga",
@@ -81,35 +27,89 @@
       "source_date": "2026-10-10",
       "match_date": "2026-10-10",
       "match_date_utc": "2026-10-10",
-      "match_date_pkt": "2026-10-10",
-      "start_time_utc": "2026-10-10T14:30:00Z",
-      "start_time_pkt": "2026-10-10T19:30:00+05:00",
-      "start_timestamp": 1791642600,
-      "display_date": "2026-10-10",
+      "match_date_pkt": "2026-10-11",
+      "start_time_utc": "2026-10-10T19:30:00Z",
+      "start_time_pkt": "2026-10-11T00:30:00+05:00",
+      "start_timestamp": 1791660600,
+      "display_date": "2026-10-11",
+      "display_time": "12:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Académico de Viseu",
+        "slug": "academico-de-viseu",
+        "espn_id": "21607",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21607.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Académico de Viseu",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Estoril",
+        "slug": "estoril",
+        "espn_id": "12216",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/12216.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Estoril",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard"
+      },
+      "last_updated": "2026-10-09T22:59:47.096450+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-10-10-1930-academico-de-viseu-estoril.png"
+    },
+    {
+      "event_id": "primeira-liga-2026-10-11-1430-rio-ave-c-d-nacional",
+      "competition": {
+        "id": "primeira-liga",
+        "name": "Portuguese Primeira Liga",
+        "country": "Portugal",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-11",
+      "match_date": "2026-10-11",
+      "match_date_utc": "2026-10-11",
+      "match_date_pkt": "2026-10-11",
+      "start_time_utc": "2026-10-11T14:30:00Z",
+      "start_time_pkt": "2026-10-11T19:30:00+05:00",
+      "start_timestamp": 1791729000,
+      "display_date": "2026-10-11",
       "display_time": "07:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Casa Pia",
-        "slug": "casa-pia",
-        "espn_id": "21581",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21581.png",
+        "name": "Rio Ave",
+        "slug": "rio-ave",
+        "espn_id": "3822",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3822.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Casa Pia",
+          "matched_name": "Rio Ave",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Santa Clara",
-        "slug": "santa-clara",
-        "espn_id": "12215",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/12215.png",
+        "name": "C.D. Nacional",
+        "slug": "c-d-nacional",
+        "espn_id": "3472",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3472.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Santa Clara",
+          "matched_name": "C.D. Nacional",
           "is_fallback": false
         }
       },
@@ -118,11 +118,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard"
       },
-      "last_updated": "2026-10-08T23:37:03.497837+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-10-10-1430-casa-pia-santa-clara.png"
+      "last_updated": "2026-10-09T22:59:47.096450+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-10-11-1430-rio-ave-c-d-nacional.png"
     },
     {
-      "event_id": "primeira-liga-2026-10-10-1700-maritimo-fc-porto",
+      "event_id": "primeira-liga-2026-10-11-1700-benfica-vitoria-de-guimaraes",
       "competition": {
         "id": "primeira-liga",
         "name": "Portuguese Primeira Liga",
@@ -132,38 +132,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-10",
-      "match_date": "2026-10-10",
-      "match_date_utc": "2026-10-10",
-      "match_date_pkt": "2026-10-10",
-      "start_time_utc": "2026-10-10T17:00:00Z",
-      "start_time_pkt": "2026-10-10T22:00:00+05:00",
-      "start_timestamp": 1791651600,
-      "display_date": "2026-10-10",
+      "source_date": "2026-10-11",
+      "match_date": "2026-10-11",
+      "match_date_utc": "2026-10-11",
+      "match_date_pkt": "2026-10-11",
+      "start_time_utc": "2026-10-11T17:00:00Z",
+      "start_time_pkt": "2026-10-11T22:00:00+05:00",
+      "start_timestamp": 1791738000,
+      "display_date": "2026-10-11",
       "display_time": "10:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Maritimo",
-        "slug": "maritimo",
-        "espn_id": "552",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/552.png",
+        "name": "Benfica",
+        "slug": "benfica",
+        "espn_id": "1929",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Maritimo",
+          "matched_name": "Benfica",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "FC Porto",
-        "slug": "fc-porto",
-        "espn_id": "437",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+        "name": "Vitória de Guimaraes",
+        "slug": "vitoria-de-guimaraes",
+        "espn_id": "5309",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5309.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "FC Porto",
+          "matched_name": "Vitória de Guimaraes",
           "is_fallback": false
         }
       },
@@ -172,8 +172,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard"
       },
-      "last_updated": "2026-10-08T23:37:03.497837+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-10-10-1700-maritimo-fc-porto.png"
+      "last_updated": "2026-10-09T22:59:47.096450+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-10-11-1700-benfica-vitoria-de-guimaraes.png"
     }
   ]
 }

@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-08T23:38:30.821798+00:00",
+  "generated_at": "2026-10-09T23:02:03.116059+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-10-09",
-  "target_day_name": "Friday",
-  "total_events": 1,
+  "target_date_pkt": "2026-10-10",
+  "target_day_name": "Saturday",
+  "total_events": 2,
   "events": [
     {
-      "event_id": "liga-profesional-argentina-2026-10-09-1730-aldosivi-sarmiento-junin",
+      "event_id": "liga-profesional-argentina-2026-10-10-0045-union-santa-fe-defensa-y-justicia",
       "competition": {
         "id": "liga-profesional-argentina",
         "name": "Liga Profesional de Fútbol",
@@ -24,38 +24,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-09",
-      "match_date": "2026-10-09",
-      "match_date_utc": "2026-10-09",
-      "match_date_pkt": "2026-10-09",
-      "start_time_utc": "2026-10-09T17:30:00Z",
-      "start_time_pkt": "2026-10-09T22:30:00+05:00",
-      "start_timestamp": 1791567000,
-      "display_date": "2026-10-09",
-      "display_time": "10:30 PM",
+      "source_date": "2026-10-10",
+      "match_date": "2026-10-10",
+      "match_date_utc": "2026-10-10",
+      "match_date_pkt": "2026-10-10",
+      "start_time_utc": "2026-10-10T00:45:00Z",
+      "start_time_pkt": "2026-10-10T05:45:00+05:00",
+      "start_timestamp": 1791593100,
+      "display_date": "2026-10-10",
+      "display_time": "05:45 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Aldosivi",
-        "slug": "aldosivi",
-        "espn_id": "9739",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9739.png",
+        "name": "Unión (Santa Fe)",
+        "slug": "union-santa-fe",
+        "espn_id": "20",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Aldosivi",
+          "matched_name": "Unión (Santa Fe)",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Sarmiento (Junín)",
-        "slug": "sarmiento-junin",
-        "espn_id": "10158",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
+        "name": "Defensa y Justicia",
+        "slug": "defensa-y-justicia",
+        "espn_id": "8950",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Sarmiento (Junín)",
+          "matched_name": "Defensa y Justicia",
           "is_fallback": false
         }
       },
@@ -64,8 +64,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard"
       },
-      "last_updated": "2026-10-08T23:37:03.497837+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-profesional-argentina-2026-10-09-1730-aldosivi-sarmiento-junin.png"
+      "last_updated": "2026-10-09T22:59:47.096450+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-profesional-argentina-2026-10-10-0045-union-santa-fe-defensa-y-justicia.png"
+    },
+    {
+      "event_id": "liga-profesional-argentina-2026-10-10-1845-barracas-central-huracan",
+      "competition": {
+        "id": "liga-profesional-argentina",
+        "name": "Liga Profesional de Fútbol",
+        "country": "Argentina",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-10",
+      "match_date": "2026-10-10",
+      "match_date_utc": "2026-10-10",
+      "match_date_pkt": "2026-10-10",
+      "start_time_utc": "2026-10-10T18:45:00Z",
+      "start_time_pkt": "2026-10-10T23:45:00+05:00",
+      "start_timestamp": 1791657900,
+      "display_date": "2026-10-10",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Barracas Central",
+        "slug": "barracas-central",
+        "espn_id": "10060",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Barracas Central",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Huracán",
+        "slug": "huracan",
+        "espn_id": "10",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/10.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Huracán",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard"
+      },
+      "last_updated": "2026-10-09T22:59:47.096450+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-profesional-argentina-2026-10-10-1845-barracas-central-huracan.png"
     }
   ]
 }

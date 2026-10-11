@@ -812,7 +812,44 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
-    # 41. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 41. Liga MX (Mexican Liga BBVA MX): Vibrant Mexican emerald green & Aztec crimson red over obsidian midnight jade
+    "liga-mx": CompetitionTheme(
+        competition_id="liga-mx",
+        name="Liga MX",
+        background_top=(10, 26, 20),
+        background_bottom=(6, 14, 28),
+        primary=(0, 168, 89),
+        secondary=(206, 17, 38),
+        highlight=(0, 230, 118),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 240, 215),
+        panel_color=(12, 28, 22, 225),
+        panel_border=(0, 168, 89, 180),
+        pattern="laliga_radial_spectrum",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "mexican-liga-bbva-mx": CompetitionTheme(
+        competition_id="liga-mx",
+        name="Liga MX",
+        background_top=(10, 26, 20),
+        background_bottom=(6, 14, 28),
+        primary=(0, 168, 89),
+        secondary=(206, 17, 38),
+        highlight=(0, 230, 118),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 240, 215),
+        panel_color=(12, 28, 22, 225),
+        panel_border=(0, 168, 89, 180),
+        pattern="laliga_radial_spectrum",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 42. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

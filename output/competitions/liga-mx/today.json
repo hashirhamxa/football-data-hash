@@ -1,0 +1,71 @@
+{
+  "version": "1.1.0",
+  "competition": {
+    "id": "liga-mx",
+    "name": "Mexican Liga BBVA MX",
+    "country": "Mexico"
+  },
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "generated_at": "2026-10-11T03:10:57.130371+00:00",
+  "feed_type": "today",
+  "target_date_pkt": "2026-10-11",
+  "target_day_name": "Sunday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "liga-mx-2026-10-11-0310-america-monterrey",
+      "competition": {
+        "id": "liga-mx",
+        "name": "Mexican Liga BBVA MX",
+        "country": "Mexico",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-11",
+      "match_date": "2026-10-11",
+      "match_date_utc": "2026-10-11",
+      "match_date_pkt": "2026-10-11",
+      "start_time_utc": "2026-10-11T03:10:00Z",
+      "start_time_pkt": "2026-10-11T08:10:00+05:00",
+      "start_timestamp": 1791688200,
+      "display_date": "2026-10-11",
+      "display_time": "08:10 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "América",
+        "slug": "america",
+        "espn_id": "227",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "América",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Monterrey",
+        "slug": "monterrey",
+        "espn_id": "220",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Monterrey",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard"
+      },
+      "last_updated": "2026-10-11T03:04:10.342435+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-10-11-0310-america-monterrey.png"
+    }
+  ]
+}

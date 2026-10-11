@@ -1380,6 +1380,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "liga-mx-preview",
+            "competition": {
+                "id": "liga-mx",
+                "name": "Liga MX",
+                "round": "Jornada 12",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png"
+            },
+            "home_team": {"name": "América", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png"},
+            "away_team": {"name": "Guadalajara", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/219.png"},
+            "match_date": "2026-10-18",
+            "match_date_pkt": "2026-10-19",
+            "display_date": "2026-10-19",
+            "display_time": "06:00 AM",
+            "start_time_utc": "2026-10-19T01:00:00Z",
+            "start_time_pkt": "2026-10-19T06:00:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

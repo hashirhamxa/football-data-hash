@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-11T03:30:38.749184+00:00",
+  "generated_at": "2026-10-11T22:39:00.705782+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 4,
+  "total_events": 6,
   "events": [
     {
       "event_id": "liga-f-2026-10-17-1000-dux-logrono-granada",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
       },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-17-1000-dux-logrono-granada.png"
     },
     {
@@ -116,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
       },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-17-1000-fc-badalona-cd-tenerife.png"
     },
     {
@@ -170,7 +170,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
       },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-17-1430-athletic-club-valencia.png"
     },
     {
@@ -224,8 +224,116 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
       },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-17-1830-real-madrid-espanyol.png"
+    },
+    {
+      "event_id": "liga-f-2026-10-18-1000-alaves-sevilla",
+      "competition": {
+        "id": "liga-f",
+        "name": "Spanish Liga F",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-18",
+      "match_date": "2026-10-18",
+      "match_date_utc": "2026-10-18",
+      "match_date_pkt": "2026-10-18",
+      "start_time_utc": "2026-10-18T10:00:00Z",
+      "start_time_pkt": "2026-10-18T15:00:00+05:00",
+      "start_timestamp": 1792317600,
+      "display_date": "2026-10-18",
+      "display_time": "03:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Alavés",
+        "slug": "alaves",
+        "espn_id": "21378",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21378.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Alavés",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Sevilla",
+        "slug": "sevilla",
+        "espn_id": "21424",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21424.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sevilla",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-18-1000-alaves-sevilla.png"
+    },
+    {
+      "event_id": "liga-f-2026-10-18-1000-real-sociedad-barcelona",
+      "competition": {
+        "id": "liga-f",
+        "name": "Spanish Liga F",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-18",
+      "match_date": "2026-10-18",
+      "match_date_utc": "2026-10-18",
+      "match_date_pkt": "2026-10-18",
+      "start_time_utc": "2026-10-18T10:00:00Z",
+      "start_time_pkt": "2026-10-18T15:00:00+05:00",
+      "start_timestamp": 1792317600,
+      "display_date": "2026-10-18",
+      "display_time": "03:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Real Sociedad",
+        "slug": "real-sociedad",
+        "espn_id": "21428",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21428.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Real Sociedad",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "espn_id": "20091",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20091.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Barcelona",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-18-1000-real-sociedad-barcelona.png"
     }
   ]
 }

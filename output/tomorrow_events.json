@@ -2,13 +2,13 @@
   "version": "1.1.0",
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "target_date_pkt": "2026-10-12",
-  "target_day_name": "Monday",
-  "generated_at": "2026-10-11T03:30:38.719601+00:00",
-  "total_events": 28,
+  "target_date_pkt": "2026-10-13",
+  "target_day_name": "Tuesday",
+  "generated_at": "2026-10-11T22:39:00.676972+00:00",
+  "total_events": 26,
   "events": [
     {
-      "event_id": "brazilian-serie-a-2026-10-11-1900-atletico-mg-santos",
+      "event_id": "brazilian-serie-a-2026-10-12-1900-coritiba-botafogo",
       "competition": {
         "id": "brazilian-serie-a",
         "name": "Brazilian Série A",
@@ -18,38 +18,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-11T19:00:00Z",
-      "start_time_pkt": "2026-10-12T00:00:00+05:00",
-      "start_timestamp": 1791745200,
-      "display_date": "2026-10-12",
+      "source_date": "2026-10-12",
+      "match_date": "2026-10-12",
+      "match_date_utc": "2026-10-12",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-12T19:00:00Z",
+      "start_time_pkt": "2026-10-13T00:00:00+05:00",
+      "start_timestamp": 1791831600,
+      "display_date": "2026-10-13",
       "display_time": "12:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Atlético-MG",
-        "slug": "atletico-mg",
-        "espn_id": "7632",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+        "name": "Coritiba",
+        "slug": "coritiba",
+        "espn_id": "3456",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Atlético-MG",
+          "matched_name": "Coritiba",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Santos",
-        "slug": "santos",
-        "espn_id": "2674",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+        "name": "Botafogo",
+        "slug": "botafogo",
+        "espn_id": "6086",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Santos",
+          "matched_name": "Botafogo",
           "is_fallback": false
         }
       },
@@ -58,11 +58,119 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard"
       },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-10-11-1900-atletico-mg-santos.png"
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-10-12-1900-coritiba-botafogo.png"
     },
     {
-      "event_id": "la-liga-2026-10-11-1900-racing-santander-valencia",
+      "event_id": "premier-league-2026-10-12-1900-coventry-city-newcastle-united",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-12",
+      "match_date": "2026-10-12",
+      "match_date_utc": "2026-10-12",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-12T19:00:00Z",
+      "start_time_pkt": "2026-10-13T00:00:00+05:00",
+      "start_timestamp": 1791831600,
+      "display_date": "2026-10-13",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Coventry City",
+        "slug": "coventry-city",
+        "espn_id": "388",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Coventry City",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Newcastle United",
+        "slug": "newcastle-united",
+        "espn_id": "361",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Newcastle United",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-10-12-1900-coventry-city-newcastle-united.png"
+    },
+    {
+      "event_id": "liga-profesional-argentina-2026-10-12-1900-lanus-velez-sarsfield",
+      "competition": {
+        "id": "liga-profesional-argentina",
+        "name": "Liga Profesional de Fútbol",
+        "country": "Argentina",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-12",
+      "match_date": "2026-10-12",
+      "match_date_utc": "2026-10-12",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-12T19:00:00Z",
+      "start_time_pkt": "2026-10-13T00:00:00+05:00",
+      "start_timestamp": 1791831600,
+      "display_date": "2026-10-13",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Lanús",
+        "slug": "lanus",
+        "espn_id": "12",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Lanús",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Vélez Sarsfield",
+        "slug": "velez-sarsfield",
+        "espn_id": "21",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Vélez Sarsfield",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-profesional-argentina-2026-10-12-1900-lanus-velez-sarsfield.png"
+    },
+    {
+      "event_id": "la-liga-2026-10-12-1900-levante-sevilla",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
@@ -72,38 +180,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-11T19:00:00Z",
-      "start_time_pkt": "2026-10-12T00:00:00+05:00",
-      "start_timestamp": 1791745200,
-      "display_date": "2026-10-12",
+      "source_date": "2026-10-12",
+      "match_date": "2026-10-12",
+      "match_date_utc": "2026-10-12",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-12T19:00:00Z",
+      "start_time_pkt": "2026-10-13T00:00:00+05:00",
+      "start_timestamp": 1791831600,
+      "display_date": "2026-10-13",
       "display_time": "12:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Racing Santander",
-        "slug": "racing-santander",
-        "espn_id": "87",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+        "name": "Levante",
+        "slug": "levante",
+        "espn_id": "1538",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Racing Santander",
+          "matched_name": "Levante",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Valencia",
-        "slug": "valencia",
-        "espn_id": "94",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+        "name": "Sevilla",
+        "slug": "sevilla",
+        "espn_id": "243",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Valencia",
+          "matched_name": "Sevilla",
           "is_fallback": false
         }
       },
@@ -112,11 +220,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-11-1900-racing-santander-valencia.png"
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-12-1900-levante-sevilla.png"
     },
     {
-      "event_id": "la-liga-2-2026-10-11-1900-cadiz-sporting-gijon",
+      "event_id": "la-liga-2-2026-10-12-1900-tenerife-girona",
       "competition": {
         "id": "la-liga-2",
         "name": "Spanish La Liga 2",
@@ -126,38 +234,38 @@
         "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-11T19:00:00Z",
-      "start_time_pkt": "2026-10-12T00:00:00+05:00",
-      "start_timestamp": 1791745200,
-      "display_date": "2026-10-12",
+      "source_date": "2026-10-12",
+      "match_date": "2026-10-12",
+      "match_date_utc": "2026-10-12",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-12T19:00:00Z",
+      "start_time_pkt": "2026-10-13T00:00:00+05:00",
+      "start_timestamp": 1791831600,
+      "display_date": "2026-10-13",
       "display_time": "12:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Cádiz",
-        "slug": "cadiz",
-        "espn_id": "3842",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3842.png",
+        "name": "Tenerife",
+        "slug": "tenerife",
+        "espn_id": "245",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/245.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Cádiz",
+          "matched_name": "Tenerife",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Sporting Gijón",
-        "slug": "sporting-gijon",
-        "espn_id": "3788",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3788.png",
+        "name": "Girona",
+        "slug": "girona",
+        "espn_id": "9812",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Sporting Gijón",
+          "matched_name": "Girona",
           "is_fallback": false
         }
       },
@@ -166,11 +274,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-11-1900-cadiz-sporting-gijon.png"
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-12-1900-tenerife-girona.png"
     },
     {
-      "event_id": "primeira-liga-2026-10-11-1930-arouca-estrela",
+      "event_id": "primeira-liga-2026-10-12-1915-fc-famalicao-alverca",
       "competition": {
         "id": "primeira-liga",
         "name": "Portuguese Primeira Liga",
@@ -180,38 +288,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-11T19:30:00Z",
-      "start_time_pkt": "2026-10-12T00:30:00+05:00",
-      "start_timestamp": 1791747000,
-      "display_date": "2026-10-12",
-      "display_time": "12:30 AM",
+      "source_date": "2026-10-12",
+      "match_date": "2026-10-12",
+      "match_date_utc": "2026-10-12",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-12T19:15:00Z",
+      "start_time_pkt": "2026-10-13T00:15:00+05:00",
+      "start_timestamp": 1791832500,
+      "display_date": "2026-10-13",
+      "display_time": "12:15 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Arouca",
-        "slug": "arouca",
-        "espn_id": "15784",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/15784.png",
+        "name": "FC Famalicao",
+        "slug": "fc-famalicao",
+        "espn_id": "12698",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/12698.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Arouca",
+          "matched_name": "FC Famalicao",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Estrela",
-        "slug": "estrela",
-        "espn_id": "21610",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21610.png",
+        "name": "Alverca",
+        "slug": "alverca",
+        "espn_id": "21613",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21613.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Estrela",
+          "matched_name": "Alverca",
           "is_fallback": false
         }
       },
@@ -220,11 +328,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard"
       },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-10-11-1930-arouca-estrela.png"
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-10-12-1915-fc-famalicao-alverca.png"
     },
     {
-      "event_id": "liga-profesional-argentina-2026-10-11-2000-platense-argentinos-juniors",
+      "event_id": "liga-profesional-argentina-2026-10-12-2130-gimnasia-mendoza-newell-s-old-boys",
       "competition": {
         "id": "liga-profesional-argentina",
         "name": "Liga Profesional de Fútbol",
@@ -234,38 +342,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-11T20:00:00Z",
-      "start_time_pkt": "2026-10-12T01:00:00+05:00",
-      "start_timestamp": 1791748800,
-      "display_date": "2026-10-12",
-      "display_time": "01:00 AM",
+      "source_date": "2026-10-12",
+      "match_date": "2026-10-12",
+      "match_date_utc": "2026-10-12",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-12T21:30:00Z",
+      "start_time_pkt": "2026-10-13T02:30:00+05:00",
+      "start_timestamp": 1791840600,
+      "display_date": "2026-10-13",
+      "display_time": "02:30 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Platense",
-        "slug": "platense",
-        "espn_id": "7764",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+        "name": "Gimnasia (Mendoza)",
+        "slug": "gimnasia-mendoza",
+        "espn_id": "11972",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Platense",
+          "matched_name": "Gimnasia (Mendoza)",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Argentinos Juniors",
-        "slug": "argentinos-juniors",
-        "espn_id": "3",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3.png",
+        "name": "Newell's Old Boys",
+        "slug": "newell-s-old-boys",
+        "espn_id": "14",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Argentinos Juniors",
+          "matched_name": "Newell's Old Boys",
           "is_fallback": false
         }
       },
@@ -274,65 +382,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard"
       },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-profesional-argentina-2026-10-11-2000-platense-argentinos-juniors.png"
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-profesional-argentina-2026-10-12-2130-gimnasia-mendoza-newell-s-old-boys.png"
     },
     {
-      "event_id": "liga-profesional-argentina-2026-10-11-2000-rosario-central-independiente-rivadavia",
-      "competition": {
-        "id": "liga-profesional-argentina",
-        "name": "Liga Profesional de Fútbol",
-        "country": "Argentina",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-11T20:00:00Z",
-      "start_time_pkt": "2026-10-12T01:00:00+05:00",
-      "start_timestamp": 1791748800,
-      "display_date": "2026-10-12",
-      "display_time": "01:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Rosario Central",
-        "slug": "rosario-central",
-        "espn_id": "17",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Rosario Central",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Independiente Rivadavia",
-        "slug": "independiente-rivadavia",
-        "espn_id": "9744",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Independiente Rivadavia",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-profesional-argentina-2026-10-11-2000-rosario-central-independiente-rivadavia.png"
-    },
-    {
-      "event_id": "brazilian-serie-a-2026-10-11-2030-flamengo-fluminense",
+      "event_id": "brazilian-serie-a-2026-10-12-2230-chapecoense-athletico-pr",
       "competition": {
         "id": "brazilian-serie-a",
         "name": "Brazilian Série A",
@@ -342,254 +396,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-11T20:30:00Z",
-      "start_time_pkt": "2026-10-12T01:30:00+05:00",
-      "start_timestamp": 1791750600,
-      "display_date": "2026-10-12",
-      "display_time": "01:30 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Flamengo",
-        "slug": "flamengo",
-        "espn_id": "819",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Flamengo",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Fluminense",
-        "slug": "fluminense",
-        "espn_id": "3445",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Fluminense",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-10-11-2030-flamengo-fluminense.png"
-    },
-    {
-      "event_id": "brazilian-serie-a-2026-10-11-2030-gremio-internacional",
-      "competition": {
-        "id": "brazilian-serie-a",
-        "name": "Brazilian Série A",
-        "country": "Brazil",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-11T20:30:00Z",
-      "start_time_pkt": "2026-10-12T01:30:00+05:00",
-      "start_timestamp": 1791750600,
-      "display_date": "2026-10-12",
-      "display_time": "01:30 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Grêmio",
-        "slug": "gremio",
-        "espn_id": "6273",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Grêmio",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Internacional",
-        "slug": "internacional",
-        "espn_id": "1936",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Internacional",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-10-11-2030-gremio-internacional.png"
-    },
-    {
-      "event_id": "brazilian-serie-a-2026-10-11-2030-palmeiras-corinthians",
-      "competition": {
-        "id": "brazilian-serie-a",
-        "name": "Brazilian Série A",
-        "country": "Brazil",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-11T20:30:00Z",
-      "start_time_pkt": "2026-10-12T01:30:00+05:00",
-      "start_timestamp": 1791750600,
-      "display_date": "2026-10-12",
-      "display_time": "01:30 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Palmeiras",
-        "slug": "palmeiras",
-        "espn_id": "2029",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Palmeiras",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Corinthians",
-        "slug": "corinthians",
-        "espn_id": "874",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Corinthians",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-10-11-2030-palmeiras-corinthians.png"
-    },
-    {
-      "event_id": "liga-profesional-argentina-2026-10-11-2215-racing-club-belgrano-cordoba",
-      "competition": {
-        "id": "liga-profesional-argentina",
-        "name": "Liga Profesional de Fútbol",
-        "country": "Argentina",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-11T22:15:00Z",
-      "start_time_pkt": "2026-10-12T03:15:00+05:00",
-      "start_timestamp": 1791756900,
-      "display_date": "2026-10-12",
-      "display_time": "03:15 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Racing Club",
-        "slug": "racing-club",
-        "espn_id": "15",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/15.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Racing Club",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Belgrano (Córdoba)",
-        "slug": "belgrano-cordoba",
-        "espn_id": "4",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Belgrano (Córdoba)",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-profesional-argentina-2026-10-11-2215-racing-club-belgrano-cordoba.png"
-    },
-    {
-      "event_id": "brazilian-serie-a-2026-10-11-2230-bahia-mirassol",
-      "competition": {
-        "id": "brazilian-serie-a",
-        "name": "Brazilian Série A",
-        "country": "Brazil",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-11T22:30:00Z",
-      "start_time_pkt": "2026-10-12T03:30:00+05:00",
-      "start_timestamp": 1791757800,
-      "display_date": "2026-10-12",
+      "source_date": "2026-10-12",
+      "match_date": "2026-10-12",
+      "match_date_utc": "2026-10-12",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-12T22:30:00Z",
+      "start_time_pkt": "2026-10-13T03:30:00+05:00",
+      "start_timestamp": 1791844200,
+      "display_date": "2026-10-13",
       "display_time": "03:30 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Bahia",
-        "slug": "bahia",
-        "espn_id": "9967",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+        "name": "Chapecoense",
+        "slug": "chapecoense",
+        "espn_id": "9318",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Bahia",
+          "matched_name": "Chapecoense",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Mirassol",
-        "slug": "mirassol",
-        "espn_id": "9169",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+        "name": "Athletico-PR",
+        "slug": "athletico-pr",
+        "espn_id": "3458",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Mirassol",
+          "matched_name": "Athletico-PR",
           "is_fallback": false
         }
       },
@@ -598,335 +436,65 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard"
       },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-10-11-2230-bahia-mirassol.png"
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-10-12-2230-chapecoense-athletico-pr.png"
     },
     {
-      "event_id": "mls-2026-10-11-2300-st-louis-city-sc-la-galaxy",
+      "event_id": "brazilian-serie-a-2026-10-13-0000-red-bull-bragantino-cruzeiro",
       "competition": {
-        "id": "mls",
-        "name": "Major League Soccer",
-        "country": "United States",
+        "id": "brazilian-serie-a",
+        "name": "Brazilian Série A",
+        "country": "Brazil",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-11T23:00:00Z",
-      "start_time_pkt": "2026-10-12T04:00:00+05:00",
-      "start_timestamp": 1791759600,
-      "display_date": "2026-10-12",
-      "display_time": "04:00 AM",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T00:00:00Z",
+      "start_time_pkt": "2026-10-13T05:00:00+05:00",
+      "start_timestamp": 1791849600,
+      "display_date": "2026-10-13",
+      "display_time": "05:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "St. Louis CITY SC",
-        "slug": "st-louis-city-sc",
-        "espn_id": "21812",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+        "name": "Red Bull Bragantino",
+        "slug": "red-bull-bragantino",
+        "espn_id": "6079",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "St. Louis CITY SC",
+          "matched_name": "Red Bull Bragantino",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "LA Galaxy",
-        "slug": "la-galaxy",
-        "espn_id": "187",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
+        "name": "Cruzeiro",
+        "slug": "cruzeiro",
+        "espn_id": "2022",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "LA Galaxy",
+          "matched_name": "Cruzeiro",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard"
       },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-10-11-2300-st-louis-city-sc-la-galaxy.png"
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-10-13-0000-red-bull-bragantino-cruzeiro.png"
     },
     {
-      "event_id": "liga-mx-2026-10-11-2300-atletico-de-san-luis-santos",
-      "competition": {
-        "id": "liga-mx",
-        "name": "Mexican Liga BBVA MX",
-        "country": "Mexico",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-11T23:00:00Z",
-      "start_time_pkt": "2026-10-12T04:00:00+05:00",
-      "start_timestamp": 1791759600,
-      "display_date": "2026-10-12",
-      "display_time": "04:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Atlético de San Luis",
-        "slug": "atletico-de-san-luis",
-        "espn_id": "15720",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Atlético de San Luis",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Santos",
-        "slug": "santos",
-        "espn_id": "225",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/225.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Santos",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-10-11-2300-atletico-de-san-luis-santos.png"
-    },
-    {
-      "event_id": "liga-mx-2026-10-11-2310-pachuca-necaxa",
-      "competition": {
-        "id": "liga-mx",
-        "name": "Mexican Liga BBVA MX",
-        "country": "Mexico",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-11",
-      "match_date": "2026-10-11",
-      "match_date_utc": "2026-10-11",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-11T23:10:00Z",
-      "start_time_pkt": "2026-10-12T04:10:00+05:00",
-      "start_timestamp": 1791760200,
-      "display_date": "2026-10-12",
-      "display_time": "04:10 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Pachuca",
-        "slug": "pachuca",
-        "espn_id": "234",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/234.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Pachuca",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Necaxa",
-        "slug": "necaxa",
-        "espn_id": "229",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/229.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Necaxa",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-10-11-2310-pachuca-necaxa.png"
-    },
-    {
-      "event_id": "liga-profesional-argentina-2026-10-12-0030-talleres-cordoba-independiente",
-      "competition": {
-        "id": "liga-profesional-argentina",
-        "name": "Liga Profesional de Fútbol",
-        "country": "Argentina",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-12",
-      "match_date": "2026-10-12",
-      "match_date_utc": "2026-10-12",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-12T00:30:00Z",
-      "start_time_pkt": "2026-10-12T05:30:00+05:00",
-      "start_timestamp": 1791765000,
-      "display_date": "2026-10-12",
-      "display_time": "05:30 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Talleres (Córdoba)",
-        "slug": "talleres-cordoba",
-        "espn_id": "19",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Talleres (Córdoba)",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Independiente",
-        "slug": "independiente",
-        "espn_id": "11",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Independiente",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-profesional-argentina-2026-10-12-0030-talleres-cordoba-independiente.png"
-    },
-    {
-      "event_id": "liga-mx-2026-10-12-0115-pumas-unam-cruz-azul",
-      "competition": {
-        "id": "liga-mx",
-        "name": "Mexican Liga BBVA MX",
-        "country": "Mexico",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-12",
-      "match_date": "2026-10-12",
-      "match_date_utc": "2026-10-12",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-12T01:15:00Z",
-      "start_time_pkt": "2026-10-12T06:15:00+05:00",
-      "start_timestamp": 1791767700,
-      "display_date": "2026-10-12",
-      "display_time": "06:15 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Pumas UNAM",
-        "slug": "pumas-unam",
-        "espn_id": "233",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/233.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Pumas UNAM",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Cruz Azul",
-        "slug": "cruz-azul",
-        "espn_id": "218",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Cruz Azul",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-10-12-0115-pumas-unam-cruz-azul.png"
-    },
-    {
-      "event_id": "la-liga-2-2026-10-12-1200-real-valladolid-albacete",
-      "competition": {
-        "id": "la-liga-2",
-        "name": "Spanish La Liga 2",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-12",
-      "match_date": "2026-10-12",
-      "match_date_utc": "2026-10-12",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-12T12:00:00Z",
-      "start_time_pkt": "2026-10-12T17:00:00+05:00",
-      "start_timestamp": 1791806400,
-      "display_date": "2026-10-12",
-      "display_time": "05:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Real Valladolid",
-        "slug": "real-valladolid",
-        "espn_id": "95",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/95.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Real Valladolid",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Albacete",
-        "slug": "albacete",
-        "espn_id": "2737",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2737.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Albacete",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-12-1200-real-valladolid-albacete.png"
-    },
-    {
-      "event_id": "afc-champions-league-elite-2026-10-12-1345-pakhtakor-tashkent-al-qadsiah",
+      "event_id": "afc-champions-league-elite-2026-10-13-0745-newcastle-jets-gamba-osaka",
       "competition": {
         "id": "afc-champions-league-elite",
         "name": "AFC Champions League Elite",
@@ -936,38 +504,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-12",
-      "match_date": "2026-10-12",
-      "match_date_utc": "2026-10-12",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-12T13:45:00Z",
-      "start_time_pkt": "2026-10-12T18:45:00+05:00",
-      "start_timestamp": 1791812700,
-      "display_date": "2026-10-12",
-      "display_time": "06:45 PM",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T07:45:00Z",
+      "start_time_pkt": "2026-10-13T12:45:00+05:00",
+      "start_timestamp": 1791877500,
+      "display_date": "2026-10-13",
+      "display_time": "12:45 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Pakhtakor Tashkent",
-        "slug": "pakhtakor-tashkent",
-        "espn_id": "7123",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/pakhtakor-tashkent.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Al Qadsiah",
-        "slug": "al-qadsiah",
-        "espn_id": "22022",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22022.png",
+        "name": "Newcastle Jets",
+        "slug": "newcastle-jets",
+        "espn_id": "5323",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5323.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Al Qadsiah",
+          "matched_name": "Newcastle Jets",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Gamba Osaka",
+        "slug": "gamba-osaka",
+        "espn_id": "7102",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7102.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Gamba Osaka",
           "is_fallback": false
         }
       },
@@ -976,65 +544,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard"
       },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-10-12-1345-pakhtakor-tashkent-al-qadsiah.png"
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-10-13-0745-newcastle-jets-gamba-osaka.png"
     },
     {
-      "event_id": "la-liga-2-2026-10-12-1415-burgos-granada",
-      "competition": {
-        "id": "la-liga-2",
-        "name": "Spanish La Liga 2",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-12",
-      "match_date": "2026-10-12",
-      "match_date_utc": "2026-10-12",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-12T14:15:00Z",
-      "start_time_pkt": "2026-10-12T19:15:00+05:00",
-      "start_timestamp": 1791814500,
-      "display_date": "2026-10-12",
-      "display_time": "07:15 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Burgos",
-        "slug": "burgos",
-        "espn_id": "12597",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/12597.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Burgos",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Granada",
-        "slug": "granada",
-        "espn_id": "3747",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3747.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Granada",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-12-1415-burgos-granada.png"
-    },
-    {
-      "event_id": "afc-champions-league-elite-2026-10-12-1600-al-wasl-al-ahli",
+      "event_id": "afc-champions-league-elite-2026-10-13-1000-kyoto-sanga-ratchaburi-fc",
       "competition": {
         "id": "afc-champions-league-elite",
         "name": "AFC Champions League Elite",
@@ -1044,38 +558,308 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-12",
-      "match_date": "2026-10-12",
-      "match_date_utc": "2026-10-12",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-12T16:00:00Z",
-      "start_time_pkt": "2026-10-12T21:00:00+05:00",
-      "start_timestamp": 1791820800,
-      "display_date": "2026-10-12",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T10:00:00Z",
+      "start_time_pkt": "2026-10-13T15:00:00+05:00",
+      "start_timestamp": 1791885600,
+      "display_date": "2026-10-13",
+      "display_time": "03:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Kyoto Sanga",
+        "slug": "kyoto-sanga",
+        "espn_id": "21361",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21361.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Kyoto Sanga",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Ratchaburi FC",
+        "slug": "ratchaburi-fc",
+        "espn_id": "17760",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/17760.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Ratchaburi FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-10-13-1000-kyoto-sanga-ratchaburi-fc.png"
+    },
+    {
+      "event_id": "afc-champions-league-elite-2026-10-13-1000-pohang-steelers-johor-darul-ta-zim",
+      "competition": {
+        "id": "afc-champions-league-elite",
+        "name": "AFC Champions League Elite",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T10:00:00Z",
+      "start_time_pkt": "2026-10-13T15:00:00+05:00",
+      "start_timestamp": 1791885600,
+      "display_date": "2026-10-13",
+      "display_time": "03:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Pohang Steelers",
+        "slug": "pohang-steelers",
+        "espn_id": "9693",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9693.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Pohang Steelers",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Johor Darul Ta'zim",
+        "slug": "johor-darul-ta-zim",
+        "espn_id": "17689",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/17689.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Johor Darul Ta'zim",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-10-13-1000-pohang-steelers-johor-darul-ta-zim.png"
+    },
+    {
+      "event_id": "afc-champions-league-elite-2026-10-13-1000-shanghai-port-daejeon-hana-citizen",
+      "competition": {
+        "id": "afc-champions-league-elite",
+        "name": "AFC Champions League Elite",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T10:00:00Z",
+      "start_time_pkt": "2026-10-13T15:00:00+05:00",
+      "start_timestamp": 1791885600,
+      "display_date": "2026-10-13",
+      "display_time": "03:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Shanghai Port",
+        "slug": "shanghai-port",
+        "espn_id": "15515",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/15515.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Shanghai Port",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Daejeon Hana Citizen",
+        "slug": "daejeon-hana-citizen",
+        "espn_id": "133171",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/daejeon-hana-citizen.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-10-13-1000-shanghai-port-daejeon-hana-citizen.png"
+    },
+    {
+      "event_id": "afc-champions-league-elite-2026-10-13-1215-buriram-united-beijing-guoan",
+      "competition": {
+        "id": "afc-champions-league-elite",
+        "name": "AFC Champions League Elite",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T12:15:00Z",
+      "start_time_pkt": "2026-10-13T17:15:00+05:00",
+      "start_timestamp": 1791893700,
+      "display_date": "2026-10-13",
+      "display_time": "05:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Buriram United",
+        "slug": "buriram-united",
+        "espn_id": "7138",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7138.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Buriram United",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "BEIJING GUOAN",
+        "slug": "beijing-guoan",
+        "espn_id": "2052",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2052.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "BEIJING GUOAN",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-10-13-1215-buriram-united-beijing-guoan.png"
+    },
+    {
+      "event_id": "afc-champions-league-elite-2026-10-13-1215-cong-an-hanoi-kashima-antlers",
+      "competition": {
+        "id": "afc-champions-league-elite",
+        "name": "AFC Champions League Elite",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T12:15:00Z",
+      "start_time_pkt": "2026-10-13T17:15:00+05:00",
+      "start_timestamp": 1791893700,
+      "display_date": "2026-10-13",
+      "display_time": "05:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Cong An Hanoi",
+        "slug": "cong-an-hanoi",
+        "espn_id": "131375",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/cong-an-hanoi.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Kashima Antlers",
+        "slug": "kashima-antlers",
+        "espn_id": "7115",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7115.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Kashima Antlers",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-10-13-1215-cong-an-hanoi-kashima-antlers.png"
+    },
+    {
+      "event_id": "afc-champions-league-elite-2026-10-13-1600-al-sadd-al-hilal",
+      "competition": {
+        "id": "afc-champions-league-elite",
+        "name": "AFC Champions League Elite",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T16:00:00Z",
+      "start_time_pkt": "2026-10-13T21:00:00+05:00",
+      "start_timestamp": 1791907200,
+      "display_date": "2026-10-13",
       "display_time": "09:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Al Wasl",
-        "slug": "al-wasl",
-        "espn_id": "8365",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8365.png",
+        "name": "AL SADD",
+        "slug": "al-sadd",
+        "espn_id": "7135",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7135.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Al Wasl",
+          "matched_name": "AL SADD",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Al Ahli",
-        "slug": "al-ahli",
-        "espn_id": "8346",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8346.png",
+        "name": "Al Hilal",
+        "slug": "al-hilal",
+        "espn_id": "929",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/929.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Al Ahli",
+          "matched_name": "Al Hilal",
           "is_fallback": false
         }
       },
@@ -1084,11 +868,119 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard"
       },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-10-12-1600-al-wasl-al-ahli.png"
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-10-13-1600-al-sadd-al-hilal.png"
     },
     {
-      "event_id": "afc-champions-league-elite-2026-10-12-1600-traktor-sazi-fc-al-shamal",
+      "event_id": "champions-league-2026-10-13-1645-lens-sporting-cp",
+      "competition": {
+        "id": "champions-league",
+        "name": "UEFA Champions League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T16:45:00Z",
+      "start_time_pkt": "2026-10-13T21:45:00+05:00",
+      "start_timestamp": 1791909900,
+      "display_date": "2026-10-13",
+      "display_time": "09:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Lens",
+        "slug": "lens",
+        "espn_id": "175",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Lens",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Sporting CP",
+        "slug": "sporting-cp",
+        "espn_id": "2250",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sporting CP",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-13-1645-lens-sporting-cp.png"
+    },
+    {
+      "event_id": "champions-league-2026-10-13-1645-sabah-fk-slavia-prague",
+      "competition": {
+        "id": "champions-league",
+        "name": "UEFA Champions League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T16:45:00Z",
+      "start_time_pkt": "2026-10-13T21:45:00+05:00",
+      "start_timestamp": 1791909900,
+      "display_date": "2026-10-13",
+      "display_time": "09:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Sabah FK",
+        "slug": "sabah-fk",
+        "espn_id": "21922",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sabah FK",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Slavia Prague",
+        "slug": "slavia-prague",
+        "espn_id": "494",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Slavia Prague",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-13-1645-sabah-fk-slavia-prague.png"
+    },
+    {
+      "event_id": "afc-champions-league-elite-2026-10-13-1815-al-ittihad-shabab-al-ahli",
       "competition": {
         "id": "afc-champions-league-elite",
         "name": "AFC Champions League Elite",
@@ -1098,250 +990,34 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-12",
-      "match_date": "2026-10-12",
-      "match_date_utc": "2026-10-12",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-12T16:00:00Z",
-      "start_time_pkt": "2026-10-12T21:00:00+05:00",
-      "start_timestamp": 1791820800,
-      "display_date": "2026-10-12",
-      "display_time": "09:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Traktor Sazi FC",
-        "slug": "traktor-sazi-fc",
-        "espn_id": "15107",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/traktor-sazi-fc.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "AL-SHAMAL",
-        "slug": "al-shamal",
-        "espn_id": "21575",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-shamal.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-10-12-1600-traktor-sazi-fc-al-shamal.png"
-    },
-    {
-      "event_id": "serie-a-2026-10-12-1630-atalanta-venezia",
-      "competition": {
-        "id": "serie-a",
-        "name": "Italian Serie A",
-        "country": "Italy",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-12",
-      "match_date": "2026-10-12",
-      "match_date_utc": "2026-10-12",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-12T16:30:00Z",
-      "start_time_pkt": "2026-10-12T21:30:00+05:00",
-      "start_timestamp": 1791822600,
-      "display_date": "2026-10-12",
-      "display_time": "09:30 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Atalanta",
-        "slug": "atalanta",
-        "espn_id": "105",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Atalanta",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Venezia",
-        "slug": "venezia",
-        "espn_id": "17530",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Venezia",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-12-1630-atalanta-venezia.png"
-    },
-    {
-      "event_id": "la-liga-2-2026-10-12-1630-real-oviedo-eibar",
-      "competition": {
-        "id": "la-liga-2",
-        "name": "Spanish La Liga 2",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-12",
-      "match_date": "2026-10-12",
-      "match_date_utc": "2026-10-12",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-12T16:30:00Z",
-      "start_time_pkt": "2026-10-12T21:30:00+05:00",
-      "start_timestamp": 1791822600,
-      "display_date": "2026-10-12",
-      "display_time": "09:30 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Real Oviedo",
-        "slug": "real-oviedo",
-        "espn_id": "92",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Real Oviedo",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Eibar",
-        "slug": "eibar",
-        "espn_id": "3752",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3752.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Eibar",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-12-1630-real-oviedo-eibar.png"
-    },
-    {
-      "event_id": "turkish-super-lig-2026-10-12-1700-eyupspor-goztepe",
-      "competition": {
-        "id": "turkish-super-lig",
-        "name": "Turkish Super Lig",
-        "country": "Turkey",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-12",
-      "match_date": "2026-10-12",
-      "match_date_utc": "2026-10-12",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-12T17:00:00Z",
-      "start_time_pkt": "2026-10-12T22:00:00+05:00",
-      "start_timestamp": 1791824400,
-      "display_date": "2026-10-12",
-      "display_time": "10:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Eyupspor",
-        "slug": "eyupspor",
-        "espn_id": "20729",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Eyupspor",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Goztepe",
-        "slug": "goztepe",
-        "espn_id": "789",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Goztepe",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-10-12-1700-eyupspor-goztepe.png"
-    },
-    {
-      "event_id": "afc-champions-league-elite-2026-10-12-1815-al-gharafa-al-gharafa-esteghlal",
-      "competition": {
-        "id": "afc-champions-league-elite",
-        "name": "AFC Champions League Elite",
-        "country": "Asia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-12",
-      "match_date": "2026-10-12",
-      "match_date_utc": "2026-10-12",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-12T18:15:00Z",
-      "start_time_pkt": "2026-10-12T23:15:00+05:00",
-      "start_timestamp": 1791828900,
-      "display_date": "2026-10-12",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T18:15:00Z",
+      "start_time_pkt": "2026-10-13T23:15:00+05:00",
+      "start_timestamp": 1791915300,
+      "display_date": "2026-10-13",
       "display_time": "11:15 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "AL GHARAFA AL GHARAFA",
-        "slug": "al-gharafa-al-gharafa",
-        "espn_id": "7129",
-        "logo_url": "https://a.espncdn.com/guid/a0ee48aa-0d67-c802-ac49-7492db10d894/logos/default.png",
+        "name": "Al Ittihad",
+        "slug": "al-ittihad",
+        "espn_id": "2276",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2276.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "AL GHARAFA AL GHARAFA",
+          "matched_name": "Al Ittihad",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Esteghlal",
-        "slug": "esteghlal",
-        "espn_id": "7525",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/esteghlal.png",
+        "name": "Shabab Al-Ahli",
+        "slug": "shabab-al-ahli",
+        "espn_id": "790",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/shabab-al-ahli.png",
         "logo_resolution": {
           "source": "fallback",
           "confidence": 0.0,
@@ -1354,170 +1030,386 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard"
       },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-10-12-1815-al-gharafa-al-gharafa-esteghlal.png"
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-10-13-1815-al-ittihad-shabab-al-ahli.png"
     },
     {
-      "event_id": "afc-champions-league-elite-2026-10-12-1815-al-nassr-neftchi-fergana",
+      "event_id": "championship-2026-10-13-1845-bristol-city-blackburn-rovers",
       "competition": {
-        "id": "afc-champions-league-elite",
-        "name": "AFC Champions League Elite",
-        "country": "Asia",
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-12",
-      "match_date": "2026-10-12",
-      "match_date_utc": "2026-10-12",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-12T18:15:00Z",
-      "start_time_pkt": "2026-10-12T23:15:00+05:00",
-      "start_timestamp": 1791828900,
-      "display_date": "2026-10-12",
-      "display_time": "11:15 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Al Nassr",
-        "slug": "al-nassr",
-        "espn_id": "817",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/817.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Al Nassr",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Neftchi Fergana",
-        "slug": "neftchi-fergana",
-        "espn_id": "7530",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/neftchi-fergana.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-10-12-1815-al-nassr-neftchi-fergana.png"
-    },
-    {
-      "event_id": "afc-champions-league-elite-2026-10-12-1815-al-quwa-al-jawiya-al-ain",
-      "competition": {
-        "id": "afc-champions-league-elite",
-        "name": "AFC Champions League Elite",
-        "country": "Asia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-12",
-      "match_date": "2026-10-12",
-      "match_date_utc": "2026-10-12",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-12T18:15:00Z",
-      "start_time_pkt": "2026-10-12T23:15:00+05:00",
-      "start_timestamp": 1791828900,
-      "display_date": "2026-10-12",
-      "display_time": "11:15 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Al-QUWA AL-JAWIYA",
-        "slug": "al-quwa-al-jawiya",
-        "espn_id": "20912",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-quwa-al-jawiya.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Al Ain",
-        "slug": "al-ain",
-        "espn_id": "7128",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7128.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Al Ain",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard"
-      },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-10-12-1815-al-quwa-al-jawiya-al-ain.png"
-    },
-    {
-      "event_id": "serie-a-2026-10-12-1845-torino-udinese",
-      "competition": {
-        "id": "serie-a",
-        "name": "Italian Serie A",
-        "country": "Italy",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-12",
-      "match_date": "2026-10-12",
-      "match_date_utc": "2026-10-12",
-      "match_date_pkt": "2026-10-12",
-      "start_time_utc": "2026-10-12T18:45:00Z",
-      "start_time_pkt": "2026-10-12T23:45:00+05:00",
-      "start_timestamp": 1791830700,
-      "display_date": "2026-10-12",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T18:45:00Z",
+      "start_time_pkt": "2026-10-13T23:45:00+05:00",
+      "start_timestamp": 1791917100,
+      "display_date": "2026-10-13",
       "display_time": "11:45 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Torino",
-        "slug": "torino",
-        "espn_id": "239",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+        "name": "Bristol City",
+        "slug": "bristol-city",
+        "espn_id": "333",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/333.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Torino",
+          "matched_name": "Bristol City",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Udinese",
-        "slug": "udinese",
-        "espn_id": "118",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+        "name": "Blackburn Rovers",
+        "slug": "blackburn-rovers",
+        "espn_id": "365",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Udinese",
+          "matched_name": "Blackburn Rovers",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
       },
-      "last_updated": "2026-10-11T03:28:18.908544+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-12-1845-torino-udinese.png"
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-13-1845-bristol-city-blackburn-rovers.png"
+    },
+    {
+      "event_id": "championship-2026-10-13-1845-burnley-charlton-athletic",
+      "competition": {
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T18:45:00Z",
+      "start_time_pkt": "2026-10-13T23:45:00+05:00",
+      "start_timestamp": 1791917100,
+      "display_date": "2026-10-13",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Burnley",
+        "slug": "burnley",
+        "espn_id": "379",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Burnley",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Charlton Athletic",
+        "slug": "charlton-athletic",
+        "espn_id": "372",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/372.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Charlton Athletic",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-13-1845-burnley-charlton-athletic.png"
+    },
+    {
+      "event_id": "championship-2026-10-13-1845-cardiff-city-watford",
+      "competition": {
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T18:45:00Z",
+      "start_time_pkt": "2026-10-13T23:45:00+05:00",
+      "start_timestamp": 1791917100,
+      "display_date": "2026-10-13",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Cardiff City",
+        "slug": "cardiff-city",
+        "espn_id": "347",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/347.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Cardiff City",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Watford",
+        "slug": "watford",
+        "espn_id": "395",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Watford",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-13-1845-cardiff-city-watford.png"
+    },
+    {
+      "event_id": "championship-2026-10-13-1845-millwall-swansea-city",
+      "competition": {
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T18:45:00Z",
+      "start_time_pkt": "2026-10-13T23:45:00+05:00",
+      "start_timestamp": 1791917100,
+      "display_date": "2026-10-13",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Millwall",
+        "slug": "millwall",
+        "espn_id": "391",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Millwall",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Swansea City",
+        "slug": "swansea-city",
+        "espn_id": "318",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/318.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Swansea City",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-13-1845-millwall-swansea-city.png"
+    },
+    {
+      "event_id": "championship-2026-10-13-1845-wolverhampton-wanderers-bolton-wanderers",
+      "competition": {
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T18:45:00Z",
+      "start_time_pkt": "2026-10-13T23:45:00+05:00",
+      "start_timestamp": 1791917100,
+      "display_date": "2026-10-13",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Wolverhampton Wanderers",
+        "slug": "wolverhampton-wanderers",
+        "espn_id": "380",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Wolverhampton Wanderers",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Bolton Wanderers",
+        "slug": "bolton-wanderers",
+        "espn_id": "358",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Bolton Wanderers",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-13-1845-wolverhampton-wanderers-bolton-wanderers.png"
+    },
+    {
+      "event_id": "championship-2026-10-13-1845-wrexham-west-bromwich-albion",
+      "competition": {
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T18:45:00Z",
+      "start_time_pkt": "2026-10-13T23:45:00+05:00",
+      "start_timestamp": 1791917100,
+      "display_date": "2026-10-13",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Wrexham",
+        "slug": "wrexham",
+        "espn_id": "352",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Wrexham",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "West Bromwich Albion",
+        "slug": "west-bromwich-albion",
+        "espn_id": "383",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "West Bromwich Albion",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-13-1845-wrexham-west-bromwich-albion.png"
+    },
+    {
+      "event_id": "scottish-championship-2026-10-13-1845-queen-s-park-inverness-caledonian-thistle",
+      "competition": {
+        "id": "scottish-championship",
+        "name": "Scottish Championship",
+        "country": "Scotland",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-13",
+      "match_date": "2026-10-13",
+      "match_date_utc": "2026-10-13",
+      "match_date_pkt": "2026-10-13",
+      "start_time_utc": "2026-10-13T18:45:00Z",
+      "start_time_pkt": "2026-10-13T23:45:00+05:00",
+      "start_timestamp": 1791917100,
+      "display_date": "2026-10-13",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Queen's Park",
+        "slug": "queen-s-park",
+        "espn_id": "422",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/422.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Queen's Park",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Inverness Caledonian Thistle",
+        "slug": "inverness-caledonian-thistle",
+        "espn_id": "253",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/253.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Inverness Caledonian Thistle",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/scoreboard"
+      },
+      "last_updated": "2026-10-11T22:36:46.835051+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-10-13-1845-queen-s-park-inverness-caledonian-thistle.png"
     }
   ]
 }

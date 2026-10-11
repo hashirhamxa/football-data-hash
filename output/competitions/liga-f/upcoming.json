@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-11T03:10:57.024654+00:00",
+  "generated_at": "2026-10-11T03:30:38.749184+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 3,
+  "total_events": 4,
   "events": [
     {
       "event_id": "liga-f-2026-10-17-1000-dux-logrono-granada",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
       },
-      "last_updated": "2026-10-11T03:04:10.342435+00:00",
+      "last_updated": "2026-10-11T03:28:18.908544+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-17-1000-dux-logrono-granada.png"
     },
     {
@@ -116,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
       },
-      "last_updated": "2026-10-11T03:04:10.342435+00:00",
+      "last_updated": "2026-10-11T03:28:18.908544+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-17-1000-fc-badalona-cd-tenerife.png"
     },
     {
@@ -170,8 +170,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
       },
-      "last_updated": "2026-10-11T03:04:10.342435+00:00",
+      "last_updated": "2026-10-11T03:28:18.908544+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-17-1430-athletic-club-valencia.png"
+    },
+    {
+      "event_id": "liga-f-2026-10-17-1830-real-madrid-espanyol",
+      "competition": {
+        "id": "liga-f",
+        "name": "Spanish Liga F",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-17",
+      "match_date": "2026-10-17",
+      "match_date_utc": "2026-10-17",
+      "match_date_pkt": "2026-10-17",
+      "start_time_utc": "2026-10-17T18:30:00Z",
+      "start_time_pkt": "2026-10-17T23:30:00+05:00",
+      "start_timestamp": 1792261800,
+      "display_date": "2026-10-17",
+      "display_time": "11:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Real Madrid",
+        "slug": "real-madrid",
+        "espn_id": "21128",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Real Madrid",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Espanyol",
+        "slug": "espanyol",
+        "espn_id": "21154",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21154.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Espanyol",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
+      },
+      "last_updated": "2026-10-11T03:28:18.908544+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-17-1830-real-madrid-espanyol.png"
     }
   ]
 }

@@ -904,7 +904,44 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
-    # 43. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 43. Colombian Primera A: Brilliant Colombian gold & Andean royal blue / passionate crimson, obsidian midnight base
+    "colombian-primera-a": CompetitionTheme(
+        competition_id="colombian-primera-a",
+        name="Colombian Primera A",
+        background_top=(12, 18, 38),
+        background_bottom=(8, 12, 26),
+        primary=(255, 205, 0),
+        secondary=(0, 68, 170),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(250, 235, 185),
+        panel_color=(14, 22, 44, 225),
+        panel_border=(255, 205, 0, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "primera-a": CompetitionTheme(
+        competition_id="colombian-primera-a",
+        name="Colombian Primera A",
+        background_top=(12, 18, 38),
+        background_bottom=(8, 12, 26),
+        primary=(255, 205, 0),
+        secondary=(0, 68, 170),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(250, 235, 185),
+        panel_color=(14, 22, 44, 225),
+        panel_border=(255, 205, 0, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 44. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

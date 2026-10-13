@@ -1416,6 +1416,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "colombian-primera-a-preview",
+            "competition": {
+                "id": "colombian-primera-a",
+                "name": "Colombian Primera A",
+                "round": "Fecha 15",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png"
+            },
+            "home_team": {"name": "Atlético Nacional", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png"},
+            "away_team": {"name": "América de Cali", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png"},
+            "match_date": "2026-10-18",
+            "match_date_pkt": "2026-10-19",
+            "display_date": "2026-10-19",
+            "display_time": "06:10 AM",
+            "start_time_utc": "2026-10-19T01:10:00Z",
+            "start_time_pkt": "2026-10-19T06:10:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

@@ -9,7 +9,7 @@
   "timezone_label": "PKT (UTC+05:00)",
   "generated_at": "2026-10-13T20:16:57.666766+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 16,
+  "total_events": 17,
   "events": [
     {
       "event_id": "championship-2026-10-14-1845-norwich-city-southampton",
@@ -874,6 +874,60 @@
       },
       "last_updated": "2026-10-13T20:12:24.569650+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-17-1400-wrexham-preston-north-end.png"
+    },
+    {
+      "event_id": "championship-2026-10-20-1845-wolverhampton-wanderers-portsmouth",
+      "competition": {
+        "id": "championship",
+        "name": "English Championship",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-20",
+      "match_date": "2026-10-20",
+      "match_date_utc": "2026-10-20",
+      "match_date_pkt": "2026-10-20",
+      "start_time_utc": "2026-10-20T18:45:00Z",
+      "start_time_pkt": "2026-10-20T23:45:00+05:00",
+      "start_timestamp": 1792521900,
+      "display_date": "2026-10-20",
+      "display_time": "11:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Wolverhampton Wanderers",
+        "slug": "wolverhampton-wanderers",
+        "espn_id": "380",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Wolverhampton Wanderers",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Portsmouth",
+        "slug": "portsmouth",
+        "espn_id": "385",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/385.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Portsmouth",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard"
+      },
+      "last_updated": "2026-10-13T19:36:51.495822+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/championship-2026-10-20-1845-wolverhampton-wanderers-portsmouth.png"
     }
   ]
 }

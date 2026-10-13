@@ -941,7 +941,62 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
-    # 44. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 44. CONMEBOL Libertadores: Iconic Trophy Gold & Obsidian Midnight Black / Platinum Highlights
+    "conmebol-libertadores": CompetitionTheme(
+        competition_id="conmebol-libertadores",
+        name="CONMEBOL Libertadores",
+        background_top=(16, 16, 20),
+        background_bottom=(8, 8, 12),
+        primary=(230, 185, 45),
+        secondary=(215, 220, 230),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 225, 175),
+        panel_color=(18, 18, 24, 225),
+        panel_border=(230, 185, 45, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "libertadores": CompetitionTheme(
+        competition_id="conmebol-libertadores",
+        name="CONMEBOL Libertadores",
+        background_top=(16, 16, 20),
+        background_bottom=(8, 8, 12),
+        primary=(230, 185, 45),
+        secondary=(215, 220, 230),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 225, 175),
+        panel_color=(18, 18, 24, 225),
+        panel_border=(230, 185, 45, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "copa-libertadores": CompetitionTheme(
+        competition_id="conmebol-libertadores",
+        name="CONMEBOL Libertadores",
+        background_top=(16, 16, 20),
+        background_bottom=(8, 8, 12),
+        primary=(230, 185, 45),
+        secondary=(215, 220, 230),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 225, 175),
+        panel_color=(18, 18, 24, 225),
+        panel_border=(230, 185, 45, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 45. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

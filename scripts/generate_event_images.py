@@ -1434,6 +1434,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "conmebol-libertadores-preview",
+            "competition": {
+                "id": "conmebol-libertadores",
+                "name": "CONMEBOL Libertadores",
+                "round": "Semifinals",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/58.png"
+            },
+            "home_team": {"name": "Fluminense", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"},
+            "away_team": {"name": "Palmeiras", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"},
+            "match_date": "2026-10-15",
+            "match_date_pkt": "2026-10-15",
+            "display_date": "2026-10-15",
+            "display_time": "05:30 AM",
+            "start_time_utc": "2026-10-15T00:30:00Z",
+            "start_time_pkt": "2026-10-15T05:30:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

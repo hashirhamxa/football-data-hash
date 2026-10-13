@@ -1,0 +1,123 @@
+{
+  "version": "1.1.0",
+  "competition": {
+    "id": "conmebol-sudamericana",
+    "name": "CONMEBOL Sudamericana",
+    "country": "South America"
+  },
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "generated_at": "2026-10-13T19:28:57.713217+00:00",
+  "feed_type": "upcoming_30_days",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "conmebol-sudamericana-2026-10-14-0030-boca-juniors-vasco-da-gama",
+      "competition": {
+        "id": "conmebol-sudamericana",
+        "name": "CONMEBOL Sudamericana",
+        "country": "South America",
+        "round": "1st Leg",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1208.png"
+      },
+      "round": "1st Leg",
+      "source_date": "2026-10-14",
+      "match_date": "2026-10-14",
+      "match_date_utc": "2026-10-14",
+      "match_date_pkt": "2026-10-14",
+      "start_time_utc": "2026-10-14T00:30:00Z",
+      "start_time_pkt": "2026-10-14T05:30:00+05:00",
+      "start_timestamp": 1791937800,
+      "display_date": "2026-10-14",
+      "display_time": "05:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Boca Juniors",
+        "slug": "boca-juniors",
+        "espn_id": "5",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Boca Juniors",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Vasco da Gama",
+        "slug": "vasco-da-gama",
+        "espn_id": "3454",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Vasco da Gama",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.sudamericana/scoreboard"
+      },
+      "last_updated": "2026-10-13T19:18:26.914864+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conmebol-sudamericana-2026-10-14-0030-boca-juniors-vasco-da-gama.png"
+    },
+    {
+      "event_id": "conmebol-sudamericana-2026-10-14-2200-atletico-mg-montevideo-city-torque",
+      "competition": {
+        "id": "conmebol-sudamericana",
+        "name": "CONMEBOL Sudamericana",
+        "country": "South America",
+        "round": "1st Leg",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1208.png"
+      },
+      "round": "1st Leg",
+      "source_date": "2026-10-14",
+      "match_date": "2026-10-14",
+      "match_date_utc": "2026-10-14",
+      "match_date_pkt": "2026-10-15",
+      "start_time_utc": "2026-10-14T22:00:00Z",
+      "start_time_pkt": "2026-10-15T03:00:00+05:00",
+      "start_timestamp": 1792015200,
+      "display_date": "2026-10-15",
+      "display_time": "03:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Atlético-MG",
+        "slug": "atletico-mg",
+        "espn_id": "7632",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Atlético-MG",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Montevideo City Torque",
+        "slug": "montevideo-city-torque",
+        "espn_id": "19002",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/19002.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Montevideo City Torque",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.sudamericana/scoreboard"
+      },
+      "last_updated": "2026-10-13T19:18:26.914864+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conmebol-sudamericana-2026-10-14-2200-atletico-mg-montevideo-city-torque.png"
+    }
+  ]
+}

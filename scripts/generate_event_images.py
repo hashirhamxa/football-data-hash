@@ -1398,6 +1398,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "conmebol-sudamericana-preview",
+            "competition": {
+                "id": "conmebol-sudamericana",
+                "name": "CONMEBOL Sudamericana",
+                "round": "Semifinals",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1208.png"
+            },
+            "home_team": {"name": "Boca Juniors", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png"},
+            "away_team": {"name": "Vasco da Gama", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"},
+            "match_date": "2026-10-21",
+            "match_date_pkt": "2026-10-21",
+            "display_date": "2026-10-21",
+            "display_time": "05:30 AM",
+            "start_time_utc": "2026-10-21T00:30:00Z",
+            "start_time_pkt": "2026-10-21T05:30:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

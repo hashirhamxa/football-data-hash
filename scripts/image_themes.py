@@ -849,7 +849,62 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
-    # 42. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 42. CONMEBOL Sudamericana: Deep midnight navy / electric royal blue & polished platinum silver
+    "conmebol-sudamericana": CompetitionTheme(
+        competition_id="conmebol-sudamericana",
+        name="CONMEBOL Sudamericana",
+        background_top=(8, 16, 36),
+        background_bottom=(14, 24, 48),
+        primary=(25, 115, 230),
+        secondary=(220, 225, 235),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(195, 215, 245),
+        panel_color=(14, 24, 48, 225),
+        panel_border=(25, 115, 230, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "sudamericana": CompetitionTheme(
+        competition_id="conmebol-sudamericana",
+        name="CONMEBOL Sudamericana",
+        background_top=(8, 16, 36),
+        background_bottom=(14, 24, 48),
+        primary=(25, 115, 230),
+        secondary=(220, 225, 235),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(195, 215, 245),
+        panel_color=(14, 24, 48, 225),
+        panel_border=(25, 115, 230, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "copa-sudamericana": CompetitionTheme(
+        competition_id="conmebol-sudamericana",
+        name="CONMEBOL Sudamericana",
+        background_top=(8, 16, 36),
+        background_bottom=(14, 24, 48),
+        primary=(25, 115, 230),
+        secondary=(220, 225, 235),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(195, 215, 245),
+        panel_color=(14, 24, 48, 225),
+        panel_border=(25, 115, 230, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 43. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

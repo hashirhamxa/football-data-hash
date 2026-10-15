@@ -4,8 +4,8 @@
   "timezone_label": "PKT (UTC+05:00)",
   "target_date_pkt": "2026-10-16",
   "target_day_name": "Friday",
-  "generated_at": "2026-10-15T20:20:17.018502+00:00",
-  "total_events": 6,
+  "generated_at": "2026-10-15T20:27:40.003696+00:00",
+  "total_events": 12,
   "events": [
     {
       "event_id": "copa-colombia-2026-10-15-2300-internacional-de-bogota-llaneros-fc",
@@ -58,8 +58,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.copa/scoreboard"
       },
-      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "last_updated": "2026-10-15T20:25:14.738589+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-colombia-2026-10-15-2300-internacional-de-bogota-llaneros-fc.png"
+    },
+    {
+      "event_id": "liga-profesional-argentina-2026-10-15-2300-huracan-gimnasia-la-plata",
+      "competition": {
+        "id": "liga-profesional-argentina",
+        "name": "Liga Profesional de Fútbol",
+        "country": "Argentina",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-15",
+      "match_date": "2026-10-15",
+      "match_date_utc": "2026-10-15",
+      "match_date_pkt": "2026-10-16",
+      "start_time_utc": "2026-10-15T23:00:00Z",
+      "start_time_pkt": "2026-10-16T04:00:00+05:00",
+      "start_timestamp": 1792105200,
+      "display_date": "2026-10-16",
+      "display_time": "04:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Huracán",
+        "slug": "huracan",
+        "espn_id": "10",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/10.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Huracán",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Gimnasia La Plata",
+        "slug": "gimnasia-la-plata",
+        "espn_id": "9",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Gimnasia La Plata",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:25:14.738589+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-profesional-argentina-2026-10-15-2300-huracan-gimnasia-la-plata.png"
     },
     {
       "event_id": "conmebol-libertadores-2026-10-16-0030-estudiantes-de-la-plata-flamengo",
@@ -112,8 +166,224 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores/scoreboard"
       },
-      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "last_updated": "2026-10-15T20:25:14.738589+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conmebol-libertadores-2026-10-16-0030-estudiantes-de-la-plata-flamengo.png"
+    },
+    {
+      "event_id": "saudi-pro-league-2026-10-16-1315-al-qadsiah-abha",
+      "competition": {
+        "id": "saudi-pro-league",
+        "name": "Saudi Pro League",
+        "country": "Saudi Arabia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-16",
+      "match_date": "2026-10-16",
+      "match_date_utc": "2026-10-16",
+      "match_date_pkt": "2026-10-16",
+      "start_time_utc": "2026-10-16T13:15:00Z",
+      "start_time_pkt": "2026-10-16T18:15:00+05:00",
+      "start_timestamp": 1792156500,
+      "display_date": "2026-10-16",
+      "display_time": "06:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Al Qadsiah",
+        "slug": "al-qadsiah",
+        "espn_id": "22022",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22022.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Al Qadsiah",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Abha",
+        "slug": "abha",
+        "espn_id": "21833",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21833.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Abha",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:25:14.738589+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-10-16-1315-al-qadsiah-abha.png"
+    },
+    {
+      "event_id": "2-bundesliga-2026-10-16-1630-energie-cottbus-1-fc-nurnberg",
+      "competition": {
+        "id": "2-bundesliga",
+        "name": "2. Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-16",
+      "match_date": "2026-10-16",
+      "match_date_utc": "2026-10-16",
+      "match_date_pkt": "2026-10-16",
+      "start_time_utc": "2026-10-16T16:30:00Z",
+      "start_time_pkt": "2026-10-16T21:30:00+05:00",
+      "start_timestamp": 1792168200,
+      "display_date": "2026-10-16",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Energie Cottbus",
+        "slug": "energie-cottbus",
+        "espn_id": "123",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/123.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Energie Cottbus",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "1. FC Nürnberg",
+        "slug": "1-fc-nurnberg",
+        "espn_id": "269",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/269.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "1. FC Nürnberg",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:25:14.738589+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-10-16-1630-energie-cottbus-1-fc-nurnberg.png"
+    },
+    {
+      "event_id": "2-bundesliga-2026-10-16-1630-holstein-kiel-hertha-berlin",
+      "competition": {
+        "id": "2-bundesliga",
+        "name": "2. Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-16",
+      "match_date": "2026-10-16",
+      "match_date_utc": "2026-10-16",
+      "match_date_pkt": "2026-10-16",
+      "start_time_utc": "2026-10-16T16:30:00Z",
+      "start_time_pkt": "2026-10-16T21:30:00+05:00",
+      "start_timestamp": 1792168200,
+      "display_date": "2026-10-16",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Holstein Kiel",
+        "slug": "holstein-kiel",
+        "espn_id": "7884",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7884.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Holstein Kiel",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Hertha Berlin",
+        "slug": "hertha-berlin",
+        "espn_id": "129",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/129.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Hertha Berlin",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:25:14.738589+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-10-16-1630-holstein-kiel-hertha-berlin.png"
+    },
+    {
+      "event_id": "turkish-super-lig-2026-10-16-1700-corum-fk-caykur-rizespor",
+      "competition": {
+        "id": "turkish-super-lig",
+        "name": "Turkish Super Lig",
+        "country": "Turkey",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-16",
+      "match_date": "2026-10-16",
+      "match_date_utc": "2026-10-16",
+      "match_date_pkt": "2026-10-16",
+      "start_time_utc": "2026-10-16T17:00:00Z",
+      "start_time_pkt": "2026-10-16T22:00:00+05:00",
+      "start_timestamp": 1792170000,
+      "display_date": "2026-10-16",
+      "display_time": "10:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Çorum FK",
+        "slug": "corum-fk",
+        "espn_id": "132334",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Çorum FK",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Caykur Rizespor",
+        "slug": "caykur-rizespor",
+        "espn_id": "7656",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Caykur Rizespor",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:25:14.738589+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-10-16-1700-corum-fk-caykur-rizespor.png"
     },
     {
       "event_id": "bundesliga-2026-10-16-1830-eintracht-frankfurt-fc-cologne",
@@ -166,8 +436,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
       },
-      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "last_updated": "2026-10-15T20:25:14.738589+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-10-16-1830-eintracht-frankfurt-fc-cologne.png"
+    },
+    {
+      "event_id": "scottish-championship-2026-10-16-1830-ayr-united-partick-thistle",
+      "competition": {
+        "id": "scottish-championship",
+        "name": "Scottish Championship",
+        "country": "Scotland",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-16",
+      "match_date": "2026-10-16",
+      "match_date_utc": "2026-10-16",
+      "match_date_pkt": "2026-10-16",
+      "start_time_utc": "2026-10-16T18:30:00Z",
+      "start_time_pkt": "2026-10-16T23:30:00+05:00",
+      "start_timestamp": 1792175400,
+      "display_date": "2026-10-16",
+      "display_time": "11:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Ayr United",
+        "slug": "ayr-united",
+        "espn_id": "248",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/248.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Ayr United",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Partick Thistle",
+        "slug": "partick-thistle",
+        "espn_id": "247",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/247.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Partick Thistle",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:25:14.738589+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-10-16-1830-ayr-united-partick-thistle.png"
     },
     {
       "event_id": "la-liga-2-2026-10-16-1830-leganes-cordoba",
@@ -220,7 +544,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "last_updated": "2026-10-15T20:25:14.738589+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-16-1830-leganes-cordoba.png"
     },
     {
@@ -274,7 +598,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "last_updated": "2026-10-15T20:25:14.738589+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-16-1845-le-mans-toulouse.png"
     },
     {
@@ -328,7 +652,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
       },
-      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "last_updated": "2026-10-15T20:25:14.738589+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-16-1845-frosinone-sassuolo.png"
     }
   ]

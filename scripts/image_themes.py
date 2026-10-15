@@ -996,7 +996,62 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
-    # 45. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 45. Copa Colombia: Electric Andean Navy Blue & Colombian Gold / Crimson Accents
+    "copa-colombia": CompetitionTheme(
+        competition_id="copa-colombia",
+        name="Copa Colombia",
+        background_top=(10, 18, 38),
+        background_bottom=(6, 12, 26),
+        primary=(0, 110, 220),
+        secondary=(255, 205, 0),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 225, 175),
+        panel_color=(12, 22, 44, 225),
+        panel_border=(0, 110, 220, 185),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "copa-betplay": CompetitionTheme(
+        competition_id="copa-colombia",
+        name="Copa Colombia",
+        background_top=(10, 18, 38),
+        background_bottom=(6, 12, 26),
+        primary=(0, 110, 220),
+        secondary=(255, 205, 0),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 225, 175),
+        panel_color=(12, 22, 44, 225),
+        panel_border=(0, 110, 220, 185),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "copa-betplay-dimayor": CompetitionTheme(
+        competition_id="copa-colombia",
+        name="Copa Colombia",
+        background_top=(10, 18, 38),
+        background_bottom=(6, 12, 26),
+        primary=(0, 110, 220),
+        secondary=(255, 205, 0),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 225, 175),
+        panel_color=(12, 22, 44, 225),
+        panel_border=(0, 110, 220, 185),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 46. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

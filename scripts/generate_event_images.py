@@ -1452,6 +1452,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "copa-colombia-preview",
+            "competition": {
+                "id": "copa-colombia",
+                "name": "Copa Colombia",
+                "round": "Quarterfinals",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2332.png"
+            },
+            "home_team": {"name": "Barranquilla FC", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/17373.png"},
+            "away_team": {"name": "América de Cali", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png"},
+            "match_date": "2026-10-21",
+            "match_date_pkt": "2026-10-21",
+            "display_date": "2026-10-21",
+            "display_time": "11:00 PM",
+            "start_time_utc": "2026-10-21T18:00:00Z",
+            "start_time_pkt": "2026-10-21T23:00:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

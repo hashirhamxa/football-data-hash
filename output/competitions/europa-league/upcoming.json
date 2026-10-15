@@ -7,12 +7,12 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-14T22:02:34.060832+00:00",
+  "generated_at": "2026-10-15T20:20:17.451111+00:00",
   "feed_type": "upcoming_30_days",
   "total_events": 18,
   "events": [
     {
-      "event_id": "europa-league-2026-10-15-1645-az-alkmaar-hapoel-be-er",
+      "event_id": "europa-league-2026-10-22-1645-ararat-armenia-az-alkmaar",
       "competition": {
         "id": "europa-league",
         "name": "UEFA Europa League",
@@ -22,18 +22,30 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-15",
-      "start_time_utc": "2026-10-15T16:45:00Z",
-      "start_time_pkt": "2026-10-15T21:45:00+05:00",
-      "start_timestamp": 1792082700,
-      "display_date": "2026-10-15",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-22",
+      "start_time_utc": "2026-10-22T16:45:00Z",
+      "start_time_pkt": "2026-10-22T21:45:00+05:00",
+      "start_timestamp": 1792687500,
+      "display_date": "2026-10-22",
       "display_time": "09:45 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
+        "name": "Ararat-Armenia",
+        "slug": "ararat-armenia",
+        "espn_id": "20024",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Ararat-Armenia",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
         "name": "AZ Alkmaar",
         "slug": "az-alkmaar",
         "espn_id": "140",
@@ -45,28 +57,16 @@
           "is_fallback": false
         }
       },
-      "away_team": {
-        "name": "Hapoel Be'er",
-        "slug": "hapoel-be-er",
-        "espn_id": "13083",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Hapoel Be'er",
-          "is_fallback": false
-        }
-      },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1645-az-alkmaar-hapoel-be-er.png"
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1645-ararat-armenia-az-alkmaar.png"
     },
     {
-      "event_id": "europa-league-2026-10-15-1645-lech-poznan-bayer-leverkusen",
+      "event_id": "europa-league-2026-10-22-1645-dinamo-zagreb-nec-nijmegen",
       "competition": {
         "id": "europa-league",
         "name": "UEFA Europa League",
@@ -76,14 +76,176 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-15",
-      "start_time_utc": "2026-10-15T16:45:00Z",
-      "start_time_pkt": "2026-10-15T21:45:00+05:00",
-      "start_timestamp": 1792082700,
-      "display_date": "2026-10-15",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-22",
+      "start_time_utc": "2026-10-22T16:45:00Z",
+      "start_time_pkt": "2026-10-22T21:45:00+05:00",
+      "start_timestamp": 1792687500,
+      "display_date": "2026-10-22",
+      "display_time": "09:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Dinamo Zagreb",
+        "slug": "dinamo-zagreb",
+        "espn_id": "597",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Dinamo Zagreb",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "NEC Nijmegen",
+        "slug": "nec-nijmegen",
+        "espn_id": "147",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "NEC Nijmegen",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1645-dinamo-zagreb-nec-nijmegen.png"
+    },
+    {
+      "event_id": "europa-league-2026-10-22-1645-ferencvaros-torreense",
+      "competition": {
+        "id": "europa-league",
+        "name": "UEFA Europa League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-22",
+      "start_time_utc": "2026-10-22T16:45:00Z",
+      "start_time_pkt": "2026-10-22T21:45:00+05:00",
+      "start_timestamp": 1792687500,
+      "display_date": "2026-10-22",
+      "display_time": "09:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Ferencvaros",
+        "slug": "ferencvaros",
+        "espn_id": "622",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Ferencvaros",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Torreense",
+        "slug": "torreense",
+        "espn_id": "21615",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Torreense",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1645-ferencvaros-torreense.png"
+    },
+    {
+      "event_id": "europa-league-2026-10-22-1645-juventus-stade-rennais",
+      "competition": {
+        "id": "europa-league",
+        "name": "UEFA Europa League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-22",
+      "start_time_utc": "2026-10-22T16:45:00Z",
+      "start_time_pkt": "2026-10-22T21:45:00+05:00",
+      "start_timestamp": 1792687500,
+      "display_date": "2026-10-22",
+      "display_time": "09:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Juventus",
+        "slug": "juventus",
+        "espn_id": "111",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Juventus",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Stade Rennais",
+        "slug": "stade-rennais",
+        "espn_id": "169",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Stade Rennais",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1645-juventus-stade-rennais.png"
+    },
+    {
+      "event_id": "europa-league-2026-10-22-1645-lech-poznan-sunderland",
+      "competition": {
+        "id": "europa-league",
+        "name": "UEFA Europa League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-22",
+      "start_time_utc": "2026-10-22T16:45:00Z",
+      "start_time_pkt": "2026-10-22T21:45:00+05:00",
+      "start_timestamp": 1792687500,
+      "display_date": "2026-10-22",
       "display_time": "09:45 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
@@ -96,276 +258,6 @@
           "source": "espn_direct",
           "confidence": 1.0,
           "matched_name": "Lech Poznan",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Bayer Leverkusen",
-        "slug": "bayer-leverkusen",
-        "espn_id": "131",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Bayer Leverkusen",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
-      },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1645-lech-poznan-bayer-leverkusen.png"
-    },
-    {
-      "event_id": "europa-league-2026-10-15-1645-lyon-crystal-palace",
-      "competition": {
-        "id": "europa-league",
-        "name": "UEFA Europa League",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-15",
-      "start_time_utc": "2026-10-15T16:45:00Z",
-      "start_time_pkt": "2026-10-15T21:45:00+05:00",
-      "start_timestamp": 1792082700,
-      "display_date": "2026-10-15",
-      "display_time": "09:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Lyon",
-        "slug": "lyon",
-        "espn_id": "167",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Lyon",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Crystal Palace",
-        "slug": "crystal-palace",
-        "espn_id": "384",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Crystal Palace",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
-      },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1645-lyon-crystal-palace.png"
-    },
-    {
-      "event_id": "europa-league-2026-10-15-1645-nk-celje-omonia-nicosia",
-      "competition": {
-        "id": "europa-league",
-        "name": "UEFA Europa League",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-15",
-      "start_time_utc": "2026-10-15T16:45:00Z",
-      "start_time_pkt": "2026-10-15T21:45:00+05:00",
-      "start_timestamp": 1792082700,
-      "display_date": "2026-10-15",
-      "display_time": "09:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "NK Celje",
-        "slug": "nk-celje",
-        "espn_id": "3362",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "NK Celje",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Omonia Nicosia",
-        "slug": "omonia-nicosia",
-        "espn_id": "617",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Omonia Nicosia",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
-      },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1645-nk-celje-omonia-nicosia.png"
-    },
-    {
-      "event_id": "europa-league-2026-10-15-1645-rb-salzburg-ac-milan",
-      "competition": {
-        "id": "europa-league",
-        "name": "UEFA Europa League",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-15",
-      "start_time_utc": "2026-10-15T16:45:00Z",
-      "start_time_pkt": "2026-10-15T21:45:00+05:00",
-      "start_timestamp": 1792082700,
-      "display_date": "2026-10-15",
-      "display_time": "09:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "RB Salzburg",
-        "slug": "rb-salzburg",
-        "espn_id": "2790",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "RB Salzburg",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "AC Milan",
-        "slug": "ac-milan",
-        "espn_id": "103",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "AC Milan",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
-      },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1645-rb-salzburg-ac-milan.png"
-    },
-    {
-      "event_id": "europa-league-2026-10-15-1645-sparta-prague-lillestrom",
-      "competition": {
-        "id": "europa-league",
-        "name": "UEFA Europa League",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-15",
-      "start_time_utc": "2026-10-15T16:45:00Z",
-      "start_time_pkt": "2026-10-15T21:45:00+05:00",
-      "start_timestamp": 1792082700,
-      "display_date": "2026-10-15",
-      "display_time": "09:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Sparta Prague",
-        "slug": "sparta-prague",
-        "espn_id": "433",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Sparta Prague",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Lillestrom",
-        "slug": "lillestrom",
-        "espn_id": "987",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Lillestrom",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
-      },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1645-sparta-prague-lillestrom.png"
-    },
-    {
-      "event_id": "europa-league-2026-10-15-1645-torreense-sunderland",
-      "competition": {
-        "id": "europa-league",
-        "name": "UEFA Europa League",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-15",
-      "start_time_utc": "2026-10-15T16:45:00Z",
-      "start_time_pkt": "2026-10-15T21:45:00+05:00",
-      "start_timestamp": 1792082700,
-      "display_date": "2026-10-15",
-      "display_time": "09:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Torreense",
-        "slug": "torreense",
-        "espn_id": "21615",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Torreense",
           "is_fallback": false
         }
       },
@@ -386,11 +278,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1645-torreense-sunderland.png"
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1645-lech-poznan-sunderland.png"
     },
     {
-      "event_id": "europa-league-2026-10-15-1645-union-st-gilloise-real-sociedad",
+      "event_id": "europa-league-2026-10-22-1645-ofi-crete-bayer-leverkusen",
       "competition": {
         "id": "europa-league",
         "name": "UEFA Europa League",
@@ -400,14 +292,122 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-15",
-      "start_time_utc": "2026-10-15T16:45:00Z",
-      "start_time_pkt": "2026-10-15T21:45:00+05:00",
-      "start_timestamp": 1792082700,
-      "display_date": "2026-10-15",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-22",
+      "start_time_utc": "2026-10-22T16:45:00Z",
+      "start_time_pkt": "2026-10-22T21:45:00+05:00",
+      "start_timestamp": 1792687500,
+      "display_date": "2026-10-22",
+      "display_time": "09:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "OFI Crete",
+        "slug": "ofi-crete",
+        "espn_id": "1010",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "OFI Crete",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Bayer Leverkusen",
+        "slug": "bayer-leverkusen",
+        "espn_id": "131",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Bayer Leverkusen",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1645-ofi-crete-bayer-leverkusen.png"
+    },
+    {
+      "event_id": "europa-league-2026-10-22-1645-sk-sturm-graz-marseille",
+      "competition": {
+        "id": "europa-league",
+        "name": "UEFA Europa League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-22",
+      "start_time_utc": "2026-10-22T16:45:00Z",
+      "start_time_pkt": "2026-10-22T21:45:00+05:00",
+      "start_timestamp": 1792687500,
+      "display_date": "2026-10-22",
+      "display_time": "09:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "SK Sturm Graz",
+        "slug": "sk-sturm-graz",
+        "espn_id": "3746",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "SK Sturm Graz",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Marseille",
+        "slug": "marseille",
+        "espn_id": "176",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Marseille",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1645-sk-sturm-graz-marseille.png"
+    },
+    {
+      "event_id": "europa-league-2026-10-22-1645-union-st-gilloise-hapoel-be-er",
+      "competition": {
+        "id": "europa-league",
+        "name": "UEFA Europa League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-22",
+      "start_time_utc": "2026-10-22T16:45:00Z",
+      "start_time_pkt": "2026-10-22T21:45:00+05:00",
+      "start_timestamp": 1792687500,
+      "display_date": "2026-10-22",
       "display_time": "09:45 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
@@ -424,14 +424,14 @@
         }
       },
       "away_team": {
-        "name": "Real Sociedad",
-        "slug": "real-sociedad",
-        "espn_id": "89",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+        "name": "Hapoel Be'er",
+        "slug": "hapoel-be-er",
+        "espn_id": "13083",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Real Sociedad",
+          "matched_name": "Hapoel Be'er",
           "is_fallback": false
         }
       },
@@ -440,11 +440,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1645-union-st-gilloise-real-sociedad.png"
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1645-union-st-gilloise-hapoel-be-er.png"
     },
     {
-      "event_id": "europa-league-2026-10-15-1900-afc-bournemouth-sk-sturm-graz",
+      "event_id": "europa-league-2026-10-22-1900-afc-bournemouth-ac-milan",
       "competition": {
         "id": "europa-league",
         "name": "UEFA Europa League",
@@ -454,14 +454,14 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-16",
-      "start_time_utc": "2026-10-15T19:00:00Z",
-      "start_time_pkt": "2026-10-16T00:00:00+05:00",
-      "start_timestamp": 1792090800,
-      "display_date": "2026-10-16",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-23",
+      "start_time_utc": "2026-10-22T19:00:00Z",
+      "start_time_pkt": "2026-10-23T00:00:00+05:00",
+      "start_timestamp": 1792695600,
+      "display_date": "2026-10-23",
       "display_time": "12:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
@@ -478,14 +478,14 @@
         }
       },
       "away_team": {
-        "name": "SK Sturm Graz",
-        "slug": "sk-sturm-graz",
-        "espn_id": "3746",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
+        "name": "AC Milan",
+        "slug": "ac-milan",
+        "espn_id": "103",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "SK Sturm Graz",
+          "matched_name": "AC Milan",
           "is_fallback": false
         }
       },
@@ -494,11 +494,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1900-afc-bournemouth-sk-sturm-graz.png"
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1900-afc-bournemouth-ac-milan.png"
     },
     {
-      "event_id": "europa-league-2026-10-15-1900-benfica-celtic",
+      "event_id": "europa-league-2026-10-22-1900-besiktas-crystal-palace",
       "competition": {
         "id": "europa-league",
         "name": "UEFA Europa League",
@@ -508,30 +508,72 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-16",
-      "start_time_utc": "2026-10-15T19:00:00Z",
-      "start_time_pkt": "2026-10-16T00:00:00+05:00",
-      "start_timestamp": 1792090800,
-      "display_date": "2026-10-16",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-23",
+      "start_time_utc": "2026-10-22T19:00:00Z",
+      "start_time_pkt": "2026-10-23T00:00:00+05:00",
+      "start_timestamp": 1792695600,
+      "display_date": "2026-10-23",
       "display_time": "12:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Benfica",
-        "slug": "benfica",
-        "espn_id": "1929",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+        "name": "Besiktas",
+        "slug": "besiktas",
+        "espn_id": "1895",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Benfica",
+          "matched_name": "Besiktas",
           "is_fallback": false
         }
       },
       "away_team": {
+        "name": "Crystal Palace",
+        "slug": "crystal-palace",
+        "espn_id": "384",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Crystal Palace",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1900-besiktas-crystal-palace.png"
+    },
+    {
+      "event_id": "europa-league-2026-10-22-1900-celtic-celta-vigo",
+      "competition": {
+        "id": "europa-league",
+        "name": "UEFA Europa League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-23",
+      "start_time_utc": "2026-10-22T19:00:00Z",
+      "start_time_pkt": "2026-10-23T00:00:00+05:00",
+      "start_timestamp": 1792695600,
+      "display_date": "2026-10-23",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
         "name": "Celtic",
         "slug": "celtic",
         "espn_id": "256",
@@ -543,37 +585,7 @@
           "is_fallback": false
         }
       },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
-      },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1900-benfica-celtic.png"
-    },
-    {
-      "event_id": "europa-league-2026-10-15-1900-celta-vigo-juventus",
-      "competition": {
-        "id": "europa-league",
-        "name": "UEFA Europa League",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-16",
-      "start_time_utc": "2026-10-15T19:00:00Z",
-      "start_time_pkt": "2026-10-16T00:00:00+05:00",
-      "start_timestamp": 1792090800,
-      "display_date": "2026-10-16",
-      "display_time": "12:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
+      "away_team": {
         "name": "Celta Vigo",
         "slug": "celta-vigo",
         "espn_id": "85",
@@ -585,28 +597,16 @@
           "is_fallback": false
         }
       },
-      "away_team": {
-        "name": "Juventus",
-        "slug": "juventus",
-        "espn_id": "111",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Juventus",
-          "is_fallback": false
-        }
-      },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1900-celta-vigo-juventus.png"
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1900-celtic-celta-vigo.png"
     },
     {
-      "event_id": "europa-league-2026-10-15-1900-dinamo-zagreb-anderlecht",
+      "event_id": "europa-league-2026-10-22-1900-jagiellonia-bialystok-anderlecht",
       "competition": {
         "id": "europa-league",
         "name": "UEFA Europa League",
@@ -616,26 +616,26 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-16",
-      "start_time_utc": "2026-10-15T19:00:00Z",
-      "start_time_pkt": "2026-10-16T00:00:00+05:00",
-      "start_timestamp": 1792090800,
-      "display_date": "2026-10-16",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-23",
+      "start_time_utc": "2026-10-22T19:00:00Z",
+      "start_time_pkt": "2026-10-23T00:00:00+05:00",
+      "start_timestamp": 1792695600,
+      "display_date": "2026-10-23",
       "display_time": "12:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Dinamo Zagreb",
-        "slug": "dinamo-zagreb",
-        "espn_id": "597",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
+        "name": "Jagiellonia Bialystok",
+        "slug": "jagiellonia-bialystok",
+        "espn_id": "11505",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Dinamo Zagreb",
+          "matched_name": "Jagiellonia Bialystok",
           "is_fallback": false
         }
       },
@@ -656,11 +656,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1900-dinamo-zagreb-anderlecht.png"
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1900-jagiellonia-bialystok-anderlecht.png"
     },
     {
-      "event_id": "europa-league-2026-10-15-1900-ferencvaros-viktoria-plzen",
+      "event_id": "europa-league-2026-10-22-1900-lillestrom-real-sociedad",
       "competition": {
         "id": "europa-league",
         "name": "UEFA Europa League",
@@ -670,38 +670,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-16",
-      "start_time_utc": "2026-10-15T19:00:00Z",
-      "start_time_pkt": "2026-10-16T00:00:00+05:00",
-      "start_timestamp": 1792090800,
-      "display_date": "2026-10-16",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-23",
+      "start_time_utc": "2026-10-22T19:00:00Z",
+      "start_time_pkt": "2026-10-23T00:00:00+05:00",
+      "start_timestamp": 1792695600,
+      "display_date": "2026-10-23",
       "display_time": "12:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Ferencvaros",
-        "slug": "ferencvaros",
-        "espn_id": "622",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
+        "name": "Lillestrom",
+        "slug": "lillestrom",
+        "espn_id": "987",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Ferencvaros",
+          "matched_name": "Lillestrom",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Viktoria Plzen",
-        "slug": "viktoria-plzen",
-        "espn_id": "11706",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png",
+        "name": "Real Sociedad",
+        "slug": "real-sociedad",
+        "espn_id": "89",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Viktoria Plzen",
+          "matched_name": "Real Sociedad",
           "is_fallback": false
         }
       },
@@ -710,11 +710,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1900-ferencvaros-viktoria-plzen.png"
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1900-lillestrom-real-sociedad.png"
     },
     {
-      "event_id": "europa-league-2026-10-15-1900-jagiellonia-bialystok-ararat-armenia",
+      "event_id": "europa-league-2026-10-22-1900-nk-celje-rb-salzburg",
       "competition": {
         "id": "europa-league",
         "name": "UEFA Europa League",
@@ -724,38 +724,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-16",
-      "start_time_utc": "2026-10-15T19:00:00Z",
-      "start_time_pkt": "2026-10-16T00:00:00+05:00",
-      "start_timestamp": 1792090800,
-      "display_date": "2026-10-16",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-23",
+      "start_time_utc": "2026-10-22T19:00:00Z",
+      "start_time_pkt": "2026-10-23T00:00:00+05:00",
+      "start_timestamp": 1792695600,
+      "display_date": "2026-10-23",
       "display_time": "12:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Jagiellonia Bialystok",
-        "slug": "jagiellonia-bialystok",
-        "espn_id": "11505",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
+        "name": "NK Celje",
+        "slug": "nk-celje",
+        "espn_id": "3362",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Jagiellonia Bialystok",
+          "matched_name": "NK Celje",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Ararat-Armenia",
-        "slug": "ararat-armenia",
-        "espn_id": "20024",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png",
+        "name": "RB Salzburg",
+        "slug": "rb-salzburg",
+        "espn_id": "2790",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Ararat-Armenia",
+          "matched_name": "RB Salzburg",
           "is_fallback": false
         }
       },
@@ -764,11 +764,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1900-jagiellonia-bialystok-ararat-armenia.png"
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1900-nk-celje-rb-salzburg.png"
     },
     {
-      "event_id": "europa-league-2026-10-15-1900-marseille-olympiacos",
+      "event_id": "europa-league-2026-10-22-1900-olympiacos-sparta-prague",
       "competition": {
         "id": "europa-league",
         "name": "UEFA Europa League",
@@ -778,30 +778,18 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-16",
-      "start_time_utc": "2026-10-15T19:00:00Z",
-      "start_time_pkt": "2026-10-16T00:00:00+05:00",
-      "start_timestamp": 1792090800,
-      "display_date": "2026-10-16",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-23",
+      "start_time_utc": "2026-10-22T19:00:00Z",
+      "start_time_pkt": "2026-10-23T00:00:00+05:00",
+      "start_timestamp": 1792695600,
+      "display_date": "2026-10-23",
       "display_time": "12:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Marseille",
-        "slug": "marseille",
-        "espn_id": "176",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Marseille",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
         "name": "Olympiacos",
         "slug": "olympiacos",
         "espn_id": "435",
@@ -813,16 +801,28 @@
           "is_fallback": false
         }
       },
+      "away_team": {
+        "name": "Sparta Prague",
+        "slug": "sparta-prague",
+        "espn_id": "433",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sparta Prague",
+          "is_fallback": false
+        }
+      },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1900-marseille-olympiacos.png"
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1900-olympiacos-sparta-prague.png"
     },
     {
-      "event_id": "europa-league-2026-10-15-1900-nec-nijmegen-levski-sofia",
+      "event_id": "europa-league-2026-10-22-1900-omonia-nicosia-benfica",
       "competition": {
         "id": "europa-league",
         "name": "UEFA Europa League",
@@ -832,26 +832,134 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-16",
-      "start_time_utc": "2026-10-15T19:00:00Z",
-      "start_time_pkt": "2026-10-16T00:00:00+05:00",
-      "start_timestamp": 1792090800,
-      "display_date": "2026-10-16",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-23",
+      "start_time_utc": "2026-10-22T19:00:00Z",
+      "start_time_pkt": "2026-10-23T00:00:00+05:00",
+      "start_timestamp": 1792695600,
+      "display_date": "2026-10-23",
       "display_time": "12:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "NEC Nijmegen",
-        "slug": "nec-nijmegen",
-        "espn_id": "147",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
+        "name": "Omonia Nicosia",
+        "slug": "omonia-nicosia",
+        "espn_id": "617",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "NEC Nijmegen",
+          "matched_name": "Omonia Nicosia",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Benfica",
+        "slug": "benfica",
+        "espn_id": "1929",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Benfica",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1900-omonia-nicosia-benfica.png"
+    },
+    {
+      "event_id": "europa-league-2026-10-22-1900-tsg-hoffenheim-lyon",
+      "competition": {
+        "id": "europa-league",
+        "name": "UEFA Europa League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-23",
+      "start_time_utc": "2026-10-22T19:00:00Z",
+      "start_time_pkt": "2026-10-23T00:00:00+05:00",
+      "start_timestamp": 1792695600,
+      "display_date": "2026-10-23",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "TSG Hoffenheim",
+        "slug": "tsg-hoffenheim",
+        "espn_id": "7911",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "TSG Hoffenheim",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Lyon",
+        "slug": "lyon",
+        "espn_id": "167",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Lyon",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1900-tsg-hoffenheim-lyon.png"
+    },
+    {
+      "event_id": "europa-league-2026-10-22-1900-viktoria-plzen-levski-sofia",
+      "competition": {
+        "id": "europa-league",
+        "name": "UEFA Europa League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-22",
+      "match_date": "2026-10-22",
+      "match_date_utc": "2026-10-22",
+      "match_date_pkt": "2026-10-23",
+      "start_time_utc": "2026-10-22T19:00:00Z",
+      "start_time_pkt": "2026-10-23T00:00:00+05:00",
+      "start_timestamp": 1792695600,
+      "display_date": "2026-10-23",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Viktoria Plzen",
+        "slug": "viktoria-plzen",
+        "espn_id": "11706",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Viktoria Plzen",
           "is_fallback": false
         }
       },
@@ -872,116 +980,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
       },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1900-nec-nijmegen-levski-sofia.png"
-    },
-    {
-      "event_id": "europa-league-2026-10-15-1900-stade-rennais-ofi-crete",
-      "competition": {
-        "id": "europa-league",
-        "name": "UEFA Europa League",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-16",
-      "start_time_utc": "2026-10-15T19:00:00Z",
-      "start_time_pkt": "2026-10-16T00:00:00+05:00",
-      "start_timestamp": 1792090800,
-      "display_date": "2026-10-16",
-      "display_time": "12:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Stade Rennais",
-        "slug": "stade-rennais",
-        "espn_id": "169",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Stade Rennais",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "OFI Crete",
-        "slug": "ofi-crete",
-        "espn_id": "1010",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "OFI Crete",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
-      },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1900-stade-rennais-ofi-crete.png"
-    },
-    {
-      "event_id": "europa-league-2026-10-15-1900-tsg-hoffenheim-besiktas",
-      "competition": {
-        "id": "europa-league",
-        "name": "UEFA Europa League",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-15",
-      "match_date": "2026-10-15",
-      "match_date_utc": "2026-10-15",
-      "match_date_pkt": "2026-10-16",
-      "start_time_utc": "2026-10-15T19:00:00Z",
-      "start_time_pkt": "2026-10-16T00:00:00+05:00",
-      "start_timestamp": 1792090800,
-      "display_date": "2026-10-16",
-      "display_time": "12:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "TSG Hoffenheim",
-        "slug": "tsg-hoffenheim",
-        "espn_id": "7911",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "TSG Hoffenheim",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Besiktas",
-        "slug": "besiktas",
-        "espn_id": "1895",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Besiktas",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard"
-      },
-      "last_updated": "2026-10-14T22:00:17.273661+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-15-1900-tsg-hoffenheim-besiktas.png"
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-10-22-1900-viktoria-plzen-levski-sofia.png"
     }
   ]
 }

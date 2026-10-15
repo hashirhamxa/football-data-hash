@@ -1,0 +1,123 @@
+{
+  "version": "1.1.0",
+  "competition": {
+    "id": "copa-colombia",
+    "name": "Copa Colombia",
+    "country": "Colombia"
+  },
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "generated_at": "2026-10-15T20:20:17.631021+00:00",
+  "feed_type": "upcoming_30_days",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "copa-colombia-2026-10-15-2300-internacional-de-bogota-llaneros-fc",
+      "competition": {
+        "id": "copa-colombia",
+        "name": "Copa Colombia",
+        "country": "Colombia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2332.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-15",
+      "match_date": "2026-10-15",
+      "match_date_utc": "2026-10-15",
+      "match_date_pkt": "2026-10-16",
+      "start_time_utc": "2026-10-15T23:00:00Z",
+      "start_time_pkt": "2026-10-16T04:00:00+05:00",
+      "start_timestamp": 1792105200,
+      "display_date": "2026-10-16",
+      "display_time": "04:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Internacional de Bogotá",
+        "slug": "internacional-de-bogota",
+        "espn_id": "7445",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7445.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Internacional de Bogotá",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Llaneros FC",
+        "slug": "llaneros-fc",
+        "espn_id": "7915",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7915.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Llaneros FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.copa/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-colombia-2026-10-15-2300-internacional-de-bogota-llaneros-fc.png"
+    },
+    {
+      "event_id": "copa-colombia-2026-10-21-1800-barranquilla-fc-america-de-cali",
+      "competition": {
+        "id": "copa-colombia",
+        "name": "Copa Colombia",
+        "country": "Colombia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2332.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-21",
+      "match_date": "2026-10-21",
+      "match_date_utc": "2026-10-21",
+      "match_date_pkt": "2026-10-21",
+      "start_time_utc": "2026-10-21T18:00:00Z",
+      "start_time_pkt": "2026-10-21T23:00:00+05:00",
+      "start_timestamp": 1792605600,
+      "display_date": "2026-10-21",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Barranquilla FC",
+        "slug": "barranquilla-fc",
+        "espn_id": "17373",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/17373.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Barranquilla FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "América de Cali",
+        "slug": "america-de-cali",
+        "espn_id": "8109",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "América de Cali",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.copa/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:15:36.856485+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-colombia-2026-10-21-1800-barranquilla-fc-america-de-cali.png"
+    }
+  ]
+}

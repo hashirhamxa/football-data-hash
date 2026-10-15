@@ -1,0 +1,71 @@
+{
+  "version": "1.1.0",
+  "competition": {
+    "id": "serie-b",
+    "name": "Italian Serie B",
+    "country": "Italy"
+  },
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "generated_at": "2026-10-15T20:36:22.000118+00:00",
+  "feed_type": "today",
+  "target_date_pkt": "2026-10-16",
+  "target_day_name": "Friday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "serie-b-2026-10-16-1830-hellas-verona-catanzaro",
+      "competition": {
+        "id": "serie-b",
+        "name": "Italian Serie B",
+        "country": "Italy",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/99.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-16",
+      "match_date": "2026-10-16",
+      "match_date_utc": "2026-10-16",
+      "match_date_pkt": "2026-10-16",
+      "start_time_utc": "2026-10-16T18:30:00Z",
+      "start_time_pkt": "2026-10-16T23:30:00+05:00",
+      "start_timestamp": 1792175400,
+      "display_date": "2026-10-16",
+      "display_time": "11:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Hellas Verona",
+        "slug": "hellas-verona",
+        "espn_id": "119",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/119.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Hellas Verona",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Catanzaro",
+        "slug": "catanzaro",
+        "espn_id": "3257",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3257.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Catanzaro",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/scoreboard"
+      },
+      "last_updated": "2026-10-15T20:30:19.334492+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-b-2026-10-16-1830-hellas-verona-catanzaro.png"
+    }
+  ]
+}

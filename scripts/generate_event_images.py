@@ -1470,6 +1470,42 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "ligue-2-preview",
+            "competition": {
+                "id": "ligue-2",
+                "name": "French Ligue 2",
+                "round": "Matchweek 9",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/96.png"
+            },
+            "home_team": {"name": "Guingamp", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png"},
+            "away_team": {"name": "Pau", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/10678.png"},
+            "match_date": "2026-10-16",
+            "match_date_pkt": "2026-10-16",
+            "display_date": "2026-10-16",
+            "display_time": "11:00 PM",
+            "start_time_utc": "2026-10-16T18:00:00Z",
+            "start_time_pkt": "2026-10-16T23:00:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
+            "event_id": "serie-b-preview",
+            "competition": {
+                "id": "serie-b",
+                "name": "Italian Serie B",
+                "round": "Giornata 8",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/99.png"
+            },
+            "home_team": {"name": "Hellas Verona", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/119.png"},
+            "away_team": {"name": "Catanzaro", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3257.png"},
+            "match_date": "2026-10-16",
+            "match_date_pkt": "2026-10-16",
+            "display_date": "2026-10-16",
+            "display_time": "11:30 PM",
+            "start_time_utc": "2026-10-16T18:30:00Z",
+            "start_time_pkt": "2026-10-16T23:30:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

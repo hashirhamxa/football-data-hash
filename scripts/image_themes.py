@@ -1051,7 +1051,81 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
-    # 46. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 46. French Ligue 2: Electric Teal/Cyan & Fluorescent Lime / Obsidian Indigo Base
+    "ligue-2": CompetitionTheme(
+        competition_id="ligue-2",
+        name="French Ligue 2",
+        background_top=(12, 18, 34),
+        background_bottom=(8, 12, 24),
+        primary=(0, 215, 185),
+        secondary=(198, 242, 27),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 235, 225),
+        panel_color=(16, 24, 42, 225),
+        panel_border=(0, 215, 185, 180),
+        pattern="ligue1_geometric_frames",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="glass_plate"
+    ),
+
+    "french-ligue-2": CompetitionTheme(
+        competition_id="ligue-2",
+        name="French Ligue 2",
+        background_top=(12, 18, 34),
+        background_bottom=(8, 12, 24),
+        primary=(0, 215, 185),
+        secondary=(198, 242, 27),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 235, 225),
+        panel_color=(16, 24, 42, 225),
+        panel_border=(0, 215, 185, 180),
+        pattern="ligue1_geometric_frames",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="glass_plate"
+    ),
+
+    # 47. Italian Serie B: Vivid Italian Emerald Green & Vibrant Orange / Azzurro Midnight
+    "serie-b": CompetitionTheme(
+        competition_id="serie-b",
+        name="Italian Serie B",
+        background_top=(8, 24, 44),
+        background_bottom=(6, 14, 28),
+        primary=(0, 145, 75),
+        secondary=(245, 130, 40),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 235, 215),
+        panel_color=(12, 26, 50, 225),
+        panel_border=(0, 145, 75, 180),
+        pattern="seriea_metallic_angles",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="metallic"
+    ),
+
+    "italian-serie-b": CompetitionTheme(
+        competition_id="serie-b",
+        name="Italian Serie B",
+        background_top=(8, 24, 44),
+        background_bottom=(6, 14, 28),
+        primary=(0, 145, 75),
+        secondary=(245, 130, 40),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 235, 215),
+        panel_color=(12, 26, 50, 225),
+        panel_border=(0, 145, 75, 180),
+        pattern="seriea_metallic_angles",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="metallic"
+    ),
+
+    # 48. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

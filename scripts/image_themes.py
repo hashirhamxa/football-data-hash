@@ -1125,7 +1125,80 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="metallic"
     ),
 
-    # 48. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 48. Australian A-League Men: Vivid A-League Orange & Pacific Ocean Sky Blue / Navy Base
+    "a-league-men": CompetitionTheme(
+        competition_id="a-league-men",
+        name="Australian A-League Men",
+        background_top=(12, 22, 40),
+        background_bottom=(8, 14, 26),
+        primary=(250, 75, 25),
+        secondary=(0, 165, 230),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 215, 195),
+        panel_color=(16, 26, 48, 225),
+        panel_border=(250, 75, 25, 185),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "a-league": CompetitionTheme(
+        competition_id="a-league-men",
+        name="Australian A-League Men",
+        background_top=(12, 22, 40),
+        background_bottom=(8, 14, 26),
+        primary=(250, 75, 25),
+        secondary=(0, 165, 230),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 215, 195),
+        panel_color=(16, 26, 48, 225),
+        panel_border=(250, 75, 25, 185),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "australian-a-league": CompetitionTheme(
+        competition_id="a-league-men",
+        name="Australian A-League Men",
+        background_top=(12, 22, 40),
+        background_bottom=(8, 14, 26),
+        primary=(250, 75, 25),
+        secondary=(0, 165, 230),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 215, 195),
+        panel_color=(16, 26, 48, 225),
+        panel_border=(250, 75, 25, 185),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "australian-a-league-men": CompetitionTheme(
+        competition_id="a-league-men",
+        name="Australian A-League Men",
+        background_top=(12, 22, 40),
+        background_bottom=(8, 14, 26),
+        primary=(250, 75, 25),
+        secondary=(0, 165, 230),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 215, 195),
+        panel_color=(16, 26, 48, 225),
+        panel_border=(250, 75, 25, 185),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 49. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

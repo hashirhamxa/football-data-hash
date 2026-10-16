@@ -1506,6 +1506,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "a-league-men-preview",
+            "competition": {
+                "id": "a-league-men",
+                "name": "Australian A-League Men",
+                "round": "Round 1",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1308.png"
+            },
+            "home_team": {"name": "Sydney FC", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5327.png"},
+            "away_team": {"name": "Central Coast Mariners", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5325.png"},
+            "match_date": "2026-11-06",
+            "match_date_pkt": "2026-11-06",
+            "display_date": "2026-11-06",
+            "display_time": "01:40 PM",
+            "start_time_utc": "2026-11-06T08:40:00Z",
+            "start_time_pkt": "2026-11-06T13:40:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

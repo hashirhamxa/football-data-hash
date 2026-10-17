@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-16T21:54:10.283389+00:00",
+  "generated_at": "2026-10-17T21:13:03.285194+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-10-17",
-  "target_day_name": "Saturday",
-  "total_events": 3,
+  "target_date_pkt": "2026-10-18",
+  "target_day_name": "Sunday",
+  "total_events": 1,
   "events": [
     {
-      "event_id": "a-league-men-2026-10-17-0400-auckland-fc-melbourne-city-fc",
+      "event_id": "a-league-men-2026-10-18-0200-wellington-phoenix-fc-melbourne-victory",
       "competition": {
         "id": "a-league-men",
         "name": "Australian A-League Men",
@@ -24,38 +24,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1308.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-17",
-      "match_date": "2026-10-17",
-      "match_date_utc": "2026-10-17",
-      "match_date_pkt": "2026-10-17",
-      "start_time_utc": "2026-10-17T04:00:00Z",
-      "start_time_pkt": "2026-10-17T09:00:00+05:00",
-      "start_timestamp": 1792209600,
-      "display_date": "2026-10-17",
-      "display_time": "09:00 AM",
+      "source_date": "2026-10-18",
+      "match_date": "2026-10-18",
+      "match_date_utc": "2026-10-18",
+      "match_date_pkt": "2026-10-18",
+      "start_time_utc": "2026-10-18T02:00:00Z",
+      "start_time_pkt": "2026-10-18T07:00:00+05:00",
+      "start_timestamp": 1792288800,
+      "display_date": "2026-10-18",
+      "display_time": "07:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Auckland FC",
-        "slug": "auckland-fc",
-        "espn_id": "22344",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22344.png",
+        "name": "Wellington Phoenix FC",
+        "slug": "wellington-phoenix-fc",
+        "espn_id": "8352",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8352.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Auckland FC",
+          "matched_name": "Wellington Phoenix FC",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Melbourne City FC",
-        "slug": "melbourne-city-fc",
-        "espn_id": "11143",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11143.png",
+        "name": "Melbourne Victory",
+        "slug": "melbourne-victory",
+        "espn_id": "5328",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5328.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Melbourne City FC",
+          "matched_name": "Melbourne Victory",
           "is_fallback": false
         }
       },
@@ -64,116 +64,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/scoreboard"
       },
-      "last_updated": "2026-10-16T21:51:54.658585+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-17-0400-auckland-fc-melbourne-city-fc.png"
-    },
-    {
-      "event_id": "a-league-men-2026-10-17-0600-macarthur-fc-perth-glory",
-      "competition": {
-        "id": "a-league-men",
-        "name": "Australian A-League Men",
-        "country": "Australia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1308.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-17",
-      "match_date": "2026-10-17",
-      "match_date_utc": "2026-10-17",
-      "match_date_pkt": "2026-10-17",
-      "start_time_utc": "2026-10-17T06:00:00Z",
-      "start_time_pkt": "2026-10-17T11:00:00+05:00",
-      "start_timestamp": 1792216800,
-      "display_date": "2026-10-17",
-      "display_time": "11:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Macarthur FC",
-        "slug": "macarthur-fc",
-        "espn_id": "19340",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/19340.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Macarthur FC",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Perth Glory",
-        "slug": "perth-glory",
-        "espn_id": "5322",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5322.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Perth Glory",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/scoreboard"
-      },
-      "last_updated": "2026-10-16T21:51:54.658585+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-17-0600-macarthur-fc-perth-glory.png"
-    },
-    {
-      "event_id": "a-league-men-2026-10-17-0840-central-coast-mariners-newcastle-jets",
-      "competition": {
-        "id": "a-league-men",
-        "name": "Australian A-League Men",
-        "country": "Australia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1308.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-17",
-      "match_date": "2026-10-17",
-      "match_date_utc": "2026-10-17",
-      "match_date_pkt": "2026-10-17",
-      "start_time_utc": "2026-10-17T08:40:00Z",
-      "start_time_pkt": "2026-10-17T13:40:00+05:00",
-      "start_timestamp": 1792226400,
-      "display_date": "2026-10-17",
-      "display_time": "01:40 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Central Coast Mariners",
-        "slug": "central-coast-mariners",
-        "espn_id": "5325",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5325.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Central Coast Mariners",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Newcastle Jets",
-        "slug": "newcastle-jets",
-        "espn_id": "5323",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5323.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Newcastle Jets",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/scoreboard"
-      },
-      "last_updated": "2026-10-16T21:51:54.658585+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-17-0840-central-coast-mariners-newcastle-jets.png"
+      "last_updated": "2026-10-17T21:10:49.840569+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-18-0200-wellington-phoenix-fc-melbourne-victory.png"
     }
   ]
 }

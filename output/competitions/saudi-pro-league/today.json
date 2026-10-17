@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-16T21:54:10.257241+00:00",
+  "generated_at": "2026-10-17T21:13:03.261051+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-10-17",
-  "target_day_name": "Saturday",
-  "total_events": 2,
+  "target_date_pkt": "2026-10-18",
+  "target_day_name": "Sunday",
+  "total_events": 1,
   "events": [
     {
-      "event_id": "saudi-pro-league-2026-10-17-1540-neom-sc-al-ettifaq",
+      "event_id": "saudi-pro-league-2026-10-18-1800-al-fateh-al-khaleej",
       "competition": {
         "id": "saudi-pro-league",
         "name": "Saudi Pro League",
@@ -24,92 +24,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-17",
-      "match_date": "2026-10-17",
-      "match_date_utc": "2026-10-17",
-      "match_date_pkt": "2026-10-17",
-      "start_time_utc": "2026-10-17T15:40:00Z",
-      "start_time_pkt": "2026-10-17T20:40:00+05:00",
-      "start_timestamp": 1792251600,
-      "display_date": "2026-10-17",
-      "display_time": "08:40 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Neom SC",
-        "slug": "neom-sc",
-        "espn_id": "130899",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/130899.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Neom SC",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Al Ettifaq",
-        "slug": "al-ettifaq",
-        "espn_id": "8363",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8363.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Al Ettifaq",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard"
-      },
-      "last_updated": "2026-10-16T21:51:54.658585+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-10-17-1540-neom-sc-al-ettifaq.png"
-    },
-    {
-      "event_id": "saudi-pro-league-2026-10-17-1800-al-diriyah-al-taawoun",
-      "competition": {
-        "id": "saudi-pro-league",
-        "name": "Saudi Pro League",
-        "country": "Saudi Arabia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-17",
-      "match_date": "2026-10-17",
-      "match_date_utc": "2026-10-17",
-      "match_date_pkt": "2026-10-17",
-      "start_time_utc": "2026-10-17T18:00:00Z",
-      "start_time_pkt": "2026-10-17T23:00:00+05:00",
-      "start_timestamp": 1792260000,
-      "display_date": "2026-10-17",
+      "source_date": "2026-10-18",
+      "match_date": "2026-10-18",
+      "match_date_utc": "2026-10-18",
+      "match_date_pkt": "2026-10-18",
+      "start_time_utc": "2026-10-18T18:00:00Z",
+      "start_time_pkt": "2026-10-18T23:00:00+05:00",
+      "start_timestamp": 1792346400,
+      "display_date": "2026-10-18",
       "display_time": "11:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Al Diriyah",
-        "slug": "al-diriyah",
-        "espn_id": "131746",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131746.png",
+        "name": "Al Fateh",
+        "slug": "al-fateh",
+        "espn_id": "13033",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/13033.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Al Diriyah",
+          "matched_name": "Al Fateh",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Al Taawoun",
-        "slug": "al-taawoun",
-        "espn_id": "18459",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/18459.png",
+        "name": "Al Khaleej",
+        "slug": "al-khaleej",
+        "espn_id": "21829",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21829.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Al Taawoun",
+          "matched_name": "Al Khaleej",
           "is_fallback": false
         }
       },
@@ -118,8 +64,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard"
       },
-      "last_updated": "2026-10-16T21:51:54.658585+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-10-17-1800-al-diriyah-al-taawoun.png"
+      "last_updated": "2026-10-17T21:10:49.840569+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-10-18-1800-al-fateh-al-khaleej.png"
     }
   ]
 }

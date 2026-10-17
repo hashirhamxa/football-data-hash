@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-16T21:54:10.238007+00:00",
+  "generated_at": "2026-10-17T21:13:03.240125+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-10-17",
-  "target_day_name": "Saturday",
-  "total_events": 3,
+  "target_date_pkt": "2026-10-18",
+  "target_day_name": "Sunday",
+  "total_events": 4,
   "events": [
     {
-      "event_id": "serie-a-2026-10-17-1300-venezia-napoli",
+      "event_id": "serie-a-2026-10-18-1030-udinese-lecce",
       "competition": {
         "id": "serie-a",
         "name": "Italian Serie A",
@@ -24,38 +24,92 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-17",
-      "match_date": "2026-10-17",
-      "match_date_utc": "2026-10-17",
-      "match_date_pkt": "2026-10-17",
-      "start_time_utc": "2026-10-17T13:00:00Z",
-      "start_time_pkt": "2026-10-17T18:00:00+05:00",
-      "start_timestamp": 1792242000,
-      "display_date": "2026-10-17",
+      "source_date": "2026-10-18",
+      "match_date": "2026-10-18",
+      "match_date_utc": "2026-10-18",
+      "match_date_pkt": "2026-10-18",
+      "start_time_utc": "2026-10-18T10:30:00Z",
+      "start_time_pkt": "2026-10-18T15:30:00+05:00",
+      "start_timestamp": 1792319400,
+      "display_date": "2026-10-18",
+      "display_time": "03:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Udinese",
+        "slug": "udinese",
+        "espn_id": "118",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Udinese",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Lecce",
+        "slug": "lecce",
+        "espn_id": "113",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Lecce",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
+      },
+      "last_updated": "2026-10-17T21:10:49.840569+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-18-1030-udinese-lecce.png"
+    },
+    {
+      "event_id": "serie-a-2026-10-18-1300-fiorentina-como",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-18",
+      "match_date": "2026-10-18",
+      "match_date_utc": "2026-10-18",
+      "match_date_pkt": "2026-10-18",
+      "start_time_utc": "2026-10-18T13:00:00Z",
+      "start_time_pkt": "2026-10-18T18:00:00+05:00",
+      "start_timestamp": 1792328400,
+      "display_date": "2026-10-18",
       "display_time": "06:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Venezia",
-        "slug": "venezia",
-        "espn_id": "17530",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+        "name": "Fiorentina",
+        "slug": "fiorentina",
+        "espn_id": "109",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Venezia",
+          "matched_name": "Fiorentina",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Napoli",
-        "slug": "napoli",
-        "espn_id": "114",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+        "name": "Como",
+        "slug": "como",
+        "espn_id": "2572",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Napoli",
+          "matched_name": "Como",
           "is_fallback": false
         }
       },
@@ -64,11 +118,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
       },
-      "last_updated": "2026-10-16T21:51:54.658585+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-17-1300-venezia-napoli.png"
+      "last_updated": "2026-10-17T21:10:49.840569+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-18-1300-fiorentina-como.png"
     },
     {
-      "event_id": "serie-a-2026-10-17-1600-bologna-internazionale",
+      "event_id": "serie-a-2026-10-18-1600-ac-milan-atalanta",
       "competition": {
         "id": "serie-a",
         "name": "Italian Serie A",
@@ -78,38 +132,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-17",
-      "match_date": "2026-10-17",
-      "match_date_utc": "2026-10-17",
-      "match_date_pkt": "2026-10-17",
-      "start_time_utc": "2026-10-17T16:00:00Z",
-      "start_time_pkt": "2026-10-17T21:00:00+05:00",
-      "start_timestamp": 1792252800,
-      "display_date": "2026-10-17",
+      "source_date": "2026-10-18",
+      "match_date": "2026-10-18",
+      "match_date_utc": "2026-10-18",
+      "match_date_pkt": "2026-10-18",
+      "start_time_utc": "2026-10-18T16:00:00Z",
+      "start_time_pkt": "2026-10-18T21:00:00+05:00",
+      "start_timestamp": 1792339200,
+      "display_date": "2026-10-18",
       "display_time": "09:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Bologna",
-        "slug": "bologna",
-        "espn_id": "107",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+        "name": "AC Milan",
+        "slug": "ac-milan",
+        "espn_id": "103",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Bologna",
+          "matched_name": "AC Milan",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Internazionale",
-        "slug": "internazionale",
-        "espn_id": "110",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+        "name": "Atalanta",
+        "slug": "atalanta",
+        "espn_id": "105",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Internazionale",
+          "matched_name": "Atalanta",
           "is_fallback": false
         }
       },
@@ -118,11 +172,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
       },
-      "last_updated": "2026-10-16T21:51:54.658585+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-17-1600-bologna-internazionale.png"
+      "last_updated": "2026-10-17T21:10:49.840569+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-18-1600-ac-milan-atalanta.png"
     },
     {
-      "event_id": "serie-a-2026-10-17-1845-as-roma-genoa",
+      "event_id": "serie-a-2026-10-18-1845-juventus-lazio",
       "competition": {
         "id": "serie-a",
         "name": "Italian Serie A",
@@ -132,38 +186,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-17",
-      "match_date": "2026-10-17",
-      "match_date_utc": "2026-10-17",
-      "match_date_pkt": "2026-10-17",
-      "start_time_utc": "2026-10-17T18:45:00Z",
-      "start_time_pkt": "2026-10-17T23:45:00+05:00",
-      "start_timestamp": 1792262700,
-      "display_date": "2026-10-17",
+      "source_date": "2026-10-18",
+      "match_date": "2026-10-18",
+      "match_date_utc": "2026-10-18",
+      "match_date_pkt": "2026-10-18",
+      "start_time_utc": "2026-10-18T18:45:00Z",
+      "start_time_pkt": "2026-10-18T23:45:00+05:00",
+      "start_timestamp": 1792349100,
+      "display_date": "2026-10-18",
       "display_time": "11:45 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "AS Roma",
-        "slug": "as-roma",
-        "espn_id": "104",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+        "name": "Juventus",
+        "slug": "juventus",
+        "espn_id": "111",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "AS Roma",
+          "matched_name": "Juventus",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Genoa",
-        "slug": "genoa",
-        "espn_id": "3263",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+        "name": "Lazio",
+        "slug": "lazio",
+        "espn_id": "112",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Genoa",
+          "matched_name": "Lazio",
           "is_fallback": false
         }
       },
@@ -172,8 +226,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
       },
-      "last_updated": "2026-10-16T21:51:54.658585+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-17-1845-as-roma-genoa.png"
+      "last_updated": "2026-10-17T21:10:49.840569+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-18-1845-juventus-lazio.png"
     }
   ]
 }

@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-16T21:54:10.234857+00:00",
+  "generated_at": "2026-10-17T21:13:03.237383+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-10-18",
-  "target_day_name": "Sunday",
-  "total_events": 4,
+  "target_date_pkt": "2026-10-19",
+  "target_day_name": "Monday",
+  "total_events": 1,
   "events": [
     {
-      "event_id": "la-liga-2026-10-17-1900-valencia-athletic-club",
+      "event_id": "la-liga-2026-10-18-1900-real-madrid-sevilla",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
@@ -24,38 +24,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-17",
-      "match_date": "2026-10-17",
-      "match_date_utc": "2026-10-17",
-      "match_date_pkt": "2026-10-18",
-      "start_time_utc": "2026-10-17T19:00:00Z",
-      "start_time_pkt": "2026-10-18T00:00:00+05:00",
-      "start_timestamp": 1792263600,
-      "display_date": "2026-10-18",
+      "source_date": "2026-10-18",
+      "match_date": "2026-10-18",
+      "match_date_utc": "2026-10-18",
+      "match_date_pkt": "2026-10-19",
+      "start_time_utc": "2026-10-18T19:00:00Z",
+      "start_time_pkt": "2026-10-19T00:00:00+05:00",
+      "start_timestamp": 1792350000,
+      "display_date": "2026-10-19",
       "display_time": "12:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Valencia",
-        "slug": "valencia",
-        "espn_id": "94",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+        "name": "Real Madrid",
+        "slug": "real-madrid",
+        "espn_id": "86",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Valencia",
+          "matched_name": "Real Madrid",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Athletic Club",
-        "slug": "athletic-club",
-        "espn_id": "93",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+        "name": "Sevilla",
+        "slug": "sevilla",
+        "espn_id": "243",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Athletic Club",
+          "matched_name": "Sevilla",
           "is_fallback": false
         }
       },
@@ -64,170 +64,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-10-16T21:51:54.658585+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-17-1900-valencia-athletic-club.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-18-1200-osasuna-racing-santander",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-18",
-      "match_date": "2026-10-18",
-      "match_date_utc": "2026-10-18",
-      "match_date_pkt": "2026-10-18",
-      "start_time_utc": "2026-10-18T12:00:00Z",
-      "start_time_pkt": "2026-10-18T17:00:00+05:00",
-      "start_timestamp": 1792324800,
-      "display_date": "2026-10-18",
-      "display_time": "05:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Osasuna",
-        "slug": "osasuna",
-        "espn_id": "97",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Osasuna",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Racing Santander",
-        "slug": "racing-santander",
-        "espn_id": "87",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Racing Santander",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-10-16T21:51:54.658585+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-18-1200-osasuna-racing-santander.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-18-1415-celta-vigo-alaves",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-18",
-      "match_date": "2026-10-18",
-      "match_date_utc": "2026-10-18",
-      "match_date_pkt": "2026-10-18",
-      "start_time_utc": "2026-10-18T14:15:00Z",
-      "start_time_pkt": "2026-10-18T19:15:00+05:00",
-      "start_timestamp": 1792332900,
-      "display_date": "2026-10-18",
-      "display_time": "07:15 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Celta Vigo",
-        "slug": "celta-vigo",
-        "espn_id": "85",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Celta Vigo",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Alavés",
-        "slug": "alaves",
-        "espn_id": "96",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Alavés",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-10-16T21:51:54.658585+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-18-1415-celta-vigo-alaves.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-18-1630-malaga-real-sociedad",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-18",
-      "match_date": "2026-10-18",
-      "match_date_utc": "2026-10-18",
-      "match_date_pkt": "2026-10-18",
-      "start_time_utc": "2026-10-18T16:30:00Z",
-      "start_time_pkt": "2026-10-18T21:30:00+05:00",
-      "start_timestamp": 1792341000,
-      "display_date": "2026-10-18",
-      "display_time": "09:30 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Málaga",
-        "slug": "malaga",
-        "espn_id": "99",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Málaga",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Real Sociedad",
-        "slug": "real-sociedad",
-        "espn_id": "89",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Real Sociedad",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-10-16T21:51:54.658585+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-18-1630-malaga-real-sociedad.png"
+      "last_updated": "2026-10-17T21:10:49.840569+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-18-1900-real-madrid-sevilla.png"
     }
   ]
 }

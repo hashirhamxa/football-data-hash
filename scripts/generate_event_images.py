@@ -1524,6 +1524,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "saff-championship-preview",
+            "competition": {
+                "id": "saff-championship",
+                "name": "SAFF Championship",
+                "round": "Group Stage",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+            },
+            "home_team": {"name": "India", "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ind.png"},
+            "away_team": {"name": "Pakistan", "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/pak.png"},
+            "match_date": "2026-11-20",
+            "match_date_pkt": "2026-11-20",
+            "display_date": "2026-11-20",
+            "display_time": "08:00 PM",
+            "start_time_utc": "2026-11-20T15:00:00Z",
+            "start_time_pkt": "2026-11-20T20:00:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

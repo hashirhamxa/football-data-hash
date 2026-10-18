@@ -1198,7 +1198,62 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
-    # 49. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 49. SAFF Championship: Deep Midnight Bay, Saffron Gold & South Asian Emerald Green / Flag Rounded Cards
+    "saff-championship": CompetitionTheme(
+        competition_id="saff-championship",
+        name="SAFF Championship",
+        background_top=(12, 24, 36),
+        background_bottom=(8, 16, 24),
+        primary=(255, 153, 51),
+        secondary=(0, 165, 100),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 225, 195),
+        panel_color=(16, 28, 42, 225),
+        panel_border=(255, 153, 51, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="flag_rounded_card"
+    ),
+
+    "saff-cup": CompetitionTheme(
+        competition_id="saff-championship",
+        name="SAFF Championship",
+        background_top=(12, 24, 36),
+        background_bottom=(8, 16, 24),
+        primary=(255, 153, 51),
+        secondary=(0, 165, 100),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 225, 195),
+        panel_color=(16, 28, 42, 225),
+        panel_border=(255, 153, 51, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="flag_rounded_card"
+    ),
+
+    "saff": CompetitionTheme(
+        competition_id="saff-championship",
+        name="SAFF Championship",
+        background_top=(12, 24, 36),
+        background_bottom=(8, 16, 24),
+        primary=(255, 153, 51),
+        secondary=(0, 165, 100),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 225, 195),
+        panel_color=(16, 28, 42, 225),
+        panel_border=(255, 153, 51, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="flag_rounded_card"
+    ),
+
+    # 50. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

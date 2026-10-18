@@ -7,10 +7,119 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-18T02:08:12.963270+00:00",
+  "generated_at": "2026-10-18T21:14:46.094384+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-10-19",
-  "target_day_name": "Monday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-10-20",
+  "target_day_name": "Tuesday",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "champions-league-2026-10-20-1645-fenerbahce-slavia-prague",
+      "competition": {
+        "id": "champions-league",
+        "name": "UEFA Champions League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-20",
+      "match_date": "2026-10-20",
+      "match_date_utc": "2026-10-20",
+      "match_date_pkt": "2026-10-20",
+      "start_time_utc": "2026-10-20T16:45:00Z",
+      "start_time_pkt": "2026-10-20T21:45:00+05:00",
+      "start_timestamp": 1792514700,
+      "display_date": "2026-10-20",
+      "display_time": "09:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Fenerbahce",
+        "slug": "fenerbahce",
+        "espn_id": "436",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Fenerbahce",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Slavia Prague",
+        "slug": "slavia-prague",
+        "espn_id": "494",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Slavia Prague",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
+      },
+      "last_updated": "2026-10-18T21:12:43.309370+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-20-1645-fenerbahce-slavia-prague.png"
+    },
+    {
+      "event_id": "champions-league-2026-10-20-1645-sabah-fk-borussia-dortmund",
+      "competition": {
+        "id": "champions-league",
+        "name": "UEFA Champions League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-20",
+      "match_date": "2026-10-20",
+      "match_date_utc": "2026-10-20",
+      "match_date_pkt": "2026-10-20",
+      "start_time_utc": "2026-10-20T16:45:00Z",
+      "start_time_pkt": "2026-10-20T21:45:00+05:00",
+      "start_timestamp": 1792514700,
+      "display_date": "2026-10-20",
+      "display_time": "09:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Sabah FK",
+        "slug": "sabah-fk",
+        "espn_id": "21922",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sabah FK",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Borussia Dortmund",
+        "slug": "borussia-dortmund",
+        "espn_id": "124",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Borussia Dortmund",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
+      },
+      "last_updated": "2026-10-18T21:12:43.309370+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-10-20-1645-sabah-fk-borussia-dortmund.png"
+    }
+  ]
 }

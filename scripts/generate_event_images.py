@@ -1542,6 +1542,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "russian-premier-league-preview",
+            "competition": {
+                "id": "russian-premier-league",
+                "name": "Russian Premier League",
+                "round": "Matchday 13",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/106.png"
+            },
+            "home_team": {"name": "Zenit St Petersburg", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2533.png"},
+            "away_team": {"name": "Spartak Moscow", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1941.png"},
+            "match_date": "2026-10-25",
+            "match_date_pkt": "2026-10-25",
+            "display_date": "2026-10-25",
+            "display_time": "07:30 PM",
+            "start_time_utc": "2026-10-25T14:30:00Z",
+            "start_time_pkt": "2026-10-25T19:30:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

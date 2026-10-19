@@ -1253,7 +1253,62 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="flag_rounded_card"
     ),
 
-    # 50. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 50. Russian Premier League: Arctic Midnight, Premier Red & Russian Blue / Geometric Frames
+    "russian-premier-league": CompetitionTheme(
+        competition_id="russian-premier-league",
+        name="Russian Premier League",
+        background_top=(10, 16, 28),
+        background_bottom=(6, 10, 18),
+        primary=(227, 27, 35),
+        secondary=(0, 75, 175),
+        highlight=(245, 248, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 220, 245),
+        panel_color=(14, 22, 38, 220),
+        panel_border=(227, 27, 35, 175),
+        pattern="seriea_hex_geometry",
+        center_style="bundesliga_diamond_center",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "russian-premier-liga": CompetitionTheme(
+        competition_id="russian-premier-league",
+        name="Russian Premier League",
+        background_top=(10, 16, 28),
+        background_bottom=(6, 10, 18),
+        primary=(227, 27, 35),
+        secondary=(0, 75, 175),
+        highlight=(245, 248, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 220, 245),
+        panel_color=(14, 22, 38, 220),
+        panel_border=(227, 27, 35, 175),
+        pattern="seriea_hex_geometry",
+        center_style="bundesliga_diamond_center",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "rpl": CompetitionTheme(
+        competition_id="russian-premier-league",
+        name="Russian Premier League",
+        background_top=(10, 16, 28),
+        background_bottom=(6, 10, 18),
+        primary=(227, 27, 35),
+        secondary=(0, 75, 175),
+        highlight=(245, 248, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 220, 245),
+        panel_color=(14, 22, 38, 220),
+        panel_border=(227, 27, 35, 175),
+        pattern="seriea_hex_geometry",
+        center_style="bundesliga_diamond_center",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 51. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

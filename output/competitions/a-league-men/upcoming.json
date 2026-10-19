@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-19T01:40:09.471682+00:00",
+  "generated_at": "2026-10-19T22:45:42.572130+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 4,
+  "total_events": 5,
   "events": [
     {
       "event_id": "a-league-men-2026-10-23-0900-brisbane-roar-perth-glory",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/scoreboard"
       },
-      "last_updated": "2026-10-19T01:37:43.111873+00:00",
+      "last_updated": "2026-10-19T22:43:32.290467+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-23-0900-brisbane-roar-perth-glory.png"
     },
     {
@@ -116,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/scoreboard"
       },
-      "last_updated": "2026-10-19T01:37:43.111873+00:00",
+      "last_updated": "2026-10-19T22:43:32.290467+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-24-0400-newcastle-jets-macarthur-fc.png"
     },
     {
@@ -170,7 +170,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/scoreboard"
       },
-      "last_updated": "2026-10-19T01:37:43.111873+00:00",
+      "last_updated": "2026-10-19T22:43:32.290467+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-24-0600-western-sydney-wanderers-auckland-fc.png"
     },
     {
@@ -224,8 +224,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/scoreboard"
       },
-      "last_updated": "2026-10-19T01:37:43.111873+00:00",
+      "last_updated": "2026-10-19T22:43:32.290467+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-24-0840-melbourne-victory-melbourne-city-fc.png"
+    },
+    {
+      "event_id": "a-league-men-2026-10-25-0200-wellington-phoenix-fc-central-coast-mariners",
+      "competition": {
+        "id": "a-league-men",
+        "name": "Australian A-League Men",
+        "country": "Australia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1308.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-25",
+      "match_date": "2026-10-25",
+      "match_date_utc": "2026-10-25",
+      "match_date_pkt": "2026-10-25",
+      "start_time_utc": "2026-10-25T02:00:00Z",
+      "start_time_pkt": "2026-10-25T07:00:00+05:00",
+      "start_timestamp": 1792893600,
+      "display_date": "2026-10-25",
+      "display_time": "07:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Wellington Phoenix FC",
+        "slug": "wellington-phoenix-fc",
+        "espn_id": "8352",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8352.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Wellington Phoenix FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Central Coast Mariners",
+        "slug": "central-coast-mariners",
+        "espn_id": "5325",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5325.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Central Coast Mariners",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/scoreboard"
+      },
+      "last_updated": "2026-10-19T22:43:32.290467+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-25-0200-wellington-phoenix-fc-central-coast-mariners.png"
     }
   ]
 }

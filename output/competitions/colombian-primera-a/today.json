@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-19T22:45:42.567089+00:00",
+  "generated_at": "2026-10-20T22:03:37.979984+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-10-20",
-  "target_day_name": "Tuesday",
-  "total_events": 1,
+  "target_date_pkt": "2026-10-21",
+  "target_day_name": "Wednesday",
+  "total_events": 3,
   "events": [
     {
-      "event_id": "colombian-primera-a-2026-10-20-0105-deportivo-pasto-alianza-fc",
+      "event_id": "colombian-primera-a-2026-10-20-2315-internacional-de-bogota-fortaleza-ceif",
       "competition": {
         "id": "colombian-primera-a",
         "name": "Colombian Primera A",
@@ -27,35 +27,35 @@
       "source_date": "2026-10-20",
       "match_date": "2026-10-20",
       "match_date_utc": "2026-10-20",
-      "match_date_pkt": "2026-10-20",
-      "start_time_utc": "2026-10-20T01:05:00Z",
-      "start_time_pkt": "2026-10-20T06:05:00+05:00",
-      "start_timestamp": 1792458300,
-      "display_date": "2026-10-20",
-      "display_time": "06:05 AM",
+      "match_date_pkt": "2026-10-21",
+      "start_time_utc": "2026-10-20T23:15:00Z",
+      "start_time_pkt": "2026-10-21T04:15:00+05:00",
+      "start_timestamp": 1792538100,
+      "display_date": "2026-10-21",
+      "display_time": "04:15 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Deportivo Pasto",
-        "slug": "deportivo-pasto",
-        "espn_id": "5485",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5485.png",
+        "name": "Internacional de Bogotá",
+        "slug": "internacional-de-bogota",
+        "espn_id": "7445",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7445.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Deportivo Pasto",
+          "matched_name": "Internacional de Bogotá",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Alianza FC",
-        "slug": "alianza-fc",
-        "espn_id": "9761",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9761.png",
+        "name": "Fortaleza CEIF",
+        "slug": "fortaleza-ceif",
+        "espn_id": "4928",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4928.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Alianza FC",
+          "matched_name": "Fortaleza CEIF",
           "is_fallback": false
         }
       },
@@ -64,8 +64,116 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/scoreboard"
       },
-      "last_updated": "2026-10-19T22:43:32.290467+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/colombian-primera-a-2026-10-20-0105-deportivo-pasto-alianza-fc.png"
+      "last_updated": "2026-10-20T22:01:04.827902+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/colombian-primera-a-2026-10-20-2315-internacional-de-bogota-fortaleza-ceif.png"
+    },
+    {
+      "event_id": "colombian-primera-a-2026-10-20-2330-cucuta-deportivo-atletico-nacional",
+      "competition": {
+        "id": "colombian-primera-a",
+        "name": "Colombian Primera A",
+        "country": "Colombia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-20",
+      "match_date": "2026-10-20",
+      "match_date_utc": "2026-10-20",
+      "match_date_pkt": "2026-10-21",
+      "start_time_utc": "2026-10-20T23:30:00Z",
+      "start_time_pkt": "2026-10-21T04:30:00+05:00",
+      "start_timestamp": 1792539000,
+      "display_date": "2026-10-21",
+      "display_time": "04:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Cúcuta Deportivo",
+        "slug": "cucuta-deportivo",
+        "espn_id": "6101",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6101.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Cúcuta Deportivo",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Atlético Nacional",
+        "slug": "atletico-nacional",
+        "espn_id": "5264",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Atlético Nacional",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/scoreboard"
+      },
+      "last_updated": "2026-10-20T22:01:04.827902+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/colombian-primera-a-2026-10-20-2330-cucuta-deportivo-atletico-nacional.png"
+    },
+    {
+      "event_id": "colombian-primera-a-2026-10-21-0130-millonarios-once-caldas",
+      "competition": {
+        "id": "colombian-primera-a",
+        "name": "Colombian Primera A",
+        "country": "Colombia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-21",
+      "match_date": "2026-10-21",
+      "match_date_utc": "2026-10-21",
+      "match_date_pkt": "2026-10-21",
+      "start_time_utc": "2026-10-21T01:30:00Z",
+      "start_time_pkt": "2026-10-21T06:30:00+05:00",
+      "start_timestamp": 1792546200,
+      "display_date": "2026-10-21",
+      "display_time": "06:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Millonarios",
+        "slug": "millonarios",
+        "espn_id": "5484",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5484.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Millonarios",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Once Caldas",
+        "slug": "once-caldas",
+        "espn_id": "2919",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2919.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Once Caldas",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/scoreboard"
+      },
+      "last_updated": "2026-10-20T22:01:04.827902+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/colombian-primera-a-2026-10-21-0130-millonarios-once-caldas.png"
     }
   ]
 }

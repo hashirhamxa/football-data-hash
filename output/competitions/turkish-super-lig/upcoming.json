@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-19T22:45:42.563955+00:00",
+  "generated_at": "2026-10-20T22:03:37.976403+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 4,
+  "total_events": 5,
   "events": [
     {
       "event_id": "turkish-super-lig-2026-10-23-1700-alanyaspor-kocaelispor",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard"
       },
-      "last_updated": "2026-10-19T22:43:32.290467+00:00",
+      "last_updated": "2026-10-20T22:01:04.827902+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-10-23-1700-alanyaspor-kocaelispor.png"
     },
     {
@@ -116,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard"
       },
-      "last_updated": "2026-10-19T22:43:32.290467+00:00",
+      "last_updated": "2026-10-20T22:01:04.827902+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-10-24-1030-eyupspor-kasimpasa.png"
     },
     {
@@ -170,7 +170,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard"
       },
-      "last_updated": "2026-10-19T22:43:32.290467+00:00",
+      "last_updated": "2026-10-20T22:01:04.827902+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-10-24-1300-gaziantep-fk-erzurum-bb.png"
     },
     {
@@ -224,8 +224,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard"
       },
-      "last_updated": "2026-10-19T22:43:32.290467+00:00",
+      "last_updated": "2026-10-20T22:01:04.827902+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-10-24-1600-samsunspor-amed-sfk.png"
+    },
+    {
+      "event_id": "turkish-super-lig-2026-10-25-1300-konyaspor-genclerbirligi",
+      "competition": {
+        "id": "turkish-super-lig",
+        "name": "Turkish Super Lig",
+        "country": "Turkey",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-25",
+      "match_date": "2026-10-25",
+      "match_date_utc": "2026-10-25",
+      "match_date_pkt": "2026-10-25",
+      "start_time_utc": "2026-10-25T13:00:00Z",
+      "start_time_pkt": "2026-10-25T18:00:00+05:00",
+      "start_timestamp": 1792933200,
+      "display_date": "2026-10-25",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Konyaspor",
+        "slug": "konyaspor",
+        "espn_id": "7648",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Konyaspor",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Genclerbirligi",
+        "slug": "genclerbirligi",
+        "espn_id": "996",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Genclerbirligi",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard"
+      },
+      "last_updated": "2026-10-20T22:01:04.827902+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-10-25-1300-konyaspor-genclerbirligi.png"
     }
   ]
 }

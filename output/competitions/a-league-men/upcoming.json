@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-19T22:45:42.572130+00:00",
+  "generated_at": "2026-10-20T22:03:37.984953+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 5,
+  "total_events": 6,
   "events": [
     {
       "event_id": "a-league-men-2026-10-23-0900-brisbane-roar-perth-glory",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/scoreboard"
       },
-      "last_updated": "2026-10-19T22:43:32.290467+00:00",
+      "last_updated": "2026-10-20T22:01:04.827902+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-23-0900-brisbane-roar-perth-glory.png"
     },
     {
@@ -116,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/scoreboard"
       },
-      "last_updated": "2026-10-19T22:43:32.290467+00:00",
+      "last_updated": "2026-10-20T22:01:04.827902+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-24-0400-newcastle-jets-macarthur-fc.png"
     },
     {
@@ -170,7 +170,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/scoreboard"
       },
-      "last_updated": "2026-10-19T22:43:32.290467+00:00",
+      "last_updated": "2026-10-20T22:01:04.827902+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-24-0600-western-sydney-wanderers-auckland-fc.png"
     },
     {
@@ -224,7 +224,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/scoreboard"
       },
-      "last_updated": "2026-10-19T22:43:32.290467+00:00",
+      "last_updated": "2026-10-20T22:01:04.827902+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-24-0840-melbourne-victory-melbourne-city-fc.png"
     },
     {
@@ -278,8 +278,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/scoreboard"
       },
-      "last_updated": "2026-10-19T22:43:32.290467+00:00",
+      "last_updated": "2026-10-20T22:01:04.827902+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-25-0200-wellington-phoenix-fc-central-coast-mariners.png"
+    },
+    {
+      "event_id": "a-league-men-2026-10-25-0400-sydney-fc-adelaide-united",
+      "competition": {
+        "id": "a-league-men",
+        "name": "Australian A-League Men",
+        "country": "Australia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1308.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-25",
+      "match_date": "2026-10-25",
+      "match_date_utc": "2026-10-25",
+      "match_date_pkt": "2026-10-25",
+      "start_time_utc": "2026-10-25T04:00:00Z",
+      "start_time_pkt": "2026-10-25T09:00:00+05:00",
+      "start_timestamp": 1792900800,
+      "display_date": "2026-10-25",
+      "display_time": "09:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Sydney FC",
+        "slug": "sydney-fc",
+        "espn_id": "5327",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5327.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sydney FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Adelaide United",
+        "slug": "adelaide-united",
+        "espn_id": "5321",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5321.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Adelaide United",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/scoreboard"
+      },
+      "last_updated": "2026-10-20T22:01:04.827902+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-25-0400-sydney-fc-adelaide-united.png"
     }
   ]
 }

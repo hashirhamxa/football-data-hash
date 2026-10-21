@@ -7,10 +7,65 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-20T22:03:37.983904+00:00",
+  "generated_at": "2026-10-21T22:06:04.741392+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-10-22",
-  "target_day_name": "Thursday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-10-23",
+  "target_day_name": "Friday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "serie-b-2026-10-23-1830-empoli-vicenza",
+      "competition": {
+        "id": "serie-b",
+        "name": "Italian Serie B",
+        "country": "Italy",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/99.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-23",
+      "match_date": "2026-10-23",
+      "match_date_utc": "2026-10-23",
+      "match_date_pkt": "2026-10-23",
+      "start_time_utc": "2026-10-23T18:30:00Z",
+      "start_time_pkt": "2026-10-23T23:30:00+05:00",
+      "start_timestamp": 1792780200,
+      "display_date": "2026-10-23",
+      "display_time": "11:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Empoli",
+        "slug": "empoli",
+        "espn_id": "2574",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2574.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Empoli",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Vicenza",
+        "slug": "vicenza",
+        "espn_id": "120",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/120.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Vicenza",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/scoreboard"
+      },
+      "last_updated": "2026-10-21T22:03:47.001647+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-b-2026-10-23-1830-empoli-vicenza.png"
+    }
+  ]
 }

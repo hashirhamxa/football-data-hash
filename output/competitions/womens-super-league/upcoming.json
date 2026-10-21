@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-20T22:03:37.892237+00:00",
+  "generated_at": "2026-10-21T22:06:04.721812+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 6,
+  "total_events": 7,
   "events": [
     {
       "event_id": "womens-super-league-2026-10-24-1145-tottenham-hotspur-arsenal",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.w.1/scoreboard"
       },
-      "last_updated": "2026-10-20T22:01:04.827902+00:00",
+      "last_updated": "2026-10-21T22:03:47.001647+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-super-league-2026-10-24-1145-tottenham-hotspur-arsenal.png"
     },
     {
@@ -116,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.w.1/scoreboard"
       },
-      "last_updated": "2026-10-20T22:01:04.827902+00:00",
+      "last_updated": "2026-10-21T22:03:47.001647+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-super-league-2026-10-24-1615-brighton-hove-albion-west-ham-united.png"
     },
     {
@@ -170,7 +170,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.w.1/scoreboard"
       },
-      "last_updated": "2026-10-20T22:01:04.827902+00:00",
+      "last_updated": "2026-10-21T22:03:47.001647+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-super-league-2026-10-25-1200-crystal-palace-chelsea.png"
     },
     {
@@ -224,7 +224,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.w.1/scoreboard"
       },
-      "last_updated": "2026-10-20T22:01:04.827902+00:00",
+      "last_updated": "2026-10-21T22:03:47.001647+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-super-league-2026-10-25-1400-birmingham-city-charlton-athletic.png"
     },
     {
@@ -278,7 +278,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.w.1/scoreboard"
       },
-      "last_updated": "2026-10-20T22:01:04.827902+00:00",
+      "last_updated": "2026-10-21T22:03:47.001647+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-super-league-2026-10-25-1400-everton-aston-villa.png"
     },
     {
@@ -332,8 +332,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.w.1/scoreboard"
       },
-      "last_updated": "2026-10-20T22:01:04.827902+00:00",
+      "last_updated": "2026-10-21T22:03:47.001647+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-super-league-2026-10-25-1400-liverpool-london-city-lionesses.png"
+    },
+    {
+      "event_id": "womens-super-league-2026-10-25-1800-manchester-united-manchester-city",
+      "competition": {
+        "id": "womens-super-league",
+        "name": "English Women's Super League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2314.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-25",
+      "match_date": "2026-10-25",
+      "match_date_utc": "2026-10-25",
+      "match_date_pkt": "2026-10-25",
+      "start_time_utc": "2026-10-25T18:00:00Z",
+      "start_time_pkt": "2026-10-25T23:00:00+05:00",
+      "start_timestamp": 1792951200,
+      "display_date": "2026-10-25",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Manchester United",
+        "slug": "manchester-united",
+        "espn_id": "20061",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20061.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Manchester United",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Manchester City",
+        "slug": "manchester-city",
+        "espn_id": "19257",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/19257.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Manchester City",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.w.1/scoreboard"
+      },
+      "last_updated": "2026-10-21T22:03:47.001647+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-super-league-2026-10-25-1800-manchester-united-manchester-city.png"
     }
   ]
 }

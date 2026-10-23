@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-22T22:03:26.709417+00:00",
+  "generated_at": "2026-10-23T21:50:26.079218+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-10-23",
-  "target_day_name": "Friday",
-  "total_events": 1,
+  "target_date_pkt": "2026-10-24",
+  "target_day_name": "Saturday",
+  "total_events": 7,
   "events": [
     {
-      "event_id": "serie-b-2026-10-23-1830-empoli-vicenza",
+      "event_id": "serie-b-2026-10-24-1300-cremonese-juve-stabia",
       "competition": {
         "id": "serie-b",
         "name": "Italian Serie B",
@@ -24,38 +24,38 @@
         "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/99.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-23",
-      "match_date": "2026-10-23",
-      "match_date_utc": "2026-10-23",
-      "match_date_pkt": "2026-10-23",
-      "start_time_utc": "2026-10-23T18:30:00Z",
-      "start_time_pkt": "2026-10-23T23:30:00+05:00",
-      "start_timestamp": 1792780200,
-      "display_date": "2026-10-23",
-      "display_time": "11:30 PM",
+      "source_date": "2026-10-24",
+      "match_date": "2026-10-24",
+      "match_date_utc": "2026-10-24",
+      "match_date_pkt": "2026-10-24",
+      "start_time_utc": "2026-10-24T13:00:00Z",
+      "start_time_pkt": "2026-10-24T18:00:00+05:00",
+      "start_timestamp": 1792846800,
+      "display_date": "2026-10-24",
+      "display_time": "06:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Empoli",
-        "slug": "empoli",
-        "espn_id": "2574",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2574.png",
+        "name": "Cremonese",
+        "slug": "cremonese",
+        "espn_id": "4050",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4050.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Empoli",
+          "matched_name": "Cremonese",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Vicenza",
-        "slug": "vicenza",
-        "espn_id": "120",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/120.png",
+        "name": "Juve Stabia",
+        "slug": "juve-stabia",
+        "espn_id": "3975",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3975.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Vicenza",
+          "matched_name": "Juve Stabia",
           "is_fallback": false
         }
       },
@@ -64,8 +64,332 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/scoreboard"
       },
-      "last_updated": "2026-10-22T22:01:11.818603+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-b-2026-10-23-1830-empoli-vicenza.png"
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-b-2026-10-24-1300-cremonese-juve-stabia.png"
+    },
+    {
+      "event_id": "serie-b-2026-10-24-1300-modena-cesena",
+      "competition": {
+        "id": "serie-b",
+        "name": "Italian Serie B",
+        "country": "Italy",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/99.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-24",
+      "match_date": "2026-10-24",
+      "match_date_utc": "2026-10-24",
+      "match_date_pkt": "2026-10-24",
+      "start_time_utc": "2026-10-24T13:00:00Z",
+      "start_time_pkt": "2026-10-24T18:00:00+05:00",
+      "start_timestamp": 1792846800,
+      "display_date": "2026-10-24",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Modena",
+        "slug": "modena",
+        "espn_id": "2573",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2573.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Modena",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Cesena",
+        "slug": "cesena",
+        "espn_id": "3337",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3337.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Cesena",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/scoreboard"
+      },
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-b-2026-10-24-1300-modena-cesena.png"
+    },
+    {
+      "event_id": "serie-b-2026-10-24-1300-sudtirol-sampdoria",
+      "competition": {
+        "id": "serie-b",
+        "name": "Italian Serie B",
+        "country": "Italy",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/99.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-24",
+      "match_date": "2026-10-24",
+      "match_date_utc": "2026-10-24",
+      "match_date_pkt": "2026-10-24",
+      "start_time_utc": "2026-10-24T13:00:00Z",
+      "start_time_pkt": "2026-10-24T18:00:00+05:00",
+      "start_timestamp": 1792846800,
+      "display_date": "2026-10-24",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Sudtirol",
+        "slug": "sudtirol",
+        "espn_id": "11139",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11139.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sudtirol",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Sampdoria",
+        "slug": "sampdoria",
+        "espn_id": "2734",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2734.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sampdoria",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/scoreboard"
+      },
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-b-2026-10-24-1300-sudtirol-sampdoria.png"
+    },
+    {
+      "event_id": "serie-b-2026-10-24-1300-us-avellino-padova",
+      "competition": {
+        "id": "serie-b",
+        "name": "Italian Serie B",
+        "country": "Italy",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/99.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-24",
+      "match_date": "2026-10-24",
+      "match_date_utc": "2026-10-24",
+      "match_date_pkt": "2026-10-24",
+      "start_time_utc": "2026-10-24T13:00:00Z",
+      "start_time_pkt": "2026-10-24T18:00:00+05:00",
+      "start_timestamp": 1792846800,
+      "display_date": "2026-10-24",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "US Avellino",
+        "slug": "us-avellino",
+        "espn_id": "4055",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4055.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "US Avellino",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Padova",
+        "slug": "padova",
+        "espn_id": "3952",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3952.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Padova",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/scoreboard"
+      },
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-b-2026-10-24-1300-us-avellino-padova.png"
+    },
+    {
+      "event_id": "serie-b-2026-10-24-1300-virtus-entella-mantova",
+      "competition": {
+        "id": "serie-b",
+        "name": "Italian Serie B",
+        "country": "Italy",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/99.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-24",
+      "match_date": "2026-10-24",
+      "match_date_utc": "2026-10-24",
+      "match_date_pkt": "2026-10-24",
+      "start_time_utc": "2026-10-24T13:00:00Z",
+      "start_time_pkt": "2026-10-24T18:00:00+05:00",
+      "start_timestamp": 1792846800,
+      "display_date": "2026-10-24",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Virtus Entella",
+        "slug": "virtus-entella",
+        "espn_id": "11137",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11137.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Virtus Entella",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Mantova",
+        "slug": "mantova",
+        "espn_id": "3991",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3991.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Mantova",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/scoreboard"
+      },
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-b-2026-10-24-1300-virtus-entella-mantova.png"
+    },
+    {
+      "event_id": "serie-b-2026-10-24-1515-catanzaro-ascoli",
+      "competition": {
+        "id": "serie-b",
+        "name": "Italian Serie B",
+        "country": "Italy",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/99.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-24",
+      "match_date": "2026-10-24",
+      "match_date_utc": "2026-10-24",
+      "match_date_pkt": "2026-10-24",
+      "start_time_utc": "2026-10-24T15:15:00Z",
+      "start_time_pkt": "2026-10-24T20:15:00+05:00",
+      "start_timestamp": 1792854900,
+      "display_date": "2026-10-24",
+      "display_time": "08:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Catanzaro",
+        "slug": "catanzaro",
+        "espn_id": "3257",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3257.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Catanzaro",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Ascoli",
+        "slug": "ascoli",
+        "espn_id": "3346",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3346.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Ascoli",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/scoreboard"
+      },
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-b-2026-10-24-1515-catanzaro-ascoli.png"
+    },
+    {
+      "event_id": "serie-b-2026-10-24-1730-arezzo-benevento",
+      "competition": {
+        "id": "serie-b",
+        "name": "Italian Serie B",
+        "country": "Italy",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/99.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-24",
+      "match_date": "2026-10-24",
+      "match_date_utc": "2026-10-24",
+      "match_date_pkt": "2026-10-24",
+      "start_time_utc": "2026-10-24T17:30:00Z",
+      "start_time_pkt": "2026-10-24T22:30:00+05:00",
+      "start_timestamp": 1792863000,
+      "display_date": "2026-10-24",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Arezzo",
+        "slug": "arezzo",
+        "espn_id": "3345",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3345.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Arezzo",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Benevento",
+        "slug": "benevento",
+        "espn_id": "4059",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4059.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Benevento",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/scoreboard"
+      },
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-b-2026-10-24-1730-arezzo-benevento.png"
     }
   ]
 }

@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-22T22:03:26.703009+00:00",
+  "generated_at": "2026-10-23T21:50:26.073386+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-10-24",
-  "target_day_name": "Saturday",
-  "total_events": 2,
+  "target_date_pkt": "2026-10-25",
+  "target_day_name": "Sunday",
+  "total_events": 3,
   "events": [
     {
-      "event_id": "liga-mx-2026-10-24-0100-necaxa-fc-juarez",
+      "event_id": "liga-mx-2026-10-24-2300-leon-toluca",
       "competition": {
         "id": "liga-mx",
         "name": "Mexican Liga BBVA MX",
@@ -27,35 +27,89 @@
       "source_date": "2026-10-24",
       "match_date": "2026-10-24",
       "match_date_utc": "2026-10-24",
-      "match_date_pkt": "2026-10-24",
-      "start_time_utc": "2026-10-24T01:00:00Z",
-      "start_time_pkt": "2026-10-24T06:00:00+05:00",
-      "start_timestamp": 1792803600,
-      "display_date": "2026-10-24",
+      "match_date_pkt": "2026-10-25",
+      "start_time_utc": "2026-10-24T23:00:00Z",
+      "start_time_pkt": "2026-10-25T04:00:00+05:00",
+      "start_timestamp": 1792882800,
+      "display_date": "2026-10-25",
+      "display_time": "04:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "León",
+        "slug": "leon",
+        "espn_id": "228",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "León",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Toluca",
+        "slug": "toluca",
+        "espn_id": "223",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Toluca",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard"
+      },
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-10-24-2300-leon-toluca.png"
+    },
+    {
+      "event_id": "liga-mx-2026-10-25-0100-monterrey-guadalajara",
+      "competition": {
+        "id": "liga-mx",
+        "name": "Mexican Liga BBVA MX",
+        "country": "Mexico",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-25",
+      "match_date": "2026-10-25",
+      "match_date_utc": "2026-10-25",
+      "match_date_pkt": "2026-10-25",
+      "start_time_utc": "2026-10-25T01:00:00Z",
+      "start_time_pkt": "2026-10-25T06:00:00+05:00",
+      "start_timestamp": 1792890000,
+      "display_date": "2026-10-25",
       "display_time": "06:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Necaxa",
-        "slug": "necaxa",
-        "espn_id": "229",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/229.png",
+        "name": "Monterrey",
+        "slug": "monterrey",
+        "espn_id": "220",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Necaxa",
+          "matched_name": "Monterrey",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "FC Juárez",
-        "slug": "fc-juarez",
-        "espn_id": "17851",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/17851.png",
+        "name": "Guadalajara",
+        "slug": "guadalajara",
+        "espn_id": "219",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/219.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "FC Juárez",
+          "matched_name": "Guadalajara",
           "is_fallback": false
         }
       },
@@ -64,11 +118,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard"
       },
-      "last_updated": "2026-10-22T22:01:11.818603+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-10-24-0100-necaxa-fc-juarez.png"
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-10-25-0100-monterrey-guadalajara.png"
     },
     {
-      "event_id": "liga-mx-2026-10-24-0300-atlante-atletico-de-san-luis",
+      "event_id": "liga-mx-2026-10-25-0310-pumas-unam-tigres-uanl",
       "competition": {
         "id": "liga-mx",
         "name": "Mexican Liga BBVA MX",
@@ -78,38 +132,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-24",
-      "match_date": "2026-10-24",
-      "match_date_utc": "2026-10-24",
-      "match_date_pkt": "2026-10-24",
-      "start_time_utc": "2026-10-24T03:00:00Z",
-      "start_time_pkt": "2026-10-24T08:00:00+05:00",
-      "start_timestamp": 1792810800,
-      "display_date": "2026-10-24",
-      "display_time": "08:00 AM",
+      "source_date": "2026-10-25",
+      "match_date": "2026-10-25",
+      "match_date_utc": "2026-10-25",
+      "match_date_pkt": "2026-10-25",
+      "start_time_utc": "2026-10-25T03:10:00Z",
+      "start_time_pkt": "2026-10-25T08:10:00+05:00",
+      "start_timestamp": 1792897800,
+      "display_date": "2026-10-25",
+      "display_time": "08:10 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Atlante",
-        "slug": "atlante",
-        "espn_id": "226",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/226.png",
+        "name": "Pumas UNAM",
+        "slug": "pumas-unam",
+        "espn_id": "233",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/233.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Atlante",
+          "matched_name": "Pumas UNAM",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Atlético de San Luis",
-        "slug": "atletico-de-san-luis",
-        "espn_id": "15720",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
+        "name": "Tigres UANL",
+        "slug": "tigres-uanl",
+        "espn_id": "232",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/232.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Atlético de San Luis",
+          "matched_name": "Tigres UANL",
           "is_fallback": false
         }
       },
@@ -118,8 +172,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard"
       },
-      "last_updated": "2026-10-22T22:01:11.818603+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-10-24-0300-atlante-atletico-de-san-luis.png"
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-10-25-0310-pumas-unam-tigres-uanl.png"
     }
   ]
 }

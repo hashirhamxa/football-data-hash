@@ -7,10 +7,65 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-22T22:03:26.687374+00:00",
+  "generated_at": "2026-10-23T21:50:26.056221+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-10-23",
-  "target_day_name": "Friday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-10-24",
+  "target_day_name": "Saturday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "brazilian-serie-a-2026-10-23-2300-cruzeiro-remo",
+      "competition": {
+        "id": "brazilian-serie-a",
+        "name": "Brazilian Série A",
+        "country": "Brazil",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-23",
+      "match_date": "2026-10-23",
+      "match_date_utc": "2026-10-23",
+      "match_date_pkt": "2026-10-24",
+      "start_time_utc": "2026-10-23T23:00:00Z",
+      "start_time_pkt": "2026-10-24T04:00:00+05:00",
+      "start_timestamp": 1792796400,
+      "display_date": "2026-10-24",
+      "display_time": "04:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Cruzeiro",
+        "slug": "cruzeiro",
+        "espn_id": "2022",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Cruzeiro",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Remo",
+        "slug": "remo",
+        "espn_id": "4936",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Remo",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard"
+      },
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-10-23-2300-cruzeiro-remo.png"
+    }
+  ]
 }

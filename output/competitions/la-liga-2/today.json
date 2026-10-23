@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-22T22:03:26.664387+00:00",
+  "generated_at": "2026-10-23T21:50:26.035863+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-10-23",
-  "target_day_name": "Friday",
-  "total_events": 1,
+  "target_date_pkt": "2026-10-24",
+  "target_day_name": "Saturday",
+  "total_events": 4,
   "events": [
     {
-      "event_id": "la-liga-2-2026-10-23-1830-granada-real-valladolid",
+      "event_id": "la-liga-2-2026-10-24-1200-cordoba-eibar",
       "competition": {
         "id": "la-liga-2",
         "name": "Spanish La Liga 2",
@@ -24,38 +24,38 @@
         "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-23",
-      "match_date": "2026-10-23",
-      "match_date_utc": "2026-10-23",
-      "match_date_pkt": "2026-10-23",
-      "start_time_utc": "2026-10-23T18:30:00Z",
-      "start_time_pkt": "2026-10-23T23:30:00+05:00",
-      "start_timestamp": 1792780200,
-      "display_date": "2026-10-23",
-      "display_time": "11:30 PM",
+      "source_date": "2026-10-24",
+      "match_date": "2026-10-24",
+      "match_date_utc": "2026-10-24",
+      "match_date_pkt": "2026-10-24",
+      "start_time_utc": "2026-10-24T12:00:00Z",
+      "start_time_pkt": "2026-10-24T17:00:00+05:00",
+      "start_timestamp": 1792843200,
+      "display_date": "2026-10-24",
+      "display_time": "05:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Granada",
-        "slug": "granada",
-        "espn_id": "3747",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3747.png",
+        "name": "Córdoba",
+        "slug": "cordoba",
+        "espn_id": "8447",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8447.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Granada",
+          "matched_name": "Córdoba",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Real Valladolid",
-        "slug": "real-valladolid",
-        "espn_id": "95",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/95.png",
+        "name": "Eibar",
+        "slug": "eibar",
+        "espn_id": "3752",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3752.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Real Valladolid",
+          "matched_name": "Eibar",
           "is_fallback": false
         }
       },
@@ -64,8 +64,170 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
       },
-      "last_updated": "2026-10-22T22:01:11.818603+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-23-1830-granada-real-valladolid.png"
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-24-1200-cordoba-eibar.png"
+    },
+    {
+      "event_id": "la-liga-2-2026-10-24-1415-leganes-mallorca",
+      "competition": {
+        "id": "la-liga-2",
+        "name": "Spanish La Liga 2",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-24",
+      "match_date": "2026-10-24",
+      "match_date_utc": "2026-10-24",
+      "match_date_pkt": "2026-10-24",
+      "start_time_utc": "2026-10-24T14:15:00Z",
+      "start_time_pkt": "2026-10-24T19:15:00+05:00",
+      "start_timestamp": 1792851300,
+      "display_date": "2026-10-24",
+      "display_time": "07:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Leganés",
+        "slug": "leganes",
+        "espn_id": "17534",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/17534.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Leganés",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Mallorca",
+        "slug": "mallorca",
+        "espn_id": "84",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Mallorca",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
+      },
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-24-1415-leganes-mallorca.png"
+    },
+    {
+      "event_id": "la-liga-2-2026-10-24-1630-girona-rc-celta-fortuna",
+      "competition": {
+        "id": "la-liga-2",
+        "name": "Spanish La Liga 2",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-24",
+      "match_date": "2026-10-24",
+      "match_date_utc": "2026-10-24",
+      "match_date_pkt": "2026-10-24",
+      "start_time_utc": "2026-10-24T16:30:00Z",
+      "start_time_pkt": "2026-10-24T21:30:00+05:00",
+      "start_timestamp": 1792859400,
+      "display_date": "2026-10-24",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Girona",
+        "slug": "girona",
+        "espn_id": "9812",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Girona",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "RC Celta Fortuna",
+        "slug": "rc-celta-fortuna",
+        "espn_id": "131858",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131858.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "RC Celta Fortuna",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
+      },
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-24-1630-girona-rc-celta-fortuna.png"
+    },
+    {
+      "event_id": "la-liga-2-2026-10-24-1630-las-palmas-real-sociedad-ii",
+      "competition": {
+        "id": "la-liga-2",
+        "name": "Spanish La Liga 2",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-24",
+      "match_date": "2026-10-24",
+      "match_date_utc": "2026-10-24",
+      "match_date_pkt": "2026-10-24",
+      "start_time_utc": "2026-10-24T16:30:00Z",
+      "start_time_pkt": "2026-10-24T21:30:00+05:00",
+      "start_timestamp": 1792859400,
+      "display_date": "2026-10-24",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Las Palmas",
+        "slug": "las-palmas",
+        "espn_id": "98",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/98.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Las Palmas",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Real Sociedad II",
+        "slug": "real-sociedad-ii",
+        "espn_id": "20983",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20983.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Real Sociedad II",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard"
+      },
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-10-24-1630-las-palmas-real-sociedad-ii.png"
     }
   ]
 }

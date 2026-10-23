@@ -7,10 +7,119 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-22T22:03:26.698814+00:00",
+  "generated_at": "2026-10-23T21:50:26.069031+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-10-23",
-  "target_day_name": "Friday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-10-24",
+  "target_day_name": "Saturday",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "liga-profesional-argentina-2026-10-24-0015-tigre-atletico-tucuman",
+      "competition": {
+        "id": "liga-profesional-argentina",
+        "name": "Liga Profesional de Fútbol",
+        "country": "Argentina",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-24",
+      "match_date": "2026-10-24",
+      "match_date_utc": "2026-10-24",
+      "match_date_pkt": "2026-10-24",
+      "start_time_utc": "2026-10-24T00:15:00Z",
+      "start_time_pkt": "2026-10-24T05:15:00+05:00",
+      "start_timestamp": 1792800900,
+      "display_date": "2026-10-24",
+      "display_time": "05:15 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Tigre",
+        "slug": "tigre",
+        "espn_id": "7767",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7767.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Tigre",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Atlético Tucumán",
+        "slug": "atletico-tucuman",
+        "espn_id": "9785",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9785.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Atlético Tucumán",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard"
+      },
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-profesional-argentina-2026-10-24-0015-tigre-atletico-tucuman.png"
+    },
+    {
+      "event_id": "liga-profesional-argentina-2026-10-24-1745-banfield-lanus",
+      "competition": {
+        "id": "liga-profesional-argentina",
+        "name": "Liga Profesional de Fútbol",
+        "country": "Argentina",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-24",
+      "match_date": "2026-10-24",
+      "match_date_utc": "2026-10-24",
+      "match_date_pkt": "2026-10-24",
+      "start_time_utc": "2026-10-24T17:45:00Z",
+      "start_time_pkt": "2026-10-24T22:45:00+05:00",
+      "start_timestamp": 1792863900,
+      "display_date": "2026-10-24",
+      "display_time": "10:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Banfield",
+        "slug": "banfield",
+        "espn_id": "235",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Banfield",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Lanús",
+        "slug": "lanus",
+        "espn_id": "12",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Lanús",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard"
+      },
+      "last_updated": "2026-10-23T21:47:56.813842+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-profesional-argentina-2026-10-24-1745-banfield-lanus.png"
+    }
+  ]
 }

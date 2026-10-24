@@ -7,68 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-23T21:50:26.034458+00:00",
+  "generated_at": "2026-10-24T21:23:16.450632+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-10-25",
-  "target_day_name": "Sunday",
-  "total_events": 4,
+  "target_date_pkt": "2026-10-26",
+  "target_day_name": "Monday",
+  "total_events": 1,
   "events": [
     {
-      "event_id": "la-liga-2026-10-24-1900-atletico-madrid-deportivo",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-24",
-      "match_date": "2026-10-24",
-      "match_date_utc": "2026-10-24",
-      "match_date_pkt": "2026-10-25",
-      "start_time_utc": "2026-10-24T19:00:00Z",
-      "start_time_pkt": "2026-10-25T00:00:00+05:00",
-      "start_timestamp": 1792868400,
-      "display_date": "2026-10-25",
-      "display_time": "12:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Atlético Madrid",
-        "slug": "atletico-madrid",
-        "espn_id": "1068",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Atlético Madrid",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Deportivo",
-        "slug": "deportivo",
-        "espn_id": "90",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Deportivo",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-10-23T21:47:56.813842+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-24-1900-atletico-madrid-deportivo.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-25-1300-athletic-club-getafe",
+      "event_id": "la-liga-2026-10-25-2000-barcelona-real-madrid",
       "competition": {
         "id": "la-liga",
         "name": "Spanish La Liga",
@@ -81,35 +27,35 @@
       "source_date": "2026-10-25",
       "match_date": "2026-10-25",
       "match_date_utc": "2026-10-25",
-      "match_date_pkt": "2026-10-25",
-      "start_time_utc": "2026-10-25T13:00:00Z",
-      "start_time_pkt": "2026-10-25T18:00:00+05:00",
-      "start_timestamp": 1792933200,
-      "display_date": "2026-10-25",
-      "display_time": "06:00 PM",
+      "match_date_pkt": "2026-10-26",
+      "start_time_utc": "2026-10-25T20:00:00Z",
+      "start_time_pkt": "2026-10-26T01:00:00+05:00",
+      "start_timestamp": 1792958400,
+      "display_date": "2026-10-26",
+      "display_time": "01:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Athletic Club",
-        "slug": "athletic-club",
-        "espn_id": "93",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "espn_id": "83",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Athletic Club",
+          "matched_name": "Barcelona",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Getafe",
-        "slug": "getafe",
-        "espn_id": "2922",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+        "name": "Real Madrid",
+        "slug": "real-madrid",
+        "espn_id": "86",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Getafe",
+          "matched_name": "Real Madrid",
           "is_fallback": false
         }
       },
@@ -118,116 +64,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-10-23T21:47:56.813842+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-25-1300-athletic-club-getafe.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-25-1515-celta-vigo-real-betis",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-25",
-      "match_date": "2026-10-25",
-      "match_date_utc": "2026-10-25",
-      "match_date_pkt": "2026-10-25",
-      "start_time_utc": "2026-10-25T15:15:00Z",
-      "start_time_pkt": "2026-10-25T20:15:00+05:00",
-      "start_timestamp": 1792941300,
-      "display_date": "2026-10-25",
-      "display_time": "08:15 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Celta Vigo",
-        "slug": "celta-vigo",
-        "espn_id": "85",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Celta Vigo",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Real Betis",
-        "slug": "real-betis",
-        "espn_id": "244",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Real Betis",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-10-23T21:47:56.813842+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-25-1515-celta-vigo-real-betis.png"
-    },
-    {
-      "event_id": "la-liga-2026-10-25-1730-real-sociedad-levante",
-      "competition": {
-        "id": "la-liga",
-        "name": "Spanish La Liga",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-25",
-      "match_date": "2026-10-25",
-      "match_date_utc": "2026-10-25",
-      "match_date_pkt": "2026-10-25",
-      "start_time_utc": "2026-10-25T17:30:00Z",
-      "start_time_pkt": "2026-10-25T22:30:00+05:00",
-      "start_timestamp": 1792949400,
-      "display_date": "2026-10-25",
-      "display_time": "10:30 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Real Sociedad",
-        "slug": "real-sociedad",
-        "espn_id": "89",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Real Sociedad",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Levante",
-        "slug": "levante",
-        "espn_id": "1538",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Levante",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
-      },
-      "last_updated": "2026-10-23T21:47:56.813842+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-25-1730-real-sociedad-levante.png"
+      "last_updated": "2026-10-24T21:21:29.346252+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-25-2000-barcelona-real-madrid.png"
     }
   ]
 }

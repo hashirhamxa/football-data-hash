@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-25T14:54:49.173366+00:00",
+  "generated_at": "2026-10-25T21:23:08.239922+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 5,
+  "total_events": 6,
   "events": [
     {
       "event_id": "scottish-championship-2026-10-27-1945-stenhousemuir-dunfermline-athletic",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/scoreboard"
       },
-      "last_updated": "2026-10-25T14:46:30.836427+00:00",
+      "last_updated": "2026-10-25T21:20:39.188782+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-10-27-1945-stenhousemuir-dunfermline-athletic.png"
     },
     {
@@ -116,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/scoreboard"
       },
-      "last_updated": "2026-10-25T14:46:30.836427+00:00",
+      "last_updated": "2026-10-25T21:20:39.188782+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-10-30-1930-stenhousemuir-livingston.png"
     },
     {
@@ -170,7 +170,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/scoreboard"
       },
-      "last_updated": "2026-10-25T14:46:30.836427+00:00",
+      "last_updated": "2026-10-25T21:20:39.188782+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-10-31-1500-arbroath-raith-rovers.png"
     },
     {
@@ -224,7 +224,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/scoreboard"
       },
-      "last_updated": "2026-10-25T14:46:30.836427+00:00",
+      "last_updated": "2026-10-25T21:20:39.188782+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-10-31-1500-ayr-united-queen-s-park.png"
     },
     {
@@ -278,8 +278,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/scoreboard"
       },
-      "last_updated": "2026-10-25T14:46:30.836427+00:00",
+      "last_updated": "2026-10-25T21:20:39.188782+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-10-31-1500-dunfermline-athletic-inverness-caledonian-thistle.png"
+    },
+    {
+      "event_id": "scottish-championship-2026-10-31-1500-partick-thistle-greenock-morton",
+      "competition": {
+        "id": "scottish-championship",
+        "name": "Scottish Championship",
+        "country": "Scotland",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-31",
+      "match_date": "2026-10-31",
+      "match_date_utc": "2026-10-31",
+      "match_date_pkt": "2026-10-31",
+      "start_time_utc": "2026-10-31T15:00:00Z",
+      "start_time_pkt": "2026-10-31T20:00:00+05:00",
+      "start_timestamp": 1793458800,
+      "display_date": "2026-10-31",
+      "display_time": "08:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Partick Thistle",
+        "slug": "partick-thistle",
+        "espn_id": "247",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/247.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Partick Thistle",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Greenock Morton",
+        "slug": "greenock-morton",
+        "espn_id": "411",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/411.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Greenock Morton",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/scoreboard"
+      },
+      "last_updated": "2026-10-25T21:20:39.188782+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-10-31-1500-partick-thistle-greenock-morton.png"
     }
   ]
 }

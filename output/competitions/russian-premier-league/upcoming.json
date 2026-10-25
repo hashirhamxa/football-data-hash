@@ -7,64 +7,10 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-25T14:54:49.306955+00:00",
+  "generated_at": "2026-10-25T21:23:08.259235+00:00",
   "feed_type": "upcoming_30_days",
   "total_events": 3,
   "events": [
-    {
-      "event_id": "russian-premier-league-2026-10-25-1530-zenit-st-petersburg-dynamo-makhachkala",
-      "competition": {
-        "id": "russian-premier-league",
-        "name": "Russian Premier League",
-        "country": "Russia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/106.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-25",
-      "match_date": "2026-10-25",
-      "match_date_utc": "2026-10-25",
-      "match_date_pkt": "2026-10-25",
-      "start_time_utc": "2026-10-25T15:30:00Z",
-      "start_time_pkt": "2026-10-25T20:30:00+05:00",
-      "start_timestamp": 1792942200,
-      "display_date": "2026-10-25",
-      "display_time": "08:30 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Zenit St Petersburg",
-        "slug": "zenit-st-petersburg",
-        "espn_id": "2533",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2533.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Zenit St Petersburg",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Dynamo Makhachkala",
-        "slug": "dynamo-makhachkala",
-        "espn_id": "22300",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22300.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Dynamo Makhachkala",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
-      },
-      "last_updated": "2026-10-25T14:46:30.836427+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-10-25-1530-zenit-st-petersburg-dynamo-makhachkala.png"
-    },
     {
       "event_id": "russian-premier-league-2026-10-31-1215-rubin-kazan-fakel-voronezh",
       "competition": {
@@ -116,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
       },
-      "last_updated": "2026-10-25T14:46:30.836427+00:00",
+      "last_updated": "2026-10-25T21:20:39.188782+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-10-31-1215-rubin-kazan-fakel-voronezh.png"
     },
     {
@@ -170,8 +116,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
       },
-      "last_updated": "2026-10-25T14:46:30.836427+00:00",
+      "last_updated": "2026-10-25T21:20:39.188782+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-10-31-1430-dinamo-moscow-akhmat-grozny.png"
+    },
+    {
+      "event_id": "russian-premier-league-2026-10-31-1645-rodina-moscow-krasnodar",
+      "competition": {
+        "id": "russian-premier-league",
+        "name": "Russian Premier League",
+        "country": "Russia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/106.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-31",
+      "match_date": "2026-10-31",
+      "match_date_utc": "2026-10-31",
+      "match_date_pkt": "2026-10-31",
+      "start_time_utc": "2026-10-31T16:45:00Z",
+      "start_time_pkt": "2026-10-31T21:45:00+05:00",
+      "start_timestamp": 1793465100,
+      "display_date": "2026-10-31",
+      "display_time": "09:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Rodina Moscow",
+        "slug": "rodina-moscow",
+        "espn_id": "21927",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21927.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Rodina Moscow",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Krasnodar",
+        "slug": "krasnodar",
+        "espn_id": "11336",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11336.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Krasnodar",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
+      },
+      "last_updated": "2026-10-25T21:20:39.188782+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-10-31-1645-rodina-moscow-krasnodar.png"
     }
   ]
 }

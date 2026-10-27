@@ -1560,6 +1560,42 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "dfb-pokal-preview",
+            "competition": {
+                "id": "dfb-pokal",
+                "name": "German DFB-Pokal",
+                "round": "Second Round",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2061.png"
+            },
+            "home_team": {"name": "Hamburg SV", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png"},
+            "away_team": {"name": "Eintracht Frankfurt", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png"},
+            "match_date": "2026-10-28",
+            "match_date_pkt": "2026-10-28",
+            "display_date": "2026-10-28",
+            "display_time": "10:00 PM",
+            "start_time_utc": "2026-10-28T17:00:00Z",
+            "start_time_pkt": "2026-10-28T22:00:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
+            "event_id": "copa-del-rey-preview",
+            "competition": {
+                "id": "copa-del-rey",
+                "name": "Spanish Copa del Rey",
+                "round": "First Round",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
+            },
+            "home_team": {"name": "Athletic Club", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"},
+            "away_team": {"name": "Real Madrid", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"},
+            "match_date": "2026-10-29",
+            "match_date_pkt": "2026-10-29",
+            "display_date": "2026-10-29",
+            "display_time": "11:00 PM",
+            "start_time_utc": "2026-10-29T18:00:00Z",
+            "start_time_pkt": "2026-10-29T23:00:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

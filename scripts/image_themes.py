@@ -1308,7 +1308,135 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
-    # 51. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 51. German DFB-Pokal: Deep Forest Midnight, DFB Trophy Gold & Emerald Green / Metallic Styling
+    "dfb-pokal": CompetitionTheme(
+        competition_id="dfb-pokal",
+        name="German DFB-Pokal",
+        background_top=(10, 24, 18),
+        background_bottom=(6, 16, 12),
+        primary=(245, 190, 40),
+        secondary=(0, 155, 95),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(215, 240, 225),
+        panel_color=(12, 28, 22, 225),
+        panel_border=(245, 190, 40, 180),
+        pattern="bundesliga_diagonal_dynamics",
+        center_style="bundesliga_diamond_center",
+        font_family="montserrat",
+        crest_container_style="metallic"
+    ),
+
+    "dfb_pokal": CompetitionTheme(
+        competition_id="dfb-pokal",
+        name="German DFB-Pokal",
+        background_top=(10, 24, 18),
+        background_bottom=(6, 16, 12),
+        primary=(245, 190, 40),
+        secondary=(0, 155, 95),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(215, 240, 225),
+        panel_color=(12, 28, 22, 225),
+        panel_border=(245, 190, 40, 180),
+        pattern="bundesliga_diagonal_dynamics",
+        center_style="bundesliga_diamond_center",
+        font_family="montserrat",
+        crest_container_style="metallic"
+    ),
+
+    "german-cup": CompetitionTheme(
+        competition_id="dfb-pokal",
+        name="German DFB-Pokal",
+        background_top=(10, 24, 18),
+        background_bottom=(6, 16, 12),
+        primary=(245, 190, 40),
+        secondary=(0, 155, 95),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(215, 240, 225),
+        panel_color=(12, 28, 22, 225),
+        panel_border=(245, 190, 40, 180),
+        pattern="bundesliga_diagonal_dynamics",
+        center_style="bundesliga_diamond_center",
+        font_family="montserrat",
+        crest_container_style="metallic"
+    ),
+
+    # 52. Spanish Copa del Rey: Royal Crimson & Castilian Gold / Radial Spectrum & Trophy Styling
+    "copa-del-rey": CompetitionTheme(
+        competition_id="copa-del-rey",
+        name="Spanish Copa del Rey",
+        background_top=(18, 12, 26),
+        background_bottom=(10, 8, 18),
+        primary=(220, 20, 50),
+        secondary=(245, 180, 30),
+        highlight=(255, 245, 220),
+        text_primary=(255, 255, 255),
+        text_secondary=(240, 220, 185),
+        panel_color=(24, 16, 32, 225),
+        panel_border=(245, 180, 30, 180),
+        pattern="laliga_radial_spectrum",
+        center_style="carabao_trophy_divider",
+        font_family="montserrat",
+        crest_container_style="glass_plate"
+    ),
+
+    "copa_del_rey": CompetitionTheme(
+        competition_id="copa-del-rey",
+        name="Spanish Copa del Rey",
+        background_top=(18, 12, 26),
+        background_bottom=(10, 8, 18),
+        primary=(220, 20, 50),
+        secondary=(245, 180, 30),
+        highlight=(255, 245, 220),
+        text_primary=(255, 255, 255),
+        text_secondary=(240, 220, 185),
+        panel_color=(24, 16, 32, 225),
+        panel_border=(245, 180, 30, 180),
+        pattern="laliga_radial_spectrum",
+        center_style="carabao_trophy_divider",
+        font_family="montserrat",
+        crest_container_style="glass_plate"
+    ),
+
+    "copa-del-ray": CompetitionTheme(
+        competition_id="copa-del-rey",
+        name="Spanish Copa del Rey",
+        background_top=(18, 12, 26),
+        background_bottom=(10, 8, 18),
+        primary=(220, 20, 50),
+        secondary=(245, 180, 30),
+        highlight=(255, 245, 220),
+        text_primary=(255, 255, 255),
+        text_secondary=(240, 220, 185),
+        panel_color=(24, 16, 32, 225),
+        panel_border=(245, 180, 30, 180),
+        pattern="laliga_radial_spectrum",
+        center_style="carabao_trophy_divider",
+        font_family="montserrat",
+        crest_container_style="glass_plate"
+    ),
+
+    "spanish-cup": CompetitionTheme(
+        competition_id="copa-del-rey",
+        name="Spanish Copa del Rey",
+        background_top=(18, 12, 26),
+        background_bottom=(10, 8, 18),
+        primary=(220, 20, 50),
+        secondary=(245, 180, 30),
+        highlight=(255, 245, 220),
+        text_primary=(255, 255, 255),
+        text_secondary=(240, 220, 185),
+        panel_color=(24, 16, 32, 225),
+        panel_border=(245, 180, 30, 180),
+        pattern="laliga_radial_spectrum",
+        center_style="carabao_trophy_divider",
+        font_family="montserrat",
+        crest_container_style="glass_plate"
+    ),
+
+    # 53. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

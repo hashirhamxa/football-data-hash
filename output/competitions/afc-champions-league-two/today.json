@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-27T18:12:55.644084+00:00",
+  "generated_at": "2026-10-27T22:50:19.303470+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-10-27",
-  "target_day_name": "Tuesday",
-  "total_events": 1,
+  "target_date_pkt": "2026-10-28",
+  "target_day_name": "Wednesday",
+  "total_events": 8,
   "events": [
     {
-      "event_id": "afc-champions-league-two-2026-10-27-1815-al-shorta-sc-al-hussein-sc",
+      "event_id": "afc-champions-league-two-2026-10-28-1215-persib-bandung-melbourne-victory",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -24,22 +24,76 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-27",
-      "match_date": "2026-10-27",
-      "match_date_utc": "2026-10-27",
-      "match_date_pkt": "2026-10-27",
-      "start_time_utc": "2026-10-27T18:15:00Z",
-      "start_time_pkt": "2026-10-27T23:15:00+05:00",
-      "start_timestamp": 1793124900,
-      "display_date": "2026-10-27",
-      "display_time": "11:15 PM",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T12:15:00Z",
+      "start_time_pkt": "2026-10-28T17:15:00+05:00",
+      "start_timestamp": 1793189700,
+      "display_date": "2026-10-28",
+      "display_time": "05:15 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Al-Shorta SC",
-        "slug": "al-shorta-sc",
-        "espn_id": "9655",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-shorta-sc.png",
+        "name": "Persib Bandung",
+        "slug": "persib-bandung",
+        "espn_id": "8293",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8293.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Persib Bandung",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Melbourne Victory",
+        "slug": "melbourne-victory",
+        "espn_id": "5328",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5328.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Melbourne Victory",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-28-1215-persib-bandung-melbourne-victory.png"
+    },
+    {
+      "event_id": "afc-champions-league-two-2026-10-28-1215-the-cong-viettel-fc-fc-seoul",
+      "competition": {
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T12:15:00Z",
+      "start_time_pkt": "2026-10-28T17:15:00+05:00",
+      "start_timestamp": 1793189700,
+      "display_date": "2026-10-28",
+      "display_time": "05:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "The Cong-Viettel FC",
+        "slug": "the-cong-viettel-fc",
+        "espn_id": "20863",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/the-cong-viettel-fc.png",
         "logo_resolution": {
           "source": "fallback",
           "confidence": 0.0,
@@ -48,10 +102,10 @@
         }
       },
       "away_team": {
-        "name": "Al-Hussein SC",
-        "slug": "al-hussein-sc",
-        "espn_id": "22355",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-hussein-sc.png",
+        "name": "FC Seoul",
+        "slug": "fc-seoul",
+        "espn_id": "6972",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/fc-seoul.png",
         "logo_resolution": {
           "source": "fallback",
           "confidence": 0.0,
@@ -64,8 +118,332 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
       },
-      "last_updated": "2026-10-27T18:10:16.480793+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-27-1815-al-shorta-sc-al-hussein-sc.png"
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-28-1215-the-cong-viettel-fc-fc-seoul.png"
+    },
+    {
+      "event_id": "afc-champions-league-two-2026-10-28-1345-fc-nasaf-kuwait-sc",
+      "competition": {
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T13:45:00Z",
+      "start_time_pkt": "2026-10-28T18:45:00+05:00",
+      "start_timestamp": 1793195100,
+      "display_date": "2026-10-28",
+      "display_time": "06:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "FC Nasaf",
+        "slug": "fc-nasaf",
+        "espn_id": "8217",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/fc-nasaf.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Kuwait SC",
+        "slug": "kuwait-sc",
+        "espn_id": "21008",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/kuw.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Kuwait",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-28-1345-fc-nasaf-kuwait-sc.png"
+    },
+    {
+      "event_id": "afc-champions-league-two-2026-10-28-1345-gol-gohar-sirjan-fc-arkadag-fk",
+      "competition": {
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T13:45:00Z",
+      "start_time_pkt": "2026-10-28T18:45:00+05:00",
+      "start_timestamp": 1793195100,
+      "display_date": "2026-10-28",
+      "display_time": "06:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Gol Gohar Sirjan FC",
+        "slug": "gol-gohar-sirjan-fc",
+        "espn_id": "132926",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/gol-gohar-sirjan-fc.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Arkadag FK",
+        "slug": "arkadag-fk",
+        "espn_id": "131374",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/arkadag-fk.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-28-1345-gol-gohar-sirjan-fc-arkadag-fk.png"
+    },
+    {
+      "event_id": "afc-champions-league-two-2026-10-28-1600-al-jazira-club-al-muharraq-sc",
+      "competition": {
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T16:00:00Z",
+      "start_time_pkt": "2026-10-28T21:00:00+05:00",
+      "start_timestamp": 1793203200,
+      "display_date": "2026-10-28",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Al Jazira Club",
+        "slug": "al-jazira-club",
+        "espn_id": "8364",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8364.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Al Jazira Club",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Al-Muharraq SC",
+        "slug": "al-muharraq-sc",
+        "espn_id": "21006",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-muharraq-sc.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-28-1600-al-jazira-club-al-muharraq-sc.png"
+    },
+    {
+      "event_id": "afc-champions-league-two-2026-10-28-1600-al-nahda-club-al-rayyan-sc",
+      "competition": {
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T16:00:00Z",
+      "start_time_pkt": "2026-10-28T21:00:00+05:00",
+      "start_timestamp": 1793203200,
+      "display_date": "2026-10-28",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Al-Nahda Club",
+        "slug": "al-nahda-club",
+        "espn_id": "21994",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-nahda-club.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Al-Rayyan SC",
+        "slug": "al-rayyan-sc",
+        "espn_id": "7527",
+        "logo_url": "https://a.espncdn.com/guid/3537b0de-4d7e-d529-f36e-58888e65e902/logos/default.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Al-Rayyan SC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-28-1600-al-nahda-club-al-rayyan-sc.png"
+    },
+    {
+      "event_id": "afc-champions-league-two-2026-10-28-1815-al-faisaly-sc-al-taawoun",
+      "competition": {
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T18:15:00Z",
+      "start_time_pkt": "2026-10-28T23:15:00+05:00",
+      "start_timestamp": 1793211300,
+      "display_date": "2026-10-28",
+      "display_time": "11:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Al-Faisaly SC",
+        "slug": "al-faisaly-sc",
+        "espn_id": "21024",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-faisaly-sc.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Al Taawoun",
+        "slug": "al-taawoun",
+        "espn_id": "18459",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/18459.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Al Taawoun",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-28-1815-al-faisaly-sc-al-taawoun.png"
+    },
+    {
+      "event_id": "afc-champions-league-two-2026-10-28-1815-al-khaldiya-sc-al-wahda-fc",
+      "competition": {
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T18:15:00Z",
+      "start_time_pkt": "2026-10-28T23:15:00+05:00",
+      "start_timestamp": 1793211300,
+      "display_date": "2026-10-28",
+      "display_time": "11:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Al-Khaldiya SC",
+        "slug": "al-khaldiya-sc",
+        "espn_id": "22354",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-khaldiya-sc.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Al Wahda FC",
+        "slug": "al-wahda-fc",
+        "espn_id": "7134",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-wahda-fc.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-28-1815-al-khaldiya-sc-al-wahda-fc.png"
     }
   ]
 }

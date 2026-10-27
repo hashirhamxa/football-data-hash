@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-27T18:12:55.638901+00:00",
+  "generated_at": "2026-10-27T22:50:19.298833+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 5,
+  "total_events": 6,
   "events": [
     {
       "event_id": "2-bundesliga-2026-10-30-1730-arminia-bielefeld-tsv-eintracht-braunschweig",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
       },
-      "last_updated": "2026-10-27T18:10:16.480793+00:00",
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-10-30-1730-arminia-bielefeld-tsv-eintracht-braunschweig.png"
     },
     {
@@ -116,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
       },
-      "last_updated": "2026-10-27T18:10:16.480793+00:00",
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-10-30-1730-energie-cottbus-vfl-bochum.png"
     },
     {
@@ -170,7 +170,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
       },
-      "last_updated": "2026-10-27T18:10:16.480793+00:00",
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-10-31-1200-kaiserslautern-hertha-berlin.png"
     },
     {
@@ -224,7 +224,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
       },
-      "last_updated": "2026-10-27T18:10:16.480793+00:00",
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-10-31-1200-sv-darmstadt-98-1-fc-magdeburg.png"
     },
     {
@@ -278,8 +278,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
       },
-      "last_updated": "2026-10-27T18:10:16.480793+00:00",
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-10-31-1200-vfl-wolfsburg-vfl-osnabruck.png"
+    },
+    {
+      "event_id": "2-bundesliga-2026-10-31-1930-karlsruher-sc-1-fc-heidenheim-1846",
+      "competition": {
+        "id": "2-bundesliga",
+        "name": "2. Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-31",
+      "match_date": "2026-10-31",
+      "match_date_utc": "2026-10-31",
+      "match_date_pkt": "2026-11-01",
+      "start_time_utc": "2026-10-31T19:30:00Z",
+      "start_time_pkt": "2026-11-01T00:30:00+05:00",
+      "start_timestamp": 1793475000,
+      "display_date": "2026-11-01",
+      "display_time": "12:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Karlsruher SC",
+        "slug": "karlsruher-sc",
+        "espn_id": "4471",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4471.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Karlsruher SC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "1. FC Heidenheim 1846",
+        "slug": "1-fc-heidenheim-1846",
+        "espn_id": "6418",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6418.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "1. FC Heidenheim 1846",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-10-31-1930-karlsruher-sc-1-fc-heidenheim-1846.png"
     }
   ]
 }

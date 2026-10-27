@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-27T18:12:55.661042+00:00",
+  "generated_at": "2026-10-27T22:50:19.320123+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-10-27",
-  "target_day_name": "Tuesday",
-  "total_events": 1,
+  "target_date_pkt": "2026-10-28",
+  "target_day_name": "Wednesday",
+  "total_events": 8,
   "events": [
     {
-      "event_id": "copa-del-rey-2026-10-27-1845-ud-castellonense-almeria",
+      "event_id": "copa-del-rey-2026-10-28-1800-anaitasuna-alaves",
       "competition": {
         "id": "copa-del-rey",
         "name": "Spanish Copa del Rey",
@@ -24,22 +24,22 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-27",
-      "match_date": "2026-10-27",
-      "match_date_utc": "2026-10-27",
-      "match_date_pkt": "2026-10-27",
-      "start_time_utc": "2026-10-27T18:45:00Z",
-      "start_time_pkt": "2026-10-27T23:45:00+05:00",
-      "start_timestamp": 1793126700,
-      "display_date": "2026-10-27",
-      "display_time": "11:45 PM",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T18:00:00Z",
+      "start_time_pkt": "2026-10-28T23:00:00+05:00",
+      "start_timestamp": 1793210400,
+      "display_date": "2026-10-28",
+      "display_time": "11:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "UD Castellonense",
-        "slug": "ud-castellonense",
-        "espn_id": "133845",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/ud-castellonense.png",
+        "name": "Anaitasuna",
+        "slug": "anaitasuna",
+        "espn_id": "20776",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/anaitasuna.png",
         "logo_resolution": {
           "source": "fallback",
           "confidence": 0.0,
@@ -48,14 +48,14 @@
         }
       },
       "away_team": {
-        "name": "Almería",
-        "slug": "almeria",
-        "espn_id": "6832",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6832.png",
+        "name": "Alavés",
+        "slug": "alaves",
+        "espn_id": "96",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Almería",
+          "matched_name": "Alavés",
           "is_fallback": false
         }
       },
@@ -64,8 +64,386 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
       },
-      "last_updated": "2026-10-27T18:10:16.480793+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-27-1845-ud-castellonense-almeria.png"
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-28-1800-anaitasuna-alaves.png"
+    },
+    {
+      "event_id": "copa-del-rey-2026-10-28-1800-cd-pamplona-eibar",
+      "competition": {
+        "id": "copa-del-rey",
+        "name": "Spanish Copa del Rey",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T18:00:00Z",
+      "start_time_pkt": "2026-10-28T23:00:00+05:00",
+      "start_timestamp": 1793210400,
+      "display_date": "2026-10-28",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "CD Pamplona",
+        "slug": "cd-pamplona",
+        "espn_id": "133835",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/cd-pamplona.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Eibar",
+        "slug": "eibar",
+        "espn_id": "3752",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3752.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Eibar",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-28-1800-cd-pamplona-eibar.png"
+    },
+    {
+      "event_id": "copa-del-rey-2026-10-28-1800-cd-tarancon-levante",
+      "competition": {
+        "id": "copa-del-rey",
+        "name": "Spanish Copa del Rey",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T18:00:00Z",
+      "start_time_pkt": "2026-10-28T23:00:00+05:00",
+      "start_timestamp": 1793210400,
+      "display_date": "2026-10-28",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "CD Tarancon",
+        "slug": "cd-tarancon",
+        "espn_id": "133837",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/cd-tarancon.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Levante",
+        "slug": "levante",
+        "espn_id": "1538",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Levante",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-28-1800-cd-tarancon-levante.png"
+    },
+    {
+      "event_id": "copa-del-rey-2026-10-28-1800-coruxo-zamora-cf",
+      "competition": {
+        "id": "copa-del-rey",
+        "name": "Spanish Copa del Rey",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T18:00:00Z",
+      "start_time_pkt": "2026-10-28T23:00:00+05:00",
+      "start_timestamp": 1793210400,
+      "display_date": "2026-10-28",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Coruxo",
+        "slug": "coruxo",
+        "espn_id": "8961",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/coruxo.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Zamora CF",
+        "slug": "zamora-cf",
+        "espn_id": "17565",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/zamora-cf.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-28-1800-coruxo-zamora-cf.png"
+    },
+    {
+      "event_id": "copa-del-rey-2026-10-28-1800-pena-sport-huesca",
+      "competition": {
+        "id": "copa-del-rey",
+        "name": "Spanish Copa del Rey",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T18:00:00Z",
+      "start_time_pkt": "2026-10-28T23:00:00+05:00",
+      "start_timestamp": 1793210400,
+      "display_date": "2026-10-28",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Peña Sport",
+        "slug": "pena-sport",
+        "espn_id": "7041",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/pena-sport.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Huesca",
+        "slug": "huesca",
+        "espn_id": "5413",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5413.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Huesca",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-28-1800-pena-sport-huesca.png"
+    },
+    {
+      "event_id": "copa-del-rey-2026-10-28-1800-poblense-ceuta",
+      "competition": {
+        "id": "copa-del-rey",
+        "name": "Spanish Copa del Rey",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T18:00:00Z",
+      "start_time_pkt": "2026-10-28T23:00:00+05:00",
+      "start_timestamp": 1793210400,
+      "display_date": "2026-10-28",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Poblense",
+        "slug": "poblense",
+        "espn_id": "9414",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/poblense.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Ceuta",
+        "slug": "ceuta",
+        "espn_id": "5404",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5404.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Ceuta",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-28-1800-poblense-ceuta.png"
+    },
+    {
+      "event_id": "copa-del-rey-2026-10-28-1800-portugalete-real-union-irun",
+      "competition": {
+        "id": "copa-del-rey",
+        "name": "Spanish Copa del Rey",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T18:00:00Z",
+      "start_time_pkt": "2026-10-28T23:00:00+05:00",
+      "start_timestamp": 1793210400,
+      "display_date": "2026-10-28",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Portugalete",
+        "slug": "portugalete",
+        "espn_id": "5464",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/portugalete.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Real Unión Irun",
+        "slug": "real-union-irun",
+        "espn_id": "8678",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/real-union-irun.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-28-1800-portugalete-real-union-irun.png"
+    },
+    {
+      "event_id": "copa-del-rey-2026-10-28-1800-utebo-cd-sabadell",
+      "competition": {
+        "id": "copa-del-rey",
+        "name": "Spanish Copa del Rey",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T18:00:00Z",
+      "start_time_pkt": "2026-10-28T23:00:00+05:00",
+      "start_timestamp": 1793210400,
+      "display_date": "2026-10-28",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Utebo",
+        "slug": "utebo",
+        "espn_id": "21723",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/utebo.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "CD Sabadell",
+        "slug": "cd-sabadell",
+        "espn_id": "11487",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11487.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "CD Sabadell",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-28-1800-utebo-cd-sabadell.png"
     }
   ]
 }

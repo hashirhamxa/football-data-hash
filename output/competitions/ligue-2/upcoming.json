@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-27T18:12:55.654484+00:00",
+  "generated_at": "2026-10-27T22:50:19.314424+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 7,
+  "total_events": 8,
   "events": [
     {
       "event_id": "ligue-2-2026-10-30-1900-grenoble-dijon-fco",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/scoreboard"
       },
-      "last_updated": "2026-10-27T18:10:16.480793+00:00",
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-2-2026-10-30-1900-grenoble-dijon-fco.png"
     },
     {
@@ -116,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/scoreboard"
       },
-      "last_updated": "2026-10-27T18:10:16.480793+00:00",
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-2-2026-10-30-1900-metz-pau.png"
     },
     {
@@ -170,7 +170,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/scoreboard"
       },
-      "last_updated": "2026-10-27T18:10:16.480793+00:00",
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-2-2026-10-30-1900-nantes-clermont-foot.png"
     },
     {
@@ -224,7 +224,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/scoreboard"
       },
-      "last_updated": "2026-10-27T18:10:16.480793+00:00",
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-2-2026-10-30-1900-rodez-aveyron-dunkerque.png"
     },
     {
@@ -278,7 +278,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/scoreboard"
       },
-      "last_updated": "2026-10-27T18:10:16.480793+00:00",
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-2-2026-10-30-1900-stade-laval-boulogne.png"
     },
     {
@@ -332,7 +332,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/scoreboard"
       },
-      "last_updated": "2026-10-27T18:10:16.480793+00:00",
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-2-2026-10-31-1300-annecy-montpellier.png"
     },
     {
@@ -386,8 +386,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/scoreboard"
       },
-      "last_updated": "2026-10-27T18:10:16.480793+00:00",
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-2-2026-10-31-1300-stade-de-reims-sochaux.png"
+    },
+    {
+      "event_id": "ligue-2-2026-10-31-1900-guingamp-saint-etienne",
+      "competition": {
+        "id": "ligue-2",
+        "name": "French Ligue 2",
+        "country": "France",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/96.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-31",
+      "match_date": "2026-10-31",
+      "match_date_utc": "2026-10-31",
+      "match_date_pkt": "2026-11-01",
+      "start_time_utc": "2026-10-31T19:00:00Z",
+      "start_time_pkt": "2026-11-01T00:00:00+05:00",
+      "start_timestamp": 1793473200,
+      "display_date": "2026-11-01",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Guingamp",
+        "slug": "guingamp",
+        "espn_id": "171",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Guingamp",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Saint-Étienne",
+        "slug": "saint-etienne",
+        "espn_id": "178",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Saint-Étienne",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-2-2026-10-31-1900-guingamp-saint-etienne.png"
     }
   ]
 }

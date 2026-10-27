@@ -7,10 +7,65 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-27T18:12:55.655528+00:00",
+  "generated_at": "2026-10-27T22:50:19.315431+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-10-27",
-  "target_day_name": "Tuesday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-10-28",
+  "target_day_name": "Wednesday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "serie-b-2026-10-28-1800-pisa-palermo",
+      "competition": {
+        "id": "serie-b",
+        "name": "Italian Serie B",
+        "country": "Italy",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://a.espncdn.com/i/leaguelogos/soccer/500/99.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-28",
+      "match_date": "2026-10-28",
+      "match_date_utc": "2026-10-28",
+      "match_date_pkt": "2026-10-28",
+      "start_time_utc": "2026-10-28T18:00:00Z",
+      "start_time_pkt": "2026-10-28T23:00:00+05:00",
+      "start_timestamp": 1793210400,
+      "display_date": "2026-10-28",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Pisa",
+        "slug": "pisa",
+        "espn_id": "3956",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3956.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Pisa",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Palermo",
+        "slug": "palermo",
+        "espn_id": "2923",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2923.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Palermo",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/scoreboard"
+      },
+      "last_updated": "2026-10-27T22:48:01.864088+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-b-2026-10-28-1800-pisa-palermo.png"
+    }
+  ]
 }

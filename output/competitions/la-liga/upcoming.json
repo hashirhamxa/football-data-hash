@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-27T18:02:53.054914+00:00",
+  "generated_at": "2026-10-27T18:12:55.618179+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 2,
+  "total_events": 3,
   "events": [
     {
       "event_id": "la-liga-2026-10-30-2000-villarreal-espanyol",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-10-27T17:53:27.650364+00:00",
+      "last_updated": "2026-10-27T18:10:16.480793+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-30-2000-villarreal-espanyol.png"
     },
     {
@@ -116,8 +116,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
       },
-      "last_updated": "2026-10-27T17:53:27.650364+00:00",
+      "last_updated": "2026-10-27T18:10:16.480793+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-31-1300-levante-atletico-madrid.png"
+    },
+    {
+      "event_id": "la-liga-2026-10-31-1515-rayo-vallecano-celta-vigo",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-31",
+      "match_date": "2026-10-31",
+      "match_date_utc": "2026-10-31",
+      "match_date_pkt": "2026-10-31",
+      "start_time_utc": "2026-10-31T15:15:00Z",
+      "start_time_pkt": "2026-10-31T20:15:00+05:00",
+      "start_timestamp": 1793459700,
+      "display_date": "2026-10-31",
+      "display_time": "08:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Rayo Vallecano",
+        "slug": "rayo-vallecano",
+        "espn_id": "101",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Rayo Vallecano",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Celta Vigo",
+        "slug": "celta-vigo",
+        "espn_id": "85",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Celta Vigo",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
+      },
+      "last_updated": "2026-10-27T18:10:16.480793+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-10-31-1515-rayo-vallecano-celta-vigo.png"
     }
   ]
 }

@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-27T18:02:53.260860+00:00",
+  "generated_at": "2026-10-27T18:12:55.632736+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 2,
+  "total_events": 3,
   "events": [
     {
       "event_id": "liga-f-2026-10-31-1100-granada-atletico-madrid",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
       },
-      "last_updated": "2026-10-27T17:53:27.650364+00:00",
+      "last_updated": "2026-10-27T18:10:16.480793+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-31-1100-granada-atletico-madrid.png"
     },
     {
@@ -116,8 +116,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
       },
-      "last_updated": "2026-10-27T17:53:27.650364+00:00",
+      "last_updated": "2026-10-27T18:10:16.480793+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-31-1100-valencia-eibar.png"
+    },
+    {
+      "event_id": "liga-f-2026-10-31-1500-espanyol-dux-logrono",
+      "competition": {
+        "id": "liga-f",
+        "name": "Spanish Liga F",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-31",
+      "match_date": "2026-10-31",
+      "match_date_utc": "2026-10-31",
+      "match_date_pkt": "2026-10-31",
+      "start_time_utc": "2026-10-31T15:00:00Z",
+      "start_time_pkt": "2026-10-31T20:00:00+05:00",
+      "start_timestamp": 1793458800,
+      "display_date": "2026-10-31",
+      "display_time": "08:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Espanyol",
+        "slug": "espanyol",
+        "espn_id": "21154",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21154.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Espanyol",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Dux Logroño",
+        "slug": "dux-logrono",
+        "espn_id": "21175",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21175.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Dux Logroño",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
+      },
+      "last_updated": "2026-10-27T18:10:16.480793+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-10-31-1500-espanyol-dux-logrono.png"
     }
   ]
 }

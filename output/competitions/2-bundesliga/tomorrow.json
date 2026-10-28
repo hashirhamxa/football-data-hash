@@ -7,10 +7,119 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-28T13:52:34.291776+00:00",
+  "generated_at": "2026-10-28T22:59:22.780390+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-10-29",
-  "target_day_name": "Thursday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-10-30",
+  "target_day_name": "Friday",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "2-bundesliga-2026-10-30-1730-arminia-bielefeld-tsv-eintracht-braunschweig",
+      "competition": {
+        "id": "2-bundesliga",
+        "name": "2. Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T17:30:00Z",
+      "start_time_pkt": "2026-10-30T22:30:00+05:00",
+      "start_timestamp": 1793381400,
+      "display_date": "2026-10-30",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Arminia Bielefeld",
+        "slug": "arminia-bielefeld",
+        "espn_id": "2506",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2506.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Arminia Bielefeld",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "TSV Eintracht Braunschweig",
+        "slug": "tsv-eintracht-braunschweig",
+        "espn_id": "3067",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3067.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "TSV Eintracht Braunschweig",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
+      },
+      "last_updated": "2026-10-28T22:56:46.924653+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-10-30-1730-arminia-bielefeld-tsv-eintracht-braunschweig.png"
+    },
+    {
+      "event_id": "2-bundesliga-2026-10-30-1730-energie-cottbus-vfl-bochum",
+      "competition": {
+        "id": "2-bundesliga",
+        "name": "2. Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T17:30:00Z",
+      "start_time_pkt": "2026-10-30T22:30:00+05:00",
+      "start_timestamp": 1793381400,
+      "display_date": "2026-10-30",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Energie Cottbus",
+        "slug": "energie-cottbus",
+        "espn_id": "123",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/123.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Energie Cottbus",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "VfL Bochum",
+        "slug": "vfl-bochum",
+        "espn_id": "121",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/121.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "VfL Bochum",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
+      },
+      "last_updated": "2026-10-28T22:56:46.924653+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-10-30-1730-energie-cottbus-vfl-bochum.png"
+    }
+  ]
 }

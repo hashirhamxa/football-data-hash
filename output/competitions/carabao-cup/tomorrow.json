@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-28T13:52:34.271038+00:00",
+  "generated_at": "2026-10-28T22:59:22.749780+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-10-29",
-  "target_day_name": "Thursday",
-  "total_events": 5,
+  "target_date_pkt": "2026-10-30",
+  "target_day_name": "Friday",
+  "total_events": 1,
   "events": [
     {
-      "event_id": "carabao-cup-2026-10-28-1930-manchester-city-brighton-hove-albion",
+      "event_id": "carabao-cup-2026-10-29-1945-everton-newcastle-united",
       "competition": {
         "id": "carabao-cup",
         "name": "English Carabao Cup",
@@ -24,92 +24,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-28",
-      "match_date": "2026-10-28",
-      "match_date_utc": "2026-10-28",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-28T19:30:00Z",
-      "start_time_pkt": "2026-10-29T00:30:00+05:00",
-      "start_timestamp": 1793215800,
-      "display_date": "2026-10-29",
-      "display_time": "12:30 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Manchester City",
-        "slug": "manchester-city",
-        "espn_id": "382",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Manchester City",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Brighton & Hove Albion",
-        "slug": "brighton-hove-albion",
-        "espn_id": "331",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Brighton & Hove Albion",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.league_cup/scoreboard"
-      },
-      "last_updated": "2026-10-28T13:50:16.182209+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/carabao-cup-2026-10-28-1930-manchester-city-brighton-hove-albion.png"
-    },
-    {
-      "event_id": "carabao-cup-2026-10-28-1945-afc-bournemouth-aston-villa",
-      "competition": {
-        "id": "carabao-cup",
-        "name": "English Carabao Cup",
-        "country": "England",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-28",
-      "match_date": "2026-10-28",
-      "match_date_utc": "2026-10-28",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-28T19:45:00Z",
-      "start_time_pkt": "2026-10-29T00:45:00+05:00",
-      "start_timestamp": 1793216700,
-      "display_date": "2026-10-29",
+      "source_date": "2026-10-29",
+      "match_date": "2026-10-29",
+      "match_date_utc": "2026-10-29",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-29T19:45:00Z",
+      "start_time_pkt": "2026-10-30T00:45:00+05:00",
+      "start_timestamp": 1793303100,
+      "display_date": "2026-10-30",
       "display_time": "12:45 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "AFC Bournemouth",
-        "slug": "afc-bournemouth",
-        "espn_id": "349",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+        "name": "Everton",
+        "slug": "everton",
+        "espn_id": "368",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "AFC Bournemouth",
+          "matched_name": "Everton",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Aston Villa",
-        "slug": "aston-villa",
-        "espn_id": "362",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+        "name": "Newcastle United",
+        "slug": "newcastle-united",
+        "espn_id": "361",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Aston Villa",
+          "matched_name": "Newcastle United",
           "is_fallback": false
         }
       },
@@ -118,170 +64,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.league_cup/scoreboard"
       },
-      "last_updated": "2026-10-28T13:50:16.182209+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/carabao-cup-2026-10-28-1945-afc-bournemouth-aston-villa.png"
-    },
-    {
-      "event_id": "carabao-cup-2026-10-28-1945-fulham-crystal-palace",
-      "competition": {
-        "id": "carabao-cup",
-        "name": "English Carabao Cup",
-        "country": "England",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-28",
-      "match_date": "2026-10-28",
-      "match_date_utc": "2026-10-28",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-28T19:45:00Z",
-      "start_time_pkt": "2026-10-29T00:45:00+05:00",
-      "start_timestamp": 1793216700,
-      "display_date": "2026-10-29",
-      "display_time": "12:45 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Fulham",
-        "slug": "fulham",
-        "espn_id": "370",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Fulham",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Crystal Palace",
-        "slug": "crystal-palace",
-        "espn_id": "384",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Crystal Palace",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.league_cup/scoreboard"
-      },
-      "last_updated": "2026-10-28T13:50:16.182209+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/carabao-cup-2026-10-28-1945-fulham-crystal-palace.png"
-    },
-    {
-      "event_id": "carabao-cup-2026-10-28-1945-sunderland-brentford",
-      "competition": {
-        "id": "carabao-cup",
-        "name": "English Carabao Cup",
-        "country": "England",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-28",
-      "match_date": "2026-10-28",
-      "match_date_utc": "2026-10-28",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-28T19:45:00Z",
-      "start_time_pkt": "2026-10-29T00:45:00+05:00",
-      "start_timestamp": 1793216700,
-      "display_date": "2026-10-29",
-      "display_time": "12:45 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Sunderland",
-        "slug": "sunderland",
-        "espn_id": "366",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Sunderland",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Brentford",
-        "slug": "brentford",
-        "espn_id": "337",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Brentford",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.league_cup/scoreboard"
-      },
-      "last_updated": "2026-10-28T13:50:16.182209+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/carabao-cup-2026-10-28-1945-sunderland-brentford.png"
-    },
-    {
-      "event_id": "carabao-cup-2026-10-28-2000-liverpool-chelsea",
-      "competition": {
-        "id": "carabao-cup",
-        "name": "English Carabao Cup",
-        "country": "England",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-28",
-      "match_date": "2026-10-28",
-      "match_date_utc": "2026-10-28",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-28T20:00:00Z",
-      "start_time_pkt": "2026-10-29T01:00:00+05:00",
-      "start_timestamp": 1793217600,
-      "display_date": "2026-10-29",
-      "display_time": "01:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Liverpool",
-        "slug": "liverpool",
-        "espn_id": "364",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Liverpool",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Chelsea",
-        "slug": "chelsea",
-        "espn_id": "363",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Chelsea",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.league_cup/scoreboard"
-      },
-      "last_updated": "2026-10-28T13:50:16.182209+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/carabao-cup-2026-10-28-2000-liverpool-chelsea.png"
+      "last_updated": "2026-10-28T22:56:46.924653+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/carabao-cup-2026-10-29-1945-everton-newcastle-united.png"
     }
   ]
 }

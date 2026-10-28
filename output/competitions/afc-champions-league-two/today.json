@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-28T13:52:34.295775+00:00",
+  "generated_at": "2026-10-28T22:59:22.786040+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-10-28",
-  "target_day_name": "Wednesday",
-  "total_events": 4,
+  "target_date_pkt": "2026-10-29",
+  "target_day_name": "Thursday",
+  "total_events": 6,
   "events": [
     {
-      "event_id": "afc-champions-league-two-2026-10-28-1600-al-jazira-club-al-muharraq-sc",
+      "event_id": "afc-champions-league-two-2026-10-29-0745-adelaide-united-fc-lion-city-sailors-fc",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -24,92 +24,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-28",
-      "match_date": "2026-10-28",
-      "match_date_utc": "2026-10-28",
-      "match_date_pkt": "2026-10-28",
-      "start_time_utc": "2026-10-28T16:00:00Z",
-      "start_time_pkt": "2026-10-28T21:00:00+05:00",
-      "start_timestamp": 1793203200,
-      "display_date": "2026-10-28",
-      "display_time": "09:00 PM",
+      "source_date": "2026-10-29",
+      "match_date": "2026-10-29",
+      "match_date_utc": "2026-10-29",
+      "match_date_pkt": "2026-10-29",
+      "start_time_utc": "2026-10-29T07:45:00Z",
+      "start_time_pkt": "2026-10-29T12:45:00+05:00",
+      "start_timestamp": 1793259900,
+      "display_date": "2026-10-29",
+      "display_time": "12:45 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Al Jazira Club",
-        "slug": "al-jazira-club",
-        "espn_id": "8364",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8364.png",
+        "name": "Adelaide United FC",
+        "slug": "adelaide-united-fc",
+        "espn_id": "5321",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5321.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Al Jazira Club",
+          "matched_name": "Adelaide United FC",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Al-Muharraq SC",
-        "slug": "al-muharraq-sc",
-        "espn_id": "21006",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-muharraq-sc.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
-      },
-      "last_updated": "2026-10-28T13:50:16.182209+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-28-1600-al-jazira-club-al-muharraq-sc.png"
-    },
-    {
-      "event_id": "afc-champions-league-two-2026-10-28-1600-al-nahda-club-al-rayyan-sc",
-      "competition": {
-        "id": "afc-champions-league-two",
-        "name": "AFC Champions League Two",
-        "country": "Asia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-28",
-      "match_date": "2026-10-28",
-      "match_date_utc": "2026-10-28",
-      "match_date_pkt": "2026-10-28",
-      "start_time_utc": "2026-10-28T16:00:00Z",
-      "start_time_pkt": "2026-10-28T21:00:00+05:00",
-      "start_timestamp": 1793203200,
-      "display_date": "2026-10-28",
-      "display_time": "09:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Al-Nahda Club",
-        "slug": "al-nahda-club",
-        "espn_id": "21994",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-nahda-club.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Al-Rayyan SC",
-        "slug": "al-rayyan-sc",
-        "espn_id": "7527",
-        "logo_url": "https://a.espncdn.com/guid/3537b0de-4d7e-d529-f36e-58888e65e902/logos/default.png",
+        "name": "Lion City Sailors FC",
+        "slug": "lion-city-sailors-fc",
+        "espn_id": "8040",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8040.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Al-Rayyan SC",
+          "matched_name": "Lion City Sailors FC",
           "is_fallback": false
         }
       },
@@ -118,11 +64,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
       },
-      "last_updated": "2026-10-28T13:50:16.182209+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-28-1600-al-nahda-club-al-rayyan-sc.png"
+      "last_updated": "2026-10-28T22:56:46.924653+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-29-0745-adelaide-united-fc-lion-city-sailors-fc.png"
     },
     {
-      "event_id": "afc-champions-league-two-2026-10-28-1815-al-faisaly-sc-al-taawoun",
+      "event_id": "afc-champions-league-two-2026-10-29-1000-gangwon-fc-kuching-city",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -132,22 +78,22 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-28",
-      "match_date": "2026-10-28",
-      "match_date_utc": "2026-10-28",
-      "match_date_pkt": "2026-10-28",
-      "start_time_utc": "2026-10-28T18:15:00Z",
-      "start_time_pkt": "2026-10-28T23:15:00+05:00",
-      "start_timestamp": 1793211300,
-      "display_date": "2026-10-28",
-      "display_time": "11:15 PM",
+      "source_date": "2026-10-29",
+      "match_date": "2026-10-29",
+      "match_date_utc": "2026-10-29",
+      "match_date_pkt": "2026-10-29",
+      "start_time_utc": "2026-10-29T10:00:00Z",
+      "start_time_pkt": "2026-10-29T15:00:00+05:00",
+      "start_timestamp": 1793268000,
+      "display_date": "2026-10-29",
+      "display_time": "03:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Al-Faisaly SC",
-        "slug": "al-faisaly-sc",
-        "espn_id": "21024",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-faisaly-sc.png",
+        "name": "Gangwon FC",
+        "slug": "gangwon-fc",
+        "espn_id": "131373",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/gangwon-fc.png",
         "logo_resolution": {
           "source": "fallback",
           "confidence": 0.0,
@@ -156,14 +102,176 @@
         }
       },
       "away_team": {
-        "name": "Al Taawoun",
-        "slug": "al-taawoun",
-        "espn_id": "18459",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/18459.png",
+        "name": "Kuching City",
+        "slug": "kuching-city",
+        "espn_id": "21844",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/kuching-city.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+      },
+      "last_updated": "2026-10-28T22:56:46.924653+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-29-1000-gangwon-fc-kuching-city.png"
+    },
+    {
+      "event_id": "afc-champions-league-two-2026-10-29-1000-tampines-rovers-fc-preah-khan-reach-svay-rieng-fc",
+      "competition": {
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-29",
+      "match_date": "2026-10-29",
+      "match_date_utc": "2026-10-29",
+      "match_date_pkt": "2026-10-29",
+      "start_time_utc": "2026-10-29T10:00:00Z",
+      "start_time_pkt": "2026-10-29T15:00:00+05:00",
+      "start_timestamp": 1793268000,
+      "display_date": "2026-10-29",
+      "display_time": "03:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Tampines Rovers FC",
+        "slug": "tampines-rovers-fc",
+        "espn_id": "7998",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7998.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Al Taawoun",
+          "matched_name": "Tampines Rovers FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Preah Khan Reach Svay Rieng FC",
+        "slug": "preah-khan-reach-svay-rieng-fc",
+        "espn_id": "133293",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/preah-khan-reach-svay-rieng-fc.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+      },
+      "last_updated": "2026-10-28T22:56:46.924653+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-29-1000-tampines-rovers-fc-preah-khan-reach-svay-rieng-fc.png"
+    },
+    {
+      "event_id": "afc-champions-league-two-2026-10-29-1215-phnom-penh-crown-fc-kitchee-sc",
+      "competition": {
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-29",
+      "match_date": "2026-10-29",
+      "match_date_utc": "2026-10-29",
+      "match_date_pkt": "2026-10-29",
+      "start_time_utc": "2026-10-29T12:15:00Z",
+      "start_time_pkt": "2026-10-29T17:15:00+05:00",
+      "start_timestamp": 1793276100,
+      "display_date": "2026-10-29",
+      "display_time": "05:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Phnom Penh Crown FC",
+        "slug": "phnom-penh-crown-fc",
+        "espn_id": "21432",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/phnom-penh-crown-fc.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Kitchee SC",
+        "slug": "kitchee-sc",
+        "espn_id": "17686",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/kitchee-sc.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+      },
+      "last_updated": "2026-10-28T22:56:46.924653+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-29-1215-phnom-penh-crown-fc-kitchee-sc.png"
+    },
+    {
+      "event_id": "afc-champions-league-two-2026-10-29-1215-shanghai-shenhua-fc-machida-zelvia",
+      "competition": {
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-29",
+      "match_date": "2026-10-29",
+      "match_date_utc": "2026-10-29",
+      "match_date_pkt": "2026-10-29",
+      "start_time_utc": "2026-10-29T12:15:00Z",
+      "start_time_pkt": "2026-10-29T17:15:00+05:00",
+      "start_timestamp": 1793276100,
+      "display_date": "2026-10-29",
+      "display_time": "05:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Shanghai Shenhua FC",
+        "slug": "shanghai-shenhua-fc",
+        "espn_id": "977",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/977.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Shanghai Shenhua FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Machida Zelvia",
+        "slug": "machida-zelvia",
+        "espn_id": "22167",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22167.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Machida Zelvia",
           "is_fallback": false
         }
       },
@@ -172,11 +280,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
       },
-      "last_updated": "2026-10-28T13:50:16.182209+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-28-1815-al-faisaly-sc-al-taawoun.png"
+      "last_updated": "2026-10-28T22:56:46.924653+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-29-1215-shanghai-shenhua-fc-machida-zelvia.png"
     },
     {
-      "event_id": "afc-champions-league-two-2026-10-28-1815-al-khaldiya-sc-al-wahda-fc",
+      "event_id": "afc-champions-league-two-2026-10-29-1215-tai-po-fc-bg-pathum-united",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -186,22 +294,22 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-28",
-      "match_date": "2026-10-28",
-      "match_date_utc": "2026-10-28",
-      "match_date_pkt": "2026-10-28",
-      "start_time_utc": "2026-10-28T18:15:00Z",
-      "start_time_pkt": "2026-10-28T23:15:00+05:00",
-      "start_timestamp": 1793211300,
-      "display_date": "2026-10-28",
-      "display_time": "11:15 PM",
+      "source_date": "2026-10-29",
+      "match_date": "2026-10-29",
+      "match_date_utc": "2026-10-29",
+      "match_date_pkt": "2026-10-29",
+      "start_time_utc": "2026-10-29T12:15:00Z",
+      "start_time_pkt": "2026-10-29T17:15:00+05:00",
+      "start_timestamp": 1793276100,
+      "display_date": "2026-10-29",
+      "display_time": "05:15 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Al-Khaldiya SC",
-        "slug": "al-khaldiya-sc",
-        "espn_id": "22354",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-khaldiya-sc.png",
+        "name": "Tai Po FC",
+        "slug": "tai-po-fc",
+        "espn_id": "131377",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/tai-po-fc.png",
         "logo_resolution": {
           "source": "fallback",
           "confidence": 0.0,
@@ -210,15 +318,15 @@
         }
       },
       "away_team": {
-        "name": "Al Wahda FC",
-        "slug": "al-wahda-fc",
-        "espn_id": "7134",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-wahda-fc.png",
+        "name": "BG Pathum United",
+        "slug": "bg-pathum-united",
+        "espn_id": "8519",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8519.png",
         "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "BG Pathum United",
+          "is_fallback": false
         }
       },
       "data_source": {
@@ -226,8 +334,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
       },
-      "last_updated": "2026-10-28T13:50:16.182209+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-28-1815-al-khaldiya-sc-al-wahda-fc.png"
+      "last_updated": "2026-10-28T22:56:46.924653+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-29-1215-tai-po-fc-bg-pathum-united.png"
     }
   ]
 }

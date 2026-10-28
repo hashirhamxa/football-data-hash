@@ -1509,7 +1509,62 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="flag_rounded_card"
     ),
 
-    # 54. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 54. Concacaf Central American Cup: Oceanic Teal-Navy, Solar Gold & Tropical Jade / Modern Frame
+    "concacaf-central-american-cup": CompetitionTheme(
+        competition_id="concacaf-central-american-cup",
+        name="Concacaf Central American Cup",
+        background_top=(12, 22, 34),
+        background_bottom=(8, 14, 24),
+        primary=(245, 175, 25),
+        secondary=(0, 165, 115),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(220, 240, 230),
+        panel_color=(16, 28, 42, 225),
+        panel_border=(245, 175, 25, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "central-american-cup": CompetitionTheme(
+        competition_id="concacaf-central-american-cup",
+        name="Concacaf Central American Cup",
+        background_top=(12, 22, 34),
+        background_bottom=(8, 14, 24),
+        primary=(245, 175, 25),
+        secondary=(0, 165, 115),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(220, 240, 230),
+        panel_color=(16, 28, 42, 225),
+        panel_border=(245, 175, 25, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "copa-centroamericana": CompetitionTheme(
+        competition_id="concacaf-central-american-cup",
+        name="Concacaf Central American Cup",
+        background_top=(12, 22, 34),
+        background_bottom=(8, 14, 24),
+        primary=(245, 175, 25),
+        secondary=(0, 165, 115),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(220, 240, 230),
+        panel_color=(16, 28, 42, 225),
+        panel_border=(245, 175, 25, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 55. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

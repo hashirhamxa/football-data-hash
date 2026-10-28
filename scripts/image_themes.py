@@ -1436,7 +1436,80 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="glass_plate"
     ),
 
-    # 53. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 53. FIFA Under-17 Women's World Cup: Oceanic Midnight, Sunset Coral & Electric Turquoise / Flag Rounded Cards
+    "fifa-u17-womens-world-cup": CompetitionTheme(
+        competition_id="fifa-u17-womens-world-cup",
+        name="FIFA Under-17 Women's World Cup",
+        background_top=(10, 20, 38),
+        background_bottom=(6, 12, 24),
+        primary=(245, 55, 110),
+        secondary=(0, 210, 195),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(210, 245, 240),
+        panel_color=(14, 26, 46, 225),
+        panel_border=(0, 210, 195, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="flag_rounded_card"
+    ),
+
+    "fifa-u-17-womens-world-cup": CompetitionTheme(
+        competition_id="fifa-u17-womens-world-cup",
+        name="FIFA Under-17 Women's World Cup",
+        background_top=(10, 20, 38),
+        background_bottom=(6, 12, 24),
+        primary=(245, 55, 110),
+        secondary=(0, 210, 195),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(210, 245, 240),
+        panel_color=(14, 26, 46, 225),
+        panel_border=(0, 210, 195, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="flag_rounded_card"
+    ),
+
+    "fifa-wworld-u17": CompetitionTheme(
+        competition_id="fifa-u17-womens-world-cup",
+        name="FIFA Under-17 Women's World Cup",
+        background_top=(10, 20, 38),
+        background_bottom=(6, 12, 24),
+        primary=(245, 55, 110),
+        secondary=(0, 210, 195),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(210, 245, 240),
+        panel_color=(14, 26, 46, 225),
+        panel_border=(0, 210, 195, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="flag_rounded_card"
+    ),
+
+    "u17-womens-world-cup": CompetitionTheme(
+        competition_id="fifa-u17-womens-world-cup",
+        name="FIFA Under-17 Women's World Cup",
+        background_top=(10, 20, 38),
+        background_bottom=(6, 12, 24),
+        primary=(245, 55, 110),
+        secondary=(0, 210, 195),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(210, 245, 240),
+        panel_color=(14, 26, 46, 225),
+        panel_border=(0, 210, 195, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="flag_rounded_card"
+    ),
+
+    # 54. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

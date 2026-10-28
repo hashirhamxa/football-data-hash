@@ -1596,6 +1596,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "fifa-u17-womens-world-cup-preview",
+            "competition": {
+                "id": "fifa-u17-womens-world-cup",
+                "name": "FIFA Under-17 Women's World Cup",
+                "round": "Group Stage",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/60.png"
+            },
+            "home_team": {"name": "Brazil U17", "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png"},
+            "away_team": {"name": "Poland U17", "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/pol.png"},
+            "match_date": "2026-10-28",
+            "match_date_pkt": "2026-10-28",
+            "display_date": "2026-10-28",
+            "display_time": "11:00 PM",
+            "start_time_utc": "2026-10-28T18:00:00Z",
+            "start_time_pkt": "2026-10-28T23:00:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

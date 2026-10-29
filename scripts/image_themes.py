@@ -1564,7 +1564,44 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
-    # 55. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
+    # 55. Swedish Allsvenskan: Nordic Baltic Blue, Radiant Swedish Yellow & Royal Azure / Modern Frame
+    "swedish-allsvenskan": CompetitionTheme(
+        competition_id="swedish-allsvenskan",
+        name="Swedish Allsvenskan",
+        background_top=(10, 24, 48),
+        background_bottom=(6, 14, 28),
+        primary=(254, 204, 0),
+        secondary=(0, 106, 167),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(210, 230, 250),
+        panel_color=(14, 28, 52, 225),
+        panel_border=(254, 204, 0, 180),
+        pattern="pl_modern_light_trails",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "allsvenskan": CompetitionTheme(
+        competition_id="swedish-allsvenskan",
+        name="Swedish Allsvenskan",
+        background_top=(10, 24, 48),
+        background_bottom=(6, 14, 28),
+        primary=(254, 204, 0),
+        secondary=(0, 106, 167),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(210, 230, 250),
+        panel_color=(14, 28, 52, 225),
+        panel_border=(254, 204, 0, 180),
+        pattern="pl_modern_light_trails",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # 56. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",
         name="Football Fixture",

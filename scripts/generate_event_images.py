@@ -1632,6 +1632,24 @@ def generate_theme_previews(output_base_dir: str = "output/theme_previews") -> L
             "time_status": "confirmed"
         },
         {
+            "event_id": "swedish-allsvenskan-preview",
+            "competition": {
+                "id": "swedish-allsvenskan",
+                "name": "Swedish Allsvenskan",
+                "round": "Gameweek 29",
+                "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png"
+            },
+            "home_team": {"name": "Malmö FF", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2720.png"},
+            "away_team": {"name": "AIK", "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/994.png"},
+            "match_date": "2026-11-02",
+            "match_date_pkt": "2026-11-02",
+            "display_date": "2026-11-02",
+            "display_time": "11:00 PM",
+            "start_time_utc": "2026-11-02T18:00:00Z",
+            "start_time_pkt": "2026-11-02T23:00:00+05:00",
+            "time_status": "confirmed"
+        },
+        {
             "event_id": "neutral-fallback-preview",
             "competition": {
                 "id": "unknown-cup",

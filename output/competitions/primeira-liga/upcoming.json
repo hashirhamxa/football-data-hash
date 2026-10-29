@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-28T22:59:22.791646+00:00",
+  "generated_at": "2026-10-29T09:53:37.201569+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 6,
+  "total_events": 7,
   "events": [
     {
       "event_id": "primeira-liga-2026-10-30-2015-casa-pia-sporting-cp",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard"
       },
-      "last_updated": "2026-10-28T22:56:46.924653+00:00",
+      "last_updated": "2026-10-29T09:48:41.305508+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-10-30-2015-casa-pia-sporting-cp.png"
     },
     {
@@ -116,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard"
       },
-      "last_updated": "2026-10-28T22:56:46.924653+00:00",
+      "last_updated": "2026-10-29T09:48:41.305508+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-10-31-1530-moreirense-estrela.png"
     },
     {
@@ -170,7 +170,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard"
       },
-      "last_updated": "2026-10-28T22:56:46.924653+00:00",
+      "last_updated": "2026-10-29T09:48:41.305508+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-10-31-2030-fc-porto-estoril.png"
     },
     {
@@ -224,7 +224,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard"
       },
-      "last_updated": "2026-10-28T22:56:46.924653+00:00",
+      "last_updated": "2026-10-29T09:48:41.305508+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-11-01-1530-arouca-c-d-nacional.png"
     },
     {
@@ -278,7 +278,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard"
       },
-      "last_updated": "2026-10-28T22:56:46.924653+00:00",
+      "last_updated": "2026-10-29T09:48:41.305508+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-11-01-1800-academico-de-viseu-rio-ave.png"
     },
     {
@@ -332,8 +332,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard"
       },
-      "last_updated": "2026-10-28T22:56:46.924653+00:00",
+      "last_updated": "2026-10-29T09:48:41.305508+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-11-01-1800-maritimo-santa-clara.png"
+    },
+    {
+      "event_id": "primeira-liga-2026-11-01-2030-braga-fc-famalicao",
+      "competition": {
+        "id": "primeira-liga",
+        "name": "Portuguese Primeira Liga",
+        "country": "Portugal",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-01",
+      "match_date": "2026-11-01",
+      "match_date_utc": "2026-11-01",
+      "match_date_pkt": "2026-11-02",
+      "start_time_utc": "2026-11-01T20:30:00Z",
+      "start_time_pkt": "2026-11-02T01:30:00+05:00",
+      "start_timestamp": 1793565000,
+      "display_date": "2026-11-02",
+      "display_time": "01:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Braga",
+        "slug": "braga",
+        "espn_id": "2994",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Braga",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "FC Famalicao",
+        "slug": "fc-famalicao",
+        "espn_id": "12698",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/12698.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "FC Famalicao",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard"
+      },
+      "last_updated": "2026-10-29T09:48:41.305508+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-11-01-2030-braga-fc-famalicao.png"
     }
   ]
 }

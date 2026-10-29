@@ -7,10 +7,119 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-29T09:59:58.374299+00:00",
+  "generated_at": "2026-10-29T23:06:54.973719+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-10-29",
-  "target_day_name": "Thursday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-10-30",
+  "target_day_name": "Friday",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "ligue-1-2026-10-30-1800-le-havre-ac-paris-saint-germain",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T18:00:00Z",
+      "start_time_pkt": "2026-10-30T23:00:00+05:00",
+      "start_timestamp": 1793383200,
+      "display_date": "2026-10-30",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Le Havre AC",
+        "slug": "le-havre-ac",
+        "espn_id": "3236",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Le Havre AC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Paris Saint-Germain",
+        "slug": "paris-saint-germain",
+        "espn_id": "160",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Paris Saint-Germain",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
+      },
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-30-1800-le-havre-ac-paris-saint-germain.png"
+    },
+    {
+      "event_id": "ligue-1-2026-10-30-1800-nice-stade-rennais",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T18:00:00Z",
+      "start_time_pkt": "2026-10-30T23:00:00+05:00",
+      "start_timestamp": 1793383200,
+      "display_date": "2026-10-30",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Nice",
+        "slug": "nice",
+        "espn_id": "2502",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Nice",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Stade Rennais",
+        "slug": "stade-rennais",
+        "espn_id": "169",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Stade Rennais",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
+      },
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-30-1800-nice-stade-rennais.png"
+    }
+  ]
 }

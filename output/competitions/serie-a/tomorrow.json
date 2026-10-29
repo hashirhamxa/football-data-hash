@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-29T09:59:58.372047+00:00",
+  "generated_at": "2026-10-29T23:06:54.970972+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-10-30",
-  "target_day_name": "Friday",
-  "total_events": 1,
+  "target_date_pkt": "2026-10-31",
+  "target_day_name": "Saturday",
+  "total_events": 2,
   "events": [
     {
-      "event_id": "serie-a-2026-10-29-1945-fiorentina-atalanta",
+      "event_id": "serie-a-2026-10-31-1400-bologna-monza",
       "competition": {
         "id": "serie-a",
         "name": "Italian Serie A",
@@ -24,38 +24,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-30",
-      "start_time_utc": "2026-10-29T19:45:00Z",
-      "start_time_pkt": "2026-10-30T00:45:00+05:00",
-      "start_timestamp": 1793303100,
-      "display_date": "2026-10-30",
-      "display_time": "12:45 AM",
+      "source_date": "2026-10-31",
+      "match_date": "2026-10-31",
+      "match_date_utc": "2026-10-31",
+      "match_date_pkt": "2026-10-31",
+      "start_time_utc": "2026-10-31T14:00:00Z",
+      "start_time_pkt": "2026-10-31T19:00:00+05:00",
+      "start_timestamp": 1793455200,
+      "display_date": "2026-10-31",
+      "display_time": "07:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Fiorentina",
-        "slug": "fiorentina",
-        "espn_id": "109",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+        "name": "Bologna",
+        "slug": "bologna",
+        "espn_id": "107",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Fiorentina",
+          "matched_name": "Bologna",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Atalanta",
-        "slug": "atalanta",
-        "espn_id": "105",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+        "name": "Monza",
+        "slug": "monza",
+        "espn_id": "4007",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Atalanta",
+          "matched_name": "Monza",
           "is_fallback": false
         }
       },
@@ -64,8 +64,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
       },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-29-1945-fiorentina-atalanta.png"
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-31-1400-bologna-monza.png"
+    },
+    {
+      "event_id": "serie-a-2026-10-31-1700-udinese-as-roma",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-31",
+      "match_date": "2026-10-31",
+      "match_date_utc": "2026-10-31",
+      "match_date_pkt": "2026-10-31",
+      "start_time_utc": "2026-10-31T17:00:00Z",
+      "start_time_pkt": "2026-10-31T22:00:00+05:00",
+      "start_timestamp": 1793466000,
+      "display_date": "2026-10-31",
+      "display_time": "10:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Udinese",
+        "slug": "udinese",
+        "espn_id": "118",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Udinese",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "AS Roma",
+        "slug": "as-roma",
+        "espn_id": "104",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "AS Roma",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
+      },
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-31-1700-udinese-as-roma.png"
     }
   ]
 }

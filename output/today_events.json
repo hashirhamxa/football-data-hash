@@ -2,283 +2,283 @@
   "version": "1.1.0",
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "target_date_pkt": "2026-10-29",
-  "target_day_name": "Thursday",
-  "generated_at": "2026-10-29T09:59:58.356629+00:00",
-  "total_events": 27,
+  "target_date_pkt": "2026-10-30",
+  "target_day_name": "Friday",
+  "generated_at": "2026-10-29T23:06:54.951626+00:00",
+  "total_events": 13,
   "events": [
     {
-      "event_id": "afc-champions-league-two-2026-10-29-1000-gangwon-fc-kuching-city",
+      "event_id": "colombian-primera-a-2026-10-29-2330-america-de-cali-fortaleza-ceif",
       "competition": {
-        "id": "afc-champions-league-two",
-        "name": "AFC Champions League Two",
-        "country": "Asia",
+        "id": "colombian-primera-a",
+        "name": "Colombian Primera A",
+        "country": "Colombia",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png"
       },
       "round": "Regular Fixture",
       "source_date": "2026-10-29",
       "match_date": "2026-10-29",
       "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T10:00:00Z",
-      "start_time_pkt": "2026-10-29T15:00:00+05:00",
-      "start_timestamp": 1793268000,
-      "display_date": "2026-10-29",
-      "display_time": "03:00 PM",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-29T23:30:00Z",
+      "start_time_pkt": "2026-10-30T04:30:00+05:00",
+      "start_timestamp": 1793316600,
+      "display_date": "2026-10-30",
+      "display_time": "04:30 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Gangwon FC",
-        "slug": "gangwon-fc",
-        "espn_id": "131373",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/gangwon-fc.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Kuching City",
-        "slug": "kuching-city",
-        "espn_id": "21844",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/kuching-city.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-29-1000-gangwon-fc-kuching-city.png"
-    },
-    {
-      "event_id": "afc-champions-league-two-2026-10-29-1000-tampines-rovers-fc-preah-khan-reach-svay-rieng-fc",
-      "competition": {
-        "id": "afc-champions-league-two",
-        "name": "AFC Champions League Two",
-        "country": "Asia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T10:00:00Z",
-      "start_time_pkt": "2026-10-29T15:00:00+05:00",
-      "start_timestamp": 1793268000,
-      "display_date": "2026-10-29",
-      "display_time": "03:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Tampines Rovers FC",
-        "slug": "tampines-rovers-fc",
-        "espn_id": "7998",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7998.png",
+        "name": "América de Cali",
+        "slug": "america-de-cali",
+        "espn_id": "8109",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Tampines Rovers FC",
+          "matched_name": "América de Cali",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Preah Khan Reach Svay Rieng FC",
-        "slug": "preah-khan-reach-svay-rieng-fc",
-        "espn_id": "133293",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/preah-khan-reach-svay-rieng-fc.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-29-1000-tampines-rovers-fc-preah-khan-reach-svay-rieng-fc.png"
-    },
-    {
-      "event_id": "afc-champions-league-two-2026-10-29-1215-phnom-penh-crown-fc-kitchee-sc",
-      "competition": {
-        "id": "afc-champions-league-two",
-        "name": "AFC Champions League Two",
-        "country": "Asia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T12:15:00Z",
-      "start_time_pkt": "2026-10-29T17:15:00+05:00",
-      "start_timestamp": 1793276100,
-      "display_date": "2026-10-29",
-      "display_time": "05:15 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Phnom Penh Crown FC",
-        "slug": "phnom-penh-crown-fc",
-        "espn_id": "21432",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/phnom-penh-crown-fc.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Kitchee SC",
-        "slug": "kitchee-sc",
-        "espn_id": "17686",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/kitchee-sc.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-29-1215-phnom-penh-crown-fc-kitchee-sc.png"
-    },
-    {
-      "event_id": "afc-champions-league-two-2026-10-29-1215-shanghai-shenhua-fc-machida-zelvia",
-      "competition": {
-        "id": "afc-champions-league-two",
-        "name": "AFC Champions League Two",
-        "country": "Asia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T12:15:00Z",
-      "start_time_pkt": "2026-10-29T17:15:00+05:00",
-      "start_timestamp": 1793276100,
-      "display_date": "2026-10-29",
-      "display_time": "05:15 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Shanghai Shenhua FC",
-        "slug": "shanghai-shenhua-fc",
-        "espn_id": "977",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/977.png",
+        "name": "Fortaleza CEIF",
+        "slug": "fortaleza-ceif",
+        "espn_id": "4928",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4928.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Shanghai Shenhua FC",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Machida Zelvia",
-        "slug": "machida-zelvia",
-        "espn_id": "22167",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22167.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Machida Zelvia",
+          "matched_name": "Fortaleza CEIF",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/scoreboard"
       },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-29-1215-shanghai-shenhua-fc-machida-zelvia.png"
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/colombian-primera-a-2026-10-29-2330-america-de-cali-fortaleza-ceif.png"
     },
     {
-      "event_id": "afc-champions-league-two-2026-10-29-1215-tai-po-fc-bg-pathum-united",
+      "event_id": "brazilian-serie-a-2026-10-30-0030-gremio-athletico-pr",
       "competition": {
-        "id": "afc-champions-league-two",
-        "name": "AFC Champions League Two",
-        "country": "Asia",
+        "id": "brazilian-serie-a",
+        "name": "Brazilian Série A",
+        "country": "Brazil",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T12:15:00Z",
-      "start_time_pkt": "2026-10-29T17:15:00+05:00",
-      "start_timestamp": 1793276100,
-      "display_date": "2026-10-29",
-      "display_time": "05:15 PM",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T00:30:00Z",
+      "start_time_pkt": "2026-10-30T05:30:00+05:00",
+      "start_timestamp": 1793320200,
+      "display_date": "2026-10-30",
+      "display_time": "05:30 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Tai Po FC",
-        "slug": "tai-po-fc",
-        "espn_id": "131377",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/tai-po-fc.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "BG Pathum United",
-        "slug": "bg-pathum-united",
-        "espn_id": "8519",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8519.png",
+        "name": "Grêmio",
+        "slug": "gremio",
+        "espn_id": "6273",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "BG Pathum United",
+          "matched_name": "Grêmio",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Athletico-PR",
+        "slug": "athletico-pr",
+        "espn_id": "3458",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Athletico-PR",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard"
       },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-10-29-1215-tai-po-fc-bg-pathum-united.png"
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-10-30-0030-gremio-athletico-pr.png"
     },
     {
-      "event_id": "saudi-pro-league-2026-10-29-1435-al-khaleej-al-hazem",
+      "event_id": "colombian-primera-a-2026-10-30-0130-atletico-nacional-independiente-santa-fe",
+      "competition": {
+        "id": "colombian-primera-a",
+        "name": "Colombian Primera A",
+        "country": "Colombia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T01:30:00Z",
+      "start_time_pkt": "2026-10-30T06:30:00+05:00",
+      "start_timestamp": 1793323800,
+      "display_date": "2026-10-30",
+      "display_time": "06:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Atlético Nacional",
+        "slug": "atletico-nacional",
+        "espn_id": "5264",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Atlético Nacional",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Independiente Santa Fe",
+        "slug": "independiente-santa-fe",
+        "espn_id": "5488",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Independiente Santa Fe",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/scoreboard"
+      },
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/colombian-primera-a-2026-10-30-0130-atletico-nacional-independiente-santa-fe.png"
+    },
+    {
+      "event_id": "concacaf-central-american-cup-2026-10-30-0200-alajuelense-fc-motagua",
+      "competition": {
+        "id": "concacaf-central-american-cup",
+        "name": "Concacaf Central American Cup",
+        "country": "Central America",
+        "round": "2nd Leg - Tied on aggregate",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2298.png"
+      },
+      "round": "2nd Leg - Tied on aggregate",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T02:00:00Z",
+      "start_time_pkt": "2026-10-30T07:00:00+05:00",
+      "start_timestamp": 1793325600,
+      "display_date": "2026-10-30",
+      "display_time": "07:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Alajuelense",
+        "slug": "alajuelense",
+        "espn_id": "2057",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2057.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Alajuelense",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "FC Motagua",
+        "slug": "fc-motagua",
+        "espn_id": "7242",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7242.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "FC Motagua",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.central.american.cup/scoreboard"
+      },
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-central-american-cup-2026-10-30-0200-alajuelense-fc-motagua.png"
+    },
+    {
+      "event_id": "a-league-men-2026-10-30-0900-brisbane-roar-fc-auckland-fc",
+      "competition": {
+        "id": "a-league-men",
+        "name": "Australian A-League Men",
+        "country": "Australia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1308.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T09:00:00Z",
+      "start_time_pkt": "2026-10-30T14:00:00+05:00",
+      "start_timestamp": 1793350800,
+      "display_date": "2026-10-30",
+      "display_time": "02:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Brisbane Roar FC",
+        "slug": "brisbane-roar-fc",
+        "espn_id": "5326",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5326.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Brisbane Roar FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Auckland FC",
+        "slug": "auckland-fc",
+        "espn_id": "22344",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22344.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Auckland FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/scoreboard"
+      },
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-10-30-0900-brisbane-roar-fc-auckland-fc.png"
+    },
+    {
+      "event_id": "saudi-pro-league-2026-10-30-1230-abha-al-ittihad",
       "competition": {
         "id": "saudi-pro-league",
         "name": "Saudi Pro League",
@@ -288,38 +288,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T14:35:00Z",
-      "start_time_pkt": "2026-10-29T19:35:00+05:00",
-      "start_timestamp": 1793284500,
-      "display_date": "2026-10-29",
-      "display_time": "07:35 PM",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T12:30:00Z",
+      "start_time_pkt": "2026-10-30T17:30:00+05:00",
+      "start_timestamp": 1793363400,
+      "display_date": "2026-10-30",
+      "display_time": "05:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Al Khaleej",
-        "slug": "al-khaleej",
-        "espn_id": "21829",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21829.png",
+        "name": "Abha",
+        "slug": "abha",
+        "espn_id": "21833",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21833.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Al Khaleej",
+          "matched_name": "Abha",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Al Hazem",
-        "slug": "al-hazem",
-        "espn_id": "21964",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21964.png",
+        "name": "Al Ittihad",
+        "slug": "al-ittihad",
+        "espn_id": "2276",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2276.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Al Hazem",
+          "matched_name": "Al Ittihad",
           "is_fallback": false
         }
       },
@@ -328,551 +328,335 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard"
       },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-10-29-1435-al-khaleej-al-hazem.png"
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-10-30-1230-abha-al-ittihad.png"
     },
     {
-      "event_id": "fifa-u17-womens-world-cup-2026-10-29-1500-china-pr-u17-france-u17",
+      "event_id": "saudi-pro-league-2026-10-30-1450-al-diriyah-neom-sc",
       "competition": {
-        "id": "fifa-u17-womens-world-cup",
-        "name": "FIFA Under-17 Women's World Cup",
-        "country": "International",
+        "id": "saudi-pro-league",
+        "name": "Saudi Pro League",
+        "country": "Saudi Arabia",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/60.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T15:00:00Z",
-      "start_time_pkt": "2026-10-29T20:00:00+05:00",
-      "start_timestamp": 1793286000,
-      "display_date": "2026-10-29",
-      "display_time": "08:00 PM",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T14:50:00Z",
+      "start_time_pkt": "2026-10-30T19:50:00+05:00",
+      "start_timestamp": 1793371800,
+      "display_date": "2026-10-30",
+      "display_time": "07:50 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "China PR U17",
-        "slug": "china-pr-u17",
-        "espn_id": "21569",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21569.png",
+        "name": "Al Diriyah",
+        "slug": "al-diriyah",
+        "espn_id": "131746",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131746.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "China PR U17",
+          "matched_name": "Al Diriyah",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "France U17",
-        "slug": "france-u17",
-        "espn_id": "21567",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21567.png",
+        "name": "Neom SC",
+        "slug": "neom-sc",
+        "espn_id": "130899",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/130899.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "France U17",
+          "matched_name": "Neom SC",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.wworld.u17/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard"
       },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-womens-world-cup-2026-10-29-1500-china-pr-u17-france-u17.png"
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-10-30-1450-al-diriyah-neom-sc.png"
     },
     {
-      "event_id": "fifa-u17-womens-world-cup-2026-10-29-1500-nigeria-u17-mexico-u17",
+      "event_id": "turkish-super-lig-2026-10-30-1700-konyaspor-galatasaray",
       "competition": {
-        "id": "fifa-u17-womens-world-cup",
-        "name": "FIFA Under-17 Women's World Cup",
-        "country": "International",
+        "id": "turkish-super-lig",
+        "name": "Turkish Super Lig",
+        "country": "Turkey",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/60.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T15:00:00Z",
-      "start_time_pkt": "2026-10-29T20:00:00+05:00",
-      "start_timestamp": 1793286000,
-      "display_date": "2026-10-29",
-      "display_time": "08:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Nigeria U17",
-        "slug": "nigeria-u17",
-        "espn_id": "21563",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/nga.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Nigeria U17",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Mexico U17",
-        "slug": "mexico-u17",
-        "espn_id": "21568",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Mexico U17",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.wworld.u17/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-womens-world-cup-2026-10-29-1500-nigeria-u17-mexico-u17.png"
-    },
-    {
-      "event_id": "copa-del-rey-2026-10-29-1700-numancia-real-oviedo",
-      "competition": {
-        "id": "copa-del-rey",
-        "name": "Spanish Copa del Rey",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T17:00:00Z",
-      "start_time_pkt": "2026-10-29T22:00:00+05:00",
-      "start_timestamp": 1793293200,
-      "display_date": "2026-10-29",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T17:00:00Z",
+      "start_time_pkt": "2026-10-30T22:00:00+05:00",
+      "start_timestamp": 1793379600,
+      "display_date": "2026-10-30",
       "display_time": "10:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Numancia",
-        "slug": "numancia",
-        "espn_id": "100",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/100.png",
+        "name": "Konyaspor",
+        "slug": "konyaspor",
+        "espn_id": "7648",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Numancia",
+          "matched_name": "Konyaspor",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Real Oviedo",
-        "slug": "real-oviedo",
-        "espn_id": "92",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
+        "name": "Galatasaray",
+        "slug": "galatasaray",
+        "espn_id": "432",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Real Oviedo",
+          "matched_name": "Galatasaray",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard"
       },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-29-1700-numancia-real-oviedo.png"
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-10-30-1700-konyaspor-galatasaray.png"
     },
     {
-      "event_id": "copa-del-rey-2026-10-29-1700-pena-sport-huesca",
+      "event_id": "2-bundesliga-2026-10-30-1730-arminia-bielefeld-tsv-eintracht-braunschweig",
       "competition": {
-        "id": "copa-del-rey",
-        "name": "Spanish Copa del Rey",
-        "country": "Spain",
+        "id": "2-bundesliga",
+        "name": "2. Bundesliga",
+        "country": "Germany",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T17:00:00Z",
-      "start_time_pkt": "2026-10-29T22:00:00+05:00",
-      "start_timestamp": 1793293200,
-      "display_date": "2026-10-29",
-      "display_time": "10:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Peña Sport",
-        "slug": "pena-sport",
-        "espn_id": "7041",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/pena-sport.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Huesca",
-        "slug": "huesca",
-        "espn_id": "5413",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5413.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Huesca",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-29-1700-pena-sport-huesca.png"
-    },
-    {
-      "event_id": "serie-a-2026-10-29-1730-frosinone-lecce",
-      "competition": {
-        "id": "serie-a",
-        "name": "Italian Serie A",
-        "country": "Italy",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T17:30:00Z",
-      "start_time_pkt": "2026-10-29T22:30:00+05:00",
-      "start_timestamp": 1793295000,
-      "display_date": "2026-10-29",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T17:30:00Z",
+      "start_time_pkt": "2026-10-30T22:30:00+05:00",
+      "start_timestamp": 1793381400,
+      "display_date": "2026-10-30",
       "display_time": "10:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Frosinone",
-        "slug": "frosinone",
-        "espn_id": "4057",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+        "name": "Arminia Bielefeld",
+        "slug": "arminia-bielefeld",
+        "espn_id": "2506",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2506.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Frosinone",
+          "matched_name": "Arminia Bielefeld",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Lecce",
-        "slug": "lecce",
-        "espn_id": "113",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+        "name": "TSV Eintracht Braunschweig",
+        "slug": "tsv-eintracht-braunschweig",
+        "espn_id": "3067",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3067.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Lecce",
+          "matched_name": "TSV Eintracht Braunschweig",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
       },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-10-29-1730-frosinone-lecce.png"
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-10-30-1730-arminia-bielefeld-tsv-eintracht-braunschweig.png"
     },
     {
-      "event_id": "swedish-allsvenskan-2026-10-29-1730-hammarby-if-ik-sirius",
+      "event_id": "2-bundesliga-2026-10-30-1730-energie-cottbus-vfl-bochum",
       "competition": {
-        "id": "swedish-allsvenskan",
-        "name": "Swedish Allsvenskan",
-        "country": "Sweden",
+        "id": "2-bundesliga",
+        "name": "2. Bundesliga",
+        "country": "Germany",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T17:30:00Z",
-      "start_time_pkt": "2026-10-29T22:30:00+05:00",
-      "start_timestamp": 1793295000,
-      "display_date": "2026-10-29",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T17:30:00Z",
+      "start_time_pkt": "2026-10-30T22:30:00+05:00",
+      "start_timestamp": 1793381400,
+      "display_date": "2026-10-30",
       "display_time": "10:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Hammarby IF",
-        "slug": "hammarby-if",
-        "espn_id": "2495",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2495.png",
+        "name": "Energie Cottbus",
+        "slug": "energie-cottbus",
+        "espn_id": "123",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/123.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Hammarby IF",
+          "matched_name": "Energie Cottbus",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "IK Sirius",
-        "slug": "ik-sirius",
-        "espn_id": "8547",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8547.png",
+        "name": "VfL Bochum",
+        "slug": "vfl-bochum",
+        "espn_id": "121",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/121.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "IK Sirius",
+          "matched_name": "VfL Bochum",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
       },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/swedish-allsvenskan-2026-10-29-1730-hammarby-if-ik-sirius.png"
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-10-30-1730-energie-cottbus-vfl-bochum.png"
     },
     {
-      "event_id": "womens-champions-league-2026-10-29-1745-austria-vienna-juventus",
+      "event_id": "ligue-1-2026-10-30-1800-le-havre-ac-paris-saint-germain",
       "competition": {
-        "id": "womens-champions-league",
-        "name": "UEFA Women's Champions League",
-        "country": "Europe",
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2408.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T17:45:00Z",
-      "start_time_pkt": "2026-10-29T22:45:00+05:00",
-      "start_timestamp": 1793295900,
-      "display_date": "2026-10-29",
-      "display_time": "10:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Austria Vienna",
-        "slug": "austria-vienna",
-        "espn_id": "131643",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Austria Vienna",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Juventus",
-        "slug": "juventus",
-        "espn_id": "20092",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20092.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Juventus",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.wchampions/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-champions-league-2026-10-29-1745-austria-vienna-juventus.png"
-    },
-    {
-      "event_id": "womens-champions-league-2026-10-29-1745-paris-fc-bk-hacken",
-      "competition": {
-        "id": "womens-champions-league",
-        "name": "UEFA Women's Champions League",
-        "country": "Europe",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2408.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T17:45:00Z",
-      "start_time_pkt": "2026-10-29T22:45:00+05:00",
-      "start_timestamp": 1793295900,
-      "display_date": "2026-10-29",
-      "display_time": "10:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Paris FC",
-        "slug": "paris-fc",
-        "espn_id": "21640",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Paris FC",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "BK Häcken",
-        "slug": "bk-hacken",
-        "espn_id": "21124",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21124.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "BK Häcken",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.wchampions/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-champions-league-2026-10-29-1745-paris-fc-bk-hacken.png"
-    },
-    {
-      "event_id": "fifa-u17-womens-world-cup-2026-10-29-1800-japan-u17-kenya-u17",
-      "competition": {
-        "id": "fifa-u17-womens-world-cup",
-        "name": "FIFA Under-17 Women's World Cup",
-        "country": "International",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/60.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T18:00:00Z",
-      "start_time_pkt": "2026-10-29T23:00:00+05:00",
-      "start_timestamp": 1793296800,
-      "display_date": "2026-10-29",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T18:00:00Z",
+      "start_time_pkt": "2026-10-30T23:00:00+05:00",
+      "start_timestamp": 1793383200,
+      "display_date": "2026-10-30",
       "display_time": "11:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Japan U17",
-        "slug": "japan-u17",
-        "espn_id": "21570",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+        "name": "Le Havre AC",
+        "slug": "le-havre-ac",
+        "espn_id": "3236",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Japan U17",
+          "matched_name": "Le Havre AC",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Kenya U17",
-        "slug": "kenya-u17",
-        "espn_id": "22307",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ken.png",
+        "name": "Paris Saint-Germain",
+        "slug": "paris-saint-germain",
+        "espn_id": "160",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Kenya U17",
+          "matched_name": "Paris Saint-Germain",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.wworld.u17/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-womens-world-cup-2026-10-29-1800-japan-u17-kenya-u17.png"
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-30-1800-le-havre-ac-paris-saint-germain.png"
     },
     {
-      "event_id": "fifa-u17-womens-world-cup-2026-10-29-1800-spain-u17-united-states-u17",
+      "event_id": "ligue-1-2026-10-30-1800-nice-stade-rennais",
       "competition": {
-        "id": "fifa-u17-womens-world-cup",
-        "name": "FIFA Under-17 Women's World Cup",
-        "country": "International",
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/60.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T18:00:00Z",
-      "start_time_pkt": "2026-10-29T23:00:00+05:00",
-      "start_timestamp": 1793296800,
-      "display_date": "2026-10-29",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T18:00:00Z",
+      "start_time_pkt": "2026-10-30T23:00:00+05:00",
+      "start_timestamp": 1793383200,
+      "display_date": "2026-10-30",
       "display_time": "11:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Spain U17",
-        "slug": "spain-u17",
-        "espn_id": "21572",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+        "name": "Nice",
+        "slug": "nice",
+        "espn_id": "2502",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Spain U17",
+          "matched_name": "Nice",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "United States U17",
-        "slug": "united-states-u17",
-        "espn_id": "21565",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "name": "Stade Rennais",
+        "slug": "stade-rennais",
+        "espn_id": "169",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "United States U17",
+          "matched_name": "Stade Rennais",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.wworld.u17/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-womens-world-cup-2026-10-29-1800-spain-u17-united-states-u17.png"
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-10-30-1800-nice-stade-rennais.png"
     },
     {
-      "event_id": "saudi-pro-league-2026-10-29-1800-al-nassr-al-kholood",
+      "event_id": "saudi-pro-league-2026-10-30-1800-al-shabab-al-ahli",
       "competition": {
         "id": "saudi-pro-league",
         "name": "Saudi Pro League",
@@ -882,38 +666,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T18:00:00Z",
-      "start_time_pkt": "2026-10-29T23:00:00+05:00",
-      "start_timestamp": 1793296800,
-      "display_date": "2026-10-29",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T18:00:00Z",
+      "start_time_pkt": "2026-10-30T23:00:00+05:00",
+      "start_timestamp": 1793383200,
+      "display_date": "2026-10-30",
       "display_time": "11:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Al Nassr",
-        "slug": "al-nassr",
-        "espn_id": "817",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/817.png",
+        "name": "Al Shabab",
+        "slug": "al-shabab",
+        "espn_id": "793",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/793.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Al Nassr",
+          "matched_name": "Al Shabab",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Al Kholood",
-        "slug": "al-kholood",
-        "espn_id": "22028",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22028.png",
+        "name": "Al Ahli",
+        "slug": "al-ahli",
+        "espn_id": "8346",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8346.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Al Kholood",
+          "matched_name": "Al Ahli",
           "is_fallback": false
         }
       },
@@ -922,548 +706,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard"
       },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-10-29-1800-al-nassr-al-kholood.png"
-    },
-    {
-      "event_id": "saudi-pro-league-2026-10-29-1800-al-riyadh-al-qadsiah",
-      "competition": {
-        "id": "saudi-pro-league",
-        "name": "Saudi Pro League",
-        "country": "Saudi Arabia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T18:00:00Z",
-      "start_time_pkt": "2026-10-29T23:00:00+05:00",
-      "start_timestamp": 1793296800,
-      "display_date": "2026-10-29",
-      "display_time": "11:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Al Riyadh",
-        "slug": "al-riyadh",
-        "espn_id": "21965",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21965.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Al Riyadh",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Al Qadsiah",
-        "slug": "al-qadsiah",
-        "espn_id": "22022",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22022.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Al Qadsiah",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-10-29-1800-al-riyadh-al-qadsiah.png"
-    },
-    {
-      "event_id": "copa-del-rey-2026-10-29-1800-atletico-baleares-eldense",
-      "competition": {
-        "id": "copa-del-rey",
-        "name": "Spanish Copa del Rey",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T18:00:00Z",
-      "start_time_pkt": "2026-10-29T23:00:00+05:00",
-      "start_timestamp": 1793296800,
-      "display_date": "2026-10-29",
-      "display_time": "11:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Atlético Baleares",
-        "slug": "atletico-baleares",
-        "espn_id": "14263",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/atletico-baleares.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Eldense",
-        "slug": "eldense",
-        "espn_id": "7320",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7320.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Eldense",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-29-1800-atletico-baleares-eldense.png"
-    },
-    {
-      "event_id": "copa-del-rey-2026-10-29-1800-atletico-calatayud-osasuna",
-      "competition": {
-        "id": "copa-del-rey",
-        "name": "Spanish Copa del Rey",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T18:00:00Z",
-      "start_time_pkt": "2026-10-29T23:00:00+05:00",
-      "start_timestamp": 1793296800,
-      "display_date": "2026-10-29",
-      "display_time": "11:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Atlético Calatayud",
-        "slug": "atletico-calatayud",
-        "espn_id": "131403",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/atletico-calatayud.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Osasuna",
-        "slug": "osasuna",
-        "espn_id": "97",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Osasuna",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-29-1800-atletico-calatayud-osasuna.png"
-    },
-    {
-      "event_id": "copa-del-rey-2026-10-29-1800-coruxo-zamora-cf",
-      "competition": {
-        "id": "copa-del-rey",
-        "name": "Spanish Copa del Rey",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T18:00:00Z",
-      "start_time_pkt": "2026-10-29T23:00:00+05:00",
-      "start_timestamp": 1793296800,
-      "display_date": "2026-10-29",
-      "display_time": "11:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Coruxo",
-        "slug": "coruxo",
-        "espn_id": "8961",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/coruxo.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Zamora CF",
-        "slug": "zamora-cf",
-        "espn_id": "17565",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/zamora-cf.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-29-1800-coruxo-zamora-cf.png"
-    },
-    {
-      "event_id": "copa-del-rey-2026-10-29-1800-poblense-ceuta",
-      "competition": {
-        "id": "copa-del-rey",
-        "name": "Spanish Copa del Rey",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T18:00:00Z",
-      "start_time_pkt": "2026-10-29T23:00:00+05:00",
-      "start_timestamp": 1793296800,
-      "display_date": "2026-10-29",
-      "display_time": "11:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Poblense",
-        "slug": "poblense",
-        "espn_id": "9414",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/poblense.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Ceuta",
-        "slug": "ceuta",
-        "espn_id": "5404",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5404.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Ceuta",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-29-1800-poblense-ceuta.png"
-    },
-    {
-      "event_id": "copa-del-rey-2026-10-29-1800-san-sebastian-de-los-reyes-coria",
-      "competition": {
-        "id": "copa-del-rey",
-        "name": "Spanish Copa del Rey",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T18:00:00Z",
-      "start_time_pkt": "2026-10-29T23:00:00+05:00",
-      "start_timestamp": 1793296800,
-      "display_date": "2026-10-29",
-      "display_time": "11:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "San Sebastián de los Reyes",
-        "slug": "san-sebastian-de-los-reyes",
-        "espn_id": "18342",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/san-sebastian-de-los-reyes.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Coria",
-        "slug": "coria",
-        "espn_id": "20821",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/coria.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-29-1800-san-sebastian-de-los-reyes-coria.png"
-    },
-    {
-      "event_id": "copa-del-rey-2026-10-29-1800-ub-lebrijana-getafe",
-      "competition": {
-        "id": "copa-del-rey",
-        "name": "Spanish Copa del Rey",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T18:00:00Z",
-      "start_time_pkt": "2026-10-29T23:00:00+05:00",
-      "start_timestamp": 1793296800,
-      "display_date": "2026-10-29",
-      "display_time": "11:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "UB Lebrijana",
-        "slug": "ub-lebrijana",
-        "espn_id": "133844",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/ub-lebrijana.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Getafe",
-        "slug": "getafe",
-        "espn_id": "2922",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Getafe",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-29-1800-ub-lebrijana-getafe.png"
-    },
-    {
-      "event_id": "swedish-allsvenskan-2026-10-29-1800-kalmar-ff-gais",
-      "competition": {
-        "id": "swedish-allsvenskan",
-        "name": "Swedish Allsvenskan",
-        "country": "Sweden",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T18:00:00Z",
-      "start_time_pkt": "2026-10-29T23:00:00+05:00",
-      "start_timestamp": 1793296800,
-      "display_date": "2026-10-29",
-      "display_time": "11:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Kalmar FF",
-        "slug": "kalmar-ff",
-        "espn_id": "3052",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3052.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Kalmar FF",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "GAIS",
-        "slug": "gais",
-        "espn_id": "8222",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8222.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "GAIS",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/swedish-allsvenskan-2026-10-29-1800-kalmar-ff-gais.png"
-    },
-    {
-      "event_id": "swedish-allsvenskan-2026-10-29-1800-orgryte-is-mjallby-aif",
-      "competition": {
-        "id": "swedish-allsvenskan",
-        "name": "Swedish Allsvenskan",
-        "country": "Sweden",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T18:00:00Z",
-      "start_time_pkt": "2026-10-29T23:00:00+05:00",
-      "start_timestamp": 1793296800,
-      "display_date": "2026-10-29",
-      "display_time": "11:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Örgryte IS",
-        "slug": "orgryte-is",
-        "espn_id": "131552",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131552.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Örgryte IS",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Mjällby AIF",
-        "slug": "mjallby-aif",
-        "espn_id": "20301",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20301.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Mjällby AIF",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/swedish-allsvenskan-2026-10-29-1800-orgryte-is-mjallby-aif.png"
-    },
-    {
-      "event_id": "copa-del-rey-2026-10-29-1830-cieza-granada",
-      "competition": {
-        "id": "copa-del-rey",
-        "name": "Spanish Copa del Rey",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-10-29",
-      "match_date": "2026-10-29",
-      "match_date_utc": "2026-10-29",
-      "match_date_pkt": "2026-10-29",
-      "start_time_utc": "2026-10-29T18:30:00Z",
-      "start_time_pkt": "2026-10-29T23:30:00+05:00",
-      "start_timestamp": 1793298600,
-      "display_date": "2026-10-29",
-      "display_time": "11:30 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Cieza",
-        "slug": "cieza",
-        "espn_id": "131466",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/cieza.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Granada",
-        "slug": "granada",
-        "espn_id": "3747",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3747.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Granada",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
-      },
-      "last_updated": "2026-10-29T09:57:44.350286+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-10-29-1830-cieza-granada.png"
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-10-30-1800-al-shabab-al-ahli.png"
     }
   ]
 }

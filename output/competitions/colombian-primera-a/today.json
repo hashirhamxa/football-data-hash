@@ -7,10 +7,119 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-29T09:59:58.401966+00:00",
+  "generated_at": "2026-10-29T23:06:55.007325+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-10-29",
-  "target_day_name": "Thursday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-10-30",
+  "target_day_name": "Friday",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "colombian-primera-a-2026-10-29-2330-america-de-cali-fortaleza-ceif",
+      "competition": {
+        "id": "colombian-primera-a",
+        "name": "Colombian Primera A",
+        "country": "Colombia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-29",
+      "match_date": "2026-10-29",
+      "match_date_utc": "2026-10-29",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-29T23:30:00Z",
+      "start_time_pkt": "2026-10-30T04:30:00+05:00",
+      "start_timestamp": 1793316600,
+      "display_date": "2026-10-30",
+      "display_time": "04:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "América de Cali",
+        "slug": "america-de-cali",
+        "espn_id": "8109",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "América de Cali",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Fortaleza CEIF",
+        "slug": "fortaleza-ceif",
+        "espn_id": "4928",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4928.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Fortaleza CEIF",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/scoreboard"
+      },
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/colombian-primera-a-2026-10-29-2330-america-de-cali-fortaleza-ceif.png"
+    },
+    {
+      "event_id": "colombian-primera-a-2026-10-30-0130-atletico-nacional-independiente-santa-fe",
+      "competition": {
+        "id": "colombian-primera-a",
+        "name": "Colombian Primera A",
+        "country": "Colombia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-10-30",
+      "match_date": "2026-10-30",
+      "match_date_utc": "2026-10-30",
+      "match_date_pkt": "2026-10-30",
+      "start_time_utc": "2026-10-30T01:30:00Z",
+      "start_time_pkt": "2026-10-30T06:30:00+05:00",
+      "start_timestamp": 1793323800,
+      "display_date": "2026-10-30",
+      "display_time": "06:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Atlético Nacional",
+        "slug": "atletico-nacional",
+        "espn_id": "5264",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Atlético Nacional",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Independiente Santa Fe",
+        "slug": "independiente-santa-fe",
+        "espn_id": "5488",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Independiente Santa Fe",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/scoreboard"
+      },
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/colombian-primera-a-2026-10-30-0130-atletico-nacional-independiente-santa-fe.png"
+    }
+  ]
 }

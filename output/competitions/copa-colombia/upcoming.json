@@ -7,8 +7,63 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-29T09:59:58.403472+00:00",
+  "generated_at": "2026-10-29T23:06:55.009228+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 0,
-  "events": []
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "copa-colombia-2026-11-02-0115-independiente-santa-fe-once-caldas",
+      "competition": {
+        "id": "copa-colombia",
+        "name": "Copa Colombia",
+        "country": "Colombia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2332.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-02",
+      "match_date": "2026-11-02",
+      "match_date_utc": "2026-11-02",
+      "match_date_pkt": "2026-11-02",
+      "start_time_utc": "2026-11-02T01:15:00Z",
+      "start_time_pkt": "2026-11-02T06:15:00+05:00",
+      "start_timestamp": 1793582100,
+      "display_date": "2026-11-02",
+      "display_time": "06:15 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Independiente Santa Fe",
+        "slug": "independiente-santa-fe",
+        "espn_id": "5488",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Independiente Santa Fe",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Once Caldas",
+        "slug": "once-caldas",
+        "espn_id": "2919",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2919.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Once Caldas",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.copa/scoreboard"
+      },
+      "last_updated": "2026-10-29T23:04:35.223805+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-colombia-2026-11-02-0115-independiente-santa-fe-once-caldas.png"
+    }
+  ]
 }

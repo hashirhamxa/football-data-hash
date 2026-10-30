@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-29T23:06:55.014380+00:00",
+  "generated_at": "2026-10-30T22:47:58.405513+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-10-31",
-  "target_day_name": "Saturday",
-  "total_events": 3,
+  "target_date_pkt": "2026-11-01",
+  "target_day_name": "Sunday",
+  "total_events": 4,
   "events": [
     {
-      "event_id": "russian-premier-league-2026-10-31-1215-rubin-kazan-fakel-voronezh",
+      "event_id": "russian-premier-league-2026-11-01-1000-gazovik-orenburg-cska-moscow",
       "competition": {
         "id": "russian-premier-league",
         "name": "Russian Premier League",
@@ -24,38 +24,92 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/106.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-31",
-      "match_date": "2026-10-31",
-      "match_date_utc": "2026-10-31",
-      "match_date_pkt": "2026-10-31",
-      "start_time_utc": "2026-10-31T12:15:00Z",
-      "start_time_pkt": "2026-10-31T17:15:00+05:00",
-      "start_timestamp": 1793448900,
-      "display_date": "2026-10-31",
+      "source_date": "2026-11-01",
+      "match_date": "2026-11-01",
+      "match_date_utc": "2026-11-01",
+      "match_date_pkt": "2026-11-01",
+      "start_time_utc": "2026-11-01T10:00:00Z",
+      "start_time_pkt": "2026-11-01T15:00:00+05:00",
+      "start_timestamp": 1793527200,
+      "display_date": "2026-11-01",
+      "display_time": "03:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Gazovik Orenburg",
+        "slug": "gazovik-orenburg",
+        "espn_id": "18285",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/18285.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Gazovik Orenburg",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "CSKA Moscow",
+        "slug": "cska-moscow",
+        "espn_id": "1963",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1963.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "CSKA Moscow",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
+      },
+      "last_updated": "2026-10-30T22:45:38.271293+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-01-1000-gazovik-orenburg-cska-moscow.png"
+    },
+    {
+      "event_id": "russian-premier-league-2026-11-01-1215-dynamo-makhachkala-rostov",
+      "competition": {
+        "id": "russian-premier-league",
+        "name": "Russian Premier League",
+        "country": "Russia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/106.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-01",
+      "match_date": "2026-11-01",
+      "match_date_utc": "2026-11-01",
+      "match_date_pkt": "2026-11-01",
+      "start_time_utc": "2026-11-01T12:15:00Z",
+      "start_time_pkt": "2026-11-01T17:15:00+05:00",
+      "start_timestamp": 1793535300,
+      "display_date": "2026-11-01",
       "display_time": "05:15 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Rubin Kazan",
-        "slug": "rubin-kazan",
-        "espn_id": "3851",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3851.png",
+        "name": "Dynamo Makhachkala",
+        "slug": "dynamo-makhachkala",
+        "espn_id": "22300",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22300.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Rubin Kazan",
+          "matched_name": "Dynamo Makhachkala",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Fakel Voronezh",
-        "slug": "fakel-voronezh",
-        "espn_id": "21539",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21539.png",
+        "name": "Rostov",
+        "slug": "rostov",
+        "espn_id": "3852",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3852.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Fakel Voronezh",
+          "matched_name": "Rostov",
           "is_fallback": false
         }
       },
@@ -64,11 +118,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
       },
-      "last_updated": "2026-10-29T23:04:35.223805+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-10-31-1215-rubin-kazan-fakel-voronezh.png"
+      "last_updated": "2026-10-30T22:45:38.271293+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-01-1215-dynamo-makhachkala-rostov.png"
     },
     {
-      "event_id": "russian-premier-league-2026-10-31-1430-dinamo-moscow-akhmat-grozny",
+      "event_id": "russian-premier-league-2026-11-01-1430-fc-baltika-kaliningrad-akron-tolyatti",
       "competition": {
         "id": "russian-premier-league",
         "name": "Russian Premier League",
@@ -78,38 +132,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/106.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-31",
-      "match_date": "2026-10-31",
-      "match_date_utc": "2026-10-31",
-      "match_date_pkt": "2026-10-31",
-      "start_time_utc": "2026-10-31T14:30:00Z",
-      "start_time_pkt": "2026-10-31T19:30:00+05:00",
-      "start_timestamp": 1793457000,
-      "display_date": "2026-10-31",
+      "source_date": "2026-11-01",
+      "match_date": "2026-11-01",
+      "match_date_utc": "2026-11-01",
+      "match_date_pkt": "2026-11-01",
+      "start_time_utc": "2026-11-01T14:30:00Z",
+      "start_time_pkt": "2026-11-01T19:30:00+05:00",
+      "start_timestamp": 1793543400,
+      "display_date": "2026-11-01",
       "display_time": "07:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Dinamo Moscow",
-        "slug": "dinamo-moscow",
-        "espn_id": "596",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/596.png",
+        "name": "FC Baltika Kaliningrad",
+        "slug": "fc-baltika-kaliningrad",
+        "espn_id": "21949",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21949.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Dinamo Moscow",
+          "matched_name": "FC Baltika Kaliningrad",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Akhmat Grozny",
-        "slug": "akhmat-grozny",
-        "espn_id": "2991",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2991.png",
+        "name": "Akron Tolyatti",
+        "slug": "akron-tolyatti",
+        "espn_id": "22271",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22271.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Akhmat Grozny",
+          "matched_name": "Akron Tolyatti",
           "is_fallback": false
         }
       },
@@ -118,11 +172,11 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
       },
-      "last_updated": "2026-10-29T23:04:35.223805+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-10-31-1430-dinamo-moscow-akhmat-grozny.png"
+      "last_updated": "2026-10-30T22:45:38.271293+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-01-1430-fc-baltika-kaliningrad-akron-tolyatti.png"
     },
     {
-      "event_id": "russian-premier-league-2026-10-31-1645-rodina-moscow-krasnodar",
+      "event_id": "russian-premier-league-2026-11-01-1645-lokomotiv-moscow-spartak-moscow",
       "competition": {
         "id": "russian-premier-league",
         "name": "Russian Premier League",
@@ -132,38 +186,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/106.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-10-31",
-      "match_date": "2026-10-31",
-      "match_date_utc": "2026-10-31",
-      "match_date_pkt": "2026-10-31",
-      "start_time_utc": "2026-10-31T16:45:00Z",
-      "start_time_pkt": "2026-10-31T21:45:00+05:00",
-      "start_timestamp": 1793465100,
-      "display_date": "2026-10-31",
+      "source_date": "2026-11-01",
+      "match_date": "2026-11-01",
+      "match_date_utc": "2026-11-01",
+      "match_date_pkt": "2026-11-01",
+      "start_time_utc": "2026-11-01T16:45:00Z",
+      "start_time_pkt": "2026-11-01T21:45:00+05:00",
+      "start_timestamp": 1793551500,
+      "display_date": "2026-11-01",
       "display_time": "09:45 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Rodina Moscow",
-        "slug": "rodina-moscow",
-        "espn_id": "21927",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21927.png",
+        "name": "Lokomotiv Moscow",
+        "slug": "lokomotiv-moscow",
+        "espn_id": "442",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/442.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Rodina Moscow",
+          "matched_name": "Lokomotiv Moscow",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Krasnodar",
-        "slug": "krasnodar",
-        "espn_id": "11336",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11336.png",
+        "name": "Spartak Moscow",
+        "slug": "spartak-moscow",
+        "espn_id": "1941",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1941.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Krasnodar",
+          "matched_name": "Spartak Moscow",
           "is_fallback": false
         }
       },
@@ -172,8 +226,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
       },
-      "last_updated": "2026-10-29T23:04:35.223805+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-10-31-1645-rodina-moscow-krasnodar.png"
+      "last_updated": "2026-10-30T22:45:38.271293+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-01-1645-lokomotiv-moscow-spartak-moscow.png"
     }
   ]
 }

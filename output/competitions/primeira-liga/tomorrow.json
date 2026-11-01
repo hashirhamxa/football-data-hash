@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-31T22:09:06.797982+00:00",
+  "generated_at": "2026-11-01T22:35:20.635825+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-11-02",
-  "target_day_name": "Monday",
-  "total_events": 1,
+  "target_date_pkt": "2026-11-03",
+  "target_day_name": "Tuesday",
+  "total_events": 2,
   "events": [
     {
-      "event_id": "primeira-liga-2026-11-01-2030-braga-fc-famalicao",
+      "event_id": "primeira-liga-2026-11-02-2015-benfica-alverca",
       "competition": {
         "id": "primeira-liga",
         "name": "Portuguese Primeira Liga",
@@ -24,38 +24,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-01",
-      "match_date": "2026-11-01",
-      "match_date_utc": "2026-11-01",
-      "match_date_pkt": "2026-11-02",
-      "start_time_utc": "2026-11-01T20:30:00Z",
-      "start_time_pkt": "2026-11-02T01:30:00+05:00",
-      "start_timestamp": 1793565000,
-      "display_date": "2026-11-02",
-      "display_time": "01:30 AM",
+      "source_date": "2026-11-02",
+      "match_date": "2026-11-02",
+      "match_date_utc": "2026-11-02",
+      "match_date_pkt": "2026-11-03",
+      "start_time_utc": "2026-11-02T20:15:00Z",
+      "start_time_pkt": "2026-11-03T01:15:00+05:00",
+      "start_timestamp": 1793650500,
+      "display_date": "2026-11-03",
+      "display_time": "01:15 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Braga",
-        "slug": "braga",
-        "espn_id": "2994",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
+        "name": "Benfica",
+        "slug": "benfica",
+        "espn_id": "1929",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Braga",
+          "matched_name": "Benfica",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "FC Famalicao",
-        "slug": "fc-famalicao",
-        "espn_id": "12698",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/12698.png",
+        "name": "Alverca",
+        "slug": "alverca",
+        "espn_id": "21613",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21613.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "FC Famalicao",
+          "matched_name": "Alverca",
           "is_fallback": false
         }
       },
@@ -64,8 +64,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard"
       },
-      "last_updated": "2026-10-31T22:06:48.395484+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-11-01-2030-braga-fc-famalicao.png"
+      "last_updated": "2026-11-01T22:33:28.246110+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-11-02-2015-benfica-alverca.png"
+    },
+    {
+      "event_id": "primeira-liga-2026-11-02-2015-gil-vicente-vitoria-de-guimaraes",
+      "competition": {
+        "id": "primeira-liga",
+        "name": "Portuguese Primeira Liga",
+        "country": "Portugal",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-02",
+      "match_date": "2026-11-02",
+      "match_date_utc": "2026-11-02",
+      "match_date_pkt": "2026-11-03",
+      "start_time_utc": "2026-11-02T20:15:00Z",
+      "start_time_pkt": "2026-11-03T01:15:00+05:00",
+      "start_timestamp": 1793650500,
+      "display_date": "2026-11-03",
+      "display_time": "01:15 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Gil Vicente",
+        "slug": "gil-vicente",
+        "espn_id": "3699",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3699.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Gil Vicente",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Vitória de Guimaraes",
+        "slug": "vitoria-de-guimaraes",
+        "espn_id": "5309",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5309.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Vitória de Guimaraes",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard"
+      },
+      "last_updated": "2026-11-01T22:33:28.246110+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/primeira-liga-2026-11-02-2015-gil-vicente-vitoria-de-guimaraes.png"
     }
   ]
 }

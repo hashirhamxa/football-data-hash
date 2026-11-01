@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-31T22:09:06.808894+00:00",
+  "generated_at": "2026-11-01T22:35:20.640333+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-01",
-  "target_day_name": "Sunday",
-  "total_events": 4,
+  "target_date_pkt": "2026-11-02",
+  "target_day_name": "Monday",
+  "total_events": 1,
   "events": [
     {
-      "event_id": "russian-premier-league-2026-11-01-1000-gazovik-orenburg-cska-moscow",
+      "event_id": "russian-premier-league-2026-11-02-1500-krylia-sovetov-zenit-st-petersburg",
       "competition": {
         "id": "russian-premier-league",
         "name": "Russian Premier League",
@@ -24,38 +24,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/106.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-01",
-      "match_date": "2026-11-01",
-      "match_date_utc": "2026-11-01",
-      "match_date_pkt": "2026-11-01",
-      "start_time_utc": "2026-11-01T10:00:00Z",
-      "start_time_pkt": "2026-11-01T15:00:00+05:00",
-      "start_timestamp": 1793527200,
-      "display_date": "2026-11-01",
-      "display_time": "03:00 PM",
+      "source_date": "2026-11-02",
+      "match_date": "2026-11-02",
+      "match_date_utc": "2026-11-02",
+      "match_date_pkt": "2026-11-02",
+      "start_time_utc": "2026-11-02T15:00:00Z",
+      "start_time_pkt": "2026-11-02T20:00:00+05:00",
+      "start_timestamp": 1793631600,
+      "display_date": "2026-11-02",
+      "display_time": "08:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Gazovik Orenburg",
-        "slug": "gazovik-orenburg",
-        "espn_id": "18285",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/18285.png",
+        "name": "Krylia Sovetov",
+        "slug": "krylia-sovetov",
+        "espn_id": "3850",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3850.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Gazovik Orenburg",
+          "matched_name": "Krylia Sovetov",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "CSKA Moscow",
-        "slug": "cska-moscow",
-        "espn_id": "1963",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1963.png",
+        "name": "Zenit St Petersburg",
+        "slug": "zenit-st-petersburg",
+        "espn_id": "2533",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2533.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "CSKA Moscow",
+          "matched_name": "Zenit St Petersburg",
           "is_fallback": false
         }
       },
@@ -64,170 +64,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
       },
-      "last_updated": "2026-10-31T22:06:48.395484+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-01-1000-gazovik-orenburg-cska-moscow.png"
-    },
-    {
-      "event_id": "russian-premier-league-2026-11-01-1215-dynamo-makhachkala-rostov",
-      "competition": {
-        "id": "russian-premier-league",
-        "name": "Russian Premier League",
-        "country": "Russia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/106.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-01",
-      "match_date": "2026-11-01",
-      "match_date_utc": "2026-11-01",
-      "match_date_pkt": "2026-11-01",
-      "start_time_utc": "2026-11-01T12:15:00Z",
-      "start_time_pkt": "2026-11-01T17:15:00+05:00",
-      "start_timestamp": 1793535300,
-      "display_date": "2026-11-01",
-      "display_time": "05:15 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Dynamo Makhachkala",
-        "slug": "dynamo-makhachkala",
-        "espn_id": "22300",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22300.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Dynamo Makhachkala",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Rostov",
-        "slug": "rostov",
-        "espn_id": "3852",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3852.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Rostov",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
-      },
-      "last_updated": "2026-10-31T22:06:48.395484+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-01-1215-dynamo-makhachkala-rostov.png"
-    },
-    {
-      "event_id": "russian-premier-league-2026-11-01-1430-fc-baltika-kaliningrad-akron-tolyatti",
-      "competition": {
-        "id": "russian-premier-league",
-        "name": "Russian Premier League",
-        "country": "Russia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/106.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-01",
-      "match_date": "2026-11-01",
-      "match_date_utc": "2026-11-01",
-      "match_date_pkt": "2026-11-01",
-      "start_time_utc": "2026-11-01T14:30:00Z",
-      "start_time_pkt": "2026-11-01T19:30:00+05:00",
-      "start_timestamp": 1793543400,
-      "display_date": "2026-11-01",
-      "display_time": "07:30 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "FC Baltika Kaliningrad",
-        "slug": "fc-baltika-kaliningrad",
-        "espn_id": "21949",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21949.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "FC Baltika Kaliningrad",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Akron Tolyatti",
-        "slug": "akron-tolyatti",
-        "espn_id": "22271",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22271.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Akron Tolyatti",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
-      },
-      "last_updated": "2026-10-31T22:06:48.395484+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-01-1430-fc-baltika-kaliningrad-akron-tolyatti.png"
-    },
-    {
-      "event_id": "russian-premier-league-2026-11-01-1645-lokomotiv-moscow-spartak-moscow",
-      "competition": {
-        "id": "russian-premier-league",
-        "name": "Russian Premier League",
-        "country": "Russia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/106.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-01",
-      "match_date": "2026-11-01",
-      "match_date_utc": "2026-11-01",
-      "match_date_pkt": "2026-11-01",
-      "start_time_utc": "2026-11-01T16:45:00Z",
-      "start_time_pkt": "2026-11-01T21:45:00+05:00",
-      "start_timestamp": 1793551500,
-      "display_date": "2026-11-01",
-      "display_time": "09:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Lokomotiv Moscow",
-        "slug": "lokomotiv-moscow",
-        "espn_id": "442",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/442.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Lokomotiv Moscow",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Spartak Moscow",
-        "slug": "spartak-moscow",
-        "espn_id": "1941",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1941.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Spartak Moscow",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
-      },
-      "last_updated": "2026-10-31T22:06:48.395484+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-01-1645-lokomotiv-moscow-spartak-moscow.png"
+      "last_updated": "2026-11-01T22:33:28.246110+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-02-1500-krylia-sovetov-zenit-st-petersburg.png"
     }
   ]
 }

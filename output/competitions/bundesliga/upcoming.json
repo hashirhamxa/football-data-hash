@@ -7,12 +7,12 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-31T22:09:06.767086+00:00",
+  "generated_at": "2026-11-01T22:35:20.621415+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 2,
+  "total_events": 5,
   "events": [
     {
-      "event_id": "bundesliga-2026-11-01-1430-1-fc-union-berlin-fc-cologne",
+      "event_id": "bundesliga-2026-11-06-1930-hamburg-sv-borussia-monchengladbach",
       "competition": {
         "id": "bundesliga",
         "name": "German Bundesliga",
@@ -22,84 +22,18 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-01",
-      "match_date": "2026-11-01",
-      "match_date_utc": "2026-11-01",
-      "match_date_pkt": "2026-11-01",
-      "start_time_utc": "2026-11-01T14:30:00Z",
-      "start_time_pkt": "2026-11-01T19:30:00+05:00",
-      "start_timestamp": 1793543400,
-      "display_date": "2026-11-01",
-      "display_time": "07:30 PM",
+      "source_date": "2026-11-06",
+      "match_date": "2026-11-06",
+      "match_date_utc": "2026-11-06",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-06T19:30:00Z",
+      "start_time_pkt": "2026-11-07T00:30:00+05:00",
+      "start_timestamp": 1793993400,
+      "display_date": "2026-11-07",
+      "display_time": "12:30 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "1. FC Union Berlin",
-        "slug": "1-fc-union-berlin",
-        "espn_id": "598",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "1. FC Union Berlin",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "FC Cologne",
-        "slug": "fc-cologne",
-        "espn_id": "122",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "FC Cologne",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
-      },
-      "last_updated": "2026-10-31T22:06:48.395484+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-01-1430-1-fc-union-berlin-fc-cologne.png"
-    },
-    {
-      "event_id": "bundesliga-2026-11-01-1630-eintracht-frankfurt-hamburg-sv",
-      "competition": {
-        "id": "bundesliga",
-        "name": "German Bundesliga",
-        "country": "Germany",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-01",
-      "match_date": "2026-11-01",
-      "match_date_utc": "2026-11-01",
-      "match_date_pkt": "2026-11-01",
-      "start_time_utc": "2026-11-01T16:30:00Z",
-      "start_time_pkt": "2026-11-01T21:30:00+05:00",
-      "start_timestamp": 1793550600,
-      "display_date": "2026-11-01",
-      "display_time": "09:30 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Eintracht Frankfurt",
-        "slug": "eintracht-frankfurt",
-        "espn_id": "125",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Eintracht Frankfurt",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
         "name": "Hamburg SV",
         "slug": "hamburg-sv",
         "espn_id": "127",
@@ -111,13 +45,241 @@
           "is_fallback": false
         }
       },
+      "away_team": {
+        "name": "Borussia Mönchengladbach",
+        "slug": "borussia-monchengladbach",
+        "espn_id": "268",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Borussia Mönchengladbach",
+          "is_fallback": false
+        }
+      },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
       },
-      "last_updated": "2026-10-31T22:06:48.395484+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-01-1630-eintracht-frankfurt-hamburg-sv.png"
+      "last_updated": "2026-11-01T22:33:28.246110+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-06-1930-hamburg-sv-borussia-monchengladbach.png"
+    },
+    {
+      "event_id": "bundesliga-2026-11-07-1430-borussia-dortmund-sv-elversberg",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T14:30:00Z",
+      "start_time_pkt": "2026-11-07T19:30:00+05:00",
+      "start_timestamp": 1794061800,
+      "display_date": "2026-11-07",
+      "display_time": "07:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Borussia Dortmund",
+        "slug": "borussia-dortmund",
+        "espn_id": "124",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Borussia Dortmund",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "SV Elversberg",
+        "slug": "sv-elversberg",
+        "espn_id": "10388",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "SV Elversberg",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
+      },
+      "last_updated": "2026-11-01T22:33:28.246110+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-07-1430-borussia-dortmund-sv-elversberg.png"
+    },
+    {
+      "event_id": "bundesliga-2026-11-07-1430-mainz-bayern-munich",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T14:30:00Z",
+      "start_time_pkt": "2026-11-07T19:30:00+05:00",
+      "start_timestamp": 1794061800,
+      "display_date": "2026-11-07",
+      "display_time": "07:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Mainz",
+        "slug": "mainz",
+        "espn_id": "2950",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Mainz",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Bayern Munich",
+        "slug": "bayern-munich",
+        "espn_id": "132",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Bayern Munich",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
+      },
+      "last_updated": "2026-11-01T22:33:28.246110+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-07-1430-mainz-bayern-munich.png"
+    },
+    {
+      "event_id": "bundesliga-2026-11-07-1430-rb-leipzig-fc-augsburg",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T14:30:00Z",
+      "start_time_pkt": "2026-11-07T19:30:00+05:00",
+      "start_timestamp": 1794061800,
+      "display_date": "2026-11-07",
+      "display_time": "07:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "RB Leipzig",
+        "slug": "rb-leipzig",
+        "espn_id": "11420",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "RB Leipzig",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "FC Augsburg",
+        "slug": "fc-augsburg",
+        "espn_id": "3841",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "FC Augsburg",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
+      },
+      "last_updated": "2026-11-01T22:33:28.246110+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-07-1430-rb-leipzig-fc-augsburg.png"
+    },
+    {
+      "event_id": "bundesliga-2026-11-07-1430-sc-paderborn-07-eintracht-frankfurt",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T14:30:00Z",
+      "start_time_pkt": "2026-11-07T19:30:00+05:00",
+      "start_timestamp": 1794061800,
+      "display_date": "2026-11-07",
+      "display_time": "07:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "SC Paderborn 07",
+        "slug": "sc-paderborn-07",
+        "espn_id": "3307",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "SC Paderborn 07",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Eintracht Frankfurt",
+        "slug": "eintracht-frankfurt",
+        "espn_id": "125",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Eintracht Frankfurt",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard"
+      },
+      "last_updated": "2026-11-01T22:33:28.246110+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-07-1430-sc-paderborn-07-eintracht-frankfurt.png"
     }
   ]
 }

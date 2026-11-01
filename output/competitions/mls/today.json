@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-10-31T22:09:06.776173+00:00",
+  "generated_at": "2026-11-01T22:35:20.625838+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-01",
-  "target_day_name": "Sunday",
-  "total_events": 1,
+  "target_date_pkt": "2026-11-02",
+  "target_day_name": "Monday",
+  "total_events": 3,
   "events": [
     {
-      "event_id": "mls-2026-11-01-0130-colorado-rapids-chicago-fire-fc",
+      "event_id": "mls-2026-11-02-0000-new-england-revolution-inter-miami-cf",
       "competition": {
         "id": "mls",
         "name": "Major League Soccer",
@@ -24,38 +24,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-01",
-      "match_date": "2026-11-01",
-      "match_date_utc": "2026-11-01",
-      "match_date_pkt": "2026-11-01",
-      "start_time_utc": "2026-11-01T01:30:00Z",
-      "start_time_pkt": "2026-11-01T06:30:00+05:00",
-      "start_timestamp": 1793496600,
-      "display_date": "2026-11-01",
-      "display_time": "06:30 AM",
+      "source_date": "2026-11-02",
+      "match_date": "2026-11-02",
+      "match_date_utc": "2026-11-02",
+      "match_date_pkt": "2026-11-02",
+      "start_time_utc": "2026-11-02T00:00:00Z",
+      "start_time_pkt": "2026-11-02T05:00:00+05:00",
+      "start_timestamp": 1793577600,
+      "display_date": "2026-11-02",
+      "display_time": "05:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Colorado Rapids",
-        "slug": "colorado-rapids",
-        "espn_id": "184",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/184.png",
+        "name": "New England Revolution",
+        "slug": "new-england-revolution",
+        "espn_id": "189",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Colorado Rapids",
+          "matched_name": "New England Revolution",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Chicago Fire FC",
-        "slug": "chicago-fire-fc",
-        "espn_id": "182",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+        "name": "Inter Miami CF",
+        "slug": "inter-miami-cf",
+        "espn_id": "20232",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Chicago Fire FC",
+          "matched_name": "Inter Miami CF",
           "is_fallback": false
         }
       },
@@ -64,8 +64,116 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
       },
-      "last_updated": "2026-10-31T22:06:48.395484+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-11-01-0130-colorado-rapids-chicago-fire-fc.png"
+      "last_updated": "2026-11-01T22:33:28.246110+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-11-02-0000-new-england-revolution-inter-miami-cf.png"
+    },
+    {
+      "event_id": "mls-2026-11-02-0130-lafc-minnesota-united-fc",
+      "competition": {
+        "id": "mls",
+        "name": "Major League Soccer",
+        "country": "United States",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-02",
+      "match_date": "2026-11-02",
+      "match_date_utc": "2026-11-02",
+      "match_date_pkt": "2026-11-02",
+      "start_time_utc": "2026-11-02T01:30:00Z",
+      "start_time_pkt": "2026-11-02T06:30:00+05:00",
+      "start_timestamp": 1793583000,
+      "display_date": "2026-11-02",
+      "display_time": "06:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "LAFC",
+        "slug": "lafc",
+        "espn_id": "18966",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "LAFC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Minnesota United FC",
+        "slug": "minnesota-united-fc",
+        "espn_id": "17362",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Minnesota United FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
+      },
+      "last_updated": "2026-11-01T22:33:28.246110+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-11-02-0130-lafc-minnesota-united-fc.png"
+    },
+    {
+      "event_id": "mls-2026-11-02-0245-portland-timbers-houston-dynamo-fc",
+      "competition": {
+        "id": "mls",
+        "name": "Major League Soccer",
+        "country": "United States",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-02",
+      "match_date": "2026-11-02",
+      "match_date_utc": "2026-11-02",
+      "match_date_pkt": "2026-11-02",
+      "start_time_utc": "2026-11-02T02:45:00Z",
+      "start_time_pkt": "2026-11-02T07:45:00+05:00",
+      "start_timestamp": 1793587500,
+      "display_date": "2026-11-02",
+      "display_time": "07:45 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Portland Timbers",
+        "slug": "portland-timbers",
+        "espn_id": "9723",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Portland Timbers",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Houston Dynamo FC",
+        "slug": "houston-dynamo-fc",
+        "espn_id": "6077",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Houston Dynamo FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
+      },
+      "last_updated": "2026-11-01T22:33:28.246110+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-11-02-0245-portland-timbers-houston-dynamo-fc.png"
     }
   ]
 }

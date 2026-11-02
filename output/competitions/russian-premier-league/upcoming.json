@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-01T22:35:20.640333+00:00",
+  "generated_at": "2026-11-02T07:03:45.108645+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 4,
+  "total_events": 5,
   "events": [
     {
       "event_id": "russian-premier-league-2026-11-02-1500-krylia-sovetov-zenit-st-petersburg",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
       },
-      "last_updated": "2026-11-01T22:33:28.246110+00:00",
+      "last_updated": "2026-11-02T06:58:13.446750+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-02-1500-krylia-sovetov-zenit-st-petersburg.png"
     },
     {
@@ -116,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
       },
-      "last_updated": "2026-11-01T22:33:28.246110+00:00",
+      "last_updated": "2026-11-02T06:58:13.446750+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-06-1630-lokomotiv-moscow-rubin-kazan.png"
     },
     {
@@ -170,7 +170,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
       },
-      "last_updated": "2026-11-01T22:33:28.246110+00:00",
+      "last_updated": "2026-11-02T06:58:13.446750+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-07-1100-fakel-voronezh-dinamo-moscow.png"
     },
     {
@@ -224,8 +224,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
       },
-      "last_updated": "2026-11-01T22:33:28.246110+00:00",
+      "last_updated": "2026-11-02T06:58:13.446750+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-07-1330-akhmat-grozny-rodina-moscow.png"
+    },
+    {
+      "event_id": "russian-premier-league-2026-11-07-1630-krasnodar-cska-moscow",
+      "competition": {
+        "id": "russian-premier-league",
+        "name": "Russian Premier League",
+        "country": "Russia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/106.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T16:30:00Z",
+      "start_time_pkt": "2026-11-07T21:30:00+05:00",
+      "start_timestamp": 1794069000,
+      "display_date": "2026-11-07",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Krasnodar",
+        "slug": "krasnodar",
+        "espn_id": "11336",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11336.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Krasnodar",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "CSKA Moscow",
+        "slug": "cska-moscow",
+        "espn_id": "1963",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1963.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "CSKA Moscow",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard"
+      },
+      "last_updated": "2026-11-02T06:58:13.446750+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-07-1630-krasnodar-cska-moscow.png"
     }
   ]
 }

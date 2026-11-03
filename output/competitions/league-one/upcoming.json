@@ -7,20 +7,20 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-03T15:52:20.662186+00:00",
+  "generated_at": "2026-11-03T19:17:14.243086+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 3,
+  "total_events": 2,
   "events": [
     {
       "event_id": "league-one-2026-11-03-1945-huddersfield-town-luton-town",
-      "event_name": "Luton Town at Huddersfield Town",
+      "event_name": "Huddersfield Town vs Luton Town",
       "competition": {
         "id": "league-one",
-        "name": "English League One",
+        "name": "League One",
         "country": "England",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/25.png"
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/24/image/dark"
       },
       "round": "Regular Fixture",
       "source_date": "2026-11-03",
@@ -37,8 +37,8 @@
       "home_team": {
         "name": "Huddersfield Town",
         "slug": "huddersfield-town",
-        "espn_id": "335",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/335.png",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/59/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
@@ -49,8 +49,8 @@
       "away_team": {
         "name": "Luton Town",
         "slug": "luton-town",
-        "espn_id": "301",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/301.png",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/72/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
@@ -59,24 +59,25 @@
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "LiveBroadcast",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/scoreboard",
-        "priority_applied": false
+        "source_url": null,
+        "priority_applied": true
       },
-      "last_updated": "2026-11-03T15:50:29.655573+00:00",
+      "last_updated": "2026-11-03T19:15:55.754977+00:00",
+      "stream_links": "pro/TGVhZ3VlIE9uZS1IdWRkZXJzZmllbGQgVG93bi12cy1MdXRvbiBUb3duMTc5MzY3NzYyMjk4Ng.txt",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/league-one-2026-11-03-1945-huddersfield-town-luton-town.png"
     },
     {
       "event_id": "league-one-2026-11-03-1945-wigan-athletic-mansfield-town",
-      "event_name": "Mansfield Town at Wigan Athletic",
+      "event_name": "Wigan Athletic vs Mansfield Town",
       "competition": {
         "id": "league-one",
-        "name": "English League One",
+        "name": "League One",
         "country": "England",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/25.png"
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/24/image/dark"
       },
       "round": "Regular Fixture",
       "source_date": "2026-11-03",
@@ -93,8 +94,8 @@
       "home_team": {
         "name": "Wigan Athletic",
         "slug": "wigan-athletic",
-        "espn_id": "350",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/350.png",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/49/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
@@ -105,8 +106,8 @@
       "away_team": {
         "name": "Mansfield Town",
         "slug": "mansfield-town",
-        "espn_id": "304",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/304.png",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/70/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
@@ -115,69 +116,14 @@
         }
       },
       "data_source": {
-        "provider": "ESPN",
+        "provider": "LiveBroadcast",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/scoreboard",
-        "priority_applied": false
+        "source_url": null,
+        "priority_applied": true
       },
-      "last_updated": "2026-11-03T15:50:29.655573+00:00",
+      "last_updated": "2026-11-03T19:15:55.754977+00:00",
+      "stream_links": "pro/TGVhZ3VlIE9uZS1XaWdhbiBBdGhsZXRpYy12cy1NYW5zZmllbGQgVG93bjE3OTM2Nzc2MjI5ODY.txt",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/league-one-2026-11-03-1945-wigan-athletic-mansfield-town.png"
-    },
-    {
-      "event_id": "league-one-2026-11-04-1945-oxford-united-reading",
-      "event_name": "Reading at Oxford United",
-      "competition": {
-        "id": "league-one",
-        "name": "English League One",
-        "country": "England",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/25.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-04",
-      "match_date": "2026-11-04",
-      "match_date_utc": "2026-11-04",
-      "match_date_pkt": "2026-11-05",
-      "start_time_utc": "2026-11-04T19:45:00Z",
-      "start_time_pkt": "2026-11-05T00:45:00+05:00",
-      "start_timestamp": 1793821500,
-      "display_date": "2026-11-05",
-      "display_time": "12:45 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Oxford United",
-        "slug": "oxford-united",
-        "espn_id": "311",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/311.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Oxford United",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Reading",
-        "slug": "reading",
-        "espn_id": "338",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/338.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Reading",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/scoreboard",
-        "priority_applied": false
-      },
-      "last_updated": "2026-11-03T15:50:29.655573+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/league-one-2026-11-04-1945-oxford-united-reading.png"
     }
   ]
 }

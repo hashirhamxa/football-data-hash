@@ -51,8 +51,9 @@ def run_pipeline():
 
     date_range_days = settings.get("date_range_days", 30)
     target_tz = settings.get("target_timezone", "Asia/Karachi")
-    repo_slug = os.environ.get("GITHUB_REPOSITORY", settings.get("github_repo", "hashirhamxa/football-data-hash"))
-    branch = os.environ.get("GITHUB_REF_NAME", settings.get("github_branch", "main"))
+    # Public data CDN repo (keeps image URLs working when pipeline runs in a private repo)
+    repo_slug = os.environ.get("PUBLIC_DATA_REPO") or settings.get("github_repo") or os.environ.get("GITHUB_REPOSITORY", "hashirhamxa/football-data-hash")
+    branch = os.environ.get("PUBLIC_DATA_BRANCH") or settings.get("github_branch") or os.environ.get("GITHUB_REF_NAME", "main")
     raw_base_url = f"https://raw.githubusercontent.com/{repo_slug}/{branch}"
 
     # 1. Fetch fixtures via multi-source adapter

@@ -641,6 +641,25 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
+    # English EFL Trophy: Vibrant English EFL Trophy colors
+    "efl-trophy": CompetitionTheme(
+        competition_id="efl-trophy",
+        name="English EFL Trophy",
+        background_top=(16, 20, 36),
+        background_bottom=(10, 14, 26),
+        primary=(0, 168, 142),
+        secondary=(235, 30, 45),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 220, 240),
+        panel_color=(20, 26, 44, 230),
+        panel_border=(0, 168, 142, 190),
+        pattern="speed_angles",
+        center_style="modern_pillar",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
     # 32. AFC Champions League Elite: Imperial gold & deep midnight indigo
     "afc-champions-league-elite": CompetitionTheme(
         competition_id="afc-champions-league-elite",

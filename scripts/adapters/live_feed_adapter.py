@@ -27,9 +27,12 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 logger = logging.getLogger("live_feed_adapter")
 
 # Secure broadcast feed endpoint and protocol keys
-DEFAULT_API_HOST = "https://hellobabu.xyz/"
-KEY_BYTES = b"az1sUE8zNnNUVXpN"
-IV_BYTES = b"dz00QVhsNmZZU0Fw"
+# Secure broadcast feed endpoint and protocol keys (supports environment overrides)
+DEFAULT_API_HOST = os.environ.get("LIVE_FEED_API_HOST", "https://hellobabu.xyz/")
+_KEY_ENV = os.environ.get("LIVE_FEED_KEY")
+KEY_BYTES = _KEY_ENV.encode("utf-8") if _KEY_ENV else b"az1sUE8zNnNUVXpN"
+_IV_ENV = os.environ.get("LIVE_FEED_IV")
+IV_BYTES = _IV_ENV.encode("utf-8") if _IV_ENV else b"dz00QVhsNmZZU0Fw"
 
 # Optional environment-based local data path
 ENV_LOCAL_DATA_DIR = os.environ.get("SPORTS_FEED_DATA_DIR")
@@ -99,6 +102,49 @@ TOURNAMENT_NAME_MAP = {
     "afc champions league elite": "afc-champions-league-elite",
     "afc champions league two": "afc-champions-league-two",
     "concacaf champions cup": "concacaf-champions-cup",
+    "league one": "league-one",
+    "english league one": "league-one",
+    "england league one": "league-one",
+    "football league trophy": "efl-trophy",
+    "efl trophy": "efl-trophy",
+    "english efl trophy": "efl-trophy",
+    "uefa youth league": "uefa-youth-league",
+    "youth league": "uefa-youth-league",
+    "liga profesional de futbol argentina": "liga-profesional-argentina",
+    "liga profesional de fútbol argentina": "liga-profesional-argentina",
+    "primera a": "colombian-primera-a",
+    "gulf cup for veterans": "gulf-cup",
+    "arabian gulf cup": "gulf-cup",
+    "gulf cup": "gulf-cup",
+    "portuguese primeira liga": "primeira-liga",
+    "primeira liga": "primeira-liga",
+    "copa colombia": "copa-colombia",
+    "dfb pokal": "dfb-pokal",
+    "german dfb-pokal": "dfb-pokal",
+    "spanish liga f": "liga-f",
+    "english women's super league": "womens-super-league",
+    "english fa trophy": "fa-trophy",
+    "fa trophy": "fa-trophy",
+    "concacaf central american cup": "concacaf-central-american-cup",
+    "russian premier league": "russian-premier-league",
+    "saff championship": "saff-championship",
+    "fifa world cup": "world-cup",
+    "world cup": "world-cup",
+    "uefa women's champions league": "womens-champions-league",
+    "uefa nations league": "nations-league",
+    "nations league": "nations-league",
+    "africa cup of nations": "africa-cup-of-nations",
+    "afcon": "africa-cup-of-nations",
+    "africa cup of nations qualifying": "afcon-qualifying",
+    "afcon qualifying": "afcon-qualifying",
+    "international friendlies": "international-friendlies",
+    "uefa european u-21 championship qualifiers": "uefa-u21-qualifying",
+    "uefa u21 qualifying": "uefa-u21-qualifying",
+    "concacaf nations league": "concacaf-nations-league",
+    "concacaf gold cup": "concacaf-gold-cup",
+    "gold cup": "concacaf-gold-cup",
+    "asean championship": "asean-cup",
+    "asean cup": "asean-cup",
 }
 
 

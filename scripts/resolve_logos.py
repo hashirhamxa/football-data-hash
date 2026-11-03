@@ -170,8 +170,8 @@ class LogoResolver:
         self.fallback_raw_base = self.settings["data_sources"]["fallback_logos"]["raw_base"]
         self.fuzzy_threshold = self.settings.get("fuzzy_match_threshold", 0.80)
 
-        self.repo_slug = self.settings.get("github_repo", "Bicodes/Football-Events")
-        self.branch = self.settings.get("github_branch", "main")
+        self.repo_slug = os.environ.get("PUBLIC_DATA_REPO") or self.settings.get("github_repo", "hashirhamxa/football-data-hash")
+        self.branch = os.environ.get("PUBLIC_DATA_BRANCH") or self.settings.get("github_branch", "main")
 
         self.indexed_logos: List[Dict[str, Any]] = []
         self.unmatched_teams: Dict[str, Dict[str, Any]] = {}

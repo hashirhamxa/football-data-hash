@@ -7,10 +7,125 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-03T15:52:20.662186+00:00",
+  "generated_at": "2026-11-03T19:17:14.243086+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-03",
-  "target_day_name": "Tuesday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-04",
+  "target_day_name": "Wednesday",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "league-one-2026-11-03-1945-huddersfield-town-luton-town",
+      "event_name": "Huddersfield Town vs Luton Town",
+      "competition": {
+        "id": "league-one",
+        "name": "League One",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/24/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-03",
+      "match_date": "2026-11-03",
+      "match_date_utc": "2026-11-03",
+      "match_date_pkt": "2026-11-04",
+      "start_time_utc": "2026-11-03T19:45:00Z",
+      "start_time_pkt": "2026-11-04T00:45:00+05:00",
+      "start_timestamp": 1793735100,
+      "display_date": "2026-11-04",
+      "display_time": "12:45 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Huddersfield Town",
+        "slug": "huddersfield-town",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/59/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Huddersfield Town",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Luton Town",
+        "slug": "luton-town",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/72/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Luton Town",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-03T19:15:55.754977+00:00",
+      "stream_links": "pro/TGVhZ3VlIE9uZS1IdWRkZXJzZmllbGQgVG93bi12cy1MdXRvbiBUb3duMTc5MzY3NzYyMjk4Ng.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/league-one-2026-11-03-1945-huddersfield-town-luton-town.png"
+    },
+    {
+      "event_id": "league-one-2026-11-03-1945-wigan-athletic-mansfield-town",
+      "event_name": "Wigan Athletic vs Mansfield Town",
+      "competition": {
+        "id": "league-one",
+        "name": "League One",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/24/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-03",
+      "match_date": "2026-11-03",
+      "match_date_utc": "2026-11-03",
+      "match_date_pkt": "2026-11-04",
+      "start_time_utc": "2026-11-03T19:45:00Z",
+      "start_time_pkt": "2026-11-04T00:45:00+05:00",
+      "start_timestamp": 1793735100,
+      "display_date": "2026-11-04",
+      "display_time": "12:45 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Wigan Athletic",
+        "slug": "wigan-athletic",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/49/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Wigan Athletic",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Mansfield Town",
+        "slug": "mansfield-town",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/70/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Mansfield Town",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-03T19:15:55.754977+00:00",
+      "stream_links": "pro/TGVhZ3VlIE9uZS1XaWdhbiBBdGhsZXRpYy12cy1NYW5zZmllbGQgVG93bjE3OTM2Nzc2MjI5ODY.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/league-one-2026-11-03-1945-wigan-athletic-mansfield-town.png"
+    }
+  ]
 }

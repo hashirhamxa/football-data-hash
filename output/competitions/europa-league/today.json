@@ -7,10 +7,68 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-03T19:26:09.897296+00:00",
+  "generated_at": "2026-11-03T23:50:48.044305+00:00",
   "feed_type": "today",
   "target_date_pkt": "2026-11-04",
   "target_day_name": "Wednesday",
-  "total_events": 0,
-  "events": []
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "europa-league-2026-11-04-1530-stade-rennais-olympiacos-fc",
+      "event_name": "Stade Rennais vs Olympiacos FC",
+      "competition": {
+        "id": "europa-league",
+        "name": "UEFA Europa League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/679/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-04",
+      "match_date": "2026-11-04",
+      "match_date_utc": "2026-11-04",
+      "match_date_pkt": "2026-11-04",
+      "start_time_utc": "2026-11-04T15:30:00Z",
+      "start_time_pkt": "2026-11-04T20:30:00+05:00",
+      "start_timestamp": 1793806200,
+      "display_date": "2026-11-04",
+      "display_time": "08:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Stade Rennais",
+        "slug": "stade-rennais",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1658/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Stade Rennais",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Olympiacos FC",
+        "slug": "olympiacos-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/3245/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Olympiacos FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-03T23:50:30.395004+00:00",
+      "stream_links": "pro/VUVGQSBFdXJvcGEgTGVhZ3VlLVN0YWRlIFJlbm5haXMtdnMtT2x5bXBpYWNvcyBGQzE3OTM3Mzc5Nzc2OTY.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-11-04-1530-stade-rennais-olympiacos-fc.png"
+    }
+  ]
 }

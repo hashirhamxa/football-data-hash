@@ -154,7 +154,10 @@ class LiveFeedAdapter(BaseFixtureAdapter):
 
         # 1. Attempt live network fetch
         try:
-            url = self.api_host.rstrip("/") + "/events.txt"
+            if self.api_host.endswith(".txt"):
+                url = self.api_host
+            else:
+                url = self.api_host.rstrip("/") + "/events.txt"
             r = requests.get(url, timeout=self.timeout, verify=False)
             if r.status_code == 200 and r.text.strip():
                 decrypted_str = decrypt_dash(r.text)
@@ -364,10 +367,10 @@ class LiveFeedAdapter(BaseFixtureAdapter):
             m_tourn_norm = normalize_str(m.get("custom_tournament_name", ""))
 
             is_match = False
-            if m_comp_id and m_comp_id == comp_id:
-                is_match = True
-            elif norm_target_name in m_tourn_norm or m_tourn_norm in norm_target_name:
-                is_match = True
+            if m_comp_id:
+                is_match = (m_comp_id == comp_id)
+            elif m_tourn_norm:
+                is_match = (m_tourn_norm == norm_target_name)
 
             if not is_match:
                 continue

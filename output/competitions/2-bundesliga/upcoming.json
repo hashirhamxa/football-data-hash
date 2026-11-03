@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-02T07:03:45.021133+00:00",
+  "generated_at": "2026-11-03T01:27:47.089089+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 5,
+  "total_events": 6,
   "events": [
     {
       "event_id": "2-bundesliga-2026-11-06-1730-dynamo-dresden-spvgg-greuther-furth",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
       },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-06-1730-dynamo-dresden-spvgg-greuther-furth.png"
     },
     {
@@ -116,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
       },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-06-1730-tsv-eintracht-braunschweig-energie-cottbus.png"
     },
     {
@@ -170,7 +170,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
       },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-07-1200-1-fc-nurnberg-sv-darmstadt-98.png"
     },
     {
@@ -224,7 +224,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
       },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-07-1200-holstein-kiel-arminia-bielefeld.png"
     },
     {
@@ -278,8 +278,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
       },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-07-1200-vfl-osnabruck-kaiserslautern.png"
+    },
+    {
+      "event_id": "2-bundesliga-2026-11-07-1930-hertha-berlin-vfl-wolfsburg",
+      "competition": {
+        "id": "2-bundesliga",
+        "name": "2. Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-07T19:30:00Z",
+      "start_time_pkt": "2026-11-08T00:30:00+05:00",
+      "start_timestamp": 1794079800,
+      "display_date": "2026-11-08",
+      "display_time": "12:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Hertha Berlin",
+        "slug": "hertha-berlin",
+        "espn_id": "129",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/129.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Hertha Berlin",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "VfL Wolfsburg",
+        "slug": "vfl-wolfsburg",
+        "espn_id": "138",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/138.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "VfL Wolfsburg",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard"
+      },
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-07-1930-hertha-berlin-vfl-wolfsburg.png"
     }
   ]
 }

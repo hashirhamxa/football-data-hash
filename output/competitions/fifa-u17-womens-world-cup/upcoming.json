@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-02T07:03:45.121672+00:00",
+  "generated_at": "2026-11-03T01:27:47.209247+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 3,
+  "total_events": 4,
   "events": [
     {
       "event_id": "fifa-u17-womens-world-cup-2026-11-04-1500-japan-u17-north-korea-u17",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.wworld.u17/scoreboard"
       },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-womens-world-cup-2026-11-04-1500-japan-u17-north-korea-u17.png"
     },
     {
@@ -116,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.wworld.u17/scoreboard"
       },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-womens-world-cup-2026-11-04-1800-brazil-u17-nigeria-u17.png"
     },
     {
@@ -170,8 +170,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.wworld.u17/scoreboard"
       },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-womens-world-cup-2026-11-07-1500-tbd-home-tbd-away.png"
+    },
+    {
+      "event_id": "fifa-u17-womens-world-cup-2026-11-07-1830-tbd-home-tbd-away",
+      "competition": {
+        "id": "fifa-u17-womens-world-cup",
+        "name": "FIFA Under-17 Women's World Cup",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/60.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T18:30:00Z",
+      "start_time_pkt": "2026-11-07T23:30:00+05:00",
+      "start_timestamp": 1794076200,
+      "display_date": "2026-11-07",
+      "display_time": "11:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "TBD Home",
+        "slug": "tbd-home",
+        "espn_id": "131556",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/tbd-home.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "TBD Away",
+        "slug": "tbd-away",
+        "espn_id": "131554",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/tbd-away.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.wworld.u17/scoreboard"
+      },
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-womens-world-cup-2026-11-07-1830-tbd-home-tbd-away.png"
     }
   ]
 }

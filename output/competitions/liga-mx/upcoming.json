@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-02T07:03:45.075427+00:00",
+  "generated_at": "2026-11-03T01:27:47.201156+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 3,
+  "total_events": 5,
   "events": [
     {
       "event_id": "liga-mx-2026-11-07-0100-atletico-de-san-luis-fc-juarez",
@@ -62,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard"
       },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-07-0100-atletico-de-san-luis-fc-juarez.png"
     },
     {
@@ -116,7 +116,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard"
       },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-07-0100-necaxa-tijuana.png"
     },
     {
@@ -170,8 +170,116 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard"
       },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-07-0300-atlante-santos.png"
+    },
+    {
+      "event_id": "liga-mx-2026-11-07-2300-atlas-pachuca",
+      "competition": {
+        "id": "liga-mx",
+        "name": "Mexican Liga BBVA MX",
+        "country": "Mexico",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-07T23:00:00Z",
+      "start_time_pkt": "2026-11-08T04:00:00+05:00",
+      "start_timestamp": 1794092400,
+      "display_date": "2026-11-08",
+      "display_time": "04:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Atlas",
+        "slug": "atlas",
+        "espn_id": "216",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Atlas",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Pachuca",
+        "slug": "pachuca",
+        "espn_id": "234",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/234.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Pachuca",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard"
+      },
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-07-2300-atlas-pachuca.png"
+    },
+    {
+      "event_id": "liga-mx-2026-11-07-2300-tigres-uanl-cruz-azul",
+      "competition": {
+        "id": "liga-mx",
+        "name": "Mexican Liga BBVA MX",
+        "country": "Mexico",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-07T23:00:00Z",
+      "start_time_pkt": "2026-11-08T04:00:00+05:00",
+      "start_timestamp": 1794092400,
+      "display_date": "2026-11-08",
+      "display_time": "04:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Tigres UANL",
+        "slug": "tigres-uanl",
+        "espn_id": "232",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/232.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Tigres UANL",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Cruz Azul",
+        "slug": "cruz-azul",
+        "espn_id": "218",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Cruz Azul",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard"
+      },
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-07-2300-tigres-uanl-cruz-azul.png"
     }
   ]
 }

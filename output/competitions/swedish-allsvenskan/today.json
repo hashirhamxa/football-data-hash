@@ -7,14 +7,14 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-02T07:03:45.127800+00:00",
+  "generated_at": "2026-11-03T01:27:47.210528+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-02",
-  "target_day_name": "Monday",
-  "total_events": 2,
+  "target_date_pkt": "2026-11-03",
+  "target_day_name": "Tuesday",
+  "total_events": 1,
   "events": [
     {
-      "event_id": "swedish-allsvenskan-2026-11-02-1800-gais-aik",
+      "event_id": "swedish-allsvenskan-2026-11-03-1800-ik-sirius-halmstads-bk",
       "competition": {
         "id": "swedish-allsvenskan",
         "name": "Swedish Allsvenskan",
@@ -24,38 +24,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-02",
-      "match_date": "2026-11-02",
-      "match_date_utc": "2026-11-02",
-      "match_date_pkt": "2026-11-02",
-      "start_time_utc": "2026-11-02T18:00:00Z",
-      "start_time_pkt": "2026-11-02T23:00:00+05:00",
-      "start_timestamp": 1793642400,
-      "display_date": "2026-11-02",
+      "source_date": "2026-11-03",
+      "match_date": "2026-11-03",
+      "match_date_utc": "2026-11-03",
+      "match_date_pkt": "2026-11-03",
+      "start_time_utc": "2026-11-03T18:00:00Z",
+      "start_time_pkt": "2026-11-03T23:00:00+05:00",
+      "start_timestamp": 1793728800,
+      "display_date": "2026-11-03",
       "display_time": "11:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "GAIS",
-        "slug": "gais",
-        "espn_id": "8222",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8222.png",
+        "name": "IK Sirius",
+        "slug": "ik-sirius",
+        "espn_id": "8547",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8547.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "GAIS",
+          "matched_name": "IK Sirius",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "AIK",
-        "slug": "aik",
-        "espn_id": "994",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/994.png",
+        "name": "Halmstads BK",
+        "slug": "halmstads-bk",
+        "espn_id": "3017",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3017.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "AIK",
+          "matched_name": "Halmstads BK",
           "is_fallback": false
         }
       },
@@ -64,62 +64,8 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard"
       },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/swedish-allsvenskan-2026-11-02-1800-gais-aik.png"
-    },
-    {
-      "event_id": "swedish-allsvenskan-2026-11-02-1800-mjallby-aif-kalmar-ff",
-      "competition": {
-        "id": "swedish-allsvenskan",
-        "name": "Swedish Allsvenskan",
-        "country": "Sweden",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-02",
-      "match_date": "2026-11-02",
-      "match_date_utc": "2026-11-02",
-      "match_date_pkt": "2026-11-02",
-      "start_time_utc": "2026-11-02T18:00:00Z",
-      "start_time_pkt": "2026-11-02T23:00:00+05:00",
-      "start_timestamp": 1793642400,
-      "display_date": "2026-11-02",
-      "display_time": "11:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Mjällby AIF",
-        "slug": "mjallby-aif",
-        "espn_id": "20301",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20301.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Mjällby AIF",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Kalmar FF",
-        "slug": "kalmar-ff",
-        "espn_id": "3052",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3052.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Kalmar FF",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard"
-      },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/swedish-allsvenskan-2026-11-02-1800-mjallby-aif-kalmar-ff.png"
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/swedish-allsvenskan-2026-11-03-1800-ik-sirius-halmstads-bk.png"
     }
   ]
 }

@@ -7,10 +7,119 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-02T07:03:45.044657+00:00",
+  "generated_at": "2026-11-03T01:27:47.196076+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-02",
-  "target_day_name": "Monday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-03",
+  "target_day_name": "Tuesday",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "afc-champions-league-two-2026-11-03-1345-east-bengal-fc-al-seeb-club",
+      "competition": {
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-03",
+      "match_date": "2026-11-03",
+      "match_date_utc": "2026-11-03",
+      "match_date_pkt": "2026-11-03",
+      "start_time_utc": "2026-11-03T13:45:00Z",
+      "start_time_pkt": "2026-11-03T18:45:00+05:00",
+      "start_timestamp": 1793713500,
+      "display_date": "2026-11-03",
+      "display_time": "06:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "East Bengal FC",
+        "slug": "east-bengal-fc",
+        "espn_id": "8897",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8897.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "East Bengal FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Al-Seeb Club",
+        "slug": "al-seeb-club",
+        "espn_id": "21438",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-seeb-club.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+      },
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-03-1345-east-bengal-fc-al-seeb-club.png"
+    },
+    {
+      "event_id": "afc-champions-league-two-2026-11-03-1600-al-hussein-sc-al-shorta-sc",
+      "competition": {
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-03",
+      "match_date": "2026-11-03",
+      "match_date_utc": "2026-11-03",
+      "match_date_pkt": "2026-11-03",
+      "start_time_utc": "2026-11-03T16:00:00Z",
+      "start_time_pkt": "2026-11-03T21:00:00+05:00",
+      "start_timestamp": 1793721600,
+      "display_date": "2026-11-03",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Al-Hussein SC",
+        "slug": "al-hussein-sc",
+        "espn_id": "22355",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-hussein-sc.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "Al-Shorta SC",
+        "slug": "al-shorta-sc",
+        "espn_id": "9655",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-shorta-sc.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+      },
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-03-1600-al-hussein-sc-al-shorta-sc.png"
+    }
+  ]
 }

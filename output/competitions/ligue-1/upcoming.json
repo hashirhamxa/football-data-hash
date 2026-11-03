@@ -7,64 +7,10 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-02T07:03:44.942746+00:00",
+  "generated_at": "2026-11-03T01:27:47.073420+00:00",
   "feed_type": "upcoming_30_days",
   "total_events": 3,
   "events": [
-    {
-      "event_id": "ligue-1-2026-11-02-1945-lorient-brest",
-      "competition": {
-        "id": "ligue-1",
-        "name": "French Ligue 1",
-        "country": "France",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-02",
-      "match_date": "2026-11-02",
-      "match_date_utc": "2026-11-02",
-      "match_date_pkt": "2026-11-03",
-      "start_time_utc": "2026-11-02T19:45:00Z",
-      "start_time_pkt": "2026-11-03T00:45:00+05:00",
-      "start_timestamp": 1793648700,
-      "display_date": "2026-11-03",
-      "display_time": "12:45 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Lorient",
-        "slug": "lorient",
-        "espn_id": "273",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Lorient",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Brest",
-        "slug": "brest",
-        "espn_id": "6997",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Brest",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
-      },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-11-02-1945-lorient-brest.png"
-    },
     {
       "event_id": "ligue-1-2026-11-06-1945-toulouse-strasbourg",
       "competition": {
@@ -116,7 +62,7 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-11-06-1945-toulouse-strasbourg.png"
     },
     {
@@ -170,8 +116,62 @@
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
       },
-      "last_updated": "2026-11-02T06:58:13.446750+00:00",
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-11-07-1615-aj-auxerre-paris-fc.png"
+    },
+    {
+      "event_id": "ligue-1-2026-11-07-1945-paris-saint-germain-troyes",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-07T19:45:00Z",
+      "start_time_pkt": "2026-11-08T00:45:00+05:00",
+      "start_timestamp": 1794080700,
+      "display_date": "2026-11-08",
+      "display_time": "12:45 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Paris Saint-Germain",
+        "slug": "paris-saint-germain",
+        "espn_id": "160",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Paris Saint-Germain",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Troyes",
+        "slug": "troyes",
+        "espn_id": "170",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Troyes",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
+      },
+      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-11-07-1945-paris-saint-germain-troyes.png"
     }
   ]
 }

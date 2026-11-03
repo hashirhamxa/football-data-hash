@@ -7,7 +7,7 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-03T01:27:47.074141+00:00",
+  "generated_at": "2026-11-03T15:52:20.647249+00:00",
   "feed_type": "today",
   "target_date_pkt": "2026-11-03",
   "target_day_name": "Tuesday",
@@ -15,6 +15,7 @@
   "events": [
     {
       "event_id": "champions-league-2026-11-03-1745-galatasaray-vfb-stuttgart",
+      "event_name": "VfB Stuttgart at Galatasaray",
       "competition": {
         "id": "champions-league",
         "name": "UEFA Champions League",
@@ -62,13 +63,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-11-03-1745-galatasaray-vfb-stuttgart.png"
     },
     {
       "event_id": "champions-league-2026-11-03-1745-shakhtar-donetsk-sporting-cp",
+      "event_name": "Sporting CP at Shakhtar Donetsk",
       "competition": {
         "id": "champions-league",
         "name": "UEFA Champions League",
@@ -116,9 +119,10 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-11-03-1745-shakhtar-donetsk-sporting-cp.png"
     }
   ]

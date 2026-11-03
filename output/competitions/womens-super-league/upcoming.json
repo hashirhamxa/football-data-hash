@@ -7,12 +7,13 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-03T01:27:47.086350+00:00",
+  "generated_at": "2026-11-03T15:52:20.658784+00:00",
   "feed_type": "upcoming_30_days",
   "total_events": 2,
   "events": [
     {
       "event_id": "womens-super-league-2026-11-07-1245-chelsea-everton",
+      "event_name": "Everton at Chelsea",
       "competition": {
         "id": "womens-super-league",
         "name": "English Women's Super League",
@@ -60,13 +61,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.w.1/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.w.1/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-super-league-2026-11-07-1245-chelsea-everton.png"
     },
     {
       "event_id": "womens-super-league-2026-11-07-1245-manchester-city-west-ham-united",
+      "event_name": "West Ham United at Manchester City",
       "competition": {
         "id": "womens-super-league",
         "name": "English Women's Super League",
@@ -114,9 +117,10 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.w.1/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.w.1/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-super-league-2026-11-07-1245-manchester-city-west-ham-united.png"
     }
   ]

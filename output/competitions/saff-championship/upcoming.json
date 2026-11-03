@@ -7,12 +7,13 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-03T01:27:47.206522+00:00",
+  "generated_at": "2026-11-03T15:52:20.676799+00:00",
   "feed_type": "upcoming_30_days",
   "total_events": 2,
   "events": [
     {
       "event_id": "saff-championship-2026-11-05-0930-pakistan-india",
+      "event_name": "India at Pakistan",
       "competition": {
         "id": "saff-championship",
         "name": "SAFF Championship",
@@ -60,13 +61,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.saff.championship/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.saff.championship/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saff-championship-2026-11-05-0930-pakistan-india.png"
     },
     {
       "event_id": "saff-championship-2026-11-05-1400-bhutan-bangladesh",
+      "event_name": "Bangladesh at Bhutan",
       "competition": {
         "id": "saff-championship",
         "name": "SAFF Championship",
@@ -114,9 +117,10 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.saff.championship/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.saff.championship/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saff-championship-2026-11-05-1400-bhutan-bangladesh.png"
     }
   ]

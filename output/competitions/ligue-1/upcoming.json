@@ -7,12 +7,13 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-03T01:27:47.073420+00:00",
+  "generated_at": "2026-11-03T15:52:20.646571+00:00",
   "feed_type": "upcoming_30_days",
   "total_events": 3,
   "events": [
     {
       "event_id": "ligue-1-2026-11-06-1945-toulouse-strasbourg",
+      "event_name": "Strasbourg at Toulouse",
       "competition": {
         "id": "ligue-1",
         "name": "French Ligue 1",
@@ -60,13 +61,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-11-06-1945-toulouse-strasbourg.png"
     },
     {
       "event_id": "ligue-1-2026-11-07-1615-aj-auxerre-paris-fc",
+      "event_name": "Paris FC at AJ Auxerre",
       "competition": {
         "id": "ligue-1",
         "name": "French Ligue 1",
@@ -114,13 +117,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-11-07-1615-aj-auxerre-paris-fc.png"
     },
     {
       "event_id": "ligue-1-2026-11-07-1945-paris-saint-germain-troyes",
+      "event_name": "Troyes at Paris Saint-Germain",
       "competition": {
         "id": "ligue-1",
         "name": "French Ligue 1",
@@ -168,9 +173,10 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-11-07-1945-paris-saint-germain-troyes.png"
     }
   ]

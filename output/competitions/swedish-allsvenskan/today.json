@@ -7,7 +7,7 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-03T01:27:47.210528+00:00",
+  "generated_at": "2026-11-03T15:52:20.680879+00:00",
   "feed_type": "today",
   "target_date_pkt": "2026-11-03",
   "target_day_name": "Tuesday",
@@ -15,6 +15,7 @@
   "events": [
     {
       "event_id": "swedish-allsvenskan-2026-11-03-1800-ik-sirius-halmstads-bk",
+      "event_name": "Halmstads BK at IK Sirius",
       "competition": {
         "id": "swedish-allsvenskan",
         "name": "Swedish Allsvenskan",
@@ -62,9 +63,10 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/swedish-allsvenskan-2026-11-03-1800-ik-sirius-halmstads-bk.png"
     }
   ]

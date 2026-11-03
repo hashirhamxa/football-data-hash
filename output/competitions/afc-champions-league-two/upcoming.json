@@ -7,66 +7,13 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-03T01:27:47.196076+00:00",
+  "generated_at": "2026-11-03T15:52:20.665090+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 16,
+  "total_events": 15,
   "events": [
     {
-      "event_id": "afc-champions-league-two-2026-11-03-1345-east-bengal-fc-al-seeb-club",
-      "competition": {
-        "id": "afc-champions-league-two",
-        "name": "AFC Champions League Two",
-        "country": "Asia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-03",
-      "match_date": "2026-11-03",
-      "match_date_utc": "2026-11-03",
-      "match_date_pkt": "2026-11-03",
-      "start_time_utc": "2026-11-03T13:45:00Z",
-      "start_time_pkt": "2026-11-03T18:45:00+05:00",
-      "start_timestamp": 1793713500,
-      "display_date": "2026-11-03",
-      "display_time": "06:45 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "East Bengal FC",
-        "slug": "east-bengal-fc",
-        "espn_id": "8897",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8897.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "East Bengal FC",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Al-Seeb Club",
-        "slug": "al-seeb-club",
-        "espn_id": "21438",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-seeb-club.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
-      },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-03-1345-east-bengal-fc-al-seeb-club.png"
-    },
-    {
       "event_id": "afc-champions-league-two-2026-11-03-1600-al-hussein-sc-al-shorta-sc",
+      "event_name": "Al-Shorta SC at Al-Hussein SC",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -114,13 +61,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-03-1600-al-hussein-sc-al-shorta-sc.png"
     },
     {
       "event_id": "afc-champions-league-two-2026-11-04-0745-melbourne-victory-persib-bandung",
+      "event_name": "Persib Bandung at Melbourne Victory",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -168,13 +117,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-04-0745-melbourne-victory-persib-bandung.png"
     },
     {
       "event_id": "afc-champions-league-two-2026-11-04-1000-fc-seoul-the-cong-viettel-fc",
+      "event_name": "The Cong-Viettel FC at FC Seoul",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -222,13 +173,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-04-1000-fc-seoul-the-cong-viettel-fc.png"
     },
     {
       "event_id": "afc-champions-league-two-2026-11-04-1345-arkadag-fk-gol-gohar-sirjan-fc",
+      "event_name": "Gol Gohar Sirjan FC at Arkadag FK",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -276,13 +229,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-04-1345-arkadag-fk-gol-gohar-sirjan-fc.png"
     },
     {
       "event_id": "afc-champions-league-two-2026-11-04-1600-al-wahda-fc-al-khaldiya-sc",
+      "event_name": "Al-Khaldiya SC at Al Wahda FC",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -330,13 +285,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-04-1600-al-wahda-fc-al-khaldiya-sc.png"
     },
     {
       "event_id": "afc-champions-league-two-2026-11-04-1600-al-rayyan-sc-al-nahda-club",
+      "event_name": "Al-Nahda Club at Al-Rayyan SC",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -384,13 +341,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-04-1600-al-rayyan-sc-al-nahda-club.png"
     },
     {
       "event_id": "afc-champions-league-two-2026-11-04-1600-kuwait-sc-fc-nasaf",
+      "event_name": "FC Nasaf at Kuwait SC",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -438,13 +397,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-04-1600-kuwait-sc-fc-nasaf.png"
     },
     {
       "event_id": "afc-champions-league-two-2026-11-04-1815-al-taawoun-al-faisaly-sc",
+      "event_name": "Al-Faisaly SC at Al Taawoun",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -492,13 +453,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-04-1815-al-taawoun-al-faisaly-sc.png"
     },
     {
       "event_id": "afc-champions-league-two-2026-11-04-1815-al-muharraq-sc-al-jazira-club",
+      "event_name": "Al Jazira Club at Al-Muharraq SC",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -546,13 +509,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-04-1815-al-muharraq-sc-al-jazira-club.png"
     },
     {
       "event_id": "afc-champions-league-two-2026-11-05-1000-kitchee-sc-phnom-penh-crown-fc",
+      "event_name": "Phnom Penh Crown FC at Kitchee SC",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -600,13 +565,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-05-1000-kitchee-sc-phnom-penh-crown-fc.png"
     },
     {
       "event_id": "afc-champions-league-two-2026-11-05-1000-lion-city-sailors-fc-adelaide-united-fc",
+      "event_name": "Adelaide United FC at Lion City Sailors FC",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -654,13 +621,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-05-1000-lion-city-sailors-fc-adelaide-united-fc.png"
     },
     {
       "event_id": "afc-champions-league-two-2026-11-05-1000-machida-zelvia-shanghai-shenhua-fc",
+      "event_name": "Shanghai Shenhua FC at Machida Zelvia",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -708,13 +677,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-05-1000-machida-zelvia-shanghai-shenhua-fc.png"
     },
     {
       "event_id": "afc-champions-league-two-2026-11-05-1215-bg-pathum-united-tai-po-fc",
+      "event_name": "Tai Po FC at BG Pathum United",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -762,13 +733,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-05-1215-bg-pathum-united-tai-po-fc.png"
     },
     {
       "event_id": "afc-champions-league-two-2026-11-05-1215-kuching-city-gangwon-fc",
+      "event_name": "Gangwon FC at Kuching City",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -816,13 +789,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-05-1215-kuching-city-gangwon-fc.png"
     },
     {
       "event_id": "afc-champions-league-two-2026-11-05-1215-pkr-svay-rieng-tampines-rovers-fc",
+      "event_name": "Tampines Rovers FC at PKR Svay Rieng",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -870,9 +845,10 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-05-1215-pkr-svay-rieng-tampines-rovers-fc.png"
     }
   ]

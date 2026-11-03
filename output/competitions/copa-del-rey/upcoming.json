@@ -7,120 +7,13 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-03T01:27:47.208262+00:00",
+  "generated_at": "2026-11-03T15:52:20.678519+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 11,
+  "total_events": 8,
   "events": [
     {
-      "event_id": "copa-del-rey-2026-11-03-1800-anaitasuna-alaves",
-      "competition": {
-        "id": "copa-del-rey",
-        "name": "Spanish Copa del Rey",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-03",
-      "match_date": "2026-11-03",
-      "match_date_utc": "2026-11-03",
-      "match_date_pkt": "2026-11-03",
-      "start_time_utc": "2026-11-03T18:00:00Z",
-      "start_time_pkt": "2026-11-03T23:00:00+05:00",
-      "start_timestamp": 1793728800,
-      "display_date": "2026-11-03",
-      "display_time": "11:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Anaitasuna",
-        "slug": "anaitasuna",
-        "espn_id": "20776",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/anaitasuna.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Alavés",
-        "slug": "alaves",
-        "espn_id": "96",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Alavés",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
-      },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-11-03-1800-anaitasuna-alaves.png"
-    },
-    {
-      "event_id": "copa-del-rey-2026-11-03-1800-cd-pamplona-eibar",
-      "competition": {
-        "id": "copa-del-rey",
-        "name": "Spanish Copa del Rey",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-03",
-      "match_date": "2026-11-03",
-      "match_date_utc": "2026-11-03",
-      "match_date_pkt": "2026-11-03",
-      "start_time_utc": "2026-11-03T18:00:00Z",
-      "start_time_pkt": "2026-11-03T23:00:00+05:00",
-      "start_timestamp": 1793728800,
-      "display_date": "2026-11-03",
-      "display_time": "11:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "CD Pamplona",
-        "slug": "cd-pamplona",
-        "espn_id": "133835",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/cd-pamplona.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Eibar",
-        "slug": "eibar",
-        "espn_id": "3752",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3752.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Eibar",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
-      },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-11-03-1800-cd-pamplona-eibar.png"
-    },
-    {
       "event_id": "copa-del-rey-2026-11-04-1800-portugalete-real-union-irun",
+      "event_name": "Real Unión Irun at Portugalete",
       "competition": {
         "id": "copa-del-rey",
         "name": "Spanish Copa del Rey",
@@ -168,13 +61,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-11-04-1800-portugalete-real-union-irun.png"
     },
     {
       "event_id": "copa-del-rey-2026-11-04-1900-amorebieta-ud-logrones",
+      "event_name": "UD Logroñés at Amorebieta",
       "competition": {
         "id": "copa-del-rey",
         "name": "Spanish Copa del Rey",
@@ -222,13 +117,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-11-04-1900-amorebieta-ud-logrones.png"
     },
     {
       "event_id": "copa-del-rey-2026-11-04-1930-cd-minera-fc-cartagena",
+      "event_name": "FC Cartagena at CD Minera",
       "competition": {
         "id": "copa-del-rey",
         "name": "Spanish Copa del Rey",
@@ -276,13 +173,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-11-04-1930-cd-minera-fc-cartagena.png"
     },
     {
       "event_id": "copa-del-rey-2026-11-04-1930-reus-fc-reddis-barakaldo",
+      "event_name": "Barakaldo at Reus FC Reddis",
       "competition": {
         "id": "copa-del-rey",
         "name": "Spanish Copa del Rey",
@@ -330,13 +229,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-11-04-1930-reus-fc-reddis-barakaldo.png"
     },
     {
       "event_id": "copa-del-rey-2026-11-04-1930-utebo-cd-sabadell",
+      "event_name": "CD Sabadell at Utebo",
       "competition": {
         "id": "copa-del-rey",
         "name": "Spanish Copa del Rey",
@@ -384,13 +285,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-11-04-1930-utebo-cd-sabadell.png"
     },
     {
       "event_id": "copa-del-rey-2026-11-04-1945-calvo-sotelo-albacete",
+      "event_name": "Albacete at Calvo Sotelo",
       "competition": {
         "id": "copa-del-rey",
         "name": "Spanish Copa del Rey",
@@ -438,67 +341,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-11-04-1945-calvo-sotelo-albacete.png"
     },
     {
-      "event_id": "copa-del-rey-2026-11-04-2000-badajoz-tenerife",
-      "competition": {
-        "id": "copa-del-rey",
-        "name": "Spanish Copa del Rey",
-        "country": "Spain",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-04",
-      "match_date": "2026-11-04",
-      "match_date_utc": "2026-11-04",
-      "match_date_pkt": "2026-11-05",
-      "start_time_utc": "2026-11-04T20:00:00Z",
-      "start_time_pkt": "2026-11-05T01:00:00+05:00",
-      "start_timestamp": 1793822400,
-      "display_date": "2026-11-05",
-      "display_time": "01:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Badajoz",
-        "slug": "badajoz",
-        "espn_id": "5535",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/badajoz.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Tenerife",
-        "slug": "tenerife",
-        "espn_id": "245",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/245.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Tenerife",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
-      },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-11-04-2000-badajoz-tenerife.png"
-    },
-    {
       "event_id": "copa-del-rey-2026-11-05-1800-cd-tarancon-levante",
+      "event_name": "Levante at CD Tarancon",
       "competition": {
         "id": "copa-del-rey",
         "name": "Spanish Copa del Rey",
@@ -546,13 +397,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-11-05-1800-cd-tarancon-levante.png"
     },
     {
       "event_id": "copa-del-rey-2026-11-05-2000-alcoyano-mallorca",
+      "event_name": "Mallorca at Alcoyano",
       "competition": {
         "id": "copa-del-rey",
         "name": "Spanish Copa del Rey",
@@ -600,9 +453,10 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-11-05-2000-alcoyano-mallorca.png"
     }
   ]

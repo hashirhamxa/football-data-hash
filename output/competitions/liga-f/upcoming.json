@@ -7,12 +7,13 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-03T01:27:47.085709+00:00",
+  "generated_at": "2026-11-03T15:52:20.658160+00:00",
   "feed_type": "upcoming_30_days",
   "total_events": 3,
   "events": [
     {
       "event_id": "liga-f-2026-11-07-1100-granada-espanyol",
+      "event_name": "Espanyol at Granada",
       "competition": {
         "id": "liga-f",
         "name": "Spanish Liga F",
@@ -60,13 +61,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-11-07-1100-granada-espanyol.png"
     },
     {
       "event_id": "liga-f-2026-11-07-1500-athletic-club-real-madrid",
+      "event_name": "Real Madrid at Athletic Club",
       "competition": {
         "id": "liga-f",
         "name": "Spanish Liga F",
@@ -114,13 +117,15 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-11-07-1500-athletic-club-real-madrid.png"
     },
     {
       "event_id": "liga-f-2026-11-07-1615-eibar-real-sociedad",
+      "event_name": "Real Sociedad at Eibar",
       "competition": {
         "id": "liga-f",
         "name": "Spanish Liga F",
@@ -168,9 +173,10 @@
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard"
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard",
+        "priority_applied": false
       },
-      "last_updated": "2026-11-03T01:26:06.893316+00:00",
+      "last_updated": "2026-11-03T15:50:29.655573+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-11-07-1615-eibar-real-sociedad.png"
     }
   ]

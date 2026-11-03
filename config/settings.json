@@ -15,6 +15,12 @@
     "format": "PNG"
   },
   "data_sources": {
+    "priority_fixtures": {
+      "name": "Live Broadcast Scoreboard Feed",
+      "api_url": "https://hellobabu.xyz/events.txt",
+      "priority": 1,
+      "description": "Top priority source for tournament name, event name, team flags, and streaming channels"
+    },
     "primary_fixtures": {
       "name": "ESPN Public Scoreboard API",
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer",

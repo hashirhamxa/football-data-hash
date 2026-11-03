@@ -54,6 +54,7 @@ class DataSourceModel(BaseModel):
 
 class EventItemModel(BaseModel):
     event_id: str
+    event_name: Optional[str] = None
     competition: CompetitionInfoModel
     round: str
     home_team: TeamInfoModel
@@ -72,6 +73,7 @@ class EventItemModel(BaseModel):
     time_status: Literal["confirmed", "tbd"]
     data_source: DataSourceModel
     last_updated: str
+    stream_links: Optional[str] = None
 
     @field_validator("event_id")
     @classmethod

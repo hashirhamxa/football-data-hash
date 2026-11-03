@@ -193,7 +193,10 @@ def normalize_event(
     home_slug = slugify(home_name)
     away_slug = slugify(away_name)
     comp_id = comp_config["id"]
-    comp_name = comp_config["name"]
+    # Priority 1: Live broadcast feed tournament name over ESPN/competitions config
+    comp_name = match.get("custom_tournament_name") or match.get("priority_tournament_name") or comp_config["name"]
+    # Priority 1: Live broadcast feed event name over default
+    event_name = match.get("event_name") or f"{home_name} vs {away_name}"
     round_name = match.get("round", "Regular Fixture")
     group_name = match.get("group")
 
@@ -232,12 +235,14 @@ def normalize_event(
         "source_url": comp_status.get("source_url") or (
             f"https://site.api.espn.com/apis/site/v2/sports/soccer/{comp_config.get('espn_slug')}/scoreboard"
             if provider == "ESPN" else None
-        )
+        ),
+        "priority_applied": bool(match.get("custom_tournament_name") or provider == "LiveBroadcast")
     }
 
-    comp_logo_url = comp_status.get("logo_url") or comp_config.get("logo_url")
-    return {
+    comp_logo_url = match.get("competition_logo_url") or comp_status.get("logo_url") or comp_config.get("logo_url")
+    event_dict = {
         "event_id": event_id,
+        "event_name": event_name,
         "competition": {
             "id": comp_id,
             "name": comp_name,
@@ -263,6 +268,9 @@ def normalize_event(
         "data_source": data_source_meta,
         "last_updated": datetime.now(timezone.utc).isoformat()
     }
+    if match.get("links"):
+        event_dict["stream_links"] = match.get("links")
+    return event_dict
 
 
 def normalize_all_fixtures(

@@ -8,7 +8,7 @@ import json
 import logging
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 from typing import Dict, Any, List, Optional
 
@@ -48,7 +48,7 @@ def filter_today_events(
             try:
                 dt_pkt = datetime.fromisoformat(start_pkt_str)
                 if dt_pkt.date() == today_date:
-                    if include_past_today or dt_pkt >= now_pkt:
+                    if include_past_today or dt_pkt >= (now_pkt - timedelta(minutes=135)):
                         today_events.append(ev)
             except Exception:
                 continue

@@ -165,9 +165,18 @@ def normalize_event(
     if not match_date_utc:
         return None
 
-    # Check if match has already concluded
-    if start_timestamp is not None and start_timestamp < int(ref_now.timestamp()):
-        return None
+    # Check if match has already concluded (allow 135 minutes / 8100s grace period for live in-progress matches)
+    MATCH_GRACE_PERIOD_SECONDS = 8100
+    if start_timestamp is not None:
+        if start_timestamp < int(ref_now.timestamp()) - MATCH_GRACE_PERIOD_SECONDS:
+            return None
+    else:
+        try:
+            m_date_obj = date.fromisoformat(match_date_utc)
+            if m_date_obj < ref_now.date():
+                return None
+        except ValueError:
+            return None
 
     # Check date range boundary (against UTC or PKT date)
     try:
@@ -178,7 +187,7 @@ def normalize_event(
     ref_date = ref_now.date()
     max_date = ref_date + timedelta(days=date_range_days)
 
-    if m_date_obj < ref_date or m_date_obj > max_date:
+    if m_date_obj > max_date:
         return None
 
     home_raw = match.get("home_team", {})

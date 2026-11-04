@@ -84,7 +84,7 @@ def generate_all_competition_feeds(
             if time_status == "confirmed" and start_pkt_str:
                 try:
                     dt_pkt = datetime.fromisoformat(start_pkt_str)
-                    if dt_pkt.date() == today_date and dt_pkt >= now_pkt:
+                    if dt_pkt.date() == today_date and dt_pkt >= (now_pkt - timedelta(minutes=135)):
                         today_matches.append(ev)
                 except Exception:
                     continue

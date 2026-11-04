@@ -295,14 +295,19 @@ def fetch_all_fixtures(
             "matches_count": len(m_list),
             "last_fetched": datetime.now(timezone.utc).isoformat()
         }
-        raw_fixtures[dyn_comp_id] = {
-            "config": dyn_comp,
-            "status": status,
-            "source": "LiveBroadcast",
-            "matches": m_list
-        }
-        statuses.append(status)
-        logger.info(f"[Tier 1 - ak47] Dynamically added {len(m_list)} incoming matches for '{tourn}' (comp_id: {dyn_comp_id}).")
+        if dyn_comp_id in raw_fixtures:
+            raw_fixtures[dyn_comp_id]["matches"].extend(m_list)
+            raw_fixtures[dyn_comp_id]["status"]["matches_count"] = len(raw_fixtures[dyn_comp_id]["matches"])
+            logger.info(f"[Tier 1 - ak47] Dynamically appended {len(m_list)} incoming matches to existing '{tourn}' (comp_id: {dyn_comp_id}).")
+        else:
+            raw_fixtures[dyn_comp_id] = {
+                "config": dyn_comp,
+                "status": status,
+                "source": "LiveBroadcast",
+                "matches": m_list
+            }
+            statuses.append(status)
+            logger.info(f"[Tier 1 - ak47] Dynamically added {len(m_list)} incoming matches for '{tourn}' (comp_id: {dyn_comp_id}).")
 
     return {
         "raw_fixtures": raw_fixtures,

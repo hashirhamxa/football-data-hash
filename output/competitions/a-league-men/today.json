@@ -7,10 +7,68 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-05T09:03:20.826979+00:00",
+  "generated_at": "2026-11-05T23:55:28.134277+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-05",
-  "target_day_name": "Thursday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-06",
+  "target_day_name": "Friday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "a-league-men-2026-11-06-0840-sydney-fc-central-coast-mariners",
+      "event_name": "Sydney FC vs Central Coast Mariners",
+      "competition": {
+        "id": "a-league-men",
+        "name": "A-League Men",
+        "country": "Australia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/136/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-06",
+      "match_date": "2026-11-06",
+      "match_date_utc": "2026-11-06",
+      "match_date_pkt": "2026-11-06",
+      "start_time_utc": "2026-11-06T08:40:00Z",
+      "start_time_pkt": "2026-11-06T13:40:00+05:00",
+      "start_timestamp": 1793954400,
+      "display_date": "2026-11-06",
+      "display_time": "01:40 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Sydney FC",
+        "slug": "sydney-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/5971/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sydney FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Central Coast Mariners",
+        "slug": "central-coast-mariners",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/5966/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Central Coast Mariners",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-05T23:55:20.742734+00:00",
+      "stream_links": "pro/QS1MZWFndWUgTWVuLVN5ZG5leSBGQy12cy1DZW50cmFsIENvYXN0IE1hcmluZXJzMTc5Mzc1NDQ1ODExNA.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/a-league-men-2026-11-06-0840-sydney-fc-central-coast-mariners.png"
+    }
+  ]
 }

@@ -64,9 +64,22 @@ def generate_all_competition_feeds(
         if comp_id:
             events_by_comp.setdefault(comp_id, []).append(ev)
 
+    # Include any dynamically discovered competitions from all_events
+    existing_comp_ids = {c["id"] for c in competitions_config}
+    all_competitions_to_process = list(competitions_config)
+    for ev in all_events:
+        c_obj = ev.get("competition", {})
+        cid = c_obj.get("id")
+        if cid and cid not in existing_comp_ids and cid not in {c["id"] for c in all_competitions_to_process}:
+            all_competitions_to_process.append({
+                "id": cid,
+                "name": c_obj.get("name") or cid,
+                "country": c_obj.get("country", "International")
+            })
+
     summary_stats = {}
 
-    for comp in competitions_config:
+    for comp in all_competitions_to_process:
         comp_id = comp["id"]
         comp_name = comp["name"]
         comp_events = events_by_comp.get(comp_id, [])

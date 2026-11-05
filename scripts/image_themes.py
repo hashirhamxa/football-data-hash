@@ -1620,6 +1620,139 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
+    # 57. Indian Super League: Vibrant saffron/orange, deep marine navy, gold accent
+    "indian-super-league": CompetitionTheme(
+        competition_id="indian-super-league",
+        name="Indian Super League",
+        background_top=(12, 20, 42),
+        background_bottom=(8, 12, 28),
+        primary=(245, 130, 32),
+        secondary=(25, 75, 175),
+        highlight=(255, 215, 0),
+        text_primary=(255, 255, 255),
+        text_secondary=(240, 210, 180),
+        panel_color=(18, 28, 54, 220),
+        panel_border=(245, 130, 32, 170),
+        pattern="speed_streaks",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
+    # 58. Australian A-League Women: Electric cyan, vibrant coral/orange, deep indigo
+    "a-league-women": CompetitionTheme(
+        competition_id="a-league-women",
+        name="Australian A-League Women",
+        background_top=(10, 22, 38),
+        background_bottom=(6, 14, 26),
+        primary=(0, 180, 216),
+        secondary=(255, 112, 67),
+        highlight=(144, 224, 239),
+        text_primary=(255, 255, 255),
+        text_secondary=(180, 220, 240),
+        panel_color=(16, 30, 50, 220),
+        panel_border=(0, 180, 216, 170),
+        pattern="geometric_mesh",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
+    # 59. Peruvian Liga 1 Te Apuesto: Inca gold, vivid crimson red, deep obsidian
+    "liga-1-te-apuesto": CompetitionTheme(
+        competition_id="liga-1-te-apuesto",
+        name="Peruvian Liga 1",
+        background_top=(28, 10, 14),
+        background_bottom=(16, 6, 8),
+        primary=(215, 30, 45),
+        secondary=(245, 180, 25),
+        highlight=(255, 225, 100),
+        text_primary=(255, 255, 255),
+        text_secondary=(240, 200, 205),
+        panel_color=(36, 16, 20, 225),
+        panel_border=(215, 30, 45, 175),
+        pattern="subtle_waves",
+        center_style="stadium_laser",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
+    # 60. Chilean Primera Division: Royal navy, Andean crimson, pure white
+    "liga-de-primera": CompetitionTheme(
+        competition_id="liga-de-primera",
+        name="Chilean Primera División",
+        background_top=(10, 18, 36),
+        background_bottom=(6, 10, 22),
+        primary=(210, 25, 40),
+        secondary=(0, 65, 180),
+        highlight=(230, 240, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(190, 210, 240),
+        panel_color=(16, 26, 48, 220),
+        panel_border=(210, 25, 40, 170),
+        pattern="tactical_hex",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
+    # 61. U20 Copa do Brasil: Brazilian solar yellow, emerald green, royal azure
+    "u20-copa-do-brasil": CompetitionTheme(
+        competition_id="u20-copa-do-brasil",
+        name="U20 Copa do Brasil",
+        background_top=(8, 26, 18),
+        background_bottom=(4, 16, 10),
+        primary=(255, 215, 0),
+        secondary=(0, 155, 60),
+        highlight=(120, 240, 160),
+        text_primary=(255, 255, 255),
+        text_secondary=(220, 245, 220),
+        panel_color=(14, 36, 24, 225),
+        panel_border=(255, 215, 0, 175),
+        pattern="subtle_waves",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
+    # 62. Copa do Brasil Feminino: Canary gold, lush amazon green, magenta aura
+    "copa-do-brasil-feminino": CompetitionTheme(
+        competition_id="copa-do-brasil-feminino",
+        name="Copa do Brasil Feminino",
+        background_top=(10, 24, 20),
+        background_bottom=(6, 14, 12),
+        primary=(255, 205, 30),
+        secondary=(0, 160, 75),
+        highlight=(255, 105, 180),
+        text_primary=(255, 255, 255),
+        text_secondary=(230, 245, 235),
+        panel_color=(16, 34, 28, 225),
+        panel_border=(255, 205, 30, 175),
+        pattern="subtle_waves",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
+    # 63. South African Premiership: Radiant sun gold, evergreen, obsidian
+    "south-african-premiership": CompetitionTheme(
+        competition_id="south-african-premiership",
+        name="South African Premiership",
+        background_top=(18, 20, 16),
+        background_bottom=(10, 12, 10),
+        primary=(255, 185, 20),
+        secondary=(0, 125, 65),
+        highlight=(255, 225, 120),
+        text_primary=(255, 255, 255),
+        text_secondary=(235, 230, 210),
+        panel_color=(26, 28, 24, 225),
+        panel_border=(255, 185, 20, 175),
+        pattern="tactical_hex",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
     # 56. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",

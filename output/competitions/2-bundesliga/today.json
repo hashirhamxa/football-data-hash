@@ -7,10 +7,125 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-06T09:08:47.723036+00:00",
+  "generated_at": "2026-11-06T12:50:04.029564+00:00",
   "feed_type": "today",
   "target_date_pkt": "2026-11-06",
   "target_day_name": "Friday",
-  "total_events": 0,
-  "events": []
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "2-bundesliga-2026-11-06-1730-eintracht-braunschweig-energie-cottbus",
+      "event_name": "Eintracht Braunschweig vs Energie Cottbus",
+      "competition": {
+        "id": "2-bundesliga",
+        "name": "2. Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/44/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-06",
+      "match_date": "2026-11-06",
+      "match_date_utc": "2026-11-06",
+      "match_date_pkt": "2026-11-06",
+      "start_time_utc": "2026-11-06T17:30:00Z",
+      "start_time_pkt": "2026-11-06T22:30:00+05:00",
+      "start_timestamp": 1793986200,
+      "display_date": "2026-11-06",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Eintracht Braunschweig",
+        "slug": "eintracht-braunschweig",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2557/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Eintracht Braunschweig",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Energie Cottbus",
+        "slug": "energie-cottbus",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2532/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Energie Cottbus",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T12:45:41.669462+00:00",
+      "stream_links": "pro/Mi4gQnVuZGVzbGlnYS1FaW50cmFjaHQgQnJhdW5zY2h3ZWlnLXZzLUVuZXJnaWUgQ290dGJ1czE3OTM5NjA1MDQyNTE.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-06-1730-eintracht-braunschweig-energie-cottbus.png"
+    },
+    {
+      "event_id": "2-bundesliga-2026-11-06-1730-sg-dynamo-dresden-spvgg-greuther-furth",
+      "event_name": "SG Dynamo Dresden vs SpVgg Greuther Fürth",
+      "competition": {
+        "id": "2-bundesliga",
+        "name": "2. Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/44/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-06",
+      "match_date": "2026-11-06",
+      "match_date_utc": "2026-11-06",
+      "match_date_pkt": "2026-11-06",
+      "start_time_utc": "2026-11-06T17:30:00Z",
+      "start_time_pkt": "2026-11-06T22:30:00+05:00",
+      "start_timestamp": 1793986200,
+      "display_date": "2026-11-06",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "SG Dynamo Dresden",
+        "slug": "sg-dynamo-dresden",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2595/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "SG Dynamo Dresden",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "SpVgg Greuther Fürth",
+        "slug": "spvgg-greuther-furth",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2551/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "SpVgg Greuther Fürth",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T12:45:41.669462+00:00",
+      "stream_links": "pro/Mi4gQnVuZGVzbGlnYS1TRyBEeW5hbW8gRHJlc2Rlbi12cy1TcFZnZyBHcmV1dGhlciBGw7xydGgxNzkzOTYwNTA0MjUx.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-06-1730-sg-dynamo-dresden-spvgg-greuther-furth.png"
+    }
+  ]
 }

@@ -163,6 +163,15 @@ TOURNAMENT_NAME_MAP = {
     "south african premiership": "south-african-premiership",
     "copa do brasil feminino": "copa-do-brasil-feminino",
     "copa do brasil, feminino": "copa-do-brasil-feminino",
+    "fa cup": "fa-cup",
+    "english fa cup": "fa-cup",
+    "the fa cup": "fa-cup",
+    "nwsl": "nwsl",
+    "national women's soccer league": "nwsl",
+    "ekstraklasa": "ekstraklasa",
+    "polish ekstraklasa": "ekstraklasa",
+    "egypt cup": "egypt-cup",
+    "egyptian cup": "egypt-cup",
 }
 
 

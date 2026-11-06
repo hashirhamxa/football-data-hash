@@ -7,8 +7,66 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-06T09:08:47.666279+00:00",
+  "generated_at": "2026-11-06T12:50:03.169771+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 0,
-  "events": []
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "bundesliga-2026-11-06-1930-hamburger-sv-borussia-m-gladbach",
+      "event_name": "Hamburger SV vs Borussia M'gladbach",
+      "competition": {
+        "id": "bundesliga",
+        "name": "Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/35/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-06",
+      "match_date": "2026-11-06",
+      "match_date_utc": "2026-11-06",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-06T19:30:00Z",
+      "start_time_pkt": "2026-11-07T00:30:00+05:00",
+      "start_timestamp": 1793993400,
+      "display_date": "2026-11-07",
+      "display_time": "12:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Hamburger SV",
+        "slug": "hamburger-sv",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2676/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Hamburger SV",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Borussia M'gladbach",
+        "slug": "borussia-m-gladbach",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2527/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Borussia M'gladbach",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T12:45:41.669462+00:00",
+      "stream_links": "pro/QnVuZGVzbGlnYS1IYW1idXJnZXIgU1YtdnMtQm9ydXNzaWEgTSdnbGFkYmFjaDE3OTM5NjA1MDQyNTE.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-06-1930-hamburger-sv-borussia-m-gladbach.png"
+    }
+  ]
 }

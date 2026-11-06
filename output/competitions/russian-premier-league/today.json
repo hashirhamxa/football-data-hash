@@ -7,10 +7,68 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-06T09:08:47.780498+00:00",
+  "generated_at": "2026-11-06T12:50:04.442019+00:00",
   "feed_type": "today",
   "target_date_pkt": "2026-11-06",
   "target_day_name": "Friday",
-  "total_events": 0,
-  "events": []
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "russian-premier-league-2026-11-06-1630-lokomotiv-moscow-rubin-kazan",
+      "event_name": "Lokomotiv Moscow vs Rubin Kazan",
+      "competition": {
+        "id": "russian-premier-league",
+        "name": "Russian Premier League",
+        "country": "Russia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/203/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-06",
+      "match_date": "2026-11-06",
+      "match_date_utc": "2026-11-06",
+      "match_date_pkt": "2026-11-06",
+      "start_time_utc": "2026-11-06T16:30:00Z",
+      "start_time_pkt": "2026-11-06T21:30:00+05:00",
+      "start_timestamp": 1793982600,
+      "display_date": "2026-11-06",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Lokomotiv Moscow",
+        "slug": "lokomotiv-moscow",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2320/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Lokomotiv Moscow",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Rubin Kazan",
+        "slug": "rubin-kazan",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2333/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Rubin Kazan",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T12:45:41.669462+00:00",
+      "stream_links": "pro/UnVzc2lhbiBQcmVtaWVyIExlYWd1ZS1Mb2tvbW90aXYgTW9zY293LXZzLVJ1YmluIEthemFuMTc5Mzk2MDQzNjkxOQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-06-1630-lokomotiv-moscow-rubin-kazan.png"
+    }
+  ]
 }

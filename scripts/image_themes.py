@@ -1753,6 +1753,82 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="glass_plate"
     ),
 
+    # 64. English FA Cup: Prestigious Emirates red, FA trophy gold, rich dark base
+    "fa-cup": CompetitionTheme(
+        competition_id="fa-cup",
+        name="English FA Cup",
+        background_top=(20, 10, 24),
+        background_bottom=(12, 6, 16),
+        primary=(220, 20, 60),
+        secondary=(212, 175, 55),
+        highlight=(255, 230, 160),
+        text_primary=(255, 255, 255),
+        text_secondary=(240, 215, 180),
+        panel_color=(28, 16, 26, 225),
+        panel_border=(220, 20, 60, 180),
+        pattern="subtle_waves",
+        center_style="modern_glass_capsule",
+        font_family="archivo",
+        crest_container_style="glass_plate"
+    ),
+
+    # 65. NWSL: Dynamic teal, American red/white/navy
+    "nwsl": CompetitionTheme(
+        competition_id="nwsl",
+        name="National Women's Soccer League",
+        background_top=(10, 18, 32),
+        background_bottom=(6, 12, 22),
+        primary=(0, 180, 216),
+        secondary=(230, 57, 70),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 225, 245),
+        panel_color=(16, 26, 44, 225),
+        panel_border=(0, 180, 216, 180),
+        pattern="tactical_hex",
+        center_style="modern_glass_capsule",
+        font_family="montserrat",
+        crest_container_style="glass_plate"
+    ),
+
+    # 66. Polish Ekstraklasa: Ekstraklasa blue, Polish crimson, sleek navy
+    "ekstraklasa": CompetitionTheme(
+        competition_id="ekstraklasa",
+        name="Polish Ekstraklasa",
+        background_top=(12, 18, 30),
+        background_bottom=(8, 12, 20),
+        primary=(0, 102, 204),
+        secondary=(220, 30, 45),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 220, 245),
+        panel_color=(18, 24, 38, 225),
+        panel_border=(0, 102, 204, 180),
+        pattern="tactical_hex",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
+    # 67. Egypt Cup: Egyptian gold, pharaonic red, dark obsidian
+    "egypt-cup": CompetitionTheme(
+        competition_id="egypt-cup",
+        name="Egypt Cup",
+        background_top=(24, 18, 12),
+        background_bottom=(14, 10, 8),
+        primary=(212, 175, 55),
+        secondary=(180, 20, 20),
+        highlight=(255, 235, 160),
+        text_primary=(255, 255, 255),
+        text_secondary=(240, 230, 200),
+        panel_color=(32, 24, 16, 225),
+        panel_border=(212, 175, 55, 180),
+        pattern="subtle_waves",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
     # 56. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",

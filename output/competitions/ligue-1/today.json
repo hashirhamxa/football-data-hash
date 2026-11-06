@@ -7,10 +7,68 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-06T13:28:59.202175+00:00",
+  "generated_at": "2026-11-06T23:38:16.562684+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-06",
-  "target_day_name": "Friday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-07",
+  "target_day_name": "Saturday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "ligue-1-2026-11-07-1800-aj-auxerre-paris-fc",
+      "event_name": "AJ Auxerre vs Paris FC",
+      "competition": {
+        "id": "ligue-1",
+        "name": "Ligue 1",
+        "country": "France",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/34/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T18:00:00Z",
+      "start_time_pkt": "2026-11-07T23:00:00+05:00",
+      "start_timestamp": 1794074400,
+      "display_date": "2026-11-07",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "AJ Auxerre",
+        "slug": "aj-auxerre",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1646/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "AJ Auxerre",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Paris FC",
+        "slug": "paris-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/6070/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Paris FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/TGlndWUgMS1BSiBBdXhlcnJlLXZzLVBhcmlzIEZDMTc5Mzk5ODUyNzgzOQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-11-07-1800-aj-auxerre-paris-fc.png"
+    }
+  ]
 }

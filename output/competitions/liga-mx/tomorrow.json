@@ -7,15 +7,15 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-06T13:28:59.468390+00:00",
+  "generated_at": "2026-11-06T23:38:16.605383+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-11-07",
-  "target_day_name": "Saturday",
-  "total_events": 3,
+  "target_date_pkt": "2026-11-08",
+  "target_day_name": "Sunday",
+  "total_events": 4,
   "events": [
     {
-      "event_id": "liga-mx-2026-11-07-0100-atletico-san-luis-fc-juarez",
-      "event_name": "Atlético San Luis vs FC Juárez",
+      "event_id": "liga-mx-2026-11-07-2300-atlas-fc-cf-pachuca",
+      "event_name": "Atlas FC vs CF Pachuca",
       "competition": {
         "id": "liga-mx",
         "name": "Liga MX, Apertura",
@@ -28,35 +28,92 @@
       "source_date": "2026-11-07",
       "match_date": "2026-11-07",
       "match_date_utc": "2026-11-07",
-      "match_date_pkt": "2026-11-07",
-      "start_time_utc": "2026-11-07T01:00:00Z",
-      "start_time_pkt": "2026-11-07T06:00:00+05:00",
-      "start_timestamp": 1794013200,
-      "display_date": "2026-11-07",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-07T23:00:00Z",
+      "start_time_pkt": "2026-11-08T04:00:00+05:00",
+      "start_timestamp": 1794092400,
+      "display_date": "2026-11-08",
+      "display_time": "04:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Atlas FC",
+        "slug": "atlas-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1949/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Atlas FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "CF Pachuca",
+        "slug": "cf-pachuca",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1936/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "CF Pachuca",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/TGlnYSBNWCwgQXBlcnR1cmEtQXRsYXMgRkMtdnMtQ0YgUGFjaHVjYTE3OTM5OTkwMTg2NzY.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-07-2300-atlas-fc-cf-pachuca.png"
+    },
+    {
+      "event_id": "liga-mx-2026-11-08-0100-cd-toluca-cf-monterrey",
+      "event_name": "CD Toluca vs CF Monterrey",
+      "competition": {
+        "id": "liga-mx",
+        "name": "Liga MX, Apertura",
+        "country": "Mexico",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/11621/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-08",
+      "match_date": "2026-11-08",
+      "match_date_utc": "2026-11-08",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-08T01:00:00Z",
+      "start_time_pkt": "2026-11-08T06:00:00+05:00",
+      "start_timestamp": 1794099600,
+      "display_date": "2026-11-08",
       "display_time": "06:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Atlético San Luis",
-        "slug": "atletico-san-luis",
+        "name": "CD Toluca",
+        "slug": "cd-toluca",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/1950/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/1931/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Atlético San Luis",
+          "matched_name": "CD Toluca",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "FC Juárez",
-        "slug": "fc-juarez",
+        "name": "CF Monterrey",
+        "slug": "cf-monterrey",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/201624/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/1932/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "FC Juárez",
+          "matched_name": "CF Monterrey",
           "is_fallback": false
         }
       },
@@ -66,13 +123,13 @@
         "source_url": null,
         "priority_applied": true
       },
-      "last_updated": "2026-11-06T13:26:57.701726+00:00",
-      "stream_links": "pro/TGlnYSBNWCwgQXBlcnR1cmEtQXRsw6l0aWNvIFNhbiBMdWlzLXZzLUZDIEp1w6FyZXoxNzkzOTYwNjE5NDIx.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-07-0100-atletico-san-luis-fc-juarez.png"
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/TGlnYSBNWCwgQXBlcnR1cmEtQ0QgVG9sdWNhLXZzLUNGIE1vbnRlcnJleTE3OTM5OTkwMTg2NzY.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-08-0100-cd-toluca-cf-monterrey.png"
     },
     {
-      "event_id": "liga-mx-2026-11-07-0100-club-necaxa-club-tijuana",
-      "event_name": "Club Necaxa vs Club Tijuana",
+      "event_id": "liga-mx-2026-11-08-0100-tigres-uanl-cruz-azul",
+      "event_name": "Tigres UANL vs Cruz Azul",
       "competition": {
         "id": "liga-mx",
         "name": "Liga MX, Apertura",
@@ -82,38 +139,38 @@
         "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/11621/image/dark"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-07",
-      "match_date": "2026-11-07",
-      "match_date_utc": "2026-11-07",
-      "match_date_pkt": "2026-11-07",
-      "start_time_utc": "2026-11-07T01:00:00Z",
-      "start_time_pkt": "2026-11-07T06:00:00+05:00",
-      "start_timestamp": 1794013200,
-      "display_date": "2026-11-07",
+      "source_date": "2026-11-08",
+      "match_date": "2026-11-08",
+      "match_date_utc": "2026-11-08",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-08T01:00:00Z",
+      "start_time_pkt": "2026-11-08T06:00:00+05:00",
+      "start_timestamp": 1794099600,
+      "display_date": "2026-11-08",
       "display_time": "06:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Club Necaxa",
-        "slug": "club-necaxa",
+        "name": "Tigres UANL",
+        "slug": "tigres-uanl",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/1944/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/1940/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Club Necaxa",
+          "matched_name": "Tigres UANL",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Club Tijuana",
-        "slug": "club-tijuana",
+        "name": "Cruz Azul",
+        "slug": "cruz-azul",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/36525/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/1947/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Club Tijuana",
+          "matched_name": "Cruz Azul",
           "is_fallback": false
         }
       },
@@ -123,13 +180,13 @@
         "source_url": null,
         "priority_applied": true
       },
-      "last_updated": "2026-11-06T13:26:57.701726+00:00",
-      "stream_links": "pro/TGlnYSBNWCwgQXBlcnR1cmEtQ2x1YiBOZWNheGEtdnMtQ2x1YiBUaWp1YW5hMTc5Mzk2MDYxOTQyMQ.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-07-0100-club-necaxa-club-tijuana.png"
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/TGlnYSBNWCwgQXBlcnR1cmEtVGlncmVzIFVBTkwtdnMtQ3J1eiBBenVsMTc5Mzk5OTAxODY3Ng.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-08-0100-tigres-uanl-cruz-azul.png"
     },
     {
-      "event_id": "liga-mx-2026-11-07-0300-atlante-fc-santos-laguna",
-      "event_name": "Atlante FC vs Santos Laguna",
+      "event_id": "liga-mx-2026-11-08-0310-pumas-unam-club-america",
+      "event_name": "Pumas UNAM vs Club América",
       "competition": {
         "id": "liga-mx",
         "name": "Liga MX, Apertura",
@@ -139,38 +196,38 @@
         "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/11621/image/dark"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-07",
-      "match_date": "2026-11-07",
-      "match_date_utc": "2026-11-07",
-      "match_date_pkt": "2026-11-07",
-      "start_time_utc": "2026-11-07T03:00:00Z",
-      "start_time_pkt": "2026-11-07T08:00:00+05:00",
-      "start_timestamp": 1794020400,
-      "display_date": "2026-11-07",
-      "display_time": "08:00 AM",
+      "source_date": "2026-11-08",
+      "match_date": "2026-11-08",
+      "match_date_utc": "2026-11-08",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-08T03:10:00Z",
+      "start_time_pkt": "2026-11-08T08:10:00+05:00",
+      "start_timestamp": 1794107400,
+      "display_date": "2026-11-08",
+      "display_time": "08:10 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Atlante FC",
-        "slug": "atlante-fc",
+        "name": "Pumas UNAM",
+        "slug": "pumas-unam",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/1943/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/1933/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Atlante FC",
+          "matched_name": "Pumas UNAM",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Santos Laguna",
-        "slug": "santos-laguna",
+        "name": "Club América",
+        "slug": "club-america",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/1948/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/1939/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Santos Laguna",
+          "matched_name": "Club América",
           "is_fallback": false
         }
       },
@@ -180,9 +237,9 @@
         "source_url": null,
         "priority_applied": true
       },
-      "last_updated": "2026-11-06T13:26:57.701726+00:00",
-      "stream_links": "pro/TGlnYSBNWCwgQXBlcnR1cmEtQXRsYW50ZSBGQy12cy1TYW50b3MgTGFndW5hMTc5Mzk2MDYxOTQyMQ.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-07-0300-atlante-fc-santos-laguna.png"
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/TGlnYSBNWCwgQXBlcnR1cmEtUHVtYXMgVU5BTS12cy1DbHViIEFtw6lyaWNhMTc5Mzk5OTAxODY3Ng.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-08-0310-pumas-unam-club-america.png"
     }
   ]
 }

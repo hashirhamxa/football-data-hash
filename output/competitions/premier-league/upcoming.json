@@ -7,13 +7,13 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-06T13:28:59.140996+00:00",
+  "generated_at": "2026-11-06T23:38:16.550799+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 1,
+  "total_events": 4,
   "events": [
     {
-      "event_id": "premier-league-2026-11-06-2000-everton-coventry-city",
-      "event_name": "Everton vs Coventry City",
+      "event_id": "premier-league-2026-11-07-1230-leeds-united-tottenham-hotspur",
+      "event_name": "Leeds United vs Tottenham Hotspur",
       "competition": {
         "id": "premier-league",
         "name": "Premier League",
@@ -23,38 +23,38 @@
         "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/17/image/dark"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-06",
-      "match_date": "2026-11-06",
-      "match_date_utc": "2026-11-06",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
       "match_date_pkt": "2026-11-07",
-      "start_time_utc": "2026-11-06T20:00:00Z",
-      "start_time_pkt": "2026-11-07T01:00:00+05:00",
-      "start_timestamp": 1793995200,
+      "start_time_utc": "2026-11-07T12:30:00Z",
+      "start_time_pkt": "2026-11-07T17:30:00+05:00",
+      "start_timestamp": 1794054600,
       "display_date": "2026-11-07",
-      "display_time": "01:00 AM",
+      "display_time": "05:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Everton",
-        "slug": "everton",
+        "name": "Leeds United",
+        "slug": "leeds-united",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/48/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/34/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Everton",
+          "matched_name": "Leeds United",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Coventry City",
-        "slug": "coventry-city",
+        "name": "Tottenham Hotspur",
+        "slug": "tottenham-hotspur",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/11/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/33/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Coventry City",
+          "matched_name": "Tottenham Hotspur",
           "is_fallback": false
         }
       },
@@ -64,9 +64,180 @@
         "source_url": null,
         "priority_applied": true
       },
-      "last_updated": "2026-11-06T13:26:57.701726+00:00",
-      "stream_links": "pro/UHJlbWllciBMZWFndWUtRXZlcnRvbi12cy1Db3ZlbnRyeSBDaXR5MTc5Mzk2MDQzNjkxOQ.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-06-2000-everton-coventry-city.png"
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/UHJlbWllciBMZWFndWUtTGVlZHMgVW5pdGVkLXZzLVRvdHRlbmhhbSBIb3RzcHVyMTc5Mzk5ODQzNDA4Mw.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-07-1230-leeds-united-tottenham-hotspur.png"
+    },
+    {
+      "event_id": "premier-league-2026-11-07-1500-arsenal-hull-city",
+      "event_name": "Arsenal vs Hull City",
+      "competition": {
+        "id": "premier-league",
+        "name": "Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/17/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T15:00:00Z",
+      "start_time_pkt": "2026-11-07T20:00:00+05:00",
+      "start_timestamp": 1794063600,
+      "display_date": "2026-11-07",
+      "display_time": "08:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Arsenal",
+        "slug": "arsenal",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/42/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Arsenal",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Hull City",
+        "slug": "hull-city",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/96/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Hull City",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/UHJlbWllciBMZWFndWUtQXJzZW5hbC12cy1IdWxsIENpdHkxNzkzOTk4NDM0MDgz.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-07-1500-arsenal-hull-city.png"
+    },
+    {
+      "event_id": "premier-league-2026-11-07-1500-fulham-newcastle-united",
+      "event_name": "Fulham vs Newcastle United",
+      "competition": {
+        "id": "premier-league",
+        "name": "Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/17/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T15:00:00Z",
+      "start_time_pkt": "2026-11-07T20:00:00+05:00",
+      "start_timestamp": 1794063600,
+      "display_date": "2026-11-07",
+      "display_time": "08:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Fulham",
+        "slug": "fulham",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/43/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Fulham",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Newcastle United",
+        "slug": "newcastle-united",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/39/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Newcastle United",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/UHJlbWllciBMZWFndWUtRnVsaGFtLXZzLU5ld2Nhc3RsZSBVbml0ZWQxNzkzOTk4NDM0MDgz.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-07-1500-fulham-newcastle-united.png"
+    },
+    {
+      "event_id": "premier-league-2026-11-07-1730-nottingham-forest-manchester-city",
+      "event_name": "Nottingham Forest vs Manchester City",
+      "competition": {
+        "id": "premier-league",
+        "name": "Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/17/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T17:30:00Z",
+      "start_time_pkt": "2026-11-07T22:30:00+05:00",
+      "start_timestamp": 1794072600,
+      "display_date": "2026-11-07",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Nottingham Forest",
+        "slug": "nottingham-forest",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/14/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Nottingham Forest",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Manchester City",
+        "slug": "manchester-city",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/17/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Manchester City",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/UHJlbWllciBMZWFndWUtTm90dGluZ2hhbSBGb3Jlc3QtdnMtTWFuY2hlc3RlciBDaXR5MTc5Mzk5ODQzNDA4Mw.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-07-1730-nottingham-forest-manchester-city.png"
     }
   ]
 }

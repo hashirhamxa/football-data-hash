@@ -7,10 +7,68 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-06T13:28:59.619279+00:00",
+  "generated_at": "2026-11-06T23:38:16.628825+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-06",
-  "target_day_name": "Friday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-07",
+  "target_day_name": "Saturday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "liga-1-te-apuesto-2026-11-07-1800-asociacion-deportiva-tarma-club-sporting-cristal",
+      "event_name": "Asociación Deportiva Tarma vs Club Sporting Cristal",
+      "competition": {
+        "id": "liga-1-te-apuesto",
+        "name": "Liga 1 Te Apuesto",
+        "country": "Peru",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/406/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T18:00:00Z",
+      "start_time_pkt": "2026-11-07T23:00:00+05:00",
+      "start_timestamp": 1794074400,
+      "display_date": "2026-11-07",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Asociación Deportiva Tarma",
+        "slug": "asociacion-deportiva-tarma",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/335557/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Asociación Deportiva Tarma",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Club Sporting Cristal",
+        "slug": "club-sporting-cristal",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2302/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Club Sporting Cristal",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/TGlnYSAxIFRlIEFwdWVzdG8tQXNvY2lhY2nDs24gRGVwb3J0aXZhIFRhcm1hLXZzLUNsdWIgU3BvcnRpbmcgQ3Jpc3RhbDE3OTM5OTg2MDMwNDU.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-1-te-apuesto-2026-11-07-1800-asociacion-deportiva-tarma-club-sporting-cristal.png"
+    }
+  ]
 }

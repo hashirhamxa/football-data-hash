@@ -7,10 +7,68 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-06T13:28:59.623441+00:00",
+  "generated_at": "2026-11-06T23:38:16.630390+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-06",
-  "target_day_name": "Friday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-07",
+  "target_day_name": "Saturday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "liga-de-primera-2026-11-07-1800-deportes-la-serena-palestino",
+      "event_name": "Deportes La Serena vs Palestino",
+      "competition": {
+        "id": "liga-de-primera",
+        "name": "Liga de Primera",
+        "country": "Chile",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/11653/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T18:00:00Z",
+      "start_time_pkt": "2026-11-07T23:00:00+05:00",
+      "start_timestamp": 1794074400,
+      "display_date": "2026-11-07",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Deportes La Serena",
+        "slug": "deportes-la-serena",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/5031/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Deportes La Serena",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Palestino",
+        "slug": "palestino",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/3157/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Palestino",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/TGlnYSBkZSBQcmltZXJhLURlcG9ydGVzIExhIFNlcmVuYS12cy1QYWxlc3Rpbm8xNzkzOTk4NjM3OTAy.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-de-primera-2026-11-07-1800-deportes-la-serena-palestino.png"
+    }
+  ]
 }

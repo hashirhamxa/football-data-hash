@@ -7,10 +7,125 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-06T13:28:59.605967+00:00",
+  "generated_at": "2026-11-06T23:38:16.626078+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-06",
-  "target_day_name": "Friday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-07",
+  "target_day_name": "Saturday",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "indian-super-league-2026-11-07-1130-inter-kashi-fc-sporting-delhi",
+      "event_name": "Inter Kashi FC vs Sporting Delhi",
+      "competition": {
+        "id": "indian-super-league",
+        "name": "Indian Super League",
+        "country": "India",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1900/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T11:30:00Z",
+      "start_time_pkt": "2026-11-07T16:30:00+05:00",
+      "start_timestamp": 1794051000,
+      "display_date": "2026-11-07",
+      "display_time": "04:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Inter Kashi FC",
+        "slug": "inter-kashi-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/494686/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Inter Kashi FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Sporting Delhi",
+        "slug": "sporting-delhi",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/331840/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sporting Delhi",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/SW5kaWFuIFN1cGVyIExlYWd1ZS1JbnRlciBLYXNoaSBGQy12cy1TcG9ydGluZyBEZWxoaTE3OTM5NzQxODgyMTA.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/indian-super-league-2026-11-07-1130-inter-kashi-fc-sporting-delhi.png"
+    },
+    {
+      "event_id": "indian-super-league-2026-11-07-1400-chennaiyin-fc-east-bengal-fc",
+      "event_name": "Chennaiyin FC vs East Bengal FC",
+      "competition": {
+        "id": "indian-super-league",
+        "name": "Indian Super League",
+        "country": "India",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1900/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T14:00:00Z",
+      "start_time_pkt": "2026-11-07T19:00:00+05:00",
+      "start_timestamp": 1794060000,
+      "display_date": "2026-11-07",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Chennaiyin FC",
+        "slug": "chennaiyin-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/174590/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Chennaiyin FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "East Bengal FC",
+        "slug": "east-bengal-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/40655/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "East Bengal FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/SW5kaWFuIFN1cGVyIExlYWd1ZS1DaGVubmFpeWluIEZDLXZzLUVhc3QgQmVuZ2FsIEZDMTc5Mzk5ODk4NjU4MQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/indian-super-league-2026-11-07-1400-chennaiyin-fc-east-bengal-fc.png"
+    }
+  ]
 }

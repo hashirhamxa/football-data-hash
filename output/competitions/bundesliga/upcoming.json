@@ -7,13 +7,13 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-06T13:28:59.191475+00:00",
+  "generated_at": "2026-11-06T23:38:16.560957+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 1,
+  "total_events": 5,
   "events": [
     {
-      "event_id": "bundesliga-2026-11-06-1930-hamburger-sv-borussia-m-gladbach",
-      "event_name": "Hamburger SV vs Borussia M'gladbach",
+      "event_id": "bundesliga-2026-11-07-1430-1-fsv-mainz-05-fc-bayern-munchen",
+      "event_name": "1. FSV Mainz 05 vs FC Bayern München",
       "competition": {
         "id": "bundesliga",
         "name": "Bundesliga",
@@ -23,38 +23,38 @@
         "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/35/image/dark"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-06",
-      "match_date": "2026-11-06",
-      "match_date_utc": "2026-11-06",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
       "match_date_pkt": "2026-11-07",
-      "start_time_utc": "2026-11-06T19:30:00Z",
-      "start_time_pkt": "2026-11-07T00:30:00+05:00",
-      "start_timestamp": 1793993400,
+      "start_time_utc": "2026-11-07T14:30:00Z",
+      "start_time_pkt": "2026-11-07T19:30:00+05:00",
+      "start_timestamp": 1794061800,
       "display_date": "2026-11-07",
-      "display_time": "12:30 AM",
+      "display_time": "07:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Hamburger SV",
-        "slug": "hamburger-sv",
+        "name": "1. FSV Mainz 05",
+        "slug": "1-fsv-mainz-05",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/2676/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/2556/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Hamburger SV",
+          "matched_name": "1. FSV Mainz 05",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Borussia M'gladbach",
-        "slug": "borussia-m-gladbach",
+        "name": "FC Bayern München",
+        "slug": "fc-bayern-munchen",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/2527/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/2672/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Borussia M'gladbach",
+          "matched_name": "FC Bayern München",
           "is_fallback": false
         }
       },
@@ -64,9 +64,237 @@
         "source_url": null,
         "priority_applied": true
       },
-      "last_updated": "2026-11-06T13:26:57.701726+00:00",
-      "stream_links": "pro/QnVuZGVzbGlnYS1IYW1idXJnZXIgU1YtdnMtQm9ydXNzaWEgTSdnbGFkYmFjaDE3OTM5NjA1MDQyNTE.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-06-1930-hamburger-sv-borussia-m-gladbach.png"
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/QnVuZGVzbGlnYS0xLiBGU1YgTWFpbnogMDUtdnMtRkMgQmF5ZXJuIE3DvG5jaGVuMTc5Mzk5ODU2NjEwNQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-07-1430-1-fsv-mainz-05-fc-bayern-munchen.png"
+    },
+    {
+      "event_id": "bundesliga-2026-11-07-1430-borussia-dortmund-sv-07-elversberg",
+      "event_name": "Borussia Dortmund vs SV 07 Elversberg",
+      "competition": {
+        "id": "bundesliga",
+        "name": "Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/35/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T14:30:00Z",
+      "start_time_pkt": "2026-11-07T19:30:00+05:00",
+      "start_timestamp": 1794061800,
+      "display_date": "2026-11-07",
+      "display_time": "07:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Borussia Dortmund",
+        "slug": "borussia-dortmund",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2673/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Borussia Dortmund",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "SV 07 Elversberg",
+        "slug": "sv-07-elversberg",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2598/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "SV 07 Elversberg",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/QnVuZGVzbGlnYS1Cb3J1c3NpYSBEb3J0bXVuZC12cy1TViAwNyBFbHZlcnNiZXJnMTc5Mzk5ODU2NjEwNg.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-07-1430-borussia-dortmund-sv-07-elversberg.png"
+    },
+    {
+      "event_id": "bundesliga-2026-11-07-1430-rb-leipzig-fc-augsburg",
+      "event_name": "RB Leipzig vs FC Augsburg",
+      "competition": {
+        "id": "bundesliga",
+        "name": "Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/35/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T14:30:00Z",
+      "start_time_pkt": "2026-11-07T19:30:00+05:00",
+      "start_timestamp": 1794061800,
+      "display_date": "2026-11-07",
+      "display_time": "07:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "RB Leipzig",
+        "slug": "rb-leipzig",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/36360/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "RB Leipzig",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "FC Augsburg",
+        "slug": "fc-augsburg",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2600/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "FC Augsburg",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/QnVuZGVzbGlnYS1SQiBMZWlwemlnLXZzLUZDIEF1Z3NidXJnMTc5Mzk5ODU2NjEwNg.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-07-1430-rb-leipzig-fc-augsburg.png"
+    },
+    {
+      "event_id": "bundesliga-2026-11-07-1430-sc-paderborn-07-eintracht-frankfurt",
+      "event_name": "SC Paderborn 07 vs Eintracht Frankfurt",
+      "competition": {
+        "id": "bundesliga",
+        "name": "Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/35/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T14:30:00Z",
+      "start_time_pkt": "2026-11-07T19:30:00+05:00",
+      "start_timestamp": 1794061800,
+      "display_date": "2026-11-07",
+      "display_time": "07:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "SC Paderborn 07",
+        "slug": "sc-paderborn-07",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2561/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "SC Paderborn 07",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Eintracht Frankfurt",
+        "slug": "eintracht-frankfurt",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2674/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Eintracht Frankfurt",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/QnVuZGVzbGlnYS1TQyBQYWRlcmJvcm4gMDctdnMtRWludHJhY2h0IEZyYW5rZnVydDE3OTM5OTg1NjYxMDY.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-07-1430-sc-paderborn-07-eintracht-frankfurt.png"
+    },
+    {
+      "event_id": "bundesliga-2026-11-07-1730-vfb-stuttgart-sv-werder-bremen",
+      "event_name": "VfB Stuttgart vs SV Werder Bremen",
+      "competition": {
+        "id": "bundesliga",
+        "name": "Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/35/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T17:30:00Z",
+      "start_time_pkt": "2026-11-07T22:30:00+05:00",
+      "start_timestamp": 1794072600,
+      "display_date": "2026-11-07",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "VfB Stuttgart",
+        "slug": "vfb-stuttgart",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2677/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "VfB Stuttgart",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "SV Werder Bremen",
+        "slug": "sv-werder-bremen",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2534/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "SV Werder Bremen",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/QnVuZGVzbGlnYS1WZkIgU3R1dHRnYXJ0LXZzLVNWIFdlcmRlciBCcmVtZW4xNzkzOTk4NTY2MTA2.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-07-1730-vfb-stuttgart-sv-werder-bremen.png"
     }
   ]
 }

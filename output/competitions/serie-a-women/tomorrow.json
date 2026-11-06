@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "competition": {
+    "id": "serie-a-women",
+    "name": "Serie A Women",
+    "country": "International"
+  },
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "generated_at": "2026-11-06T23:38:16.640349+00:00",
+  "feed_type": "tomorrow",
+  "target_date_pkt": "2026-11-08",
+  "target_day_name": "Sunday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "serie-a-women-2026-11-08-1130-parma-fc-como",
+      "event_name": "Parma vs FC Como",
+      "competition": {
+        "id": "serie-a-women",
+        "name": "Serie A Women",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/10640/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-08",
+      "match_date": "2026-11-08",
+      "match_date_utc": "2026-11-08",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-08T11:30:00Z",
+      "start_time_pkt": "2026-11-08T16:30:00+05:00",
+      "start_timestamp": 1794137400,
+      "display_date": "2026-11-08",
+      "display_time": "04:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Parma",
+        "slug": "parma",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/424787/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Parma",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "FC Como",
+        "slug": "fc-como",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/404899/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "FC Como",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "stream_links": "pro/U2VyaWUgQSBXb21lbi1QYXJtYS12cy1GQyBDb21vMTc5Mzk5ODQ2Nzc4MQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-women-2026-11-08-1130-parma-fc-como.png"
+    }
+  ]
+}

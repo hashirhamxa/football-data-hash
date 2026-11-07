@@ -1829,6 +1829,101 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="glass_plate"
     ),
 
+    # 68. Dutch Eredivisie: Royal blue, vibrant Dutch orange, clean modern look
+    "eredivisie": CompetitionTheme(
+        competition_id="eredivisie",
+        name="Dutch Eredivisie",
+        background_top=(14, 20, 36),
+        background_bottom=(8, 12, 22),
+        primary=(0, 114, 206),
+        secondary=(255, 102, 0),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 225, 250),
+        panel_color=(18, 26, 46, 225),
+        panel_border=(0, 114, 206, 180),
+        pattern="tactical_hex",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
+    # 69. Canadian Premier League: Canadian maple leaf red, deep navy blue
+    "canadian-premier-league": CompetitionTheme(
+        competition_id="canadian-premier-league",
+        name="Canadian Premier League",
+        background_top=(24, 10, 12),
+        background_bottom=(14, 6, 8),
+        primary=(218, 41, 28),
+        secondary=(0, 43, 91),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 210, 215),
+        panel_color=(32, 16, 18, 225),
+        panel_border=(218, 41, 28, 180),
+        pattern="subtle_waves",
+        center_style="modern_glass_capsule",
+        font_family="archivo",
+        crest_container_style="glass_plate"
+    ),
+
+    # 70. Serie A Women: Italian azzurro, vibrant magenta, sleek dark plate
+    "serie-a-women": CompetitionTheme(
+        competition_id="serie-a-women",
+        name="Serie A Women",
+        background_top=(10, 20, 36),
+        background_bottom=(6, 12, 24),
+        primary=(0, 140, 255),
+        secondary=(255, 60, 140),
+        highlight=(220, 240, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 225, 250),
+        panel_color=(16, 28, 48, 225),
+        panel_border=(0, 140, 255, 180),
+        pattern="tactical_hex",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
+    # 71. Copa do Brasil: Brazilian gold, amazon green, electric emerald
+    "copa-do-brasil": CompetitionTheme(
+        competition_id="copa-do-brasil",
+        name="Copa do Brasil",
+        background_top=(8, 24, 16),
+        background_bottom=(4, 14, 10),
+        primary=(255, 215, 0),
+        secondary=(0, 155, 60),
+        highlight=(120, 240, 160),
+        text_primary=(255, 255, 255),
+        text_secondary=(220, 245, 220),
+        panel_color=(14, 34, 24, 225),
+        panel_border=(255, 215, 0, 175),
+        pattern="subtle_waves",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
+    # 72. Kenyan Premier League: Kenyan flag red, green, bold typography
+    "kenya-premier-league": CompetitionTheme(
+        competition_id="kenya-premier-league",
+        name="Kenyan Premier League",
+        background_top=(22, 16, 14),
+        background_bottom=(12, 10, 8),
+        primary=(186, 12, 47),
+        secondary=(0, 102, 0),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(240, 225, 220),
+        panel_color=(30, 22, 20, 225),
+        panel_border=(186, 12, 47, 180),
+        pattern="tactical_hex",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
     # 56. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",

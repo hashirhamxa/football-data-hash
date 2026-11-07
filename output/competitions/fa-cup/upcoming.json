@@ -7,8 +7,123 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-06T23:38:16.635088+00:00",
+  "generated_at": "2026-11-07T11:13:26.759152+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 0,
-  "events": []
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "fa-cup-2026-11-07-1730-altrincham-fc-notts-county",
+      "event_name": "Altrincham FC vs Notts County",
+      "competition": {
+        "id": "fa-cup",
+        "name": "FA Cup",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/19/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-07",
+      "start_time_utc": "2026-11-07T17:30:00Z",
+      "start_time_pkt": "2026-11-07T22:30:00+05:00",
+      "start_timestamp": 1794072600,
+      "display_date": "2026-11-07",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Altrincham FC",
+        "slug": "altrincham-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/110/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Altrincham FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Notts County",
+        "slug": "notts-county",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/56/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Notts County",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-07T11:10:24.626338+00:00",
+      "stream_links": "pro/RkEgQ3VwLUFsdHJpbmNoYW0gRkMtdnMtTm90dHMgQ291bnR5MTc5NDAxNjg4MjYxNA.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fa-cup-2026-11-07-1730-altrincham-fc-notts-county.png"
+    },
+    {
+      "event_id": "fa-cup-2026-11-07-2000-peterborough-united-reading",
+      "event_name": "Peterborough United vs Reading",
+      "competition": {
+        "id": "fa-cup",
+        "name": "FA Cup",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/19/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-07T20:00:00Z",
+      "start_time_pkt": "2026-11-08T01:00:00+05:00",
+      "start_timestamp": 1794081600,
+      "display_date": "2026-11-08",
+      "display_time": "01:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Peterborough United",
+        "slug": "peterborough-united",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/54/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Peterborough United",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Reading",
+        "slug": "reading",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/28/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Reading",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-07T11:10:24.626338+00:00",
+      "stream_links": "pro/RkEgQ3VwLVBldGVyYm9yb3VnaCBVbml0ZWQtdnMtUmVhZGluZzE3OTQwMTY4OTYyMzY.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fa-cup-2026-11-07-2000-peterborough-united-reading.png"
+    }
+  ]
 }

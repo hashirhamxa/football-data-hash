@@ -7,15 +7,15 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-06T23:38:16.555795+00:00",
+  "generated_at": "2026-11-07T11:13:26.551668+00:00",
   "feed_type": "tomorrow",
   "target_date_pkt": "2026-11-08",
   "target_day_name": "Sunday",
   "total_events": 2,
   "events": [
     {
-      "event_id": "la-liga-2026-11-07-2000-valencia-real-madrid",
-      "event_name": "Valencia vs Real Madrid",
+      "event_id": "la-liga-2026-11-07-2000-real-madrid-valencia",
+      "event_name": "Real Madrid vs Valencia",
       "competition": {
         "id": "la-liga",
         "name": "LaLiga",
@@ -37,18 +37,6 @@
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Valencia",
-        "slug": "valencia",
-        "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/2828/image",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Valencia",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
         "name": "Real Madrid",
         "slug": "real-madrid",
         "espn_id": null,
@@ -60,15 +48,27 @@
           "is_fallback": false
         }
       },
+      "away_team": {
+        "name": "Valencia",
+        "slug": "valencia",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2828/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Valencia",
+          "is_fallback": false
+        }
+      },
       "data_source": {
         "provider": "LiveBroadcast",
         "season": "2026-27",
         "source_url": null,
         "priority_applied": true
       },
-      "last_updated": "2026-11-06T23:37:16.288655+00:00",
-      "stream_links": "pro/TGFMaWdhLVZhbGVuY2lhLXZzLVJlYWwgTWFkcmlkMTc5Mzk5ODM4NTIwNQ.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-11-07-2000-valencia-real-madrid.png"
+      "last_updated": "2026-11-07T11:10:24.626338+00:00",
+      "stream_links": "pro/QUVXLUFFVy12cy1BRVcxNzc4OTExODYwMDE1.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-11-07-2000-real-madrid-valencia.png"
     },
     {
       "event_id": "la-liga-2026-11-08-1300-elche-real-betis",
@@ -123,7 +123,7 @@
         "source_url": null,
         "priority_applied": true
       },
-      "last_updated": "2026-11-06T23:37:16.288655+00:00",
+      "last_updated": "2026-11-07T11:10:24.626338+00:00",
       "stream_links": "pro/TGFMaWdhLUVsY2hlLXZzLVJlYWwgQmV0aXMxNzkzOTk4Mzg1MjA1.txt",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-11-08-1300-elche-real-betis.png"
     }

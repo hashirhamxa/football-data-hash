@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "competition": {
+    "id": "copa-do-brasil",
+    "name": "Copa do Brasil",
+    "country": "Brazil"
+  },
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "generated_at": "2026-11-07T11:13:26.783977+00:00",
+  "feed_type": "tomorrow",
+  "target_date_pkt": "2026-11-08",
+  "target_day_name": "Sunday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "copa-do-brasil-2026-11-07-2100-atletico-mineiro-gremio",
+      "event_name": "Atlético Mineiro vs Grêmio",
+      "competition": {
+        "id": "copa-do-brasil",
+        "name": "Copa do Brasil",
+        "country": "Brazil",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/373/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-07T21:00:00Z",
+      "start_time_pkt": "2026-11-08T02:00:00+05:00",
+      "start_timestamp": 1794085200,
+      "display_date": "2026-11-08",
+      "display_time": "02:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Atlético Mineiro",
+        "slug": "atletico-mineiro",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1977/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Atlético Mineiro",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Grêmio",
+        "slug": "gremio",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/5926/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Grêmio",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-07T11:10:24.626338+00:00",
+      "stream_links": "pro/Q29wYSBkbyBCcmFzaWwtQXRsw6l0aWNvIE1pbmVpcm8tdnMtR3LDqm1pbzE3OTQwMTcyNDQwNzM.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-do-brasil-2026-11-07-2100-atletico-mineiro-gremio.png"
+    }
+  ]
+}

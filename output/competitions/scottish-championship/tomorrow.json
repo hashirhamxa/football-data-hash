@@ -7,10 +7,68 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-06T23:38:16.592586+00:00",
+  "generated_at": "2026-11-07T11:13:26.652063+00:00",
   "feed_type": "tomorrow",
   "target_date_pkt": "2026-11-08",
   "target_day_name": "Sunday",
-  "total_events": 0,
-  "events": []
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "scottish-championship-2026-11-07-2000-st-mirren-rangers",
+      "event_name": "St. Mirren vs Rangers",
+      "competition": {
+        "id": "scottish-championship",
+        "name": "Scottish Premiership",
+        "country": "Scotland",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/36/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-07",
+      "match_date": "2026-11-07",
+      "match_date_utc": "2026-11-07",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-07T20:00:00Z",
+      "start_time_pkt": "2026-11-08T01:00:00+05:00",
+      "start_timestamp": 1794081600,
+      "display_date": "2026-11-08",
+      "display_time": "01:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "St. Mirren",
+        "slug": "st-mirren",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2359/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "St. Mirren",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Rangers",
+        "slug": "rangers",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2351/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Rangers",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-07T11:10:24.626338+00:00",
+      "stream_links": "pro/U2NvdHRpc2ggUHJlbWllcnNoaXAtU3QuIE1pcnJlbi12cy1SYW5nZXJzMTc5NDAxNjk1NzAyNA.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-11-07-2000-st-mirren-rangers.png"
+    }
+  ]
 }

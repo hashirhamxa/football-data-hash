@@ -190,6 +190,18 @@ TOURNAMENT_NAME_MAP = {
     "moeve liga f": "liga-f",
     "liga portugal betclic": "primeira-liga",
     "liga portugal": "primeira-liga",
+    "caf super cup": "caf-super-cup",
+    "frauen-bundesliga": "frauen-bundesliga",
+    "frauen bundesliga": "frauen-bundesliga",
+    "german frauen-bundesliga": "frauen-bundesliga",
+    "superliga romaniei": "superliga-romaniei",
+    "romanian superliga": "superliga-romaniei",
+    "guatemala liga nacional": "guatemalan-liga-nacional",
+    "guatemalan liga nacional": "guatemalan-liga-nacional",
+    "division profesional": "bolivian-primera-division",
+    "bolivian division profesional": "bolivian-primera-division",
+    "primera division": "paraguayan-primera-division",
+    "paraguayan primera division": "paraguayan-primera-division",
 }
 
 

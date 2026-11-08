@@ -7,10 +7,125 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-07T22:28:22.315180+00:00",
+  "generated_at": "2026-11-08T08:40:35.699130+00:00",
   "feed_type": "today",
   "target_date_pkt": "2026-11-08",
   "target_day_name": "Sunday",
-  "total_events": 0,
-  "events": []
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "liga-f-2026-11-08-1100-logrono-united-sevilla-fc",
+      "event_name": "Logroño United vs Sevilla FC",
+      "competition": {
+        "id": "liga-f",
+        "name": "Liga F Moeve",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1127/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-08",
+      "match_date": "2026-11-08",
+      "match_date_utc": "2026-11-08",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-08T11:00:00Z",
+      "start_time_pkt": "2026-11-08T16:00:00+05:00",
+      "start_timestamp": 1794135600,
+      "display_date": "2026-11-08",
+      "display_time": "04:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Logroño United",
+        "slug": "logrono-united",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/861598/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Logroño United",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Sevilla FC",
+        "slug": "sevilla-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/77903/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sevilla FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-08T08:37:08.539402+00:00",
+      "stream_links": "pro/TGlnYSBGIE1vZXZlLUxvZ3Jvw7FvIFVuaXRlZC12cy1TZXZpbGxhIEZDMTc5NDEwNDY2NzYxMg.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-11-08-1100-logrono-united-sevilla-fc.png"
+    },
+    {
+      "event_id": "liga-f-2026-11-08-1500-futbol-club-barcelona-madrid-cff",
+      "event_name": "Fútbol Club Barcelona vs Madrid CFF",
+      "competition": {
+        "id": "liga-f",
+        "name": "Liga F Moeve",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1127/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-08",
+      "match_date": "2026-11-08",
+      "match_date_utc": "2026-11-08",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-08T15:00:00Z",
+      "start_time_pkt": "2026-11-08T20:00:00+05:00",
+      "start_timestamp": 1794150000,
+      "display_date": "2026-11-08",
+      "display_time": "08:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Fútbol Club Barcelona",
+        "slug": "futbol-club-barcelona",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/77889/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Fútbol Club Barcelona",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Madrid CFF",
+        "slug": "madrid-cff",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/253896/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Madrid CFF",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-08T08:37:08.539402+00:00",
+      "stream_links": "pro/TGlnYSBGIE1vZXZlLUbDunRib2wgQ2x1YiBCYXJjZWxvbmEtdnMtTWFkcmlkIENGRjE3OTQxMDQ2Njc2MTE.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-11-08-1500-futbol-club-barcelona-madrid-cff.png"
+    }
+  ]
 }

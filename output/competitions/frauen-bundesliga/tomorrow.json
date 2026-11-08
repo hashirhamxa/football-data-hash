@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "competition": {
+    "id": "frauen-bundesliga",
+    "name": "Frauen-Bundesliga",
+    "country": "Germany"
+  },
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "generated_at": "2026-11-08T08:40:36.068472+00:00",
+  "feed_type": "tomorrow",
+  "target_date_pkt": "2026-11-09",
+  "target_day_name": "Monday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "frauen-bundesliga-2026-11-09-1700-1-fc-koln-rb-leipzig",
+      "event_name": "1. FC Köln vs RB Leipzig",
+      "competition": {
+        "id": "frauen-bundesliga",
+        "name": "Frauen-Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/232/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-09",
+      "match_date": "2026-11-09",
+      "match_date_utc": "2026-11-09",
+      "match_date_pkt": "2026-11-09",
+      "start_time_utc": "2026-11-09T17:00:00Z",
+      "start_time_pkt": "2026-11-09T22:00:00+05:00",
+      "start_timestamp": 1794243600,
+      "display_date": "2026-11-09",
+      "display_time": "10:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "1. FC Köln",
+        "slug": "1-fc-koln",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/229794/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "1. FC Köln",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "RB Leipzig",
+        "slug": "rb-leipzig",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/322623/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "RB Leipzig",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-08T08:37:08.539402+00:00",
+      "stream_links": "pro/RnJhdWVuLUJ1bmRlc2xpZ2EtMS4gRkMgS8O2bG4tdnMtUkIgTGVpcHppZzE3OTQxMDY3MDY5Mzg.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/frauen-bundesliga-2026-11-09-1700-1-fc-koln-rb-leipzig.png"
+    }
+  ]
+}

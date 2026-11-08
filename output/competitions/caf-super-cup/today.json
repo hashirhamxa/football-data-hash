@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "competition": {
+    "id": "caf-super-cup",
+    "name": "CAF Super Cup",
+    "country": "Africa"
+  },
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "generated_at": "2026-11-08T08:40:36.062515+00:00",
+  "feed_type": "today",
+  "target_date_pkt": "2026-11-08",
+  "target_day_name": "Sunday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "caf-super-cup-2026-11-08-1300-mamelodi-sundowns-usm-alger",
+      "event_name": "Mamelodi Sundowns vs USM Alger",
+      "competition": {
+        "id": "caf-super-cup",
+        "name": "CAF Super Cup",
+        "country": "Africa",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1250/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-08",
+      "match_date": "2026-11-08",
+      "match_date_utc": "2026-11-08",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-08T13:00:00Z",
+      "start_time_pkt": "2026-11-08T18:00:00+05:00",
+      "start_timestamp": 1794142800,
+      "display_date": "2026-11-08",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Mamelodi Sundowns",
+        "slug": "mamelodi-sundowns",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/7665/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Mamelodi Sundowns",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "USM Alger",
+        "slug": "usm-alger",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/42206/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "USM Alger",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-08T08:37:08.539402+00:00",
+      "stream_links": "pro/Q0FGIFN1cGVyIEN1cC1NYW1lbG9kaSBTdW5kb3ducy12cy1VU00gQWxnZXIxNzk0MTA1MDA3MjM3.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/caf-super-cup-2026-11-08-1300-mamelodi-sundowns-usm-alger.png"
+    }
+  ]
+}

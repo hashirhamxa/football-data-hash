@@ -7,8 +7,123 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-07T22:28:22.344188+00:00",
+  "generated_at": "2026-11-08T08:40:36.014699+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 0,
-  "events": []
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "nwsl-2026-11-08-1730-nj-ny-gotham-fc-seattle-reign-fc",
+      "event_name": "NJ/NY Gotham FC vs Seattle Reign FC",
+      "competition": {
+        "id": "nwsl",
+        "name": "NWSL",
+        "country": "USA",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1690/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-08",
+      "match_date": "2026-11-08",
+      "match_date_utc": "2026-11-08",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-08T17:30:00Z",
+      "start_time_pkt": "2026-11-08T22:30:00+05:00",
+      "start_timestamp": 1794159000,
+      "display_date": "2026-11-08",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "NJ/NY Gotham FC",
+        "slug": "nj-ny-gotham-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/34718/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "NJ/NY Gotham FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Seattle Reign FC",
+        "slug": "seattle-reign-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/151010/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Seattle Reign FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-08T08:37:08.539402+00:00",
+      "stream_links": "pro/TldTTC1OSi9OWSBHb3RoYW0gRkMtdnMtU2VhdHRsZSBSZWlnbiBGQzE3OTQxMDQ4NDk5OTU.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nwsl-2026-11-08-1730-nj-ny-gotham-fc-seattle-reign-fc.png"
+    },
+    {
+      "event_id": "nwsl-2026-11-08-2000-washington-spirit-portland-thorns-fc",
+      "event_name": "Washington Spirit vs Portland Thorns FC",
+      "competition": {
+        "id": "nwsl",
+        "name": "NWSL",
+        "country": "USA",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1690/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-08",
+      "match_date": "2026-11-08",
+      "match_date_utc": "2026-11-08",
+      "match_date_pkt": "2026-11-09",
+      "start_time_utc": "2026-11-08T20:00:00Z",
+      "start_time_pkt": "2026-11-09T01:00:00+05:00",
+      "start_timestamp": 1794168000,
+      "display_date": "2026-11-09",
+      "display_time": "01:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Washington Spirit",
+        "slug": "washington-spirit",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/151012/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Washington Spirit",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Portland Thorns FC",
+        "slug": "portland-thorns-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/151008/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Portland Thorns FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-08T08:37:08.539402+00:00",
+      "stream_links": "pro/TldTTC1XYXNoaW5ndG9uIFNwaXJpdC12cy1Qb3J0bGFuZCBUaG9ybnMgRkMxNzk0MTA0ODQ5OTk1.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nwsl-2026-11-08-2000-washington-spirit-portland-thorns-fc.png"
+    }
+  ]
 }

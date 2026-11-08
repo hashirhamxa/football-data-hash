@@ -1924,6 +1924,120 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="glass_plate"
     ),
 
+    # 73. CAF Super Cup: African gold, CAF emerald green, prestigious dark base
+    "caf-super-cup": CompetitionTheme(
+        competition_id="caf-super-cup",
+        name="CAF Super Cup",
+        background_top=(18, 22, 16),
+        background_bottom=(10, 14, 10),
+        primary=(212, 175, 55),
+        secondary=(0, 135, 65),
+        highlight=(255, 230, 140),
+        text_primary=(255, 255, 255),
+        text_secondary=(230, 240, 220),
+        panel_color=(26, 32, 22, 225),
+        panel_border=(212, 175, 55, 180),
+        pattern="subtle_waves",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
+    # 74. Frauen-Bundesliga: German women's football coral-magenta & dynamic cyan
+    "frauen-bundesliga": CompetitionTheme(
+        competition_id="frauen-bundesliga",
+        name="Frauen-Bundesliga",
+        background_top=(20, 12, 24),
+        background_bottom=(12, 8, 16),
+        primary=(220, 0, 70),
+        secondary=(0, 180, 216),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(240, 220, 235),
+        panel_color=(28, 18, 32, 225),
+        panel_border=(220, 0, 70, 180),
+        pattern="tactical_hex",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
+    # 75. SuperLiga României: Romanian tricolor blue, gold & red accent
+    "superliga-romaniei": CompetitionTheme(
+        competition_id="superliga-romaniei",
+        name="SuperLiga României",
+        background_top=(10, 16, 32),
+        background_bottom=(6, 10, 20),
+        primary=(0, 80, 180),
+        secondary=(255, 205, 0),
+        highlight=(220, 20, 60),
+        text_primary=(255, 255, 255),
+        text_secondary=(210, 230, 250),
+        panel_color=(16, 24, 44, 225),
+        panel_border=(0, 80, 180, 180),
+        pattern="tactical_hex",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
+    # 76. Guatemalan Liga Nacional: Sky blue & pure white maya palette
+    "guatemalan-liga-nacional": CompetitionTheme(
+        competition_id="guatemalan-liga-nacional",
+        name="Guatemalan Liga Nacional",
+        background_top=(12, 22, 34),
+        background_bottom=(6, 14, 22),
+        primary=(73, 151, 208),
+        secondary=(255, 255, 255),
+        highlight=(160, 215, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 230, 250),
+        panel_color=(18, 30, 46, 225),
+        panel_border=(73, 151, 208, 180),
+        pattern="subtle_waves",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
+    # 77. Bolivian División Profesional: Andean red, sun gold & rainforest green
+    "bolivian-primera-division": CompetitionTheme(
+        competition_id="bolivian-primera-division",
+        name="Bolivian División Profesional",
+        background_top=(22, 14, 14),
+        background_bottom=(12, 8, 8),
+        primary=(213, 43, 30),
+        secondary=(253, 218, 36),
+        highlight=(0, 122, 61),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 230, 215),
+        panel_color=(30, 20, 20, 225),
+        panel_border=(213, 43, 30, 180),
+        pattern="subtle_waves",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
+    # 78. Paraguayan Primera División: Patriotic red, deep royal blue & white
+    "paraguayan-primera-division": CompetitionTheme(
+        competition_id="paraguayan-primera-division",
+        name="Paraguayan Primera División",
+        background_top=(14, 18, 32),
+        background_bottom=(8, 10, 20),
+        primary=(213, 43, 30),
+        secondary=(0, 56, 168),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(220, 230, 250),
+        panel_color=(20, 26, 44, 225),
+        panel_border=(0, 56, 168, 180),
+        pattern="tactical_hex",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
     # 56. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",

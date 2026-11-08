@@ -7,10 +7,125 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-07T22:28:22.320335+00:00",
+  "generated_at": "2026-11-08T08:40:35.776862+00:00",
   "feed_type": "today",
   "target_date_pkt": "2026-11-08",
   "target_day_name": "Sunday",
-  "total_events": 0,
-  "events": []
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "scottish-championship-2026-11-08-1500-heart-of-midlothian-falkirk-fc",
+      "event_name": "Heart of Midlothian vs Falkirk FC",
+      "competition": {
+        "id": "scottish-championship",
+        "name": "Scottish Premiership",
+        "country": "Scotland",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/36/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-08",
+      "match_date": "2026-11-08",
+      "match_date_utc": "2026-11-08",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-08T15:00:00Z",
+      "start_time_pkt": "2026-11-08T20:00:00+05:00",
+      "start_timestamp": 1794150000,
+      "display_date": "2026-11-08",
+      "display_time": "08:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Heart of Midlothian",
+        "slug": "heart-of-midlothian",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2353/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Heart of Midlothian",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Falkirk FC",
+        "slug": "falkirk-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2363/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Falkirk FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-08T08:37:08.539402+00:00",
+      "stream_links": "pro/U2NvdHRpc2ggUHJlbWllcnNoaXAtSGVhcnQgb2YgTWlkbG90aGlhbi12cy1GYWxraXJrIEZDMTc5NDEwNDYxNTA3OA.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-11-08-1500-heart-of-midlothian-falkirk-fc.png"
+    },
+    {
+      "event_id": "scottish-championship-2026-11-08-1600-celtic-kilmarnock",
+      "event_name": "Celtic vs Kilmarnock",
+      "competition": {
+        "id": "scottish-championship",
+        "name": "Scottish Premiership",
+        "country": "Scotland",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/36/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-08",
+      "match_date": "2026-11-08",
+      "match_date_utc": "2026-11-08",
+      "match_date_pkt": "2026-11-08",
+      "start_time_utc": "2026-11-08T16:00:00Z",
+      "start_time_pkt": "2026-11-08T21:00:00+05:00",
+      "start_timestamp": 1794153600,
+      "display_date": "2026-11-08",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Celtic",
+        "slug": "celtic",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2352/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Celtic",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Kilmarnock",
+        "slug": "kilmarnock",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2347/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Kilmarnock",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-08T08:37:08.539402+00:00",
+      "stream_links": "pro/U2NvdHRpc2ggUHJlbWllcnNoaXAtQ2VsdGljLXZzLUtpbG1hcm5vY2sxNzk0MTA0NjE1MDc4.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/scottish-championship-2026-11-08-1600-celtic-kilmarnock.png"
+    }
+  ]
 }

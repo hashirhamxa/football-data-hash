@@ -396,6 +396,12 @@ class LiveFeedAdapter(BaseFixtureAdapter):
         """
         Returns all parsed football events from the live feed.
         """
+        NON_FOOTBALL_CATEGORIES = {
+            "basketball", "cricket", "boxing", "hockey", "motorsports",
+            "tennis", "golf", "snooker", "darts", "baseball", "mma", "wrestling",
+            "rugby", "handball", "volleyball", "table tennis", "badminton", "esports"
+        }
+
         raw_events = self._fetch_live_or_cached_events()
         football_matches = []
 
@@ -404,6 +410,9 @@ class LiveFeedAdapter(BaseFixtureAdapter):
             event_name_field = ev.get("eventName", "")
             norm_cat = normalize_str(category)
             norm_name = normalize_str(event_name_field)
+
+            if norm_cat in NON_FOOTBALL_CATEGORIES or norm_name in NON_FOOTBALL_CATEGORIES:
+                continue
 
             is_football = (
                 norm_cat == "football"

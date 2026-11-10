@@ -7,10 +7,68 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-10T01:51:22.273062+00:00",
+  "generated_at": "2026-11-10T16:42:14.910036+00:00",
   "feed_type": "today",
   "target_date_pkt": "2026-11-10",
   "target_day_name": "Tuesday",
-  "total_events": 0,
-  "events": []
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "copa-del-rey-2026-11-10-1800-cd-anaitasuna-ft-deportivo-alaves",
+      "event_name": "CD Anaitasuna FT vs Deportivo Alavés",
+      "competition": {
+        "id": "copa-del-rey",
+        "name": "Copa del Rey",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/329/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-10",
+      "match_date": "2026-11-10",
+      "match_date_utc": "2026-11-10",
+      "match_date_pkt": "2026-11-10",
+      "start_time_utc": "2026-11-10T18:00:00Z",
+      "start_time_pkt": "2026-11-10T23:00:00+05:00",
+      "start_timestamp": 1794333600,
+      "display_date": "2026-11-10",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "CD Anaitasuna FT",
+        "slug": "cd-anaitasuna-ft",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/263773/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "CD Anaitasuna FT",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Deportivo Alavés",
+        "slug": "deportivo-alaves",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2885/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Deportivo Alavés",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-10T16:40:54.748122+00:00",
+      "stream_links": "pro/Q29wYSBkZWwgUmV5LUNEIEFuYWl0YXN1bmEgRlQtdnMtRGVwb3J0aXZvIEFsYXbDqXMxNzk0MzI3ODE2Nzcy.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-del-rey-2026-11-10-1800-cd-anaitasuna-ft-deportivo-alaves.png"
+    }
+  ]
 }

@@ -7,10 +7,125 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-10T16:49:32.346645+00:00",
+  "generated_at": "2026-11-10T23:52:26.382083+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-11-11",
-  "target_day_name": "Wednesday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-12",
+  "target_day_name": "Thursday",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "nations-league-2026-11-12-1700-armenia-cyprus",
+      "event_name": "Armenia vs Cyprus",
+      "competition": {
+        "id": "nations-league",
+        "name": "UEFA Nations League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/10783/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-12",
+      "match_date": "2026-11-12",
+      "match_date_utc": "2026-11-12",
+      "match_date_pkt": "2026-11-12",
+      "start_time_utc": "2026-11-12T17:00:00Z",
+      "start_time_pkt": "2026-11-12T22:00:00+05:00",
+      "start_timestamp": 1794502800,
+      "display_date": "2026-11-12",
+      "display_time": "10:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Armenia",
+        "slug": "armenia",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/4740/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Armenia",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Cyprus",
+        "slug": "cyprus",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/4482/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Cyprus",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-10T23:52:03.111740+00:00",
+      "stream_links": "pro/VUVGQSBOYXRpb25zIExlYWd1ZS1Bcm1lbmlhLXZzLUN5cHJ1czE3OTQxODc3NDk1MDQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-11-12-1700-armenia-cyprus.png"
+    },
+    {
+      "event_id": "nations-league-2026-11-12-1700-turkiye-belgium",
+      "event_name": "Türkiye vs Belgium",
+      "competition": {
+        "id": "nations-league",
+        "name": "UEFA Nations League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/10783/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-12",
+      "match_date": "2026-11-12",
+      "match_date_utc": "2026-11-12",
+      "match_date_pkt": "2026-11-12",
+      "start_time_utc": "2026-11-12T17:00:00Z",
+      "start_time_pkt": "2026-11-12T22:00:00+05:00",
+      "start_timestamp": 1794502800,
+      "display_date": "2026-11-12",
+      "display_time": "10:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Türkiye",
+        "slug": "turkiye",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/4700/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Türkiye",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Belgium",
+        "slug": "belgium",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/4717/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Belgium",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-10T23:52:03.111740+00:00",
+      "stream_links": "pro/VUVGQSBOYXRpb25zIExlYWd1ZS1Uw7xya2l5ZS12cy1CZWxnaXVtMTc5NDE4Nzc0OTUwNA.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/nations-league-2026-11-12-1700-turkiye-belgium.png"
+    }
+  ]
 }

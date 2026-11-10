@@ -7,10 +7,125 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-10T16:49:32.474644+00:00",
+  "generated_at": "2026-11-10T23:52:26.402879+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-10",
-  "target_day_name": "Tuesday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-11",
+  "target_day_name": "Wednesday",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "copa-colombia-2026-11-10-2330-internacional-de-bogota-america-de-cali",
+      "event_name": "Internacional de Bogotá vs América de Cali",
+      "competition": {
+        "id": "copa-colombia",
+        "name": "Copa Colombia",
+        "country": "Colombia",
+        "round": "1st Leg",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1335/image/dark"
+      },
+      "round": "1st Leg",
+      "source_date": "2026-11-10",
+      "match_date": "2026-11-10",
+      "match_date_utc": "2026-11-10",
+      "match_date_pkt": "2026-11-11",
+      "start_time_utc": "2026-11-10T23:30:00Z",
+      "start_time_pkt": "2026-11-11T04:30:00+05:00",
+      "start_timestamp": 1794353400,
+      "display_date": "2026-11-11",
+      "display_time": "04:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Internacional de Bogotá",
+        "slug": "internacional-de-bogota",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1164534/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Internacional de Bogotá",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "América de Cali",
+        "slug": "america-de-cali",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/6102/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "América de Cali",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-10T23:52:03.111740+00:00",
+      "stream_links": "pro/Q29wYSBDb2xvbWJpYS1JbnRlcm5hY2lvbmFsIGRlIEJvZ290w6EtdnMtQW3DqXJpY2EgZGUgQ2FsaTE3OTQzMjc5OTQyODc.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-colombia-2026-11-10-2330-internacional-de-bogota-america-de-cali.png"
+    },
+    {
+      "event_id": "copa-colombia-2026-11-11-0130-once-caldas-atletico-nacional",
+      "event_name": "Once Caldas vs Atlético Nacional",
+      "competition": {
+        "id": "copa-colombia",
+        "name": "Copa Colombia",
+        "country": "Colombia",
+        "round": "1st Leg",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1335/image/dark"
+      },
+      "round": "1st Leg",
+      "source_date": "2026-11-11",
+      "match_date": "2026-11-11",
+      "match_date_utc": "2026-11-11",
+      "match_date_pkt": "2026-11-11",
+      "start_time_utc": "2026-11-11T01:30:00Z",
+      "start_time_pkt": "2026-11-11T06:30:00+05:00",
+      "start_timestamp": 1794360600,
+      "display_date": "2026-11-11",
+      "display_time": "06:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Once Caldas",
+        "slug": "once-caldas",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/6118/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Once Caldas",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Atlético Nacional",
+        "slug": "atletico-nacional",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/6106/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Atlético Nacional",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-10T23:52:03.111740+00:00",
+      "stream_links": "pro/Q29wYSBDb2xvbWJpYS1PbmNlIENhbGRhcy12cy1BdGzDqXRpY28gTmFjaW9uYWwxNzk0MzI3OTk0Mjg3.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-colombia-2026-11-11-0130-once-caldas-atletico-nacional.png"
+    }
+  ]
 }

@@ -7,10 +7,68 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-10T16:49:32.378555+00:00",
+  "generated_at": "2026-11-10T23:52:26.386472+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-10",
-  "target_day_name": "Tuesday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-11",
+  "target_day_name": "Wednesday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "international-friendlies-2026-11-11-1200-vietnam-chinese-taipei",
+      "event_name": "Vietnam vs Chinese Taipei",
+      "competition": {
+        "id": "international-friendlies",
+        "name": "International Friendly Games",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/851/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-11",
+      "match_date": "2026-11-11",
+      "match_date_utc": "2026-11-11",
+      "match_date_pkt": "2026-11-11",
+      "start_time_utc": "2026-11-11T12:00:00Z",
+      "start_time_pkt": "2026-11-11T17:00:00+05:00",
+      "start_timestamp": 1794398400,
+      "display_date": "2026-11-11",
+      "display_time": "05:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Vietnam",
+        "slug": "vietnam",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/7050/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Vietnam",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Chinese Taipei",
+        "slug": "chinese-taipei",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/5937/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Chinese Taipei",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-10T23:52:03.111740+00:00",
+      "stream_links": "pro/SW50ZXJuYXRpb25hbCBGcmllbmRseSBHYW1lcy1WaWV0bmFtLXZzLUNoaW5lc2UgVGFpcGVpMTc5NDE4NzUzMTc2MA.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-11-11-1200-vietnam-chinese-taipei.png"
+    }
+  ]
 }

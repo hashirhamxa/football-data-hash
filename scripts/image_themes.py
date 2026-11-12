@@ -394,6 +394,24 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="flag_rounded_card"
     ),
 
+    "club-friendlies": CompetitionTheme(
+        competition_id="club-friendlies",
+        name="Club Friendly Games",
+        background_top=(12, 20, 36),
+        background_bottom=(18, 28, 48),
+        primary=(0, 140, 255),
+        secondary=(0, 210, 190),
+        highlight=(230, 245, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(185, 220, 245),
+        panel_color=(18, 28, 48, 225),
+        panel_border=(0, 140, 255, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="inter",
+        crest_container_style="modern_frame"
+    ),
+
     # 19. UEFA European U-21 Championship Qualifiers: Deep European midnight blue, electric UEFA cyan & radiant gold, energetic national flag cards
     "uefa-u21-qualifying": CompetitionTheme(
         competition_id="uefa-u21-qualifying",
@@ -793,6 +811,24 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
+    "supercopa-argentina": CompetitionTheme(
+        competition_id="supercopa-argentina",
+        name="Supercopa Argentina",
+        background_top=(10, 18, 38),
+        background_bottom=(16, 28, 54),
+        primary=(116, 172, 223),
+        secondary=(246, 180, 14),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 225, 250),
+        panel_color=(16, 26, 52, 225),
+        panel_border=(116, 172, 223, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
     # 39. Portuguese Primeira Liga: Scarlet red & deep emerald / gold, midnight slate base
     "primeira-liga": CompetitionTheme(
         competition_id="primeira-liga",
@@ -835,6 +871,24 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
     "liga-mx": CompetitionTheme(
         competition_id="liga-mx",
         name="Liga MX",
+        background_top=(10, 26, 20),
+        background_bottom=(6, 14, 28),
+        primary=(0, 168, 89),
+        secondary=(206, 17, 38),
+        highlight=(0, 230, 118),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 240, 215),
+        panel_color=(12, 28, 22, 225),
+        panel_border=(0, 168, 89, 180),
+        pattern="laliga_radial_spectrum",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "liga-de-expansion-mx": CompetitionTheme(
+        competition_id="liga-de-expansion-mx",
+        name="Liga de Expansión MX",
         background_top=(10, 26, 20),
         background_bottom=(6, 14, 28),
         primary=(0, 168, 89),

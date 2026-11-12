@@ -209,6 +209,15 @@ TOURNAMENT_NAME_MAP = {
     "bolivian division profesional": "bolivian-primera-division",
     "primera division": "paraguayan-primera-division",
     "paraguayan primera division": "paraguayan-primera-division",
+    "supercopa argentina": "supercopa-argentina",
+    "argentine supercopa": "supercopa-argentina",
+    "liga de expansion mx, apertura": "liga-de-expansion-mx",
+    "liga de expansion mx": "liga-de-expansion-mx",
+    "liga de expansion": "liga-de-expansion-mx",
+    "mexican liga de expansion mx": "liga-de-expansion-mx",
+    "club friendly games": "club-friendlies",
+    "club friendly": "club-friendlies",
+    "club friendlies": "club-friendlies",
 }
 
 
@@ -415,7 +424,7 @@ class LiveFeedAdapter(BaseFixtureAdapter):
             norm_cat = normalize_str(category)
             norm_name = normalize_str(event_name_field)
 
-            if norm_cat in NON_FOOTBALL_CATEGORIES or norm_name in NON_FOOTBALL_CATEGORIES:
+            if norm_cat in NON_FOOTBALL_CATEGORIES or norm_name in NON_FOOTBALL_CATEGORIES or "mlb" in norm_name:
                 continue
 
             is_football = (
@@ -431,7 +440,9 @@ class LiveFeedAdapter(BaseFixtureAdapter):
             time_str = ev.get("time")
             iso_utc, date_iso, time_clean = self.parse_feed_datetime(date_str, time_str)
 
-            if team_a.lower() in ["live evento", "null"] and team_b.lower() in ["live evento", "null"]:
+            if team_a.lower() in ["live evento", "null", "simulacast"] and team_b.lower() in ["live evento", "null", "simulacast"]:
+                continue
+            if team_a.lower() == "simulacast" or team_b.lower() == "simulacast":
                 continue
 
             comp_id = TOURNAMENT_NAME_MAP.get(norm_name) or TOURNAMENT_NAME_MAP.get(norm_cat)

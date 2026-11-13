@@ -145,6 +145,8 @@ TOURNAMENT_NAME_MAP = {
     "international friendly games": "international-friendlies",
     "international friendly": "international-friendlies",
     "friendly games": "international-friendlies",
+    "friendly match": "international-friendlies",
+    "friendly matches": "international-friendlies",
     "uefa european u-21 championship qualifiers": "uefa-u21-qualifying",
     "uefa u21 qualifying": "uefa-u21-qualifying",
     "concacaf nations league": "concacaf-nations-league",

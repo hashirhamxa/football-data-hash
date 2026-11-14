@@ -7,10 +7,68 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-14T18:01:31.413406+00:00",
+  "generated_at": "2026-11-14T22:51:39.644106+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-14",
-  "target_day_name": "Saturday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-15",
+  "target_day_name": "Sunday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "copa-argentina-2026-11-14-2200-banfield-boca-juniors",
+      "event_name": "Banfield vs Boca Juniors",
+      "competition": {
+        "id": "copa-argentina",
+        "name": "Copa Argentina",
+        "country": "Argentina",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1024/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-14",
+      "match_date": "2026-11-14",
+      "match_date_utc": "2026-11-14",
+      "match_date_pkt": "2026-11-15",
+      "start_time_utc": "2026-11-14T22:00:00Z",
+      "start_time_pkt": "2026-11-15T03:00:00+05:00",
+      "start_timestamp": 1794693600,
+      "display_date": "2026-11-15",
+      "display_time": "03:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Banfield",
+        "slug": "banfield",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/3219/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Banfield",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Boca Juniors",
+        "slug": "boca-juniors",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/3202/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Boca Juniors",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-14T22:51:30.859188+00:00",
+      "stream_links": "pro/Q29wYSBBcmdlbnRpbmEtQmFuZmllbGQtdnMtQm9jYSBKdW5pb3JzMTc5NDYyNzQwNzU4Nw.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/copa-argentina-2026-11-14-2200-banfield-boca-juniors.png"
+    }
+  ]
 }

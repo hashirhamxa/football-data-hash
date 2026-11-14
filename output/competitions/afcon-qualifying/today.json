@@ -7,10 +7,68 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-14T00:05:22.196777+00:00",
+  "generated_at": "2026-11-14T06:02:49.873702+00:00",
   "feed_type": "today",
   "target_date_pkt": "2026-11-14",
   "target_day_name": "Saturday",
-  "total_events": 0,
-  "events": []
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "afcon-qualifying-2026-11-14-1600-uganda-botswana",
+      "event_name": "Uganda vs Botswana",
+      "competition": {
+        "id": "afcon-qualifying",
+        "name": "Africa Cup of Nations Qual.",
+        "country": "Africa",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1848/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-14",
+      "match_date": "2026-11-14",
+      "match_date_utc": "2026-11-14",
+      "match_date_pkt": "2026-11-14",
+      "start_time_utc": "2026-11-14T16:00:00Z",
+      "start_time_pkt": "2026-11-14T21:00:00+05:00",
+      "start_timestamp": 1794672000,
+      "display_date": "2026-11-14",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Uganda",
+        "slug": "uganda",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/4726/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Uganda",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Botswana",
+        "slug": "botswana",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/4747/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Botswana",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-14T06:01:02.714070+00:00",
+      "stream_links": "pro/QWZyaWNhIEN1cCBvZiBOYXRpb25zIFF1YWwuLVVnYW5kYS12cy1Cb3Rzd2FuYTE3OTQ2MjYxOTc3MjQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afcon-qualifying-2026-11-14-1600-uganda-botswana.png"
+    }
+  ]
 }

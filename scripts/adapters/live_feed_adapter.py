@@ -220,6 +220,21 @@ TOURNAMENT_NAME_MAP = {
     "club friendly games": "club-friendlies",
     "club friendly": "club-friendlies",
     "club friendlies": "club-friendlies",
+    "league two": "league-two",
+    "english league two": "league-two",
+    "england league two": "league-two",
+    "copa argentina": "copa-argentina",
+    "liga mx, women, apertura": "liga-mx-women",
+    "liga mx, women, clausura": "liga-mx-women",
+    "liga mx women": "liga-mx-women",
+    "liga mx femenil": "liga-mx-women",
+    "mexican liga bbva mx femenil": "liga-mx-women",
+    "england - fa women's cup": "womens-fa-cup",
+    "england fa women's cup": "womens-fa-cup",
+    "fa women's cup": "womens-fa-cup",
+    "women's fa cup": "womens-fa-cup",
+    "northern super league": "northern-super-league",
+    "usl league one": "usl-league-one",
 }
 
 

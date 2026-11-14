@@ -621,6 +621,24 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="glass_plate"
     ),
 
+    "league-two": CompetitionTheme(
+        competition_id="league-two",
+        name="English League Two",
+        background_top=(14, 18, 38),
+        background_bottom=(10, 12, 26),
+        primary=(235, 40, 75),
+        secondary=(0, 195, 245),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 225, 250),
+        panel_color=(18, 24, 46, 225),
+        panel_border=(235, 40, 75, 180),
+        pattern="pl_modern_light_trails",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="glass_plate"
+    ),
+
     # 30. Scottish Championship: Royal navy & thistle silver/gold
     "scottish-championship": CompetitionTheme(
         competition_id="scottish-championship",
@@ -829,6 +847,24 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
+    "copa-argentina": CompetitionTheme(
+        competition_id="copa-argentina",
+        name="Copa Argentina",
+        background_top=(10, 18, 38),
+        background_bottom=(16, 28, 54),
+        primary=(116, 172, 223),
+        secondary=(246, 180, 14),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 225, 250),
+        panel_color=(16, 26, 52, 225),
+        panel_border=(116, 172, 223, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
     # 39. Portuguese Primeira Liga: Scarlet red & deep emerald / gold, midnight slate base
     "primeira-liga": CompetitionTheme(
         competition_id="primeira-liga",
@@ -889,6 +925,24 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
     "liga-de-expansion-mx": CompetitionTheme(
         competition_id="liga-de-expansion-mx",
         name="Liga de Expansión MX",
+        background_top=(10, 26, 20),
+        background_bottom=(6, 14, 28),
+        primary=(0, 168, 89),
+        secondary=(206, 17, 38),
+        highlight=(0, 230, 118),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 240, 215),
+        panel_color=(12, 28, 22, 225),
+        panel_border=(0, 168, 89, 180),
+        pattern="laliga_radial_spectrum",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "liga-mx-women": CompetitionTheme(
+        competition_id="liga-mx-women",
+        name="Liga MX Femenil",
         background_top=(10, 26, 20),
         background_bottom=(6, 14, 28),
         primary=(0, 168, 89),
@@ -2090,6 +2144,60 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         center_style="modern_glass_capsule",
         font_family="inter",
         crest_container_style="glass_plate"
+    ),
+
+    "womens-fa-cup": CompetitionTheme(
+        competition_id="womens-fa-cup",
+        name="Women's FA Cup",
+        background_top=(14, 18, 38),
+        background_bottom=(8, 12, 28),
+        primary=(235, 40, 75),
+        secondary=(245, 180, 30),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(225, 235, 250),
+        panel_color=(18, 22, 42, 225),
+        panel_border=(235, 40, 75, 180),
+        pattern="pl_modern_light_trails",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "northern-super-league": CompetitionTheme(
+        competition_id="northern-super-league",
+        name="Northern Super League",
+        background_top=(16, 22, 38),
+        background_bottom=(10, 14, 26),
+        primary=(220, 40, 60),
+        secondary=(0, 170, 220),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(210, 230, 245),
+        panel_color=(18, 24, 44, 225),
+        panel_border=(220, 40, 60, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "usl-league-one": CompetitionTheme(
+        competition_id="usl-league-one",
+        name="USL League One",
+        background_top=(12, 20, 36),
+        background_bottom=(8, 14, 28),
+        primary=(0, 140, 240),
+        secondary=(240, 60, 60),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(200, 225, 245),
+        panel_color=(16, 24, 42, 225),
+        panel_border=(0, 140, 240, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
     ),
 
     # 56. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents

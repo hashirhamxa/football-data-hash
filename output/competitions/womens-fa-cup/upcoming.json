@@ -1,0 +1,72 @@
+{
+  "version": "1.1.0",
+  "competition": {
+    "id": "womens-fa-cup",
+    "name": "Women's FA Cup",
+    "country": "England"
+  },
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "generated_at": "2026-11-14T06:02:50.456366+00:00",
+  "feed_type": "upcoming_30_days",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "womens-fa-cup-2026-11-14-1500-dulwich-hamlet-portishead-town",
+      "event_name": "Dulwich Hamlet vs Portishead Town",
+      "competition": {
+        "id": "womens-fa-cup",
+        "name": "England - FA Women's Cup",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://img.sofascore.com/api/v1/unique-tournament/11666/image"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-14",
+      "match_date": "2026-11-14",
+      "match_date_utc": "2026-11-14",
+      "match_date_pkt": "2026-11-14",
+      "start_time_utc": "2026-11-14T15:00:00Z",
+      "start_time_pkt": "2026-11-14T20:00:00+05:00",
+      "start_timestamp": 1794668400,
+      "display_date": "2026-11-14",
+      "display_time": "08:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Dulwich Hamlet",
+        "slug": "dulwich-hamlet",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/456128/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Dulwich Hamlet",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Portishead Town",
+        "slug": "portishead-town",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/334624/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Portishead Town",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-14T06:01:02.714070+00:00",
+      "stream_links": "pro/RW5nbGFuZCAtIEZBIFdvbWVuJ3MgQ3VwLUR1bHdpY2ggSGFtbGV0LXZzLVBvcnRpc2hlYWQgVG93bjE3OTQ2Mjc5Mzc0NzM.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-fa-cup-2026-11-14-1500-dulwich-hamlet-portishead-town.png"
+    }
+  ]
+}

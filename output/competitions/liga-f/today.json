@@ -7,10 +7,125 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-14T00:05:22.200571+00:00",
+  "generated_at": "2026-11-14T06:02:49.901240+00:00",
   "feed_type": "today",
   "target_date_pkt": "2026-11-14",
   "target_day_name": "Saturday",
-  "total_events": 0,
-  "events": []
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "liga-f-2026-11-14-1100-rcd-espanyol-de-barcelona-costa-adeje-tenerife",
+      "event_name": "RCD Espanyol de Barcelona vs Costa Adeje Tenerife",
+      "competition": {
+        "id": "liga-f",
+        "name": "Liga F Moeve",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1127/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-14",
+      "match_date": "2026-11-14",
+      "match_date_utc": "2026-11-14",
+      "match_date_pkt": "2026-11-14",
+      "start_time_utc": "2026-11-14T11:00:00Z",
+      "start_time_pkt": "2026-11-14T16:00:00+05:00",
+      "start_timestamp": 1794654000,
+      "display_date": "2026-11-14",
+      "display_time": "04:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "RCD Espanyol de Barcelona",
+        "slug": "rcd-espanyol-de-barcelona",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/38323/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "RCD Espanyol de Barcelona",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Costa Adeje Tenerife",
+        "slug": "costa-adeje-tenerife",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/202971/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Costa Adeje Tenerife",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-14T06:01:02.714070+00:00",
+      "stream_links": "pro/TGlnYSBGIE1vZXZlLVJDRCBFc3BhbnlvbCBkZSBCYXJjZWxvbmEtdnMtQ29zdGEgQWRlamUgVGVuZXJpZmUxNzk0NjI2MTIxOTA1.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-11-14-1100-rcd-espanyol-de-barcelona-costa-adeje-tenerife.png"
+    },
+    {
+      "event_id": "liga-f-2026-11-14-1700-deportivo-alaves-sd-eibar",
+      "event_name": "Deportivo Alavés vs SD Eibar",
+      "competition": {
+        "id": "liga-f",
+        "name": "Liga F Moeve",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1127/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-14",
+      "match_date": "2026-11-14",
+      "match_date_utc": "2026-11-14",
+      "match_date_pkt": "2026-11-14",
+      "start_time_utc": "2026-11-14T17:00:00Z",
+      "start_time_pkt": "2026-11-14T22:00:00+05:00",
+      "start_timestamp": 1794675600,
+      "display_date": "2026-11-14",
+      "display_time": "10:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Deportivo Alavés",
+        "slug": "deportivo-alaves",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/388473/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Deportivo Alavés",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "SD Eibar",
+        "slug": "sd-eibar",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/362904/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "SD Eibar",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-14T06:01:02.714070+00:00",
+      "stream_links": "pro/TGlnYSBGIE1vZXZlLURlcG9ydGl2byBBbGF2w6lzLXZzLVNEIEVpYmFyMTc5NDYyNjEyMTkwNQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-f-2026-11-14-1700-deportivo-alaves-sd-eibar.png"
+    }
+  ]
 }

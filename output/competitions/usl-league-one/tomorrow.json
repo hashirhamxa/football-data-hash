@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "competition": {
+    "id": "usl-league-one",
+    "name": "USL League One",
+    "country": "USA"
+  },
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "generated_at": "2026-11-14T06:02:50.468707+00:00",
+  "feed_type": "tomorrow",
+  "target_date_pkt": "2026-11-15",
+  "target_day_name": "Sunday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "usl-league-one-2026-11-15-0030-charlotte-independence-ac-boise",
+      "event_name": "Charlotte Independence vs AC Boise",
+      "competition": {
+        "id": "usl-league-one",
+        "name": "USL League One",
+        "country": "USA",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/13362/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-15",
+      "match_date": "2026-11-15",
+      "match_date_utc": "2026-11-15",
+      "match_date_pkt": "2026-11-15",
+      "start_time_utc": "2026-11-15T00:30:00Z",
+      "start_time_pkt": "2026-11-15T05:30:00+05:00",
+      "start_timestamp": 1794702600,
+      "display_date": "2026-11-15",
+      "display_time": "05:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Charlotte Independence",
+        "slug": "charlotte-independence",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/197072/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Charlotte Independence",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "AC Boise",
+        "slug": "ac-boise",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1158834/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "AC Boise",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-14T06:01:02.714070+00:00",
+      "stream_links": "pro/VVNMIExlYWd1ZSBPbmUtQ2hhcmxvdHRlIEluZGVwZW5kZW5jZS12cy1BQyBCb2lzZTE3OTQ2MjY1OTYwNjg.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/usl-league-one-2026-11-15-0030-charlotte-independence-ac-boise.png"
+    }
+  ]
+}

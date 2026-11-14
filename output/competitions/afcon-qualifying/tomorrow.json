@@ -7,10 +7,125 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-14T00:05:22.196777+00:00",
+  "generated_at": "2026-11-14T06:02:49.873702+00:00",
   "feed_type": "tomorrow",
   "target_date_pkt": "2026-11-15",
   "target_day_name": "Sunday",
-  "total_events": 0,
-  "events": []
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "afcon-qualifying-2026-11-14-1900-algeria-togo",
+      "event_name": "Algeria vs Togo",
+      "competition": {
+        "id": "afcon-qualifying",
+        "name": "Africa Cup of Nations Qual.",
+        "country": "Africa",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1848/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-14",
+      "match_date": "2026-11-14",
+      "match_date_utc": "2026-11-14",
+      "match_date_pkt": "2026-11-15",
+      "start_time_utc": "2026-11-14T19:00:00Z",
+      "start_time_pkt": "2026-11-15T00:00:00+05:00",
+      "start_timestamp": 1794682800,
+      "display_date": "2026-11-15",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Algeria",
+        "slug": "algeria",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/4691/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Algeria",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Togo",
+        "slug": "togo",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/4836/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Togo",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-14T06:01:02.714070+00:00",
+      "stream_links": "pro/QWZyaWNhIEN1cCBvZiBOYXRpb25zIFF1YWwuLUFsZ2VyaWEtdnMtVG9nbzE3OTQ2MjYxOTc3MjQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afcon-qualifying-2026-11-14-1900-algeria-togo.png"
+    },
+    {
+      "event_id": "afcon-qualifying-2026-11-14-1900-angola-south-sudan",
+      "event_name": "Angola vs South Sudan",
+      "competition": {
+        "id": "afcon-qualifying",
+        "name": "Africa Cup of Nations Qual.",
+        "country": "Africa",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1848/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-14",
+      "match_date": "2026-11-14",
+      "match_date_utc": "2026-11-14",
+      "match_date_pkt": "2026-11-15",
+      "start_time_utc": "2026-11-14T19:00:00Z",
+      "start_time_pkt": "2026-11-15T00:00:00+05:00",
+      "start_timestamp": 1794682800,
+      "display_date": "2026-11-15",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Angola",
+        "slug": "angola",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/4692/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Angola",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "South Sudan",
+        "slug": "south-sudan",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/88508/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "South Sudan",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-14T06:01:02.714070+00:00",
+      "stream_links": "pro/QWZyaWNhIEN1cCBvZiBOYXRpb25zIFF1YWwuLUFuZ29sYS12cy1Tb3V0aCBTdWRhbjE3OTQ2MjYxOTc3MjQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afcon-qualifying-2026-11-14-1900-angola-south-sudan.png"
+    }
+  ]
 }

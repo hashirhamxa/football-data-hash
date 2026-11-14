@@ -7,8 +7,66 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-14T00:05:22.208279+00:00",
+  "generated_at": "2026-11-14T06:02:50.042050+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 0,
-  "events": []
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "liga-mx-2026-11-14-2300-queretaro-fc-cf-monterrey",
+      "event_name": "Querétaro FC vs CF Monterrey",
+      "competition": {
+        "id": "liga-mx",
+        "name": "Liga MX, Apertura",
+        "country": "Mexico",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/11621/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-14",
+      "match_date": "2026-11-14",
+      "match_date_utc": "2026-11-14",
+      "match_date_pkt": "2026-11-15",
+      "start_time_utc": "2026-11-14T23:00:00Z",
+      "start_time_pkt": "2026-11-15T04:00:00+05:00",
+      "start_timestamp": 1794697200,
+      "display_date": "2026-11-15",
+      "display_time": "04:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Querétaro FC",
+        "slug": "queretaro-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1951/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Querétaro FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "CF Monterrey",
+        "slug": "cf-monterrey",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1932/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "CF Monterrey",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-14T06:01:02.714070+00:00",
+      "stream_links": "pro/TGlnYSBNWCwgQXBlcnR1cmEtUXVlcsOpdGFybyBGQy12cy1DRiBNb250ZXJyZXkxNzk0NjMyMDc1NTk0.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-14-2300-queretaro-fc-cf-monterrey.png"
+    }
+  ]
 }

@@ -7,10 +7,125 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-14T00:05:22.211849+00:00",
+  "generated_at": "2026-11-14T06:02:50.070799+00:00",
   "feed_type": "today",
   "target_date_pkt": "2026-11-14",
   "target_day_name": "Saturday",
-  "total_events": 0,
-  "events": []
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "saff-championship-2026-11-14-0900-india-bhutan",
+      "event_name": "India vs Bhutan",
+      "competition": {
+        "id": "saff-championship",
+        "name": "SAFF Championship",
+        "country": "South Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/2354/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-14",
+      "match_date": "2026-11-14",
+      "match_date_utc": "2026-11-14",
+      "match_date_pkt": "2026-11-14",
+      "start_time_utc": "2026-11-14T09:00:00Z",
+      "start_time_pkt": "2026-11-14T14:00:00+05:00",
+      "start_timestamp": 1794646800,
+      "display_date": "2026-11-14",
+      "display_time": "02:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "India",
+        "slug": "india",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/4828/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "India",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Bhutan",
+        "slug": "bhutan",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/191564/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Bhutan",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-14T06:01:02.714070+00:00",
+      "stream_links": "pro/U0FGRiBDaGFtcGlvbnNoaXAtSW5kaWEtdnMtQmh1dGFuMTc5NDYyNjI4ODc5Ng.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saff-championship-2026-11-14-0900-india-bhutan.png"
+    },
+    {
+      "event_id": "saff-championship-2026-11-14-1430-bangladesh-pakistan",
+      "event_name": "Bangladesh vs Pakistan",
+      "competition": {
+        "id": "saff-championship",
+        "name": "SAFF Championship",
+        "country": "South Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/2354/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-14",
+      "match_date": "2026-11-14",
+      "match_date_utc": "2026-11-14",
+      "match_date_pkt": "2026-11-14",
+      "start_time_utc": "2026-11-14T14:30:00Z",
+      "start_time_pkt": "2026-11-14T19:30:00+05:00",
+      "start_timestamp": 1794666600,
+      "display_date": "2026-11-14",
+      "display_time": "07:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Bangladesh",
+        "slug": "bangladesh",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/6080/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Bangladesh",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Pakistan",
+        "slug": "pakistan",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/6081/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Pakistan",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-14T06:01:02.714070+00:00",
+      "stream_links": "pro/U0FGRiBDaGFtcGlvbnNoaXAtQmFuZ2xhZGVzaC12cy1QYWtpc3RhbjE3OTQ2MjYyODg3OTY.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saff-championship-2026-11-14-1430-bangladesh-pakistan.png"
+    }
+  ]
 }

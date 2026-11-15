@@ -235,6 +235,9 @@ TOURNAMENT_NAME_MAP = {
     "women's fa cup": "womens-fa-cup",
     "northern super league": "northern-super-league",
     "usl league one": "usl-league-one",
+    "caf women's champions league": "caf-womens-champions-league",
+    "caf womens champions league": "caf-womens-champions-league",
+    "caf women champions league": "caf-womens-champions-league",
 }
 
 
@@ -429,7 +432,8 @@ class LiveFeedAdapter(BaseFixtureAdapter):
         NON_FOOTBALL_CATEGORIES = {
             "basketball", "cricket", "boxing", "hockey", "motorsports",
             "tennis", "golf", "snooker", "darts", "baseball", "mma", "wrestling",
-            "rugby", "handball", "volleyball", "table tennis", "badminton", "esports"
+            "rugby", "handball", "volleyball", "table tennis", "badminton", "esports",
+            "american football", "aussie rules", "horse racing", "cycling"
         }
 
         raw_events = self._fetch_live_or_cached_events()

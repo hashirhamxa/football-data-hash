@@ -2200,6 +2200,24 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="modern_frame"
     ),
 
+    "caf-womens-champions-league": CompetitionTheme(
+        competition_id="caf-womens-champions-league",
+        name="CAF Women's Champions League",
+        background_top=(12, 28, 22),
+        background_bottom=(6, 16, 12),
+        primary=(218, 165, 32),
+        secondary=(0, 135, 65),
+        highlight=(255, 220, 130),
+        text_primary=(255, 255, 255),
+        text_secondary=(220, 240, 230),
+        panel_color=(16, 36, 28, 225),
+        panel_border=(218, 165, 32, 180),
+        pattern="subtle_waves",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
     # 56. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",

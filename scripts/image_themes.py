@@ -2218,6 +2218,42 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="glass_plate"
     ),
 
+    "colombian-primera-b": CompetitionTheme(
+        competition_id="colombian-primera-b",
+        name="Colombian Primera B",
+        background_top=(12, 18, 38),
+        background_bottom=(8, 12, 26),
+        primary=(255, 205, 0),
+        secondary=(200, 20, 40),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(250, 235, 185),
+        panel_color=(14, 22, 44, 225),
+        panel_border=(255, 205, 0, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    "copa-bolivia": CompetitionTheme(
+        competition_id="copa-bolivia",
+        name="Copa Bolivia",
+        background_top=(22, 14, 14),
+        background_bottom=(12, 8, 8),
+        primary=(213, 43, 30),
+        secondary=(253, 218, 36),
+        highlight=(0, 122, 61),
+        text_primary=(255, 255, 255),
+        text_secondary=(245, 230, 215),
+        panel_color=(30, 20, 20, 225),
+        panel_border=(213, 43, 30, 180),
+        pattern="subtle_waves",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
     # 56. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",

@@ -238,6 +238,12 @@ TOURNAMENT_NAME_MAP = {
     "caf women's champions league": "caf-womens-champions-league",
     "caf womens champions league": "caf-womens-champions-league",
     "caf women champions league": "caf-womens-champions-league",
+    "categoria primera b": "colombian-primera-b",
+    "primera b colombia": "colombian-primera-b",
+    "colombia primera b": "colombian-primera-b",
+    "colombian primera b": "colombian-primera-b",
+    "copa bolivia": "copa-bolivia",
+    "bolivia copa": "copa-bolivia",
 }
 
 

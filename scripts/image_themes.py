@@ -2254,6 +2254,44 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="glass_plate"
     ),
 
+    # USL Championship: Bold American soccer styling, deep navy/slate, gold and bright crimson accents
+    "usl-championship": CompetitionTheme(
+        competition_id="usl-championship",
+        name="USL Championship",
+        background_top=(12, 18, 32),
+        background_bottom=(6, 10, 20),
+        primary=(0, 60, 130),
+        secondary=(212, 175, 55),
+        highlight=(255, 215, 0),
+        text_primary=(255, 255, 255),
+        text_secondary=(210, 225, 245),
+        panel_color=(16, 24, 42, 225),
+        panel_border=(0, 100, 200, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
+    # King's Cup (Thailand): Royal Thai navy, gold and crimson red flourishes
+    "king-s-cup": CompetitionTheme(
+        competition_id="king-s-cup",
+        name="King's Cup",
+        background_top=(14, 18, 34),
+        background_bottom=(8, 10, 22),
+        primary=(0, 40, 120),
+        secondary=(218, 41, 28),
+        highlight=(245, 190, 40),
+        text_primary=(255, 255, 255),
+        text_secondary=(240, 230, 210),
+        panel_color=(20, 25, 45, 225),
+        panel_border=(218, 175, 40, 180),
+        pattern="subtle_waves",
+        center_style="modern_glass_capsule",
+        font_family="inter",
+        crest_container_style="glass_plate"
+    ),
+
     # 56. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",

@@ -244,6 +244,13 @@ TOURNAMENT_NAME_MAP = {
     "colombian primera b": "colombian-primera-b",
     "copa bolivia": "copa-bolivia",
     "bolivia copa": "copa-bolivia",
+    "usl championship": "usl-championship",
+    "usl-championship": "usl-championship",
+    "united soccer league championship": "usl-championship",
+    "king's cup": "king-s-cup",
+    "kings cup": "king-s-cup",
+    "thailand king's cup": "king-s-cup",
+    "thailand kings cup": "king-s-cup",
 }
 
 

@@ -251,6 +251,14 @@ TOURNAMENT_NAME_MAP = {
     "kings cup": "king-s-cup",
     "thailand king's cup": "king-s-cup",
     "thailand kings cup": "king-s-cup",
+    "u17 world championship": "fifa-u17-world-cup",
+    "u-17 world championship": "fifa-u17-world-cup",
+    "fifa u17 world cup": "fifa-u17-world-cup",
+    "fifa u-17 world cup": "fifa-u17-world-cup",
+    "fifa under-17 world cup": "fifa-u17-world-cup",
+    "under-17 world cup": "fifa-u17-world-cup",
+    "u17 world cup": "fifa-u17-world-cup",
+    "u-17 world cup": "fifa-u17-world-cup",
 }
 
 

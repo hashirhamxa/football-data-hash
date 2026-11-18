@@ -1,7 +1,7 @@
 {
   "version": "1.1.0",
-  "generated_at": "2026-11-18T01:28:08.213948+00:00",
-  "total_events": 7,
+  "generated_at": "2026-11-18T14:12:47.158973+00:00",
+  "total_events": 11,
   "date_range": {
     "start_date": "2026-11-18",
     "days_ahead": 30
@@ -40,49 +40,448 @@
   },
   "events": [
     {
-      "event_id": "international-friendlies-2026-11-17-2330-ecuador-bolivia",
-      "event_name": "Ecuador vs Bolivia",
+      "event_id": "womens-champions-league-2026-11-18-1745-bk-hacken-ff-manchester-city",
+      "event_name": "BK Häcken FF vs Manchester City",
       "competition": {
-        "id": "international-friendlies",
-        "name": "International Friendly Games",
-        "country": "International",
+        "id": "womens-champions-league",
+        "name": "UEFA Women's Champions League",
+        "country": "Europe",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/851/image/dark"
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/696/image/dark"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-17",
-      "match_date": "2026-11-17",
-      "match_date_utc": "2026-11-17",
+      "source_date": "2026-11-18",
+      "match_date": "2026-11-18",
+      "match_date_utc": "2026-11-18",
       "match_date_pkt": "2026-11-18",
-      "start_time_utc": "2026-11-17T23:30:00Z",
-      "start_time_pkt": "2026-11-18T04:30:00+05:00",
-      "start_timestamp": 1794958200,
+      "start_time_utc": "2026-11-18T17:45:00Z",
+      "start_time_pkt": "2026-11-18T22:45:00+05:00",
+      "start_timestamp": 1795023900,
       "display_date": "2026-11-18",
+      "display_time": "10:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "BK Häcken FF",
+        "slug": "bk-hacken-ff",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1889/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "BK Häcken FF",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Manchester City",
+        "slug": "manchester-city",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/142658/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Manchester City",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-18T14:12:47.158973+00:00",
+      "stream_links": "pro/VUVGQSBXb21lbidzIENoYW1waW9ucyBMZWFndWUtQksgSMOkY2tlbiBGRi12cy1NYW5jaGVzdGVyIENpdHkxNzk1MDAwMjE3OTU1.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-champions-league-2026-11-18-1745-bk-hacken-ff-manchester-city.png"
+    },
+    {
+      "event_id": "womens-champions-league-2026-11-18-1745-real-madrid-inter",
+      "event_name": "Real Madrid vs Inter",
+      "competition": {
+        "id": "womens-champions-league",
+        "name": "UEFA Women's Champions League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/696/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-18",
+      "match_date": "2026-11-18",
+      "match_date_utc": "2026-11-18",
+      "match_date_pkt": "2026-11-18",
+      "start_time_utc": "2026-11-18T17:45:00Z",
+      "start_time_pkt": "2026-11-18T22:45:00+05:00",
+      "start_timestamp": 1795023900,
+      "display_date": "2026-11-18",
+      "display_time": "10:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Real Madrid",
+        "slug": "real-madrid",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/305051/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Real Madrid",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Inter",
+        "slug": "inter",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/325685/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Inter",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-18T14:12:47.158973+00:00",
+      "stream_links": "pro/VUVGQSBXb21lbidzIENoYW1waW9ucyBMZWFndWUtUmVhbCBNYWRyaWQtdnMtSW50ZXIxNzk1MDAwMjE3OTU1.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-champions-league-2026-11-18-1745-real-madrid-inter.png"
+    },
+    {
+      "event_id": "liga-1-te-apuesto-2026-11-18-2000-alianza-atletico-de-sullana-melgar",
+      "event_name": "Alianza Atlético de Sullana vs Melgar",
+      "competition": {
+        "id": "liga-1-te-apuesto",
+        "name": "Liga 1 Te Apuesto",
+        "country": "Peru",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/406/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-18",
+      "match_date": "2026-11-18",
+      "match_date_utc": "2026-11-18",
+      "match_date_pkt": "2026-11-19",
+      "start_time_utc": "2026-11-18T20:00:00Z",
+      "start_time_pkt": "2026-11-19T01:00:00+05:00",
+      "start_timestamp": 1795032000,
+      "display_date": "2026-11-19",
+      "display_time": "01:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Alianza Atlético de Sullana",
+        "slug": "alianza-atletico-de-sullana",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2307/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Alianza Atlético de Sullana",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Melgar",
+        "slug": "melgar",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2308/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Melgar",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-18T14:12:47.158973+00:00",
+      "stream_links": "pro/TGlnYSAxIFRlIEFwdWVzdG8tQWxpYW56YSBBdGzDqXRpY28gZGUgU3VsbGFuYS12cy1NZWxnYXIxNzk1MDAwNDY2NjM3.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-1-te-apuesto-2026-11-18-2000-alianza-atletico-de-sullana-melgar.png"
+    },
+    {
+      "event_id": "womens-champions-league-2026-11-18-2000-chelsea-fc-paris-saint-germain",
+      "event_name": "Chelsea FC vs Paris Saint-Germain",
+      "competition": {
+        "id": "womens-champions-league",
+        "name": "UEFA Women's Champions League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/696/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-18",
+      "match_date": "2026-11-18",
+      "match_date_utc": "2026-11-18",
+      "match_date_pkt": "2026-11-19",
+      "start_time_utc": "2026-11-18T20:00:00Z",
+      "start_time_pkt": "2026-11-19T01:00:00+05:00",
+      "start_timestamp": 1795032000,
+      "display_date": "2026-11-19",
+      "display_time": "01:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Chelsea FC",
+        "slug": "chelsea-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/66768/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Chelsea FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Paris Saint-Germain",
+        "slug": "paris-saint-germain",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/55505/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Paris Saint-Germain",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-18T14:12:47.158973+00:00",
+      "stream_links": "pro/VUVGQSBXb21lbidzIENoYW1waW9ucyBMZWFndWUtQ2hlbHNlYSBGQy12cy1QYXJpcyBTYWludC1HZXJtYWluMTc5NTAwMDIxNzk1NQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-champions-league-2026-11-18-2000-chelsea-fc-paris-saint-germain.png"
+    },
+    {
+      "event_id": "womens-champions-league-2026-11-18-2000-juventus-oud-heverlee-leuven",
+      "event_name": "Juventus vs Oud-Heverlee Leuven",
+      "competition": {
+        "id": "womens-champions-league",
+        "name": "UEFA Women's Champions League",
+        "country": "Europe",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/696/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-18",
+      "match_date": "2026-11-18",
+      "match_date_utc": "2026-11-18",
+      "match_date_pkt": "2026-11-19",
+      "start_time_utc": "2026-11-18T20:00:00Z",
+      "start_time_pkt": "2026-11-19T01:00:00+05:00",
+      "start_timestamp": 1795032000,
+      "display_date": "2026-11-19",
+      "display_time": "01:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Juventus",
+        "slug": "juventus",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/269824/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Juventus",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Oud-Heverlee Leuven",
+        "slug": "oud-heverlee-leuven",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/178246/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Oud-Heverlee Leuven",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-18T14:12:47.158973+00:00",
+      "stream_links": "pro/VUVGQSBXb21lbidzIENoYW1waW9ucyBMZWFndWUtSnV2ZW50dXMtdnMtT3VkLUhldmVybGVlIExldXZlbjE3OTUwMDAyMTc5NTU.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/womens-champions-league-2026-11-18-2000-juventus-oud-heverlee-leuven.png"
+    },
+    {
+      "event_id": "brazilian-serie-a-2026-11-18-2230-coritiba-santos",
+      "event_name": "Coritiba vs Santos",
+      "competition": {
+        "id": "brazilian-serie-a",
+        "name": "Campeonato Brasileiro Série A",
+        "country": "Brazil",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/325/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-18",
+      "match_date": "2026-11-18",
+      "match_date_utc": "2026-11-18",
+      "match_date_pkt": "2026-11-19",
+      "start_time_utc": "2026-11-18T22:30:00Z",
+      "start_time_pkt": "2026-11-19T03:30:00+05:00",
+      "start_timestamp": 1795041000,
+      "display_date": "2026-11-19",
+      "display_time": "03:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Coritiba",
+        "slug": "coritiba",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1982/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Coritiba",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Santos",
+        "slug": "santos",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1968/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Santos",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-18T14:12:47.158973+00:00",
+      "stream_links": "pro/Q2FtcGVvbmF0byBCcmFzaWxlaXJvIFPDqXJpZSBBLUNvcml0aWJhLXZzLVNhbnRvczE3OTUwMDA0NDMxODQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-11-18-2230-coritiba-santos.png"
+    },
+    {
+      "event_id": "brazilian-serie-a-2026-11-18-2300-remo-chapecoense",
+      "event_name": "Remo vs Chapecoense",
+      "competition": {
+        "id": "brazilian-serie-a",
+        "name": "Campeonato Brasileiro Série A",
+        "country": "Brazil",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/325/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-18",
+      "match_date": "2026-11-18",
+      "match_date_utc": "2026-11-18",
+      "match_date_pkt": "2026-11-19",
+      "start_time_utc": "2026-11-18T23:00:00Z",
+      "start_time_pkt": "2026-11-19T04:00:00+05:00",
+      "start_timestamp": 1795042800,
+      "display_date": "2026-11-19",
+      "display_time": "04:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Remo",
+        "slug": "remo",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2012/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Remo",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Chapecoense",
+        "slug": "chapecoense",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/21845/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Chapecoense",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-18T14:12:47.158973+00:00",
+      "stream_links": "pro/Q2FtcGVvbmF0byBCcmFzaWxlaXJvIFPDqXJpZSBBLVJlbW8tdnMtQ2hhcGVjb2Vuc2UxNzk1MDAwNDQzMTg0.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-11-18-2300-remo-chapecoense.png"
+    },
+    {
+      "event_id": "brazilian-serie-a-2026-11-18-2330-cruzeiro-palmeiras",
+      "event_name": "Cruzeiro vs Palmeiras",
+      "competition": {
+        "id": "brazilian-serie-a",
+        "name": "Campeonato Brasileiro Série A",
+        "country": "Brazil",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/325/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-18",
+      "match_date": "2026-11-18",
+      "match_date_utc": "2026-11-18",
+      "match_date_pkt": "2026-11-19",
+      "start_time_utc": "2026-11-18T23:30:00Z",
+      "start_time_pkt": "2026-11-19T04:30:00+05:00",
+      "start_timestamp": 1795044600,
+      "display_date": "2026-11-19",
       "display_time": "04:30 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Ecuador",
-        "slug": "ecuador",
+        "name": "Cruzeiro",
+        "slug": "cruzeiro",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/4757/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/1954/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Ecuador",
+          "matched_name": "Cruzeiro",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Bolivia",
-        "slug": "bolivia",
+        "name": "Palmeiras",
+        "slug": "palmeiras",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/4746/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/1963/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Bolivia",
+          "matched_name": "Palmeiras",
           "is_fallback": false
         }
       },
@@ -92,54 +491,54 @@
         "source_url": null,
         "priority_applied": true
       },
-      "last_updated": "2026-11-18T01:28:08.213948+00:00",
-      "stream_links": "pro/SW50ZXJuYXRpb25hbCBGcmllbmRseSBHYW1lcy1FY3VhZG9yLXZzLUJvbGl2aWExNzk0ODgwNTY3MTk3.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-11-17-2330-ecuador-bolivia.png"
+      "last_updated": "2026-11-18T14:12:47.158973+00:00",
+      "stream_links": "pro/Q2FtcGVvbmF0byBCcmFzaWxlaXJvIFPDqXJpZSBBLUNydXplaXJvLXZzLVBhbG1laXJhczE3OTUwMDA0NDMxODM.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-11-18-2330-cruzeiro-palmeiras.png"
     },
     {
-      "event_id": "international-friendlies-2026-11-17-2330-uruguay-dominican-republic",
-      "event_name": "Uruguay vs Dominican Republic",
+      "event_id": "fifa-u17-world-cup-2026-11-19-1300-france-u17-haiti-u17",
+      "event_name": "France U17 vs Haiti U17",
       "competition": {
-        "id": "international-friendlies",
-        "name": "International Friendly Games",
+        "id": "fifa-u17-world-cup",
+        "name": "U17 World Championship",
         "country": "International",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/851/image/dark"
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/279/image/dark"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-17",
-      "match_date": "2026-11-17",
-      "match_date_utc": "2026-11-17",
-      "match_date_pkt": "2026-11-18",
-      "start_time_utc": "2026-11-17T23:30:00Z",
-      "start_time_pkt": "2026-11-18T04:30:00+05:00",
-      "start_timestamp": 1794958200,
-      "display_date": "2026-11-18",
-      "display_time": "04:30 AM",
+      "source_date": "2026-11-19",
+      "match_date": "2026-11-19",
+      "match_date_utc": "2026-11-19",
+      "match_date_pkt": "2026-11-19",
+      "start_time_utc": "2026-11-19T13:00:00Z",
+      "start_time_pkt": "2026-11-19T18:00:00+05:00",
+      "start_timestamp": 1795093200,
+      "display_date": "2026-11-19",
+      "display_time": "06:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Uruguay",
-        "slug": "uruguay",
+        "name": "France U17",
+        "slug": "france-u17",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/4725/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/22474/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Uruguay",
+          "matched_name": "France U17",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Dominican Republic",
-        "slug": "dominican-republic",
+        "name": "Haiti U17",
+        "slug": "haiti-u17",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/21813/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/190706/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Dominican Republic",
+          "matched_name": "Haiti U17",
           "is_fallback": false
         }
       },
@@ -149,54 +548,54 @@
         "source_url": null,
         "priority_applied": true
       },
-      "last_updated": "2026-11-18T01:28:08.213948+00:00",
-      "stream_links": "pro/SW50ZXJuYXRpb25hbCBGcmllbmRseSBHYW1lcy1VcnVndWF5LXZzLURvbWluaWNhbiBSZXB1YmxpYzE3OTQ4ODA1NjcxOTc.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/international-friendlies-2026-11-17-2330-uruguay-dominican-republic.png"
+      "last_updated": "2026-11-18T14:12:47.158973+00:00",
+      "stream_links": "pro/VTE3IFdvcmxkIENoYW1waW9uc2hpcC1GcmFuY2UgVTE3LXZzLUhhaXRpIFUxNzE3OTUwMDA0MDc1Nzg.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-19-1300-france-u17-haiti-u17.png"
     },
     {
-      "event_id": "concacaf-nations-league-2026-11-18-0000-french-guiana-saint-vincent-and-the-grenadines",
-      "event_name": "French Guiana vs Saint Vincent and the Grenadines",
+      "event_id": "fifa-u17-world-cup-2026-11-19-1300-new-caledonia-u17-ecuador-u17",
+      "event_name": "New Caledonia U17 vs Ecuador U17",
       "competition": {
-        "id": "concacaf-nations-league",
-        "name": "CONCACAF Nations League",
-        "country": "North & Central America",
+        "id": "fifa-u17-world-cup",
+        "name": "U17 World Championship",
+        "country": "International",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/14100/image/dark"
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/279/image/dark"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-18",
-      "match_date": "2026-11-18",
-      "match_date_utc": "2026-11-18",
-      "match_date_pkt": "2026-11-18",
-      "start_time_utc": "2026-11-18T00:00:00Z",
-      "start_time_pkt": "2026-11-18T05:00:00+05:00",
-      "start_timestamp": 1794960000,
-      "display_date": "2026-11-18",
-      "display_time": "05:00 AM",
+      "source_date": "2026-11-19",
+      "match_date": "2026-11-19",
+      "match_date_utc": "2026-11-19",
+      "match_date_pkt": "2026-11-19",
+      "start_time_utc": "2026-11-19T13:00:00Z",
+      "start_time_pkt": "2026-11-19T18:00:00+05:00",
+      "start_timestamp": 1795093200,
+      "display_date": "2026-11-19",
+      "display_time": "06:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "French Guiana",
-        "slug": "french-guiana",
+        "name": "New Caledonia U17",
+        "slug": "new-caledonia-u17",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/52906/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/265146/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "French Guiana",
+          "matched_name": "New Caledonia U17",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Saint Vincent and the Grenadines",
-        "slug": "saint-vincent-and-the-grenadines",
+        "name": "Ecuador U17",
+        "slug": "ecuador-u17",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/21821/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/48835/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Saint Vincent and the Grenadines",
+          "matched_name": "Ecuador U17",
           "is_fallback": false
         }
       },
@@ -206,54 +605,54 @@
         "source_url": null,
         "priority_applied": true
       },
-      "last_updated": "2026-11-18T01:28:08.213948+00:00",
-      "stream_links": "pro/Q09OQ0FDQUYgTmF0aW9ucyBMZWFndWUtRnJlbmNoIEd1aWFuYS12cy1TYWludCBWaW5jZW50IGFuZCB0aGUgR3JlbmFkaW5lczE3OTQ4ODA2MjQyNzY.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-11-18-0000-french-guiana-saint-vincent-and-the-grenadines.png"
+      "last_updated": "2026-11-18T14:12:47.158973+00:00",
+      "stream_links": "pro/VTE3IFdvcmxkIENoYW1waW9uc2hpcC1OZXcgQ2FsZWRvbmlhIFUxNy12cy1FY3VhZG9yIFUxNzE3OTUwMDA0MDc1Nzg.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-19-1300-new-caledonia-u17-ecuador-u17.png"
     },
     {
-      "event_id": "concacaf-nations-league-2026-11-18-0000-usa-haiti",
-      "event_name": "USA vs Haiti",
+      "event_id": "fifa-u17-world-cup-2026-11-19-1330-south-korea-u17-uganda-u17",
+      "event_name": "South Korea U17 vs Uganda U17",
       "competition": {
-        "id": "concacaf-nations-league",
-        "name": "CONCACAF Nations League",
-        "country": "North & Central America",
+        "id": "fifa-u17-world-cup",
+        "name": "U17 World Championship",
+        "country": "International",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/14100/image/dark"
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/279/image/dark"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-18",
-      "match_date": "2026-11-18",
-      "match_date_utc": "2026-11-18",
-      "match_date_pkt": "2026-11-18",
-      "start_time_utc": "2026-11-18T00:00:00Z",
-      "start_time_pkt": "2026-11-18T05:00:00+05:00",
-      "start_timestamp": 1794960000,
-      "display_date": "2026-11-18",
-      "display_time": "05:00 AM",
+      "source_date": "2026-11-19",
+      "match_date": "2026-11-19",
+      "match_date_utc": "2026-11-19",
+      "match_date_pkt": "2026-11-19",
+      "start_time_utc": "2026-11-19T13:30:00Z",
+      "start_time_pkt": "2026-11-19T18:30:00+05:00",
+      "start_timestamp": 1795095000,
+      "display_date": "2026-11-19",
+      "display_time": "06:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "USA",
-        "slug": "usa",
+        "name": "South Korea U17",
+        "slug": "south-korea-u17",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/4724/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/22652/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "USA",
+          "matched_name": "South Korea U17",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Haiti",
-        "slug": "haiti",
+        "name": "Uganda U17",
+        "slug": "uganda-u17",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/7229/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/1077159/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Haiti",
+          "matched_name": "Uganda U17",
           "is_fallback": false
         }
       },
@@ -263,180 +662,9 @@
         "source_url": null,
         "priority_applied": true
       },
-      "last_updated": "2026-11-18T01:28:08.213948+00:00",
-      "stream_links": "pro/Q09OQ0FDQUYgTmF0aW9ucyBMZWFndWUtVVNBLXZzLUhhaXRpMTc5NDg4MDY0NjU0Ng.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-11-18-0000-usa-haiti.png"
-    },
-    {
-      "event_id": "concacaf-nations-league-2026-11-18-0100-el-salvador-saint-martin",
-      "event_name": "El Salvador vs Saint Martin",
-      "competition": {
-        "id": "concacaf-nations-league",
-        "name": "CONCACAF Nations League",
-        "country": "North & Central America",
-        "round": "2nd Leg - El Salvador lead 2-0 on aggregate",
-        "group": null,
-        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/14100/image/dark"
-      },
-      "round": "2nd Leg - El Salvador lead 2-0 on aggregate",
-      "source_date": "2026-11-18",
-      "match_date": "2026-11-18",
-      "match_date_utc": "2026-11-18",
-      "match_date_pkt": "2026-11-18",
-      "start_time_utc": "2026-11-18T01:00:00Z",
-      "start_time_pkt": "2026-11-18T06:00:00+05:00",
-      "start_timestamp": 1794963600,
-      "display_date": "2026-11-18",
-      "display_time": "06:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "El Salvador",
-        "slug": "el-salvador",
-        "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/4825/image",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "El Salvador",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Saint Martin",
-        "slug": "saint-martin",
-        "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/33812/image",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Saint Martin",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "LiveBroadcast",
-        "season": "2026-27",
-        "source_url": null,
-        "priority_applied": true
-      },
-      "last_updated": "2026-11-18T01:28:08.213948+00:00",
-      "stream_links": "pro/Q09OQ0FDQUYgTmF0aW9ucyBMZWFndWUtRWwgU2FsdmFkb3ItdnMtU2FpbnQgTWFydGluMTc5NDg4MDY0NjU0Ng.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-11-18-0100-el-salvador-saint-martin.png"
-    },
-    {
-      "event_id": "concacaf-nations-league-2026-11-18-0230-mexico-jamaica",
-      "event_name": "Mexico vs Jamaica",
-      "competition": {
-        "id": "concacaf-nations-league",
-        "name": "CONCACAF Nations League",
-        "country": "North & Central America",
-        "round": "2nd Leg - Jamaica lead 3-2 on aggregate",
-        "group": null,
-        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/14100/image/dark"
-      },
-      "round": "2nd Leg - Jamaica lead 3-2 on aggregate",
-      "source_date": "2026-11-18",
-      "match_date": "2026-11-18",
-      "match_date_utc": "2026-11-18",
-      "match_date_pkt": "2026-11-18",
-      "start_time_utc": "2026-11-18T02:30:00Z",
-      "start_time_pkt": "2026-11-18T07:30:00+05:00",
-      "start_timestamp": 1794969000,
-      "display_date": "2026-11-18",
-      "display_time": "07:30 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Mexico",
-        "slug": "mexico",
-        "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/4781/image",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Mexico",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Jamaica",
-        "slug": "jamaica",
-        "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/4769/image",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Jamaica",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "LiveBroadcast",
-        "season": "2026-27",
-        "source_url": null,
-        "priority_applied": true
-      },
-      "last_updated": "2026-11-18T01:28:08.213948+00:00",
-      "stream_links": "pro/Q09OQ0FDQUYgTmF0aW9ucyBMZWFndWUtTWV4aWNvLXZzLUphbWFpY2ExNzk0ODgwNjQ2NTQ2.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-11-18-0230-mexico-jamaica.png"
-    },
-    {
-      "event_id": "concacaf-nations-league-2026-11-18-0300-nicaragua-montserrat",
-      "event_name": "Nicaragua vs Montserrat",
-      "competition": {
-        "id": "concacaf-nations-league",
-        "name": "CONCACAF Nations League",
-        "country": "North & Central America",
-        "round": "2nd Leg - Nicaragua lead 2-1 on aggregate",
-        "group": null,
-        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/14100/image/dark"
-      },
-      "round": "2nd Leg - Nicaragua lead 2-1 on aggregate",
-      "source_date": "2026-11-18",
-      "match_date": "2026-11-18",
-      "match_date_utc": "2026-11-18",
-      "match_date_pkt": "2026-11-18",
-      "start_time_utc": "2026-11-18T03:00:00Z",
-      "start_time_pkt": "2026-11-18T08:00:00+05:00",
-      "start_timestamp": 1794970800,
-      "display_date": "2026-11-18",
-      "display_time": "08:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Nicaragua",
-        "slug": "nicaragua",
-        "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/21817/image",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Nicaragua",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Montserrat",
-        "slug": "montserrat",
-        "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/21815/image",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Montserrat",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "LiveBroadcast",
-        "season": "2026-27",
-        "source_url": null,
-        "priority_applied": true
-      },
-      "last_updated": "2026-11-18T01:28:08.213948+00:00",
-      "stream_links": "pro/Q09OQ0FDQUYgTmF0aW9ucyBMZWFndWUtTmljYXJhZ3VhLXZzLU1vbnRzZXJyYXQxNzk0ODgwNjQ2NTQ2.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/concacaf-nations-league-2026-11-18-0300-nicaragua-montserrat.png"
+      "last_updated": "2026-11-18T14:12:47.158973+00:00",
+      "stream_links": "pro/VTE3IFdvcmxkIENoYW1waW9uc2hpcC1Tb3V0aCBLb3JlYSBVMTctdnMtVWdhbmRhIFUxNzE3OTUwMDA0MDc1Nzg.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-19-1330-south-korea-u17-uganda-u17.png"
     }
   ]
 }

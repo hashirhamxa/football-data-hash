@@ -2292,6 +2292,25 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="glass_plate"
     ),
 
+    # FIFA Under-17 World Cup: Midnight blue, FIFA trophy gold, and vibrant cyan accents
+    "fifa-u17-world-cup": CompetitionTheme(
+        competition_id="fifa-u17-world-cup",
+        name="FIFA Under-17 World Cup",
+        background_top=(10, 18, 36),
+        background_bottom=(6, 10, 22),
+        primary=(0, 110, 220),
+        secondary=(245, 190, 40),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(210, 230, 250),
+        panel_color=(14, 24, 44, 225),
+        panel_border=(0, 120, 220, 180),
+        pattern="worldcup_global_arcs",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="flag_rounded_card"
+    ),
+
     # 56. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",

@@ -259,6 +259,14 @@ TOURNAMENT_NAME_MAP = {
     "under-17 world cup": "fifa-u17-world-cup",
     "u17 world cup": "fifa-u17-world-cup",
     "u-17 world cup": "fifa-u17-world-cup",
+    "fa women's league cup": "womens-league-cup",
+    "fa womens league cup": "womens-league-cup",
+    "women's league cup": "womens-league-cup",
+    "womens league cup": "womens-league-cup",
+    "fa wsl cup": "womens-league-cup",
+    "wsl cup": "womens-league-cup",
+    "continental tyres league cup": "womens-league-cup",
+    "conti cup": "womens-league-cup",
 }
 
 

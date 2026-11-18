@@ -2311,6 +2311,25 @@ THEMES_REGISTRY: Dict[str, CompetitionTheme] = {
         crest_container_style="flag_rounded_card"
     ),
 
+    # FA Women's League Cup: Energetic magenta/crimson, electric teal, and deep English cup navy
+    "womens-league-cup": CompetitionTheme(
+        competition_id="womens-league-cup",
+        name="FA Women's League Cup",
+        background_top=(14, 16, 36),
+        background_bottom=(8, 10, 24),
+        primary=(225, 30, 95),
+        secondary=(0, 185, 225),
+        highlight=(255, 255, 255),
+        text_primary=(255, 255, 255),
+        text_secondary=(220, 235, 250),
+        panel_color=(18, 22, 44, 225),
+        panel_border=(225, 30, 95, 180),
+        pattern="pl_modern_light_trails",
+        center_style="nations_league_vs",
+        font_family="montserrat",
+        crest_container_style="modern_frame"
+    ),
+
     # 56. Neutral / Unknown Fallback: Sleek graphite/slate, ice-blue/platinum accents
     "neutral-fallback": CompetitionTheme(
         competition_id="neutral-fallback",

@@ -26,13 +26,47 @@ except ImportError:
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 logger = logging.getLogger("live_feed_adapter")
 
-# Secure broadcast feed endpoint and protocol keys
-# Secure broadcast feed endpoint and protocol keys (supports environment overrides)
-DEFAULT_API_HOST = os.environ.get("LIVE_FEED_API_HOST", "https://hellobabu.xyz/")
+def load_env_file(dotenv_path: Optional[str] = None) -> None:
+    """Zero-dependency .env loader to populate os.environ if .env is present."""
+    if dotenv_path is None:
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        candidates = [
+            os.path.join(current_dir, "..", "..", ".env"),
+            os.path.join(current_dir, "..", ".env"),
+            os.path.join(os.getcwd(), ".env"),
+        ]
+        for c in candidates:
+            if os.path.isfile(c):
+                dotenv_path = c
+                break
+
+    if not dotenv_path or not os.path.isfile(dotenv_path):
+        return
+
+    try:
+        with open(dotenv_path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                k, v = line.split("=", 1)
+                k = k.strip()
+                v = v.strip().strip("'\"")
+                if k and k not in os.environ:
+                    os.environ[k] = v
+    except Exception as e:
+        logger.debug(f"Failed to load .env file from {dotenv_path}: {e}")
+
+
+# Load .env variables if present
+load_env_file()
+
+# Secure broadcast feed endpoint and protocol keys (strictly via environment)
+DEFAULT_API_HOST = os.environ.get("LIVE_FEED_API_HOST", "")
 _KEY_ENV = os.environ.get("LIVE_FEED_KEY")
-KEY_BYTES = _KEY_ENV.encode("utf-8") if _KEY_ENV else b"az1sUE8zNnNUVXpN"
+KEY_BYTES = _KEY_ENV.encode("utf-8") if _KEY_ENV else None
 _IV_ENV = os.environ.get("LIVE_FEED_IV")
-IV_BYTES = _IV_ENV.encode("utf-8") if _IV_ENV else b"dz00QVhsNmZZU0Fw"
+IV_BYTES = _IV_ENV.encode("utf-8") if _IV_ENV else None
 
 # Optional environment-based local data path
 ENV_LOCAL_DATA_DIR = os.environ.get("SPORTS_FEED_DATA_DIR")
@@ -285,6 +319,9 @@ def decrypt_dash(raw_str: str) -> str:
     trimmed = raw_str.strip()
     if trimmed.startswith("{") or trimmed.startswith("["):
         return trimmed
+    if not KEY_BYTES or not IV_BYTES:
+        logger.debug("Decryption skipped: LIVE_FEED_KEY or LIVE_FEED_IV is not set.")
+        return ""
     try:
         b1 = bytearray(base64.b64decode(trimmed))
         for i in range(1, len(b1), 2):
@@ -321,27 +358,30 @@ class LiveFeedAdapter(BaseFixtureAdapter):
         events_json = None
 
         # 1. Attempt live network fetch
-        try:
-            if self.api_host.endswith(".txt"):
-                url = self.api_host
-            else:
-                url = self.api_host.rstrip("/") + "/events.txt"
-            r = requests.get(url, timeout=self.timeout, verify=False)
-            if r.status_code == 200 and r.text.strip():
-                decrypted_str = decrypt_dash(r.text)
-                if decrypted_str:
-                    events_json = json.loads(decrypted_str)
-                    logger.info(f"Successfully fetched & decrypted {len(events_json)} live events from broadcast feed.")
-                    # Cache locally for offline resilience
-                    try:
-                        cache_path = os.path.join(os.path.dirname(__file__), "..", "..", ".cache", "live_feed_events.json")
-                        os.makedirs(os.path.dirname(cache_path), exist_ok=True)
-                        with open(cache_path, "w", encoding="utf-8") as f:
-                            json.dump(events_json, f)
-                    except Exception:
-                        pass
-        except Exception as e:
-            logger.info(f"Live broadcast feed fetch skipped ({e}), checking cache/local fallback...")
+        if self.api_host and KEY_BYTES and IV_BYTES:
+            try:
+                if self.api_host.endswith(".txt"):
+                    url = self.api_host
+                else:
+                    url = self.api_host.rstrip("/") + "/events.txt"
+                r = requests.get(url, timeout=self.timeout, verify=False)
+                if r.status_code == 200 and r.text.strip():
+                    decrypted_str = decrypt_dash(r.text)
+                    if decrypted_str:
+                        events_json = json.loads(decrypted_str)
+                        logger.info(f"Successfully fetched & decrypted {len(events_json)} live events from broadcast feed.")
+                        # Cache locally for offline resilience
+                        try:
+                            cache_path = os.path.join(os.path.dirname(__file__), "..", "..", ".cache", "live_feed_events.json")
+                            os.makedirs(os.path.dirname(cache_path), exist_ok=True)
+                            with open(cache_path, "w", encoding="utf-8") as f:
+                                json.dump(events_json, f)
+                        except Exception:
+                            pass
+            except Exception as e:
+                logger.info(f"Live broadcast feed fetch skipped ({e}), checking cache/local fallback...")
+        else:
+            logger.info("Live feed host or keys not configured; using local cache or secondary feeds.")
 
         # 2. Fallback to local files if network was unavailable
         if not events_json:

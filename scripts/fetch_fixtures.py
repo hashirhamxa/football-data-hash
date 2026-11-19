@@ -1,9 +1,9 @@
 """
 fetch_fixtures.py
 Multi-source orchestrator for downloading football fixtures.
-Tier 1 (Top Priority): Live Broadcast Scoreboard Feed (ak47 / live_feed_adapter.py)
-Incoming matches are added and updated exclusively from Tier 1 (ak47).
-Tier 2 (ESPN): Used strictly to enrich incoming ak47 matches with detailed metadata.
+Tier 1 (Top Priority): Live Broadcast Scoreboard Feed (live_feed_adapter.py)
+Incoming matches are added and updated exclusively from Tier 1 (LiveBroadcast feed).
+Tier 2 (ESPN): Used strictly to enrich incoming LiveBroadcast matches with detailed metadata.
 """
 
 import json
@@ -77,12 +77,12 @@ def dates_match(d1: Optional[str], d2: Optional[str]) -> bool:
         return False
 
 
-def update_ak47_match_with_espn(
+def update_live_feed_match_with_espn(
     live_match: Dict[str, Any],
     espn_matches: List[Dict[str, Any]]
 ) -> None:
     """
-    Enriches / updates an incoming match from ak47 with metadata from ESPN when matching.
+    Enriches / updates an incoming match from LiveBroadcast feed with metadata from ESPN when matching.
     """
     lf_home = live_match.get("home_team", {}).get("name", "")
     lf_away = live_match.get("away_team", {}).get("name", "")
@@ -163,8 +163,8 @@ def fetch_all_fixtures(
 ) -> Dict[str, Any]:
     """
     Main entry point for fetching fixtures across configured and incoming competitions.
-    Incoming matches are added/updated ONLY from ak47 (Tier-1 Live Broadcast Feed).
-    ESPN (Tier-2) is utilized exclusively to enrich matching incoming ak47 fixtures.
+    Incoming matches are added/updated ONLY from LiveBroadcast feed (Tier-1).
+    ESPN (Tier-2) is utilized exclusively to enrich matching incoming fixtures.
     """
     if start_date is None:
         start_date = datetime.now(timezone.utc)
@@ -173,7 +173,7 @@ def fetch_all_fixtures(
     settings = load_json_file(settings_path)
 
     feed_settings = settings.get("data_sources", {}).get("priority_fixtures", {})
-    api_url = feed_settings.get("api_url")
+    api_url = os.environ.get("LIVE_FEED_API_HOST") or feed_settings.get("api_url")
 
     # Initialize Adapters
     live_adapter = LiveFeedAdapter(timeout=10, api_host=api_url)
@@ -197,7 +197,7 @@ def fetch_all_fixtures(
             })
             continue
 
-        # 1. Tier 1 (Top Priority): Live Broadcast Feed (ak47)
+        # 1. Tier 1 (Top Priority): Live Broadcast Feed
         live_result = live_adapter.fetch_fixtures_for_competition(
             competition=comp,
             start_date=start_date,
@@ -207,7 +207,7 @@ def fetch_all_fixtures(
         live_status = live_result.get("status", {})
         comp_live_name = live_status.get("name") if live_status.get("status") == "available" else None
 
-        # Only incoming matches from ak47 are added/updated
+        # Only incoming matches from LiveBroadcast feed are added/updated
         if not live_matches:
             status = {
                 "id": comp_id,
@@ -220,7 +220,7 @@ def fetch_all_fixtures(
             statuses.append(status)
             continue
 
-        # 2. Tier 2: ESPN (used strictly to enrich matching ak47 incoming matches)
+        # 2. Tier 2: ESPN (used strictly to enrich matching incoming matches)
         try:
             espn_result = espn_adapter.fetch_fixtures_for_competition(
                 competition=comp,
@@ -233,11 +233,11 @@ def fetch_all_fixtures(
             espn_matches = []
 
         if espn_matches:
-            logger.info(f"[Tier 1 - ak47] Updating {len(live_matches)} incoming matches for '{comp_name}' with ESPN metadata...")
+            logger.info(f"[Tier 1 - LiveBroadcast] Updating {len(live_matches)} incoming matches for '{comp_name}' with ESPN metadata...")
             for lm in live_matches:
-                update_ak47_match_with_espn(lm, espn_matches)
+                update_live_feed_match_with_espn(lm, espn_matches)
         else:
-            logger.info(f"[Tier 1 - ak47] Ingested {len(live_matches)} incoming matches for '{comp_name}' directly from ak47.")
+            logger.info(f"[Tier 1 - LiveBroadcast] Ingested {len(live_matches)} incoming matches for '{comp_name}' directly from feed.")
 
         effective_name = comp_live_name or comp_name
         status = {
@@ -258,7 +258,7 @@ def fetch_all_fixtures(
         }
         statuses.append(status)
 
-    # 3. Add any remaining incoming football matches present in ak47 that were not captured above
+    # 3. Add any remaining incoming football matches present in LiveBroadcast feed that were not captured above
     all_fb_events = live_adapter.get_all_football_events()
     processed_match_keys = set()
     for c_id, c_data in raw_fixtures.items():
@@ -298,7 +298,7 @@ def fetch_all_fixtures(
         if dyn_comp_id in raw_fixtures:
             raw_fixtures[dyn_comp_id]["matches"].extend(m_list)
             raw_fixtures[dyn_comp_id]["status"]["matches_count"] = len(raw_fixtures[dyn_comp_id]["matches"])
-            logger.info(f"[Tier 1 - ak47] Dynamically appended {len(m_list)} incoming matches to existing '{tourn}' (comp_id: {dyn_comp_id}).")
+            logger.info(f"[Tier 1 - LiveBroadcast] Dynamically appended {len(m_list)} incoming matches to existing '{tourn}' (comp_id: {dyn_comp_id}).")
         else:
             raw_fixtures[dyn_comp_id] = {
                 "config": dyn_comp,
@@ -307,7 +307,7 @@ def fetch_all_fixtures(
                 "matches": m_list
             }
             statuses.append(status)
-            logger.info(f"[Tier 1 - ak47] Dynamically added {len(m_list)} incoming matches for '{tourn}' (comp_id: {dyn_comp_id}).")
+            logger.info(f"[Tier 1 - LiveBroadcast] Dynamically added {len(m_list)} incoming matches for '{tourn}' (comp_id: {dyn_comp_id}).")
 
     return {
         "raw_fixtures": raw_fixtures,
@@ -318,7 +318,7 @@ def fetch_all_fixtures(
 
 if __name__ == "__main__":
     result = fetch_all_fixtures()
-    print(f"\nFetched incoming matches across {len(result['raw_fixtures'])} competitions (exclusively from ak47):")
+    print(f"\nFetched incoming matches across {len(result['raw_fixtures'])} competitions (LiveBroadcast feed):")
     for s in result["statuses"]:
         if s.get("matches_count", 0) > 0:
             print(f" - {s['name']}: {s['status']} ({s.get('matches_count', 0)} matches from {s.get('provider', 'None')})")

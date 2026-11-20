@@ -7,10 +7,68 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-20T00:59:48.045002+00:00",
+  "generated_at": "2026-11-20T09:59:28.997140+00:00",
   "feed_type": "today",
   "target_date_pkt": "2026-11-20",
   "target_day_name": "Friday",
-  "total_events": 0,
-  "events": []
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "ekstraklasa-2026-11-20-1700-piast-gliwice-mks-korona-kielce",
+      "event_name": "Piast Gliwice vs MKS Korona Kielce",
+      "competition": {
+        "id": "ekstraklasa",
+        "name": "Ekstraklasa",
+        "country": "Poland",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/202/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-20",
+      "match_date": "2026-11-20",
+      "match_date_utc": "2026-11-20",
+      "match_date_pkt": "2026-11-20",
+      "start_time_utc": "2026-11-20T17:00:00Z",
+      "start_time_pkt": "2026-11-20T22:00:00+05:00",
+      "start_timestamp": 1795194000,
+      "display_date": "2026-11-20",
+      "display_time": "10:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Piast Gliwice",
+        "slug": "piast-gliwice",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/7918/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Piast Gliwice",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "MKS Korona Kielce",
+        "slug": "mks-korona-kielce",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/5065/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "MKS Korona Kielce",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-20T09:57:56.123307+00:00",
+      "stream_links": "pro/RWtzdHJha2xhc2EtUGlhc3QgR2xpd2ljZS12cy1NS1MgS29yb25hIEtpZWxjZTE3OTUxNTU4MTM5MTQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ekstraklasa-2026-11-20-1700-piast-gliwice-mks-korona-kielce.png"
+    }
+  ]
 }

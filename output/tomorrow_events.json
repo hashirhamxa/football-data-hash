@@ -4,7 +4,749 @@
   "timezone_label": "PKT (UTC+05:00)",
   "target_date_pkt": "2026-11-21",
   "target_day_name": "Saturday",
-  "generated_at": "2026-11-20T00:59:48.006713+00:00",
-  "total_events": 0,
-  "events": []
+  "generated_at": "2026-11-20T09:59:22.632126+00:00",
+  "total_events": 13,
+  "events": [
+    {
+      "event_id": "bundesliga-2026-11-20-1930-fc-bayern-munchen-1-fc-koln",
+      "event_name": "FC Bayern München vs 1. FC Köln",
+      "competition": {
+        "id": "bundesliga",
+        "name": "Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/35/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-20",
+      "match_date": "2026-11-20",
+      "match_date_utc": "2026-11-20",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-20T19:30:00Z",
+      "start_time_pkt": "2026-11-21T00:30:00+05:00",
+      "start_timestamp": 1795203000,
+      "display_date": "2026-11-21",
+      "display_time": "12:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "FC Bayern München",
+        "slug": "fc-bayern-munchen",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2672/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "FC Bayern München",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "1. FC Köln",
+        "slug": "1-fc-koln",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2671/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "1. FC Köln",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-20T09:57:56.123307+00:00",
+      "stream_links": "pro/QnVuZGVzbGlnYS1GQyBCYXllcm4gTcO8bmNoZW4tdnMtMS4gRkMgS8O2bG4xNzk1MTU1NjY4Mzgz.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-20-1930-fc-bayern-munchen-1-fc-koln.png"
+    },
+    {
+      "event_id": "ekstraklasa-2026-11-20-1930-pogon-szczecin-slask-wrocaw",
+      "event_name": "Pogoń Szczecin vs Śląsk Wrocław",
+      "competition": {
+        "id": "ekstraklasa",
+        "name": "Ekstraklasa",
+        "country": "Poland",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/202/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-20",
+      "match_date": "2026-11-20",
+      "match_date_utc": "2026-11-20",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-20T19:30:00Z",
+      "start_time_pkt": "2026-11-21T00:30:00+05:00",
+      "start_timestamp": 1795203000,
+      "display_date": "2026-11-21",
+      "display_time": "12:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Pogoń Szczecin",
+        "slug": "pogon-szczecin",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/3117/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Pogoń Szczecin",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Śląsk Wrocław",
+        "slug": "slask-wrocaw",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/3108/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Śląsk Wrocław",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-20T09:57:56.123307+00:00",
+      "stream_links": "pro/RWtzdHJha2xhc2EtUG9nb8WEIFN6Y3plY2luLXZzLcWabMSFc2sgV3JvY8WCYXcxNzk1MTU1ODEzOTE0.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ekstraklasa-2026-11-20-1930-pogon-szczecin-slask-wrocaw.png"
+    },
+    {
+      "event_id": "la-liga-2-2026-11-20-1930-fc-andorra-leganes",
+      "event_name": "FC Andorra vs Leganés",
+      "competition": {
+        "id": "la-liga-2",
+        "name": "LaLiga 2",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/54/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-20",
+      "match_date": "2026-11-20",
+      "match_date_utc": "2026-11-20",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-20T19:30:00Z",
+      "start_time_pkt": "2026-11-21T00:30:00+05:00",
+      "start_timestamp": 1795203000,
+      "display_date": "2026-11-21",
+      "display_time": "12:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "FC Andorra",
+        "slug": "fc-andorra",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/324871/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "FC Andorra",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Leganés",
+        "slug": "leganes",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2845/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Leganés",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-20T09:57:56.123307+00:00",
+      "stream_links": "pro/TGFMaWdhIDItRkMgQW5kb3JyYS12cy1MZWdhbsOpczE3OTUxNTYwMTA0MTA.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-11-20-1930-fc-andorra-leganes.png"
+    },
+    {
+      "event_id": "ligue-1-2026-11-20-1945-troyes-le-havre",
+      "event_name": "Troyes vs Le Havre",
+      "competition": {
+        "id": "ligue-1",
+        "name": "Ligue 1",
+        "country": "France",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/34/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-20",
+      "match_date": "2026-11-20",
+      "match_date_utc": "2026-11-20",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-20T19:45:00Z",
+      "start_time_pkt": "2026-11-21T00:45:00+05:00",
+      "start_timestamp": 1795203900,
+      "display_date": "2026-11-21",
+      "display_time": "12:45 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Troyes",
+        "slug": "troyes",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1652/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Troyes",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Le Havre",
+        "slug": "le-havre",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1662/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Le Havre",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-20T09:57:56.123307+00:00",
+      "stream_links": "pro/TGlndWUgMS1Ucm95ZXMtdnMtTGUgSGF2cmUxNzk1MTU1OTY5Njg5.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-11-20-1945-troyes-le-havre.png"
+    },
+    {
+      "event_id": "la-liga-2026-11-20-2000-athletic-club-espanyol",
+      "event_name": "Athletic Club vs Espanyol",
+      "competition": {
+        "id": "la-liga",
+        "name": "LaLiga",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/8/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-20",
+      "match_date": "2026-11-20",
+      "match_date_utc": "2026-11-20",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-20T20:00:00Z",
+      "start_time_pkt": "2026-11-21T01:00:00+05:00",
+      "start_timestamp": 1795204800,
+      "display_date": "2026-11-21",
+      "display_time": "01:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Athletic Club",
+        "slug": "athletic-club",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2825/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Athletic Club",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Espanyol",
+        "slug": "espanyol",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2814/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Espanyol",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-20T09:57:56.123307+00:00",
+      "stream_links": "pro/TGFMaWdhLUF0aGxldGljIENsdWItdnMtRXNwYW55b2wxNzk1MTU2MDEwNDEw.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-11-20-2000-athletic-club-espanyol.png"
+    },
+    {
+      "event_id": "taca-de-portugal-2026-11-20-2045-fc-porto-usc-paredes",
+      "event_name": "FC Porto vs USC Paredes",
+      "competition": {
+        "id": "taca-de-portugal",
+        "name": "Taça de Portugal",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/336/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-20",
+      "match_date": "2026-11-20",
+      "match_date_utc": "2026-11-20",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-20T20:45:00Z",
+      "start_time_pkt": "2026-11-21T01:45:00+05:00",
+      "start_timestamp": 1795207500,
+      "display_date": "2026-11-21",
+      "display_time": "01:45 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "FC Porto",
+        "slug": "fc-porto",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/3002/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "FC Porto",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "USC Paredes",
+        "slug": "usc-paredes",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/231591/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "USC Paredes",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-20T09:57:56.123307+00:00",
+      "stream_links": "pro/VGHDp2EgZGUgUG9ydHVnYWwtRkMgUG9ydG8tdnMtVVNDIFBhcmVkZXMxNzk1MTU2MTgwMTcw.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/taca-de-portugal-2026-11-20-2045-fc-porto-usc-paredes.png"
+    },
+    {
+      "event_id": "liga-de-primera-2026-11-20-2100-cobresal-audax-italiano",
+      "event_name": "Cobresal vs Audax Italiano",
+      "competition": {
+        "id": "liga-de-primera",
+        "name": "Liga de Primera",
+        "country": "Chile",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/11653/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-20",
+      "match_date": "2026-11-20",
+      "match_date_utc": "2026-11-20",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-20T21:00:00Z",
+      "start_time_pkt": "2026-11-21T02:00:00+05:00",
+      "start_timestamp": 1795208400,
+      "display_date": "2026-11-21",
+      "display_time": "02:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Cobresal",
+        "slug": "cobresal",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/3167/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Cobresal",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Audax Italiano",
+        "slug": "audax-italiano",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/3162/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Audax Italiano",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-20T09:57:56.123307+00:00",
+      "stream_links": "pro/TGlnYSBkZSBQcmltZXJhLUNvYnJlc2FsLXZzLUF1ZGF4IEl0YWxpYW5vMTc5NTE1NjIwOTY2MQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-de-primera-2026-11-20-2100-cobresal-audax-italiano.png"
+    },
+    {
+      "event_id": "liga-profesional-argentina-2026-11-20-2300-velez-sarsfield-club-atletico-belgrano",
+      "event_name": "Vélez Sarsfield vs Club Atlético Belgrano",
+      "competition": {
+        "id": "liga-profesional-argentina",
+        "name": "Liga Profesional de Fútbol",
+        "country": "Argentina",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/155/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-20",
+      "match_date": "2026-11-20",
+      "match_date_utc": "2026-11-20",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-20T23:00:00Z",
+      "start_time_pkt": "2026-11-21T04:00:00+05:00",
+      "start_timestamp": 1795215600,
+      "display_date": "2026-11-21",
+      "display_time": "04:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Vélez Sarsfield",
+        "slug": "velez-sarsfield",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/3208/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Vélez Sarsfield",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Club Atlético Belgrano",
+        "slug": "club-atletico-belgrano",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/3203/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Club Atlético Belgrano",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-20T09:57:56.123307+00:00",
+      "stream_links": "pro/TGlnYSBQcm9mZXNpb25hbCBkZSBGw7p0Ym9sLVbDqWxleiBTYXJzZmllbGQtdnMtQ2x1YiBBdGzDqXRpY28gQmVsZ3Jhbm8xNzk1MTU2MTcxMzE0.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-profesional-argentina-2026-11-20-2300-velez-sarsfield-club-atletico-belgrano.png"
+    },
+    {
+      "event_id": "liga-de-primera-2026-11-20-2330-palestino-union-la-calera",
+      "event_name": "Palestino vs Unión La Calera",
+      "competition": {
+        "id": "liga-de-primera",
+        "name": "Liga de Primera",
+        "country": "Chile",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/11653/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-20",
+      "match_date": "2026-11-20",
+      "match_date_utc": "2026-11-20",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-20T23:30:00Z",
+      "start_time_pkt": "2026-11-21T04:30:00+05:00",
+      "start_timestamp": 1795217400,
+      "display_date": "2026-11-21",
+      "display_time": "04:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Palestino",
+        "slug": "palestino",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/3157/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Palestino",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Unión La Calera",
+        "slug": "union-la-calera",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/48242/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Unión La Calera",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-20T09:57:56.123307+00:00",
+      "stream_links": "pro/TGlnYSBkZSBQcmltZXJhLVBhbGVzdGluby12cy1VbmnDs24gTGEgQ2FsZXJhMTc5NTE1NjIwOTY2MQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-de-primera-2026-11-20-2330-palestino-union-la-calera.png"
+    },
+    {
+      "event_id": "liga-mx-2026-11-21-0100-club-puebla-atletico-san-luis",
+      "event_name": "Club Puebla vs Atlético San Luis",
+      "competition": {
+        "id": "liga-mx",
+        "name": "Liga MX, Apertura",
+        "country": "Mexico",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/11621/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-21",
+      "match_date": "2026-11-21",
+      "match_date_utc": "2026-11-21",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-21T01:00:00Z",
+      "start_time_pkt": "2026-11-21T06:00:00+05:00",
+      "start_timestamp": 1795222800,
+      "display_date": "2026-11-21",
+      "display_time": "06:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Club Puebla",
+        "slug": "club-puebla",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1941/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Club Puebla",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Atlético San Luis",
+        "slug": "atletico-san-luis",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1950/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Atlético San Luis",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-20T09:57:56.123307+00:00",
+      "stream_links": "pro/TGlnYSBNWCwgQXBlcnR1cmEtQ2x1YiBQdWVibGEtdnMtQXRsw6l0aWNvIFNhbiBMdWlzMTc5NTE1NjIzMDU5Ng.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-21-0100-club-puebla-atletico-san-luis.png"
+    },
+    {
+      "event_id": "liga-mx-2026-11-21-0300-club-tijuana-atlante-fc",
+      "event_name": "Club Tijuana vs Atlante FC",
+      "competition": {
+        "id": "liga-mx",
+        "name": "Liga MX, Apertura",
+        "country": "Mexico",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/11621/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-21",
+      "match_date": "2026-11-21",
+      "match_date_utc": "2026-11-21",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-21T03:00:00Z",
+      "start_time_pkt": "2026-11-21T08:00:00+05:00",
+      "start_timestamp": 1795230000,
+      "display_date": "2026-11-21",
+      "display_time": "08:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Club Tijuana",
+        "slug": "club-tijuana",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/36525/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Club Tijuana",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Atlante FC",
+        "slug": "atlante-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1943/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Atlante FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-20T09:57:56.123307+00:00",
+      "stream_links": "pro/TGlnYSBNWCwgQXBlcnR1cmEtQ2x1YiBUaWp1YW5hLXZzLUF0bGFudGUgRkMxNzk1MTU2MjMwNTk2.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-21-0300-club-tijuana-atlante-fc.png"
+    },
+    {
+      "event_id": "liga-mx-2026-11-21-0300-fc-juarez-atlas-fc",
+      "event_name": "FC Juárez vs Atlas FC",
+      "competition": {
+        "id": "liga-mx",
+        "name": "Liga MX, Apertura",
+        "country": "Mexico",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/11621/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-21",
+      "match_date": "2026-11-21",
+      "match_date_utc": "2026-11-21",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-21T03:00:00Z",
+      "start_time_pkt": "2026-11-21T08:00:00+05:00",
+      "start_timestamp": 1795230000,
+      "display_date": "2026-11-21",
+      "display_time": "08:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "FC Juárez",
+        "slug": "fc-juarez",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/201624/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "FC Juárez",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Atlas FC",
+        "slug": "atlas-fc",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/1949/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Atlas FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-20T09:57:56.123307+00:00",
+      "stream_links": "pro/TGlnYSBNWCwgQXBlcnR1cmEtRkMgSnXDoXJlei12cy1BdGxhcyBGQzE3OTUxNTYyMzA1OTY.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-21-0300-fc-juarez-atlas-fc.png"
+    },
+    {
+      "event_id": "premier-league-2026-11-21-1230-manchester-city-fulham",
+      "event_name": "Manchester City vs Fulham",
+      "competition": {
+        "id": "premier-league",
+        "name": "Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/17/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-21",
+      "match_date": "2026-11-21",
+      "match_date_utc": "2026-11-21",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-21T12:30:00Z",
+      "start_time_pkt": "2026-11-21T17:30:00+05:00",
+      "start_timestamp": 1795264200,
+      "display_date": "2026-11-21",
+      "display_time": "05:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Manchester City",
+        "slug": "manchester-city",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/17/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Manchester City",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Fulham",
+        "slug": "fulham",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/43/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Fulham",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-20T09:57:56.123307+00:00",
+      "stream_links": "pro/UHJlbWllciBMZWFndWUtTWFuY2hlc3RlciBDaXR5LXZzLUZ1bGhhbTE3OTUxNTYwMDIzMDM.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-21-1230-manchester-city-fulham.png"
+    }
+  ]
 }

@@ -2,11 +2,12 @@
   "statuses": [
     {
       "id": "premier-league",
-      "name": "English Premier League",
-      "status": "no_fixtures_in_window",
+      "name": "Premier League",
       "provider": "LiveBroadcast",
-      "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.989332+00:00"
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 2,
+      "last_fetched": "2026-11-20T09:57:59.522902+00:00"
     },
     {
       "id": "championship",
@@ -14,7 +15,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.989398+00:00"
+      "last_fetched": "2026-11-20T09:57:59.531152+00:00"
     },
     {
       "id": "carabao-cup",
@@ -22,23 +23,25 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.989453+00:00"
+      "last_fetched": "2026-11-20T09:57:59.534847+00:00"
     },
     {
       "id": "la-liga",
-      "name": "Spanish La Liga",
-      "status": "no_fixtures_in_window",
+      "name": "LaLiga",
       "provider": "LiveBroadcast",
-      "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.989503+00:00"
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 1,
+      "last_fetched": "2026-11-20T09:58:01.841123+00:00"
     },
     {
       "id": "la-liga-2",
-      "name": "Spanish La Liga 2",
-      "status": "no_fixtures_in_window",
+      "name": "LaLiga 2",
       "provider": "LiveBroadcast",
-      "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.989571+00:00"
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 1,
+      "last_fetched": "2026-11-20T09:58:08.820386+00:00"
     },
     {
       "id": "serie-a",
@@ -46,23 +49,25 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.989627+00:00"
+      "last_fetched": "2026-11-20T09:58:08.823330+00:00"
     },
     {
       "id": "bundesliga",
-      "name": "German Bundesliga",
-      "status": "no_fixtures_in_window",
+      "name": "Bundesliga",
       "provider": "LiveBroadcast",
-      "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.989684+00:00"
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 2,
+      "last_fetched": "2026-11-20T09:58:10.240284+00:00"
     },
     {
       "id": "ligue-1",
-      "name": "French Ligue 1",
-      "status": "no_fixtures_in_window",
+      "name": "Ligue 1",
       "provider": "LiveBroadcast",
-      "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.989791+00:00"
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 1,
+      "last_fetched": "2026-11-20T09:58:11.855831+00:00"
     },
     {
       "id": "champions-league",
@@ -70,7 +75,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.989847+00:00"
+      "last_fetched": "2026-11-20T09:58:11.860556+00:00"
     },
     {
       "id": "europa-league",
@@ -78,7 +83,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.989899+00:00"
+      "last_fetched": "2026-11-20T09:58:11.863763+00:00"
     },
     {
       "id": "conference-league",
@@ -86,7 +91,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.989950+00:00"
+      "last_fetched": "2026-11-20T09:58:11.865855+00:00"
     },
     {
       "id": "world-cup",
@@ -94,7 +99,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990002+00:00"
+      "last_fetched": "2026-11-20T09:58:11.868748+00:00"
     },
     {
       "id": "womens-champions-league",
@@ -102,7 +107,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990053+00:00"
+      "last_fetched": "2026-11-20T09:58:11.871451+00:00"
     },
     {
       "id": "nations-league",
@@ -110,7 +115,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990106+00:00"
+      "last_fetched": "2026-11-20T09:58:11.873809+00:00"
     },
     {
       "id": "gulf-cup",
@@ -118,7 +123,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990160+00:00"
+      "last_fetched": "2026-11-20T09:58:11.879083+00:00"
     },
     {
       "id": "mls",
@@ -126,7 +131,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990202+00:00"
+      "last_fetched": "2026-11-20T09:58:11.882530+00:00"
     },
     {
       "id": "africa-cup-of-nations",
@@ -134,7 +139,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990239+00:00"
+      "last_fetched": "2026-11-20T09:58:11.885792+00:00"
     },
     {
       "id": "afcon-qualifying",
@@ -142,7 +147,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990287+00:00"
+      "last_fetched": "2026-11-20T09:58:11.888567+00:00"
     },
     {
       "id": "international-friendlies",
@@ -150,7 +155,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990340+00:00"
+      "last_fetched": "2026-11-20T09:58:11.900776+00:00"
     },
     {
       "id": "uefa-u21-qualifying",
@@ -158,7 +163,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990392+00:00"
+      "last_fetched": "2026-11-20T09:58:11.903884+00:00"
     },
     {
       "id": "concacaf-nations-league",
@@ -166,7 +171,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990447+00:00"
+      "last_fetched": "2026-11-20T09:58:11.911548+00:00"
     },
     {
       "id": "concacaf-champions-cup",
@@ -174,7 +179,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990494+00:00"
+      "last_fetched": "2026-11-20T09:58:11.916349+00:00"
     },
     {
       "id": "concacaf-gold-cup",
@@ -182,7 +187,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990560+00:00"
+      "last_fetched": "2026-11-20T09:58:11.919731+00:00"
     },
     {
       "id": "liga-f",
@@ -190,7 +195,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990622+00:00"
+      "last_fetched": "2026-11-20T09:58:11.922717+00:00"
     },
     {
       "id": "womens-super-league",
@@ -198,15 +203,16 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990671+00:00"
+      "last_fetched": "2026-11-20T09:58:11.930992+00:00"
     },
     {
       "id": "saudi-pro-league",
       "name": "Saudi Pro League",
-      "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
-      "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990710+00:00"
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 10,
+      "last_fetched": "2026-11-20T09:58:14.015392+00:00"
     },
     {
       "id": "coppa-italia",
@@ -214,7 +220,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990747+00:00"
+      "last_fetched": "2026-11-20T09:58:14.019254+00:00"
     },
     {
       "id": "brazilian-serie-a",
@@ -222,15 +228,16 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990792+00:00"
+      "last_fetched": "2026-11-20T09:58:14.022266+00:00"
     },
     {
       "id": "2-bundesliga",
       "name": "2. Bundesliga",
-      "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
-      "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990841+00:00"
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 2,
+      "last_fetched": "2026-11-20T09:58:15.894483+00:00"
     },
     {
       "id": "league-one",
@@ -238,7 +245,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990891+00:00"
+      "last_fetched": "2026-11-20T09:58:15.897310+00:00"
     },
     {
       "id": "scottish-championship",
@@ -246,7 +253,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990933+00:00"
+      "last_fetched": "2026-11-20T09:58:15.899219+00:00"
     },
     {
       "id": "fa-trophy",
@@ -254,7 +261,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.990969+00:00"
+      "last_fetched": "2026-11-20T09:58:15.901759+00:00"
     },
     {
       "id": "afc-champions-league-elite",
@@ -262,7 +269,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991101+00:00"
+      "last_fetched": "2026-11-20T09:58:15.904553+00:00"
     },
     {
       "id": "afc-champions-league-two",
@@ -270,7 +277,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991148+00:00"
+      "last_fetched": "2026-11-20T09:58:15.906587+00:00"
     },
     {
       "id": "asean-cup",
@@ -278,7 +285,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991186+00:00"
+      "last_fetched": "2026-11-20T09:58:15.910853+00:00"
     },
     {
       "id": "uefa-youth-league",
@@ -286,7 +293,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991233+00:00"
+      "last_fetched": "2026-11-20T09:58:15.913916+00:00"
     },
     {
       "id": "asian-games-men-u23",
@@ -294,7 +301,7 @@
       "status": "disabled",
       "reason": "Competition disabled in configuration",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991238+00:00"
+      "last_fetched": "2026-11-20T09:58:15.913934+00:00"
     },
     {
       "id": "asian-games-women",
@@ -302,15 +309,16 @@
       "status": "disabled",
       "reason": "Competition disabled in configuration",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991242+00:00"
+      "last_fetched": "2026-11-20T09:58:15.913950+00:00"
     },
     {
       "id": "liga-profesional-argentina",
       "name": "Liga Profesional de Fútbol",
-      "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
-      "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991299+00:00"
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 1,
+      "last_fetched": "2026-11-20T09:58:17.596694+00:00"
     },
     {
       "id": "primeira-liga",
@@ -318,7 +326,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991347+00:00"
+      "last_fetched": "2026-11-20T09:58:17.600668+00:00"
     },
     {
       "id": "turkish-super-lig",
@@ -326,15 +334,16 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991394+00:00"
+      "last_fetched": "2026-11-20T09:58:17.603845+00:00"
     },
     {
       "id": "liga-mx",
-      "name": "Mexican Liga BBVA MX",
-      "status": "no_fixtures_in_window",
+      "name": "Liga MX, Apertura",
       "provider": "LiveBroadcast",
-      "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991442+00:00"
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 3,
+      "last_fetched": "2026-11-20T09:58:19.506894+00:00"
     },
     {
       "id": "conmebol-sudamericana",
@@ -342,7 +351,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991489+00:00"
+      "last_fetched": "2026-11-20T09:58:19.513179+00:00"
     },
     {
       "id": "colombian-primera-a",
@@ -350,7 +359,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991533+00:00"
+      "last_fetched": "2026-11-20T09:58:19.517210+00:00"
     },
     {
       "id": "conmebol-libertadores",
@@ -358,7 +367,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991605+00:00"
+      "last_fetched": "2026-11-20T09:58:19.518819+00:00"
     },
     {
       "id": "copa-colombia",
@@ -366,7 +375,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991663+00:00"
+      "last_fetched": "2026-11-20T09:58:19.520476+00:00"
     },
     {
       "id": "ligue-2",
@@ -374,7 +383,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991735+00:00"
+      "last_fetched": "2026-11-20T09:58:19.522019+00:00"
     },
     {
       "id": "serie-b",
@@ -382,15 +391,16 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991796+00:00"
+      "last_fetched": "2026-11-20T09:58:19.523602+00:00"
     },
     {
       "id": "a-league-men",
-      "name": "Australian A-League Men",
-      "status": "no_fixtures_in_window",
+      "name": "A-League Men",
       "provider": "LiveBroadcast",
-      "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991851+00:00"
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 1,
+      "last_fetched": "2026-11-20T09:58:21.004362+00:00"
     },
     {
       "id": "saff-championship",
@@ -398,7 +408,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991905+00:00"
+      "last_fetched": "2026-11-20T09:58:21.007225+00:00"
     },
     {
       "id": "russian-premier-league",
@@ -406,7 +416,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.991965+00:00"
+      "last_fetched": "2026-11-20T09:58:21.013508+00:00"
     },
     {
       "id": "dfb-pokal",
@@ -414,7 +424,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992020+00:00"
+      "last_fetched": "2026-11-20T09:58:21.015829+00:00"
     },
     {
       "id": "copa-del-rey",
@@ -422,7 +432,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992074+00:00"
+      "last_fetched": "2026-11-20T09:58:21.018889+00:00"
     },
     {
       "id": "fifa-u17-womens-world-cup",
@@ -430,7 +440,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992128+00:00"
+      "last_fetched": "2026-11-20T09:58:21.021551+00:00"
     },
     {
       "id": "concacaf-central-american-cup",
@@ -438,7 +448,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992183+00:00"
+      "last_fetched": "2026-11-20T09:58:21.027267+00:00"
     },
     {
       "id": "swedish-allsvenskan",
@@ -446,7 +456,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992239+00:00"
+      "last_fetched": "2026-11-20T09:58:21.030157+00:00"
     },
     {
       "id": "efl-trophy",
@@ -454,7 +464,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992300+00:00"
+      "last_fetched": "2026-11-20T09:58:21.032585+00:00"
     },
     {
       "id": "indian-super-league",
@@ -462,15 +472,16 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992353+00:00"
+      "last_fetched": "2026-11-20T09:58:21.035361+00:00"
     },
     {
       "id": "a-league-women",
-      "name": "Australian A-League Women",
-      "status": "no_fixtures_in_window",
+      "name": "A-League Women",
       "provider": "LiveBroadcast",
-      "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992405+00:00"
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 1,
+      "last_fetched": "2026-11-20T09:58:22.796584+00:00"
     },
     {
       "id": "liga-1-te-apuesto",
@@ -478,15 +489,16 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992534+00:00"
+      "last_fetched": "2026-11-20T09:58:22.799783+00:00"
     },
     {
       "id": "liga-de-primera",
-      "name": "Chilean Primera División",
-      "status": "no_fixtures_in_window",
+      "name": "Liga de Primera",
       "provider": "LiveBroadcast",
-      "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992622+00:00"
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 2,
+      "last_fetched": "2026-11-20T09:58:24.512242+00:00"
     },
     {
       "id": "u20-copa-do-brasil",
@@ -494,7 +506,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992680+00:00"
+      "last_fetched": "2026-11-20T09:58:24.515415+00:00"
     },
     {
       "id": "copa-do-brasil-feminino",
@@ -502,7 +514,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992732+00:00"
+      "last_fetched": "2026-11-20T09:58:24.518609+00:00"
     },
     {
       "id": "south-african-premiership",
@@ -510,7 +522,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992783+00:00"
+      "last_fetched": "2026-11-20T09:58:24.522914+00:00"
     },
     {
       "id": "fa-cup",
@@ -518,7 +530,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992833+00:00"
+      "last_fetched": "2026-11-20T09:58:24.531235+00:00"
     },
     {
       "id": "nwsl",
@@ -526,15 +538,16 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992885+00:00"
+      "last_fetched": "2026-11-20T09:58:24.533420+00:00"
     },
     {
       "id": "ekstraklasa",
-      "name": "Polish Ekstraklasa",
-      "status": "no_fixtures_in_window",
+      "name": "Ekstraklasa",
       "provider": "LiveBroadcast",
-      "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992935+00:00"
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 2,
+      "last_fetched": "2026-11-20T09:58:24.536926+00:00"
     },
     {
       "id": "egypt-cup",
@@ -542,7 +555,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.992987+00:00"
+      "last_fetched": "2026-11-20T09:58:24.539179+00:00"
     },
     {
       "id": "eredivisie",
@@ -550,7 +563,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993038+00:00"
+      "last_fetched": "2026-11-20T09:58:24.545913+00:00"
     },
     {
       "id": "canadian-premier-league",
@@ -558,7 +571,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993088+00:00"
+      "last_fetched": "2026-11-20T09:58:24.555724+00:00"
     },
     {
       "id": "serie-a-women",
@@ -566,7 +579,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993140+00:00"
+      "last_fetched": "2026-11-20T09:58:24.562360+00:00"
     },
     {
       "id": "copa-do-brasil",
@@ -574,7 +587,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993190+00:00"
+      "last_fetched": "2026-11-20T09:58:24.564351+00:00"
     },
     {
       "id": "kenya-premier-league",
@@ -582,7 +595,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993246+00:00"
+      "last_fetched": "2026-11-20T09:58:24.567562+00:00"
     },
     {
       "id": "caf-super-cup",
@@ -590,15 +603,16 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993297+00:00"
+      "last_fetched": "2026-11-20T09:58:24.569479+00:00"
     },
     {
       "id": "frauen-bundesliga",
       "name": "Frauen-Bundesliga",
-      "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
-      "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993359+00:00"
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 1,
+      "last_fetched": "2026-11-20T09:58:24.571540+00:00"
     },
     {
       "id": "superliga-romaniei",
@@ -606,7 +620,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993418+00:00"
+      "last_fetched": "2026-11-20T09:58:24.572924+00:00"
     },
     {
       "id": "guatemalan-liga-nacional",
@@ -614,7 +628,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993468+00:00"
+      "last_fetched": "2026-11-20T09:58:24.580247+00:00"
     },
     {
       "id": "bolivian-primera-division",
@@ -622,7 +636,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993522+00:00"
+      "last_fetched": "2026-11-20T09:58:24.583110+00:00"
     },
     {
       "id": "paraguayan-primera-division",
@@ -630,7 +644,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993604+00:00"
+      "last_fetched": "2026-11-20T09:58:24.586275+00:00"
     },
     {
       "id": "supercopa-argentina",
@@ -638,7 +652,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993656+00:00"
+      "last_fetched": "2026-11-20T09:58:24.589048+00:00"
     },
     {
       "id": "liga-de-expansion-mx",
@@ -646,7 +660,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993708+00:00"
+      "last_fetched": "2026-11-20T09:58:24.598982+00:00"
     },
     {
       "id": "club-friendlies",
@@ -654,7 +668,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993759+00:00"
+      "last_fetched": "2026-11-20T09:58:24.603051+00:00"
     },
     {
       "id": "league-two",
@@ -662,7 +676,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993808+00:00"
+      "last_fetched": "2026-11-20T09:58:24.614004+00:00"
     },
     {
       "id": "copa-argentina",
@@ -670,7 +684,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993857+00:00"
+      "last_fetched": "2026-11-20T09:58:24.647541+00:00"
     },
     {
       "id": "liga-mx-women",
@@ -678,7 +692,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993906+00:00"
+      "last_fetched": "2026-11-20T09:58:24.650007+00:00"
     },
     {
       "id": "womens-fa-cup",
@@ -686,7 +700,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.993956+00:00"
+      "last_fetched": "2026-11-20T09:58:24.651994+00:00"
     },
     {
       "id": "northern-super-league",
@@ -694,7 +708,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.994010+00:00"
+      "last_fetched": "2026-11-20T09:58:24.655357+00:00"
     },
     {
       "id": "usl-league-one",
@@ -702,7 +716,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.994061+00:00"
+      "last_fetched": "2026-11-20T09:58:24.661641+00:00"
     },
     {
       "id": "caf-womens-champions-league",
@@ -710,7 +724,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.994112+00:00"
+      "last_fetched": "2026-11-20T09:58:24.664043+00:00"
     },
     {
       "id": "colombian-primera-b",
@@ -718,7 +732,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.994161+00:00"
+      "last_fetched": "2026-11-20T09:58:24.666105+00:00"
     },
     {
       "id": "copa-bolivia",
@@ -726,7 +740,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.994210+00:00"
+      "last_fetched": "2026-11-20T09:58:24.668729+00:00"
     },
     {
       "id": "usl-championship",
@@ -734,7 +748,7 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.994260+00:00"
+      "last_fetched": "2026-11-20T09:58:24.670500+00:00"
     },
     {
       "id": "king-s-cup",
@@ -742,15 +756,16 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.994312+00:00"
+      "last_fetched": "2026-11-20T09:58:24.679161+00:00"
     },
     {
       "id": "fifa-u17-world-cup",
-      "name": "FIFA Under-17 World Cup",
-      "status": "no_fixtures_in_window",
+      "name": "U17 World Championship",
       "provider": "LiveBroadcast",
-      "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.994362+00:00"
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 8,
+      "last_fetched": "2026-11-20T09:58:26.543832+00:00"
     },
     {
       "id": "womens-league-cup",
@@ -758,8 +773,62 @@
       "status": "no_fixtures_in_window",
       "provider": "LiveBroadcast",
       "matches_count": 0,
-      "last_fetched": "2026-11-20T00:59:47.994414+00:00"
+      "last_fetched": "2026-11-20T09:58:26.548445+00:00"
+    },
+    {
+      "id": "fifa-u17-womens-world-cup",
+      "name": "FIFA U-17 Women's World Cup",
+      "provider": "LiveBroadcast",
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 1,
+      "last_fetched": "2026-11-20T09:58:26.551900+00:00"
+    },
+    {
+      "id": "south-african-premiership",
+      "name": "South Africa Betway Premiership",
+      "provider": "LiveBroadcast",
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 1,
+      "last_fetched": "2026-11-20T09:58:26.552453+00:00"
+    },
+    {
+      "id": "saff-championship",
+      "name": "SAFF Championship",
+      "provider": "LiveBroadcast",
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 1,
+      "last_fetched": "2026-11-20T09:58:26.552833+00:00"
+    },
+    {
+      "id": "uefa-nations-league-draw",
+      "name": "UEFA Nations League Draw",
+      "provider": "LiveBroadcast",
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 1,
+      "last_fetched": "2026-11-20T09:58:26.553491+00:00"
+    },
+    {
+      "id": "afc-u17-asian-cup-qualification",
+      "name": "AFC U17 Asian Cup Qualification",
+      "provider": "LiveBroadcast",
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 4,
+      "last_fetched": "2026-11-20T09:58:26.553800+00:00"
+    },
+    {
+      "id": "taca-de-portugal",
+      "name": "Taça de Portugal",
+      "provider": "LiveBroadcast",
+      "priority_source": "LiveBroadcast",
+      "status": "available",
+      "matches_count": 1,
+      "last_fetched": "2026-11-20T09:58:26.554028+00:00"
     }
   ],
-  "updated_at": "2026-11-20T00:59:47.988743+00:00"
+  "updated_at": "2026-11-20T09:57:56.123307+00:00"
 }

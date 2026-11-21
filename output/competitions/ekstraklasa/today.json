@@ -7,10 +7,125 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-21T00:32:54.369150+00:00",
+  "generated_at": "2026-11-21T14:20:05.674987+00:00",
   "feed_type": "today",
   "target_date_pkt": "2026-11-21",
   "target_day_name": "Saturday",
-  "total_events": 0,
-  "events": []
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "ekstraklasa-2026-11-21-1345-ks-cracovia-jagiellonia-biaystok",
+      "event_name": "KS Cracovia vs Jagiellonia Białystok",
+      "competition": {
+        "id": "ekstraklasa",
+        "name": "Ekstraklasa",
+        "country": "Poland",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/202/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-21",
+      "match_date": "2026-11-21",
+      "match_date_utc": "2026-11-21",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-21T13:45:00Z",
+      "start_time_pkt": "2026-11-21T18:45:00+05:00",
+      "start_timestamp": 1795268700,
+      "display_date": "2026-11-21",
+      "display_time": "06:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "KS Cracovia",
+        "slug": "ks-cracovia",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/4901/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "KS Cracovia",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Jagiellonia Białystok",
+        "slug": "jagiellonia-biaystok",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/7691/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Jagiellonia Białystok",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-21T14:16:05.339160+00:00",
+      "stream_links": "pro/RWtzdHJha2xhc2EtS1MgQ3JhY292aWEtdnMtSmFnaWVsbG9uaWEgQmlhxYJ5c3RvazE3OTUyMzI4ODQyMDE.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ekstraklasa-2026-11-21-1345-ks-cracovia-jagiellonia-biaystok.png"
+    },
+    {
+      "event_id": "ekstraklasa-2026-11-21-1630-zagebie-lubin-gornik-zabrze",
+      "event_name": "Zagłębie Lubin vs Górnik Zabrze",
+      "competition": {
+        "id": "ekstraklasa",
+        "name": "Ekstraklasa",
+        "country": "Poland",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/202/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-21",
+      "match_date": "2026-11-21",
+      "match_date_utc": "2026-11-21",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-21T16:30:00Z",
+      "start_time_pkt": "2026-11-21T21:30:00+05:00",
+      "start_timestamp": 1795278600,
+      "display_date": "2026-11-21",
+      "display_time": "09:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Zagłębie Lubin",
+        "slug": "zagebie-lubin",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/3113/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Zagłębie Lubin",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Górnik Zabrze",
+        "slug": "gornik-zabrze",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/3110/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Górnik Zabrze",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-21T14:16:05.339160+00:00",
+      "stream_links": "pro/RWtzdHJha2xhc2EtWmFnxYLEmWJpZSBMdWJpbi12cy1Hw7NybmlrIFphYnJ6ZTE3OTUyMzI4ODQyMDE.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ekstraklasa-2026-11-21-1630-zagebie-lubin-gornik-zabrze.png"
+    }
+  ]
 }

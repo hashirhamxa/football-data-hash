@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "competition": {
+    "id": "south-african-league-cup",
+    "name": "South African League Cup",
+    "country": "International"
+  },
+  "timezone": "Asia/Karachi",
+  "timezone_label": "PKT (UTC+05:00)",
+  "generated_at": "2026-11-21T14:20:05.805222+00:00",
+  "feed_type": "today",
+  "target_date_pkt": "2026-11-21",
+  "target_day_name": "Saturday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "south-african-league-cup-2026-11-21-1330-stellenbosch-orlando-pirates",
+      "event_name": "Stellenbosch vs Orlando Pirates",
+      "competition": {
+        "id": "south-african-league-cup",
+        "name": "South African League Cup",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/1205/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-21",
+      "match_date": "2026-11-21",
+      "match_date_utc": "2026-11-21",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-21T13:30:00Z",
+      "start_time_pkt": "2026-11-21T18:30:00+05:00",
+      "start_timestamp": 1795267800,
+      "display_date": "2026-11-21",
+      "display_time": "06:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Stellenbosch",
+        "slug": "stellenbosch",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/43555/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Stellenbosch",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Orlando Pirates",
+        "slug": "orlando-pirates",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/7668/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Orlando Pirates",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-21T14:16:05.339160+00:00",
+      "stream_links": "pro/U291dGggQWZyaWNhbiBMZWFndWUgQ3VwLVN0ZWxsZW5ib3NjaC12cy1PcmxhbmRvIFBpcmF0ZXMxNzk1MjMyNTUwNzU1.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/south-african-league-cup-2026-11-21-1330-stellenbosch-orlando-pirates.png"
+    }
+  ]
+}

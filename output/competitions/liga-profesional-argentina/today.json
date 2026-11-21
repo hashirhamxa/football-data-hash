@@ -7,10 +7,68 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-21T00:32:54.358250+00:00",
+  "generated_at": "2026-11-21T14:20:05.556567+00:00",
   "feed_type": "today",
   "target_date_pkt": "2026-11-21",
   "target_day_name": "Saturday",
-  "total_events": 0,
-  "events": []
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "liga-profesional-argentina-2026-11-21-1800-defensa-y-justicia-barracas-central",
+      "event_name": "Defensa y Justicia vs Barracas Central",
+      "competition": {
+        "id": "liga-profesional-argentina",
+        "name": "Liga Profesional de Fútbol",
+        "country": "Argentina",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/155/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-21",
+      "match_date": "2026-11-21",
+      "match_date_utc": "2026-11-21",
+      "match_date_pkt": "2026-11-21",
+      "start_time_utc": "2026-11-21T18:00:00Z",
+      "start_time_pkt": "2026-11-21T23:00:00+05:00",
+      "start_timestamp": 1795284000,
+      "display_date": "2026-11-21",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Defensa y Justicia",
+        "slug": "defensa-y-justicia",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/36839/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Defensa y Justicia",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Barracas Central",
+        "slug": "barracas-central",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/65668/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Barracas Central",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-21T14:16:05.339160+00:00",
+      "stream_links": "pro/TGlnYSBQcm9mZXNpb25hbCBkZSBGw7p0Ym9sLURlZmVuc2EgeSBKdXN0aWNpYS12cy1CYXJyYWNhcyBDZW50cmFsMTc5NTIzNDEzMjM4MQ.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-profesional-argentina-2026-11-21-1800-defensa-y-justicia-barracas-central.png"
+    }
+  ]
 }

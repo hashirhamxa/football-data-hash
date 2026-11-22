@@ -7,13 +7,13 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-21T14:20:05.816758+00:00",
+  "generated_at": "2026-11-22T04:19:23.978040+00:00",
   "feed_type": "upcoming_30_days",
   "total_events": 4,
   "events": [
     {
-      "event_id": "pro-league-2026-11-21-1500-rc-sporting-charleroi-sint-truidense-vv",
-      "event_name": "RC Sporting Charleroi vs Sint-Truidense VV",
+      "event_id": "pro-league-2026-11-22-1230-sk-beveren-kaa-gent",
+      "event_name": "SK Beveren vs KAA Gent",
       "competition": {
         "id": "pro-league",
         "name": "Pro League",
@@ -23,38 +23,95 @@
         "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/38/image/dark"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-21",
-      "match_date": "2026-11-21",
-      "match_date_utc": "2026-11-21",
-      "match_date_pkt": "2026-11-21",
-      "start_time_utc": "2026-11-21T15:00:00Z",
-      "start_time_pkt": "2026-11-21T20:00:00+05:00",
-      "start_timestamp": 1795273200,
-      "display_date": "2026-11-21",
+      "source_date": "2026-11-22",
+      "match_date": "2026-11-22",
+      "match_date_utc": "2026-11-22",
+      "match_date_pkt": "2026-11-22",
+      "start_time_utc": "2026-11-22T12:30:00Z",
+      "start_time_pkt": "2026-11-22T17:30:00+05:00",
+      "start_timestamp": 1795350600,
+      "display_date": "2026-11-22",
+      "display_time": "05:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "SK Beveren",
+        "slug": "sk-beveren",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/4859/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "SK Beveren",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "KAA Gent",
+        "slug": "kaa-gent",
+        "espn_id": null,
+        "logo_url": "https://img.sofascore.com/api/v1/team/2903/image",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "KAA Gent",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "LiveBroadcast",
+        "season": "2026-27",
+        "source_url": null,
+        "priority_applied": true
+      },
+      "last_updated": "2026-11-22T04:17:26.818368+00:00",
+      "stream_links": "pro/UHJvIExlYWd1ZS1TSyBCZXZlcmVuLXZzLUtBQSBHZW50MTc5NTMwNDMyNzA1Mw.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/pro-league-2026-11-22-1230-sk-beveren-kaa-gent.png"
+    },
+    {
+      "event_id": "pro-league-2026-11-22-1500-kv-kortrijk-royale-union-saint-gilloise",
+      "event_name": "KV Kortrijk vs Royale Union Saint-Gilloise",
+      "competition": {
+        "id": "pro-league",
+        "name": "Pro League",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/38/image/dark"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-22",
+      "match_date": "2026-11-22",
+      "match_date_utc": "2026-11-22",
+      "match_date_pkt": "2026-11-22",
+      "start_time_utc": "2026-11-22T15:00:00Z",
+      "start_time_pkt": "2026-11-22T20:00:00+05:00",
+      "start_timestamp": 1795359600,
+      "display_date": "2026-11-22",
       "display_time": "08:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "RC Sporting Charleroi",
-        "slug": "rc-sporting-charleroi",
+        "name": "KV Kortrijk",
+        "slug": "kv-kortrijk",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/2898/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/4858/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "RC Sporting Charleroi",
+          "matched_name": "KV Kortrijk",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Sint-Truidense VV",
-        "slug": "sint-truidense-vv",
+        "name": "Royale Union Saint-Gilloise",
+        "slug": "royale-union-saint-gilloise",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/2895/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/4860/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Sint-Truidense VV",
+          "matched_name": "Royale Union Saint-Gilloise",
           "is_fallback": false
         }
       },
@@ -64,13 +121,13 @@
         "source_url": null,
         "priority_applied": true
       },
-      "last_updated": "2026-11-21T14:16:05.339160+00:00",
-      "stream_links": "pro/UHJvIExlYWd1ZS1SQyBTcG9ydGluZyBDaGFybGVyb2ktdnMtU2ludC1UcnVpZGVuc2UgVlYxNzk1MjMyNzQzNzgy.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/pro-league-2026-11-21-1500-rc-sporting-charleroi-sint-truidense-vv.png"
+      "last_updated": "2026-11-22T04:17:26.818368+00:00",
+      "stream_links": "pro/UHJvIExlYWd1ZS1LViBLb3J0cmlqay12cy1Sb3lhbGUgVW5pb24gU2FpbnQtR2lsbG9pc2UxNzk1MzA0MzI3MDUz.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/pro-league-2026-11-22-1500-kv-kortrijk-royale-union-saint-gilloise.png"
     },
     {
-      "event_id": "pro-league-2026-11-21-1715-krc-genk-raal-la-louviere",
-      "event_name": "KRC Genk vs RAAL La Louvière",
+      "event_id": "pro-league-2026-11-22-1730-rsc-anderlecht-oud-heverlee-leuven",
+      "event_name": "RSC Anderlecht vs Oud-Heverlee Leuven",
       "competition": {
         "id": "pro-league",
         "name": "Pro League",
@@ -80,95 +137,38 @@
         "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/38/image/dark"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-21",
-      "match_date": "2026-11-21",
-      "match_date_utc": "2026-11-21",
-      "match_date_pkt": "2026-11-21",
-      "start_time_utc": "2026-11-21T17:15:00Z",
-      "start_time_pkt": "2026-11-21T22:15:00+05:00",
-      "start_timestamp": 1795281300,
-      "display_date": "2026-11-21",
-      "display_time": "10:15 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "KRC Genk",
-        "slug": "krc-genk",
-        "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/2890/image",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "KRC Genk",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "RAAL La Louvière",
-        "slug": "raal-la-louviere",
-        "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/368506/image",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "RAAL La Louvière",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "LiveBroadcast",
-        "season": "2026-27",
-        "source_url": null,
-        "priority_applied": true
-      },
-      "last_updated": "2026-11-21T14:16:05.339160+00:00",
-      "stream_links": "pro/UHJvIExlYWd1ZS1LUkMgR2Vuay12cy1SQUFMIExhIExvdXZpw6hyZTE3OTUyMzI3NDM3ODE.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/pro-league-2026-11-21-1715-krc-genk-raal-la-louviere.png"
-    },
-    {
-      "event_id": "pro-league-2026-11-21-1945-kv-mechelen-club-brugge-kv",
-      "event_name": "KV Mechelen vs Club Brugge KV",
-      "competition": {
-        "id": "pro-league",
-        "name": "Pro League",
-        "country": "International",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/38/image/dark"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-21",
-      "match_date": "2026-11-21",
-      "match_date_utc": "2026-11-21",
+      "source_date": "2026-11-22",
+      "match_date": "2026-11-22",
+      "match_date_utc": "2026-11-22",
       "match_date_pkt": "2026-11-22",
-      "start_time_utc": "2026-11-21T19:45:00Z",
-      "start_time_pkt": "2026-11-22T00:45:00+05:00",
-      "start_timestamp": 1795290300,
+      "start_time_utc": "2026-11-22T17:30:00Z",
+      "start_time_pkt": "2026-11-22T22:30:00+05:00",
+      "start_timestamp": 1795368600,
       "display_date": "2026-11-22",
-      "display_time": "12:45 AM",
+      "display_time": "10:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "KV Mechelen",
-        "slug": "kv-mechelen",
+        "name": "RSC Anderlecht",
+        "slug": "rsc-anderlecht",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/5044/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/2900/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "KV Mechelen",
+          "matched_name": "RSC Anderlecht",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Club Brugge KV",
-        "slug": "club-brugge-kv",
+        "name": "Oud-Heverlee Leuven",
+        "slug": "oud-heverlee-leuven",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/2888/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/2918/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Club Brugge KV",
+          "matched_name": "Oud-Heverlee Leuven",
           "is_fallback": false
         }
       },
@@ -178,13 +178,13 @@
         "source_url": null,
         "priority_applied": true
       },
-      "last_updated": "2026-11-21T14:16:05.339160+00:00",
-      "stream_links": "pro/UHJvIExlYWd1ZS1LViBNZWNoZWxlbi12cy1DbHViIEJydWdnZSBLVjE3OTUyMzI3NDM3ODI.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/pro-league-2026-11-21-1945-kv-mechelen-club-brugge-kv.png"
+      "last_updated": "2026-11-22T04:17:26.818368+00:00",
+      "stream_links": "pro/UHJvIExlYWd1ZS1SU0MgQW5kZXJsZWNodC12cy1PdWQtSGV2ZXJsZWUgTGV1dmVuMTc5NTMwNDMyNzA1Mg.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/pro-league-2026-11-22-1730-rsc-anderlecht-oud-heverlee-leuven.png"
     },
     {
-      "event_id": "pro-league-2026-11-21-1945-sv-zulte-waregem-royal-antwerp-fc",
-      "event_name": "SV Zulte Waregem vs Royal Antwerp FC",
+      "event_id": "pro-league-2026-11-22-1815-lommel-sk-standard-liege",
+      "event_name": "Lommel SK vs Standard Liège",
       "competition": {
         "id": "pro-league",
         "name": "Pro League",
@@ -194,38 +194,38 @@
         "logo_url": "http://img.sofascore.com/api/v1/unique-tournament/38/image/dark"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-21",
-      "match_date": "2026-11-21",
-      "match_date_utc": "2026-11-21",
+      "source_date": "2026-11-22",
+      "match_date": "2026-11-22",
+      "match_date_utc": "2026-11-22",
       "match_date_pkt": "2026-11-22",
-      "start_time_utc": "2026-11-21T19:45:00Z",
-      "start_time_pkt": "2026-11-22T00:45:00+05:00",
-      "start_timestamp": 1795290300,
+      "start_time_utc": "2026-11-22T18:15:00Z",
+      "start_time_pkt": "2026-11-22T23:15:00+05:00",
+      "start_timestamp": 1795371300,
       "display_date": "2026-11-22",
-      "display_time": "12:45 AM",
+      "display_time": "11:15 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "SV Zulte Waregem",
-        "slug": "sv-zulte-waregem",
+        "name": "Lommel SK",
+        "slug": "lommel-sk",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/2933/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/5046/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "SV Zulte Waregem",
+          "matched_name": "Lommel SK",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Royal Antwerp FC",
-        "slug": "royal-antwerp-fc",
+        "name": "Standard Liège",
+        "slug": "standard-liege",
         "espn_id": null,
-        "logo_url": "https://img.sofascore.com/api/v1/team/2889/image",
+        "logo_url": "https://img.sofascore.com/api/v1/team/2901/image",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Royal Antwerp FC",
+          "matched_name": "Standard Liège",
           "is_fallback": false
         }
       },
@@ -235,9 +235,9 @@
         "source_url": null,
         "priority_applied": true
       },
-      "last_updated": "2026-11-21T14:16:05.339160+00:00",
-      "stream_links": "pro/UHJvIExlYWd1ZS1TViBadWx0ZSBXYXJlZ2VtLXZzLVJveWFsIEFudHdlcnAgRkMxNzk1MjMyNzQzNzgy.txt",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/pro-league-2026-11-21-1945-sv-zulte-waregem-royal-antwerp-fc.png"
+      "last_updated": "2026-11-22T04:17:26.818368+00:00",
+      "stream_links": "pro/UHJvIExlYWd1ZS1Mb21tZWwgU0stdnMtU3RhbmRhcmQgTGnDqGdlMTc5NTMwNDMyNzA1Mg.txt",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/pro-league-2026-11-22-1815-lommel-sk-standard-liege.png"
     }
   ]
 }

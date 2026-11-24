@@ -207,56 +207,86 @@ def fetch_all_fixtures(
         live_status = live_result.get("status", {})
         comp_live_name = live_status.get("name") if live_status.get("status") == "available" else None
 
-        # Only incoming matches from LiveBroadcast feed are added/updated
-        if not live_matches:
+        # If LiveBroadcast has fixtures for this competition, use them (Tier 1)
+        if live_matches:
+            # 2. Tier 2: ESPN (used to enrich matching incoming matches)
+            try:
+                espn_result = espn_adapter.fetch_fixtures_for_competition(
+                    competition=comp,
+                    start_date=start_date,
+                    days_ahead=days_ahead
+                )
+                espn_matches = espn_result.get("matches", [])
+            except Exception as e:
+                logger.debug(f"ESPN enrichment fetch skipped for {comp_name}: {e}")
+                espn_matches = []
+
+            if espn_matches:
+                logger.info(f"[Tier 1 - LiveBroadcast] Updating {len(live_matches)} incoming matches for '{comp_name}' with ESPN metadata...")
+                for lm in live_matches:
+                    update_live_feed_match_with_espn(lm, espn_matches)
+            else:
+                logger.info(f"[Tier 1 - LiveBroadcast] Ingested {len(live_matches)} incoming matches for '{comp_name}' directly from feed.")
+
+            effective_name = comp_live_name or comp_name
             status = {
                 "id": comp_id,
-                "name": comp_name,
-                "status": "no_fixtures_in_window",
+                "name": effective_name,
                 "provider": "LiveBroadcast",
-                "matches_count": 0,
+                "priority_source": "LiveBroadcast",
+                "status": "available",
+                "matches_count": len(live_matches),
                 "last_fetched": datetime.now(timezone.utc).isoformat()
             }
+
+            raw_fixtures[comp_id] = {
+                "config": comp,
+                "status": status,
+                "source": "LiveBroadcast (ESPN Enriched)" if any(m.get("espn_matched") for m in live_matches) else "LiveBroadcast",
+                "matches": live_matches
+            }
             statuses.append(status)
-            continue
-
-        # 2. Tier 2: ESPN (used strictly to enrich matching incoming matches)
-        try:
-            espn_result = espn_adapter.fetch_fixtures_for_competition(
-                competition=comp,
-                start_date=start_date,
-                days_ahead=days_ahead
-            )
-            espn_matches = espn_result.get("matches", [])
-        except Exception as e:
-            logger.debug(f"ESPN enrichment fetch skipped for {comp_name}: {e}")
-            espn_matches = []
-
-        if espn_matches:
-            logger.info(f"[Tier 1 - LiveBroadcast] Updating {len(live_matches)} incoming matches for '{comp_name}' with ESPN metadata...")
-            for lm in live_matches:
-                update_live_feed_match_with_espn(lm, espn_matches)
         else:
-            logger.info(f"[Tier 1 - LiveBroadcast] Ingested {len(live_matches)} incoming matches for '{comp_name}' directly from feed.")
+            # Tier 2 Fallback: Fetch directly from ESPN when LiveBroadcast is unreachable or has no fixtures
+            try:
+                espn_result = espn_adapter.fetch_fixtures_for_competition(
+                    competition=comp,
+                    start_date=start_date,
+                    days_ahead=days_ahead
+                )
+                espn_matches = espn_result.get("matches", [])
+            except Exception as e:
+                logger.debug(f"ESPN fallback fetch failed for {comp_name}: {e}")
+                espn_matches = []
 
-        effective_name = comp_live_name or comp_name
-        status = {
-            "id": comp_id,
-            "name": effective_name,
-            "provider": "LiveBroadcast",
-            "priority_source": "LiveBroadcast",
-            "status": "available",
-            "matches_count": len(live_matches),
-            "last_fetched": datetime.now(timezone.utc).isoformat()
-        }
-
-        raw_fixtures[comp_id] = {
-            "config": comp,
-            "status": status,
-            "source": "LiveBroadcast (ESPN Enriched)" if any(m.get("espn_matched") for m in live_matches) else "LiveBroadcast",
-            "matches": live_matches
-        }
-        statuses.append(status)
+            if espn_matches:
+                logger.info(f"[Tier 2 - ESPN Fallback] Ingested {len(espn_matches)} upcoming matches for '{comp_name}'.")
+                status = {
+                    "id": comp_id,
+                    "name": comp_name,
+                    "provider": "ESPN",
+                    "priority_source": "ESPN",
+                    "status": "available",
+                    "matches_count": len(espn_matches),
+                    "last_fetched": datetime.now(timezone.utc).isoformat()
+                }
+                raw_fixtures[comp_id] = {
+                    "config": comp,
+                    "status": status,
+                    "source": "ESPN",
+                    "matches": espn_matches
+                }
+                statuses.append(status)
+            else:
+                status = {
+                    "id": comp_id,
+                    "name": comp_name,
+                    "status": "no_fixtures_in_window",
+                    "provider": "None",
+                    "matches_count": 0,
+                    "last_fetched": datetime.now(timezone.utc).isoformat()
+                }
+                statuses.append(status)
 
     # 3. Add any remaining incoming football matches present in LiveBroadcast feed that were not captured above
     all_fb_events = live_adapter.get_all_football_events()

@@ -7,8 +7,177 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-24T04:09:32.634708+00:00",
+  "generated_at": "2026-11-24T08:08:42.408496+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 0,
-  "events": []
+  "total_events": 3,
+  "events": [
+    {
+      "event_id": "la-liga-2026-11-27-2000-levante-racing-santander",
+      "event_name": "Racing Santander at Levante",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-27",
+      "match_date": "2026-11-27",
+      "match_date_utc": "2026-11-27",
+      "match_date_pkt": "2026-11-28",
+      "start_time_utc": "2026-11-27T20:00:00Z",
+      "start_time_pkt": "2026-11-28T01:00:00+05:00",
+      "start_timestamp": 1795809600,
+      "display_date": "2026-11-28",
+      "display_time": "01:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Levante",
+        "slug": "levante",
+        "espn_id": "1538",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Levante",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Racing Santander",
+        "slug": "racing-santander",
+        "espn_id": "87",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Racing Santander",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-24T08:03:59.928205+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-11-27-2000-levante-racing-santander.png"
+    },
+    {
+      "event_id": "la-liga-2026-11-28-1300-real-betis-rayo-vallecano",
+      "event_name": "Rayo Vallecano at Real Betis",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-28",
+      "start_time_utc": "2026-11-28T13:00:00Z",
+      "start_time_pkt": "2026-11-28T18:00:00+05:00",
+      "start_timestamp": 1795870800,
+      "display_date": "2026-11-28",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Real Betis",
+        "slug": "real-betis",
+        "espn_id": "244",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Real Betis",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Rayo Vallecano",
+        "slug": "rayo-vallecano",
+        "espn_id": "101",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Rayo Vallecano",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-24T08:03:59.928205+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-11-28-1300-real-betis-rayo-vallecano.png"
+    },
+    {
+      "event_id": "la-liga-2026-11-28-1515-malaga-athletic-club",
+      "event_name": "Athletic Club at Málaga",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-28",
+      "start_time_utc": "2026-11-28T15:15:00Z",
+      "start_time_pkt": "2026-11-28T20:15:00+05:00",
+      "start_timestamp": 1795878900,
+      "display_date": "2026-11-28",
+      "display_time": "08:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Málaga",
+        "slug": "malaga",
+        "espn_id": "99",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Málaga",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Athletic Club",
+        "slug": "athletic-club",
+        "espn_id": "93",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Athletic Club",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-24T08:03:59.928205+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-11-28-1515-malaga-athletic-club.png"
+    }
+  ]
 }

@@ -7,10 +7,67 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-24T04:09:32.669949+00:00",
+  "generated_at": "2026-11-24T08:08:42.674716+00:00",
   "feed_type": "today",
   "target_date_pkt": "2026-11-24",
   "target_day_name": "Tuesday",
-  "total_events": 0,
-  "events": []
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "indian-super-league-2026-11-24-1400-northeast-united-fc-sporting-club-delhi",
+      "event_name": "Sporting Club Delhi at NorthEast United FC",
+      "competition": {
+        "id": "indian-super-league",
+        "name": "Indian Super League",
+        "country": "India",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2334.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-24",
+      "match_date": "2026-11-24",
+      "match_date_utc": "2026-11-24",
+      "match_date_pkt": "2026-11-24",
+      "start_time_utc": "2026-11-24T14:00:00Z",
+      "start_time_pkt": "2026-11-24T19:00:00+05:00",
+      "start_timestamp": 1795528800,
+      "display_date": "2026-11-24",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "NorthEast United FC",
+        "slug": "northeast-united-fc",
+        "espn_id": "18004",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/18004.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "NorthEast United FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Sporting Club Delhi",
+        "slug": "sporting-club-delhi",
+        "espn_id": "131703",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/sporting-club-delhi.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ind.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-24T08:03:59.928205+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/indian-super-league-2026-11-24-1400-northeast-united-fc-sporting-club-delhi.png"
+    }
+  ]
 }

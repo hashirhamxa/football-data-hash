@@ -7,8 +7,121 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-24T04:09:32.637188+00:00",
+  "generated_at": "2026-11-24T08:08:42.425546+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 0,
-  "events": []
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "ligue-1-2026-11-27-1945-brest-paris-fc",
+      "event_name": "Paris FC at Brest",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-27",
+      "match_date": "2026-11-27",
+      "match_date_utc": "2026-11-27",
+      "match_date_pkt": "2026-11-28",
+      "start_time_utc": "2026-11-27T19:45:00Z",
+      "start_time_pkt": "2026-11-28T00:45:00+05:00",
+      "start_timestamp": 1795808700,
+      "display_date": "2026-11-28",
+      "display_time": "12:45 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Brest",
+        "slug": "brest",
+        "espn_id": "6997",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Brest",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Paris FC",
+        "slug": "paris-fc",
+        "espn_id": "6851",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Paris FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-24T08:03:59.928205+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-11-27-1945-brest-paris-fc.png"
+    },
+    {
+      "event_id": "ligue-1-2026-11-28-1615-angers-lens",
+      "event_name": "Lens at Angers",
+      "competition": {
+        "id": "ligue-1",
+        "name": "French Ligue 1",
+        "country": "France",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-28",
+      "start_time_utc": "2026-11-28T16:15:00Z",
+      "start_time_pkt": "2026-11-28T21:15:00+05:00",
+      "start_timestamp": 1795882500,
+      "display_date": "2026-11-28",
+      "display_time": "09:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Angers",
+        "slug": "angers",
+        "espn_id": "7868",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Angers",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Lens",
+        "slug": "lens",
+        "espn_id": "175",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Lens",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-24T08:03:59.928205+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/ligue-1-2026-11-28-1615-angers-lens.png"
+    }
+  ]
 }

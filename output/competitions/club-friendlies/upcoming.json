@@ -7,8 +7,233 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-24T04:09:32.690154+00:00",
+  "generated_at": "2026-11-24T08:08:42.924775+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 0,
-  "events": []
+  "total_events": 4,
+  "events": [
+    {
+      "event_id": "club-friendlies-2026-11-26-1300-fc-ilves-sjk-j",
+      "event_name": "SJK-J at FC Ilves",
+      "competition": {
+        "id": "club-friendlies",
+        "name": "Club Friendly Games",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": null
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-26",
+      "match_date": "2026-11-26",
+      "match_date_utc": "2026-11-26",
+      "match_date_pkt": "2026-11-26",
+      "start_time_utc": "2026-11-26T13:00:00Z",
+      "start_time_pkt": "2026-11-26T18:00:00+05:00",
+      "start_timestamp": 1795698000,
+      "display_date": "2026-11-26",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "FC Ilves",
+        "slug": "fc-ilves",
+        "espn_id": "19248",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/fc-ilves.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "SJK-J",
+        "slug": "sjk-j",
+        "espn_id": "134163",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/sjk-j.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/club.friendly/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-24T08:03:59.928205+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/club-friendlies-2026-11-26-1300-fc-ilves-sjk-j.png"
+    },
+    {
+      "event_id": "club-friendlies-2026-11-27-1130-fc-ilves-tps",
+      "event_name": "TPS at FC Ilves",
+      "competition": {
+        "id": "club-friendlies",
+        "name": "Club Friendly Games",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": null
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-27",
+      "match_date": "2026-11-27",
+      "match_date_utc": "2026-11-27",
+      "match_date_pkt": "2026-11-27",
+      "start_time_utc": "2026-11-27T11:30:00Z",
+      "start_time_pkt": "2026-11-27T16:30:00+05:00",
+      "start_timestamp": 1795779000,
+      "display_date": "2026-11-27",
+      "display_time": "04:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "FC Ilves",
+        "slug": "fc-ilves",
+        "espn_id": "19248",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/fc-ilves.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "TPS",
+        "slug": "tps",
+        "espn_id": "8219",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8219.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "TPS",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/club.friendly/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-24T08:03:59.928205+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/club-friendlies-2026-11-27-1130-fc-ilves-tps.png"
+    },
+    {
+      "event_id": "club-friendlies-2026-11-27-1730-osters-if-fk-karlskrona",
+      "event_name": "FK Karlskrona at Östers IF",
+      "competition": {
+        "id": "club-friendlies",
+        "name": "Club Friendly Games",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": null
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-27",
+      "match_date": "2026-11-27",
+      "match_date_utc": "2026-11-27",
+      "match_date_pkt": "2026-11-27",
+      "start_time_utc": "2026-11-27T17:30:00Z",
+      "start_time_pkt": "2026-11-27T22:30:00+05:00",
+      "start_timestamp": 1795800600,
+      "display_date": "2026-11-27",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Östers IF",
+        "slug": "osters-if",
+        "espn_id": "2936",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2936.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Östers IF",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "FK Karlskrona",
+        "slug": "fk-karlskrona",
+        "espn_id": "134180",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/fk-karlskrona.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/club.friendly/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-24T08:03:59.928205+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/club-friendlies-2026-11-27-1730-osters-if-fk-karlskrona.png"
+    },
+    {
+      "event_id": "club-friendlies-2026-11-27-1745-fsc-eggendorf-wolfsberger-athletik-club-amateure",
+      "event_name": "WOLFSBERGER ATHLETIK CLUB AMATEURE at FSC EGGENDORF",
+      "competition": {
+        "id": "club-friendlies",
+        "name": "Club Friendly Games",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": null
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-27",
+      "match_date": "2026-11-27",
+      "match_date_utc": "2026-11-27",
+      "match_date_pkt": "2026-11-27",
+      "start_time_utc": "2026-11-27T17:45:00Z",
+      "start_time_pkt": "2026-11-27T22:45:00+05:00",
+      "start_timestamp": 1795801500,
+      "display_date": "2026-11-27",
+      "display_time": "10:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "FSC EGGENDORF",
+        "slug": "fsc-eggendorf",
+        "espn_id": "133630",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/fsc-eggendorf.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "WOLFSBERGER ATHLETIK CLUB AMATEURE",
+        "slug": "wolfsberger-athletik-club-amateure",
+        "espn_id": "132801",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/wolfsberger-athletik-club-amateure.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/club.friendly/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-24T08:03:59.928205+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/club-friendlies-2026-11-27-1745-fsc-eggendorf-wolfsberger-athletik-club-amateure.png"
+    }
+  ]
 }

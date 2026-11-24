@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-24T08:08:42.388926+00:00",
+  "generated_at": "2026-11-24T10:12:06.113092+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 3,
+  "total_events": 1,
   "events": [
     {
       "event_id": "premier-league-2026-11-27-2000-nottingham-forest-chelsea",
@@ -64,120 +64,8 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T08:03:59.928205+00:00",
+      "last_updated": "2026-11-24T10:10:00.188418+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-27-2000-nottingham-forest-chelsea.png"
-    },
-    {
-      "event_id": "premier-league-2026-11-28-1500-leeds-united-coventry-city",
-      "event_name": "Coventry City at Leeds United",
-      "competition": {
-        "id": "premier-league",
-        "name": "English Premier League",
-        "country": "England",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-28",
-      "match_date": "2026-11-28",
-      "match_date_utc": "2026-11-28",
-      "match_date_pkt": "2026-11-28",
-      "start_time_utc": "2026-11-28T15:00:00Z",
-      "start_time_pkt": "2026-11-28T20:00:00+05:00",
-      "start_timestamp": 1795878000,
-      "display_date": "2026-11-28",
-      "display_time": "08:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Leeds United",
-        "slug": "leeds-united",
-        "espn_id": "357",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Leeds United",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Coventry City",
-        "slug": "coventry-city",
-        "espn_id": "388",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Coventry City",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
-        "priority_applied": false
-      },
-      "last_updated": "2026-11-24T08:03:59.928205+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-28-1500-leeds-united-coventry-city.png"
-    },
-    {
-      "event_id": "premier-league-2026-11-28-1500-manchester-united-brentford",
-      "event_name": "Brentford at Manchester United",
-      "competition": {
-        "id": "premier-league",
-        "name": "English Premier League",
-        "country": "England",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-28",
-      "match_date": "2026-11-28",
-      "match_date_utc": "2026-11-28",
-      "match_date_pkt": "2026-11-28",
-      "start_time_utc": "2026-11-28T15:00:00Z",
-      "start_time_pkt": "2026-11-28T20:00:00+05:00",
-      "start_timestamp": 1795878000,
-      "display_date": "2026-11-28",
-      "display_time": "08:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Manchester United",
-        "slug": "manchester-united",
-        "espn_id": "360",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Manchester United",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Brentford",
-        "slug": "brentford",
-        "espn_id": "337",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Brentford",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
-        "priority_applied": false
-      },
-      "last_updated": "2026-11-24T08:03:59.928205+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-28-1500-manchester-united-brentford.png"
     }
   ]
 }

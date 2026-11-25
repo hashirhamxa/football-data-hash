@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-25T02:55:37.340731+00:00",
+  "generated_at": "2026-11-25T17:22:14.829226+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 4,
+  "total_events": 5,
   "events": [
     {
       "event_id": "eredivisie-2026-11-27-1900-fc-groningen-willem-ii",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-27-1900-fc-groningen-willem-ii.png"
     },
     {
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-28-1530-excelsior-telstar.png"
     },
     {
@@ -176,7 +176,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-28-1745-psv-eindhoven-go-ahead-eagles.png"
     },
     {
@@ -232,8 +232,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-28-2000-sc-cambuur-sparta-rotterdam.png"
+    },
+    {
+      "event_id": "eredivisie-2026-11-29-1115-ado-den-haag-fc-utrecht",
+      "event_name": "FC Utrecht at ADO Den Haag",
+      "competition": {
+        "id": "eredivisie",
+        "name": "Dutch Eredivisie",
+        "country": "Netherlands",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T11:15:00Z",
+      "start_time_pkt": "2026-11-29T16:15:00+05:00",
+      "start_timestamp": 1795950900,
+      "display_date": "2026-11-29",
+      "display_time": "04:15 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "ADO Den Haag",
+        "slug": "ado-den-haag",
+        "espn_id": "2726",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2726.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "ADO Den Haag",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "FC Utrecht",
+        "slug": "fc-utrecht",
+        "espn_id": "153",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/153.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "FC Utrecht",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-29-1115-ado-den-haag-fc-utrecht.png"
     }
   ]
 }

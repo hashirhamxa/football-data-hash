@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-25T02:55:37.285502+00:00",
+  "generated_at": "2026-11-25T17:22:14.557012+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 4,
+  "total_events": 5,
   "events": [
     {
       "event_id": "premier-league-2026-11-27-2000-nottingham-forest-chelsea",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-27-2000-nottingham-forest-chelsea.png"
     },
     {
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-28-1500-leeds-united-coventry-city.png"
     },
     {
@@ -176,7 +176,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-28-1500-manchester-united-brentford.png"
     },
     {
@@ -232,8 +232,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-28-1730-ipswich-town-aston-villa.png"
+    },
+    {
+      "event_id": "premier-league-2026-11-29-1200-everton-liverpool",
+      "event_name": "Liverpool at Everton",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T12:00:00Z",
+      "start_time_pkt": "2026-11-29T17:00:00+05:00",
+      "start_timestamp": 1795953600,
+      "display_date": "2026-11-29",
+      "display_time": "05:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Everton",
+        "slug": "everton",
+        "espn_id": "368",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Everton",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Liverpool",
+        "slug": "liverpool",
+        "espn_id": "364",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Liverpool",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-29-1200-everton-liverpool.png"
     }
   ]
 }

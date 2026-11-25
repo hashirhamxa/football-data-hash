@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-25T02:55:37.349574+00:00",
+  "generated_at": "2026-11-25T17:22:14.877614+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 6,
+  "total_events": 7,
   "events": [
     {
       "event_id": "club-friendlies-2026-11-26-1300-fc-ilves-sjk-j",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/club.friendly/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/club-friendlies-2026-11-26-1300-fc-ilves-sjk-j.png"
     },
     {
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/club.friendly/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/club-friendlies-2026-11-26-1645-frederiksberg-alliancen-2000-bronshoj.png"
     },
     {
@@ -176,8 +176,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/club.friendly/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/club-friendlies-2026-11-27-1130-fc-ilves-tps.png"
+    },
+    {
+      "event_id": "club-friendlies-2026-11-27-1300-1-fc-tatran-presov-fc-lokomotiva-kosice",
+      "event_name": "FC LOKOMOTÍVA KOŠICE at 1. FC Tatran Presov",
+      "competition": {
+        "id": "club-friendlies",
+        "name": "Club Friendly Games",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": null
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-27",
+      "match_date": "2026-11-27",
+      "match_date_utc": "2026-11-27",
+      "match_date_pkt": "2026-11-27",
+      "start_time_utc": "2026-11-27T13:00:00Z",
+      "start_time_pkt": "2026-11-27T18:00:00+05:00",
+      "start_timestamp": 1795784400,
+      "display_date": "2026-11-27",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "1. FC Tatran Presov",
+        "slug": "1-fc-tatran-presov",
+        "espn_id": "133391",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/1-fc-tatran-presov.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "away_team": {
+        "name": "FC LOKOMOTÍVA KOŠICE",
+        "slug": "fc-lokomotiva-kosice",
+        "espn_id": "133249",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/fc-lokomotiva-kosice.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/club.friendly/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/club-friendlies-2026-11-27-1300-1-fc-tatran-presov-fc-lokomotiva-kosice.png"
     },
     {
       "event_id": "club-friendlies-2026-11-27-1300-fc-basel-ii-servette-ii",
@@ -232,7 +288,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/club.friendly/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/club-friendlies-2026-11-27-1300-fc-basel-ii-servette-ii.png"
     },
     {
@@ -288,7 +344,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/club.friendly/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/club-friendlies-2026-11-27-1730-osters-if-fk-karlskrona.png"
     },
     {
@@ -344,7 +400,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/club.friendly/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/club-friendlies-2026-11-27-1745-fsc-eggendorf-wolfsberger-ac-amateure.png"
     }
   ]

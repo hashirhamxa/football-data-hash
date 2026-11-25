@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-25T02:55:37.290341+00:00",
+  "generated_at": "2026-11-25T17:22:14.579584+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 4,
+  "total_events": 5,
   "events": [
     {
       "event_id": "serie-a-2026-11-27-1945-venezia-bologna",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-11-27-1945-venezia-bologna.png"
     },
     {
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-11-28-1400-frosinone-parma.png"
     },
     {
@@ -176,7 +176,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-11-28-1700-torino-lazio.png"
     },
     {
@@ -232,8 +232,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-11-28-1945-internazionale-genoa.png"
+    },
+    {
+      "event_id": "serie-a-2026-11-29-1130-udinese-fiorentina",
+      "event_name": "Fiorentina at Udinese",
+      "competition": {
+        "id": "serie-a",
+        "name": "Italian Serie A",
+        "country": "Italy",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T11:30:00Z",
+      "start_time_pkt": "2026-11-29T16:30:00+05:00",
+      "start_timestamp": 1795951800,
+      "display_date": "2026-11-29",
+      "display_time": "04:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Udinese",
+        "slug": "udinese",
+        "espn_id": "118",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Udinese",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Fiorentina",
+        "slug": "fiorentina",
+        "espn_id": "109",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Fiorentina",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-a-2026-11-29-1130-udinese-fiorentina.png"
     }
   ]
 }

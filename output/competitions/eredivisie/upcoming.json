@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-24T10:12:06.168635+00:00",
+  "generated_at": "2026-11-25T02:55:37.340731+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 1,
+  "total_events": 4,
   "events": [
     {
       "event_id": "eredivisie-2026-11-27-1900-fc-groningen-willem-ii",
@@ -64,8 +64,176 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-27-1900-fc-groningen-willem-ii.png"
+    },
+    {
+      "event_id": "eredivisie-2026-11-28-1530-excelsior-telstar",
+      "event_name": "Telstar at Excelsior",
+      "competition": {
+        "id": "eredivisie",
+        "name": "Dutch Eredivisie",
+        "country": "Netherlands",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-28",
+      "start_time_utc": "2026-11-28T15:30:00Z",
+      "start_time_pkt": "2026-11-28T20:30:00+05:00",
+      "start_timestamp": 1795879800,
+      "display_date": "2026-11-28",
+      "display_time": "08:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Excelsior",
+        "slug": "excelsior",
+        "espn_id": "2566",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2566.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Excelsior",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Telstar",
+        "slug": "telstar",
+        "espn_id": "3735",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3735.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Telstar",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-28-1530-excelsior-telstar.png"
+    },
+    {
+      "event_id": "eredivisie-2026-11-28-1745-psv-eindhoven-go-ahead-eagles",
+      "event_name": "Go Ahead Eagles at PSV Eindhoven",
+      "competition": {
+        "id": "eredivisie",
+        "name": "Dutch Eredivisie",
+        "country": "Netherlands",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-28",
+      "start_time_utc": "2026-11-28T17:45:00Z",
+      "start_time_pkt": "2026-11-28T22:45:00+05:00",
+      "start_timestamp": 1795887900,
+      "display_date": "2026-11-28",
+      "display_time": "10:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "PSV Eindhoven",
+        "slug": "psv-eindhoven",
+        "espn_id": "148",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "PSV Eindhoven",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Go Ahead Eagles",
+        "slug": "go-ahead-eagles",
+        "espn_id": "3706",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3706.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Go Ahead Eagles",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-28-1745-psv-eindhoven-go-ahead-eagles.png"
+    },
+    {
+      "event_id": "eredivisie-2026-11-28-2000-sc-cambuur-sparta-rotterdam",
+      "event_name": "Sparta Rotterdam at SC Cambuur",
+      "competition": {
+        "id": "eredivisie",
+        "name": "Dutch Eredivisie",
+        "country": "Netherlands",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-28T20:00:00Z",
+      "start_time_pkt": "2026-11-29T01:00:00+05:00",
+      "start_timestamp": 1795896000,
+      "display_date": "2026-11-29",
+      "display_time": "01:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "SC Cambuur",
+        "slug": "sc-cambuur",
+        "espn_id": "3736",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "SC Cambuur",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Sparta Rotterdam",
+        "slug": "sparta-rotterdam",
+        "espn_id": "151",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/151.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sparta Rotterdam",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-28-2000-sc-cambuur-sparta-rotterdam.png"
     }
   ]
 }

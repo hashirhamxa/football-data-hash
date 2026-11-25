@@ -7,10 +7,67 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-24T10:12:06.150430+00:00",
+  "generated_at": "2026-11-25T02:55:37.323721+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-24",
-  "target_day_name": "Tuesday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-25",
+  "target_day_name": "Wednesday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "colombian-primera-a-2026-11-25-0130-america-de-cali-deportivo-cali",
+      "event_name": "Deportivo Cali at América de Cali",
+      "competition": {
+        "id": "colombian-primera-a",
+        "name": "Colombian Primera A",
+        "country": "Colombia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T01:30:00Z",
+      "start_time_pkt": "2026-11-25T06:30:00+05:00",
+      "start_timestamp": 1795570200,
+      "display_date": "2026-11-25",
+      "display_time": "06:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "América de Cali",
+        "slug": "america-de-cali",
+        "espn_id": "8109",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "América de Cali",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Deportivo Cali",
+        "slug": "deportivo-cali",
+        "espn_id": "2672",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2672.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Deportivo Cali",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/colombian-primera-a-2026-11-25-0130-america-de-cali-deportivo-cali.png"
+    }
+  ]
 }

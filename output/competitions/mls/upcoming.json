@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-24T10:12:06.128041+00:00",
+  "generated_at": "2026-11-25T02:55:37.301608+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 3,
+  "total_events": 7,
   "events": [
     {
       "event_id": "mls-2026-11-25-0300-san-jose-earthquakes-houston-dynamo-fc",
@@ -18,11 +18,11 @@
         "id": "mls",
         "name": "Major League Soccer",
         "country": "United States",
-        "round": "Regular Fixture",
+        "round": "Round One - Game 1",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
       },
-      "round": "Regular Fixture",
+      "round": "Round One - Game 1",
       "source_date": "2026-11-25",
       "match_date": "2026-11-25",
       "match_date_utc": "2026-11-25",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-11-25-0300-san-jose-earthquakes-houston-dynamo-fc.png"
     },
     {
@@ -74,11 +74,11 @@
         "id": "mls",
         "name": "Major League Soccer",
         "country": "United States",
-        "round": "Regular Fixture",
+        "round": "CLB leads series 1-0",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
       },
-      "round": "Regular Fixture",
+      "round": "CLB leads series 1-0",
       "source_date": "2026-11-28",
       "match_date": "2026-11-28",
       "match_date_utc": "2026-11-28",
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-11-28-0100-columbus-crew-inter-miami-cf.png"
     },
     {
@@ -130,11 +130,11 @@
         "id": "mls",
         "name": "Major League Soccer",
         "country": "United States",
-        "round": "Regular Fixture",
+        "round": "VAN leads series 1-0",
         "group": null,
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
       },
-      "round": "Regular Fixture",
+      "round": "VAN leads series 1-0",
       "source_date": "2026-11-28",
       "match_date": "2026-11-28",
       "match_date_utc": "2026-11-28",
@@ -176,8 +176,232 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-11-28-0300-real-salt-lake-vancouver-whitecaps.png"
+    },
+    {
+      "event_id": "mls-2026-11-28-1730-charlotte-fc-chicago-fire-fc",
+      "event_name": "Chicago Fire FC at Charlotte FC",
+      "competition": {
+        "id": "mls",
+        "name": "Major League Soccer",
+        "country": "United States",
+        "round": "CLT leads series 1-0",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
+      },
+      "round": "CLT leads series 1-0",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-28",
+      "start_time_utc": "2026-11-28T17:30:00Z",
+      "start_time_pkt": "2026-11-28T22:30:00+05:00",
+      "start_timestamp": 1795887000,
+      "display_date": "2026-11-28",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Charlotte FC",
+        "slug": "charlotte-fc",
+        "espn_id": "21300",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Charlotte FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Chicago Fire FC",
+        "slug": "chicago-fire-fc",
+        "espn_id": "182",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Chicago Fire FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-11-28-1730-charlotte-fc-chicago-fire-fc.png"
+    },
+    {
+      "event_id": "mls-2026-11-28-1930-houston-dynamo-fc-san-jose-earthquakes",
+      "event_name": "San Jose Earthquakes at Houston Dynamo FC",
+      "competition": {
+        "id": "mls",
+        "name": "Major League Soccer",
+        "country": "United States",
+        "round": "Round One - Game 2",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
+      },
+      "round": "Round One - Game 2",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-28T19:30:00Z",
+      "start_time_pkt": "2026-11-29T00:30:00+05:00",
+      "start_timestamp": 1795894200,
+      "display_date": "2026-11-29",
+      "display_time": "12:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Houston Dynamo FC",
+        "slug": "houston-dynamo-fc",
+        "espn_id": "6077",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Houston Dynamo FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "San Jose Earthquakes",
+        "slug": "san-jose-earthquakes",
+        "espn_id": "191",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "San Jose Earthquakes",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-11-28-1930-houston-dynamo-fc-san-jose-earthquakes.png"
+    },
+    {
+      "event_id": "mls-2026-11-28-2130-philadelphia-union-new-england-revolution",
+      "event_name": "New England Revolution at Philadelphia Union",
+      "competition": {
+        "id": "mls",
+        "name": "Major League Soccer",
+        "country": "United States",
+        "round": "NE leads series 1-0",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
+      },
+      "round": "NE leads series 1-0",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-28T21:30:00Z",
+      "start_time_pkt": "2026-11-29T02:30:00+05:00",
+      "start_timestamp": 1795901400,
+      "display_date": "2026-11-29",
+      "display_time": "02:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Philadelphia Union",
+        "slug": "philadelphia-union",
+        "espn_id": "10739",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Philadelphia Union",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "New England Revolution",
+        "slug": "new-england-revolution",
+        "espn_id": "189",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "New England Revolution",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-11-28-2130-philadelphia-union-new-england-revolution.png"
+    },
+    {
+      "event_id": "mls-2026-11-28-2330-fc-cincinnati-nashville-sc",
+      "event_name": "Nashville SC at FC Cincinnati",
+      "competition": {
+        "id": "mls",
+        "name": "Major League Soccer",
+        "country": "United States",
+        "round": "CIN leads series 1-0",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
+      },
+      "round": "CIN leads series 1-0",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-28T23:30:00Z",
+      "start_time_pkt": "2026-11-29T04:30:00+05:00",
+      "start_timestamp": 1795908600,
+      "display_date": "2026-11-29",
+      "display_time": "04:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "FC Cincinnati",
+        "slug": "fc-cincinnati",
+        "espn_id": "18267",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "FC Cincinnati",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Nashville SC",
+        "slug": "nashville-sc",
+        "espn_id": "18986",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Nashville SC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-11-28-2330-fc-cincinnati-nashville-sc.png"
     }
   ]
 }

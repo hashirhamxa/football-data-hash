@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-24T10:12:06.175410+00:00",
+  "generated_at": "2026-11-25T02:55:37.347648+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 2,
+  "total_events": 3,
   "events": [
     {
       "event_id": "paraguayan-primera-division-2026-11-27-2030-nacional-asuncion-rubio-nu",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/par.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/paraguayan-primera-division-2026-11-27-2030-nacional-asuncion-rubio-nu.png"
     },
     {
@@ -120,8 +120,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/par.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/paraguayan-primera-division-2026-11-27-2300-sportivo-luqueno-club-olimpia.png"
+    },
+    {
+      "event_id": "paraguayan-primera-division-2026-11-28-2300-sportivo-trinidense-deportivo-recoleta",
+      "event_name": "Deportivo Recoleta at Sportivo Trinidense",
+      "competition": {
+        "id": "paraguayan-primera-division",
+        "name": "Paraguayan Primera División",
+        "country": "Paraguay",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1892.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-28T23:00:00Z",
+      "start_time_pkt": "2026-11-29T04:00:00+05:00",
+      "start_timestamp": 1795906800,
+      "display_date": "2026-11-29",
+      "display_time": "04:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Sportivo Trinidense",
+        "slug": "sportivo-trinidense",
+        "espn_id": "7466",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7466.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sportivo Trinidense",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Deportivo Recoleta",
+        "slug": "deportivo-recoleta",
+        "espn_id": "22517",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22517.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Deportivo Recoleta",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/par.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/paraguayan-primera-division-2026-11-28-2300-sportivo-trinidense-deportivo-recoleta.png"
     }
   ]
 }

@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-24T10:12:06.136906+00:00",
+  "generated_at": "2026-11-25T02:55:37.311433+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 5,
+  "total_events": 6,
   "events": [
     {
       "event_id": "2-bundesliga-2026-11-27-1730-1-fc-heidenheim-1846-1-fc-nurnberg",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-27-1730-1-fc-heidenheim-1846-1-fc-nurnberg.png"
     },
     {
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-27-1730-vfl-bochum-sv-darmstadt-98.png"
     },
     {
@@ -176,7 +176,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-28-1200-dynamo-dresden-st-pauli.png"
     },
     {
@@ -232,7 +232,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-28-1200-hertha-berlin-karlsruher-sc.png"
     },
     {
@@ -288,8 +288,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-28-1200-holstein-kiel-kaiserslautern.png"
+    },
+    {
+      "event_id": "2-bundesliga-2026-11-28-1930-vfl-osnabruck-hannover-96",
+      "event_name": "Hannover 96 at VfL Osnabruck",
+      "competition": {
+        "id": "2-bundesliga",
+        "name": "2. Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-28T19:30:00Z",
+      "start_time_pkt": "2026-11-29T00:30:00+05:00",
+      "start_timestamp": 1795894200,
+      "display_date": "2026-11-29",
+      "display_time": "12:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "VfL Osnabruck",
+        "slug": "vfl-osnabruck",
+        "espn_id": "7013",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7013.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "VfL Osnabruck",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Hannover 96",
+        "slug": "hannover-96",
+        "espn_id": "2428",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2428.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Hannover 96",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-28-1930-vfl-osnabruck-hannover-96.png"
     }
   ]
 }

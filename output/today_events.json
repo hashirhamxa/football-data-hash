@@ -2,39 +2,163 @@
   "version": "1.1.0",
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "target_date_pkt": "2026-11-24",
-  "target_day_name": "Tuesday",
-  "generated_at": "2026-11-24T10:12:06.103887+00:00",
+  "target_date_pkt": "2026-11-25",
+  "target_day_name": "Wednesday",
+  "generated_at": "2026-11-25T02:55:37.273752+00:00",
   "total_events": 23,
   "events": [
     {
-      "event_id": "afc-champions-league-elite-2026-11-24-1000-daejeon-hana-citizen-fc-beijing-guoan",
-      "event_name": "Beijing Guoan at Daejeon Hana Citizen FC",
+      "event_id": "colombian-primera-a-2026-11-25-0130-america-de-cali-deportivo-cali",
+      "event_name": "Deportivo Cali at América de Cali",
       "competition": {
-        "id": "afc-champions-league-elite",
-        "name": "AFC Champions League Elite",
-        "country": "Asia",
+        "id": "colombian-primera-a",
+        "name": "Colombian Primera A",
+        "country": "Colombia",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2304.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T10:00:00Z",
-      "start_time_pkt": "2026-11-24T15:00:00+05:00",
-      "start_timestamp": 1795514400,
-      "display_date": "2026-11-24",
-      "display_time": "03:00 PM",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T01:30:00Z",
+      "start_time_pkt": "2026-11-25T06:30:00+05:00",
+      "start_timestamp": 1795570200,
+      "display_date": "2026-11-25",
+      "display_time": "06:30 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Daejeon Hana Citizen FC",
-        "slug": "daejeon-hana-citizen-fc",
-        "espn_id": "133171",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/daejeon-hana-citizen-fc.png",
+        "name": "América de Cali",
+        "slug": "america-de-cali",
+        "espn_id": "8109",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "América de Cali",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Deportivo Cali",
+        "slug": "deportivo-cali",
+        "espn_id": "2672",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2672.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Deportivo Cali",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/colombian-primera-a-2026-11-25-0130-america-de-cali-deportivo-cali.png"
+    },
+    {
+      "event_id": "mls-2026-11-25-0300-san-jose-earthquakes-houston-dynamo-fc",
+      "event_name": "Houston Dynamo FC at San Jose Earthquakes",
+      "competition": {
+        "id": "mls",
+        "name": "Major League Soccer",
+        "country": "United States",
+        "round": "Round One - Game 1",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
+      },
+      "round": "Round One - Game 1",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T03:00:00Z",
+      "start_time_pkt": "2026-11-25T08:00:00+05:00",
+      "start_timestamp": 1795575600,
+      "display_date": "2026-11-25",
+      "display_time": "08:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "San Jose Earthquakes",
+        "slug": "san-jose-earthquakes",
+        "espn_id": "191",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "San Jose Earthquakes",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Houston Dynamo FC",
+        "slug": "houston-dynamo-fc",
+        "espn_id": "6077",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Houston Dynamo FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-11-25-0300-san-jose-earthquakes-houston-dynamo-fc.png"
+    },
+    {
+      "event_id": "afc-champions-league-two-2026-11-25-0745-melbourne-victory-the-cong-viettel-fc",
+      "event_name": "The Cong-Viettel FC at Melbourne Victory",
+      "competition": {
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T07:45:00Z",
+      "start_time_pkt": "2026-11-25T12:45:00+05:00",
+      "start_timestamp": 1795592700,
+      "display_date": "2026-11-25",
+      "display_time": "12:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Melbourne Victory",
+        "slug": "melbourne-victory",
+        "espn_id": "5328",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5328.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Melbourne Victory",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "The Cong-Viettel FC",
+        "slug": "the-cong-viettel-fc",
+        "espn_id": "20863",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/the-cong-viettel-fc.png",
         "logo_resolution": {
           "source": "fallback",
           "confidence": 0.0,
@@ -42,30 +166,18 @@
           "is_fallback": true
         }
       },
-      "away_team": {
-        "name": "Beijing Guoan",
-        "slug": "beijing-guoan",
-        "espn_id": "2052",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2052.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Beijing Guoan",
-          "is_fallback": false
-        }
-      },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-11-24-1000-daejeon-hana-citizen-fc-beijing-guoan.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-25-0745-melbourne-victory-the-cong-viettel-fc.png"
     },
     {
-      "event_id": "afc-champions-league-elite-2026-11-24-1000-kyoto-sanga-pohang-steelers",
-      "event_name": "Pohang Steelers at Kyoto Sanga",
+      "event_id": "afc-champions-league-elite-2026-11-25-1000-gamba-osaka-port-fc",
+      "event_name": "Port FC at Gamba Osaka",
       "competition": {
         "id": "afc-champions-league-elite",
         "name": "AFC Champions League Elite",
@@ -75,38 +187,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2304.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T10:00:00Z",
-      "start_time_pkt": "2026-11-24T15:00:00+05:00",
-      "start_timestamp": 1795514400,
-      "display_date": "2026-11-24",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T10:00:00Z",
+      "start_time_pkt": "2026-11-25T15:00:00+05:00",
+      "start_timestamp": 1795600800,
+      "display_date": "2026-11-25",
       "display_time": "03:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Kyoto Sanga",
-        "slug": "kyoto-sanga",
-        "espn_id": "21361",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21361.png",
+        "name": "Gamba Osaka",
+        "slug": "gamba-osaka",
+        "espn_id": "7102",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7102.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Kyoto Sanga",
+          "matched_name": "Gamba Osaka",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Pohang Steelers",
-        "slug": "pohang-steelers",
-        "espn_id": "9693",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9693.png",
+        "name": "Port FC",
+        "slug": "port-fc",
+        "espn_id": "17757",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/17757.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Pohang Steelers",
+          "matched_name": "Port FC",
           "is_fallback": false
         }
       },
@@ -116,12 +228,12 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-11-24-1000-kyoto-sanga-pohang-steelers.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-11-25-1000-gamba-osaka-port-fc.png"
     },
     {
-      "event_id": "afc-champions-league-elite-2026-11-24-1215-cong-an-ha-noi-vissel-kobe",
-      "event_name": "Vissel Kobe at Cong An Ha Noi",
+      "event_id": "afc-champions-league-elite-2026-11-25-1000-kashima-antlers-jeonbuk-hyundai-motors",
+      "event_name": "Jeonbuk Hyundai Motors at Kashima Antlers",
       "competition": {
         "id": "afc-champions-league-elite",
         "name": "AFC Champions League Elite",
@@ -131,22 +243,34 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2304.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T12:15:00Z",
-      "start_time_pkt": "2026-11-24T17:15:00+05:00",
-      "start_timestamp": 1795522500,
-      "display_date": "2026-11-24",
-      "display_time": "05:15 PM",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T10:00:00Z",
+      "start_time_pkt": "2026-11-25T15:00:00+05:00",
+      "start_timestamp": 1795600800,
+      "display_date": "2026-11-25",
+      "display_time": "03:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Cong An Ha Noi",
-        "slug": "cong-an-ha-noi",
-        "espn_id": "131375",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/cong-an-ha-noi.png",
+        "name": "Kashima Antlers",
+        "slug": "kashima-antlers",
+        "espn_id": "7115",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7115.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Kashima Antlers",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Jeonbuk Hyundai Motors",
+        "slug": "jeonbuk-hyundai-motors",
+        "espn_id": "7119",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/jeonbuk-hyundai-motors.png",
         "logo_resolution": {
           "source": "fallback",
           "confidence": 0.0,
@@ -154,142 +278,74 @@
           "is_fallback": true
         }
       },
-      "away_team": {
-        "name": "Vissel Kobe",
-        "slug": "vissel-kobe",
-        "espn_id": "7477",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7477.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Vissel Kobe",
-          "is_fallback": false
-        }
-      },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-11-24-1215-cong-an-ha-noi-vissel-kobe.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-11-25-1000-kashima-antlers-jeonbuk-hyundai-motors.png"
     },
     {
-      "event_id": "afc-champions-league-elite-2026-11-24-1215-ratchaburi-fc-johor-darul-ta-zim",
-      "event_name": "Johor Darul Ta'zim at Ratchaburi FC",
+      "event_id": "afc-champions-league-two-2026-11-25-1215-persib-bandung-fc-seoul",
+      "event_name": "FC Seoul at Persib Bandung",
       "competition": {
-        "id": "afc-champions-league-elite",
-        "name": "AFC Champions League Elite",
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
         "country": "Asia",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2304.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T12:15:00Z",
-      "start_time_pkt": "2026-11-24T17:15:00+05:00",
-      "start_timestamp": 1795522500,
-      "display_date": "2026-11-24",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T12:15:00Z",
+      "start_time_pkt": "2026-11-25T17:15:00+05:00",
+      "start_timestamp": 1795608900,
+      "display_date": "2026-11-25",
       "display_time": "05:15 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Ratchaburi FC",
-        "slug": "ratchaburi-fc",
-        "espn_id": "17760",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/17760.png",
+        "name": "Persib Bandung",
+        "slug": "persib-bandung",
+        "espn_id": "8293",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8293.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Ratchaburi FC",
+          "matched_name": "Persib Bandung",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Johor Darul Ta'zim",
-        "slug": "johor-darul-ta-zim",
-        "espn_id": "17689",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/17689.png",
+        "name": "FC Seoul",
+        "slug": "fc-seoul",
+        "espn_id": "6972",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/fc-seoul.png",
         "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Johor Darul Ta'zim",
-          "is_fallback": false
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-11-24-1215-ratchaburi-fc-johor-darul-ta-zim.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-25-1215-persib-bandung-fc-seoul.png"
     },
     {
-      "event_id": "afc-champions-league-elite-2026-11-24-1215-shanghai-port-fc-buriram-united",
-      "event_name": "Buriram United at Shanghai Port FC",
-      "competition": {
-        "id": "afc-champions-league-elite",
-        "name": "AFC Champions League Elite",
-        "country": "Asia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2304.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T12:15:00Z",
-      "start_time_pkt": "2026-11-24T17:15:00+05:00",
-      "start_timestamp": 1795522500,
-      "display_date": "2026-11-24",
-      "display_time": "05:15 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Shanghai Port FC",
-        "slug": "shanghai-port-fc",
-        "espn_id": "15515",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/15515.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Shanghai Port FC",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Buriram United",
-        "slug": "buriram-united",
-        "espn_id": "7138",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7138.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Buriram United",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard",
-        "priority_applied": false
-      },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-11-24-1215-shanghai-port-fc-buriram-united.png"
-    },
-    {
-      "event_id": "fifa-u17-world-cup-2026-11-24-1230-costa-rica-u17-republic-of-ireland-u17",
-      "event_name": "Republic of Ireland U17 at Costa Rica U17",
+      "event_id": "fifa-u17-world-cup-2026-11-25-1230-ecuador-u17-south-korea-u17",
+      "event_name": "South Korea U17 at Ecuador U17",
       "competition": {
         "id": "fifa-u17-world-cup",
         "name": "FIFA Under-17 World Cup",
@@ -299,38 +355,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2288.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T12:30:00Z",
-      "start_time_pkt": "2026-11-24T17:30:00+05:00",
-      "start_timestamp": 1795523400,
-      "display_date": "2026-11-24",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T12:30:00Z",
+      "start_time_pkt": "2026-11-25T17:30:00+05:00",
+      "start_timestamp": 1795609800,
+      "display_date": "2026-11-25",
       "display_time": "05:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Costa Rica U17",
-        "slug": "costa-rica-u17",
-        "espn_id": "4956",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/crc.png",
+        "name": "Ecuador U17",
+        "slug": "ecuador-u17",
+        "espn_id": "17973",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Costa Rica U17",
+          "matched_name": "Ecuador U17",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Republic of Ireland U17",
-        "slug": "republic-of-ireland-u17",
-        "espn_id": "130891",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/irl.png",
+        "name": "South Korea U17",
+        "slug": "south-korea-u17",
+        "espn_id": "8414",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Republic of Ireland U17",
+          "matched_name": "South Korea U17",
           "is_fallback": false
         }
       },
@@ -340,12 +396,12 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-24-1230-costa-rica-u17-republic-of-ireland-u17.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-25-1230-ecuador-u17-south-korea-u17.png"
     },
     {
-      "event_id": "fifa-u17-world-cup-2026-11-24-1230-venezuela-u17-romania-u17",
-      "event_name": "Romania U17 at Venezuela U17",
+      "event_id": "fifa-u17-world-cup-2026-11-25-1230-uganda-u17-new-caledonia-u17",
+      "event_name": "New Caledonia U17 at Uganda U17",
       "competition": {
         "id": "fifa-u17-world-cup",
         "name": "FIFA Under-17 World Cup",
@@ -355,38 +411,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2288.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T12:30:00Z",
-      "start_time_pkt": "2026-11-24T17:30:00+05:00",
-      "start_timestamp": 1795523400,
-      "display_date": "2026-11-24",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T12:30:00Z",
+      "start_time_pkt": "2026-11-25T17:30:00+05:00",
+      "start_timestamp": 1795609800,
+      "display_date": "2026-11-25",
       "display_time": "05:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Venezuela U17",
-        "slug": "venezuela-u17",
-        "espn_id": "16306",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ven.png",
+        "name": "Uganda U17",
+        "slug": "uganda-u17",
+        "espn_id": "130890",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/uga.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Venezuela U17",
+          "matched_name": "Uganda U17",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Romania U17",
-        "slug": "romania-u17",
-        "espn_id": "131740",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/rou.png",
+        "name": "New Caledonia U17",
+        "slug": "new-caledonia-u17",
+        "espn_id": "18765",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ncl.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Romania U17",
+          "matched_name": "New Caledonia U17",
           "is_fallback": false
         }
       },
@@ -396,12 +452,12 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-24-1230-venezuela-u17-romania-u17.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-25-1230-uganda-u17-new-caledonia-u17.png"
     },
     {
-      "event_id": "fifa-u17-world-cup-2026-11-24-1300-japan-u17-serbia-u17",
-      "event_name": "Serbia U17 at Japan U17",
+      "event_id": "fifa-u17-world-cup-2026-11-25-1330-haiti-u17-saudi-arabia-u17",
+      "event_name": "Saudi Arabia U17 at Haiti U17",
       "competition": {
         "id": "fifa-u17-world-cup",
         "name": "FIFA Under-17 World Cup",
@@ -411,94 +467,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2288.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T13:00:00Z",
-      "start_time_pkt": "2026-11-24T18:00:00+05:00",
-      "start_timestamp": 1795525200,
-      "display_date": "2026-11-24",
-      "display_time": "06:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Japan U17",
-        "slug": "japan-u17",
-        "espn_id": "8420",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Japan U17",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Serbia U17",
-        "slug": "serbia-u17",
-        "espn_id": "131741",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/srb.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Serbia U17",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
-        "priority_applied": false
-      },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-24-1300-japan-u17-serbia-u17.png"
-    },
-    {
-      "event_id": "fifa-u17-world-cup-2026-11-24-1330-mexico-u17-cameroon-u17",
-      "event_name": "Cameroon U17 at Mexico U17",
-      "competition": {
-        "id": "fifa-u17-world-cup",
-        "name": "FIFA Under-17 World Cup",
-        "country": "International",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2288.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T13:30:00Z",
-      "start_time_pkt": "2026-11-24T18:30:00+05:00",
-      "start_timestamp": 1795527000,
-      "display_date": "2026-11-24",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T13:30:00Z",
+      "start_time_pkt": "2026-11-25T18:30:00+05:00",
+      "start_timestamp": 1795613400,
+      "display_date": "2026-11-25",
       "display_time": "06:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Mexico U17",
-        "slug": "mexico-u17",
-        "espn_id": "5379",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+        "name": "Haiti U17",
+        "slug": "haiti-u17",
+        "espn_id": "20063",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Mexico U17",
+          "matched_name": "Haiti U17",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Cameroon U17",
-        "slug": "cameroon-u17",
-        "espn_id": "20066",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/crm.png",
+        "name": "Saudi Arabia U17",
+        "slug": "saudi-arabia-u17",
+        "espn_id": "130889",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Cameroon U17",
+          "matched_name": "Saudi Arabia U17",
           "is_fallback": false
         }
       },
@@ -508,12 +508,68 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-24-1330-mexico-u17-cameroon-u17.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-25-1330-haiti-u17-saudi-arabia-u17.png"
     },
     {
-      "event_id": "afc-champions-league-two-2026-11-24-1345-east-bengal-fc-al-hussein-sc",
-      "event_name": "Al-Hussein SC at East Bengal FC",
+      "event_id": "fifa-u17-world-cup-2026-11-25-1330-uruguay-u17-france-u17",
+      "event_name": "France U17 at Uruguay U17",
+      "competition": {
+        "id": "fifa-u17-world-cup",
+        "name": "FIFA Under-17 World Cup",
+        "country": "International",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2288.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T13:30:00Z",
+      "start_time_pkt": "2026-11-25T18:30:00+05:00",
+      "start_timestamp": 1795613400,
+      "display_date": "2026-11-25",
+      "display_time": "06:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Uruguay U17",
+        "slug": "uruguay-u17",
+        "espn_id": "16445",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Uruguay U17",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "France U17",
+        "slug": "france-u17",
+        "espn_id": "8415",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "France U17",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-25-1330-uruguay-u17-france-u17.png"
+    },
+    {
+      "event_id": "afc-champions-league-two-2026-11-25-1345-fc-nasaf-al-khaldiya-sc",
+      "event_name": "Al-Khaldiya SC at FC Nasaf",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -523,34 +579,34 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T13:45:00Z",
-      "start_time_pkt": "2026-11-24T18:45:00+05:00",
-      "start_timestamp": 1795527900,
-      "display_date": "2026-11-24",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T13:45:00Z",
+      "start_time_pkt": "2026-11-25T18:45:00+05:00",
+      "start_timestamp": 1795614300,
+      "display_date": "2026-11-25",
       "display_time": "06:45 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "East Bengal FC",
-        "slug": "east-bengal-fc",
-        "espn_id": "8897",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8897.png",
+        "name": "FC Nasaf",
+        "slug": "fc-nasaf",
+        "espn_id": "8217",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/fc-nasaf.png",
         "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "East Bengal FC",
-          "is_fallback": false
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
         }
       },
       "away_team": {
-        "name": "Al-Hussein SC",
-        "slug": "al-hussein-sc",
-        "espn_id": "22355",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-hussein-sc.png",
+        "name": "Al-Khaldiya SC",
+        "slug": "al-khaldiya-sc",
+        "espn_id": "22354",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-khaldiya-sc.png",
         "logo_resolution": {
           "source": "fallback",
           "confidence": 0.0,
@@ -564,68 +620,12 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-24-1345-east-bengal-fc-al-hussein-sc.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-25-1345-fc-nasaf-al-khaldiya-sc.png"
     },
     {
-      "event_id": "indian-super-league-2026-11-24-1400-northeast-united-fc-sporting-club-delhi",
-      "event_name": "Sporting Club Delhi at NorthEast United FC",
-      "competition": {
-        "id": "indian-super-league",
-        "name": "Indian Super League",
-        "country": "India",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2334.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T14:00:00Z",
-      "start_time_pkt": "2026-11-24T19:00:00+05:00",
-      "start_timestamp": 1795528800,
-      "display_date": "2026-11-24",
-      "display_time": "07:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "NorthEast United FC",
-        "slug": "northeast-united-fc",
-        "espn_id": "18004",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/18004.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "NorthEast United FC",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Sporting Club Delhi",
-        "slug": "sporting-club-delhi",
-        "espn_id": "131703",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/sporting-club-delhi.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ind.1/scoreboard",
-        "priority_applied": false
-      },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/indian-super-league-2026-11-24-1400-northeast-united-fc-sporting-club-delhi.png"
-    },
-    {
-      "event_id": "fifa-u17-world-cup-2026-11-24-1430-dominican-republic-u17-chile-u17",
-      "event_name": "Chile U17 at Dominican Republic U17",
+      "event_id": "fifa-u17-world-cup-2026-11-25-1430-greece-u17-qatar-u17",
+      "event_name": "Qatar U17 at Greece U17",
       "competition": {
         "id": "fifa-u17-world-cup",
         "name": "FIFA Under-17 World Cup",
@@ -635,38 +635,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2288.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T14:30:00Z",
-      "start_time_pkt": "2026-11-24T19:30:00+05:00",
-      "start_timestamp": 1795530600,
-      "display_date": "2026-11-24",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T14:30:00Z",
+      "start_time_pkt": "2026-11-25T19:30:00+05:00",
+      "start_timestamp": 1795617000,
+      "display_date": "2026-11-25",
       "display_time": "07:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Dominican Republic U17",
-        "slug": "dominican-republic-u17",
-        "espn_id": "134172",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/dom.png",
+        "name": "Greece U17",
+        "slug": "greece-u17",
+        "espn_id": "131737",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/gre.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Dominican Republic U17",
+          "matched_name": "Greece U17",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Chile U17",
-        "slug": "chile-u17",
-        "espn_id": "17976",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/chi.png",
+        "name": "Qatar U17",
+        "slug": "qatar-u17",
+        "espn_id": "130883",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Chile U17",
+          "matched_name": "Qatar U17",
           "is_fallback": false
         }
       },
@@ -676,12 +676,12 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-24-1430-dominican-republic-u17-chile-u17.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-25-1430-greece-u17-qatar-u17.png"
     },
     {
-      "event_id": "fifa-u17-world-cup-2026-11-24-1500-brazil-u17-tanzania-u17",
-      "event_name": "Tanzania U17 at Brazil U17",
+      "event_id": "fifa-u17-world-cup-2026-11-25-1430-panama-u17-egypt-u17",
+      "event_name": "Egypt U17 at Panama U17",
       "competition": {
         "id": "fifa-u17-world-cup",
         "name": "FIFA Under-17 World Cup",
@@ -691,38 +691,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2288.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T15:00:00Z",
-      "start_time_pkt": "2026-11-24T20:00:00+05:00",
-      "start_timestamp": 1795532400,
-      "display_date": "2026-11-24",
-      "display_time": "08:00 PM",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T14:30:00Z",
+      "start_time_pkt": "2026-11-25T19:30:00+05:00",
+      "start_timestamp": 1795617000,
+      "display_date": "2026-11-25",
+      "display_time": "07:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Brazil U17",
-        "slug": "brazil-u17",
-        "espn_id": "5377",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+        "name": "Panama U17",
+        "slug": "panama-u17",
+        "espn_id": "11399",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Brazil U17",
+          "matched_name": "Panama U17",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Tanzania U17",
-        "slug": "tanzania-u17",
-        "espn_id": "131742",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/tan.png",
+        "name": "Egypt U17",
+        "slug": "egypt-u17",
+        "espn_id": "130886",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Tanzania U17",
+          "matched_name": "Egypt U17",
           "is_fallback": false
         }
       },
@@ -732,12 +732,12 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-24-1500-brazil-u17-tanzania-u17.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-25-1430-panama-u17-egypt-u17.png"
     },
     {
-      "event_id": "fifa-u17-world-cup-2026-11-24-1530-algeria-u17-montenegro-u17",
-      "event_name": "Montenegro U17 at Algeria U17",
+      "event_id": "fifa-u17-world-cup-2026-11-25-1530-australia-u17-mozambique-u17",
+      "event_name": "Mozambique U17 at Australia U17",
       "competition": {
         "id": "fifa-u17-world-cup",
         "name": "FIFA Under-17 World Cup",
@@ -747,38 +747,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2288.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T15:30:00Z",
-      "start_time_pkt": "2026-11-24T20:30:00+05:00",
-      "start_timestamp": 1795534200,
-      "display_date": "2026-11-24",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T15:30:00Z",
+      "start_time_pkt": "2026-11-25T20:30:00+05:00",
+      "start_timestamp": 1795620600,
+      "display_date": "2026-11-25",
       "display_time": "08:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Algeria U17",
-        "slug": "algeria-u17",
-        "espn_id": "131734",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+        "name": "Australia U17",
+        "slug": "australia-u17",
+        "espn_id": "17972",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Algeria U17",
+          "matched_name": "Australia U17",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Montenegro U17",
-        "slug": "montenegro-u17",
-        "espn_id": "131739",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/mne.png",
+        "name": "Mozambique U17",
+        "slug": "mozambique-u17",
+        "espn_id": "131745",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/moz.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Montenegro U17",
+          "matched_name": "Mozambique U17",
           "is_fallback": false
         }
       },
@@ -788,12 +788,12 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-24-1530-algeria-u17-montenegro-u17.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-25-1530-australia-u17-mozambique-u17.png"
     },
     {
-      "event_id": "fifa-u17-world-cup-2026-11-24-1530-honduras-u17-colombia-u17",
-      "event_name": "Colombia U17 at Honduras U17",
+      "event_id": "fifa-u17-world-cup-2026-11-25-1530-denmark-u17-argentina-u17",
+      "event_name": "Argentina U17 at Denmark U17",
       "competition": {
         "id": "fifa-u17-world-cup",
         "name": "FIFA Under-17 World Cup",
@@ -803,38 +803,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2288.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T15:30:00Z",
-      "start_time_pkt": "2026-11-24T20:30:00+05:00",
-      "start_timestamp": 1795534200,
-      "display_date": "2026-11-24",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T15:30:00Z",
+      "start_time_pkt": "2026-11-25T20:30:00+05:00",
+      "start_timestamp": 1795620600,
+      "display_date": "2026-11-25",
       "display_time": "08:30 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Honduras U17",
-        "slug": "honduras-u17",
-        "espn_id": "8419",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/hon.png",
+        "name": "Denmark U17",
+        "slug": "denmark-u17",
+        "espn_id": "131744",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/den.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Honduras U17",
+          "matched_name": "Denmark U17",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Colombia U17",
-        "slug": "colombia-u17",
-        "espn_id": "18768",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+        "name": "Argentina U17",
+        "slug": "argentina-u17",
+        "espn_id": "8412",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Colombia U17",
+          "matched_name": "Argentina U17",
           "is_fallback": false
         }
       },
@@ -844,68 +844,12 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-24-1530-honduras-u17-colombia-u17.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-25-1530-denmark-u17-argentina-u17.png"
     },
     {
-      "event_id": "afc-champions-league-elite-2026-11-24-1600-shabab-al-ahli-al-qadsiah",
-      "event_name": "Al Qadsiah at Shabab Al Ahli",
-      "competition": {
-        "id": "afc-champions-league-elite",
-        "name": "AFC Champions League Elite",
-        "country": "Asia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2304.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T16:00:00Z",
-      "start_time_pkt": "2026-11-24T21:00:00+05:00",
-      "start_timestamp": 1795536000,
-      "display_date": "2026-11-24",
-      "display_time": "09:00 PM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Shabab Al Ahli",
-        "slug": "shabab-al-ahli",
-        "espn_id": "790",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/shabab-al-ahli.png",
-        "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
-        }
-      },
-      "away_team": {
-        "name": "Al Qadsiah",
-        "slug": "al-qadsiah",
-        "espn_id": "22022",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22022.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Al Qadsiah",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard",
-        "priority_applied": false
-      },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-11-24-1600-shabab-al-ahli-al-qadsiah.png"
-    },
-    {
-      "event_id": "afc-champions-league-two-2026-11-24-1600-al-seeb-club-al-shorta-sc",
-      "event_name": "Al-Shorta SC at Al-Seeb Club",
+      "event_id": "afc-champions-league-two-2026-11-25-1600-al-jazira-club-gol-gohar-sirjan-fc",
+      "event_name": "Gol Gohar Sirjan FC at Al Jazira Club",
       "competition": {
         "id": "afc-champions-league-two",
         "name": "AFC Champions League Two",
@@ -915,34 +859,34 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T16:00:00Z",
-      "start_time_pkt": "2026-11-24T21:00:00+05:00",
-      "start_timestamp": 1795536000,
-      "display_date": "2026-11-24",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T16:00:00Z",
+      "start_time_pkt": "2026-11-25T21:00:00+05:00",
+      "start_timestamp": 1795622400,
+      "display_date": "2026-11-25",
       "display_time": "09:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Al-Seeb Club",
-        "slug": "al-seeb-club",
-        "espn_id": "21438",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-seeb-club.png",
+        "name": "Al Jazira Club",
+        "slug": "al-jazira-club",
+        "espn_id": "8364",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8364.png",
         "logo_resolution": {
-          "source": "fallback",
-          "confidence": 0.0,
-          "matched_name": null,
-          "is_fallback": true
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Al Jazira Club",
+          "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Al-Shorta SC",
-        "slug": "al-shorta-sc",
-        "espn_id": "9655",
-        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-shorta-sc.png",
+        "name": "Gol Gohar Sirjan FC",
+        "slug": "gol-gohar-sirjan-fc",
+        "espn_id": "132926",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/gol-gohar-sirjan-fc.png",
         "logo_resolution": {
           "source": "fallback",
           "confidence": 0.0,
@@ -956,124 +900,180 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-24-1600-al-seeb-club-al-shorta-sc.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-25-1600-al-jazira-club-gol-gohar-sirjan-fc.png"
     },
     {
-      "event_id": "south-african-premiership-2026-11-24-1730-durban-city-polokwane-city-fc",
-      "event_name": "Polokwane City FC at Durban City",
+      "event_id": "afc-champions-league-two-2026-11-25-1600-al-faisaly-sc-al-rayyan-sc",
+      "event_name": "Al-Rayyan SC at Al-Faisaly SC",
       "competition": {
-        "id": "south-african-premiership",
-        "name": "South African Premiership",
-        "country": "South Africa",
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2311.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T17:30:00Z",
-      "start_time_pkt": "2026-11-24T22:30:00+05:00",
-      "start_timestamp": 1795541400,
-      "display_date": "2026-11-24",
-      "display_time": "10:30 PM",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T16:00:00Z",
+      "start_time_pkt": "2026-11-25T21:00:00+05:00",
+      "start_timestamp": 1795622400,
+      "display_date": "2026-11-25",
+      "display_time": "09:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Durban City",
-        "slug": "durban-city",
-        "espn_id": "22348",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22348.png",
+        "name": "Al-Faisaly SC",
+        "slug": "al-faisaly-sc",
+        "espn_id": "21024",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-faisaly-sc.png",
         "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Durban City",
-          "is_fallback": false
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
         }
       },
       "away_team": {
-        "name": "Polokwane City FC",
-        "slug": "polokwane-city-fc",
-        "espn_id": "7099",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7099.png",
+        "name": "Al-Rayyan SC",
+        "slug": "al-rayyan-sc",
+        "espn_id": "7527",
+        "logo_url": "https://a.espncdn.com/guid/3537b0de-4d7e-d529-f36e-58888e65e902/logos/default.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Polokwane City FC",
+          "matched_name": "Al-Rayyan SC",
           "is_fallback": false
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rsa.1/scoreboard",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/south-african-premiership-2026-11-24-1730-durban-city-polokwane-city-fc.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-25-1600-al-faisaly-sc-al-rayyan-sc.png"
     },
     {
-      "event_id": "south-african-premiership-2026-11-24-1730-orlando-pirates-golden-arrows",
-      "event_name": "Golden Arrows at Orlando Pirates",
+      "event_id": "afc-champions-league-two-2026-11-25-1600-al-muharraq-sc-arkadag-fk",
+      "event_name": "Arkadag FK at Al-Muharraq SC",
       "competition": {
-        "id": "south-african-premiership",
-        "name": "South African Premiership",
-        "country": "South Africa",
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2311.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T17:30:00Z",
-      "start_time_pkt": "2026-11-24T22:30:00+05:00",
-      "start_timestamp": 1795541400,
-      "display_date": "2026-11-24",
-      "display_time": "10:30 PM",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T16:00:00Z",
+      "start_time_pkt": "2026-11-25T21:00:00+05:00",
+      "start_timestamp": 1795622400,
+      "display_date": "2026-11-25",
+      "display_time": "09:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Orlando Pirates",
-        "slug": "orlando-pirates",
-        "espn_id": "7085",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7085.png",
+        "name": "Al-Muharraq SC",
+        "slug": "al-muharraq-sc",
+        "espn_id": "21006",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-muharraq-sc.png",
         "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Orlando Pirates",
-          "is_fallback": false
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
         }
       },
       "away_team": {
-        "name": "Golden Arrows",
-        "slug": "golden-arrows",
-        "espn_id": "7077",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7077.png",
+        "name": "Arkadag FK",
+        "slug": "arkadag-fk",
+        "espn_id": "131374",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/arkadag-fk.png",
         "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Golden Arrows",
-          "is_fallback": false
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rsa.1/scoreboard",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/south-african-premiership-2026-11-24-1730-orlando-pirates-golden-arrows.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-25-1600-al-muharraq-sc-arkadag-fk.png"
     },
     {
-      "event_id": "champions-league-2026-11-24-1745-bodo-glimt-lask-linz",
-      "event_name": "LASK Linz at Bodo/Glimt",
+      "event_id": "afc-champions-league-two-2026-11-25-1600-kuwait-sc-al-wahda-fc",
+      "event_name": "Al Wahda FC at Kuwait SC",
+      "competition": {
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
+        "country": "Asia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T16:00:00Z",
+      "start_time_pkt": "2026-11-25T21:00:00+05:00",
+      "start_timestamp": 1795622400,
+      "display_date": "2026-11-25",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Kuwait SC",
+        "slug": "kuwait-sc",
+        "espn_id": "21008",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/countries/500/kuw.png",
+        "logo_resolution": {
+          "source": "exact",
+          "confidence": 0.98,
+          "matched_name": "Kuwait",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Al Wahda FC",
+        "slug": "al-wahda-fc",
+        "espn_id": "7134",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-wahda-fc.png",
+        "logo_resolution": {
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-25-1600-kuwait-sc-al-wahda-fc.png"
+    },
+    {
+      "event_id": "champions-league-2026-11-25-1745-sabah-fk-barcelona",
+      "event_name": "Barcelona at Sabah FK",
       "competition": {
         "id": "champions-league",
         "name": "UEFA Champions League",
@@ -1083,38 +1083,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T17:45:00Z",
-      "start_time_pkt": "2026-11-24T22:45:00+05:00",
-      "start_timestamp": 1795542300,
-      "display_date": "2026-11-24",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T17:45:00Z",
+      "start_time_pkt": "2026-11-25T22:45:00+05:00",
+      "start_timestamp": 1795628700,
+      "display_date": "2026-11-25",
       "display_time": "10:45 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Bodo/Glimt",
-        "slug": "bodo-glimt",
-        "espn_id": "2980",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+        "name": "Sabah FK",
+        "slug": "sabah-fk",
+        "espn_id": "21922",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Bodo/Glimt",
+          "matched_name": "Sabah FK",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "LASK Linz",
-        "slug": "lask-linz",
-        "espn_id": "4411",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "espn_id": "83",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "LASK Linz",
+          "matched_name": "Barcelona",
           "is_fallback": false
         }
       },
@@ -1124,12 +1124,12 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-11-24-1745-bodo-glimt-lask-linz.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-11-25-1745-sabah-fk-barcelona.png"
     },
     {
-      "event_id": "champions-league-2026-11-24-1745-galatasaray-aston-villa",
-      "event_name": "Aston Villa at Galatasaray",
+      "event_id": "champions-league-2026-11-25-1745-slavia-prague-villarreal",
+      "event_name": "Villarreal at Slavia Prague",
       "competition": {
         "id": "champions-league",
         "name": "UEFA Champions League",
@@ -1139,38 +1139,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T17:45:00Z",
-      "start_time_pkt": "2026-11-24T22:45:00+05:00",
-      "start_timestamp": 1795542300,
-      "display_date": "2026-11-24",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T17:45:00Z",
+      "start_time_pkt": "2026-11-25T22:45:00+05:00",
+      "start_timestamp": 1795628700,
+      "display_date": "2026-11-25",
       "display_time": "10:45 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Galatasaray",
-        "slug": "galatasaray",
-        "espn_id": "432",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+        "name": "Slavia Prague",
+        "slug": "slavia-prague",
+        "espn_id": "494",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Galatasaray",
+          "matched_name": "Slavia Prague",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Aston Villa",
-        "slug": "aston-villa",
-        "espn_id": "362",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+        "name": "Villarreal",
+        "slug": "villarreal",
+        "espn_id": "102",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Aston Villa",
+          "matched_name": "Villarreal",
           "is_fallback": false
         }
       },
@@ -1180,12 +1180,12 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-11-24-1745-galatasaray-aston-villa.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/champions-league-2026-11-25-1745-slavia-prague-villarreal.png"
     },
     {
-      "event_id": "serie-b-2026-11-24-1800-juve-stabia-catanzaro",
-      "event_name": "Catanzaro at Juve Stabia",
+      "event_id": "serie-b-2026-11-25-1800-cremonese-us-avellino",
+      "event_name": "US Avellino at Cremonese",
       "competition": {
         "id": "serie-b",
         "name": "Italian Serie B",
@@ -1195,38 +1195,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/99.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T18:00:00Z",
-      "start_time_pkt": "2026-11-24T23:00:00+05:00",
-      "start_timestamp": 1795543200,
-      "display_date": "2026-11-24",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T18:00:00Z",
+      "start_time_pkt": "2026-11-25T23:00:00+05:00",
+      "start_timestamp": 1795629600,
+      "display_date": "2026-11-25",
       "display_time": "11:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Juve Stabia",
-        "slug": "juve-stabia",
-        "espn_id": "3975",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3975.png",
+        "name": "Cremonese",
+        "slug": "cremonese",
+        "espn_id": "4050",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4050.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Juve Stabia",
+          "matched_name": "Cremonese",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Catanzaro",
-        "slug": "catanzaro",
-        "espn_id": "3257",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3257.png",
+        "name": "US Avellino",
+        "slug": "us-avellino",
+        "espn_id": "4055",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4055.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Catanzaro",
+          "matched_name": "US Avellino",
           "is_fallback": false
         }
       },
@@ -1236,64 +1236,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-b-2026-11-24-1800-juve-stabia-catanzaro.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/serie-b-2026-11-25-1800-cremonese-us-avellino.png"
     },
     {
-      "event_id": "afc-champions-league-elite-2026-11-24-1815-al-nassr-al-sadd",
-      "event_name": "Al Sadd at Al Nassr",
+      "event_id": "afc-champions-league-two-2026-11-25-1815-al-taawoun-al-nahda-club",
+      "event_name": "Al-Nahda Club at Al Taawoun",
       "competition": {
-        "id": "afc-champions-league-elite",
-        "name": "AFC Champions League Elite",
+        "id": "afc-champions-league-two",
+        "name": "AFC Champions League Two",
         "country": "Asia",
         "round": "Regular Fixture",
         "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2304.png"
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-24",
-      "match_date": "2026-11-24",
-      "match_date_utc": "2026-11-24",
-      "match_date_pkt": "2026-11-24",
-      "start_time_utc": "2026-11-24T18:15:00Z",
-      "start_time_pkt": "2026-11-24T23:15:00+05:00",
-      "start_timestamp": 1795544100,
-      "display_date": "2026-11-24",
+      "source_date": "2026-11-25",
+      "match_date": "2026-11-25",
+      "match_date_utc": "2026-11-25",
+      "match_date_pkt": "2026-11-25",
+      "start_time_utc": "2026-11-25T18:15:00Z",
+      "start_time_pkt": "2026-11-25T23:15:00+05:00",
+      "start_timestamp": 1795630500,
+      "display_date": "2026-11-25",
       "display_time": "11:15 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Al Nassr",
-        "slug": "al-nassr",
-        "espn_id": "817",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/817.png",
+        "name": "Al Taawoun",
+        "slug": "al-taawoun",
+        "espn_id": "18459",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/18459.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Al Nassr",
+          "matched_name": "Al Taawoun",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Al Sadd",
-        "slug": "al-sadd",
-        "espn_id": "7135",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7135.png",
+        "name": "Al-Nahda Club",
+        "slug": "al-nahda-club",
+        "espn_id": "21994",
+        "logo_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fallbacks/al-nahda-club.png",
         "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Al Sadd",
-          "is_fallback": false
+          "source": "fallback",
+          "confidence": 0.0,
+          "matched_name": null,
+          "is_fallback": true
         }
       },
       "data_source": {
         "provider": "ESPN",
         "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/scoreboard",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-elite-2026-11-24-1815-al-nassr-al-sadd.png"
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-25-1815-al-taawoun-al-nahda-club.png"
     }
   ]
 }

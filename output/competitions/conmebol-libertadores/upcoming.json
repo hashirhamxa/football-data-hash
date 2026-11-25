@@ -7,8 +7,65 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-24T10:12:06.151335+00:00",
+  "generated_at": "2026-11-25T02:55:37.324595+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 0,
-  "events": []
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "conmebol-libertadores-2026-11-28-2000-palmeiras-estudiantes-de-la-plata",
+      "event_name": "Estudiantes de La Plata at Palmeiras",
+      "competition": {
+        "id": "conmebol-libertadores",
+        "name": "CONMEBOL Libertadores",
+        "country": "South America",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/58.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-28T20:00:00Z",
+      "start_time_pkt": "2026-11-29T01:00:00+05:00",
+      "start_timestamp": 1795896000,
+      "display_date": "2026-11-29",
+      "display_time": "01:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Palmeiras",
+        "slug": "palmeiras",
+        "espn_id": "2029",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Palmeiras",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Estudiantes de La Plata",
+        "slug": "estudiantes-de-la-plata",
+        "espn_id": "8",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Estudiantes de La Plata",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conmebol-libertadores-2026-11-28-2000-palmeiras-estudiantes-de-la-plata.png"
+    }
+  ]
 }

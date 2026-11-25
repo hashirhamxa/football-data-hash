@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-24T10:12:06.118973+00:00",
+  "generated_at": "2026-11-25T02:55:37.291482+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 5,
+  "total_events": 6,
   "events": [
     {
       "event_id": "bundesliga-2026-11-27-1930-werder-bremen-borussia-monchengladbach",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-27-1930-werder-bremen-borussia-monchengladbach.png"
     },
     {
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-28-1430-fc-cologne-sv-elversberg.png"
     },
     {
@@ -176,7 +176,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-28-1430-hamburg-sv-bayern-munich.png"
     },
     {
@@ -232,7 +232,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-28-1430-mainz-1-fc-union-berlin.png"
     },
     {
@@ -288,8 +288,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-28-1430-sc-paderborn-07-schalke-04.png"
+    },
+    {
+      "event_id": "bundesliga-2026-11-28-1730-vfb-stuttgart-eintracht-frankfurt",
+      "event_name": "Eintracht Frankfurt at VfB Stuttgart",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-28",
+      "start_time_utc": "2026-11-28T17:30:00Z",
+      "start_time_pkt": "2026-11-28T22:30:00+05:00",
+      "start_timestamp": 1795887000,
+      "display_date": "2026-11-28",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "VfB Stuttgart",
+        "slug": "vfb-stuttgart",
+        "espn_id": "134",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "VfB Stuttgart",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Eintracht Frankfurt",
+        "slug": "eintracht-frankfurt",
+        "espn_id": "125",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Eintracht Frankfurt",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-28-1730-vfb-stuttgart-eintracht-frankfurt.png"
     }
   ]
 }

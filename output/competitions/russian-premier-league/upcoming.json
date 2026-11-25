@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-24T10:12:06.156172+00:00",
+  "generated_at": "2026-11-25T02:55:37.328872+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 2,
+  "total_events": 3,
   "events": [
     {
       "event_id": "russian-premier-league-2026-11-28-1100-rubin-kazan-akron-tolyatti",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-28-1100-rubin-kazan-akron-tolyatti.png"
     },
     {
@@ -120,8 +120,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-24T10:10:00.188418+00:00",
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-28-1330-cska-moscow-zenit-st-petersburg.png"
+    },
+    {
+      "event_id": "russian-premier-league-2026-11-28-1600-fc-baltika-kaliningrad-akhmat-grozny",
+      "event_name": "Akhmat Grozny at FC Baltika Kaliningrad",
+      "competition": {
+        "id": "russian-premier-league",
+        "name": "Russian Premier League",
+        "country": "Russia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/106.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-28",
+      "start_time_utc": "2026-11-28T16:00:00Z",
+      "start_time_pkt": "2026-11-28T21:00:00+05:00",
+      "start_timestamp": 1795881600,
+      "display_date": "2026-11-28",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "FC Baltika Kaliningrad",
+        "slug": "fc-baltika-kaliningrad",
+        "espn_id": "21949",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21949.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "FC Baltika Kaliningrad",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Akhmat Grozny",
+        "slug": "akhmat-grozny",
+        "espn_id": "2991",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2991.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Akhmat Grozny",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-25T02:53:16.593482+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-28-1600-fc-baltika-kaliningrad-akhmat-grozny.png"
     }
   ]
 }

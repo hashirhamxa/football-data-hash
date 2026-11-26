@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-26T02:02:40.157084+00:00",
+  "generated_at": "2026-11-26T11:10:32.672900+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 5,
+  "total_events": 6,
   "events": [
     {
       "event_id": "south-african-premiership-2026-11-27-1730-stellenbosch-ts-galaxy-fc",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rsa.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/south-african-premiership-2026-11-27-1730-stellenbosch-ts-galaxy-fc.png"
     },
     {
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rsa.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/south-african-premiership-2026-11-28-1330-amazulu-milford-fc.png"
     },
     {
@@ -176,7 +176,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rsa.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/south-african-premiership-2026-11-28-1330-chippa-united-kaizer-chiefs.png"
     },
     {
@@ -232,7 +232,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rsa.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/south-african-premiership-2026-11-28-1600-kruger-united-mamelodi-sundowns.png"
     },
     {
@@ -288,8 +288,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rsa.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/south-african-premiership-2026-11-29-1330-marumo-gallants-richards-bay-fc.png"
+    },
+    {
+      "event_id": "south-african-premiership-2026-11-29-1600-sekhukhune-united-fc-siwelele",
+      "event_name": "Siwelele at Sekhukhune United FC",
+      "competition": {
+        "id": "south-african-premiership",
+        "name": "South African Premiership",
+        "country": "South Africa",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2311.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T16:00:00Z",
+      "start_time_pkt": "2026-11-29T21:00:00+05:00",
+      "start_timestamp": 1795968000,
+      "display_date": "2026-11-29",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Sekhukhune United FC",
+        "slug": "sekhukhune-united-fc",
+        "espn_id": "20814",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20814.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sekhukhune United FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Siwelele",
+        "slug": "siwelele",
+        "espn_id": "131361",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131361.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Siwelele",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rsa.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/south-african-premiership-2026-11-29-1600-sekhukhune-united-fc-siwelele.png"
     }
   ]
 }

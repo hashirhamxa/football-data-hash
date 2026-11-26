@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-26T02:02:40.160137+00:00",
+  "generated_at": "2026-11-26T11:10:32.689939+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 7,
+  "total_events": 8,
   "events": [
     {
       "event_id": "eredivisie-2026-11-27-1900-fc-groningen-willem-ii",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-27-1900-fc-groningen-willem-ii.png"
     },
     {
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-28-1530-excelsior-telstar.png"
     },
     {
@@ -176,7 +176,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-28-1745-psv-eindhoven-go-ahead-eagles.png"
     },
     {
@@ -232,7 +232,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-28-2000-sc-cambuur-sparta-rotterdam.png"
     },
     {
@@ -288,7 +288,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-29-1115-ado-den-haag-fc-utrecht.png"
     },
     {
@@ -344,7 +344,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-29-1330-feyenoord-rotterdam-ajax-amsterdam.png"
     },
     {
@@ -400,8 +400,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-29-1330-fortuna-sittard-heerenveen.png"
+    },
+    {
+      "event_id": "eredivisie-2026-11-29-1545-pec-zwolle-az-alkmaar",
+      "event_name": "AZ Alkmaar at PEC Zwolle",
+      "competition": {
+        "id": "eredivisie",
+        "name": "Dutch Eredivisie",
+        "country": "Netherlands",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T15:45:00Z",
+      "start_time_pkt": "2026-11-29T20:45:00+05:00",
+      "start_timestamp": 1795967100,
+      "display_date": "2026-11-29",
+      "display_time": "08:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "PEC Zwolle",
+        "slug": "pec-zwolle",
+        "espn_id": "2565",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2565.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "PEC Zwolle",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "AZ Alkmaar",
+        "slug": "az-alkmaar",
+        "espn_id": "140",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "AZ Alkmaar",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-29-1545-pec-zwolle-az-alkmaar.png"
     }
   ]
 }

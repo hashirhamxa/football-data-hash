@@ -4,233 +4,9 @@
   "timezone_label": "PKT (UTC+05:00)",
   "target_date_pkt": "2026-11-26",
   "target_day_name": "Thursday",
-  "generated_at": "2026-11-26T02:02:40.101785+00:00",
-  "total_events": 41,
+  "generated_at": "2026-11-26T11:10:32.297985+00:00",
+  "total_events": 37,
   "events": [
-    {
-      "event_id": "liga-mx-2026-11-26-0100-toluca-atlas",
-      "event_name": "Atlas at Toluca",
-      "competition": {
-        "id": "liga-mx",
-        "name": "Mexican Liga BBVA MX",
-        "country": "Mexico",
-        "round": "1st Leg",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png"
-      },
-      "round": "1st Leg",
-      "source_date": "2026-11-26",
-      "match_date": "2026-11-26",
-      "match_date_utc": "2026-11-26",
-      "match_date_pkt": "2026-11-26",
-      "start_time_utc": "2026-11-26T01:00:00Z",
-      "start_time_pkt": "2026-11-26T06:00:00+05:00",
-      "start_timestamp": 1795654800,
-      "display_date": "2026-11-26",
-      "display_time": "06:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Toluca",
-        "slug": "toluca",
-        "espn_id": "223",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Toluca",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Atlas",
-        "slug": "atlas",
-        "espn_id": "216",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Atlas",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard",
-        "priority_applied": false
-      },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-26-0100-toluca-atlas.png"
-    },
-    {
-      "event_id": "colombian-primera-a-2026-11-26-0130-atletico-nacional-independiente-medellin",
-      "event_name": "Independiente Medellín at Atlético Nacional",
-      "competition": {
-        "id": "colombian-primera-a",
-        "name": "Colombian Primera A",
-        "country": "Colombia",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-26",
-      "match_date": "2026-11-26",
-      "match_date_utc": "2026-11-26",
-      "match_date_pkt": "2026-11-26",
-      "start_time_utc": "2026-11-26T01:30:00Z",
-      "start_time_pkt": "2026-11-26T06:30:00+05:00",
-      "start_timestamp": 1795656600,
-      "display_date": "2026-11-26",
-      "display_time": "06:30 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Atlético Nacional",
-        "slug": "atletico-nacional",
-        "espn_id": "5264",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Atlético Nacional",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Independiente Medellín",
-        "slug": "independiente-medellin",
-        "espn_id": "2690",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Independiente Medellín",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/scoreboard",
-        "priority_applied": false
-      },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/colombian-primera-a-2026-11-26-0130-atletico-nacional-independiente-medellin.png"
-    },
-    {
-      "event_id": "guatemalan-liga-nacional-2026-11-26-0200-municipal-aurora-fc",
-      "event_name": "Aurora FC at Municipal",
-      "competition": {
-        "id": "guatemalan-liga-nacional",
-        "name": "Guatemalan Liga Nacional",
-        "country": "Guatemala",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2248.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-26",
-      "match_date": "2026-11-26",
-      "match_date_utc": "2026-11-26",
-      "match_date_pkt": "2026-11-26",
-      "start_time_utc": "2026-11-26T02:00:00Z",
-      "start_time_pkt": "2026-11-26T07:00:00+05:00",
-      "start_timestamp": 1795658400,
-      "display_date": "2026-11-26",
-      "display_time": "07:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Municipal",
-        "slug": "municipal",
-        "espn_id": "7258",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7258.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Municipal",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Aurora FC",
-        "slug": "aurora-fc",
-        "espn_id": "131213",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131213.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Aurora FC",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/gua.1/scoreboard",
-        "priority_applied": false
-      },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/guatemalan-liga-nacional-2026-11-26-0200-municipal-aurora-fc.png"
-    },
-    {
-      "event_id": "liga-mx-2026-11-26-0310-monterrey-america",
-      "event_name": "América at Monterrey",
-      "competition": {
-        "id": "liga-mx",
-        "name": "Mexican Liga BBVA MX",
-        "country": "Mexico",
-        "round": "1st Leg",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png"
-      },
-      "round": "1st Leg",
-      "source_date": "2026-11-26",
-      "match_date": "2026-11-26",
-      "match_date_utc": "2026-11-26",
-      "match_date_pkt": "2026-11-26",
-      "start_time_utc": "2026-11-26T03:10:00Z",
-      "start_time_pkt": "2026-11-26T08:10:00+05:00",
-      "start_timestamp": 1795662600,
-      "display_date": "2026-11-26",
-      "display_time": "08:10 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "Monterrey",
-        "slug": "monterrey",
-        "espn_id": "220",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Monterrey",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "América",
-        "slug": "america",
-        "espn_id": "227",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "América",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard",
-        "priority_applied": false
-      },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-mx-2026-11-26-0310-monterrey-america.png"
-    },
     {
       "event_id": "afc-champions-league-two-2026-11-26-1000-gangwon-fc-kitchee-sc",
       "event_name": "Kitchee SC at Gangwon FC",
@@ -284,7 +60,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-26-1000-gangwon-fc-kitchee-sc.png"
     },
     {
@@ -340,7 +116,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-26-1000-kuching-city-phnom-penh-crown-fc.png"
     },
     {
@@ -396,7 +172,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-26-1000-tampines-rovers-fc-shanghai-shenhua-fc.png"
     },
     {
@@ -452,7 +228,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-26-1215-bg-pathum-united-lion-city-sailors-fc.png"
     },
     {
@@ -508,7 +284,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-26-1215-pkr-svay-rieng-machida-zelvia.png"
     },
     {
@@ -564,7 +340,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.cup/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/afc-champions-league-two-2026-11-26-1215-tai-po-fc-adelaide-united-fc.png"
     },
     {
@@ -620,7 +396,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/club.friendly/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/club-friendlies-2026-11-26-1300-fc-ilves-sjk-j.png"
     },
     {
@@ -676,7 +452,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-26-1300-new-zealand-u17-belgium-u17.png"
     },
     {
@@ -732,7 +508,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-26-1300-vietnam-u17-mali-u17.png"
     },
     {
@@ -788,7 +564,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-26-1400-jamaica-u17-ivory-coast-u17.png"
     },
     {
@@ -844,7 +620,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-26-1400-uzbekistan-u17-italy-u17.png"
     },
     {
@@ -900,7 +676,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-11-26-1425-al-fateh-al-riyadh.png"
     },
     {
@@ -956,7 +732,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-26-1500-china-u17-fiji-u17.png"
     },
     {
@@ -1012,7 +788,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-26-1500-morocco-u17-spain-u17.png"
     },
     {
@@ -1068,7 +844,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-11-26-1505-abha-al-shabab.png"
     },
     {
@@ -1124,7 +900,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-11-26-1530-kairat-almaty-mjallby-aif.png"
     },
     {
@@ -1180,7 +956,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-26-1600-croatia-u17-cuba-u17.png"
     },
     {
@@ -1236,7 +1012,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/fifa-u17-world-cup-2026-11-26-1600-tajikistan-u17-senegal-u17.png"
     },
     {
@@ -1292,7 +1068,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/club.friendly/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/club-friendlies-2026-11-26-1645-frederiksberg-alliancen-2000-bronshoj.png"
     },
     {
@@ -1348,7 +1124,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/saudi-pro-league-2026-11-26-1730-al-faisaly-al-diriyah.png"
     },
     {
@@ -1404,7 +1180,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-11-26-1745-ajax-amsterdam-fc-thun.png"
     },
     {
@@ -1460,7 +1236,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-11-26-1745-brighton-hove-albion-csu-craiova.png"
     },
     {
@@ -1516,7 +1292,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-11-26-1745-egnatia-lincoln-red-imps.png"
     },
     {
@@ -1572,7 +1348,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-11-26-1745-heart-of-midlothian-as-monaco.png"
     },
     {
@@ -1628,7 +1404,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-11-26-1745-iberia-1999-getafe.png"
     },
     {
@@ -1684,7 +1460,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-11-26-1745-jablonec-fc-lugano.png"
     },
     {
@@ -1740,7 +1516,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-11-26-1745-kauno-zalgiris-riga-fc.png"
     },
     {
@@ -1796,7 +1572,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-11-26-1745-pafos-fc-midtjylland.png"
     },
     {
@@ -1852,7 +1628,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/conference-league-2026-11-26-1745-sk-brann-agf.png"
     },
     {
@@ -1908,7 +1684,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-11-26-1745-besiktas-hapoel-be-er.png"
     },
     {
@@ -1964,7 +1740,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-11-26-1745-celta-vigo-afc-bournemouth.png"
     },
     {
@@ -2020,7 +1796,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-11-26-1745-dinamo-zagreb-bayer-leverkusen.png"
     },
     {
@@ -2076,7 +1852,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-11-26-1745-marseille-levski-sofia.png"
     },
     {
@@ -2132,7 +1908,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-11-26-1745-olympiacos-ac-milan.png"
     },
     {
@@ -2188,7 +1964,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-11-26-1745-rb-salzburg-ararat-armenia.png"
     },
     {
@@ -2244,7 +2020,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-11-26-1745-union-st-gilloise-lech-poznan.png"
     },
     {
@@ -2300,7 +2076,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "last_updated": "2026-11-26T11:03:43.608920+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/europa-league-2026-11-26-1745-viktoria-plzen-benfica.png"
     }
   ]

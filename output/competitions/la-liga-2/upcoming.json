@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-25T17:22:14.576212+00:00",
+  "generated_at": "2026-11-26T02:02:40.111874+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 6,
+  "total_events": 7,
   "events": [
     {
       "event_id": "la-liga-2-2026-11-27-1930-leganes-cd-sabadell",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-11-27-1930-leganes-cd-sabadell.png"
     },
     {
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-11-28-1300-las-palmas-fc-andorra.png"
     },
     {
@@ -176,7 +176,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-11-28-1515-albacete-tenerife.png"
     },
     {
@@ -232,7 +232,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-11-28-1515-eldense-girona.png"
     },
     {
@@ -288,7 +288,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-11-28-1730-eibar-burgos.png"
     },
     {
@@ -344,8 +344,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-11-28-2000-real-valladolid-real-sociedad-ii.png"
+    },
+    {
+      "event_id": "la-liga-2-2026-11-29-1300-granada-ceuta",
+      "event_name": "Ceuta at Granada",
+      "competition": {
+        "id": "la-liga-2",
+        "name": "Spanish La Liga 2",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/107.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T13:00:00Z",
+      "start_time_pkt": "2026-11-29T18:00:00+05:00",
+      "start_timestamp": 1795957200,
+      "display_date": "2026-11-29",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Granada",
+        "slug": "granada",
+        "espn_id": "3747",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3747.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Granada",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Ceuta",
+        "slug": "ceuta",
+        "espn_id": "5404",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/5404.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Ceuta",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2-2026-11-29-1300-granada-ceuta.png"
     }
   ]
 }

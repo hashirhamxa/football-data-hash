@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-25T17:22:14.771144+00:00",
+  "generated_at": "2026-11-26T02:02:40.149405+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 5,
+  "total_events": 6,
   "events": [
     {
       "event_id": "russian-premier-league-2026-11-28-1100-rubin-kazan-akron-tolyatti",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-28-1100-rubin-kazan-akron-tolyatti.png"
     },
     {
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-28-1330-cska-moscow-zenit-st-petersburg.png"
     },
     {
@@ -176,7 +176,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-28-1600-fc-baltika-kaliningrad-akhmat-grozny.png"
     },
     {
@@ -232,7 +232,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-29-1000-gazovik-orenburg-rodina-moscow.png"
     },
     {
@@ -288,8 +288,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-29-1215-rostov-krasnodar.png"
+    },
+    {
+      "event_id": "russian-premier-league-2026-11-29-1430-krylia-sovetov-dinamo-moscow",
+      "event_name": "Dinamo Moscow at Krylia Sovetov",
+      "competition": {
+        "id": "russian-premier-league",
+        "name": "Russian Premier League",
+        "country": "Russia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/106.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T14:30:00Z",
+      "start_time_pkt": "2026-11-29T19:30:00+05:00",
+      "start_timestamp": 1795962600,
+      "display_date": "2026-11-29",
+      "display_time": "07:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Krylia Sovetov",
+        "slug": "krylia-sovetov",
+        "espn_id": "3850",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3850.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Krylia Sovetov",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Dinamo Moscow",
+        "slug": "dinamo-moscow",
+        "espn_id": "596",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/596.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Dinamo Moscow",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/rus.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/russian-premier-league-2026-11-29-1430-krylia-sovetov-dinamo-moscow.png"
     }
   ]
 }

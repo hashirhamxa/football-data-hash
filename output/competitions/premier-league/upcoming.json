@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-25T17:22:14.557012+00:00",
+  "generated_at": "2026-11-26T02:02:40.108775+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 5,
+  "total_events": 9,
   "events": [
     {
       "event_id": "premier-league-2026-11-27-2000-nottingham-forest-chelsea",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-27-2000-nottingham-forest-chelsea.png"
     },
     {
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-28-1500-leeds-united-coventry-city.png"
     },
     {
@@ -176,7 +176,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-28-1500-manchester-united-brentford.png"
     },
     {
@@ -232,7 +232,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-28-1730-ipswich-town-aston-villa.png"
     },
     {
@@ -288,8 +288,232 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-29-1200-everton-liverpool.png"
+    },
+    {
+      "event_id": "premier-league-2026-11-29-1405-brighton-hove-albion-newcastle-united",
+      "event_name": "Newcastle United at Brighton & Hove Albion",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T14:05:00Z",
+      "start_time_pkt": "2026-11-29T19:05:00+05:00",
+      "start_timestamp": 1795961100,
+      "display_date": "2026-11-29",
+      "display_time": "07:05 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Brighton & Hove Albion",
+        "slug": "brighton-hove-albion",
+        "espn_id": "331",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Brighton & Hove Albion",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Newcastle United",
+        "slug": "newcastle-united",
+        "espn_id": "361",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Newcastle United",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-29-1405-brighton-hove-albion-newcastle-united.png"
+    },
+    {
+      "event_id": "premier-league-2026-11-29-1405-crystal-palace-hull-city",
+      "event_name": "Hull City at Crystal Palace",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T14:05:00Z",
+      "start_time_pkt": "2026-11-29T19:05:00+05:00",
+      "start_timestamp": 1795961100,
+      "display_date": "2026-11-29",
+      "display_time": "07:05 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Crystal Palace",
+        "slug": "crystal-palace",
+        "espn_id": "384",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Crystal Palace",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Hull City",
+        "slug": "hull-city",
+        "espn_id": "306",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Hull City",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-29-1405-crystal-palace-hull-city.png"
+    },
+    {
+      "event_id": "premier-league-2026-11-29-1405-fulham-afc-bournemouth",
+      "event_name": "AFC Bournemouth at Fulham",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T14:05:00Z",
+      "start_time_pkt": "2026-11-29T19:05:00+05:00",
+      "start_timestamp": 1795961100,
+      "display_date": "2026-11-29",
+      "display_time": "07:05 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Fulham",
+        "slug": "fulham",
+        "espn_id": "370",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Fulham",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "AFC Bournemouth",
+        "slug": "afc-bournemouth",
+        "espn_id": "349",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "AFC Bournemouth",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-29-1405-fulham-afc-bournemouth.png"
+    },
+    {
+      "event_id": "premier-league-2026-11-29-1405-sunderland-tottenham-hotspur",
+      "event_name": "Tottenham Hotspur at Sunderland",
+      "competition": {
+        "id": "premier-league",
+        "name": "English Premier League",
+        "country": "England",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T14:05:00Z",
+      "start_time_pkt": "2026-11-29T19:05:00+05:00",
+      "start_timestamp": 1795961100,
+      "display_date": "2026-11-29",
+      "display_time": "07:05 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Sunderland",
+        "slug": "sunderland",
+        "espn_id": "366",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Sunderland",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Tottenham Hotspur",
+        "slug": "tottenham-hotspur",
+        "espn_id": "367",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Tottenham Hotspur",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/premier-league-2026-11-29-1405-sunderland-tottenham-hotspur.png"
     }
   ]
 }

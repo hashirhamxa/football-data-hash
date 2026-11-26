@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-25T17:22:14.572867+00:00",
+  "generated_at": "2026-11-26T02:02:40.111165+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 5,
+  "total_events": 6,
   "events": [
     {
       "event_id": "la-liga-2026-11-27-2000-levante-racing-santander",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-11-27-2000-levante-racing-santander.png"
     },
     {
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-11-28-1300-real-betis-rayo-vallecano.png"
     },
     {
@@ -176,7 +176,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-11-28-1515-malaga-athletic-club.png"
     },
     {
@@ -232,7 +232,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-11-28-1730-elche-atletico-madrid.png"
     },
     {
@@ -288,8 +288,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-11-28-2000-real-madrid-alaves.png"
+    },
+    {
+      "event_id": "la-liga-2026-11-29-1300-valencia-osasuna",
+      "event_name": "Osasuna at Valencia",
+      "competition": {
+        "id": "la-liga",
+        "name": "Spanish La Liga",
+        "country": "Spain",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T13:00:00Z",
+      "start_time_pkt": "2026-11-29T18:00:00+05:00",
+      "start_timestamp": 1795957200,
+      "display_date": "2026-11-29",
+      "display_time": "06:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Valencia",
+        "slug": "valencia",
+        "espn_id": "94",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Valencia",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Osasuna",
+        "slug": "osasuna",
+        "espn_id": "97",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Osasuna",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/la-liga-2026-11-29-1300-valencia-osasuna.png"
     }
   ]
 }

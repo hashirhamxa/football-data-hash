@@ -7,10 +7,123 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-25T17:22:14.682100+00:00",
+  "generated_at": "2026-11-26T02:02:40.135020+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-11-26",
-  "target_day_name": "Thursday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-27",
+  "target_day_name": "Friday",
+  "total_events": 2,
+  "events": [
+    {
+      "event_id": "2-bundesliga-2026-11-27-1730-1-fc-heidenheim-1846-1-fc-nurnberg",
+      "event_name": "1. FC Nürnberg at 1. FC Heidenheim 1846",
+      "competition": {
+        "id": "2-bundesliga",
+        "name": "2. Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-27",
+      "match_date": "2026-11-27",
+      "match_date_utc": "2026-11-27",
+      "match_date_pkt": "2026-11-27",
+      "start_time_utc": "2026-11-27T17:30:00Z",
+      "start_time_pkt": "2026-11-27T22:30:00+05:00",
+      "start_timestamp": 1795800600,
+      "display_date": "2026-11-27",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "1. FC Heidenheim 1846",
+        "slug": "1-fc-heidenheim-1846",
+        "espn_id": "6418",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6418.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "1. FC Heidenheim 1846",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "1. FC Nürnberg",
+        "slug": "1-fc-nurnberg",
+        "espn_id": "269",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/269.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "1. FC Nürnberg",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-27-1730-1-fc-heidenheim-1846-1-fc-nurnberg.png"
+    },
+    {
+      "event_id": "2-bundesliga-2026-11-27-1730-vfl-bochum-sv-darmstadt-98",
+      "event_name": "SV Darmstadt 98 at VfL Bochum",
+      "competition": {
+        "id": "2-bundesliga",
+        "name": "2. Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-27",
+      "match_date": "2026-11-27",
+      "match_date_utc": "2026-11-27",
+      "match_date_pkt": "2026-11-27",
+      "start_time_utc": "2026-11-27T17:30:00Z",
+      "start_time_pkt": "2026-11-27T22:30:00+05:00",
+      "start_timestamp": 1795800600,
+      "display_date": "2026-11-27",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "VfL Bochum",
+        "slug": "vfl-bochum",
+        "espn_id": "121",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/121.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "VfL Bochum",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "SV Darmstadt 98",
+        "slug": "sv-darmstadt-98",
+        "espn_id": "3812",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3812.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "SV Darmstadt 98",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/2-bundesliga-2026-11-27-1730-vfl-bochum-sv-darmstadt-98.png"
+    }
+  ]
 }

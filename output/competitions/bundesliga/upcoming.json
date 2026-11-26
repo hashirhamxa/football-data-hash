@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-25T17:22:14.583009+00:00",
+  "generated_at": "2026-11-26T02:02:40.113394+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 6,
+  "total_events": 7,
   "events": [
     {
       "event_id": "bundesliga-2026-11-27-1930-werder-bremen-borussia-monchengladbach",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-27-1930-werder-bremen-borussia-monchengladbach.png"
     },
     {
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-28-1430-fc-cologne-sv-elversberg.png"
     },
     {
@@ -176,7 +176,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-28-1430-hamburg-sv-bayern-munich.png"
     },
     {
@@ -232,7 +232,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-28-1430-mainz-1-fc-union-berlin.png"
     },
     {
@@ -288,7 +288,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-28-1430-sc-paderborn-07-schalke-04.png"
     },
     {
@@ -344,8 +344,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-28-1730-vfb-stuttgart-eintracht-frankfurt.png"
+    },
+    {
+      "event_id": "bundesliga-2026-11-29-1430-sc-freiburg-rb-leipzig",
+      "event_name": "RB Leipzig at SC Freiburg",
+      "competition": {
+        "id": "bundesliga",
+        "name": "German Bundesliga",
+        "country": "Germany",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T14:30:00Z",
+      "start_time_pkt": "2026-11-29T19:30:00+05:00",
+      "start_timestamp": 1795962600,
+      "display_date": "2026-11-29",
+      "display_time": "07:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "SC Freiburg",
+        "slug": "sc-freiburg",
+        "espn_id": "126",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "SC Freiburg",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "RB Leipzig",
+        "slug": "rb-leipzig",
+        "espn_id": "11420",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "RB Leipzig",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bundesliga-2026-11-29-1430-sc-freiburg-rb-leipzig.png"
     }
   ]
 }

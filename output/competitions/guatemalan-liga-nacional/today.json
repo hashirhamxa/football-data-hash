@@ -7,10 +7,67 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-25T17:22:14.855148+00:00",
+  "generated_at": "2026-11-26T02:02:40.164749+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-25",
-  "target_day_name": "Wednesday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-26",
+  "target_day_name": "Thursday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "guatemalan-liga-nacional-2026-11-26-0200-municipal-aurora-fc",
+      "event_name": "Aurora FC at Municipal",
+      "competition": {
+        "id": "guatemalan-liga-nacional",
+        "name": "Guatemalan Liga Nacional",
+        "country": "Guatemala",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2248.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-26",
+      "match_date": "2026-11-26",
+      "match_date_utc": "2026-11-26",
+      "match_date_pkt": "2026-11-26",
+      "start_time_utc": "2026-11-26T02:00:00Z",
+      "start_time_pkt": "2026-11-26T07:00:00+05:00",
+      "start_timestamp": 1795658400,
+      "display_date": "2026-11-26",
+      "display_time": "07:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Municipal",
+        "slug": "municipal",
+        "espn_id": "7258",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7258.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Municipal",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Aurora FC",
+        "slug": "aurora-fc",
+        "espn_id": "131213",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131213.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Aurora FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/gua.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/guatemalan-liga-nacional-2026-11-26-0200-municipal-aurora-fc.png"
+    }
+  ]
 }

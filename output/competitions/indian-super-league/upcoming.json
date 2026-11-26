@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-25T17:22:14.792913+00:00",
+  "generated_at": "2026-11-26T02:02:40.153653+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 3,
+  "total_events": 4,
   "events": [
     {
       "event_id": "indian-super-league-2026-11-27-1400-inter-kashi-churchill-brothers",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ind.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/indian-super-league-2026-11-27-1400-inter-kashi-churchill-brothers.png"
     },
     {
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ind.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/indian-super-league-2026-11-28-1400-chennaiyin-fc-mumbai-city-fc.png"
     },
     {
@@ -176,8 +176,64 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ind.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-25T17:15:46.745221+00:00",
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/indian-super-league-2026-11-29-1130-fc-goa-kerala-blasters-fc.png"
+    },
+    {
+      "event_id": "indian-super-league-2026-11-29-1400-east-bengal-fc-mohun-bagan-super-giant",
+      "event_name": "Mohun Bagan Super Giant at East Bengal FC",
+      "competition": {
+        "id": "indian-super-league",
+        "name": "Indian Super League",
+        "country": "India",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2334.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T14:00:00Z",
+      "start_time_pkt": "2026-11-29T19:00:00+05:00",
+      "start_timestamp": 1795960800,
+      "display_date": "2026-11-29",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "East Bengal FC",
+        "slug": "east-bengal-fc",
+        "espn_id": "8897",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8897.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "East Bengal FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Mohun Bagan Super Giant",
+        "slug": "mohun-bagan-super-giant",
+        "espn_id": "20774",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20774.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Mohun Bagan Super Giant",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ind.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-26T02:00:39.284422+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/indian-super-league-2026-11-29-1400-east-bengal-fc-mohun-bagan-super-giant.png"
     }
   ]
 }

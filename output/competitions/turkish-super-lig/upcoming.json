@@ -7,9 +7,9 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-26T11:10:32.576883+00:00",
+  "generated_at": "2026-11-27T02:03:03.158333+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 6,
+  "total_events": 9,
   "events": [
     {
       "event_id": "turkish-super-lig-2026-11-27-1700-alanyaspor-konyaspor",
@@ -64,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T11:03:43.608920+00:00",
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-11-27-1700-alanyaspor-konyaspor.png"
     },
     {
@@ -120,7 +120,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T11:03:43.608920+00:00",
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-11-27-1700-caykur-rizespor-kasimpasa.png"
     },
     {
@@ -176,7 +176,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T11:03:43.608920+00:00",
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-11-28-1300-samsunspor-genclerbirligi.png"
     },
     {
@@ -232,7 +232,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T11:03:43.608920+00:00",
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-11-28-1600-gaziantep-fk-amed-sfk.png"
     },
     {
@@ -288,7 +288,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T11:03:43.608920+00:00",
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-11-29-1030-corum-fk-kocaelispor.png"
     },
     {
@@ -344,8 +344,176 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T11:03:43.608920+00:00",
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-11-29-1300-eyupspor-istanbul-basaksehir.png"
+    },
+    {
+      "event_id": "turkish-super-lig-2026-11-29-1600-fenerbahce-erzurum-bb",
+      "event_name": "Erzurum BB at Fenerbahce",
+      "competition": {
+        "id": "turkish-super-lig",
+        "name": "Turkish Super Lig",
+        "country": "Turkey",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T16:00:00Z",
+      "start_time_pkt": "2026-11-29T21:00:00+05:00",
+      "start_timestamp": 1795968000,
+      "display_date": "2026-11-29",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Fenerbahce",
+        "slug": "fenerbahce",
+        "espn_id": "436",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Fenerbahce",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Erzurum BB",
+        "slug": "erzurum-bb",
+        "espn_id": "19267",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/19267.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Erzurum BB",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-11-29-1600-fenerbahce-erzurum-bb.png"
+    },
+    {
+      "event_id": "turkish-super-lig-2026-11-30-1600-goztepe-trabzonspor",
+      "event_name": "Trabzonspor at Goztepe",
+      "competition": {
+        "id": "turkish-super-lig",
+        "name": "Turkish Super Lig",
+        "country": "Turkey",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-30",
+      "match_date": "2026-11-30",
+      "match_date_utc": "2026-11-30",
+      "match_date_pkt": "2026-11-30",
+      "start_time_utc": "2026-11-30T16:00:00Z",
+      "start_time_pkt": "2026-11-30T21:00:00+05:00",
+      "start_timestamp": 1796054400,
+      "display_date": "2026-11-30",
+      "display_time": "09:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Goztepe",
+        "slug": "goztepe",
+        "espn_id": "789",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Goztepe",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Trabzonspor",
+        "slug": "trabzonspor",
+        "espn_id": "997",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Trabzonspor",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-11-30-1600-goztepe-trabzonspor.png"
+    },
+    {
+      "event_id": "turkish-super-lig-2026-11-30-1800-besiktas-galatasaray",
+      "event_name": "Galatasaray at Besiktas",
+      "competition": {
+        "id": "turkish-super-lig",
+        "name": "Turkish Super Lig",
+        "country": "Turkey",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-30",
+      "match_date": "2026-11-30",
+      "match_date_utc": "2026-11-30",
+      "match_date_pkt": "2026-11-30",
+      "start_time_utc": "2026-11-30T18:00:00Z",
+      "start_time_pkt": "2026-11-30T23:00:00+05:00",
+      "start_timestamp": 1796061600,
+      "display_date": "2026-11-30",
+      "display_time": "11:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Besiktas",
+        "slug": "besiktas",
+        "espn_id": "1895",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Besiktas",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Galatasaray",
+        "slug": "galatasaray",
+        "espn_id": "432",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Galatasaray",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-11-30-1800-besiktas-galatasaray.png"
     }
   ]
 }

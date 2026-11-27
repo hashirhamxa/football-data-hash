@@ -7,66 +7,10 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-26T11:10:32.515622+00:00",
+  "generated_at": "2026-11-27T02:03:03.146527+00:00",
   "feed_type": "upcoming_30_days",
-  "total_events": 3,
+  "total_events": 8,
   "events": [
-    {
-      "event_id": "brazilian-serie-a-2026-11-26-2300-sao-paulo-remo",
-      "event_name": "Remo at São Paulo",
-      "competition": {
-        "id": "brazilian-serie-a",
-        "name": "Brazilian Série A",
-        "country": "Brazil",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-26",
-      "match_date": "2026-11-26",
-      "match_date_utc": "2026-11-26",
-      "match_date_pkt": "2026-11-27",
-      "start_time_utc": "2026-11-26T23:00:00Z",
-      "start_time_pkt": "2026-11-27T04:00:00+05:00",
-      "start_timestamp": 1795734000,
-      "display_date": "2026-11-27",
-      "display_time": "04:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "São Paulo",
-        "slug": "sao-paulo",
-        "espn_id": "2026",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "São Paulo",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Remo",
-        "slug": "remo",
-        "espn_id": "4936",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Remo",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard",
-        "priority_applied": false
-      },
-      "last_updated": "2026-11-26T11:03:43.608920+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-11-26-2300-sao-paulo-remo.png"
-    },
     {
       "event_id": "brazilian-serie-a-2026-11-27-2300-fluminense-cruzeiro",
       "event_name": "Cruzeiro at Fluminense",
@@ -120,7 +64,7 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T11:03:43.608920+00:00",
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-11-27-2300-fluminense-cruzeiro.png"
     },
     {
@@ -176,8 +120,344 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-26T11:03:43.608920+00:00",
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
       "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-11-29-0000-botafogo-bahia.png"
+    },
+    {
+      "event_id": "brazilian-serie-a-2026-11-29-1900-coritiba-flamengo",
+      "event_name": "Flamengo at Coritiba",
+      "competition": {
+        "id": "brazilian-serie-a",
+        "name": "Brazilian Série A",
+        "country": "Brazil",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-30",
+      "start_time_utc": "2026-11-29T19:00:00Z",
+      "start_time_pkt": "2026-11-30T00:00:00+05:00",
+      "start_timestamp": 1795978800,
+      "display_date": "2026-11-30",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Coritiba",
+        "slug": "coritiba",
+        "espn_id": "3456",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Coritiba",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Flamengo",
+        "slug": "flamengo",
+        "espn_id": "819",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Flamengo",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-11-29-1900-coritiba-flamengo.png"
+    },
+    {
+      "event_id": "brazilian-serie-a-2026-11-29-1900-vitoria-santos",
+      "event_name": "Santos at Vitória",
+      "competition": {
+        "id": "brazilian-serie-a",
+        "name": "Brazilian Série A",
+        "country": "Brazil",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-30",
+      "start_time_utc": "2026-11-29T19:00:00Z",
+      "start_time_pkt": "2026-11-30T00:00:00+05:00",
+      "start_timestamp": 1795978800,
+      "display_date": "2026-11-30",
+      "display_time": "12:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Vitória",
+        "slug": "vitoria",
+        "espn_id": "3457",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Vitória",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Santos",
+        "slug": "santos",
+        "espn_id": "2674",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Santos",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-11-29-1900-vitoria-santos.png"
+    },
+    {
+      "event_id": "brazilian-serie-a-2026-11-29-2130-corinthians-gremio",
+      "event_name": "Grêmio at Corinthians",
+      "competition": {
+        "id": "brazilian-serie-a",
+        "name": "Brazilian Série A",
+        "country": "Brazil",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-30",
+      "start_time_utc": "2026-11-29T21:30:00Z",
+      "start_time_pkt": "2026-11-30T02:30:00+05:00",
+      "start_timestamp": 1795987800,
+      "display_date": "2026-11-30",
+      "display_time": "02:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Corinthians",
+        "slug": "corinthians",
+        "espn_id": "874",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Corinthians",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Grêmio",
+        "slug": "gremio",
+        "espn_id": "6273",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Grêmio",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-11-29-2130-corinthians-gremio.png"
+    },
+    {
+      "event_id": "brazilian-serie-a-2026-11-29-2130-internacional-red-bull-bragantino",
+      "event_name": "Red Bull Bragantino at Internacional",
+      "competition": {
+        "id": "brazilian-serie-a",
+        "name": "Brazilian Série A",
+        "country": "Brazil",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-30",
+      "start_time_utc": "2026-11-29T21:30:00Z",
+      "start_time_pkt": "2026-11-30T02:30:00+05:00",
+      "start_timestamp": 1795987800,
+      "display_date": "2026-11-30",
+      "display_time": "02:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Internacional",
+        "slug": "internacional",
+        "espn_id": "1936",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Internacional",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Red Bull Bragantino",
+        "slug": "red-bull-bragantino",
+        "espn_id": "6079",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Red Bull Bragantino",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-11-29-2130-internacional-red-bull-bragantino.png"
+    },
+    {
+      "event_id": "brazilian-serie-a-2026-11-29-2130-mirassol-athletico-pr",
+      "event_name": "Athletico Paranaense at Mirassol",
+      "competition": {
+        "id": "brazilian-serie-a",
+        "name": "Brazilian Série A",
+        "country": "Brazil",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-30",
+      "start_time_utc": "2026-11-29T21:30:00Z",
+      "start_time_pkt": "2026-11-30T02:30:00+05:00",
+      "start_timestamp": 1795987800,
+      "display_date": "2026-11-30",
+      "display_time": "02:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Mirassol",
+        "slug": "mirassol",
+        "espn_id": "9169",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Mirassol",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Athletico-PR",
+        "slug": "athletico-pr",
+        "espn_id": "3458",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Athletico-PR",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-11-29-2130-mirassol-athletico-pr.png"
+    },
+    {
+      "event_id": "brazilian-serie-a-2026-11-29-2230-atletico-mg-vasco-da-gama",
+      "event_name": "Vasco da Gama at Atlético-MG",
+      "competition": {
+        "id": "brazilian-serie-a",
+        "name": "Brazilian Série A",
+        "country": "Brazil",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-30",
+      "start_time_utc": "2026-11-29T22:30:00Z",
+      "start_time_pkt": "2026-11-30T03:30:00+05:00",
+      "start_timestamp": 1795991400,
+      "display_date": "2026-11-30",
+      "display_time": "03:30 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Atlético-MG",
+        "slug": "atletico-mg",
+        "espn_id": "7632",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Atlético-MG",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Vasco da Gama",
+        "slug": "vasco-da-gama",
+        "espn_id": "3454",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Vasco da Gama",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-27T02:00:51.955938+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/brazilian-serie-a-2026-11-29-2230-atletico-mg-vasco-da-gama.png"
     }
   ]
 }

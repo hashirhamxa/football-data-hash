@@ -7,15 +7,15 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-27T02:03:03.158333+00:00",
+  "generated_at": "2026-11-28T01:47:10.084040+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-11-28",
-  "target_day_name": "Saturday",
-  "total_events": 2,
+  "target_date_pkt": "2026-11-29",
+  "target_day_name": "Sunday",
+  "total_events": 3,
   "events": [
     {
-      "event_id": "turkish-super-lig-2026-11-28-1300-samsunspor-genclerbirligi",
-      "event_name": "Genclerbirligi at Samsunspor",
+      "event_id": "turkish-super-lig-2026-11-29-1030-corum-fk-kocaelispor",
+      "event_name": "Kocaelispor at Çorum FK",
       "competition": {
         "id": "turkish-super-lig",
         "name": "Turkish Super Lig",
@@ -25,38 +25,94 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-28",
-      "match_date": "2026-11-28",
-      "match_date_utc": "2026-11-28",
-      "match_date_pkt": "2026-11-28",
-      "start_time_utc": "2026-11-28T13:00:00Z",
-      "start_time_pkt": "2026-11-28T18:00:00+05:00",
-      "start_timestamp": 1795870800,
-      "display_date": "2026-11-28",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T10:30:00Z",
+      "start_time_pkt": "2026-11-29T15:30:00+05:00",
+      "start_timestamp": 1795948200,
+      "display_date": "2026-11-29",
+      "display_time": "03:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Çorum FK",
+        "slug": "corum-fk",
+        "espn_id": "132334",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Çorum FK",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Kocaelispor",
+        "slug": "kocaelispor",
+        "espn_id": "995",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Kocaelispor",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-11-29-1030-corum-fk-kocaelispor.png"
+    },
+    {
+      "event_id": "turkish-super-lig-2026-11-29-1300-eyupspor-istanbul-basaksehir",
+      "event_name": "Istanbul Basaksehir at Eyupspor",
+      "competition": {
+        "id": "turkish-super-lig",
+        "name": "Turkish Super Lig",
+        "country": "Turkey",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T13:00:00Z",
+      "start_time_pkt": "2026-11-29T18:00:00+05:00",
+      "start_timestamp": 1795957200,
+      "display_date": "2026-11-29",
       "display_time": "06:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Samsunspor",
-        "slug": "samsunspor",
-        "espn_id": "11429",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+        "name": "Eyupspor",
+        "slug": "eyupspor",
+        "espn_id": "20729",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Samsunspor",
+          "matched_name": "Eyupspor",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Genclerbirligi",
-        "slug": "genclerbirligi",
-        "espn_id": "996",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+        "name": "Istanbul Basaksehir",
+        "slug": "istanbul-basaksehir",
+        "espn_id": "7914",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Genclerbirligi",
+          "matched_name": "Istanbul Basaksehir",
           "is_fallback": false
         }
       },
@@ -66,12 +122,12 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-27T02:00:51.955938+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-11-28-1300-samsunspor-genclerbirligi.png"
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-11-29-1300-eyupspor-istanbul-basaksehir.png"
     },
     {
-      "event_id": "turkish-super-lig-2026-11-28-1600-gaziantep-fk-amed-sfk",
-      "event_name": "Amed SFK at Gaziantep FK",
+      "event_id": "turkish-super-lig-2026-11-29-1600-fenerbahce-erzurum-bb",
+      "event_name": "Erzurum BB at Fenerbahce",
       "competition": {
         "id": "turkish-super-lig",
         "name": "Turkish Super Lig",
@@ -81,38 +137,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-28",
-      "match_date": "2026-11-28",
-      "match_date_utc": "2026-11-28",
-      "match_date_pkt": "2026-11-28",
-      "start_time_utc": "2026-11-28T16:00:00Z",
-      "start_time_pkt": "2026-11-28T21:00:00+05:00",
-      "start_timestamp": 1795881600,
-      "display_date": "2026-11-28",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T16:00:00Z",
+      "start_time_pkt": "2026-11-29T21:00:00+05:00",
+      "start_timestamp": 1795968000,
+      "display_date": "2026-11-29",
       "display_time": "09:00 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Gaziantep FK",
-        "slug": "gaziantep-fk",
-        "espn_id": "20070",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+        "name": "Fenerbahce",
+        "slug": "fenerbahce",
+        "espn_id": "436",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Gaziantep FK",
+          "matched_name": "Fenerbahce",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Amed SFK",
-        "slug": "amed-sfk",
-        "espn_id": "132335",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132335.png",
+        "name": "Erzurum BB",
+        "slug": "erzurum-bb",
+        "espn_id": "19267",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/19267.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Amed SFK",
+          "matched_name": "Erzurum BB",
           "is_fallback": false
         }
       },
@@ -122,8 +178,8 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-27T02:00:51.955938+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-11-28-1600-gaziantep-fk-amed-sfk.png"
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/turkish-super-lig-2026-11-29-1600-fenerbahce-erzurum-bb.png"
     }
   ]
 }

@@ -7,10 +7,179 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-27T02:03:03.138001+00:00",
+  "generated_at": "2026-11-28T01:47:10.064869+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-27",
-  "target_day_name": "Friday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-28",
+  "target_day_name": "Saturday",
+  "total_events": 3,
+  "events": [
+    {
+      "event_id": "mls-2026-11-28-0100-columbus-crew-inter-miami-cf",
+      "event_name": "Inter Miami CF at Columbus Crew",
+      "competition": {
+        "id": "mls",
+        "name": "Major League Soccer",
+        "country": "United States",
+        "round": "CLB leads series 1-0",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
+      },
+      "round": "CLB leads series 1-0",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-28",
+      "start_time_utc": "2026-11-28T01:00:00Z",
+      "start_time_pkt": "2026-11-28T06:00:00+05:00",
+      "start_timestamp": 1795827600,
+      "display_date": "2026-11-28",
+      "display_time": "06:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Columbus Crew",
+        "slug": "columbus-crew",
+        "espn_id": "183",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Columbus Crew",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Inter Miami CF",
+        "slug": "inter-miami-cf",
+        "espn_id": "20232",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Inter Miami CF",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-11-28-0100-columbus-crew-inter-miami-cf.png"
+    },
+    {
+      "event_id": "mls-2026-11-28-0300-real-salt-lake-vancouver-whitecaps",
+      "event_name": "Vancouver Whitecaps at Real Salt Lake",
+      "competition": {
+        "id": "mls",
+        "name": "Major League Soccer",
+        "country": "United States",
+        "round": "VAN leads series 1-0",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
+      },
+      "round": "VAN leads series 1-0",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-28",
+      "start_time_utc": "2026-11-28T03:00:00Z",
+      "start_time_pkt": "2026-11-28T08:00:00+05:00",
+      "start_timestamp": 1795834800,
+      "display_date": "2026-11-28",
+      "display_time": "08:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Real Salt Lake",
+        "slug": "real-salt-lake",
+        "espn_id": "4771",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Real Salt Lake",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Vancouver Whitecaps",
+        "slug": "vancouver-whitecaps",
+        "espn_id": "9727",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Vancouver Whitecaps",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-11-28-0300-real-salt-lake-vancouver-whitecaps.png"
+    },
+    {
+      "event_id": "mls-2026-11-28-1730-charlotte-fc-chicago-fire-fc",
+      "event_name": "Chicago Fire FC at Charlotte FC",
+      "competition": {
+        "id": "mls",
+        "name": "Major League Soccer",
+        "country": "United States",
+        "round": "CLT leads series 1-0",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png"
+      },
+      "round": "CLT leads series 1-0",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-28",
+      "start_time_utc": "2026-11-28T17:30:00Z",
+      "start_time_pkt": "2026-11-28T22:30:00+05:00",
+      "start_timestamp": 1795887000,
+      "display_date": "2026-11-28",
+      "display_time": "10:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Charlotte FC",
+        "slug": "charlotte-fc",
+        "espn_id": "21300",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Charlotte FC",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Chicago Fire FC",
+        "slug": "chicago-fire-fc",
+        "espn_id": "182",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Chicago Fire FC",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/mls-2026-11-28-1730-charlotte-fc-chicago-fire-fc.png"
+    }
+  ]
 }

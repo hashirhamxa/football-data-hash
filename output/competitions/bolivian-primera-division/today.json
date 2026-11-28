@@ -7,10 +7,67 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-27T02:03:03.191731+00:00",
+  "generated_at": "2026-11-28T01:47:10.109889+00:00",
   "feed_type": "today",
-  "target_date_pkt": "2026-11-27",
-  "target_day_name": "Friday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-28",
+  "target_day_name": "Saturday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "bolivian-primera-division-2026-11-28-0200-abb-real-tomayapo",
+      "event_name": "Real Tomayapo at ABB",
+      "competition": {
+        "id": "bolivian-primera-division",
+        "name": "Bolivian División Profesional",
+        "country": "Bolivia",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/1949.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-28",
+      "match_date": "2026-11-28",
+      "match_date_utc": "2026-11-28",
+      "match_date_pkt": "2026-11-28",
+      "start_time_utc": "2026-11-28T02:00:00Z",
+      "start_time_pkt": "2026-11-28T07:00:00+05:00",
+      "start_timestamp": 1795831200,
+      "display_date": "2026-11-28",
+      "display_time": "07:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "ABB",
+        "slug": "abb",
+        "espn_id": "130875",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/130875.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "ABB",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Real Tomayapo",
+        "slug": "real-tomayapo",
+        "espn_id": "20890",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20890.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Real Tomayapo",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bol.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/bolivian-primera-division-2026-11-28-0200-abb-real-tomayapo.png"
+    }
+  ]
 }

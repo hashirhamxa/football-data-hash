@@ -7,10 +7,459 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-27T02:03:03.171399+00:00",
+  "generated_at": "2026-11-28T01:47:10.097622+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-11-28",
-  "target_day_name": "Saturday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-29",
+  "target_day_name": "Sunday",
+  "total_events": 8,
+  "events": [
+    {
+      "event_id": "swedish-allsvenskan-2026-11-29-1400-degerfors-if-orgryte-is",
+      "event_name": "Örgryte IS at Degerfors IF",
+      "competition": {
+        "id": "swedish-allsvenskan",
+        "name": "Swedish Allsvenskan",
+        "country": "Sweden",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T14:00:00Z",
+      "start_time_pkt": "2026-11-29T19:00:00+05:00",
+      "start_timestamp": 1795960800,
+      "display_date": "2026-11-29",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Degerfors IF",
+        "slug": "degerfors-if",
+        "espn_id": "20856",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20856.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Degerfors IF",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Örgryte IS",
+        "slug": "orgryte-is",
+        "espn_id": "131552",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131552.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Örgryte IS",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/swedish-allsvenskan-2026-11-29-1400-degerfors-if-orgryte-is.png"
+    },
+    {
+      "event_id": "swedish-allsvenskan-2026-11-29-1400-djurgarden-bk-hacken",
+      "event_name": "BK Häcken at Djurgården",
+      "competition": {
+        "id": "swedish-allsvenskan",
+        "name": "Swedish Allsvenskan",
+        "country": "Sweden",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T14:00:00Z",
+      "start_time_pkt": "2026-11-29T19:00:00+05:00",
+      "start_timestamp": 1795960800,
+      "display_date": "2026-11-29",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Djurgården",
+        "slug": "djurgarden",
+        "espn_id": "2339",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2339.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Djurgården",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "BK Häcken",
+        "slug": "bk-hacken",
+        "espn_id": "7834",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7834.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "BK Häcken",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/swedish-allsvenskan-2026-11-29-1400-djurgarden-bk-hacken.png"
+    },
+    {
+      "event_id": "swedish-allsvenskan-2026-11-29-1400-halmstads-bk-mjallby-aif",
+      "event_name": "Mjällby AIF at Halmstads BK",
+      "competition": {
+        "id": "swedish-allsvenskan",
+        "name": "Swedish Allsvenskan",
+        "country": "Sweden",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T14:00:00Z",
+      "start_time_pkt": "2026-11-29T19:00:00+05:00",
+      "start_timestamp": 1795960800,
+      "display_date": "2026-11-29",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Halmstads BK",
+        "slug": "halmstads-bk",
+        "espn_id": "3017",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3017.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Halmstads BK",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Mjällby AIF",
+        "slug": "mjallby-aif",
+        "espn_id": "20301",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20301.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Mjällby AIF",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/swedish-allsvenskan-2026-11-29-1400-halmstads-bk-mjallby-aif.png"
+    },
+    {
+      "event_id": "swedish-allsvenskan-2026-11-29-1400-if-elfsborg-gais",
+      "event_name": "GAIS at IF Elfsborg",
+      "competition": {
+        "id": "swedish-allsvenskan",
+        "name": "Swedish Allsvenskan",
+        "country": "Sweden",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T14:00:00Z",
+      "start_time_pkt": "2026-11-29T19:00:00+05:00",
+      "start_timestamp": 1795960800,
+      "display_date": "2026-11-29",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "IF Elfsborg",
+        "slug": "if-elfsborg",
+        "espn_id": "529",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/529.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "IF Elfsborg",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "GAIS",
+        "slug": "gais",
+        "espn_id": "8222",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8222.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "GAIS",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/swedish-allsvenskan-2026-11-29-1400-if-elfsborg-gais.png"
+    },
+    {
+      "event_id": "swedish-allsvenskan-2026-11-29-1400-ifk-goteborg-ik-sirius",
+      "event_name": "IK Sirius at IFK Göteborg",
+      "competition": {
+        "id": "swedish-allsvenskan",
+        "name": "Swedish Allsvenskan",
+        "country": "Sweden",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T14:00:00Z",
+      "start_time_pkt": "2026-11-29T19:00:00+05:00",
+      "start_timestamp": 1795960800,
+      "display_date": "2026-11-29",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "IFK Göteborg",
+        "slug": "ifk-goteborg",
+        "espn_id": "2556",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2556.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "IFK Göteborg",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "IK Sirius",
+        "slug": "ik-sirius",
+        "espn_id": "8547",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8547.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "IK Sirius",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/swedish-allsvenskan-2026-11-29-1400-ifk-goteborg-ik-sirius.png"
+    },
+    {
+      "event_id": "swedish-allsvenskan-2026-11-29-1400-kalmar-ff-aik",
+      "event_name": "AIK at Kalmar FF",
+      "competition": {
+        "id": "swedish-allsvenskan",
+        "name": "Swedish Allsvenskan",
+        "country": "Sweden",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T14:00:00Z",
+      "start_time_pkt": "2026-11-29T19:00:00+05:00",
+      "start_timestamp": 1795960800,
+      "display_date": "2026-11-29",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Kalmar FF",
+        "slug": "kalmar-ff",
+        "espn_id": "3052",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3052.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Kalmar FF",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "AIK",
+        "slug": "aik",
+        "espn_id": "994",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/994.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "AIK",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/swedish-allsvenskan-2026-11-29-1400-kalmar-ff-aik.png"
+    },
+    {
+      "event_id": "swedish-allsvenskan-2026-11-29-1400-malmo-ff-if-brommapojkarna",
+      "event_name": "IF Brommapojkarna at Malmö FF",
+      "competition": {
+        "id": "swedish-allsvenskan",
+        "name": "Swedish Allsvenskan",
+        "country": "Sweden",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T14:00:00Z",
+      "start_time_pkt": "2026-11-29T19:00:00+05:00",
+      "start_timestamp": 1795960800,
+      "display_date": "2026-11-29",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Malmö FF",
+        "slug": "malmo-ff",
+        "espn_id": "2720",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2720.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Malmö FF",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "IF Brommapojkarna",
+        "slug": "if-brommapojkarna",
+        "espn_id": "8221",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/8221.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "IF Brommapojkarna",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/swedish-allsvenskan-2026-11-29-1400-malmo-ff-if-brommapojkarna.png"
+    },
+    {
+      "event_id": "swedish-allsvenskan-2026-11-29-1400-vasteras-sk-hammarby-if",
+      "event_name": "Hammarby IF at Västerås SK",
+      "competition": {
+        "id": "swedish-allsvenskan",
+        "name": "Swedish Allsvenskan",
+        "country": "Sweden",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T14:00:00Z",
+      "start_time_pkt": "2026-11-29T19:00:00+05:00",
+      "start_timestamp": 1795960800,
+      "display_date": "2026-11-29",
+      "display_time": "07:00 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Västerås SK",
+        "slug": "vasteras-sk",
+        "espn_id": "22163",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/22163.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Västerås SK",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Hammarby IF",
+        "slug": "hammarby-if",
+        "espn_id": "2495",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2495.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Hammarby IF",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/swedish-allsvenskan-2026-11-29-1400-vasteras-sk-hammarby-if.png"
+    }
+  ]
 }

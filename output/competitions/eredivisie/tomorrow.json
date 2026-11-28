@@ -7,71 +7,15 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-27T02:03:03.184584+00:00",
+  "generated_at": "2026-11-28T01:47:10.105071+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-11-28",
-  "target_day_name": "Saturday",
-  "total_events": 3,
+  "target_date_pkt": "2026-11-29",
+  "target_day_name": "Sunday",
+  "total_events": 5,
   "events": [
     {
-      "event_id": "eredivisie-2026-11-27-1900-fc-groningen-willem-ii",
-      "event_name": "Willem II at FC Groningen",
-      "competition": {
-        "id": "eredivisie",
-        "name": "Dutch Eredivisie",
-        "country": "Netherlands",
-        "round": "Regular Fixture",
-        "group": null,
-        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
-      },
-      "round": "Regular Fixture",
-      "source_date": "2026-11-27",
-      "match_date": "2026-11-27",
-      "match_date_utc": "2026-11-27",
-      "match_date_pkt": "2026-11-28",
-      "start_time_utc": "2026-11-27T19:00:00Z",
-      "start_time_pkt": "2026-11-28T00:00:00+05:00",
-      "start_timestamp": 1795806000,
-      "display_date": "2026-11-28",
-      "display_time": "12:00 AM",
-      "display_timezone": "Asia/Karachi",
-      "time_status": "confirmed",
-      "home_team": {
-        "name": "FC Groningen",
-        "slug": "fc-groningen",
-        "espn_id": "145",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/145.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "FC Groningen",
-          "is_fallback": false
-        }
-      },
-      "away_team": {
-        "name": "Willem II",
-        "slug": "willem-ii",
-        "espn_id": "156",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/156.png",
-        "logo_resolution": {
-          "source": "espn_direct",
-          "confidence": 1.0,
-          "matched_name": "Willem II",
-          "is_fallback": false
-        }
-      },
-      "data_source": {
-        "provider": "ESPN",
-        "season": "2026-27",
-        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
-        "priority_applied": false
-      },
-      "last_updated": "2026-11-27T02:00:51.955938+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-27-1900-fc-groningen-willem-ii.png"
-    },
-    {
-      "event_id": "eredivisie-2026-11-28-1530-excelsior-telstar",
-      "event_name": "Telstar at Excelsior",
+      "event_id": "eredivisie-2026-11-28-2000-sc-cambuur-sparta-rotterdam",
+      "event_name": "Sparta Rotterdam at SC Cambuur",
       "competition": {
         "id": "eredivisie",
         "name": "Dutch Eredivisie",
@@ -84,35 +28,35 @@
       "source_date": "2026-11-28",
       "match_date": "2026-11-28",
       "match_date_utc": "2026-11-28",
-      "match_date_pkt": "2026-11-28",
-      "start_time_utc": "2026-11-28T15:30:00Z",
-      "start_time_pkt": "2026-11-28T20:30:00+05:00",
-      "start_timestamp": 1795879800,
-      "display_date": "2026-11-28",
-      "display_time": "08:30 PM",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-28T20:00:00Z",
+      "start_time_pkt": "2026-11-29T01:00:00+05:00",
+      "start_timestamp": 1795896000,
+      "display_date": "2026-11-29",
+      "display_time": "01:00 AM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "Excelsior",
-        "slug": "excelsior",
-        "espn_id": "2566",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2566.png",
+        "name": "SC Cambuur",
+        "slug": "sc-cambuur",
+        "espn_id": "3736",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Excelsior",
+          "matched_name": "SC Cambuur",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Telstar",
-        "slug": "telstar",
-        "espn_id": "3735",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3735.png",
+        "name": "Sparta Rotterdam",
+        "slug": "sparta-rotterdam",
+        "espn_id": "151",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/151.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Telstar",
+          "matched_name": "Sparta Rotterdam",
           "is_fallback": false
         }
       },
@@ -122,12 +66,12 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-27T02:00:51.955938+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-28-1530-excelsior-telstar.png"
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-28-2000-sc-cambuur-sparta-rotterdam.png"
     },
     {
-      "event_id": "eredivisie-2026-11-28-1745-psv-eindhoven-go-ahead-eagles",
-      "event_name": "Go Ahead Eagles at PSV Eindhoven",
+      "event_id": "eredivisie-2026-11-29-1115-ado-den-haag-fc-utrecht",
+      "event_name": "FC Utrecht at ADO Den Haag",
       "competition": {
         "id": "eredivisie",
         "name": "Dutch Eredivisie",
@@ -137,38 +81,38 @@
         "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
       },
       "round": "Regular Fixture",
-      "source_date": "2026-11-28",
-      "match_date": "2026-11-28",
-      "match_date_utc": "2026-11-28",
-      "match_date_pkt": "2026-11-28",
-      "start_time_utc": "2026-11-28T17:45:00Z",
-      "start_time_pkt": "2026-11-28T22:45:00+05:00",
-      "start_timestamp": 1795887900,
-      "display_date": "2026-11-28",
-      "display_time": "10:45 PM",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T11:15:00Z",
+      "start_time_pkt": "2026-11-29T16:15:00+05:00",
+      "start_timestamp": 1795950900,
+      "display_date": "2026-11-29",
+      "display_time": "04:15 PM",
       "display_timezone": "Asia/Karachi",
       "time_status": "confirmed",
       "home_team": {
-        "name": "PSV Eindhoven",
-        "slug": "psv-eindhoven",
-        "espn_id": "148",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+        "name": "ADO Den Haag",
+        "slug": "ado-den-haag",
+        "espn_id": "2726",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2726.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "PSV Eindhoven",
+          "matched_name": "ADO Den Haag",
           "is_fallback": false
         }
       },
       "away_team": {
-        "name": "Go Ahead Eagles",
-        "slug": "go-ahead-eagles",
-        "espn_id": "3706",
-        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3706.png",
+        "name": "FC Utrecht",
+        "slug": "fc-utrecht",
+        "espn_id": "153",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/153.png",
         "logo_resolution": {
           "source": "espn_direct",
           "confidence": 1.0,
-          "matched_name": "Go Ahead Eagles",
+          "matched_name": "FC Utrecht",
           "is_fallback": false
         }
       },
@@ -178,8 +122,176 @@
         "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
         "priority_applied": false
       },
-      "last_updated": "2026-11-27T02:00:51.955938+00:00",
-      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-28-1745-psv-eindhoven-go-ahead-eagles.png"
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-29-1115-ado-den-haag-fc-utrecht.png"
+    },
+    {
+      "event_id": "eredivisie-2026-11-29-1330-feyenoord-rotterdam-ajax-amsterdam",
+      "event_name": "Ajax Amsterdam at Feyenoord Rotterdam",
+      "competition": {
+        "id": "eredivisie",
+        "name": "Dutch Eredivisie",
+        "country": "Netherlands",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T13:30:00Z",
+      "start_time_pkt": "2026-11-29T18:30:00+05:00",
+      "start_timestamp": 1795959000,
+      "display_date": "2026-11-29",
+      "display_time": "06:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Feyenoord Rotterdam",
+        "slug": "feyenoord-rotterdam",
+        "espn_id": "142",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Feyenoord Rotterdam",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Ajax Amsterdam",
+        "slug": "ajax-amsterdam",
+        "espn_id": "139",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Ajax Amsterdam",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-29-1330-feyenoord-rotterdam-ajax-amsterdam.png"
+    },
+    {
+      "event_id": "eredivisie-2026-11-29-1330-fortuna-sittard-heerenveen",
+      "event_name": "Heerenveen at Fortuna Sittard",
+      "competition": {
+        "id": "eredivisie",
+        "name": "Dutch Eredivisie",
+        "country": "Netherlands",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T13:30:00Z",
+      "start_time_pkt": "2026-11-29T18:30:00+05:00",
+      "start_timestamp": 1795959000,
+      "display_date": "2026-11-29",
+      "display_time": "06:30 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Fortuna Sittard",
+        "slug": "fortuna-sittard",
+        "espn_id": "143",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/143.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Fortuna Sittard",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Heerenveen",
+        "slug": "heerenveen",
+        "espn_id": "146",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/146.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Heerenveen",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-29-1330-fortuna-sittard-heerenveen.png"
+    },
+    {
+      "event_id": "eredivisie-2026-11-29-1545-pec-zwolle-az-alkmaar",
+      "event_name": "AZ Alkmaar at PEC Zwolle",
+      "competition": {
+        "id": "eredivisie",
+        "name": "Dutch Eredivisie",
+        "country": "Netherlands",
+        "round": "Regular Fixture",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png"
+      },
+      "round": "Regular Fixture",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T15:45:00Z",
+      "start_time_pkt": "2026-11-29T20:45:00+05:00",
+      "start_timestamp": 1795967100,
+      "display_date": "2026-11-29",
+      "display_time": "08:45 PM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "PEC Zwolle",
+        "slug": "pec-zwolle",
+        "espn_id": "2565",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2565.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "PEC Zwolle",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "AZ Alkmaar",
+        "slug": "az-alkmaar",
+        "espn_id": "140",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "AZ Alkmaar",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/eredivisie-2026-11-29-1545-pec-zwolle-az-alkmaar.png"
     }
   ]
 }

@@ -7,10 +7,67 @@
   },
   "timezone": "Asia/Karachi",
   "timezone_label": "PKT (UTC+05:00)",
-  "generated_at": "2026-11-27T02:03:03.195460+00:00",
+  "generated_at": "2026-11-28T01:47:10.112023+00:00",
   "feed_type": "tomorrow",
-  "target_date_pkt": "2026-11-28",
-  "target_day_name": "Saturday",
-  "total_events": 0,
-  "events": []
+  "target_date_pkt": "2026-11-29",
+  "target_day_name": "Sunday",
+  "total_events": 1,
+  "events": [
+    {
+      "event_id": "liga-de-expansion-mx-2026-11-29-0300-club-atletico-la-paz-club-atletico-morelia",
+      "event_name": "Club Atlético Morelia at Club Atlético La Paz",
+      "competition": {
+        "id": "liga-de-expansion-mx",
+        "name": "Liga de Expansión MX",
+        "country": "Mexico",
+        "round": "2nd Leg - Club Atlético Morelia lead 4-1 on aggregate",
+        "group": null,
+        "logo_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2306.png"
+      },
+      "round": "2nd Leg - Club Atlético Morelia lead 4-1 on aggregate",
+      "source_date": "2026-11-29",
+      "match_date": "2026-11-29",
+      "match_date_utc": "2026-11-29",
+      "match_date_pkt": "2026-11-29",
+      "start_time_utc": "2026-11-29T03:00:00Z",
+      "start_time_pkt": "2026-11-29T08:00:00+05:00",
+      "start_timestamp": 1795921200,
+      "display_date": "2026-11-29",
+      "display_time": "08:00 AM",
+      "display_timezone": "Asia/Karachi",
+      "time_status": "confirmed",
+      "home_team": {
+        "name": "Club Atlético La Paz",
+        "slug": "club-atletico-la-paz",
+        "espn_id": "21533",
+        "logo_url": "https://a.espncdn.com/guid/c6a0e36d-c3f5-3f04-93d8-1436cb1f6e9c/logos/default.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Club Atlético La Paz",
+          "is_fallback": false
+        }
+      },
+      "away_team": {
+        "name": "Club Atlético Morelia",
+        "slug": "club-atletico-morelia",
+        "espn_id": "221",
+        "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/221.png",
+        "logo_resolution": {
+          "source": "espn_direct",
+          "confidence": 1.0,
+          "matched_name": "Club Atlético Morelia",
+          "is_fallback": false
+        }
+      },
+      "data_source": {
+        "provider": "ESPN",
+        "season": "2026-27",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.2/scoreboard",
+        "priority_applied": false
+      },
+      "last_updated": "2026-11-28T01:44:57.058694+00:00",
+      "event_image_url": "https://raw.githubusercontent.com/hashirhamxa/football-data-hash/main/output/images/liga-de-expansion-mx-2026-11-29-0300-club-atletico-la-paz-club-atletico-morelia.png"
+    }
+  ]
 }
